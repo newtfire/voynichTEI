@@ -17,7 +17,7 @@ voynichTEI/
 │   └── encodingChange.py
 ├── transliterationFiles
 │   ├── RF1b-e/
-│   ├── ZL3b-n/
+│   └── ZL3b-n/
 ├── README.md
 └── voynichMS.xml
 ```
