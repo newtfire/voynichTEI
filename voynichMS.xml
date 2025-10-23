@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Voynich Manuscript</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Unknown</publisher>
+                <pubPlace>[Central Europe?];[ca. 1401-1599?]</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="quire" n="1">
+                <div type="folio" n="1">
+                    <div type="page" n="1" xml:id="f1r">
+                        
+                        <note>text only</note>
+                        <note>Currier's Language A, hand 1</note>
+                        <note>There is a key-like sequence in the right margin apparently added after the main text was written. Unclear in Petersen copies, but seems to be the roman alphabet. It starts at the end of the second line and it is not well aligned with the rest of the lines: a,b,c,d,e,f,g,h,i, (j is missing) k, (l,m,n are not readable),o,p,q,r</note>
+                        <note>There is non-Voynich text at bottom of folio: the signature of Jacobus de Tepenecz</note>
+                        <note>At the end of the paragraphs there are further words (right justified) as if they were the name of the author in a quotation.</note>
+                        
+                        <note>Next to the end of the 1st line there is a thick non-Voynich symbol resembling an underlined 29 (commented as þ )</note>
+                        <note>The 2nd and 3rd paragraphs start with thick non-Voynich symbols.</note>
+                        
+                        <div type="section">
+                            <p n="1">fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy<note type="comment">þ</note></p>
+                            <p n="2">sory.ckhar.or,y.kair.chtaiin.shar.ase.cthar.cthar,dan</p>
+                            <p n="3">syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sy</p>
+                            <p n="4">soiin.oteey.oteo[s:r],roloty.cthiar,daiin.okaiin.or.okan</p>
+                            <p n="5">sair,y.chear.cthaiin.cphar.cfhaiin</p>
+                            <p n="6">ydaraishy</p>
+                        </div>
+                        <div type="section">
+                            <p n="7"><note type="comment">ü</note>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary</p>
+                            <p n="8">yshey.shody.okchoy.otchol.chocthy.os,chy.dain.chor.kos</p>
+                            <p n="9">daiin.shos.cfhol.shody</p>
+                            <p n="10">dain.os.teody</p>
+                        </div>
+                        <div type="section">
+                            <p n="11"><note type="comment">ý</note>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es</p>
+                            <p n="12">oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin</p>
+                            <p n="13">shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.sho.oldain.d</p>
+                            <p n="14">dain.oiin.chol.odaiin.chodain.chdy.ok[a:o]in.d?n.cthy.kod</p>
+                            <p n="15">daiin.shckhey.{ck}eo.r.char.shey.kol.chol.chol.kor.chal</p>
+                            <p n="16">sho.chol.shodan.kshy.kchy.d.or.chodaiin.sho.koeam</p>
+                            <p n="17">ycho.tchey.chekain.sheo,pshol.dydyd.cthy.dai[{cto}:Â]y</p>
+                            <p n="18">yto.shol.she.kodshey.cphealy.dar,ain.dain.ckhyds</p>
+                            <p n="19">dchar.shcthaiin.okaiir.chey.Àchy.‚tol.cthols.dlo{ct}o</p>
+                            <p n="20">shok.chor.chey.dain.ckhey</p>
+                            <p n="21">otol.daiiin</p>
+                        </div>
+                        <div type="section">
+                            <p n="22">cpho.shaiin.shokcheey.chol.tshodeesy.shey.pydeey.cha.ro,dar</p>
+                            <p n="23">ydoin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar</p>
+                            <p n="24">cho.?o.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar</p>
+                            <p n="25">ycheey.okeey.oky.daiin.okchey.kokaiin.o?chol.k?dchy.dal</p>
+                            <p n="26">dcheo.shody.koshey.cthy.ok,chey.keey.keey,dal.chtor</p>
+                            <p n="27">?eo?.chol.chok.choty.chotey</p>
+                            <p n="28">dchaiin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
