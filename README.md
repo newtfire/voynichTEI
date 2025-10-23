@@ -17,48 +17,66 @@ voynichTEI/
 │   └── encodingChange.py
 ├── transliterationFiles
 │   ├── RF1b-e/
-│   ├── ZL3b-n/
-└── README.md
+│   └── ZL3b-n/
+├── README.md
+└── voynichMS.xml
 ```
 
 ---
 ## Layout of the Manuscript
+* Quire 1
 
-### Quire 1
 ![https://www.voynich.nu/q01/schema01.gif](https://www.voynich.nu/q01/schema01.gif)
-### Quire 2
+* Quire 2
+
 ![https://www.voynich.nu/q02/schema02.gif](https://www.voynich.nu/q02/schema02.gif)
-### Quire 3
+* Quire 3
+
 ![https://www.voynich.nu/q03/schema03.gif](https://www.voynich.nu/q03/schema03.gif)
-### Quire 4
+* Quire 4
+
 ![https://www.voynich.nu/q04/schema04.gif](https://www.voynich.nu/q04/schema04.gif)
-### Quire 5
+* Quire 5
+
 ![https://www.voynich.nu/q05/schema05.gif](https://www.voynich.nu/q05/schema05.gif)
-### Quire 6
+* Quire 6
+
 ![https://www.voynich.nu/q06/schema06.gif](https://www.voynich.nu/q06/schema06.gif)
-### Quire 7
+* Quire 7
+
 ![https://www.voynich.nu/q07/schema07.gif](https://www.voynich.nu/q07/schema07.gif)
-### Quire 8
+* Quire 8
+
 ![https://www.voynich.nu/q08/schema08.gif](https://www.voynich.nu/q08/schema08.gif)
-### Quire 9
+* Quire 9
+
 ![https://www.voynich.nu/q09/schema09.gif](https://www.voynich.nu/q09/schema09.gif)
-### Quire 10
+* Quire 10
+
 ![https://www.voynich.nu/q10/schema10.gif](https://www.voynich.nu/q10/schema10.gif)
-### Quire 11
+* Quire 11
+
 ![https://www.voynich.nu/q11/schema11.gif](https://www.voynich.nu/q11/schema11.gif)
-### Quire 12
+* Quire 12
+
 ![https://www.voynich.nu/q12/schema12.gif](https://www.voynich.nu/q12/schema12.gif)
-### Quire 13
+* Quire 13
+
 ![https://www.voynich.nu/q13/schema13.gif](https://www.voynich.nu/q13/schema13.gif)
-### Quire 14
+* Quire 14
+
 ![https://www.voynich.nu/q14/schema14.gif](https://www.voynich.nu/q14/schema14.gif)
-### Quire 15
+* Quire 15
+
 ![https://www.voynich.nu/q15/schema15.gif](https://www.voynich.nu/q15/schema15.gif)
-### Quire 17
+* Quire 17
+
 ![https://www.voynich.nu/q17/schema17.gif](https://www.voynich.nu/q17/schema17.gif)
-### Quire 19
+* Quire 19
+
 ![https://www.voynich.nu/q19/schema19.gif](https://www.voynich.nu/q19/schema19.gif)
-### Quire 20
+* Quire 20
+
 ![https://www.voynich.nu/q20/schema20.gif](https://www.voynich.nu/q20/schema20.gif)
 
 ---
@@ -81,13 +99,13 @@ voynichTEI/
 ## 🔗 References
 
 * Beinecke Library high-res images of the Voynich manuscript
-* * [https://collections.library.yale.edu/catalog/2002046](https://collections.library.yale.edu/catalog/2002046)
+  * [https://collections.library.yale.edu/catalog/2002046](https://collections.library.yale.edu/catalog/2002046)
 * Transliteration files directory
-* * [https://www.voynich.nu/data/](https://www.voynich.nu/data/)
+  * [https://www.voynich.nu/data/](https://www.voynich.nu/data/)
 * Layout of the Manuscript images
-* * [https://www.voynich.nu/layout.html](https://www.voynich.nu/layout.html)
+  * [https://www.voynich.nu/layout.html](https://www.voynich.nu/layout.html)
 * Voynich Manuscript Website
-* * [https://www.voynich.nu/](https://www.voynich.nu/)
+  * [https://www.voynich.nu/](https://www.voynich.nu/)
 
 
 
