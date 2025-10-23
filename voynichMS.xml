@@ -12,10 +12,38 @@
                 <pubPlace>[Central Europe?];[ca. 1401-1599?]</pubPlace>
             </publicationStmt>
             <sourceDesc>
+                <!-- Need: 
+                    Origin probabilities?
+                    Encoding uncertanties
+                    <pb facs="#image#"> for pages cuz its start of page
+                    SOURCEDOC
+                    CHAPTER 11
+                    Multi-dimensional literature
+                    Ergodic Literature
+                    <zone> @rotate can it take a time?
+                    Instructions for EVA Font in Oxygen
+                    
+                    
+                
+                
+                -->
                 <msDesc>
                     <msIdentifier>
                         <repository>Beinecke Rare Book and Manuscript Library</repository>
                     </msIdentifier>
+                    <physDesc>
+                        <bindingDesc>
+                            <p><material>Goat</material> Skin</p>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>Unknown</p>
+                        </origin>
+                        <provenance>
+                            <p>Acquired the maniscropt in 1912 at the Villa Mondragone in Italy</p>
+                        </provenance>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
