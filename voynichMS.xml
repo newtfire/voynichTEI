@@ -32,7 +32,7 @@
                         <repository>Beinecke Rare Book and Manuscript Library</repository>
                     </msIdentifier>
                     <physDesc>
-                        <handDesc hands="5">
+                        <handDesc hands="5"> <!-- https://muse.jhu.edu/pub/56/article/754633/pdf -->
                             <handNote xml:id="scribe1">
                                 <p>The [h] character in Scribe 1 is distinguished by a sharp angle at the top of the first vertical as the quill changes direction, a bowed crossbar, a round loop, and a very slight foot at the base of the second vertical. The word-end [m] and [n] glyphs conclude with a backward flourish that stretches as far as the penultimate minim.</p>
                             </handNote>
