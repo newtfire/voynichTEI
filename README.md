@@ -23,6 +23,17 @@ voynichTEI/
 ```
 
 ---
+## EVA Font in Oxygen
+1. ![img/evafontoxygen1.png](img/evafontoxygen1.png)
+1. ![img/evafontoxygen2.png](img/evafontoxygen2.png)
+1. ![img/evafontoxygen3.png](img/evafontoxygen3.png)
+1. ![img/evafontoxygen4.png](img/evafontoxygen4.png)
+1. ![img/evafontoxygen5.png](img/evafontoxygen5.png)
+1. ![img/evafontoxygen6.png](img/evafontoxygen6.png)
+1. ![img/evafontoxygen7.png](img/evafontoxygen7.png)
+1. ![img/evafontoxygen8.png](img/evafontoxygen8.png)
+
+---
 ## Layout of the Manuscript
 * Quire 1
 
