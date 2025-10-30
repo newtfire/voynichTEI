@@ -37,11 +37,32 @@
                         </bindingDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <p>Unknown</p>
+                        <origin notBefore="1404" notAfter="1438"> <!-- https://www.voynich.nu/extra/carbon.html -->
+                            <p>The origins of this manuscript are unknown, but it has been carbon dated to have been made sometime between <date notBefore="1404" notAfter="1438">1404 and 1438</date>.</p>
                         </origin>
+                        <provenance> <!-- https://www.voynich.nu/curricula.html -->
+                            <p>Any history between <date notBefore="1404" notAfter="1576">1404 and 1576</date> is missing and unknown.</p>
+                        </provenance>
                         <provenance>
-                            <p>Acquired the maniscropt in 1912 at the Villa Mondragone in Italy</p>
+                            <p>Owned by Rudolph II of Habsburg during his reign in Prague from <date notBefore="1576" notAfter="1611">1576 to 1611</date>. In <date when="1599">1599</date>, Karl Widemann sold Rudolph II several books, one of which was likely the Voynich Manuscript, but this is not confirmed..</p>
+                        </provenance>
+                        <provenance>
+                            <p>Jacobus Horcicky de Tepenecz owned the manuscript in <date when="1622">1622</date>. This is noted in an inscription on folio 1r which reads <q>Jacobi de Tepenecz</q> under uv light. The manuscript was likely owned by someone else and given to him as a part of his inheritance.</p>
+                        </provenance>
+                        <provenance>
+                            <p>Owned by Georgius Barschius potentially sometime between <date notBefore="1627" notAfter="1637">1627 and 1637</date>.</p>
+                        </provenance>
+                        <provenance>
+                            <p>Johannes Marcus Marci of Kronland was gifted Barschius' alchemical library in <date when="1677">1677</date>, which included the Voynich Manuscript.</p>
+                        </provenance>
+                        <provenance>
+                            <p>Wilfred M. Voynich acquired the manuscript in <date when="1912">1912</date> at the Villa Mondragone in Italy</p>
+                        </provenance>
+                        <provenance>
+                            <p>H. P. Kraus purchases the manuscript from Ethel Voynich, Wilfrid Voynich's widow.</p>
+                        </provenance>
+                        <provenance>
+                            <p>Given to the Beinecke Library by H. P. Kraus</p>
                         </provenance>
                     </history>
                 </msDesc>
