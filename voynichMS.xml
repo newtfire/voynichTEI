@@ -32,6 +32,23 @@
                         <repository>Beinecke Rare Book and Manuscript Library</repository>
                     </msIdentifier>
                     <physDesc>
+                        <handDesc hands="5">
+                            <handNote xml:id="scribe1">
+                                <p>The [h] character in Scribe 1 is distinguished by a sharp angle at the top of the first vertical as the quill changes direction, a bowed crossbar, a round loop, and a very slight foot at the base of the second vertical. The word-end [m] and [n] glyphs conclude with a backward flourish that stretches as far as the penultimate minim.</p>
+                            </handNote>
+                            <handNote xml:id="scribe2">
+                                <p>more cramped than Scribe 1, with a slightly slanted character. This scribe uses a horizontal, straight crossbar, an oval loop, and an upwardly angled final tick. The final backstroke of [m] and [n] is short, barely passing the final minim.</p>
+                            </handNote>
+                            <handNote xml:id="scribe3">
+                                <p>The [h] written by Scribe 3 is similar to that of Scribe 1, although slightly more compact. The final stroke of [m] and [n] curves back on itself, nearly touching the top of the final minim.</p>
+                            </handNote>
+                            <handNote xml:id="scribe4">
+                                <p>The [h] written by Scribe 4 has a perpendicular crossbar, an oversize loop, and a prominent final foot. The final stroke of [m] and [n] is tall, with only a slight curvature.</p>
+                            </handNote>
+                            <handNote xml:id="scribe5">
+                                <p>the [h] is tall and narrow, with a bowed cross-stroke that begins at the top of the vertical, and a minuscule tick at the foot of the second vertical. The [m] has a long, low finial that finishes above the penultimate minim</p>
+                            </handNote>
+                        </handDesc>
                         <bindingDesc>
                             <p><material>Goat</material> Skin</p>
                         </bindingDesc>
@@ -58,7 +75,7 @@
                         <provenance>
                             <p>Wilfred M. Voynich acquired the manuscript in <date when="1912">1912</date> at the Villa Mondragone in Italy</p>
                         </provenance>
-                        <provenance>
+                        <provenance> <!-- https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript -->
                             <p>H. P. Kraus purchases the manuscript from Ethel Voynich, Wilfrid Voynich's widow.</p>
                         </provenance>
                         <provenance>
@@ -68,6 +85,12 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="A">Language A</language>
+                <language ident="B">Language B</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
