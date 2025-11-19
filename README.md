@@ -24,22 +24,26 @@ voynichTEI/
 
 ---
 ## EVA Font in Oxygen
-1. Go to the repo and grab the Eva Font file
+1. Go to the repo and grab the `eva1.tff` file and the `evaFontCSS.css` file
    * ![img/evafontoxygen1.png](img/evafontoxygen1.png)
-1. Download the RAW file
+1. Download the RAW file for both and put them in the same repo (Or simply clone the repo)
    * ![img/evafontoxygen2.png](img/evafontoxygen2.png)
-1. Click install
+1. Click on the `eva1.tff` file and click `Install`
    * ![img/evafontoxygen3.png](img/evafontoxygen3.png)
-1. Go to Options > Preferences
+1. Go to Oxygen and go to Options -> Preferences
    * ![img/evafontoxygen4.png](img/evafontoxygen4.png)
-1. Look up "Fonts" and click "Choose" next to the Author font
+1. Look up `Document Type Association` and double click `TEI P5` under `Document Type`. Make sure it is enabled as well
    * ![img/evafontoxygen5.png](img/evafontoxygen5.png)
-1. Choose "EVA Hand 1" from your font library and click "OK"
+1. This step creates a new document type. Name it whatever you want. Then, go to the plus sign and click it
    * ![img/evafontoxygen6.png](img/evafontoxygen6.png)
-1. Click "Apply"
+1. Look for the `evaFontCSS.css` file in your documents. Title it whatever you'd like. Then click `OK`
    * ![img/evafontoxygen7.png](img/evafontoxygen7.png)
-1. You're done!
+1. Click `OK`
    * ![img/evafontoxygen8.png](img/evafontoxygen8.png)
+1. Click `Apply` and then `OK`
+   * ![img/evafontoxygen9.png](img/evafontoxygen9.png)
+1. You're done! Your Author Mode should now look like this, with everything within the `<line>` element now being in Voynichese and everything else in English!
+   * ![img/evafontoxygen10.png](img/evafontoxygen10.png)
 
 ---
 ## Layout of the Manuscript
