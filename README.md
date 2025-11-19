@@ -32,7 +32,7 @@ voynichTEI/
    * ![img/evafontoxygen3.png](img/evafontoxygen3.png)
 1. Go to Options > Preferences
    * ![img/evafontoxygen4.png](img/evafontoxygen4.png)
-1. Look up "Fonts" and click "Choose" next to the Editor font
+1. Look up "Fonts" and click "Choose" next to the Author font
    * ![img/evafontoxygen5.png](img/evafontoxygen5.png)
 1. Choose "EVA Hand 1" from your font library and click "OK"
    * ![img/evafontoxygen6.png](img/evafontoxygen6.png)
