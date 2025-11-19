@@ -42,6 +42,8 @@ voynichTEI/
    * ![img/evafontoxygen8.png](img/evafontoxygen8.png)
 1. Click `Apply` and then `OK`
    * ![img/evafontoxygen9.png](img/evafontoxygen9.png)
+1. Add `<?xml-stylesheet type="text/css" href="evaFontCSS.css"?>` to the top portion of your document like so
+   * ![img/evafontoxygen11.png](img/evafontoxygen11.png)
 1. You're done! Your Author Mode should now look like this, with everything within the `<line>` element now being in Voynichese and everything else in English!
    * ![img/evafontoxygen10.png](img/evafontoxygen10.png)
 
