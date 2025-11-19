@@ -10,10 +10,9 @@ line {
   line-height: 1.2;
   display: block !important;
   visibility: visible !important;
-  padding-left: 1em; /* optional indentation */
+  padding-left: 1em;
 }
 
-/* Also make sure <zone> and <surface> do not hide content */
 zone, surface {
     display: block !important;
     visibility: visible !important;
