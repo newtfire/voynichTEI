@@ -1,0 +1,24 @@
+@namespace tei "http://www.tei-c.org/ns/1.0";
+@font-face {
+  font-family: "EVA";
+  src: url("eva1.ttf");
+}
+
+line {
+  font-family: "EVA", serif;
+  font-size: 8pt;
+  line-height: 1.2;
+  display: block !important;
+  visibility: visible !important;
+  padding-left: 1em; /* optional indentation */
+}
+
+/* Also make sure <zone> and <surface> do not hide content */
+zone, surface {
+    display: block !important;
+    visibility: visible !important;
+}
+
+surface {
+    border-style: solid;
+}

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="voynich-author.css"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -192,20 +193,20 @@
                     <!-- Same plant as f102r1[3,2] (Petersen, Stolfi) -->
                     <!-- Two paragraphs of text, plant cutting through middle -->
                     <zone>
-                        <line><zone>kchsy.chydaiin.ol<figure/>o,l,tchey.char.cfhar,am</zone></line>
-                        <line><zone>yteey.char.or.ochy<figure/>dcho.lkody.okodar.chody</zone></line>
-                        <line><zone>da,ckhy.ckhockhy.shy<figure/>dksheey.cthy.kotchody.dal</zone></line>
-                        <line><zone>dol.chokeo.dair.dam<figure/>sochey.chokody</zone></line>
+                        <line>kchsy.chydaiin.ol<figure/>o,l,tchey.char.cfhar,am</line>
+                        <line>yteey.char.or.ochy<figure/>dcho.lkody.okodar.chody</line>
+                        <line>da,ckhy.ckhockhy.shy<figure/>dksheey.cthy.kotchody.dal</line>
+                        <line>dol.chokeo.dair.dam<figure/>sochey.chokody</line>
                     </zone>
                     <zone>
-                        <line><zone>potoy.shol.dair.cphoal<figure/>dar.chey.tody.otoaiin.shoshy</zone></line>
-                        <line><zone>choky.chol.ctho,l,shol.okal<figure/>dolchey.chodo.lol.chy.cthy</zone></line>
-                        <line><zone>qo<note type="comment">bar over
+                        <line>potoy.shol.dair.cphoal<figure/>dar.chey.tody.otoaiin.shoshy</line>
+                        <line>choky.chol.ctho,l,shol.okal<figure/>dolchey.chodo.lol.chy.cthy</line>
+                        <line>qo<note type="comment">bar over
                                     o</note>.ol,choees.cheol.dol.cthey<figure/>ykol.dol.dolo.ykol.do,lchiody<note
-                                    type="comment">corr?</note></zone></line>
-                        <line><zone>okolshol.kol,kechy.chol.ky<figure/>chol.cthol.chody.chol.daiin</zone></line>
-                        <line><zone>shor.okol.chol.dol,ky.dar<figure/>shol.dchor.o,tcho.dar.[sh:{Ñh}]ody</zone></line>
-                        <line><zone>taor.chotchey.dal.chody<figure/>schody.pol.chodar</zone></line>
+                                    type="comment">corr?</note></line>
+                        <line>okolshol.kol,kechy.chol.ky<figure/>chol.cthol.chody.chol.daiin</line>
+                        <line>shor.okol.chol.dol,ky.dar<figure/>shol.dchor.o,tcho.dar.[sh:{Ñh}]ody</line>
+                        <line>taor.chotchey.dal.chody<figure/>schody.pol.chodar</line>
                     </zone>
                 </surface>
             </surfaceGrp>
