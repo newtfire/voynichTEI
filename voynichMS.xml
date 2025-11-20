@@ -15,8 +15,6 @@
                 <!-- Need: 
                     Origin probabilities?
                     Encoding uncertanties
-                    <pb facs="#image#"> for pages cuz its start of page
-                    SOURCEDOC
                     CHAPTER 11
                     Multi-dimensional literature
                     Ergodic Literature
@@ -135,7 +133,8 @@
 
         <surfaceGrp n="1" type="quire" facs="imageScansVoynichMS/quireScan_pdf/quire_01.pdf">
             <surfaceGrp n="f1" type="leaf">
-                <surface n="1r" type="recto" facs="VoynichImages/1r.jpg">
+                <surface n="1r" type="recto">
+                    <pb facs="VoynichImages/1r.jpg"/>
                     <!-- text only -->
                     <!-- Currier's Language A, hand 1 -->
                     <!-- There is a key-like sequence in the right margin apparently added after the main text was written. Unclear in Petersen copies, but seems to be the roman alphabet. It starts at the end of the second line and it is not well aligned with the rest of the lines: a,b,c,d,e,f,g,h,i, (j is missing) k, (l,m,n are not readable),o,p,q,r -->
@@ -181,7 +180,8 @@
                         <line>dchaiin</line>
                     </zone>
                 </surface>
-                <surface n="1v" type="recto" facs="VoynichImages/1v.jpg">
+                <surface n="1v" type="recto">
+                    <pb facs="VoynichImages/1v.jpg"/>
                     <!-- page 2 -->
                     <!-- herbal -->
                     <!-- Currier's language A, hand 1 -->
@@ -199,8 +199,8 @@
                         <line>potoy.shol.dair.cphoal<figure/>dar.chey.tody.otoaiin.shoshy</line>
                         <line>choky.chol.ctho,l,shol.okal<figure/>dolchey.chodo.lol.chy.cthy</line>
                         <line>qo<note type="comment">bar over
-                                    o</note>.ol,choees.cheol.dol.cthey<figure/>ykol.dol.dolo.ykol.do,lchiody<note
-                                    type="comment">corr?</note></line>
+                                o</note>.ol,choees.cheol.dol.cthey<figure/>ykol.dol.dolo.ykol.do,lchiody<note
+                                type="comment">corr?</note></line>
                         <line>okolshol.kol,kechy.chol.ky<figure/>chol.cthol.chody.chol.daiin</line>
                         <line>shor.okol.chol.dol,ky.dar<figure/>shol.dchor.o,tcho.dar.[sh:{Ñh}]ody</line>
                         <line>taor.chotchey.dal.chody<figure/>schody.pol.chodar</line>
