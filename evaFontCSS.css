@@ -21,3 +21,7 @@ zone, surface {
 surface {
     border-style: solid;
 }
+
+figure {
+    display: inline;
+}
