@@ -24,8 +24,13 @@ surface {
 
 figure {
     display: inline;
+    font-family: Arial, sans-serif;
 }
 
 note {
     display: inline;
+}
+
+note[type="comment"] {
+    font-family: Arial, sans-serif;
 }

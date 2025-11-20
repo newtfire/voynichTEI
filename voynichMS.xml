@@ -145,8 +145,7 @@
                     <!-- Next to the end of the 1st line there is a thick non-Voynich symbol resembling an underlined 29 (commented as þ ) -->
                     <!-- The 2nd and 3rd paragraphs start with thick non-Voynich symbols. -->
                     <zone>
-                        <line>fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy<note
-                                type="comment">þ</note></line>
+                        <line>fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy<note>þ</note></line>
                         <line>sory.ckhar.or,y.kair.chtaiin.shar.ase.cthar.cthar,dan</line>
                         <line>syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sy</line>
                         <line>soiin.oteey.oteo[s:r],roloty.cthiar,daiin.okaiin.or.okan</line>
@@ -154,15 +153,13 @@
                         <line>ydaraishy</line>
                     </zone>
                     <zone>
-                        <line><note type="comment"
-                            >ü</note>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary</line>
+                        <line><note>ü</note>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary</line>
                         <line>yshey.shody.okchoy.otchol.chocthy.os,chy.dain.chor.kos</line>
                         <line>daiin.shos.cfhol.shody</line>
                         <line>dain.os.teody</line>
                     </zone>
                     <zone>
-                        <line><note type="comment"
-                            >ý</note>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es</line>
+                        <line><note>ý</note>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es</line>
                         <line>oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin</line>
                         <line>shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.sho.oldain.d</line>
                         <line>dain.oiin.chol.odaiin.chodain.chdy.ok[a:o]in.d?n.cthy.kod</line>
