@@ -34,7 +34,7 @@ voynichTEI/
    * ![img/evafontoxygen4.png](img/evafontoxygen4.png)
 1. Look up `Document Type Association` and double click `TEI P5` under `Document Type`. Make sure it is enabled as well
    * ![img/evafontoxygen5.png](img/evafontoxygen5.png)
-1. This step creates a new document type. Name it whatever you want. Then, go to the plus sign and click it
+1. This step creates a new document type. Name it whatever you want. Go to the Author Tab. Then, go to the plus sign and click it
    * ![img/evafontoxygen6.png](img/evafontoxygen6.png)
 1. Look for the `evaFontCSS.css` file in your documents. Title it whatever you'd like. Then click `OK`
    * ![img/evafontoxygen7.png](img/evafontoxygen7.png)
