@@ -3,29 +3,9 @@
 A TEI analysis of the Voynich Manuscript
 ---
 ---
-
-## 📂 Project Structure
-
-```
-voynichTEI/
-├── imageScansVoynichMS/
-│   ├── folioScan_jpg/
-│   ├── quireScan_pdf/
-│   └── voynichMS_FULL.pdf
-├── python/
-│   ├── asciiReplace.py
-│   └── encodingChange.py
-├── transliterationFiles
-│   ├── RF1b-e/
-│   └── ZL3b-n/
-├── README.md
-└── voynichMS.xml
-```
-
 ---
 ## EVA Font in Oxygen
-1. Go to the repo and grab the `eva1.tff` file and the `evaFontCSS.css` file
-   * ![img/evafontoxygen1.png](img/evafontoxygen1.png)
+1. Go to the repo and grab the `EVA2.tff` file and the `evaFontCSS.css` file
 1. Download the RAW file for both and put them in the same repo (Or simply clone the repo)
    * ![img/evafontoxygen2.png](img/evafontoxygen2.png)
 1. Click on the `eva1.tff` file and click `Install`

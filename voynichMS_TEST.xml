@@ -143,14 +143,13 @@
 			</langUsage>
 		</profileDesc>
 	</teiHeader>
-	<sourceDoc>
+	<facsimile>
 		<!-- #=IVTFF Eva- 2.0 M 5 -->
 		<!-- ZL transliteration file, updated from EVMT project -->
 		<!-- Version 3b of 13/05/2025 -->
 		<surfaceGrp n="1" type="quire" facs="imageScansVoynichMS/quireScan_pdf/quire_01.pdf">
 			<surface n="1r" type="recto">
 				<graphic url="VoynichImages/1r.jpg"/>
-				
 				<!-- $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V> -->
 				<label>PAGE 1</label>
 				<label>Text Only</label>
@@ -288,7 +287,7 @@
 				<!-- Currier's language A, hand 1 -->
 				<!-- Plant ID: crassulatea (Cretan Dittany) -->
 				<!-- 20 normal lines of text -->
-				<zone hand="#scribe1" xml:lang="A">
+				<zone ulx="353" uly="501" lrx="1340" lry="1352" hand="#scribe1" xml:lang="A">
 					<line n="1" rendition="#P0 #At">tsheos.qopal.chol.cthol.daimg</line>
 					<line n="2" rendition="#P0 #Ad">ycheor.chor.dam.qotcham.cham</line>
 					<line n="3" rendition="#P0 #Ad">ochor.qocheor.chol.daiin.cthy</line>
@@ -300,18 +299,18 @@
 					<line n="9" rendition="#P0 #Ad">sho.vor.sheoldam.otchody.ol</line>
 					<line n="10" rendition="#P0 #Ad">ydar.cholcthom</line>
 				</zone>
-				<zone hand="#scribe1" xml:lang="A">
+				<zone ulx="333" uly="1569" lrx="1600" lry="1960" hand="#scribe1" xml:lang="A">
 					<line n="11" rendition="#P0 #Ad">pcheol.shol.sols.sheol.shey</line>
 					<line n="12" rendition="#P0 #Ad">okadaiin.qokchor.qo,schodam.octhy</line>
 					<line n="13" rendition="#P0 #Ad">qokeey.qot,shey.qokody.qokshey.cheody</line>
 					<line n="14" rendition="#P0 #Ad">chor.qodair.okeey.qokeey</line>
 				</zone>
-				<zone hand="#scribe1" xml:lang="A">
+				<zone ulx="345" uly="1936" lrx="2228" lry="2205" hand="#scribe1" xml:lang="A">
 					<line n="15" rendition="#P0 #Ad">tsheoarom.shor.or.chor.olchsy.chom.otchom<figure/>oporar</line>
 					<line n="16" rendition="#P0 #Ad">oteol.chol.s.cheol.ekshy.qokeom.qokol.daiin<figure/>soleeg</line>
 					<line n="17" rendition="#P0 #Ad">soeom.okeom.yteody.qokeeodal.sam</line>
 				</zone>
-				<zone hand="#scribe1" xml:lang="A">
+				<zone ulx="304" uly="2208" lrx="2256" lry="2524" hand="#scribe1" xml:lang="A">
 					<line n="18" rendition="#P0 #Ad">pcheoldom.shodaiin.qopchor.qopol.opchol,qoty<figure/>otolom</line>
 					<line n="19" rendition="#P0 #Ad">otchor.ol,cheor.qoeor.dair.qoteol.qosaiin<figure/>chor.cthy</line>
 					<line n="20" rendition="#P0 #Ad">ycheor.chol.odaiin.chol.s.aiin.okol,or.am</line>
@@ -1762,14 +1761,14 @@
 					<!-- After this line the texts left and right of the rightmost plant are not well -->
 					<!-- aligned vertically. Their number is the same, but the ones on the right align -->
 					<!-- well with lines on the left one below the expected. -->
-					<line n="4" rendition="#P0 #Ad">ytedy.daiin.chey.aiin<figure/>shy.chckhy<!-- <~> -->oltchedy.otedy.dam.checthy</line>
+					<line n="4" rendition="#P0 #Ad">ytedy.daiin.chey.aiin<figure/>shy.chckhy<figure/>oltchedy.otedy.dam.checthy</line>
 				</zone>
 				<zone hand="#scribe2" xml:lang="B">
-					<line n="5" rendition="#P0 #Ad">qoteedy.shedy.shedy.ol<figure/>okes.ar<!-- <~> -->ykeed,l.chedy.otey.okaiin</line>
-					<line n="6" rendition="#P0 #Ad">oteol.chekey.chetey.oll<figure/>chesy<!-- <~> -->daiin.cheky.fas.aiir.a[m:d]g</line>
-					<line n="7" rendition="#P0 #Ad">qokedy.dal.chdy<figure/>olchy<figure/>ykch[y:?]<!-- <~> -->ykedy.qokchdy.s.as.oldam</line>
-					<line n="8" rendition="#P0 #Ad">{ch'}otchy.qoky<figure/>olk<figure/>checkhy<!-- <~> -->ys,air.air.chodar.ta[m:g]</line>
-					<line n="9" rendition="#P0 #Ad">ykchdy.qod<figure/>ar<figure/>ch{ct}<figure/>a[{ikh}:ckh]y<!-- <~> -->or.lchey.todaly.okaiin.dardy</line>
+					<line n="5" rendition="#P0 #Ad">qoteedy.shedy.shedy.ol<figure/>okes.ar<figure/>ykeed,l.chedy.otey.okaiin</line>
+					<line n="6" rendition="#P0 #Ad">oteol.chekey.chetey.oll<figure/>chesy<figure/>daiin.cheky.fas.aiir.a[m:d]g</line>
+					<line n="7" rendition="#P0 #Ad">qokedy.dal.chdy<figure/>olchy<figure/>ykch[y:?]<figure/>ykedy.qokchdy.s.as.oldam</line>
+					<line n="8" rendition="#P0 #Ad">{ch'}otchy.qoky<figure/>olk<figure/>checkhy<figure/>ys,air.air.chodar.ta[m:g]</line>
+					<line n="9" rendition="#P0 #Ad">ykchdy.qod<figure/>ar<figure/>ch{ct}<figure/>a[{ikh}:ckh]y<figure/>or.lchey.todaly.okaiin.dardy</line>
 				</zone>
 				<zone hand="#scribe2" xml:lang="B">
 					<line n="10" rendition="#P0 #Ad">tcheo.olchckhy.oly<figure/>otchdy.chefalchhs</line>
@@ -3013,20 +3012,20 @@
 				<!-- of characters. Outside outer ring one word (@L0) possibly -->
 				<!-- meaning 'start here'. Inside innermost ring 8 labels, -->
 				<!-- numbered cf. Petersen. -->
-					<zone xml:id="zone.ryc_bbq_khc" ulx="752" uly="536" lrx="900" lry="696" rotate="315" hand="#scribe2" xml:lang="B"><line n="1" rendition="#L0 #At">dairal</line></zone>
-					<zone xml:id="zone.nqk_y1q_khc" ulx="573" uly="260" lrx="2876" lry="2652" rotate="315" hand="#scribe2" xml:lang="B"><line n="2" rendition="#Cc #At">v.sal,y.soeos.vs.ar.okees.o.d.soefchees.l,g.sos.okey.defo.f.o.rkedam.sh.ofol.sar.ddal.yty.s.y.daiir.otey.dshdy.dkal[s:r].oty,pchchy.a.r.opaiin.dal.karody.v,r,okeey.daram.qokar.okal.okal.d.o.l.shkeal.dy,das.o.k.sher.s,aiin</line></zone>
-					<zone xml:id="zone.rkf_x1q_khc" ulx="772" uly="497" lrx="2708" lry="2432" rotate="315" hand="#scribe2" xml:lang="B"><line n="3" rendition="#Cc #Ad">o.l.[d:j].r.v.x.k.m.f.©v.t.r.ª.«.y.I.¬.o.l.d.r.v.x.k.m.f.©v.t.r.ª.«.y.c.¬.o.l.d.r.v.x.k.m.p.©v.t.r.ª.«.y.c.¬.o.l.d.r.v.x.k.m.p.©v.t.r.ª.«.y.c.¬</line></zone>
-					<zone xml:id="zone.spl_cbq_khc" ulx="948" uly="680" lrx="2516" lry="2252" rotate="300" hand="#scribe2" xml:lang="B"><line n="4" rendition="#Cc #Ad">daiin.otey.of[che:eee]y.shes.o.d.okeeod.l.o.lkeeol.dkedar.yf.aros.s.y.chedaiin.k.eeety.x.deeodal.vo.tchor.{ch'}.kedar.dal.¬.daiin.aiin.otal.daro.v</line></zone>
-					<zone xml:id="zone.ngc_dbq_khc" ulx="1128" uly="856" lrx="2336" lry="2072" rotate="300" hand="#scribe2" xml:lang="B"><line n="5" rendition="#Cc #Ad">o.[v:a].l.r.m.aiin.d.ª.c.f.[s:r].y.l.k.x.l.r.«,ar.o.r.[a:?].t.l.[s:r].d.y.dar.teodar.otodal.sheky.oteeody.x.[s:r].l</line></zone>
-					<zone xml:id="zone.w41_gbq_khc" ulx="2018" uly="1110" lrx="2186" lry="1324" hand="#scribe2" xml:lang="B"><line n="6" rendition="#L0 #At">otodara[g:m]</line></zone>
-					<zone xml:id="zone.rsm_hbq_khc" ulx="1892" uly="1693" lrx="2145" lry="1900" hand="#scribe2" xml:lang="B"><line n="7" rendition="#L0 #At">oparairdly</line></zone>
-					<zone xml:id="zone.hm2_3bq_khc" ulx="1429" uly="1725" lrx="1624" lry="1852" hand="#scribe2" xml:lang="B"><line n="8" rendition="#L0 #At">olkeedal</line></zone>
-					<zone xml:id="zone.hjy_2bq_khc" ulx="1432" uly="1326" lrx="1586" lry="1564" hand="#scribe2" xml:lang="B"><line n="9" rendition="#L0 #At">otardaly</line></zone>
-					<zone xml:id="zone.nw4_2bq_khc" ulx="1569" uly="1223" lrx="1698" lry="1374" hand="#scribe2" xml:lang="B"><line n="10" rendition="#Ro #At">ark[a:o]ldy</line></zone>
-					<zone xml:id="zone.uxj_fbq_khc" ulx="1828" uly="1249" lrx="2027" lry="1404" hand="#scribe2" xml:lang="B"><line n="11" rendition="#Ro #At">ara?arar</line></zone>
-					<zone xml:id="zone.p2d_hbq_khc" ulx="1801" uly="1515" lrx="1892" lry="1648" hand="#scribe2" xml:lang="B"><line n="12" rendition="#Ro #At">okeely</line></zone>
-					<zone xml:id="zone.um4_jbq_khc" ulx="1446" uly="1512" lrx="1686" lry="1708" hand="#scribe2" xml:lang="B"><line n="13" rendition="#Ro #At">ocfhor,okear</line></zone>
-					<zone xml:id="zone.mrl_kbq_khc" ulx="2371" uly="3271" lrx="2658" lry="3446" hand="#scribe2" xml:lang="B"><line n="14">ÿ</line></zone>
+				<zone points="744,646 800,706 920,573 867,520" rotate="315" hand="#scribe2" xml:lang="B"><line n="1" rendition="#L0 #At">dairal</line></zone>
+				<zone points="787,723 864,836 1075,600 1450,410 1855,395 2170,485 2470,685 2700,995 2780,1350 2760,1760 2665,2000 2510,2215 2285,2380 1995,2505 1825,2540 1585,2540 1315,2475 1045,2285 845,2060 725,1785 660,1505 725,1145 867,826 787,726 600,1085 550,1395 595,1810 745,2110 995,2395 1325,2590 1685,2645 2005,2630 2395,2455 2640,2225 2825,1940 2895,1585 2870,1195 2815,980 2645,720 2460,515 2190,360 1930,280 1510,275 1165,395 895,605" rotate="315" hand="#scribe2" xml:lang="B"><line n="2" rendition="#Cc #At">v.sal,y.soeos.vs.ar.okees.o.d.soefchees.l,g.sos.okey.defo.f.o.rkedam.sh.ofol.sar.ddal.yty.s.y.daiir.otey.dshdy.dkal[s:r].oty,pchchy.a.r.opaiin.dal.karody.v,r,okeey.daram.qokar.okal.okal.d.o.l.shkeal.dy,das.o.k.sher.s,aiin</line></zone>
+				<zone points="920,893 1125,665 1365,520 1615,465 1985,480 2220,575 2405,740 2625,1040 2725,1410 2700,1675 2600,1965 2380,2205 2070,2385 1755,2450 1475,2430 1245,2335 1010,2135 845,1875 770,1680 740,1370 765,1170 920,893 997,960 905,1235 875,1465 915,1710 1025,1930 1175,2130 1395,2280 1665,2315 1945,2295 2250,2150 2440,1970 2545,1710 2580,1475 2565,1230 2450,1005 2265,785 2010,650 1745,590 1460,625 1160,790 994,960" rotate="315" hand="#scribe2" xml:lang="B"><line n="3" rendition="#Cc #Ad">o.l.[d:j].r.v.x.k.m.f.©v.t.r.ª.«.y.I.¬.o.l.d.r.v.x.k.m.f.©v.t.r.ª.«.y.c.¬.o.l.d.r.v.x.k.m.p.©v.t.r.ª.«.y.c.¬.o.l.d.r.v.x.k.m.p.©v.t.r.ª.«.y.c.¬</line></zone>
+				<zone points="1067,1020 1264,813 1550,693 1804,676 1984,713 2167,810 2324,933 2440,1113 2507,1330 2507,1533 2457,1746 2350,1943 2194,2106 1894,2233 1680,2253 1407,2190 1234,2070 1107,1923 1004,1740 944,1553 944,1390 990,1186 1067,1020 1147,1110 1054,1330 1050,1520 1100,1720 1200,1880 1344,2033 1574,2126 1800,2140 2034,2070 2177,1966 2314,1810 2387,1640 2404,1450 2370,1250 2284,1066 2144,923 1974,836 1727,780 1524,813 1320,920 1194,1043 1147,1110" rotate="300" hand="#scribe2" xml:lang="B"><line n="4" rendition="#Cc #Ad">daiin.otey.of[che:eee]y.shes.o.d.okeeod.l.o.lkeeol.dkedar.yf.aros.s.y.chedaiin.k.eeety.x.deeodal.vo.tchor.{ch'}.kedar.dal.¬.daiin.aiin.otal.daro.v</line></zone>
+				<zone points="1190,1183 1330,1000 1507,890 1754,846 1994,900 2147,1016 2257,1176 2327,1350 2330,1543 2264,1736 2147,1896 1987,2010 1797,2070 1597,2060 1400,1983 1240,1823 1147,1660 1120,1486 1137,1330 1187,1183 1264,1246 1220,1460 1234,1593 1300,1760 1437,1886 1627,1970 1847,1980 2014,1890 2157,1756 2227,1580 2240,1363 2170,1200 2067,1080 1910,980 1694,946 1490,993 1387,1090 1267,1250" rotate="300" hand="#scribe2" xml:lang="B"><line n="5" rendition="#Cc #Ad">o.[v:a].l.r.m.aiin.d.ª.c.f.[s:r].y.l.k.x.l.r.«,ar.o.r.[a:?].t.l.[s:r].d.y.dar.teodar.otodal.sheky.oteeody.x.[s:r].l</line></zone>
+				<zone points="2000,1126 2147,1346 2214,1303 2077,1093" hand="#scribe2" xml:lang="B"><line n="6" rendition="#L0 #At">otodara[g:m]</line></zone>
+				<zone points="2000,1126 2147,1346 2214,1303 2077,1093" hand="#scribe2" xml:lang="B"><line n="7" rendition="#L0 #At">oparairdly</line></zone>
+				<zone points="2000,1126 2147,1346 2214,1303 2077,1093" hand="#scribe2" xml:lang="B"><line n="8" rendition="#L0 #At">olkeedal</line></zone>
+				<zone points="2000,1126 2147,1346 2214,1303 2077,1093" hand="#scribe2" xml:lang="B"><line n="9" rendition="#L0 #At">otardaly</line></zone>
+				<zone points="2000,1126 2147,1346 2214,1303 2077,1093" hand="#scribe2" xml:lang="B"><line n="10" rendition="#Ro #At">ark[a:o]ldy</line></zone>
+				<zone points="1800,1356 1840,1426 2067,1293 2014,1236" hand="#scribe2" xml:lang="B"><line n="11" rendition="#Ro #At">ara?arar</line></zone>
+				<zone points="1800,1356 1840,1426 2067,1293 2014,1236" hand="#scribe2" xml:lang="B"><line n="12" rendition="#Ro #At">okeely</line></zone>
+				<zone points="1684,1490 1740,1576 1480,1730 1424,1640" hand="#scribe2" xml:lang="B"><line n="13" rendition="#Ro #At">ocfhor,okear</line></zone>
+				<zone points="1684,1490 1740,1576 1480,1730 1424,1640" hand="#scribe2" xml:lang="B"><line n="14">ÿ</line></zone>
 			</surface>
 			<surface n="58r" type="recto">
 				<graphic url="VoynichImages/58r.jpg"/>
@@ -9697,5 +9696,5 @@
 				<!-- end of file -->
 			</surface>
 		</surfaceGrp>
-	</sourceDoc>
+	</facsimile>
 </TEI>
