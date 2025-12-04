@@ -2129,7 +2129,7 @@
 				<zone hand="#scribe2" xml:lang="B">
 					<line n="1" rendition="#P0 #At">pshey,kedal[ee:ch]y.oked.seekeeey<figure/>opshes.[o:y]p[ch:ee]d.qotchedy.shkakeedy</line>
 					<line n="2" rendition="#P0 #Ad">ykeeo.alshey,ykedy.kesh,dy.dy<figure/>dor.[y:q]cheoky.qokee[d:?].chpy.qokedy.dy</line>
-					<line n="3"><!-- +P0 -->qok.sa[y:?]<unclear/>.[q:y][o:e]kedy.ychdykchdy<figure/>qokedy.qokedy.shekchy.cheky.daly</line>
+					<line n="3" rendition="#P0 #Ad">qok.sa[y:?]<unclear/>.[q:y][o:e]kedy.ychdykchdy<figure/>qokedy.qokedy.shekchy.cheky.daly</line>
 					<line n="4" rendition="#P0 #Ad">chdchy.ytcheeky.ypchedy.schdy<figure/>ytedy.{cthh}y.chees.oteey.otal.da[m:g]</line>
 					<line n="5" rendition="#P0 #Ad">qotchy.sal.yteedy.kchdy<figure/>dchedy.k[ee:ch]dy.dchedy.dalain</line>
 				</zone>
@@ -3014,7 +3014,7 @@
 				<zone points="1851,1500 1786,1534 1868,1660 1931,1614" xml:lang="B" hand="#scribe2"><line n="11" rendition="#Ro #At">ara?arar</line></zone>
 				<zone points="1800,1356 1840,1426 2067,1293 2014,1236" xml:lang="B" hand="#scribe2"><line n="12" rendition="#Ro #At">okeely</line></zone>
 				<zone points="1676,1493 1725,1573 1480,1730 1440,1651" xml:lang="B" hand="#scribe2"><line n="13" rendition="#Ro #At">ocfhor,okear</line></zone>
-				<zone lry="3457" lrx="2652" uly="3263" ulx="2400" xml:lang="B" hand="#scribe2"><line n="14">ÿ</line></zone>
+				<zone lry="3457" lrx="2652" uly="3263" ulx="2400" xml:lang="B" hand="#scribe2"><line n="14" rendition="#Pt #At">ÿ</line></zone>
 			</surface>
 			<surface n="58r" type="recto">
 				<graphic url="VoynichImages/58r.jpg"/>
@@ -7303,7 +7303,7 @@
 					<line n="10" rendition="#P0 #Ad">ysho.qykeeol.chol.sho.odor.dor.chees.ykeol.chol.dol.kor.a{ith}y.ol.chso.sha.olcheeol.kolshey.okeoly.oiin.aiioly</line>
 				</zone>
 				<zone hand="#scribe4" xml:lang="A">
-					<!-- <f101r2>       {$I=P $Q=S $P=F} -->
+					<!-- <f101r2>       $I=P $Q=S $P=F -->
 					<!-- All text on this page in normal paragraphs covered by f101r1 -->
 				</zone>
 			</surface>

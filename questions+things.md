@@ -6,6 +6,9 @@
     * Head does not work, gives TEI error
 1. `@xml:lang`, `@rendition` and `@hand` are not connecting?
 1. How do we encode alternative options for unclear letters? `[s:?]`
+    * `<unclear><choice>`?
+1. How do we mark valid characters of the transliteration alphabet
+    * `<reg>`?
 
 
 
