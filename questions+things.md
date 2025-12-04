@@ -4,6 +4,9 @@
 1. How do we label figures? Just `<figure>`?
 1. Should there be a <head> for where the comments are in each surface?
     * Head does not work, gives TEI error
+1. `@xml:lang`, `@rendition` and `@hand` are not connecting?
+    
+    
 
 
 Things to do
