@@ -20,35 +20,19 @@
                         <handDesc hands="5">
                             <!-- https://muse.jhu.edu/pub/56/article/754633/pdf -->
                             <handNote xml:id="scribe1">
-                                <p>The [h] character in Scribe 1 is distinguished by a sharp angle
-                                    at the top of the first vertical as the quill changes direction,
-                                    a bowed crossbar, a round loop, and a very slight foot at the
-                                    base of the second vertical. The word-end [m] and [n] glyphs
-                                    conclude with a backward flourish that stretches as far as the
-                                    penultimate minim.</p>
+                                <p>The [h] character in Scribe 1 is distinguished by a sharp angle at the top of the first vertical as the quill changes direction, a bowed crossbar, a round loop, and a very slight foot at the base of the second vertical. The word-end [m] and [n] glyphs conclude with a backward flourish that stretches as far as the penultimate minim.</p>
                             </handNote>
                             <handNote xml:id="scribe2">
-                                <p>more cramped than Scribe 1, with a slightly slanted character.
-                                    This scribe uses a horizontal, straight crossbar, an oval loop,
-                                    and an upwardly angled final tick. The final backstroke of [m]
-                                    and [n] is short, barely passing the final minim.</p>
+                                <p>More cramped than Scribe 1, with a slightly slanted character. This scribe uses a horizontal, straight crossbar, an oval loop, and an upwardly angled final tick. The final backstroke of [m] and [n] is short, barely passing the final minim.</p>
                             </handNote>
                             <handNote xml:id="scribe3">
-                                <p>The [h] written by Scribe 3 is similar to that of Scribe 1,
-                                    although slightly more compact. The final stroke of [m] and [n]
-                                    curves back on itself, nearly touching the top of the final
-                                    minim.</p>
+                                <p>The [h] written by Scribe 3 is similar to that of Scribe 1, although slightly more compact. The final stroke of [m] and [n] curves back on itself, nearly touching the top of the final minim.</p>
                             </handNote>
                             <handNote xml:id="scribe4">
-                                <p>The [h] written by Scribe 4 has a perpendicular crossbar, an
-                                    oversize loop, and a prominent final foot. The final stroke of
-                                    [m] and [n] is tall, with only a slight curvature.</p>
+                                <p>The [h] written by Scribe 4 has a perpendicular crossbar, an oversize loop, and a prominent final foot. The final stroke of [m] and [n] is tall, with only a slight curvature.</p>
                             </handNote>
                             <handNote xml:id="scribe5">
-                                <p>the [h] is tall and narrow, with a bowed cross-stroke that begins
-                                    at the top of the vertical, and a minuscule tick at the foot of
-                                    the second vertical. The [m] has a long, low finial that
-                                    finishes above the penultimate minim</p>
+                                <p>The [h] is tall and narrow, with a bowed cross-stroke that begins at the top of the vertical, and a minuscule tick at the foot of the second vertical. The [m] has a long, low finial that finishes above the penultimate minim</p>
                             </handNote>
                         </handDesc>
                         <bindingDesc>
@@ -58,46 +42,30 @@
                     <history>
                         <origin notBefore="1404" notAfter="1438">
                             <!-- https://www.voynich.nu/extra/carbon.html -->
-                            <p>The origins of this manuscript are unknown, but it has been carbon
-                                dated to have been made sometime between <date notBefore="1404"
-                                    notAfter="1438">1404 and 1438</date>.</p>
+                            <p>The origins of this manuscript are unknown, but it has been carbon dated to have been made sometime between <date notBefore="1404" notAfter="1438">1404 and 1438</date>.</p>
                         </origin>
                         <provenance>
                             <!-- https://www.voynich.nu/curricula.html -->
-                            <p>Any history between <date notBefore="1404" notAfter="1576">1404 and
-                                    1576</date> is missing and unknown.</p>
+                            <p>Any history between <date notBefore="1404" notAfter="1576">1404 and 1576</date> is missing and unknown.</p>
                         </provenance>
                         <provenance>
-                            <p>Owned by Rudolph II of Habsburg during his reign in Prague from <date
-                                    notBefore="1576" notAfter="1611">1576 to 1611</date>. In <date
-                                    when="1599">1599</date>, Karl Widemann sold Rudolph II several
-                                books, one of which was likely the Voynich Manuscript, but this is
-                                not confirmed..</p>
+                            <p>Owned by Rudolph II of Habsburg during his reign in Prague from <date notBefore="1576" notAfter="1611">1576 to 1611</date>. In <date when="1599">1599</date>, Karl Widemann sold Rudolph II several books, one of which was likely the Voynich Manuscript, but this is not confirmed.</p>
                         </provenance>
                         <provenance>
-                            <p>Jacobus Horcicky de Tepenecz owned the manuscript in <date
-                                    when="1622">1622</date>. This is noted in an inscription on
-                                folio 1r which reads <q>Jacobi de Tepenecz</q> under uv light. The
-                                manuscript was likely owned by someone else and given to him as a
-                                part of his inheritance.</p>
+                            <p>Jacobus Horcicky de Tepenecz owned the manuscript in <date when="1622">1622</date>. This is noted in an inscription on folio 1r which reads <q>Jacobi de Tepenecz</q> under uv light. The manuscript was likely owned by someone else and given to him as a part of his inheritance.</p>
                         </provenance>
                         <provenance>
-                            <p>Owned by Georgius Barschius potentially sometime between <date
-                                    notBefore="1627" notAfter="1637">1627 and 1637</date>.</p>
+                            <p>Owned by Georgius Barschius potentially sometime between <date notBefore="1627" notAfter="1637">1627 and 1637</date>.</p>
                         </provenance>
                         <provenance>
-                            <p>Johannes Marcus Marci of Kronland was gifted Barschius' alchemical
-                                library in <date when="1677">1677</date>, which included the Voynich
-                                Manuscript.</p>
+                            <p>Johannes Marcus Marci of Kronland was gifted Barschius' alchemical library in <date when="1677">1677</date>, which included the Voynich Manuscript.</p>
                         </provenance>
                         <provenance>
-                            <p>Wilfred M. Voynich acquired the manuscript in <date when="1912"
-                                    >1912</date> at the Villa Mondragone in Italy</p>
+                            <p>Wilfred M. Voynich acquired the manuscript in <date when="1912">1912</date> at the Villa Mondragone in Italy</p>
                         </provenance>
                         <provenance>
                             <!-- https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript -->
-                            <p>H. P. Kraus purchases the manuscript from Ethel Voynich, Wilfrid
-                                Voynich's widow.</p>
+                            <p>H. P. Kraus purchases the manuscript from Ethel Voynich, Wilfrid Voynich's widow.</p>
                         </provenance>
                         <provenance>
                             <p>Given to the Beinecke Library by H. P. Kraus</p>
@@ -122,19 +90,10 @@
                     <label>PAGE 1</label>
                     <label>Text Only</label>
                     <!-- Currier's Language A, hand 1 -->
-                    <!-- There is a key-like sequence in the right margin apparently added after -->
-                    <!-- the main text was written. Unclear in Petersen copies, but seems to be -->
-                    <!-- the roman alphabet. It starts at the end of the second line and it -->
-                    <!-- is not well aligned with the rest of the lines: a,b,c,d,e,f,g,h, -->
-                    <!-- i, (j is missing) k, (l,m,n are not readable),o,p,q,r -->
-                    <!-- There is non-Voynich text at bottom of folio: the signature -->
-                    <!-- of Jacobus de Tepenecz -->
-                    
-                    <!-- At the end of the paragraphs there are further words (right justified) -->
-                    <!-- as if they were the name of the author in a quotation. -->
-                    
-                    <!-- Next to the end of the 1st line there is a thick non-Voynich symbol -->
-                    <!-- resembling an underlined 29 (commented as þ ) -->
+                    <!-- There is a key-like sequence in the right margin apparently added after the main text was written. Unclear in Petersen copies, but seems to be the roman alphabet. It starts at the end of the second line and it is not well aligned with the rest of the lines: a,b,c,d,e,f,g,h,i, (j is missing) k, (l,m,n are not readable),o,p,q,r -->
+                    <!-- There is non-Voynich text at bottom of folio: the signature of Jacobus de Tepenecz -->
+                    <!-- At the end of the paragraphs there are further words (right justified) as if they were the name of the author in a quotation. -->
+                    <!-- Next to the end of the 1st line there is a thick non-Voynich symbol resembling an underlined 29 (commented as þ ) -->
                     <!-- The 2nd and 3rd paragraphs start with thick non-Voynich symbols. -->
                     <zone ulx="492" uly="332" lrx="2600" lry="944" hand="#scribe1" xml:lang="A">
                         <line n="1" rendition="#P0 #At">fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy<note>þ</note></line>
