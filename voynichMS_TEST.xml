@@ -2997,7 +2997,7 @@
 					<line n="11" rendition="#P0 #Ad">dshedy.{ct}echy.cphedam</line>
 				</zone>
 			</surface>
-			<surface lry="3600" lrx="2892" uly="72" ulx="416" type="verso" n="57v">
+			<surface n="57v" type="verso" lry="3600" lrx="2892" uly="72" ulx="416">
 				<graphic url="VoynichImages/57v.jpg"/>
 				<label>PAGE 112</label>
 				<label>Cosmological</label>
