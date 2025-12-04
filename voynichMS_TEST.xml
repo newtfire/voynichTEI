@@ -2975,20 +2975,19 @@
 			</surface>
 		</surfaceGrp>
 		<surfaceGrp n="8" type="quire" facs="imageScansVoynichMS/quireScan_pdf/quire_08.pdf">
-			<surface n="57r" type="recto">
+			<surface type="recto" n="57r">
 				<graphic url="VoynichImages/57r.jpg"/>
-				<!-- $Q=H $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2> -->
 				<label>PAGE 111</label>
 				<label>Herbal</label>
-				<!-- Currier's language B,  hand 2 -->
-				<zone hand="#scribe2" xml:lang="B">
+				<zone points="262,190 310,600 1062,561 1048,514 2314,466 2295,166" xml:lang="B"
+					hand="#scribe2">
 					<line n="1" rendition="#P0 #At">poeeockhey.odain.cheop.sheody.shocfhey.dy.sheep.sheody.[e:y]odam</line>
 					<line n="2" rendition="#P0 #Ad">daiir.air.chety.cheo,ckhy.chockhy.cheotey.sh,kchey.s.odaiin.shey</line>
 					<line n="3" rendition="#P0 #Ad">qokeeody.cheooky.qokeody.sheey.okeody.cheody.cheeody.cheekeody</line>
 					<line n="4" rendition="#P0 #Ad">dchos.cheocthy.cheody.qot[ee:ch]ody.octhody.okeeody.chteody.cheody,s</line>
 					<line n="5" rendition="#P0 #Ad">qok[ch:ee]o.daiin.cheeodam</line>
 				</zone>
-				<zone hand="#scribe2" xml:lang="B">
+				<zone points="353,1019 2362,880 2300,457 324,600" xml:lang="B" hand="#scribe2">
 					<line n="6" rendition="#P0 #Ad">tcheodal.okam.chckhey.okchdy.doctho.opchey.dy.kedaiin.oforam</line>
 					<line n="7" rendition="#P0 #Ad">daii[s:r].sheedy.qokeedy.chetey<figure/>oteeod.shekey.tedy.okaldg</line>
 					<line n="8" rendition="#P0 #Ad">tair.sheedy.ochedy.{ckhhh}dy<figure/>okchy.chedy.dal.qokedam</line>
@@ -2997,7 +2996,7 @@
 					<line n="11" rendition="#P0 #Ad">dshedy.{ct}echy.cphedam</line>
 				</zone>
 			</surface>
-			<surface n="57v" type="verso" lry="3600" lrx="2892" uly="72" ulx="416">
+			<surface n="57v" type="verso">
 				<graphic url="VoynichImages/57v.jpg"/>
 				<label>PAGE 112</label>
 				<label>Cosmological</label>
