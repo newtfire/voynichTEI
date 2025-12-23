@@ -35,3 +35,15 @@ note {
 note[type="comment"] {
     font-family: Arial, sans-serif;
 }
+
+line[rendition="#Pc #Ad"] {
+    text-align: center;
+}
+
+line[rendition="#Pr #Ad"] {
+    text-align: right;
+}
+
+line[rendition="#Pt #At"] {
+    text-align: right;
+}
