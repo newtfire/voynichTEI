@@ -119,363 +119,484 @@
     </teiHeader>
     <facsimile>
         <surfaceGrp n="1" type="quire" facs="imageScansVoynichMS/quireScan_pdf/quire_01.pdf">
-            <surfaceGrp n="f1" type="leaf">
-                <surface n="1r" type="recto">
-                    <graphic url="https://collections.library.yale.edu/iiif/2/1006076/full/full/0/default.jpg"/>
-                    <!-- $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V> -->
-                    <label>PAGE 1</label>
-                    <label>Text Only</label>
-                    <!-- Currier's Language A, hand 1 -->
-                    <!-- There is a key-like sequence in the right margin apparently added after the main text was written. Unclear in Petersen copies, but seems to be the roman alphabet. It starts at the end of the second line and it is not well aligned with the rest of the lines: a,b,c,d,e,f,g,h,i, (j is missing) k, (l,m,n are not readable),o,p,q,r -->
-                    <!-- There is non-Voynich text at bottom of folio: the signature of Jacobus de Tepenecz -->
-                    <!-- At the end of the paragraphs there are further words (right justified) as if they were the name of the author in a quotation. -->
-                    <!-- Next to the end of the 1st line there is a thick non-Voynich symbol resembling an underlined 29 (commented as þ ) -->
-                    <!-- The 2nd and 3rd paragraphs start with thick non-Voynich symbols. -->
-                    <zone ulx="492" uly="332" lrx="2600" lry="944" hand="#scribe1" xml:lang="A">
-                        <line n="1" rendition="#P0 #At">fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy<note>þ</note></line>
-                        <line n="2" rendition="#P0 #Ad">sory.ckhar.or,y.kair.chtaiin.shar.ase.cthar.cthar,dan</line>
-                        <line n="3" rendition="#P0 #Ad">syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sy</line>
-                        <line n="4" rendition="#P0 #Ad">soiin.oteey.oteo[s:r],roloty.cthiar,daiin.okaiin.or.okan</line>
-                        <line n="5" rendition="#P0 #Ad">sair,y.chear.cthaiin.cphar.cfhaiin</line>
-                        <line n="6" rendition="#Pt #Aq">ydaraishy</line>
-                    </zone>
-                    <zone ulx="484" uly="956" lrx="2565" lry="1312" hand="#scribe1">
-                        <line n="7" rendition="#P0 #As"><note>ü</note>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary</line>
-                        <line n="8" rendition="#P0 #Ad">yshey.shody.okchoy.otchol.chocthy.os,chy.dain.chor.kos</line>
-                        <line n="9" rendition="#P0 #Ad">daiin.shos.cfhol.shody</line>
-                        <line n="10" rendition="#Pt #Aq">dain.os.teody</line>
-                    </zone>
-                    <zone ulx="452" uly="1328" lrx="2552" lry="2348" hand="#scribe1">
-                        <line n="11" rendition="#P0 #As"><note>ý</note>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es</line>
-                        <line n="12" rendition="#P0 #Ad">oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin</line>
-                        <line n="13" rendition="#P0 #Ad">shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.sho.oldain.d</line>
-                        <line n="14" rendition="#P0 #Ad">dain.oiin.chol.odaiin.chodain.chdy.ok[a:o]in.d?n.cthy.kod</line>
-                        <line n="15" rendition="#P0 #Ad">daiin.shckhey.{ck}eo.r.char.shey.kol.chol.chol.kor.chal</line>
-                        <line n="16" rendition="#P0 #Ad">sho.chol.shodan.kshy.kchy.d.or.chodaiin.sho.koeam</line>
-                        <line n="17" rendition="#P0 #Ad">ycho.tchey.chekain.sheo,pshol.dydyd.cthy.dai[{cto}:Â]y</line>
-                        <line n="18" rendition="#P0 #Ad">yto.shol.she.kodshey.cphealy.dar,ain.dain.ckhyds</line>
-                        <line n="19" rendition="#P0 #Ad">dchar.shcthaiin.okaiir.chey.Àchy.‚tol.cthols.dlo{ct}o</line>
-                        <line n="20" rendition="#P0 #Ad">shok.chor.chey.dain.ckhey</line>
-                        <line n="21" rendition="#Pt #Aq">otol.daiiin</line>
-                    </zone>
-                    <zone ulx="464" uly="2328" lrx="2457" lry="3077" hand="#scribe1">
-                        <line n="22" rendition="#P0 #As">cpho.shaiin.shokcheey.chol.tshodeesy.shey.pydeey.cha.ro,dar</line>
-                        <line n="23" rendition="#P0 #Ad">ydoin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar</line>
-                        <line n="24" rendition="#P0 #Ad">cho.?o.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar</line>
-                        <line n="25" rendition="#P0 #Ad">ycheey.okeey.oky.daiin.okchey.kokaiin.o?chol.k?dchy.dal</line>
-                        <line n="26" rendition="#P0 #Ad">dcheo.shody.koshey.cthy.ok,chey.keey.keey,dal.chtor</line>
-                        <line n="27" rendition="#P0 #Ad">?eo?.chol.chok.choty.chotey</line>
-                        <line n="28" rendition="#Pt #Aq">dchaiin</line>
-                    </zone>
-                </surface>
-                <surface n="1v" type="verso">
-                    <graphic url="https://collections.library.yale.edu/iiif/2/1006077/full/full/0/default.jpg"/>
-                    <!-- $Q=A $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C> -->
-                    <label>PAGE 2</label>
-                    <label>Herbal</label>
-                    <!-- Currier's language A, hand 1 -->
-                    <!-- Plant ID: uva lupi, aterpa belladonn[a], solatrum d[iv|w]ale, solanum nigrum=morella -->
-                    <!-- Ref: Fuchs p.398, Fischer p.17 -->
-                    <!-- Same plant as f102r1[3,2] (Petersen, Stolfi) -->
-                    <!-- Two paragraphs of text, plant cutting through middle -->
-                    <zone ulx="517" uly="1777" lrx="2520" lry="2260" hand="#scribe1" xml:lang="A">
-                        <line n="1" rendition="#P0 #At">kchsy.chydaiin.ol<figure/>o,l,tchey.char.cfhar,am</line>
-                        <line n="2" rendition="#P0 #Ad">yteey.char.or.ochy<figure/>dcho.lkody.okodar.chody</line>
-                        <line n="3" rendition="#P0 #Ad">da,ckhy.ckhockhy.shy<figure/>dksheey.cthy.kotchody.dal</line>
-                        <line n="4" rendition="#P0 #Ad">dol.chokeo.dair.dam<figure/>sochey.chokody</line>
-                    </zone>
-                    <zone ulx="508" uly="2176" lrx="2473" lry="2857" hand="#scribe1" xml:lang="A">
-                        <line n="5" rendition="#P0 #Ad">potoy.shol.dair.cphoal<figure/>dar.chey.tody.otoaiin.shoshy</line>
-                        <line n="6" rendition="#P0 #Ad">choky.chol.ctho,l,shol.okal<figure/>dolchey.chodo.lol.chy.cthy</line>
-                        <line n="7" rendition="#P0 #Ad">qo<note type="comment">bar over o</note>.ol,choees.cheol.dol.cthey<figure/>ykol.dol.dolo.ykol.do,lchiody<note type="comment">corr?</note></line>
-                        <line n="8" rendition="#P0 #Ad">okolshol.kol,kechy.chol.ky<figure/>chol.cthol.chody.chol.daiin</line>
-                        <line n="9" rendition="#P0 #Ad">shor.okol.chol.dol,ky.dar<figure/>shol.dchor.o,tcho.dar.[sh:{Ñh}]ody</line>
-                        <line n="10" rendition="#P0 #Ad">taor.chotchey.dal.chody<figure/>schody.pol.chodar</line>
-                    </zone>
-                </surface>
-            </surfaceGrp>
-            <surfaceGrp  n="f2" type="leaf">
-            <surface n="2r" type="recto">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006078/full/full/0/default.jpg" />
-                <!-- $Q=A $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1> -->
-                <label>PAGE 3</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: Cyanus segelis coeruleus (Kornblume), centaurea (cf. Holm) -->
-                <!-- Two paragraphs, top one cut in many places. 1 label near plant leaf -->
-                <zone ulx="405" uly="417" lrx="2136" lry="1052" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">kydainy.ypchol.daiin.otchal<figure />ypchaiin.ckholsy</line>
-                    <line n="2" rendition="#P0 #Ad">dorchory<figure />chkar.s<figure />shor.cthy.{cto}</line>
-                    <line n="3" rendition="#P0 #Ad">qotaiin<figure />cthey.y<figure />chor.chy.ydy<figure />chaiin</line>
-                    <line n="4" rendition="#P0 #Ad">{c'o}aiidy<figure />chtod,dy<figure />cphy.dals<figure />chokaiin.d</line>
-                    <line n="5" rendition="#P0 #Ad">otochor.al<figure />shodaiin<figure />chol,dan<figure />ytchaiin.dan</line>
-                    <line n="6" rendition="#P0 #Ad">saiin.dain,d<figure />dkol.sor<figure />ytoldy<figure />dchol.dchy.cthy</line>
-                    <line n="7" rendition="#P0 #Ad">shor.ckhy.daiiny<figure />chol,dan</line>
-                </zone>
-                <zone ulx="453" uly="2365" lrx="2400" lry="2972" hand="#scribe1" xml:lang="A">
-                    <line n="8" rendition="#P0 #Ad">kydain.shaiin.qoy.s.shol.fodan<figure />yksh.olsheey.daiildy</line>
-                    <line n="9" rendition="#P0 #Ad">dls,sho.kol.sheey.qokey.ykody.so<figure />chol,yky.dain.daiisol</line>
-                    <line n="10" rendition="#P0 #Ad">qo'ky.cholaiin.shol.sheky.daiin<figure />cthey.keol.saiin.e'a'iin</line>
-                    <line n="11" rendition="#P0 #Ad">ychain.dal.chy.dalor.shan.dan<figure />olsaiin.sheey.ckhor</line>
-                    <line n="12" rendition="#P0 #Ad">okol.chy.chor.cthor.yor.an.chan<figure />saiin.chety.chyky.sal</line>
-                    <line n="13" rendition="#P0 #Ad">sho.ykeey.chey.daiin.chcthy</line>
-                    <line n="14" rendition="#Lp #At">ytoail</line>
-                    <line n="15" rendition="#L0 #At">ios.an.on</line>
-                </zone>
-            </surface>
-            <surface n="2v" type="verso">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006079/full/full/0/default.jpg" />
-                <!-- $Q=A $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1 $X=O> -->
-                <label>PAGE 4</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: Collocasia, Egyptian lotus, Nymphoides Peltata (R. Zandbergen) -->
-                <!-- Just 8 lines, all cut by plant -->
-                <zone ulx="713" uly="553" lrx="2416" lry="1024" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">kooiin.cheo,pchor.otaiin,odain.chor<figure />dair.shty</line>
-                    <line n="2" rendition="#P0 #Ad">kcho,kchy.sho.shol.qotcho.loeees.qoty<figure />chor.daiin</line>
-                    <line n="3" rendition="#P0 #Ad">otchy.chor.lshy.chol.chody.chodain<figure />chcthy.daiin</line>
-                    <line n="4" rendition="#P0 #Ad">sho.cholo.cheor.chodaiin</line>
-                </zone>
-                <zone ulx="613" uly="2085" lrx="2452" lry="2576" hand="#scribe1" xml:lang="A">
-                    <line n="5" rendition="#P0 #Ad">kchor<note type="comment">mark above o</note>.shy.daiiin.ch{cko}m<figure />s,shey.dor,chol,daiin</line>
-                    <line n="6" rendition="#P0 #Ad">dor.chol.chor.chol.keol.chy.chty<figure />daiin.o,tchor.chan</line>
-                    <line n="7" rendition="#P0 #Ad">daiin.chotchey.qoteeey.chokeos<figure />chees.chr.cheaiin</line>
-                    <line n="8" rendition="#P0 #Ad">chokoishe.chor.cheol.chol.dolody</line>
-                </zone>
-            </surface>
-        </surfaceGrp>
-            <surfaceGrp n="f3" type="leaf">
-            <surface n="3r" type="recto">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg" />
-                <!-- $Q=A $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1> -->
-                <label>PAGE 5</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: crassulatea (Cretan Dittany) -->
-                <!-- 20 normal lines of text -->
-                <zone ulx="353" uly="501" lrx="1340" lry="1352" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">tsheos.qopal.chol.cthol.daimg</line>
-                    <line n="2" rendition="#P0 #Ad">ycheor.chor.dam.qotcham.cham</line>
-                    <line n="3" rendition="#P0 #Ad">ochor.qocheor.chol.daiin.cthy</line>
-                    <line n="4" rendition="#P0 #Ad">schey.chor.chal.chag.cham.cho</line>
-                    <line n="5" rendition="#P0 #Ad">qokol.chololy.s.cham.cthol</line>
-                    <line n="6" rendition="#P0 #Ad">ychtaiin.chor.cthom.otaldam</line>
-                    <line n="7" rendition="#P0 #Ad">otchol.qodaiin.chom.shom.damo</line>
-                    <line n="8" rendition="#P0 #Ad">ysheor.chor.chol.oky.dago</line>
-                    <line n="9" rendition="#P0 #Ad">sho.vor.sheoldam.otchody.ol</line>
-                    <line n="10" rendition="#P0 #Ad">ydar.cholcthom</line>
-                </zone>
-                <zone ulx="333" uly="1569" lrx="1600" lry="1960" hand="#scribe1" xml:lang="A">
-                    <line n="11" rendition="#P0 #Ad">pcheol.shol.sols.sheol.shey</line>
-                    <line n="12" rendition="#P0 #Ad">okadaiin.qokchor.qo,schodam.octhy</line>
-                    <line n="13" rendition="#P0 #Ad">qokeey.qot,shey.qokody.qokshey.cheody</line>
-                    <line n="14" rendition="#P0 #Ad">chor.qodair.okeey.qokeey</line>
-                </zone>
-                <zone ulx="345" uly="1936" lrx="2228" lry="2205" hand="#scribe1" xml:lang="A">
-                    <line n="15" rendition="#P0 #Ad">tsheoarom.shor.or.chor.olchsy.chom.otchom<figure />oporar</line>
-                    <line n="16" rendition="#P0 #Ad">oteol.chol.s.cheol.ekshy.qokeom.qokol.daiin<figure />soleeg</line>
-                    <line n="17" rendition="#P0 #Ad">soeom.okeom.yteody.qokeeodal.sam</line>
-                </zone>
-                <zone ulx="304" uly="2208" lrx="2256" lry="2524" hand="#scribe1" xml:lang="A">
-                    <line n="18" rendition="#P0 #Ad">pcheoldom.shodaiin.qopchor.qopol.opchol,qoty<figure />otolom</line>
-                    <line n="19" rendition="#P0 #Ad">otchor.ol,cheor.qoeor.dair.qoteol.qosaiin<figure />chor.cthy</line>
-                    <line n="20" rendition="#P0 #Ad">ycheor.chol.odaiin.chol.s.aiin.okol,or.am</line>
-                </zone>
-            </surface>
-            <surface n="3v" type="verso">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006081/full/full/0/default.jpg" />
-                <!-- $Q=A $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1> -->
-                <label>PAGE 6</label>
-                <!-- Currier's language A, hand 1 -->
-                <label>Herbal</label>
-                <!-- Two paragraphs of text, left of plant picture -->
-                <!-- Same root as f100v [1,1] (Petersen -->
-                <zone lry="919" lrx="1990" uly="376" ulx="614" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">koaiin.cphor.qotoy.sha.ckhol.ykoaiin.s.oly</line>
-                    <line n="2" rendition="#P0 #Ad">daiidy.qoteeol.okeeor.okor.olytol.dol,dar</line>
-                    <line n="3" rendition="#P0 #Ad">okom.chol.shol.seees.chom.cheeykam.okai</line>
-                    <line n="4" rendition="#P0 #Ad">qodar.ees.eey.kcheol.okal.do.r.chear,een</line>
-                    <line n="5" rendition="#P0 #Ad">ychear.otchal.cho,r.char.ckh[a:y]</line>
-                    <line n="6" rendition="#P0 #Ad">or.cheor.kor.chodaly.chom</line>
-                </zone>
-                <zone lry="1638" lrx="1914" uly="914" ulx="600" hand="#scribe1" xml:lang="A">
-                    <line n="7" rendition="#P0 #Ad">tchor.otcham.chor.cfham.s</line>
-                    <line n="8" rendition="#P0 #Ad">ykchy.kchom.chor.chckhol.oka</line>
-                    <line n="9" rendition="#P0 #Ad">ytcheear.okeol.cthodoaly.chor.cthy</line>
-                    <line n="10" rendition="#P0 #Ad">ochos.daiin.qokshol.daiim.chol.okary</line>
-                    <line n="11" rendition="#P0 #Ad">sho.shockho.ckhy.tchor.chodaiin.chom</line>
-                    <line n="12" rendition="#P0 #Ad">osh.chodair.ytchy.tchor.kcham.s</line>
-                    <line n="13" rendition="#P0 #Ad">shar.shkaiin.qokchy.yty.cthal.chky</line>
-                    <line n="14" rendition="#P0 #Ad">dain.sheam.y,keam</line>
-                </zone>
-            </surface>
-        </surfaceGrp>
-            <surfaceGrp n="f4" type="leaf">
-            <surface n="4r" type="recto">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006082/full/full/0/default.jpg" />
-                <!-- $Q=A $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C> -->
-                <label>PAGE 7</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: Hypericum; Centaurium Erythaea (O'Neill) -->
-                <!-- Two paragraphs of text, flower cuts through top one -->
-                <zone lry="781" lrx="2137" uly="372" ulx="414" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">kodalchy.chpady.sheol.ol,sheey.qotey<figure />doiin.chor.ytoy</line>
-                    <line n="2" rendition="#P0 #Ad">dchor.shol.shol.cthol.shtchy.chaiin.£s<figure />choraiin.chom</line>
-                    <line n="3" rendition="#P0 #Ad">otchol.chol.chy.chaiin.qotaiin<figure />daiin.shain</line>
-                    <line n="4" rendition="#P0 #Ad">qotchol,chy.yty.daiin.okaiin.cthy</line>
-                </zone>
-                <zone lry="1609" lrx="1341" uly="800" ulx="450" hand="#scribe1" xml:lang="A">
-                    <line n="5" rendition="#P0 #Ad">pydaiin.qotchy.dy,tydy</line>
-                    <line n="6" rendition="#P0 #Ad">chor.shytchy.dytcheey</line>
-                    <line n="7" rendition="#P0 #Ad">qotaiin.cthol.daiin.cthom</line>
-                    <line n="8" rendition="#P0 #Ad">shor.shol.shol.cthy.cpholdy</line>
-                    <line n="9" rendition="#P0 #Ad">daiin.ckhochy.tchy.kor,aiin</line>
-                    <line n="10" rendition="#P0 #Ad">odal.shor.shyshol.cphaiin</line>
-                    <line n="11" rendition="#P0 #Ad">qotchoiin.she[o:a]r.qoty</line>
-                    <line n="12" rendition="#P0 #Ad">soiin.chaiin.chaiin</line>
-                    <line n="13" rendition="#P0 #Ad">daiin.cthey</line>
-                </zone>
-            </surface>
-            <surface n="4v" type="verso">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006083/full/full/0/default.jpg" />
-                <!-- $Q=A $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1> -->
-                <label>PAGE 8</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: Convulvula Ipomea? (climbing plant) -->
-                <!-- Two paragraphs, top one split by plant -->
-                <zone lry="928" lrx="2438" uly="366" ulx="676" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">pchooiin.ksheo.kchoy.chopchy.dolds<figure />dlod</line>
-                    <line n="2" rendition="#P0 #Ad">ol.chey.chy.cthy.shkchor.sheo.cheory<figure />choldy</line>
-                    <line n="3" rendition="#P0 #Ad">sho.sho.chaiin.shaiin.daiin.qodaiin<figure />o,aram</line>
-                    <line n="4" rendition="#P0 #Ad">qok[sh:ch]y.qocthy.choteol.daiin.cthey<figure />choaiin</line>
-                    <line n="5" rendition="#P0 #Ad">shor.sheey.{cto}.otoiin.shey.qotchoiin<figure />chodain</line>
-                    <line n="6" rendition="#P0 #Ad">ytchoy.shokchy.cphody</line>
-                </zone>
-                <zone lry="1642" lrx="2004" uly="933" ulx="690" hand="#scribe1" xml:lang="A">
-                    <line n="7" rendition="#P0 #Ad">torchy.sheeor.chor.chokch[y:e].cphydy</line>
-                    <line n="8" rendition="#P0 #Ad">oleeeb.chor.cthol.sho.otor.cthory</line>
-                    <line n="9" rendition="#P0 #Ad">qooko,iiin,cheog.chcthy.shoky.daiin</line>
-                    <line n="10" rendition="#P0 #Ad">otaiin.sheo.okeody.chol,chokeody</line>
-                    <line n="11" rendition="#P0 #Ad">sho.kcheor.shody.shtaiin.qotol,daiin</line>
-                    <line n="12" rendition="#P0 #Ad">qokey.sho.okeol.s,keey.shar,char,ody</line>
-                    <line n="13" rendition="#P0 #Ad">shody.s.cheor.chokody.shodaiin.qoty</line>
-                    <line n="14" rendition="#P0 #Ad">ochody.chy,key.chtody</line>
-                </zone>
-            </surface>
-            </surfaceGrp>
-            <surfaceGrp n="f5" type="leaf">
-            <surface n="5r" type="recto">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006084/full/full/0/default.jpg" />
-                <!-- $Q=A $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1> -->
-                <label>PAGE 9</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: [Herba] Paris, Indian Cucumber? -->
-                <!-- Two paragraphs -->
-                <zone points="386,472 2041,568 2050,913 404,845" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">kchody.fchoy.chkoy.oaiin.oar,olsy.chody.dkshy,dy</line>
-                    <line n="2" rendition="#P0 #Ad">ochey.okey.qokaiin.sho.ckhoy.cthey.chey.ok[a:y]{ƒo}s.otol</line>
-                    <line n="3" rendition="#P0 #Ad">qoaiin.otan,chy.daiin.oteeeb.chocthy.otchy.qotchody</line>
-                    <line n="4" rendition="#P0 #Ad">otain.sheody.chan.s.cheor.chocthy</line>
-                </zone>
-                <zone points="386,840 2077,909 2059,1181 404,1150" hand="#scribe1" xml:lang="A">
-                    <line n="5" rendition="#P0 #Ad">tchy.shody.qoaiin.cholols.sho.qotcheo.daiin.shodaiin</line>
-                    <line n="6" rendition="#P0 #Ad">sho.cheor,chey.qoeeey.qoykeeey.qoeor.cthy.shotshy.dy</line>
-                    <line n="7" rendition="#P0 #Ad">qotoeey.keey.cheo,kchy.shody</line>
-                </zone>
-            </surface>
-            <surface n="5v" type="verso">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006085/full/full/0/default.jpg" />
-                <!-- $Q=A $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1> -->
-                <label>PAGE 10</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: Paretaria Urtica (O'Neill) -->
-                <!-- Only one paragraph of text -->
-                <zone lry="1204" lrx="2339" uly="561" ulx="672" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">k,o,cheor.chor.ytchey.pshod.chols.chodaiin.ytoiiin.daiin</line>
-                    <line n="2" rendition="#P0 #Ad">dchol.{c'y}.chol.otaiin.dain.cthor.chots.ychopordg</line>
-                    <line n="3" rendition="#P0 #Ad">qotcho.ytor.daiin.daiin.otchor.daiin.q'o.darchor.do</line>
-                    <line n="4" rendition="#P0 #Ad">qotor.shees.otol.ykoiin.shol,daiin.cthor.okch,y,taiin</line>
-                    <line n="5" rendition="#P0 #Ad">shokeeol.chor.cheotol.otchol.daiin.dal.chol,chotaiin</line>
-                    <line n="6" rendition="#P0 #Ad">otol.chol.dairodg</line>
-                </zone>
-            </surface>
-            </surfaceGrp>
-            <surfaceGrp n="f6" type="leaf">
-            <surface n="6r" type="recto">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006086/full/full/0/default.jpg" />
-                <!-- $Q=A $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1> -->
-                <label>PAGE 11</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: Asclepiades, but with wrong leaves (of Pediculum) -->
-                <!-- One paragraph with 14 lines, plant cutting through -->
-                <zone lry="1486" lrx="2150" uly="254" ulx="395" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">foar.y.shol.cholor.cphol.chor.ch{ck}<figure />chopchol.otcham</line>
-                    <line n="2" rendition="#P0 #Ad">daiin.chckhy.chor.chor.kar.cthy<figure />cthor.chotols</line>
-                    <line n="3" rendition="#P0 #Ad">foeear.kshor.choky.os.cheoeees<figure />ykeor.ytaiin.dam</line>
-                    <line n="4" rendition="#P0 #Ad">dar.cho,s.sheor.cho{ith}y.otcham<figure />yaiir.chy</line>
-                    <line n="5" rendition="#P0 #Ad">t[a:o]r.okoiin.shees.ytaly.cthaiin<figure />odam</line>
-                    <line n="6" rendition="#P0 #Ad">or.al.daiin.ckham.okom.cthaiin<figure />ydaiin</line>
-                    <line n="7" rendition="#P0 #Ad">daiin.qodaiin.cho.s.chol.okaiin.s</line>
-                    <line n="8" rendition="#P0 #Ad">ychol.ckhor.pchar.sheo.ckhaiin</line>
-                    <line n="9" rendition="#P0 #Ad">dar.sheol.skaiiodar.otaiin.chory</line>
-                    <line n="10" rendition="#P0 #Ad">tchor.ctheod.chy.shor.od,she.od</line>
-                    <line n="11" rendition="#P0 #Ad">ychar.olchaj.ol.chokaiin</line>
-                    <line n="12" rendition="#P0 #Ad">or.shol.cthom.chor.cthy</line>
-                    <line n="13" rendition="#P0 #Ad">qocthol.[y:q]odaiin.cthy</line>
-                    <line n="14" rendition="#P0 #Ad">ysho.taiin.y,kaiim</line>
-                </zone>
-            </surface>
-            <surface n="6v" type="verso">
-                <graphic url="https://collections.library.yale.edu/iiif/2/1006087/full/full/0/default.jpg" />
-                <!-- $Q=A $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1> -->
-                <label>PAGE 12</label>
-                <label>Herbal</label>
-                <!-- Currier's language A, hand 1 -->
-                <!-- Plant ID: blackgum tree?, arctium? Bidens(sp?)kyptis (O'Neill), -->
-                <!-- (castor oil busk, ricinus?) -->
-                <!-- 21 lines in apparently two paragraphs -->
-                <zone lry="838" lrx="2329" uly="371" ulx="548" hand="#scribe1" xml:lang="A">
-                    <line n="1" rendition="#P0 #At">koary,sar.[ch:{oh}]eekar<note type="comment">funny o, ö?</note>.qoor.shor.chapchy.s.chear.char.otchy</line>
-                    <line n="2" rendition="#P0 #Ad">oees.chor.chckhy.qoekchar.chea[s:r].odaiiin.kchey.chor,chaiin</line>
-                    <line n="3" rendition="#P0 #Ad">qoair.ckhy.chol.oechockhy.chekchoy.ckhy.okol<figure />rychos</line>
-                    <line n="4" rendition="#P0 #Ad">y,shckhy.ytchoy.s.os.y.jajy.dchy.dey.okody<figure />ytody</line>
-                    <line n="5" rendition="#P0 #Ad">dair.{c'ha},chodam.dam.okor.oty<figure />doldom</line>
-                </zone>
-                <zone lry="2147" lrx="1453" uly="828" ulx="558" hand="#scribe1" xml:lang="A">
-                    <line n="6" rendition="#P0 #Ad">tchody.shocthol.cho{cthh}y.s</line>
-                    <line n="7" rendition="#P0 #Ad">ychos.ychol.daiin.cthol.dol</line>
-                    <line n="8" rendition="#P0 #Ad">ychor.chor.okchey.qokom</line>
-                    <line n="9" rendition="#P0 #Ad">oeeo,dal.chor.cthom.s</line>
-                    <line n="10" rendition="#P0 #Ad">qokchod.ychear.kchdy</line>
-                    <line n="11" rendition="#P0 #Ad">lor.char.otam.ctho,m,dy</line>
-                    <line n="12" rendition="#P0 #Ad">ytcho[s:r].shy.qokam.cthy</line>
-                    <line n="13" rendition="#P0 #Ad">yodaiin.cthy.s.chor.oees.or</line>
-                    <line n="14" rendition="#P0 #Ad">qokor.chol.cthol.tchalody</line>
-                    <line n="15" rendition="#P0 #Ad">chockhy.s.or.chy.s,ain.ar</line>
-                    <line n="16" rendition="#P0 #Ad">ochy.cthar.cth[a:o]r.cthy</line>
-                    <line n="17" rendition="#P0 #Ad">y,chaies.ckhal.cthodam.dy</line>
-                    <line n="18" rendition="#P0 #Ad">ytchocthol.ches.{ith}or</line>
-                    <line n="19" rendition="#P0 #Ad">ocholy.kchos.chy.dor</line>
-                    <line n="20" rendition="#P0 #Ad">dchor.choldar.okol.daiin</line>
-                    <line n="21" rendition="#P0 #Ad">ycheor.chor.octham</line>
-                </zone>
-            </surface>
-            </surfaceGrp>
-            
-            
-            
-            
-            
-            
-            
-            
-        </surfaceGrp>
+			<surfaceGrp n="f1" type="leaf">
+				<surface n="1r" type="recto">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006076/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V> -->
+					<label>PAGE 1</label>
+					<label>Text Only</label>
+					<!-- Currier's Language A, hand 1 -->
+					<!-- There is a key-like sequence in the right margin apparently added after -->
+					<!-- the main text was written. Unclear in Petersen copies, but seems to be -->
+					<!-- the roman alphabet. It starts at the end of the second line and it -->
+					<!-- is not well aligned with the rest of the lines: a,b,c,d,e,f,g,h, -->
+					<!-- i, (j is missing) k, (l,m,n are not readable),o,p,q,r -->
+					<!-- There is non-Voynich text at bottom of folio: the signature -->
+					<!-- of Jacobus de Tepenecz -->
+
+					<!-- At the end of the paragraphs there are further words (right justified) -->
+					<!-- as if they were the name of the author in a quotation. -->
+
+					<!-- Next to the end of the 1st line there is a thick non-Voynich symbol -->
+					<!-- resembling an underlined 29 (commented as þ ) -->
+					<!-- The 2nd and 3rd paragraphs start with thick non-Voynich symbols. -->
+					<zone ulx="492" uly="332" lrx="2600" lry="944" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy<note>þ</note></line>
+						<line n="2" rendition="#P0 #Ad">sory.ckhar.or,y.kair.chtaiin.shar.ase.cthar.cthar,dan</line>
+						<line n="3" rendition="#P0 #Ad">syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sy</line>
+						<line n="4" rendition="#P0 #Ad">soiin.oteey.oteo[s:r],roloty.cthiar,daiin.okaiin.or.okan</line>
+						<line n="5" rendition="#P0 #Ad">sair,y.chear.cthaiin.cphar.cfhaiin</line>
+						<line n="6" rendition="#Pt #Aq">ydaraishy</line>
+					</zone>
+					<zone ulx="484" uly="956" lrx="2565" lry="1312" hand="#scribe1">
+						<line n="7" rendition="#P0 #As"><note>ü</note>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary</line>
+						<line n="8" rendition="#P0 #Ad">yshey.shody.okchoy.otchol.chocthy.os,chy.dain.chor.kos</line>
+						<line n="9" rendition="#P0 #Ad">daiin.shos.cfhol.shody</line>
+						<line n="10" rendition="#Pt #Aq">dain.os.teody</line>
+					</zone>
+					<zone ulx="452" uly="1328" lrx="2552" lry="2348" hand="#scribe1">
+						<line n="11" rendition="#P0 #As"><note>ý</note>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es</line>
+						<line n="12" rendition="#P0 #Ad">oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin</line>
+						<line n="13" rendition="#P0 #Ad">shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.sho.oldain.d</line>
+						<line n="14" rendition="#P0 #Ad">dain.oiin.chol.odaiin.chodain.chdy.ok[a:o]in.d?n.cthy.kod</line>
+						<line n="15" rendition="#P0 #Ad">daiin.shckhey.{ck}eo.r.char.shey.kol.chol.chol.kor.chal</line>
+						<line n="16" rendition="#P0 #Ad">sho.chol.shodan.kshy.kchy.d.or.chodaiin.sho.koeam</line>
+						<line n="17" rendition="#P0 #Ad">ycho.tchey.chekain.sheo,pshol.dydyd.cthy.dai[{cto}:Â]y</line>
+						<line n="18" rendition="#P0 #Ad">yto.shol.she.kodshey.cphealy.dar,ain.dain.ckhyds</line>
+						<line n="19" rendition="#P0 #Ad">dchar.shcthaiin.okaiir.chey.Àchy.‚tol.cthols.dlo{ct}o</line>
+						<line n="20" rendition="#P0 #Ad">shok.chor.chey.dain.ckhey</line>
+						<line n="21" rendition="#Pt #Aq">otol.daiiin</line>
+					</zone>
+					<zone ulx="464" uly="2328" lrx="2457" lry="3077" hand="#scribe1">
+						<line n="22" rendition="#P0 #As">cpho.shaiin.shokcheey.chol.tshodeesy.shey.pydeey.cha.ro,dar</line>
+						<line n="23" rendition="#P0 #Ad">ydoin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar</line>
+						<line n="24" rendition="#P0 #Ad">cho.?o.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar</line>
+						<line n="25" rendition="#P0 #Ad">ycheey.okeey.oky.daiin.okchey.kokaiin.o?chol.k?dchy.dal</line>
+						<line n="26" rendition="#P0 #Ad">dcheo.shody.koshey.cthy.ok,chey.keey.keey,dal.chtor</line>
+						<line n="27" rendition="#P0 #Ad">?eo?.chol.chok.choty.chotey</line>
+						<line n="28" rendition="#Pt #Aq">dchaiin</line>
+					</zone>
+				</surface>
+				<surface n="1v" type="verso">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006077/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C> -->
+					<label>PAGE 2</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: uva lupi, aterpa belladonn[a], solatrum d[iv|w]ale, solanum nigrum=morella -->
+					<!-- Ref: Fuchs p.398, Fischer p.17 -->
+					<!-- Same plant as f102r1[3,2] (Petersen, Stolfi) -->
+					<!-- Two paragraphs of text, plant cutting through middle -->
+					<zone ulx="517" uly="1777" lrx="2520" lry="2260" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">kchsy.chydaiin.ol<figure/>o,l,tchey.char.cfhar,am</line>
+						<line n="2" rendition="#P0 #Ad">yteey.char.or.ochy<figure/>dcho.lkody.okodar.chody</line>
+						<line n="3" rendition="#P0 #Ad">da,ckhy.ckhockhy.shy<figure/>dksheey.cthy.kotchody.dal</line>
+						<line n="4" rendition="#P0 #Ad">dol.chokeo.dair.dam<figure/>sochey.chokody</line>
+					</zone>
+					<zone ulx="508" uly="2176" lrx="2473" lry="2857" hand="#scribe1" xml:lang="A">
+						<line n="5" rendition="#P0 #Ad">potoy.shol.dair.cphoal<figure/>dar.chey.tody.otoaiin.shoshy</line>
+						<line n="6" rendition="#P0 #Ad">choky.chol.ctho,l,shol.okal<figure/>dolchey.chodo.lol.chy.cthy</line>
+						<line n="7" rendition="#P0 #Ad">qo<note type="comment">bar over
+								o</note>.ol,choees.cheol.dol.cthey<figure/>ykol.dol.dolo.ykol.do,lchiody<note
+								type="comment">corr?</note></line>
+						<line n="8" rendition="#P0 #Ad">okolshol.kol,kechy.chol.ky<figure/>chol.cthol.chody.chol.daiin</line>
+						<line n="9" rendition="#P0 #Ad">shor.okol.chol.dol,ky.dar<figure/>shol.dchor.o,tcho.dar.[sh:{Ñh}]ody</line>
+						<line n="10" rendition="#P0 #Ad">taor.chotchey.dal.chody<figure/>schody.pol.chodar</line>
+					</zone>
+				</surface>
+			</surfaceGrp>
+			<surfaceGrp n="f2" type="leaf">
+				<surface n="2r" type="recto">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006078/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 3</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: Cyanus segelis coeruleus (Kornblume), centaurea (cf. Holm) -->
+					<!-- Two paragraphs, top one cut in many places. 1 label near plant leaf -->
+					<zone ulx="405" uly="417" lrx="2136" lry="1052" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">kydainy.ypchol.daiin.otchal<figure/>ypchaiin.ckholsy</line>
+						<line n="2" rendition="#P0 #Ad">dorchory<figure/>chkar.s<figure/>shor.cthy.{cto}</line>
+						<line n="3" rendition="#P0 #Ad">qotaiin<figure/>cthey.y<figure/>chor.chy.ydy<figure/>chaiin</line>
+						<line n="4" rendition="#P0 #Ad">{c'o}aiidy<figure/>chtod,dy<figure/>cphy.dals<figure/>chokaiin.d</line>
+						<line n="5" rendition="#P0 #Ad">otochor.al<figure/>shodaiin<figure/>chol,dan<figure/>ytchaiin.dan</line>
+						<line n="6" rendition="#P0 #Ad">saiin.dain,d<figure/>dkol.sor<figure/>ytoldy<figure/>dchol.dchy.cthy</line>
+						<line n="7" rendition="#P0 #Ad">shor.ckhy.daiiny<figure/>chol,dan</line>
+					</zone>
+					<zone ulx="453" uly="2365" lrx="2400" lry="2972" hand="#scribe1" xml:lang="A">
+						<line n="8" rendition="#P0 #Ad">kydain.shaiin.qoy.s.shol.fodan<figure/>yksh.olsheey.daiildy</line>
+						<line n="9" rendition="#P0 #Ad">dls,sho.kol.sheey.qokey.ykody.so<figure/>chol,yky.dain.daiisol</line>
+						<line n="10" rendition="#P0 #Ad">qo'ky.cholaiin.shol.sheky.daiin<figure/>cthey.keol.saiin.e'a'iin</line>
+						<line n="11" rendition="#P0 #Ad">ychain.dal.chy.dalor.shan.dan<figure/>olsaiin.sheey.ckhor</line>
+						<line n="12" rendition="#P0 #Ad">okol.chy.chor.cthor.yor.an.chan<figure/>saiin.chety.chyky.sal</line>
+						<line n="13" rendition="#P0 #Ad">sho.ykeey.chey.daiin.chcthy</line>
+						<line n="14" rendition="#Lp #At">ytoail</line>
+						<line n="15" rendition="#L0 #At">ios.an.on</line>
+					</zone>
+				</surface>
+				<surface n="2v" type="verso">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006079/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1 $X=O> -->
+					<label>PAGE 4</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: Collocasia, Egyptian lotus, Nymphoides Peltata (R. Zandbergen) -->
+					<!-- Just 8 lines, all cut by plant -->
+					<zone ulx="713" uly="553" lrx="2416" lry="1024" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">kooiin.cheo,pchor.otaiin,odain.chor<figure/>dair.shty</line>
+						<line n="2" rendition="#P0 #Ad">kcho,kchy.sho.shol.qotcho.loeees.qoty<figure/>chor.daiin</line>
+						<line n="3" rendition="#P0 #Ad">otchy.chor.lshy.chol.chody.chodain<figure/>chcthy.daiin</line>
+						<line n="4" rendition="#P0 #Ad">sho.cholo.cheor.chodaiin</line>
+					</zone>
+					<zone ulx="613" uly="2085" lrx="2452" lry="2576" hand="#scribe1" xml:lang="A">
+						<line n="5" rendition="#P0 #Ad">kchor<note type="comment">mark above
+								o</note>.shy.daiiin.ch{cko}m<figure/>s,shey.dor,chol,daiin</line>
+						<line n="6" rendition="#P0 #Ad">dor.chol.chor.chol.keol.chy.chty<figure/>daiin.o,tchor.chan</line>
+						<line n="7" rendition="#P0 #Ad">daiin.chotchey.qoteeey.chokeos<figure/>chees.chr.cheaiin</line>
+						<line n="8" rendition="#P0 #Ad">chokoishe.chor.cheol.chol.dolody</line>
+					</zone>
+				</surface>
+			</surfaceGrp>
+			<surfaceGrp n="f3" type="leaf">
+				<surface n="3r" type="recto">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 5</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: crassulatea (Cretan Dittany) -->
+					<!-- 20 normal lines of text -->
+					<zone ulx="353" uly="501" lrx="1340" lry="1352" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">tsheos.qopal.chol.cthol.daimg</line>
+						<line n="2" rendition="#P0 #Ad">ycheor.chor.dam.qotcham.cham</line>
+						<line n="3" rendition="#P0 #Ad">ochor.qocheor.chol.daiin.cthy</line>
+						<line n="4" rendition="#P0 #Ad">schey.chor.chal.chag.cham.cho</line>
+						<line n="5" rendition="#P0 #Ad">qokol.chololy.s.cham.cthol</line>
+						<line n="6" rendition="#P0 #Ad">ychtaiin.chor.cthom.otaldam</line>
+						<line n="7" rendition="#P0 #Ad">otchol.qodaiin.chom.shom.damo</line>
+						<line n="8" rendition="#P0 #Ad">ysheor.chor.chol.oky.dago</line>
+						<line n="9" rendition="#P0 #Ad">sho.vor.sheoldam.otchody.ol</line>
+						<line n="10" rendition="#P0 #Ad">ydar.cholcthom</line>
+					</zone>
+					<zone ulx="333" uly="1569" lrx="1600" lry="1960" hand="#scribe1" xml:lang="A">
+						<line n="11" rendition="#P0 #Ad">pcheol.shol.sols.sheol.shey</line>
+						<line n="12" rendition="#P0 #Ad">okadaiin.qokchor.qo,schodam.octhy</line>
+						<line n="13" rendition="#P0 #Ad">qokeey.qot,shey.qokody.qokshey.cheody</line>
+						<line n="14" rendition="#P0 #Ad">chor.qodair.okeey.qokeey</line>
+					</zone>
+					<zone ulx="345" uly="1936" lrx="2228" lry="2205" hand="#scribe1" xml:lang="A">
+						<line n="15" rendition="#P0 #Ad">tsheoarom.shor.or.chor.olchsy.chom.otchom<figure/>oporar</line>
+						<line n="16" rendition="#P0 #Ad">oteol.chol.s.cheol.ekshy.qokeom.qokol.daiin<figure/>soleeg</line>
+						<line n="17" rendition="#P0 #Ad">soeom.okeom.yteody.qokeeodal.sam</line>
+					</zone>
+					<zone ulx="304" uly="2208" lrx="2256" lry="2524" hand="#scribe1" xml:lang="A">
+						<line n="18" rendition="#P0 #Ad">pcheoldom.shodaiin.qopchor.qopol.opchol,qoty<figure/>otolom</line>
+						<line n="19" rendition="#P0 #Ad">otchor.ol,cheor.qoeor.dair.qoteol.qosaiin<figure/>chor.cthy</line>
+						<line n="20" rendition="#P0 #Ad">ycheor.chol.odaiin.chol.s.aiin.okol,or.am</line>
+					</zone>
+				</surface>
+				<surface n="3v" type="verso">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006081/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 6</label>
+					<!-- Currier's language A, hand 1 -->
+					<label>Herbal</label>
+					<!-- Two paragraphs of text, left of plant picture -->
+					<!-- Same root as f100v [1,1] (Petersen -->
+					<zone lry="919" lrx="1990" uly="376" ulx="614" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">koaiin.cphor.qotoy.sha.ckhol.ykoaiin.s.oly</line>
+						<line n="2" rendition="#P0 #Ad">daiidy.qoteeol.okeeor.okor.olytol.dol,dar</line>
+						<line n="3" rendition="#P0 #Ad">okom.chol.shol.seees.chom.cheeykam.okai</line>
+						<line n="4" rendition="#P0 #Ad">qodar.ees.eey.kcheol.okal.do.r.chear,een</line>
+						<line n="5" rendition="#P0 #Ad">ychear.otchal.cho,r.char.ckh[a:y]</line>
+						<line n="6" rendition="#P0 #Ad">or.cheor.kor.chodaly.chom</line>
+					</zone>
+					<zone lry="1638" lrx="1914" uly="914" ulx="600" hand="#scribe1" xml:lang="A">
+						<line n="7" rendition="#P0 #Ad">tchor.otcham.chor.cfham.s</line>
+						<line n="8" rendition="#P0 #Ad">ykchy.kchom.chor.chckhol.oka</line>
+						<line n="9" rendition="#P0 #Ad">ytcheear.okeol.cthodoaly.chor.cthy</line>
+						<line n="10" rendition="#P0 #Ad">ochos.daiin.qokshol.daiim.chol.okary</line>
+						<line n="11" rendition="#P0 #Ad">sho.shockho.ckhy.tchor.chodaiin.chom</line>
+						<line n="12" rendition="#P0 #Ad">osh.chodair.ytchy.tchor.kcham.s</line>
+						<line n="13" rendition="#P0 #Ad">shar.shkaiin.qokchy.yty.cthal.chky</line>
+						<line n="14" rendition="#P0 #Ad">dain.sheam.y,keam</line>
+					</zone>
+				</surface>
+			</surfaceGrp>
+			<surfaceGrp n="f4" type="leaf">
+				<surface n="4r" type="recto">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006082/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C> -->
+					<label>PAGE 7</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: Hypericum; Centaurium Erythaea (O'Neill) -->
+					<!-- Two paragraphs of text, flower cuts through top one -->
+					<zone lry="781" lrx="2137" uly="372" ulx="414" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">kodalchy.chpady.sheol.ol,sheey.qotey<figure/>doiin.chor.ytoy</line>
+						<line n="2" rendition="#P0 #Ad">dchor.shol.shol.cthol.shtchy.chaiin.£s<figure/>choraiin.chom</line>
+						<line n="3" rendition="#P0 #Ad">otchol.chol.chy.chaiin.qotaiin<figure/>daiin.shain</line>
+						<line n="4" rendition="#P0 #Ad">qotchol,chy.yty.daiin.okaiin.cthy</line>
+					</zone>
+					<zone lry="1609" lrx="1341" uly="800" ulx="450" hand="#scribe1" xml:lang="A">
+						<line n="5" rendition="#P0 #Ad">pydaiin.qotchy.dy,tydy</line>
+						<line n="6" rendition="#P0 #Ad">chor.shytchy.dytcheey</line>
+						<line n="7" rendition="#P0 #Ad">qotaiin.cthol.daiin.cthom</line>
+						<line n="8" rendition="#P0 #Ad">shor.shol.shol.cthy.cpholdy</line>
+						<line n="9" rendition="#P0 #Ad">daiin.ckhochy.tchy.kor,aiin</line>
+						<line n="10" rendition="#P0 #Ad">odal.shor.shyshol.cphaiin</line>
+						<line n="11" rendition="#P0 #Ad">qotchoiin.she[o:a]r.qoty</line>
+						<line n="12" rendition="#P0 #Ad">soiin.chaiin.chaiin</line>
+						<line n="13" rendition="#P0 #Ad">daiin.cthey</line>
+					</zone>
+				</surface>
+				<surface n="4v" type="verso">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006083/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 8</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: Convulvula Ipomea? (climbing plant) -->
+					<!-- Two paragraphs, top one split by plant -->
+					<zone lry="928" lrx="2438" uly="366" ulx="676" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">pchooiin.ksheo.kchoy.chopchy.dolds<figure/>dlod</line>
+						<line n="2" rendition="#P0 #Ad">ol.chey.chy.cthy.shkchor.sheo.cheory<figure/>choldy</line>
+						<line n="3" rendition="#P0 #Ad">sho.sho.chaiin.shaiin.daiin.qodaiin<figure/>o,aram</line>
+						<line n="4" rendition="#P0 #Ad">qok[sh:ch]y.qocthy.choteol.daiin.cthey<figure/>choaiin</line>
+						<line n="5" rendition="#P0 #Ad">shor.sheey.{cto}.otoiin.shey.qotchoiin<figure/>chodain</line>
+						<line n="6" rendition="#P0 #Ad">ytchoy.shokchy.cphody</line>
+					</zone>
+					<zone lry="1642" lrx="2004" uly="933" ulx="690" hand="#scribe1" xml:lang="A">
+						<line n="7" rendition="#P0 #Ad">torchy.sheeor.chor.chokch[y:e].cphydy</line>
+						<line n="8" rendition="#P0 #Ad">oleeeb.chor.cthol.sho.otor.cthory</line>
+						<line n="9" rendition="#P0 #Ad">qooko,iiin,cheog.chcthy.shoky.daiin</line>
+						<line n="10" rendition="#P0 #Ad">otaiin.sheo.okeody.chol,chokeody</line>
+						<line n="11" rendition="#P0 #Ad">sho.kcheor.shody.shtaiin.qotol,daiin</line>
+						<line n="12" rendition="#P0 #Ad">qokey.sho.okeol.s,keey.shar,char,ody</line>
+						<line n="13" rendition="#P0 #Ad">shody.s.cheor.chokody.shodaiin.qoty</line>
+						<line n="14" rendition="#P0 #Ad">ochody.chy,key.chtody</line>
+					</zone>
+				</surface>
+			</surfaceGrp>
+			<surfaceGrp n="f5" type="leaf">
+				<surface n="5r" type="recto">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006084/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 9</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: [Herba] Paris, Indian Cucumber? -->
+					<!-- Two paragraphs -->
+					<zone points="386,472 2041,568 2050,913 404,845" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">kchody.fchoy.chkoy.oaiin.oar,olsy.chody.dkshy,dy</line>
+						<line n="2" rendition="#P0 #Ad">ochey.okey.qokaiin.sho.ckhoy.cthey.chey.ok[a:y]{ƒo}s.otol</line>
+						<line n="3" rendition="#P0 #Ad">qoaiin.otan,chy.daiin.oteeeb.chocthy.otchy.qotchody</line>
+						<line n="4" rendition="#P0 #Ad">otain.sheody.chan.s.cheor.chocthy</line>
+					</zone>
+					<zone points="386,840 2077,909 2059,1181 404,1150" hand="#scribe1" xml:lang="A">
+						<line n="5" rendition="#P0 #Ad">tchy.shody.qoaiin.cholols.sho.qotcheo.daiin.shodaiin</line>
+						<line n="6" rendition="#P0 #Ad">sho.cheor,chey.qoeeey.qoykeeey.qoeor.cthy.shotshy.dy</line>
+						<line n="7" rendition="#P0 #Ad">qotoeey.keey.cheo,kchy.shody</line>
+					</zone>
+				</surface>
+				<surface n="5v" type="verso">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006085/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 10</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: Paretaria Urtica (O'Neill) -->
+					<!-- Only one paragraph of text -->
+					<zone lry="1204" lrx="2339" uly="561" ulx="672" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">k,o,cheor.chor.ytchey.pshod.chols.chodaiin.ytoiiin.daiin</line>
+						<line n="2" rendition="#P0 #Ad">dchol.{c'y}.chol.otaiin.dain.cthor.chots.ychopordg</line>
+						<line n="3" rendition="#P0 #Ad">qotcho.ytor.daiin.daiin.otchor.daiin.q'o.darchor.do</line>
+						<line n="4" rendition="#P0 #Ad">qotor.shees.otol.ykoiin.shol,daiin.cthor.okch,y,taiin</line>
+						<line n="5" rendition="#P0 #Ad">shokeeol.chor.cheotol.otchol.daiin.dal.chol,chotaiin</line>
+						<line n="6" rendition="#P0 #Ad">otol.chol.dairodg</line>
+					</zone>
+				</surface>
+			</surfaceGrp>
+			<surfaceGrp n="f6" type="leaf">
+				<surface n="6r" type="recto">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006086/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 11</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: Asclepiades, but with wrong leaves (of Pediculum) -->
+					<!-- One paragraph with 14 lines, plant cutting through -->
+					<zone lry="1486" lrx="2150" uly="254" ulx="395" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">foar.y.shol.cholor.cphol.chor.ch{ck}<figure/>chopchol.otcham</line>
+						<line n="2" rendition="#P0 #Ad">daiin.chckhy.chor.chor.kar.cthy<figure/>cthor.chotols</line>
+						<line n="3" rendition="#P0 #Ad">foeear.kshor.choky.os.cheoeees<figure/>ykeor.ytaiin.dam</line>
+						<line n="4" rendition="#P0 #Ad">dar.cho,s.sheor.cho{ith}y.otcham<figure/>yaiir.chy</line>
+						<line n="5" rendition="#P0 #Ad">t[a:o]r.okoiin.shees.ytaly.cthaiin<figure/>odam</line>
+						<line n="6" rendition="#P0 #Ad">or.al.daiin.ckham.okom.cthaiin<figure/>ydaiin</line>
+						<line n="7" rendition="#P0 #Ad">daiin.qodaiin.cho.s.chol.okaiin.s</line>
+						<line n="8" rendition="#P0 #Ad">ychol.ckhor.pchar.sheo.ckhaiin</line>
+						<line n="9" rendition="#P0 #Ad">dar.sheol.skaiiodar.otaiin.chory</line>
+						<line n="10" rendition="#P0 #Ad">tchor.ctheod.chy.shor.od,she.od</line>
+						<line n="11" rendition="#P0 #Ad">ychar.olchaj.ol.chokaiin</line>
+						<line n="12" rendition="#P0 #Ad">or.shol.cthom.chor.cthy</line>
+						<line n="13" rendition="#P0 #Ad">qocthol.[y:q]odaiin.cthy</line>
+						<line n="14" rendition="#P0 #Ad">ysho.taiin.y,kaiim</line>
+					</zone>
+				</surface>
+				<surface n="6v" type="verso">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006087/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 12</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: blackgum tree?, arctium? Bidens(sp?)kyptis (O'Neill), -->
+					<!-- (castor oil busk, ricinus?) -->
+					<!-- 21 lines in apparently two paragraphs -->
+					<zone lry="838" lrx="2329" uly="371" ulx="548" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">koary,sar.[ch:{oh}]eekar<note type="comment">funny o, ö?</note>.qoor.shor.chapchy.s.chear.char.otchy</line>
+						<line n="2" rendition="#P0 #Ad">oees.chor.chckhy.qoekchar.chea[s:r].odaiiin.kchey.chor,chaiin</line>
+						<line n="3" rendition="#P0 #Ad">qoair.ckhy.chol.oechockhy.chekchoy.ckhy.okol<figure/>rychos</line>
+						<line n="4" rendition="#P0 #Ad">y,shckhy.ytchoy.s.os.y.jajy.dchy.dey.okody<figure/>ytody</line>
+						<line n="5" rendition="#P0 #Ad">dair.{c'ha},chodam.dam.okor.oty<figure/>doldom</line>
+					</zone>
+					<zone lry="2147" lrx="1453" uly="828" ulx="558" hand="#scribe1" xml:lang="A">
+						<line n="6" rendition="#P0 #Ad">tchody.shocthol.cho{cthh}y.s</line>
+						<line n="7" rendition="#P0 #Ad">ychos.ychol.daiin.cthol.dol</line>
+						<line n="8" rendition="#P0 #Ad">ychor.chor.okchey.qokom</line>
+						<line n="9" rendition="#P0 #Ad">oeeo,dal.chor.cthom.s</line>
+						<line n="10" rendition="#P0 #Ad">qokchod.ychear.kchdy</line>
+						<line n="11" rendition="#P0 #Ad">lor.char.otam.ctho,m,dy</line>
+						<line n="12" rendition="#P0 #Ad">ytcho[s:r].shy.qokam.cthy</line>
+						<line n="13" rendition="#P0 #Ad">yodaiin.cthy.s.chor.oees.or</line>
+						<line n="14" rendition="#P0 #Ad">qokor.chol.cthol.tchalody</line>
+						<line n="15" rendition="#P0 #Ad">chockhy.s.or.chy.s,ain.ar</line>
+						<line n="16" rendition="#P0 #Ad">ochy.cthar.cth[a:o]r.cthy</line>
+						<line n="17" rendition="#P0 #Ad">y,chaies.ckhal.cthodam.dy</line>
+						<line n="18" rendition="#P0 #Ad">ytchocthol.ches.{ith}or</line>
+						<line n="19" rendition="#P0 #Ad">ocholy.kchos.chy.dor</line>
+						<line n="20" rendition="#P0 #Ad">dchor.choldar.okol.daiin</line>
+						<line n="21" rendition="#P0 #Ad">ycheor.chor.octham</line>
+					</zone>
+				</surface>
+			</surfaceGrp>
+			<surfaceGrp n="f7" type="leaf">
+				<surface n="7r" type="recto">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006088/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 13</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Pland ID: Nymphaea alba -->
+					<!-- 10 lines in two paragraphs, both cut by plant -->
+					<zone lry="759" lrx="2186" uly="236" ulx="450" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">fchodaiin.shopchey.qko<figure/>shey.qoos.sheey.charochy</line>
+						<line n="2" rendition="#P0 #Ad">dcheey.keo.r.shor.dold<figure/>dchey.kchey.otchy.cheody</line>
+						<line n="3" rendition="#P0 #Ad">oeeees.cheodaiin.sheey<figure/>ytcheey.qotchy.chald</line>
+						<line n="4" rendition="#P0 #Ad">qokcho.cho.lochey.daiin<figure/>ychey.kchos.odaiin</line>
+						<line n="5" rendition="#P0 #Ad">oaiir<figure/>otaiin</line>
+					</zone>
+					<zone lry="2622" lrx="2186" uly="2095" ulx="509" hand="#scribe1" xml:lang="A">
+						<line n="6" rendition="#P0 #Ad">ksholo,chey.qotoees.chkoldy<figure/>otchor.choaiin</line>
+						<line n="7" rendition="#P0 #Ad">dshoy.cthol.chol.otchol.dain<figure/>shody.shol.chotchy</line>
+						<line n="8" rendition="#P0 #Ad">okchey.deeeese.choty.qokchy<figure/>shol.keey.choty.dain</line>
+						<line n="9" rendition="#P0 #Ad">qokechy.ol,choiin.chol.cphey<figure/>shckhy.chochy.kchod</line>
+						<line n="10" rendition="#P0 #Ad">s,chain.chor.daiin.chckhy</line>
+					</zone>
+				</surface>
+				<surface n="7v" type="verso">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006089/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 14</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: polygonum persicaria, potentilla silvestris, oculus christi -->
+					<!-- 9 lines, two paragraphs, plant intrudes in bottom paragraph -->
+					<zone points="538,300 2257,361 2271,900 566,833" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">polyshy.shey.tchody.qopchy.otshol.dy.daiin.tshodody</line>
+						<line n="2" rendition="#P0 #Ad">chochy.cthy.daiin.qoky.ch{cphh}y.daiin.cthol.cthy.cthd</line>
+						<line n="3" rendition="#P0 #Ad">qokchy.dykchy.chkeey.kshy.ky.ty.dor.cheey.o,l,cheol,dy</line>
+						<line n="4" rendition="#P0 #Ad">choteeeb.oeear.choschy.dain.sho.kshy.shol.deees.dol</line>
+						<line n="5" rendition="#P0 #Ad">dchodaiin.qotchy.cheey.tcheey</line>
+					</zone>
+					<zone points="571,1209 2300,1266 2281,900 562,814" hand="#scribe1" xml:lang="A">
+						<line n="6" rendition="#P0 #Ad">kchor.sheod.sheodaiin.sho,daiin.oksho,lshol.dair.qos</line>
+						<line n="7" rendition="#P0 #Ad">okshodeeeb.chorcheor,odaiin.shotch[o:?]<figure/>dol.dol.dor.aiin</line>
+						<line n="8" rendition="#P0 #Ad">qoteeeo.r.cho,cheeody.qotchey.tey<figure/>o,kcho,r.daiin</line>
+						<line n="9" rendition="#P0 #Ad">sho.keeo.daiir.chokchy.dor.deol.dy<figure/>dol,daiin</line>
+					</zone>
+				</surface>
+			</surfaceGrp>
+			<surfaceGrp n="f8" type="leaf">
+				<surface n="8r" type="recto">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006090/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 15</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- Plant ID: Praenanthes (O'Neill), Atriplex hastata (spinach?)(Voynich) -->
+					<!-- Hedera Helix (RZ) -->
+					<!-- last word(s) in each paragraph flushed to the right (signatures?) -->
+					<zone points="327,990 2145,1240 2109,1863 341,1781" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">pshol.chor.otshal.chopy<figure/>cph[o:a]l.chody.shy.cfhodar.shor</line>
+						<line n="2" rendition="#P0 #Ad">tchty.sh,kcheals.sho<figure/>okche.do.dchy.dain.al</line>
+						<line n="3" rendition="#P0 #Ad">chodar.shy.sy<figure/>chodaiin.shokchy.chor.dy</line>
+						<line n="4" rendition="#P0 #Ad">qotor.chor.chor.sheey<figure/>dchol.shesed.chof.chy.dam</line>
+						<line n="5" rendition="#P0 #Ad">okchey.do.r.cheeey.dy.ky<figure/>scho.chky.{ck}ooaiin.ch[y:a],taiin</line>
+						<line n="6" rendition="#P0 #Ad">tosh.{ck}cheey.koltoldy<figure/>shy.choety.cheeody.sol</line>
+						<line n="7" rendition="#P0 #Ad">choto.kchoan.choor.dain</line>
+						<line n="8" rendition="#Pt #Aq">dcho.dain</line>
+					</zone>
+					<zone points="327,2200 2105,2259 2109,1872 341,1781" hand="#scribe1" xml:lang="A">
+						<line n="9" rendition="#P0 #As">tchoep.sho.pcheey.pchey<figure/>ofchey.dsheey.sholdaiin.shor</line>
+						<line n="10" rendition="#P0 #Ad">daiin.cheey.teeodan.dy<figure/>cheocthy.oksheo.dol.dairg</line>
+						<line n="11" rendition="#P0 #Ad">shol.cheodaiin.daiin.do<figure/>y,tchody.chot.choty.otariin</line>
+						<line n="12" rendition="#P0 #Ad">qo,chodaiin.shotokody<figure/>chotol</line>
+						<line n="13" rendition="#Pt #Aq">okokchodg</line>
+					</zone>
+					<zone points="318,2218 2105,2322 2141,3009 314,2931" hand="#scribe1" xml:lang="A">
+						<line n="14" rendition="#P0 #As">{c„h}o.{cÄh}ey.shol.chofydy<figure/>sho.chey.kshey.lody.cholal</line>
+						<line n="15" rendition="#P0 #Ad">dchey.ckhol.chol.chey.kc{cs}<figure/>chy.{cto}daiin.dol.daiiir[{ih}:ch]y.ckhy</line>
+						<line n="16" rendition="#P0 #Ad">ychey.kch[e:o]kchy.chsey,kchy<figure/>scheaiin.cthai{ih}ar.cthy.dar</line>
+						<line n="17" rendition="#P0 #Ad">chol.dchy.qokar.chl<figure/>aiin.chean.{ck}y.char.chaiin</line>
+						<line n="18" rendition="#P0 #Ad">okar.cfhaiin.chaiin.{cl}<figure/>daiin.chor.cha.rchealcham</line>
+						<line n="19" rendition="#P0 #Ad">sair.cheain.cphol.dar<figure/>shol.kaiin.shol.kaiin.dai,kam</line>
+						<line n="20" rendition="#P0 #Ad">or.cho,kesey.shey.o.kal<figure/>chal</line>
+						<line n="21" rendition="#Pt #Aq">schol.saim</line>
+					</zone>
+				</surface>
+				<surface n="8v" type="verso">
+					<graphic url="https://collections.library.yale.edu/iiif/2/1006091/full/full/0/default.jpg"/>
+					<!-- $Q=A $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1> -->
+					<label>PAGE 16</label>
+					<label>Herbal</label>
+					<!-- Currier's language A, hand 1 -->
+					<!-- gathering mark 1: 13mg (Primus) -->
+					<!-- end of quire I -->
+					<!-- Plant ID: Silene -->
+					<zone lry="1490" lrx="2353" uly="304" ulx="458" hand="#scribe1" xml:lang="A">
+						<line n="1" rendition="#P0 #At">{cØh}od.soo{cÄh}<figure/>sol.shol.otol.chol.opcheaiin.opydaiin.saiin</line>
+						<line n="2" rendition="#P0 #Ad">shcthal.sar<figure/>chor.sheaiin.shor.chykchy.otaiin.{ct}y</line>
+						<line n="3" rendition="#P0 #Ad">qody.cheal.sy<figure/>chory<figure/>chear.shol.chaiin.shaiin.dolas</line>
+						<line n="4" rendition="#P0 #Ad">dshol.shol<figure/>dol<figure/>chean.cthar.shealy.daiin.chary</line>
+						<line n="5" rendition="#P0 #Ad">chol.chol.dar<figure/>otchar.etaiin.cthol.dar</line>
+						<line n="6" rendition="#P0 #Ad">daiin.cthan<figure/>ytchy.chey,kaiin.dain.ar</line>
+						<line n="7" rendition="#P0 #Ad">sho.kchol<figure/>dar.shey.cthar.chotain.ry</line>
+						<line n="8" rendition="#P0 #Ad">okcholksh<figure/>chol.chol.chol.cthaiin.dain</line>
+						<line n="9" rendition="#P0 #Ad">shol.orchl<figure/>chokchy.chol.cthor.chaiin</line>
+						<line n="10" rendition="#P0 #Ad">scharchy<figure/>oeesody.kchey.pchy.cpharom</line>
+						<line n="11" rendition="#P0 #Ad">sorain</line>
+					</zone>
+					<zone lry="3171" lrx="2386" uly="2490" ulx="472" hand="#scribe1" xml:lang="A">
+						<line n="12" rendition="#P0 #Ad">pchar.cho.rol.dal<figure/>shear.chchotaiin.chal.daiin</line>
+						<line n="13" rendition="#P0 #Ad">kchor.otchar.oky<figure/>chokain.keoky.otorchy.satar</line>
+						<line n="14" rendition="#P0 #Ad">shor.okol.lokaiin<figure/>shol.kol.char.cthey.tchy.ckham</line>
+						<line n="15" rendition="#P0 #Ad">or.chol.chan.ch{ck}y<figure/>chor.cheain.char.cheeky.chor.ry</line>
+						<line n="16" rendition="#P0 #Ad">chor.cheor.chear<figure/>oteey.dchor.chodey.cho.raiin</line>
+						<line n="17" rendition="#P0 #Ad">dain.chear.daiin</line>
+					</zone>
+				</surface>
+			</surfaceGrp>
+		</surfaceGrp>
         <surfaceGrp n="2" type="quire" facs="imageScansVoynichMS/quireScan_pdf/quire_02.pdf">
             <surfaceGrp n="f9" type="leaf">
                 <surface type="recto" n="9r">

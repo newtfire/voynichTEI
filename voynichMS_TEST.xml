@@ -539,14 +539,14 @@
 					<!-- Currier's language A, hand 1 -->
 					<!-- Pland ID: Nymphaea alba -->
 					<!-- 10 lines in two paragraphs, both cut by plant -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="759" lrx="2186" uly="236" ulx="450" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">fchodaiin.shopchey.qko<figure/>shey.qoos.sheey.charochy</line>
 						<line n="2" rendition="#P0 #Ad">dcheey.keo.r.shor.dold<figure/>dchey.kchey.otchy.cheody</line>
 						<line n="3" rendition="#P0 #Ad">oeeees.cheodaiin.sheey<figure/>ytcheey.qotchy.chald</line>
 						<line n="4" rendition="#P0 #Ad">qokcho.cho.lochey.daiin<figure/>ychey.kchos.odaiin</line>
 						<line n="5" rendition="#P0 #Ad">oaiir<figure/>otaiin</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="2622" lrx="2186" uly="2095" ulx="509" hand="#scribe1" xml:lang="A">
 						<line n="6" rendition="#P0 #Ad">ksholo,chey.qotoees.chkoldy<figure/>otchor.choaiin</line>
 						<line n="7" rendition="#P0 #Ad">dshoy.cthol.chol.otchol.dain<figure/>shody.shol.chotchy</line>
 						<line n="8" rendition="#P0 #Ad">okchey.deeeese.choty.qokchy<figure/>shol.keey.choty.dain</line>
@@ -562,14 +562,14 @@
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: polygonum persicaria, potentilla silvestris, oculus christi -->
 					<!-- 9 lines, two paragraphs, plant intrudes in bottom paragraph -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="538,300 2257,361 2271,900 566,833" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">polyshy.shey.tchody.qopchy.otshol.dy.daiin.tshodody</line>
 						<line n="2" rendition="#P0 #Ad">chochy.cthy.daiin.qoky.ch{cphh}y.daiin.cthol.cthy.cthd</line>
 						<line n="3" rendition="#P0 #Ad">qokchy.dykchy.chkeey.kshy.ky.ty.dor.cheey.o,l,cheol,dy</line>
 						<line n="4" rendition="#P0 #Ad">choteeeb.oeear.choschy.dain.sho.kshy.shol.deees.dol</line>
 						<line n="5" rendition="#P0 #Ad">dchodaiin.qotchy.cheey.tcheey</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="571,1209 2300,1266 2281,900 562,814" hand="#scribe1" xml:lang="A">
 						<line n="6" rendition="#P0 #Ad">kchor.sheod.sheodaiin.sho,daiin.oksho,lshol.dair.qos</line>
 						<line n="7" rendition="#P0 #Ad">okshodeeeb.chorcheor,odaiin.shotch[o:?]<figure/>dol.dol.dor.aiin</line>
 						<line n="8" rendition="#P0 #Ad">qoteeeo.r.cho,cheeody.qotchey.tey<figure/>o,kcho,r.daiin</line>
@@ -587,7 +587,7 @@
 					<!-- Plant ID: Praenanthes (O'Neill), Atriplex hastata (spinach?)(Voynich) -->
 					<!-- Hedera Helix (RZ) -->
 					<!-- last word(s) in each paragraph flushed to the right (signatures?) -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="327,990 2145,1240 2109,1863 341,1781" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">pshol.chor.otshal.chopy<figure/>cph[o:a]l.chody.shy.cfhodar.shor</line>
 						<line n="2" rendition="#P0 #Ad">tchty.sh,kcheals.sho<figure/>okche.do.dchy.dain.al</line>
 						<line n="3" rendition="#P0 #Ad">chodar.shy.sy<figure/>chodaiin.shokchy.chor.dy</line>
@@ -597,14 +597,14 @@
 						<line n="7" rendition="#P0 #Ad">choto.kchoan.choor.dain</line>
 						<line n="8" rendition="#Pt #Aq">dcho.dain</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="327,2200 2105,2259 2109,1872 341,1781" hand="#scribe1" xml:lang="A">
 						<line n="9" rendition="#P0 #As">tchoep.sho.pcheey.pchey<figure/>ofchey.dsheey.sholdaiin.shor</line>
 						<line n="10" rendition="#P0 #Ad">daiin.cheey.teeodan.dy<figure/>cheocthy.oksheo.dol.dairg</line>
 						<line n="11" rendition="#P0 #Ad">shol.cheodaiin.daiin.do<figure/>y,tchody.chot.choty.otariin</line>
 						<line n="12" rendition="#P0 #Ad">qo,chodaiin.shotokody<figure/>chotol</line>
 						<line n="13" rendition="#Pt #Aq">okokchodg</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="318,2218 2105,2322 2141,3009 314,2931" hand="#scribe1" xml:lang="A">
 						<line n="14" rendition="#P0 #As">{c„h}o.{cÄh}ey.shol.chofydy<figure/>sho.chey.kshey.lody.cholal</line>
 						<line n="15" rendition="#P0 #Ad">dchey.ckhol.chol.chey.kc{cs}<figure/>chy.{cto}daiin.dol.daiiir[{ih}:ch]y.ckhy</line>
 						<line n="16" rendition="#P0 #Ad">ychey.kch[e:o]kchy.chsey,kchy<figure/>scheaiin.cthai{ih}ar.cthy.dar</line>
@@ -624,7 +624,7 @@
 					<!-- gathering mark 1: 13mg (Primus) -->
 					<!-- end of quire I -->
 					<!-- Plant ID: Silene -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1490" lrx="2353" uly="304" ulx="458" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">{cØh}od.soo{cÄh}<figure/>sol.shol.otol.chol.opcheaiin.opydaiin.saiin</line>
 						<line n="2" rendition="#P0 #Ad">shcthal.sar<figure/>chor.sheaiin.shor.chykchy.otaiin.{ct}y</line>
 						<line n="3" rendition="#P0 #Ad">qody.cheal.sy<figure/>chory<figure/>chear.shol.chaiin.shaiin.dolas</line>
@@ -637,7 +637,7 @@
 						<line n="10" rendition="#P0 #Ad">scharchy<figure/>oeesody.kchey.pchy.cpharom</line>
 						<line n="11" rendition="#P0 #Ad">sorain</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="3171" lrx="2386" uly="2490" ulx="472" hand="#scribe1" xml:lang="A">
 						<line n="12" rendition="#P0 #Ad">pchar.cho.rol.dal<figure/>shear.chchotaiin.chal.daiin</line>
 						<line n="13" rendition="#P0 #Ad">kchor.otchar.oky<figure/>chokain.keoky.otorchy.satar</line>
 						<line n="14" rendition="#P0 #Ad">shor.okol.lokaiin<figure/>shol.kol.char.cthey.tchy.ckham</line>
@@ -708,14 +708,14 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Scabiosa -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="863" lrx="2000" uly="359" ulx="363" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">pchocthy.shor.octhody.chorchy.pchodol.chopchal.ypch,kom</line>
 						<line n="2" rendition="#P0 #Ad">dchey.cthoor.char.chty.os,chair.otytchol.oky.daiin.etyd</line>
 						<line n="3" rendition="#P0 #Ad">qotor.o,tchy.daiin.chocthy.qotchy.chol.or.yty.dy.dy</line>
 						<line n="4" rendition="#P0 #Ad">sor.chaiin.chcthy.ctho,ckhy.or.aiin.chtchor.do[iir:iin].ody</line>
 						<line n="5" rendition="#P0 #Ad">qokchy.qotchol.chol.cthy</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1477" lrx="2000" uly="868" ulx="423" hand="#scribe1" xml:lang="A">
 						<line n="6" rendition="#P0 #Ad">ycheor.cthy.chor.cthaiin.qoctholy.dy<figure/>chy.taiin.shy</line>
 						<line n="7" rendition="#P0 #Ad">dchy.qokchol.y,kchaiin.yty.daiin.cth<figure/>dain.dair,am</line>
 						<line n="8" rendition="#P0 #Ad">qotchor.chor.otol.chol.cholor<figure/>chol.daiin.dar</line>
@@ -732,12 +732,12 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Hellebore? orientalis -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="738" lrx="2581" uly="395" ulx="904" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">paiin,daiin.sheo.pcheey.qoty.daiin.cthor.otydy.sain</line>
 						<line n="2" rendition="#P0 #Ad">dain.daiin.ckhy.chcthor.choiin.qot.chodaiin.cthy.daiin</line>
 						<line n="3" rendition="#P0 #Ad">dsho.ytey.kchol.ol,ty.chol.dy</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1080" lrx="2571" uly="723" ulx="938" hand="#scribe1" xml:lang="A">
 						<line n="4" rendition="#P0 #Ad">qotchytor.shoiin.daiin.qotchey.sh{cthh}y.ytor.dain</line>
 						<line n="5" rendition="#P0 #Ad">sho,ykeey.daiin.qotchy.qotor.chol.daiin.qokchy,ky</line>
 						<line n="6" rendition="#P0 #Ad">shoiin.chor.shcthy.qoty.qotoiin.qokol.chor,aiin</line>
