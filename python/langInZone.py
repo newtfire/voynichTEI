@@ -6,7 +6,7 @@ import re
 # Your sample TEI data
 
 with open('../voynichMS_TEST.xml', 'r', encoding="utf-8") as file:
-    xml_data = file.read()
+    filedata = file.read()
 
 def process_tei_langs(xml_string):
     parser = etree.XMLParser(remove_blank_text=False)
@@ -45,7 +45,7 @@ def process_tei_langs(xml_string):
 
 
 # Run the function
-new_xml = process_tei_langs(xml_data)
+new_xml = process_tei_langs(filedata)
 
 
 # Optional: Save to a file

@@ -9,6 +9,10 @@
     * `<unclear><choice>s</choice><choice><unclear></choice></unclear>`?
 1. How do we mark valid characters of the transliteration alphabet
     * `<reg>`?
+1. How do we mark missing folios?
+    * `<incident>`?
+    * Folio 12 is missing but there is evidence that it was once there
+
 
 
 

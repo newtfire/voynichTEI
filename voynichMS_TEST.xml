@@ -753,13 +753,13 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Silene Aca[ul|nt]is (O'N) -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="781" lrx="2069" uly="381" ulx="400" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">tshol.schoal.cfhy.shfydaiin.cphy.shey.tchody.shoyty</line>
 						<line n="2" rendition="#P0 #Ad">socthody.qodor,y.kshy.daiin.ytchy.ytchoky.kchol.daiin</line>
 						<line n="3" rendition="#P0 #Ad">qoty.chol.cthy.d[o:a]r.ykychy.choty.dain.chaiin.daiin.d[o:e]d</line>
 						<line n="4" rendition="#P0 #Ad">dchol.chy.kchy.dy.daiin</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1000" lrx="2064" uly="727" ulx="414" hand="#scribe1" xml:lang="A">
 						<line n="5" rendition="#P0 #Ad">tchol.shor.shor.dky.{c'h”h}y.daiin.cthy.d,y,chodl,daiin</line>
 						<line n="6" rendition="#P0 #Ad">odl.d,s,y.otol.chaiin.ykchor.dair.chody.cthy.s.daiin</line>
 						<line n="7" rendition="#P0 #Ad">qotchy.okchol.cthy.dy</line>
@@ -773,7 +773,7 @@
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Leonotus or Leonarus -->
 					<!-- G. Turner's pineapple -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="2542" lrx="2519" uly="1919" ulx="781" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">poldchody.shcphy.shordy.qoty<figure/>shol.cphar.dan,y</line>
 						<line n="2" rendition="#P0 #Ad">shol.dy.chckhy.shcthy.daiin.dam<figure/>ykchy.dain.dchy</line>
 						<line n="3" rendition="#P0 #Ad">otchor.dy.kchy.tchy.[˜:d]ar.qokchd<figure/>oky.choldy,dy</line>
@@ -782,10 +782,10 @@
 						<line n="6" rendition="#P0 #Aq">soydy.qoteey.qot.chor.dy.ddy<figure/>cthor.shy,arg</line>
 						<line n="7" rendition="#P0 #Ad">ycheor.ksho.dor.cthey.s,chold</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
-						<!-- Folio 12 is missing. Its stub is still visible. -->
-					</zone>
 				</surface>
+			</surfaceGrp>
+			<surfaceGrp n="f12" type="leaf">
+				<incident><!-- Folio 12 is missing. Its stub is still visible. --></incident>
 			</surfaceGrp>
 			<surfaceGrp n="f13" type="leaf">
 				<surface n="13r" type="recto">
@@ -795,13 +795,13 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Tussilago petronitas, colto foot (all sp?) -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="357,417 370,791 1939,743 1944,417" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">torshor.opchy.shol.dy.qopchy.shol.opchor.dypchy.dchg</line>
 						<line n="2" rendition="#P0 #Ad">dchol.chol.dol.shkchy.ydal.shy.ykchy.qot[?:ch]y.daiin.s.y</line>
 						<line n="3" rendition="#P0 #Ad">s,y.dchor.shaiin.oeees.ykor.chor.ytshy.ykchy.kchy.dar</line>
 						<line n="4" rendition="#P0 #Ad">qodchy.ytchy.otchor</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="391,1252 378,800 1948,756 1896,1252" hand="#scribe1" xml:lang="A">
 						<line n="5" rendition="#P0 #Ad">shorodo.shy.tshy.kchol.dpchy,qopchy.otchol.cfholdy</line>
 						<line n="6" rendition="#P0 #Ad">tchor.dor.daiin.qotchol.okchy.okchor,oiin.chckhy.d</line>
 						<line n="7" rendition="#P0 #Ad">dchy.qoky.chol.dy.qo{kh}y.d,oldy<figure/>okchor.doaiin</line>
@@ -817,14 +817,14 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Crassulatea Fetthenne(sp?) -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="886,442 843,904 1271,923 1990,871 2005,714 2148,604 2395,600 2405,495" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">koair.chtoiin.otchy.kchod.otol.otchy.octhos</line>
 						<line n="2" rendition="#P0 #Ad">oko.qokol.chodal.otchol.cphol.choty</line>
 						<line n="3" rendition="#P0 #Ad">qokchy.qokod.chy.otchy.cthody</line>
 						<line n="4" rendition="#P0 #Ad">o,l,s.chey.okos.oa[iin:in].okshy.qo{cky}</line>
 						<line n="5" rendition="#P0 #Ad">qoky.daiin</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="719,2190 2443,2319 2419,2747 757,2723" hand="#scribe1" xml:lang="A">
 						<line n="6" rendition="#P0 #Ad">foldaiin.olcphy.shol.dy<figure/>oty.shor.qotyd<figure/>dairod</line>
 						<line n="7" rendition="#P0 #Ad">dain.okal.chy.qokchory<figure/>dchy.kok[y:a]daiin<figure/>shon</line>
 						<line n="8" rendition="#P0 #Ad">otchy.daiin.y,dain.ykol<figure/>okchy.o,kald<figure/>d,y,taiin</line>
@@ -841,7 +841,7 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Pfeilkraut - scorpion, Sagittaria -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1063" lrx="1582" uly="386" ulx="364" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">pcho,daiin.chopol.shoiin.daiin.dain</line>
 						<line n="2" rendition="#P0 #Ad">o,ykeey.soiiin.chok.qokchy.da.okol</line>
 						<line n="3" rendition="#P0 #Ad">ydaiin.olchy.kchor.daiin.olol</line>
@@ -850,7 +850,7 @@
 						<line n="6" rendition="#P0 #Ad">ychol.oir.okor.choor.ockhy</line>
 						<line n="7" rendition="#P0 #Ad">otcho.dain.chckhy</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="2936" lrx="2173" uly="2268" ulx="400" hand="#scribe1" xml:lang="A">
 						<line n="8" rendition="#P0 #Ad">soshy.‰chol.shor.cheos.ykaiin.s</line>
 						<line n="9" rendition="#P0 #Ad">sody.chody.otchody.qotchy,koiin.sy<figure/>sho.ty,dy</line>
 						<line n="10" rendition="#P0 #Ad">qotchor.chod.shoty.chody.dol,dy,dy<figure/>okchydy</line>
@@ -866,7 +866,7 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Osmodei (fern root) -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1276" lrx="2467" uly="328" ulx="709" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">pdychoiin.yfodain.otyshy.dy.ypchor.daiin.kol.ydain</line>
 						<line n="2" rendition="#P0 #Ad">okchor.d,chytshy.oty.chy.cthy.otchy,ty.chol,daiin</line>
 						<line n="3" rendition="#P0 #Ad">ychy,dy.daiin.chcthy.y[k:t],ykaiin.dytchy.{ykhh}y.ky,dy</line>
@@ -887,7 +887,7 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Saw/Some thistle? -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1818" lrx="1895" uly="472" ulx="263" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">tshor.shey.tchaly<figure/>shy.chtols.shey.daiin</line>
 						<line n="2" rendition="#P0 #Ad">otchor.qokchor.oly<figure/>okor.shy.koly</line>
 						<line n="3" rendition="#P0 #Ad">qokaiin.qotchy,tydy<figure/>daiin.chol.cthy</line>
@@ -913,7 +913,7 @@
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Herba Paris (liliacesus), Herba Mortis -->
 					<!-- Leaves = Aconitum / Paris Quadrifolia (O'Neill) -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1657" lrx="1958" uly="538" ulx="772" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">poror.orshy.choiin.dtchan.opchordy</line>
 						<line n="2" rendition="#P0 #Ad">Šchor.or.oro.r,aiin.cthy.[?:t]ain,dar</line>
 						<line n="3" rendition="#P0 #Ad">cthor.daiin.qokor.okeor.okaiin</line>
@@ -937,20 +937,20 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- Plant ID: Canabis, Hemp, Ampfer(?) -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="786" lrx="2323" uly="381" ulx="345" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">pocheody.qopchey.sykaiin.opchy,dor.ychy<figure/>daiin.dy<figure/>chor.orom</line>
 						<line n="2" rendition="#P0 #Ad">ychykchy.otey<note type="comment">corr?</note>.kol.shor.ody.otody.qoy<figure/>oeesordy</line>
 						<line n="3" rendition="#P0 #Ad">ydor.sheal.okchy.qoy,koiin.choky.ykair</line>
 						<line n="4" rendition="#Pc #Ad">dainod.ychealod</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1168" lrx="1600" uly="763" ulx="368" hand="#scribe1" xml:lang="A">
 						<line n="5" rendition="#P0 #As">tchor.chor.chs.y,kch.shocthy.opchy.ty,ky</line>
 						<line n="6" rendition="#P0 #Ad">oshaiin.dyky.oeees.deeeod.aiin.d,toaiin</line>
 						<line n="7" rendition="#P0 #Ad">daiin.dalchy.dyky.schy.s,aiin.doal.qoky</line>
 						<line n="8" rendition="#P0 #Ad">shotchy.ydain.yky.shody.otol.daiin</line>
 						<line n="9" rendition="#P0 #Ad">saiin.ytaiin</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone lry="1518" lrx="1582" uly="1159" ulx="386" hand="#scribe1" xml:lang="A">
 						<line n="10" rendition="#P0 #Ad">toror.dal[y:o],dal.opchy,fchol.ypcho{cfy}.okal</line>
 						<line n="11" rendition="#P0 #Ad">sokchy.qokol.choty.okchy.cthy.chy,kchy</line>
 						<line n="12" rendition="#P0 #Ad">dy,cho,kchy.shcthy.shtshy.sho.tchokyd</line>
@@ -964,7 +964,7 @@
 					<label>Herbal</label>
 					<!-- Currier's language A, hand 1 -->
 					<!-- gathering  mark 2: 29 -->
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="523,480 528,1028 1609,1061 1762,514" hand="#scribe1" xml:lang="A">
 						<line n="1" rendition="#P0 #At">pchroiin.otchor.chpchol.chpchey.s,pcho{ct}y</line>
 						<line n="2" rendition="#P0 #Ad">ytchor.y.ky,chokchy.qokchocthor.shory</line>
 						<line n="3" rendition="#P0 #Ad">ykchy.dy.choy.qoty.chy,kchy.koshet</line>
@@ -972,7 +972,7 @@
 						<line n="5" rendition="#P0 #Ad">ytchy.chyty.chor.chol.ytchy.dan</line>
 						<line n="6" rendition="#P0 #Ad">sor.ch,k[a:o]r.oty.chkar.chol.dairin</line>
 					</zone>
-					<zone hand="#scribe1" xml:lang="A">
+					<zone points="523,1619 523,1004 1952,1095 1909,1647" hand="#scribe1" xml:lang="A">
 						<line n="7" rendition="#P0 #Ad">pchocthy.chypchy.qotchy.ch{cfhh}y.sy</line>
 						<line n="8" rendition="#P0 #Ad">daiin.chol.y.daiin.chcthy.qot,char.chor.sholo</line>
 						<line n="9" rendition="#P0 #Ad">dshy.okaiin.okaiin.chol.chor.cthor.ty.chody</line>
