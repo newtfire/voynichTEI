@@ -1,4 +1,11 @@
-#=IVTFF Eva- 2.0 M 5
+---------------
+The latest release of the Zandbergen-Landini transliteration of 1999 
+in the IVTFF 2.0 format. 
+It is a complete transliteration, including all 5389 loci that have 
+been identified in the MS. It uses the Eva alphabet, including the 
+high-ascii extensions.
+The file has been corrected in numerous places. Some parts of the text
+inside folds of the pages still need to be added.#=IVTFF Eva- 2.0 M 5
 # ZL transliteration file, updated from EVMT project
 # Version 3b of 13/05/2025
 #
@@ -63,17 +70,17 @@
 # Same plant as f102r1[3,2] (Petersen, Stolfi)
 # Two paragraphs of text, plant cutting through middle
 #
-<zone><f1v.1,@P0>       kchsy.chydaiin.ol<->o,l,tchey.char.cfhar,am
-<f1v.2,+P0>       yteey.char.or.ochy<->dcho.lkody.okodar.chody
-<f1v.3,+P0>       da,ckhy.ckhockhy.shy<->dksheey.cthy.kotchody.dal
-<f1v.4,+P0>       dol.chokeo.dair.dam<->sochey.chokody</zone>
+<zone><f1v.1,@P0>       kchsy.chydaiin.ol<figure/>o,l,tchey.char.cfhar,am
+<f1v.2,+P0>       yteey.char.or.ochy<figure/>dcho.lkody.okodar.chody
+<f1v.3,+P0>       da,ckhy.ckhockhy.shy<figure/>dksheey.cthy.kotchody.dal
+<f1v.4,+P0>       dol.chokeo.dair.dam<figure/>sochey.chokody</zone>
 #
-<zone><f1v.5,+P0>       potoy.shol.dair.cphoal<->dar.chey.tody.otoaiin.shoshy
-<f1v.6,+P0>       choky.chol.ctho,l,shol.okal<->dolchey.chodo.lol.chy.cthy
-<f1v.7,+P0>       qo<!bar over o>.ol,choees.cheol.dol.cthey<->ykol.dol.dolo.ykol.do,lchiody<!corr?>
-<f1v.8,+P0>       okolshol.kol,kechy.chol.ky<->chol.cthol.chody.chol.daiin
-<f1v.9,+P0>       shor.okol.chol.dol,ky.dar<->shol.dchor.o,tcho.dar.[sh:{Ñh}]ody
-<f1v.10,+P0>      taor.chotchey.dal.chody<->schody.pol.chodar</zone>
+<zone><f1v.5,+P0>       potoy.shol.dair.cphoal<figure/>dar.chey.tody.otoaiin.shoshy
+<f1v.6,+P0>       choky.chol.ctho,l,shol.okal<figure/>dolchey.chodo.lol.chy.cthy
+<f1v.7,+P0>       qo<!bar over o>.ol,choees.cheol.dol.cthey<figure/>ykol.dol.dolo.ykol.do,lchiody<!corr?>
+<f1v.8,+P0>       okolshol.kol,kechy.chol.ky<figure/>chol.cthol.chody.chol.daiin
+<f1v.9,+P0>       shor.okol.chol.dol,ky.dar<figure/>shol.dchor.o,tcho.dar.[sh:{Ñh}]ody
+<f1v.10,+P0>      taor.chotchey.dal.chody<figure/>schody.pol.chodar</zone>
 #
 #
 </surface><surface n="f2r">      <! $Q=A $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1>
@@ -83,19 +90,19 @@
 # Plant ID: Cyanus segelis coeruleus (Kornblume), centaurea (cf. Holm)
 # Two paragraphs, top one cut in many places. 1 label near plant leaf
 #
-<zone><f2r.1,@P0>       kydainy.ypchol.daiin.otchal<->ypchaiin.ckholsy
-<f2r.2,+P0>       dorchory<->chkar.s<->shor.cthy.{cto}
-<f2r.3,+P0>       qotaiin<->cthey.y<->chor.chy.ydy<->chaiin
-<f2r.4,+P0>       {c'o}aiidy<->chtod,dy<->cphy.dals<->chokaiin.d
-<f2r.5,+P0>       otochor.al<->shodaiin<->chol,dan<->ytchaiin.dan
-<f2r.6,+P0>       saiin.dain,d<->dkol.sor<->ytoldy<->dchol.dchy.cthy
-<f2r.7,+P0>       shor.ckhy.daiiny<->chol,dan</zone>
+<zone><f2r.1,@P0>       kydainy.ypchol.daiin.otchal<figure/>ypchaiin.ckholsy
+<f2r.2,+P0>       dorchory<figure/>chkar.s<figure/>shor.cthy.{cto}
+<f2r.3,+P0>       qotaiin<figure/>cthey.y<figure/>chor.chy.ydy<figure/>chaiin
+<f2r.4,+P0>       {c'o}aiidy<figure/>chtod,dy<figure/>cphy.dals<figure/>chokaiin.d
+<f2r.5,+P0>       otochor.al<figure/>shodaiin<figure/>chol,dan<figure/>ytchaiin.dan
+<f2r.6,+P0>       saiin.dain,d<figure/>dkol.sor<figure/>ytoldy<figure/>dchol.dchy.cthy
+<f2r.7,+P0>       shor.ckhy.daiiny<figure/>chol,dan</zone>
 #
-<zone><f2r.8,+P0>       kydain.shaiin.qoy.s.shol.fodan<->yksh.olsheey.daiildy
-<f2r.9,+P0>       dls,sho.kol.sheey.qokey.ykody.so<->chol,yky.dain.daiisol
-<f2r.10,+P0>      qo'ky.cholaiin.shol.sheky.daiin<->cthey.keol.saiin.e'a'iin
-<f2r.11,+P0>      ychain.dal.chy.dalor.shan.dan<->olsaiin.sheey.ckhor
-<f2r.12,+P0>      okol.chy.chor.cthor.yor.an.chan<->saiin.chety.chyky.sal
+<zone><f2r.8,+P0>       kydain.shaiin.qoy.s.shol.fodan<figure/>yksh.olsheey.daiildy
+<f2r.9,+P0>       dls,sho.kol.sheey.qokey.ykody.so<figure/>chol,yky.dain.daiisol
+<f2r.10,+P0>      qo'ky.cholaiin.shol.sheky.daiin<figure/>cthey.keol.saiin.e'a'iin
+<f2r.11,+P0>      ychain.dal.chy.dalor.shan.dan<figure/>olsaiin.sheey.ckhor
+<f2r.12,+P0>      okol.chy.chor.cthor.yor.an.chan<figure/>saiin.chety.chyky.sal
 <f2r.13,+P0>      sho.ykeey.chey.daiin.chcthy</zone>
 <f2r.14,@Lp>      ytoail
 <f2r.15,@L0>      ios.an.on
@@ -108,14 +115,14 @@
 # Plant ID: Collocasia, Egyptian lotus, Nymphoides Peltata (R. Zandbergen)
 # Just 8 lines, all cut by plant
 #
-<zone><f2v.1,@P0>       kooiin.cheo,pchor.otaiin,odain.chor<->dair.shty
-<f2v.2,+P0>       kcho,kchy.sho.shol.qotcho.loeees.qoty<->chor.daiin
-<f2v.3,+P0>       otchy.chor.lshy.chol.chody.chodain<->chcthy.daiin
+<zone><f2v.1,@P0>       kooiin.cheo,pchor.otaiin,odain.chor<figure/>dair.shty
+<f2v.2,+P0>       kcho,kchy.sho.shol.qotcho.loeees.qoty<figure/>chor.daiin
+<f2v.3,+P0>       otchy.chor.lshy.chol.chody.chodain<figure/>chcthy.daiin
 <f2v.4,+P0>       sho.cholo.cheor.chodaiin</zone>
 #
-<zone><f2v.5,+P0>       kchor<!mark above o>.shy.daiiin.ch{cko}m<->s,shey.dor,chol,daiin
-<f2v.6,+P0>       dor.chol.chor.chol.keol.chy.chty<->daiin.o,tchor.chan
-<f2v.7,+P0>       daiin.chotchey.qoteeey.chokeos<->chees.chr.cheaiin
+<zone><f2v.5,+P0>       kchor<!mark above o>.shy.daiiin.ch{cko}m<figure/>s,shey.dor,chol,daiin
+<f2v.6,+P0>       dor.chol.chor.chol.keol.chy.chty<figure/>daiin.o,tchor.chan
+<f2v.7,+P0>       daiin.chotchey.qoteeey.chokeos<figure/>chees.chr.cheaiin
 <f2v.8,+P0>       chokoishe.chor.cheol.chol.dolody</zone>
 #
 #
@@ -142,12 +149,12 @@
 <f3r.13,+P0>      qokeey.qot,shey.qokody.qokshey.cheody
 <f3r.14,+P0>      chor.qodair.okeey.qokeey</zone>
 #
-<zone><f3r.15,+P0>      tsheoarom.shor.or.chor.olchsy.chom.otchom<->oporar
-<f3r.16,+P0>      oteol.chol.s.cheol.ekshy.qokeom.qokol.daiin<->soleeg
+<zone><f3r.15,+P0>      tsheoarom.shor.or.chor.olchsy.chom.otchom<figure/>oporar
+<f3r.16,+P0>      oteol.chol.s.cheol.ekshy.qokeom.qokol.daiin<figure/>soleeg
 <f3r.17,+P0>      soeom.okeom.yteody.qokeeodal.sam</zone>
 #
-<zone><f3r.18,+P0>      pcheoldom.shodaiin.qopchor.qopol.opchol,qoty<->otolom
-<f3r.19,+P0>      otchor.ol,cheor.qoeor.dair.qoteol.qosaiin<->chor.cthy
+<zone><f3r.18,+P0>      pcheoldom.shodaiin.qopchor.qopol.opchol,qoty<figure/>otolom
+<f3r.19,+P0>      otchor.ol,cheor.qoeor.dair.qoteol.qosaiin<figure/>chor.cthy
 <f3r.20,+P0>      ycheor.chol.odaiin.chol.s.aiin.okol,or.am</zone>
 #
 #
@@ -182,9 +189,9 @@
 # Plant ID: Hypericum; Centaurium Erythaea (O'Neill)
 # Two paragraphs of text, flower cuts through top one
 #
-<zone><f4r.1,@P0>       kodalchy.chpady.sheol.ol,sheey.qotey<->doiin.chor.ytoy
-<f4r.2,+P0>       dchor.shol.shol.cthol.shtchy.chaiin.£s<->choraiin.chom
-<f4r.3,+P0>       otchol.chol.chy.chaiin.qotaiin<->daiin.shain
+<zone><f4r.1,@P0>       kodalchy.chpady.sheol.ol,sheey.qotey<figure/>doiin.chor.ytoy
+<f4r.2,+P0>       dchor.shol.shol.cthol.shtchy.chaiin.£s<figure/>choraiin.chom
+<f4r.3,+P0>       otchol.chol.chy.chaiin.qotaiin<figure/>daiin.shain
 <f4r.4,+P0>       qotchol,chy.yty.daiin.okaiin.cthy</zone>
 #
 <zone><f4r.5,+P0>       pydaiin.qotchy.dy,tydy
@@ -205,11 +212,11 @@
 # Plant ID: Convulvula Ipomea? (climbing plant)
 # Two paragraphs, top one split by plant
 #
-<zone><f4v.1,@P0>       pchooiin.ksheo.kchoy.chopchy.dolds<->dlod
-<f4v.2,+P0>       ol.chey.chy.cthy.shkchor.sheo.cheory<->choldy
-<f4v.3,+P0>       sho.sho.chaiin.shaiin.daiin.qodaiin<->o,aram
-<f4v.4,+P0>       qok[sh:ch]y.qocthy.choteol.daiin.cthey<->choaiin
-<f4v.5,+P0>       shor.sheey.{cto}.otoiin.shey.qotchoiin<->chodain
+<zone><f4v.1,@P0>       pchooiin.ksheo.kchoy.chopchy.dolds<figure/>dlod
+<f4v.2,+P0>       ol.chey.chy.cthy.shkchor.sheo.cheory<figure/>choldy
+<f4v.3,+P0>       sho.sho.chaiin.shaiin.daiin.qodaiin<figure/>o,aram
+<f4v.4,+P0>       qok[sh:ch]y.qocthy.choteol.daiin.cthey<figure/>choaiin
+<f4v.5,+P0>       shor.sheey.{cto}.otoiin.shey.qotchoiin<figure/>chodain
 <f4v.6,+P0>       ytchoy.shokchy.cphody</zone>
 #
 <zone><f4v.7,+P0>       torchy.sheeor.chor.chokch[y:e].cphydy
@@ -261,12 +268,12 @@
 # Plant ID: Asclepiades, but with wrong leaves (of Pediculum)
 # One paragraph with 14 lines, plant cutting through
 #
-<zone><f6r.1,@P0>       foar.y.shol.cholor.cphol.chor.ch{ck}<->chopchol.otcham
-<f6r.2,+P0>       daiin.chckhy.chor.chor.kar.cthy<->cthor.chotols
-<f6r.3,+P0>       foeear.kshor.choky.os.cheoeees<->ykeor.ytaiin.dam
-<f6r.4,+P0>       dar.cho,s.sheor.cho{ith}y.otcham<->yaiir.chy
-<f6r.5,+P0>       t[a:o]r.okoiin.shees.ytaly.cthaiin<->odam
-<f6r.6,+P0>       or.al.daiin.ckham.okom.cthaiin<->ydaiin
+<zone><f6r.1,@P0>       foar.y.shol.cholor.cphol.chor.ch{ck}<figure/>chopchol.otcham
+<f6r.2,+P0>       daiin.chckhy.chor.chor.kar.cthy<figure/>cthor.chotols
+<f6r.3,+P0>       foeear.kshor.choky.os.cheoeees<figure/>ykeor.ytaiin.dam
+<f6r.4,+P0>       dar.cho,s.sheor.cho{ith}y.otcham<figure/>yaiir.chy
+<f6r.5,+P0>       t[a:o]r.okoiin.shees.ytaly.cthaiin<figure/>odam
+<f6r.6,+P0>       or.al.daiin.ckham.okom.cthaiin<figure/>ydaiin
 <f6r.7,+P0>       daiin.qodaiin.cho.s.chol.okaiin.s
 <f6r.8,+P0>       ychol.ckhor.pchar.sheo.ckhaiin
 <f6r.9,+P0>       dar.sheol.skaiiodar.otaiin.chory
@@ -287,9 +294,9 @@
 #
 <zone><f6v.1,@P0>       koary,sar.[ch:{oh}]eekar<!funny o, ö?>.qoor.shor.chapchy.s.chear.char.otchy
 <f6v.2,+P0>       oees.chor.chckhy.qoekchar.chea[s:r].odaiiin.kchey.chor,chaiin
-<f6v.3,+P0>       qoair.ckhy.chol.oechockhy.chekchoy.ckhy.okol<->rychos
-<f6v.4,+P0>       y,shckhy.ytchoy.s.os.y.jajy.dchy.dey.okody<->ytody
-<f6v.5,+P0>       dair.{c'ha},chodam.dam.okor.oty<->doldom</zone>
+<f6v.3,+P0>       qoair.ckhy.chol.oechockhy.chekchoy.ckhy.okol<figure/>rychos
+<f6v.4,+P0>       y,shckhy.ytchoy.s.os.y.jajy.dchy.dey.okody<figure/>ytody
+<f6v.5,+P0>       dair.{c'ha},chodam.dam.okor.oty<figure/>doldom</zone>
 #
 <zone><f6v.6,+P0>       tchody.shocthol.cho{cthh}y.s
 <f6v.7,+P0>       ychos.ychol.daiin.cthol.dol
@@ -316,16 +323,16 @@
 # Pland ID: Nymphaea alba
 # 10 lines in two paragraphs, both cut by plant
 #
-<zone><f7r.1,@P0>       fchodaiin.shopchey.qko<->shey.qoos.sheey.charochy
-<f7r.2,+P0>       dcheey.keo.r.shor.dold<->dchey.kchey.otchy.cheody
-<f7r.3,+P0>       oeeees.cheodaiin.sheey<->ytcheey.qotchy.chald
-<f7r.4,+P0>       qokcho.cho.lochey.daiin<->ychey.kchos.odaiin
-<f7r.5,+P0>       oaiir<->otaiin</zone>
+<zone><f7r.1,@P0>       fchodaiin.shopchey.qko<figure/>shey.qoos.sheey.charochy
+<f7r.2,+P0>       dcheey.keo.r.shor.dold<figure/>dchey.kchey.otchy.cheody
+<f7r.3,+P0>       oeeees.cheodaiin.sheey<figure/>ytcheey.qotchy.chald
+<f7r.4,+P0>       qokcho.cho.lochey.daiin<figure/>ychey.kchos.odaiin
+<f7r.5,+P0>       oaiir<figure/>otaiin</zone>
 #
-<zone><f7r.6,+P0>       ksholo,chey.qotoees.chkoldy<->otchor.choaiin
-<f7r.7,+P0>       dshoy.cthol.chol.otchol.dain<->shody.shol.chotchy
-<f7r.8,+P0>       okchey.deeeese.choty.qokchy<->shol.keey.choty.dain
-<f7r.9,+P0>       qokechy.ol,choiin.chol.cphey<->shckhy.chochy.kchod
+<zone><f7r.6,+P0>       ksholo,chey.qotoees.chkoldy<figure/>otchor.choaiin
+<f7r.7,+P0>       dshoy.cthol.chol.otchol.dain<figure/>shody.shol.chotchy
+<f7r.8,+P0>       okchey.deeeese.choty.qokchy<figure/>shol.keey.choty.dain
+<f7r.9,+P0>       qokechy.ol,choiin.chol.cphey<figure/>shckhy.chochy.kchod
 <f7r.10,+P0>      s,chain.chor.daiin.chckhy</zone>
 #
 #
@@ -343,9 +350,9 @@
 <f7v.5,+P0>       dchodaiin.qotchy.cheey.tcheey</zone>
 #
 <zone><f7v.6,+P0>       kchor.sheod.sheodaiin.sho,daiin.oksho,lshol.dair.qos
-<f7v.7,+P0>       okshodeeeb.chorcheor,odaiin.shotch[o:?]<->dol.dol.dor.aiin
-<f7v.8,+P0>       qoteeeo.r.cho,cheeody.qotchey.tey<->o,kcho,r.daiin
-<f7v.9,+P0>       sho.keeo.daiir.chokchy.dor.deol.dy<->dol,daiin</zone>
+<f7v.7,+P0>       okshodeeeb.chorcheor,odaiin.shotch[o:?]<figure/>dol.dol.dor.aiin
+<f7v.8,+P0>       qoteeeo.r.cho,cheeody.qotchey.tey<figure/>o,kcho,r.daiin
+<f7v.9,+P0>       sho.keeo.daiir.chokchy.dor.deol.dy<figure/>dol,daiin</zone>
 #
 #
 </surface><surface n="f8r">      <! $Q=A $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1>
@@ -356,28 +363,28 @@
 # Hedera Helix (RZ)
 # last word(s) in each paragraph flushed to the right (signatures?)
 #
-<zone><f8r.1,@P0>       pshol.chor.otshal.chopy<->cph[o:a]l.chody.shy.cfhodar.shor
-<f8r.2,+P0>       tchty.sh,kcheals.sho<->okche.do.dchy.dain.al
-<f8r.3,+P0>       chodar.shy.sy<->chodaiin.shokchy.chor.dy
-<f8r.4,+P0>       qotor.chor.chor.sheey<->dchol.shesed.chof.chy.dam
-<f8r.5,+P0>       okchey.do.r.cheeey.dy.ky<->scho.chky.{ck}ooaiin.ch[y:a],taiin
-<f8r.6,+P0>       tosh.{ck}cheey.koltoldy<->shy.choety.cheeody.sol
+<zone><f8r.1,@P0>       pshol.chor.otshal.chopy<figure/>cph[o:a]l.chody.shy.cfhodar.shor
+<f8r.2,+P0>       tchty.sh,kcheals.sho<figure/>okche.do.dchy.dain.al
+<f8r.3,+P0>       chodar.shy.sy<figure/>chodaiin.shokchy.chor.dy
+<f8r.4,+P0>       qotor.chor.chor.sheey<figure/>dchol.shesed.chof.chy.dam
+<f8r.5,+P0>       okchey.do.r.cheeey.dy.ky<figure/>scho.chky.{ck}ooaiin.ch[y:a],taiin
+<f8r.6,+P0>       tosh.{ck}cheey.koltoldy<figure/>shy.choety.cheeody.sol
 <f8r.7,+P0>       choto.kchoan.choor.dain
 <f8r.8,=Pt>       dcho.dain</zone>
 #
-<zone><f8r.9,*P0>       tchoep.sho.pcheey.pchey<->ofchey.dsheey.sholdaiin.shor
-<f8r.10,+P0>      daiin.cheey.teeodan.dy<->cheocthy.oksheo.dol.dairg
-<f8r.11,+P0>      shol.cheodaiin.daiin.do<->y,tchody.chot.choty.otariin
-<f8r.12,+P0>      qo,chodaiin.shotokody<->chotol
+<zone><f8r.9,*P0>       tchoep.sho.pcheey.pchey<figure/>ofchey.dsheey.sholdaiin.shor
+<f8r.10,+P0>      daiin.cheey.teeodan.dy<figure/>cheocthy.oksheo.dol.dairg
+<f8r.11,+P0>      shol.cheodaiin.daiin.do<figure/>y,tchody.chot.choty.otariin
+<f8r.12,+P0>      qo,chodaiin.shotokody<figure/>chotol
 <f8r.13,=Pt>      okokchodg</zone>
 #
-<zone><f8r.14,*P0>      {c„h}o.{cÄh}ey.shol.chofydy<->sho.chey.kshey.lody.cholal
-<f8r.15,+P0>      dchey.ckhol.chol.chey.kc{cs}<->chy.{cto}daiin.dol.daiiir[{ih}:ch]y.ckhy
-<f8r.16,+P0>      ychey.kch[e:o]kchy.chsey,kchy<->scheaiin.cthai{ih}ar.cthy.dar
-<f8r.17,+P0>      chol.dchy.qokar.chl<->aiin.chean.{ck}y.char.chaiin
-<f8r.18,+P0>      okar.cfhaiin.chaiin.{cl}<->daiin.chor.cha.rchealcham
-<f8r.19,+P0>      sair.cheain.cphol.dar<->shol.kaiin.shol.kaiin.dai,kam
-<f8r.20,+P0>      or.cho,kesey.shey.o.kal<->chal
+<zone><f8r.14,*P0>      {c„h}o.{cÄh}ey.shol.chofydy<figure/>sho.chey.kshey.lody.cholal
+<f8r.15,+P0>      dchey.ckhol.chol.chey.kc{cs}<figure/>chy.{cto}daiin.dol.daiiir[{ih}:ch]y.ckhy
+<f8r.16,+P0>      ychey.kch[e:o]kchy.chsey,kchy<figure/>scheaiin.cthai{ih}ar.cthy.dar
+<f8r.17,+P0>      chol.dchy.qokar.chl<figure/>aiin.chean.{ck}y.char.chaiin
+<f8r.18,+P0>      okar.cfhaiin.chaiin.{cl}<figure/>daiin.chor.cha.rchealcham
+<f8r.19,+P0>      sair.cheain.cphol.dar<figure/>shol.kaiin.shol.kaiin.dai,kam
+<f8r.20,+P0>      or.cho,kesey.shey.o.kal<figure/>chal
 <f8r.21,=Pt>      schol.saim</zone>
 #
 #
@@ -389,23 +396,23 @@
 # end of quire I
 # Plant ID: Silene
 #
-<zone><f8v.1,@P0>       {cØh}od.soo{cÄh}<->sol.shol.otol.chol.opcheaiin.opydaiin.saiin
-<f8v.2,+P0>       shcthal.sar<->chor.sheaiin.shor.chykchy.otaiin.{ct}y
-<f8v.3,+P0>       qody.cheal.sy<->chory<->chear.shol.chaiin.shaiin.dolas
-<f8v.4,+P0>       dshol.shol<->dol<->chean.cthar.shealy.daiin.chary
-<f8v.5,+P0>       chol.chol.dar<->otchar.etaiin.cthol.dar
-<f8v.6,+P0>       daiin.cthan<->ytchy.chey,kaiin.dain.ar
-<f8v.7,+P0>       sho.kchol<->dar.shey.cthar.chotain.ry
-<f8v.8,+P0>       okcholksh<->chol.chol.chol.cthaiin.dain
-<f8v.9,+P0>       shol.orchl<->chokchy.chol.cthor.chaiin
-<f8v.10,+P0>      scharchy<->oeesody.kchey.pchy.cpharom
+<zone><f8v.1,@P0>       {cØh}od.soo{cÄh}<figure/>sol.shol.otol.chol.opcheaiin.opydaiin.saiin
+<f8v.2,+P0>       shcthal.sar<figure/>chor.sheaiin.shor.chykchy.otaiin.{ct}y
+<f8v.3,+P0>       qody.cheal.sy<figure/>chory<figure/>chear.shol.chaiin.shaiin.dolas
+<f8v.4,+P0>       dshol.shol<figure/>dol<figure/>chean.cthar.shealy.daiin.chary
+<f8v.5,+P0>       chol.chol.dar<figure/>otchar.etaiin.cthol.dar
+<f8v.6,+P0>       daiin.cthan<figure/>ytchy.chey,kaiin.dain.ar
+<f8v.7,+P0>       sho.kchol<figure/>dar.shey.cthar.chotain.ry
+<f8v.8,+P0>       okcholksh<figure/>chol.chol.chol.cthaiin.dain
+<f8v.9,+P0>       shol.orchl<figure/>chokchy.chol.cthor.chaiin
+<f8v.10,+P0>      scharchy<figure/>oeesody.kchey.pchy.cpharom
 <f8v.11,+P0>      sorain</zone>
 #
-<zone><f8v.12,+P0>      pchar.cho.rol.dal<->shear.chchotaiin.chal.daiin
-<f8v.13,+P0>      kchor.otchar.oky<->chokain.keoky.otorchy.satar
-<f8v.14,+P0>      shor.okol.lokaiin<->shol.kol.char.cthey.tchy.ckham
-<f8v.15,+P0>      or.chol.chan.ch{ck}y<->chor.cheain.char.cheeky.chor.ry
-<f8v.16,+P0>      chor.cheor.chear<->oteey.dchor.chodey.cho.raiin
+<zone><f8v.12,+P0>      pchar.cho.rol.dal<figure/>shear.chchotaiin.chal.daiin
+<f8v.13,+P0>      kchor.otchar.oky<figure/>chokain.keoky.otorchy.satar
+<f8v.14,+P0>      shor.okol.lokaiin<figure/>shol.kol.char.cthey.tchy.ckham
+<f8v.15,+P0>      or.chol.chan.ch{ck}y<figure/>chor.cheain.char.cheeky.chor.ry
+<f8v.16,+P0>      chor.cheor.chear<figure/>oteey.dchor.chodey.cho.raiin
 <f8v.17,+P0>      dain.chear.daiin</zone>
 #
 #
@@ -416,16 +423,16 @@
 # Plant ID: Chelidonium Majus, Sallkraut (sp?)
 # last 3 words in last paragraph indented (signatures?)
 #
-<zone><f9r.1,@P0>       tydlo.choly.cthor.orchey.s.shy.odaiin.sary<->shor.cthy
-<f9r.2,+P0>       oykeey.chol,ytaiin.okchody.toeoky.okoiin.dy<->or.chaiin
-<f9r.3,+P0>       toiin.cphy.qotod.otaiin.cthy.okor.chey<->ctho,d.ram
-<f9r.4,+P0>       [y:o]shy.chokcho.chcthod,shor.shaiin.otar,dor<->ytol.dayty
-<f9r.5,+P0>       daiin.chor.sor.cthy.chokoiin.shol.dsholdy<->otchol.ot.dy</zone>
+<zone><f9r.1,@P0>       tydlo.choly.cthor.orchey.s.shy.odaiin.sary<figure/>shor.cthy
+<f9r.2,+P0>       oykeey.chol,ytaiin.okchody.toeoky.okoiin.dy<figure/>or.chaiin
+<f9r.3,+P0>       toiin.cphy.qotod.otaiin.cthy.okor.chey<figure/>ctho,d.ram
+<f9r.4,+P0>       [y:o]shy.chokcho.chcthod,shor.shaiin.otar,dor<figure/>ytol.dayty
+<f9r.5,+P0>       daiin.chor.sor.cthy.chokoiin.shol.dsholdy<figure/>otchol.ot.dy</zone>
 #
-<zone><f9r.6,+P0>       pshoain.cthoaiin.okaiir.{c†h}odoral.shar<->sy<->shydal.chdy
-<f9r.7,+P0>       or.chol.chy,tchy.tchol.ytor.qotol.chyky<->chodar.aiin
-<f9r.8,+P0>       qotcho.qokchy.cthey.koraiin.okain.d<->dal<->s.olshocth[y:g]
-<f9r.9,+P0>       ocho,cthy.cho{cto}y.chodykchy.saiin,dchy<->daiin
+<zone><f9r.6,+P0>       pshoain.cthoaiin.okaiir.{c†h}odoral.shar<figure/>sy<figure/>shydal.chdy
+<f9r.7,+P0>       or.chol.chy,tchy.tchol.ytor.qotol.chyky<figure/>chodar.aiin
+<f9r.8,+P0>       qotcho.qokchy.cthey.koraiin.okain.d<figure/>dal<figure/>s.olshocth[y:g]
+<f9r.9,+P0>       ocho,cthy.cho{cto}y.chodykchy.saiin,dchy<figure/>daiin
 <f9r.10,+Pc>      ytcha[s:r].oraiin.chkor</zone>
 #
 #
@@ -438,15 +445,15 @@
 # RZ: Viola allright but all upside down
 #
 <zone><f9v.1,@P0>       fochor.oporody.opy.shor.daiin.qopchypcho.qofol.shol.cfhol.daiin
-<f9v.2,+P0>       dchor.qoaiin.chkaiin.cthor.chol.chor.cphol.dy<->oty.qokaiin.dy
-<f9v.3,+P0>       ykey.chor.ykaiin.daiin.cthy.otaiin.oky<->oeees.daiin
+<f9v.2,+P0>       dchor.qoaiin.chkaiin.cthor.chol.chor.cphol.dy<figure/>oty.qokaiin.dy
+<f9v.3,+P0>       ykey.chor.ykaiin.daiin.cthy.otaiin.oky<figure/>oeees.daiin
 <f9v.4,+P0>       ytey,tch,y.kaiin.cthor.otol.oty.toldy</zone>
 #
-<zone><f9v.5,+P0>       pchor.ypcheey.qotor.ypchy.olcfholy.t[o:e]<->ar<->chty.daiiin
-<f9v.6,+P0>       odol.choy.ksheody.chody<->da[in:iin]<->otchy.cthod<->yko
-<f9v.7,+P0>       qo.chol.chol.{ct}chy.daiin<->otal<->dor<->daim
-<f9v.8,+P0>       soiin.daiin.qokcho.rokyd<->daly
-<f9v.9,+P0>       daiin.chy.tor.chyty.dary<->ytoldy
+<zone><f9v.5,+P0>       pchor.ypcheey.qotor.ypchy.olcfholy.t[o:e]<figure/>ar<figure/>chty.daiiin
+<f9v.6,+P0>       odol.choy.ksheody.chody<figure/>da[in:iin]<figure/>otchy.cthod<figure/>yko
+<f9v.7,+P0>       qo.chol.chol.{ct}chy.daiin<figure/>otal<figure/>dor<figure/>daim
+<f9v.8,+P0>       soiin.daiin.qokcho.rokyd<figure/>daly
+<f9v.9,+P0>       daiin.chy.tor.chyty.dary<figure/>ytoldy
 <f9v.10,+P0>      oty.kchol.chol.chy.kyty
 <f9v.11,+P0>      ychor.chshoty.oky,kaiin
 <f9v.12,+P0>      chkaiin.ckhy.chor</zone>
@@ -464,12 +471,12 @@
 <f10r.4,+P0>      sor.chaiin.chcthy.ctho,ckhy.or.aiin.chtchor.do[iir:iin].ody
 <f10r.5,+P0>      qokchy.qotchol.chol.cthy</zone>
 #
-<zone><f10r.6,+P0>      ycheor.cthy.chor.cthaiin.qoctholy.dy<->chy.taiin.shy
-<f10r.7,+P0>      dchy.qokchol.y,kchaiin.yty.daiin.cth<->dain.dair,am
-<f10r.8,+P0>      qotchor.chor.otol.chol.cholor<->chol.daiin.dar
-<f10r.9,+P0>      oykchor.shor.chor.chy.kaiiin.dy<->chodaiin
-<f10r.10,+P0>     oqot[o:a]r.otor.cfhy.cthor.osain<->ytoiin
-<f10r.11,+P0>     ‡otchoshor.qoty.qotor.cthyd<->otar
+<zone><f10r.6,+P0>      ycheor.cthy.chor.cthaiin.qoctholy.dy<figure/>chy.taiin.shy
+<f10r.7,+P0>      dchy.qokchol.y,kchaiin.yty.daiin.cth<figure/>dain.dair,am
+<f10r.8,+P0>      qotchor.chor.otol.chol.cholor<figure/>chol.daiin.dar
+<f10r.9,+P0>      oykchor.shor.chor.chy.kaiiin.dy<figure/>chodaiin
+<f10r.10,+P0>     oqot[o:a]r.otor.cfhy.cthor.osain<figure/>ytoiin
+<f10r.11,+P0>     ‡otchoshor.qoty.qotor.cthyd<figure/>otar
 <f10r.12,+P0>     ‡odaiin.daiin.qotchy.qotor</zone>
 #
 #
@@ -512,12 +519,12 @@
 # Plant ID: Leonotus or Leonarus
 # G. Turner's pineapple
 #
-<zone><f11v.1,@P0>      poldchody.shcphy.shordy.qoty<->shol.cphar.dan,y
-<f11v.2,+P0>      shol.dy.chckhy.shcthy.daiin.dam<->ykchy.dain.dchy
-<f11v.3,+P0>      otchor.dy.kchy.tchy.[˜:d]ar.qokchd<->oky.choldy,dy
-<f11v.4,+P0>      qokchor.cholol{cr}.chyky.dchy.qoky<->ctho.tchey.tu
+<zone><f11v.1,@P0>      poldchody.shcphy.shordy.qoty<figure/>shol.cphar.dan,y
+<f11v.2,+P0>      shol.dy.chckhy.shcthy.daiin.dam<figure/>ykchy.dain.dchy
+<f11v.3,+P0>      otchor.dy.kchy.tchy.[˜:d]ar.qokchd<figure/>oky.choldy,dy
+<f11v.4,+P0>      qokchor.cholol{cr}.chyky.dchy.qoky<figure/>ctho.tchey.tu
 <f11v.5,*L0>      dd
-<f11v.6,=P0>      soydy.qoteey.qot.chor.dy.ddy<->cthor.shy,arg
+<f11v.6,=P0>      soydy.qoteey.qot.chor.dy.ddy<figure/>cthor.shy,arg
 <f11v.7,+P0>      ycheor.ksho.dor.cthey.s,chold</zone>
 #
 # Folio 12 is missing. Its stub is still visible.
@@ -536,9 +543,9 @@
 #
 <zone><f13r.5,+P0>      shorodo.shy.tshy.kchol.dpchy,qopchy.otchol.cfholdy
 <f13r.6,+P0>      tchor.dor.daiin.qotchol.okchy.okchor,oiin.chckhy.d
-<f13r.7,+P0>      dchy.qoky.chol.dy.qo{kh}y.d,oldy<->okchor.doaiin
-<f13r.8,+P0>      shochy.qokchy.torchy.k{chky}<->s.okchey.daiin
-<f13r.9,+P0>      oldy.shey.chol.d[o:a]iin.ykoly<->okchal.daldy
+<f13r.7,+P0>      dchy.qoky.chol.dy.qo{kh}y.d,oldy<figure/>okchor.doaiin
+<f13r.8,+P0>      shochy.qokchy.torchy.k{chky}<figure/>s.okchey.daiin
+<f13r.9,+P0>      oldy.shey.chol.d[o:a]iin.ykoly<figure/>okchal.daldy
 <f13r.10,+P0>     sotchy.kchy.okorory</zone>
 #
 #
@@ -554,10 +561,10 @@
 <f13v.4,+P0>      o,l,s.chey.okos.oa[iin:in].okshy.qo{cky}
 <f13v.5,+P0>      qoky.daiin</zone>
 #
-<zone><f13v.6,+P0>      foldaiin.olcphy.shol.dy<->oty.shor.qotyd<->dairod
-<f13v.7,+P0>      dain.okal.chy.qokchory<->dchy.kok[y:a]daiin<->shon
-<f13v.8,+P0>      otchy.daiin.y,dain.ykol<->okchy.o,kald<->d,y,taiin
-<f13v.9,+P0>      tchtod.otal.cthor.ytal<->y.cho,tal<->sho.qocthy
+<zone><f13v.6,+P0>      foldaiin.olcphy.shol.dy<figure/>oty.shor.qotyd<figure/>dairod
+<f13v.7,+P0>      dain.okal.chy.qokchory<figure/>dchy.kok[y:a]daiin<figure/>shon
+<f13v.8,+P0>      otchy.daiin.y,dain.ykol<figure/>okchy.o,kald<figure/>d,y,taiin
+<f13v.9,+P0>      tchtod.otal.cthor.ytal<figure/>y.cho,tal<figure/>sho.qocthy
 <f13v.10,+P0>     y,ol.chy.kchey.kchor.dal</zone>
 #
 #
@@ -576,10 +583,10 @@
 <f14r.7,+P0>      otcho.dain.chckhy</zone>
 #
 <zone><f14r.8,+P0>      soshy.‰chol.shor.cheos.ykaiin.s
-<f14r.9,+P0>      sody.chody.otchody.qotchy,koiin.sy<->sho.ty,dy
-<f14r.10,+P0>     qotchor.chod.shoty.chody.dol,dy,dy<->okchydy
-<f14r.11,+P0>     dchokchy.schol.dy.shey.dar.qoty<->ykeeyky
-<f14r.12,+P0>     oeeeb.chey.keor.chey.tchyky<->chodalg
+<f14r.9,+P0>      sody.chody.otchody.qotchy,koiin.sy<figure/>sho.ty,dy
+<f14r.10,+P0>     qotchor.chod.shoty.chody.dol,dy,dy<figure/>okchydy
+<f14r.11,+P0>     dchokchy.schol.dy.shey.dar.qoty<figure/>ykeeyky
+<f14r.12,+P0>     oeeeb.chey.keor.chey.tchyky<figure/>chodalg
 <f14r.13,+P0>     sodaiin.chy.kchy.kchy.ykeody</zone>
 #
 #
@@ -596,8 +603,8 @@
 <f14v.5,+P0>      okshy.daiin.okchor,chky.qotchy.daiin.cthor.oty
 <f14v.6,+P0>      qoty.choky.cthy.chokchy.dy,dy,dy.chckhy.dchyd.n
 <f14v.7,+P0>      oy,kshy.cho,ty.dydy,odyd.otchy.o.kchy.dshy.dardy
-<f14v.8,+P0>      chokshor.daiin<->okshody.daiin<->dol.dair.dam
-<f14v.9,+P0>      dykchy.ctholdg<->dchckhy</zone>
+<f14v.8,+P0>      chokshor.daiin<figure/>okshody.daiin<figure/>dol.dair.dam
+<f14v.9,+P0>      dykchy.ctholdg<figure/>dchckhy</zone>
 #
 #
 </surface><surface n="f15r">     <! $Q=B $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1>
@@ -606,20 +613,20 @@
 # Currier's language A, hand 1
 # Plant ID: Saw/Some thistle?
 #
-<zone><f15r.1,@P0>      tshor.shey.tchaly<->shy.chtols.shey.daiin
-<f15r.2,+P0>      otchor.qokchor.oly<->okor.shy.koly
-<f15r.3,+P0>      qokaiin.qotchy,tydy<->daiin.chol.cthy
-<f15r.4,+P0>      scheaiin.chodaiin.chl<->sol.ckhaiin.sal
-<f15r.5,+P0>      qotchy.r,shor.cthy<->daiin.cthy.dy
-<f15r.6,+P0>      dchy.ko,kaiin.chdy<->saiin.okear
-<f15r.7,+P0>      daiin.shkaiin.cthy<->sho.keocthy
-<f15r.8,+P0>      shocthy.tol,kaiin,s<->dain.ctholy
-<f15r.9,+P0>      octhain.qokaiin.chos<->odaiin.cthl,s.y
-<f15r.10,+P0>     ychain.ch{ckhh}y.okshy<->saiiin.dolchds
-<f15r.11,+P0>     okaiin.otaiin.chl.sy<->chor.choross
-<f15r.12,+P0>     qotor.shor.tcheor.chy<->cthaiin<->shan
-<f15r.13,+P0>     ykshol.dor.sheey.cthy.dain<->sky<->shor,shoty
-<f15r.14,+P0>     otcho.kchy.chol.daiin.{ith}ar<->ytol.dor.dom
+<zone><f15r.1,@P0>      tshor.shey.tchaly<figure/>shy.chtols.shey.daiin
+<f15r.2,+P0>      otchor.qokchor.oly<figure/>okor.shy.koly
+<f15r.3,+P0>      qokaiin.qotchy,tydy<figure/>daiin.chol.cthy
+<f15r.4,+P0>      scheaiin.chodaiin.chl<figure/>sol.ckhaiin.sal
+<f15r.5,+P0>      qotchy.r,shor.cthy<figure/>daiin.cthy.dy
+<f15r.6,+P0>      dchy.ko,kaiin.chdy<figure/>saiin.okear
+<f15r.7,+P0>      daiin.shkaiin.cthy<figure/>sho.keocthy
+<f15r.8,+P0>      shocthy.tol,kaiin,s<figure/>dain.ctholy
+<f15r.9,+P0>      octhain.qokaiin.chos<figure/>odaiin.cthl,s.y
+<f15r.10,+P0>     ychain.ch{ckhh}y.okshy<figure/>saiiin.dolchds
+<f15r.11,+P0>     okaiin.otaiin.chl.sy<figure/>chor.choross
+<f15r.12,+P0>     qotor.shor.tcheor.chy<figure/>cthaiin<figure/>shan
+<f15r.13,+P0>     ykshol.dor.sheey.cthy.dain<figure/>sky<figure/>shor,shoty
+<f15r.14,+P0>     otcho.kchy.chol.daiin.{ith}ar<figure/>ytol.dor.dom
 <f15r.15,+P0>     qotchor.chaiin.chy,kol.daky</zone>
 #
 #
@@ -650,8 +657,8 @@
 # Currier's language A, hand 1
 # Plant ID: Canabis, Hemp, Ampfer(?)
 #
-<zone><f16r.1,@P0>      pocheody.qopchey.sykaiin.opchy,dor.ychy<->daiin.dy<->chor.orom
-<f16r.2,+P0>      ychykchy.otey<!corr?>.kol.shor.ody.otody.qoy<->oeesordy
+<zone><f16r.1,@P0>      pocheody.qopchey.sykaiin.opchy,dor.ychy<figure/>daiin.dy<figure/>chor.orom
+<f16r.2,+P0>      ychykchy.otey<!corr?>.kol.shor.ody.otody.qoy<figure/>oeesordy
 <f16r.3,+P0>      ydor.sheal.okchy.qoy,koiin.choky.ykair
 <f16r.4,+Pc>      dainod.ychealod</zone>
 #
@@ -700,11 +707,11 @@
 <f17r.2,+P0>      ydair.choky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods
 <f17r.3,+P0>      chol.or.chy.qodam.okor.chor.okchom</zone>
 #
-<zone><f17r.4,+P0>      tchoš.shol.qokol.qor.olaiin.opydg<->som.ypchy.ypaim
-<f17r.5,+P0>      ychekchy.cthy.chor.shor.cphor.cphaldy<->dair.cthey.qody
+<zone><f17r.4,+P0>      tchoš.shol.qokol.qor.olaiin.opydg<figure/>som.ypchy.ypaim
+<f17r.5,+P0>      ychekchy.cthy.chor.shor.cphor.cphaldy<figure/>dair.cthey.qody
 <f17r.6,+P0>      tsho.qof,cho.qokcheor.cheteg</zone>
 #
-<zone><f17r.7,+P0>      ksheo.qokchy.choldshy.zepchy<->d{c'a}<->opchordy
+<zone><f17r.7,+P0>      ksheo.qokchy.choldshy.zepchy<figure/>d{c'a}<figure/>opchordy
 <f17r.8,+P0>      dchchy.dychear.schar.ykchy
 <f17r.9,+P0>      soy.chckho.o.da[s:r].chypcham
 <f17r.10,+P0>     dar.chear.dcheor.[s:?]ain.y.mol
@@ -751,15 +758,15 @@
 # herbal
 # Currier's language A, hand 1
 #
-<zone><f18r.1,@P0>      pdrairdy.darod{cf}.yoar.ykchol.dar.om.chckhy<->octhor.dal
-<f18r.2,+P0>      otshol.qokchol.chykchy.okchal.daiin.dy<->chol.dain
-<f18r.3,+P0>      qokchor.chor.{c‹h}{ök}ey.or,chey.qokchol.dy<->ytcharg
+<zone><f18r.1,@P0>      pdrairdy.darod{cf}.yoar.ykchol.dar.om.chckhy<figure/>octhor.dal
+<f18r.2,+P0>      otshol.qokchol.chykchy.okchal.daiin.dy<figure/>chol.dain
+<f18r.3,+P0>      qokchor.chor.{c‹h}{ök}ey.or,chey.qokchol.dy<figure/>ytcharg
 <f18r.4,+P0>      chor.[cth:{ith}]or.okeor.ykchol.okain</zone>
 #
 <zone><f18r.5,+P0>      tchor.shor.cthaiin.cthol.chlol.chom
 <f18r.6,+P0>      ychy.kchor.dair.ytol.chcthy.dar.dar.dal
-<f18r.7,+P0>      oshor.shaiin.cthy.sholdy.doldy<->doldaiin
-<f18r.8,+P0>      qokchor.ckhol.olody.okal,dy<->dary
+<f18r.7,+P0>      oshor.shaiin.cthy.sholdy.doldy<figure/>doldaiin
+<f18r.8,+P0>      qokchor.ckhol.olody.okal,dy<figure/>dary
 <f18r.9,+P0>      chol.chcthal.okshal.chykald
 <f18r.10,+P0>     dar.shor.qokchol.ol.ydaiin
 <f18r.11,+P0>     sotchaiin.chokchy.chckhol.chor.g
@@ -864,7 +871,7 @@
 #
 <zone><f20v.5,+P0>      tshol.folchol.otor.shol.shor.fshodchy.otchy.chcphy.dy
 <f20v.6,+P0>      doiiin.chockhy.da[n:r].cheo{ikh}y.shos.cheos.char.[{ith}:cth]aiin
-<f20v.7,+P0>      shocthy.sho.cthy.daiin.sheoy.tey.s<->soaiin
+<f20v.7,+P0>      shocthy.sho.cthy.daiin.sheoy.tey.s<figure/>soaiin
 <f20v.8,+P0>      shain.choraly.sho.ar.chy.daiin.d.s
 <f20v.9,+P0>      ykchy.keody.cho.cthy.chol.shd.qoty.dô
 <f20v.10,+P0>     shokaiin.chocthy.chol.daiin.chy.chor.ety
@@ -900,7 +907,7 @@
 <zone><f21v.1,@P0>      toldshy.chofchy.qofshey.shckhol.odaiin.shey.ckholy
 <f21v.2,+P0>      oeeesoy.qokchy.chody.qotchy.qokchy.choty.tchol.daiin
 <f21v.3,+P0>      qotol.keeees.chotchy.tcho.choty.chor.qotol.daiin.dal
-<f21v.4,+P0>      sho.chodaiin.choty.chol.daiin.daiin.chty<->chtol
+<f21v.4,+P0>      sho.chodaiin.choty.chol.daiin.daiin.chty<figure/>chtol
 <f21v.5,+P0>      osho.deey.ctho.l.sho,cthy.daiin.dait.oky
 <f21v.6,+P0>      sho.tsho.chotshol.chol.todaiin.daiin
 <f21v.7,+P0>      ykcho.lchol.cho,l,chaiin.otchy.s.sheaiin
@@ -916,17 +923,17 @@
 <f22r.2,+P0>      ol.oiin.shol.o.kor.qokchol.daiin.okaiin.cthor.dain.ckhy.dom
 <f22r.3,+P0>      qokol.dykaiin.o,kchy.daiin.cthol.ctholo.dar.shain</zone>
 #
-<zone><f22r.4,+P0>      pchaiin.ofchy.daiin.cfhy.doroiin.ypchol.sy<->schor.daiin
-<f22r.5,+P0>      ol.daiin.qokchy.dar.daiin.chor.oldor.oky<->y,choldchy
+<zone><f22r.4,+P0>      pchaiin.ofchy.daiin.cfhy.doroiin.ypchol.sy<figure/>schor.daiin
+<f22r.5,+P0>      ol.daiin.qokchy.dar.daiin.chor.oldor.oky<figure/>y,choldchy
 <f22r.6,+P0>      y.chokshchy.cth[eeb:een]</zone>
 #
-<zone><f22r.7,+P0>      kchol.shol.dsheor.{c'¢ˆ}.chdoly.ytaiin.ol<->otchy.cphal
-<f22r.8,+P0>      dchor.oty.daiin.ctholy.qoky.chotaiin.chocthy<->do[Ë:l]iin.dchor
+<zone><f22r.7,+P0>      kchol.shol.dsheor.{c'¢ˆ}.chdoly.ytaiin.ol<figure/>otchy.cphal
+<f22r.8,+P0>      dchor.oty.daiin.ctholy.qoky.chotaiin.chocthy<figure/>do[Ë:l]iin.dchor
 <f22r.9,+P0>      odaiin.dain.cthy.ctheo,r.o[r:in]aiino</zone>
 #
-<zone><f22r.10,+P0>     kchol.chor.daiin.cthoiin.dchor.chey.qokol,dy<->opchol.oldam
-<f22r.11,+P0>     do[iin:iir].yckhody.qokchy.oky.otoldy.yty.dol.or<->d[ch:a]chy.daiin
-<f22r.12,+P0>     odchaiin.cthy.okchy.kchy.dchol.daiin<->ydaiin
+<zone><f22r.10,+P0>     kchol.chor.daiin.cthoiin.dchor.chey.qokol,dy<figure/>opchol.oldam
+<f22r.11,+P0>     do[iin:iir].yckhody.qokchy.oky.otoldy.yty.dol.or<figure/>d[ch:a]chy.daiin
+<f22r.12,+P0>     odchaiin.cthy.okchy.kchy.dchol.daiin<figure/>ydaiin
 <f22r.13,+P0>     dchor.dy,dain.qockhy.ykol,okain</zone>
 #
 #
@@ -935,17 +942,17 @@
 # herbal
 # Currier's language A, hand 1
 #
-<zone><f22v.1,@P0>      pysaiinor.ofchar.oky.tchy.otdy<->sor.shy.qo'd
-<f22v.2,+P0>      daiin.y,kaiin.qotchy.kchy.[o:y]tchyd<->dshor.ychy
-<f22v.3,+P0>      qoky.kchorl.otchy.cthy.otchyky<->ytchol.otam
-<f22v.4,+P0>      otchaiin.shoty.qoky<->saiin<->odaiin.ytaiin
+<zone><f22v.1,@P0>      pysaiinor.ofchar.oky.tchy.otdy<figure/>sor.shy.qo'd
+<f22v.2,+P0>      daiin.y,kaiin.qotchy.kchy.[o:y]tchyd<figure/>dshor.ychy
+<f22v.3,+P0>      qoky.kchorl.otchy.cthy.otchyky<figure/>ytchol.otam
+<f22v.4,+P0>      otchaiin.shoty.qoky<figure/>saiin<figure/>odaiin.ytaiin
 <f22v.5,+P0>      dor.y,kcheor.daiin</zone>
 #
 <zone><f22v.6,+P0>      fshor.shy,tchor.otaiin
 <f22v.7,+P0>      ychor.chor.qokchol.chory
 <f22v.8,+P0>      qotchy.cthy.qokol.daiin.dam
 <f22v.9,+P0>      okshor.shody.chol.tchol.otaiin,daiin
-<f22v.10,+P0>     qokchy.daiin.s<->or.ytal
+<f22v.10,+P0>     qokchy.daiin.s<figure/>or.ytal
 <f22v.11,+P0>     sokaiin.oty.dy
 <f22v.12,+P0>     ychky.daiin.cthy
 <f22v.13,+P0>     okchain.chkoldy.shotoly
@@ -969,9 +976,9 @@
 #
 <zone><f23r.6,+P0>      tshol.y,kor.qokaiin.yky.dar.okol.dchey.daiidal.dam.ytcho.ldals
 <f23r.7,+P0>      okar.olchar.shaiin.qokchol.dar.qokchol.dairo.r.ol.daiin.alg
-<f23r.8,+P0>      qokshy.char.daiir.qokaiin.olol.qoaiin.ykchy.s<->dal.okchy
-<f23r.9,+P0>      okol,ok,shy.qokol,dy<->dal.[d:j]she.qokeees.y.oly<->daiin.dal
-<f23r.10,+P0>     q[o:y]k.okaiin.chkchy,s<->yteain.odal.chal,dy<->dar.ykain
+<f23r.8,+P0>      qokshy.char.daiir.qokaiin.olol.qoaiin.ykchy.s<figure/>dal.okchy
+<f23r.9,+P0>      okol,ok,shy.qokol,dy<figure/>dal.[d:j]she.qokeees.y.oly<figure/>daiin.dal
+<f23r.10,+P0>     q[o:y]k.okaiin.chkchy,s<figure/>yteain.odal.chal,dy<figure/>dar.ykain
 <f23r.11,+P0>     ykyk[a:o].dalory</zone>
 #
 #
@@ -981,17 +988,17 @@
 # Currier's language A, hand 1
 #
 <zone><f23v.1,@P0>      podairol.odaiiily.sho,al,dy.opchol.otol.ol.chcphy.qotchar.s
-<f23v.2,+P0>      qot{co}tor.chy.okchaldy.qokchey.dol<->otchol.chal.otchg
-<f23v.3,+P0>      ycho.okaiin.okeol.eees.o,l.daiin.okeeor<->daiin.qotcholg
-<f23v.4,+P0>      okchey.dair.sholol.ol,dal<->otchor,[d:g]ar
+<f23v.2,+P0>      qot{co}tor.chy.okchaldy.qokchey.dol<figure/>otchol.chal.otchg
+<f23v.3,+P0>      ycho.okaiin.okeol.eees.o,l.daiin.okeeor<figure/>daiin.qotcholg
+<f23v.4,+P0>      okchey.dair.sholol.ol,dal<figure/>otchor,[d:g]ar
 <f23v.5,+P0>      dor,chear.shor.dol.oaldary</zone>
 #
-<zone><f23v.6,+P0>      tshol.shor.shkshy.okol.daiin<->otshor.olsar
-<f23v.7,+P0>      otor.oiin.sho.shol.qokol.daiin<->sol.daiin.ylg
-<f23v.8,+P0>      qokaiin.dain.qokor.okal,g.dam<->chor.olol.dam
-<f23v.9,+P0>      otshy.dal.dar.oldar.ar.or<->qoto.l,chees.g
-<f23v.10,+P0>     dor.chy.kshol.chol.ctho[?:l]<->otol.oloiir
-<f23v.11,+P0>     y,okaiin.doroiin.olols.oiin<->ol.cheeb.ols
+<zone><f23v.6,+P0>      tshol.shor.shkshy.okol.daiin<figure/>otshor.olsar
+<f23v.7,+P0>      otor.oiin.sho.shol.qokol.daiin<figure/>sol.daiin.ylg
+<f23v.8,+P0>      qokaiin.dain.qokor.okal,g.dam<figure/>chor.olol.dam
+<f23v.9,+P0>      otshy.dal.dar.oldar.ar.or<figure/>qoto.l,chees.g
+<f23v.10,+P0>     dor.chy.kshol.chol.ctho[?:l]<figure/>otol.oloiir
+<f23v.11,+P0>     y,okaiin.doroiin.olols.oiin<figure/>ol.cheeb.ols
 <f23v.12,+P0>     ol,aiios.oloro.eeeoly</zone>
 #
 #
@@ -1030,7 +1037,7 @@
 # Plant ID: (hard to read)
 #
 <zone><f24v.1,@P0>      tchodar.chocfhey.opom.shod.chcphy.opshody.ocphoraiin.o,k,o’am
-<f24v.2,+P0>      ydals.ckhor.shy.cho.dch[o:a]r.otol.otaiir<->otchos.okchom.okcho
+<f24v.2,+P0>      ydals.ckhor.shy.cho.dch[o:a]r.otol.otaiir<figure/>otchos.okchom.okcho
 <f24v.3,+P0>      octh[y:o]l.odchees.oesearies<!small e>.okam.chcth
 <f24v.4,+P0>      ydal.sh.okol.okaiin.odaiin.dlos
 <f24v.5,+P0>      oeor.oraiin.tchar.oro</zone>
@@ -1074,8 +1081,8 @@
 <f25v.3,+P0>      orcho.kchor.chol.daiin.sh[cfh:ckh]o,r,daiin.dshey.daiity
 <f25v.4,+P0>      qokaiin.qokcho.shol.daiin.ckhear.ckhol.daiin.chkear
 <f25v.5,+P0>      dar.chokeey.dshor.dshey.qochol.dol.cho.daiin.daiin
-<f25v.6,+P0>      qokcho,r,ochy.qotchy.qotoral<->cho.“.chain.deeaiir.s
-<f25v.7,+P0>      o{c'o}.chkey.daiiol.daiin.shckh<->orchaiin</zone>
+<f25v.6,+P0>      qokcho,r,ochy.qotchy.qotoral<figure/>cho.“.chain.deeaiir.s
+<f25v.7,+P0>      o{c'o}.chkey.daiiol.daiin.shckh<figure/>orchaiin</zone>
 #
 #
 </surface><surface n="f26r">     <! $Q=D $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2>
@@ -1085,17 +1092,17 @@
 # Plant ID: Flower like artemisium absinth / wermuth but leaves are not
 # gnaphalium?
 #
-<zone><f26r.1,@P0>      psheoky.odaiir.qoy<->ofshod.chypchey.ypchedy.ain<->chofo,che{ph}dy
-<f26r.2,+P0>      dchey.Šaiin.adeeody<->ykecthey.chedy.ytedy.dy<->checthedy.ls
-<f26r.3,+P0>      oaiin.shcthy.cthedy.oloy<->ykeedy.olchedy.dal<->y.sheey.s,aiin.s
-<f26r.4,+P0>      qokedy.cheos.ytedy.qokedy<->ytedy.chekedy<->daiin.odam.s,aldy
-<f26r.5,+P0>      saiin.shedy.eedy.eedy.s,chy<->daiin.cthedy<->qokeedy.qokedy.cthey
+<zone><f26r.1,@P0>      psheoky.odaiir.qoy<figure/>ofshod.chypchey.ypchedy.ain<figure/>chofo,che{ph}dy
+<f26r.2,+P0>      dchey.Šaiin.adeeody<figure/>ykecthey.chedy.ytedy.dy<figure/>checthedy.ls
+<f26r.3,+P0>      oaiin.shcthy.cthedy.oloy<figure/>ykeedy.olchedy.dal<figure/>y.sheey.s,aiin.s
+<f26r.4,+P0>      qokedy.cheos.ytedy.qokedy<figure/>ytedy.chekedy<figure/>daiin.odam.s,aldy
+<f26r.5,+P0>      saiin.shedy.eedy.eedy.s,chy<figure/>daiin.cthedy<figure/>qokeedy.qokedy.cthey
 <f26r.6,+P0>      rchedy.qokedy</zone>
 #
-<zone><f26r.7,+P0>      pcho.qokedy.dar,sheo.ypchseds.s<->aiin<->sha,p,chedyfchy.dalchedy.sar
-<f26r.8,+P0>      daiin.shedy.qokeedy.qoteedar.s<->ok<->ol<->ytedy.qokeedy.qokedy
-<f26r.9,+P0>      tcheoshy.dchdy.okedy.chckhy.s<->dy<->dy<->ykeechy.okeedy.cheky
-<f26r.10,+P0>     shese.aiin.sheos.cheody<->otal</zone>
+<zone><f26r.7,+P0>      pcho.qokedy.dar,sheo.ypchseds.s<figure/>aiin<figure/>sha,p,chedyfchy.dalchedy.sar
+<f26r.8,+P0>      daiin.shedy.qokeedy.qoteedar.s<figure/>ok<figure/>ol<figure/>ytedy.qokeedy.qokedy
+<f26r.9,+P0>      tcheoshy.dchdy.okedy.chckhy.s<figure/>dy<figure/>dy<figure/>ykeechy.okeedy.cheky
+<f26r.10,+P0>     shese.aiin.sheos.cheody<figure/>otal</zone>
 #
 #
 </surface><surface n="f26v">     <! $Q=D $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2>
@@ -1121,16 +1128,16 @@
 # Currier's language A, hand 1
 # Plant ID: (small one:) Asarium Europeum (Haselwurz)
 #
-<zone><f27r.1,@P0>      ksor.shey.shoteo.chforaiin.shy<->shod.chary
-<f27r.2,+P0>      dy.{co}ain.shol.dain.dar.shokyd<->dchol.cthey,ds
-<f27r.3,+P0>      chol.shy.keol.chol.chy.shol.chy<->daiin.chey.dam
-<f27r.4,+P0>      qokey.chor.char.chy.dchy.keey<->chos.cthody
-<f27r.5,+P0>      dor.chees.ctho,shy.{c”h}ar,y<->daiin.dair
-<f27r.6,+P0>      chy.t,chols.chor.chol{oh}aiin<!corr?><->shy.kchal,dy</zone>
+<zone><f27r.1,@P0>      ksor.shey.shoteo.chforaiin.shy<figure/>shod.chary
+<f27r.2,+P0>      dy.{co}ain.shol.dain.dar.shokyd<figure/>dchol.cthey,ds
+<f27r.3,+P0>      chol.shy.keol.chol.chy.shol.chy<figure/>daiin.chey.dam
+<f27r.4,+P0>      qokey.chor.char.chy.dchy.keey<figure/>chos.cthody
+<f27r.5,+P0>      dor.chees.ctho,shy.{c”h}ar,y<figure/>daiin.dair
+<f27r.6,+P0>      chy.t,chols.chor.chol{oh}aiin<!corr?><figure/>shy.kchal,dy</zone>
 #
-<zone><f27r.7,+P0>      kchey.chey.kcheol.pch[o:y].schey.ly<->chals.cham
-<f27r.8,+P0>      ytchy.chy.t,chol.dy.t,chey.dain<->chol.dal
-<f27r.9,+P0>      dchey.keeod.shotchey.chol.oty<->chy,tolg
+<zone><f27r.7,+P0>      kchey.chey.kcheol.pch[o:y].schey.ly<figure/>chals.cham
+<f27r.8,+P0>      ytchy.chy.t,chol.dy.t,chey.dain<figure/>chol.dal
+<f27r.9,+P0>      dchey.keeod.shotchey.chol.oty<figure/>chy,tolg
 <f27r.10,+P0>     qotchey.shes.s.y.chy.tchey.dy
 <f27r.11,+P0>     chol.daiiin.chees.chos.{ct}ey.dan
 <f27r.12,+P0>     dain.cheokeey.chey.cthey.otal
@@ -1145,10 +1152,10 @@
 <zone><f27v.1,@P0>      pochof.chof.cho.sho.soly.shol.ytchar.opchory.kchor,chor
 <f27v.2,+P0>      dchy.chkar.otchy.shy.shy.dchy.dshy.kchy.cheo.daidy.dchy
 <f27v.3,+P0>      kchey.kchy.dchokchy.dsho.d{ca}r.chodchy.etcheody.shld
-<f27v.4,+P0>      okcho.chy.kch[ee:o]d.chl.chol.kod<->o.oksho.do,cheesg
-<f27v.5,+P0>      qoky.sh,keeo.[s:r]cho,dar.shkol<->chotchy.ctho,dol
-<f27v.6,+P0>      dsho.kchrrr.okeedy<->dch[s:r]chy<->sotchdy
-<f27v.7,+P0>      sho.shoykcho.shdy<->dchd<->chschsy<->otchdy
+<f27v.4,+P0>      okcho.chy.kch[ee:o]d.chl.chol.kod<figure/>o.oksho.do,cheesg
+<f27v.5,+P0>      qoky.sh,keeo.[s:r]cho,dar.shkol<figure/>chotchy.ctho,dol
+<f27v.6,+P0>      dsho.kchrrr.okeedy<figure/>dch[s:r]chy<figure/>sotchdy
+<f27v.7,+P0>      sho.shoykcho.shdy<figure/>dchd<figure/>chschsy<figure/>otchdy
 <f27v.8,+P0>      okshes.okchokshy</zone>
 #
 #
@@ -1158,14 +1165,14 @@
 # Currier's language A, hand 1
 # Plant ID: Arum or Arisarum (Haselwurtz)
 #
-<zone><f28r.1,@P0>      pchodar.shod.chocphy.opchol.daiin<->otchol.chy.qo,ldy
-<f28r.2,+P0>      otchor.otchor.cthol.{ct}y.ctheol.dy<->dchar.chakod.dly
-<f28r.3,+P0>      qotchaiin.shor.cthol.cthol.shor<->chotchy.tchodar
-<f28r.4,+P0>      choty.chtol.otol.chotchy.cthol<->otol.choky.qoty
-<f28r.5,+P0>      oksho.otorchy.kchoror.chodaiin<->sho,cthody.okoy
-<f28r.6,+P0>      qokchol.qodaiin.otcholchy.daiin<->cho.qokol.o,kam
-<f28r.7,+P0>      sho.otor.shockhy.shocthy.otoldy<->dshor.dol.dar
-<f28r.8,+P0>      oschotshl.daiin.okchey.kol.daiin<->shol.dsho.otaiin
+<zone><f28r.1,@P0>      pchodar.shod.chocphy.opchol.daiin<figure/>otchol.chy.qo,ldy
+<f28r.2,+P0>      otchor.otchor.cthol.{ct}y.ctheol.dy<figure/>dchar.chakod.dly
+<f28r.3,+P0>      qotchaiin.shor.cthol.cthol.shor<figure/>chotchy.tchodar
+<f28r.4,+P0>      choty.chtol.otol.chotchy.cthol<figure/>otol.choky.qoty
+<f28r.5,+P0>      oksho.otorchy.kchoror.chodaiin<figure/>sho,cthody.okoy
+<f28r.6,+P0>      qokchol.qodaiin.otcholchy.daiin<figure/>cho.qokol.o,kam
+<f28r.7,+P0>      sho.otor.shockhy.shocthy.otoldy<figure/>dshor.dol.dar
+<f28r.8,+P0>      oschotshl.daiin.okchey.kol.daiin<figure/>shol.dsho.otaiin
 <f28r.9,+P0>      ytchol.deey.yteol.deaiin</zone>
 #
 #
@@ -1182,8 +1189,8 @@
 <f28v.5,+P0>      otol.chol.daiin.chkaiin.shoiin.qotchey.qotshey.daiiin
 <f28v.6,+Pr>      daiin.chkaiin</zone>
 #
-<zone><f28v.7,*P0>      pchol.oiir.chol.tsho.daiin.sho<->t{co}<->chy.chtshy.dair,am
-<f28v.8,+P0>      okain.chan.chain.cthor.dain<->yk<->chy<->daiin.cthol
+<zone><f28v.7,*P0>      pchol.oiir.chol.tsho.daiin.sho<figure/>t{co}<figure/>chy.chtshy.dair,am
+<f28v.8,+P0>      okain.chan.chain.cthor.dain<figure/>yk<figure/>chy<figure/>daiin.cthol
 <f28v.9,+P0>      sor.chear.chl.[{c'}:s].choly.dar</zone>
 #
 #
@@ -1194,13 +1201,13 @@
 #
 <zone><f29r.1,@P0>      posaiin.she.aiin.chep,oty.chy.qotchy.qoty.cheecthy
 <f29r.2,+P0>      dshe.ykchy.choty.oky.cho,l.chchoty.choky.chy,ty,dy
-<f29r.3,+P0>      qokchy.qoty.kchaiin.shear.cthor<->dchor.choly
+<f29r.3,+P0>      qokchy.qoty.kchaiin.shear.cthor<figure/>dchor.choly
 <f29r.4,+P0>      chocthy.qoos.chos</zone>
 #
-<zone><f29r.5,+P0>      kcheol.cheor.sheos.sheey.teey.d[a:y]<->shos.o{cty}
-<f29r.6,+P0>      chokshy.shocthy.shor.shor.daiin<->qokaiiin
-<f29r.7,+P0>      qokchy.chol.shokchy.qokaiin.choety<->choty.kaiin
-<f29r.8,+P0>      shor.chor.shosheky.shy.qoty,kody<->daiin.cthy
+<zone><f29r.5,+P0>      kcheol.cheor.sheos.sheey.teey.d[a:y]<figure/>shos.o{cty}
+<f29r.6,+P0>      chokshy.shocthy.shor.shor.daiin<figure/>qokaiiin
+<f29r.7,+P0>      qokchy.chol.shokchy.qokaiin.choety<figure/>choty.kaiin
+<f29r.8,+P0>      shor.chor.shosheky.shy.qoty,kody<figure/>daiin.cthy
 <f29r.9,+P0>      qokshe.qor.chey.kor.cheod.ychom</zone>
 #
 #
@@ -1209,19 +1216,19 @@
 # herbal
 # Currier's language A, hand 1
 #
-<zone><f29v.1,@P0>      kooiin.shor.chetchy.ol,ls.shytchy.cthy,shy<->cho.shy.daiin
-<f29v.2,+P0>      qotcheaiin.s.chol.chol.cthy.chey.cthold<->ytchor.dary
-<f29v.3,+P0>      chol.chol.kor.shey.odaiin.qotchy.taiin<->s.she.otey.sy
-<f29v.4,+P0>      ysho.otshy.okaiin.cthy.oltchy.{cto}s<->shot.sho.okaiin</zone>
+<zone><f29v.1,@P0>      kooiin.shor.chetchy.ol,ls.shytchy.cthy,shy<figure/>cho.shy.daiin
+<f29v.2,+P0>      qotcheaiin.s.chol.chol.cthy.chey.cthold<figure/>ytchor.dary
+<f29v.3,+P0>      chol.chol.kor.shey.odaiin.qotchy.taiin<figure/>s.she.otey.sy
+<f29v.4,+P0>      ysho.otshy.okaiin.cthy.oltchy.{cto}s<figure/>shot.sho.okaiin</zone>
 #
-<zone><f29v.5,+P0>      tochon.chain.shan.shoty<->chshy<->shy
-<f29v.6,+P0>      dchor.chol.chaiin.shaiin.cthod<->dar<->chs<->shody
-<f29v.7,+P0>      qotcho.kchor.daiin.ykaiin.dy<->shdy<->chocthy.sheky
-<f29v.8,+P0>      otol.shotchor.cholody.dain<->ch[{cti}:cth]<->chy.cthody.dol
-<f29v.9,+P0>      sho.chokor.chor.chy.ydaiin.cho<->ykeeb<->oaiin</zone>
+<zone><f29v.5,+P0>      tochon.chain.shan.shoty<figure/>chshy<figure/>shy
+<f29v.6,+P0>      dchor.chol.chaiin.shaiin.cthod<figure/>dar<figure/>chs<figure/>shody
+<f29v.7,+P0>      qotcho.kchor.daiin.ykaiin.dy<figure/>shdy<figure/>chocthy.sheky
+<f29v.8,+P0>      otol.shotchor.cholody.dain<figure/>ch[{cti}:cth]<figure/>chy.cthody.dol
+<f29v.9,+P0>      sho.chokor.chor.chy.ydaiin.cho<figure/>ykeeb<figure/>oaiin</zone>
 #
-<zone><f29v.10,+P0>     qokoiin.okaiin.cho<->[{cti}:cth]<->chyd<->chykar
-<f29v.11,+P0>     daiin.chteo[r:s].octhy<->dar<->chyt<->otody
+<zone><f29v.10,+P0>     qokoiin.okaiin.cho<figure/>[{cti}:cth]<figure/>chyd<figure/>chykar
+<f29v.11,+P0>     daiin.chteo[r:s].octhy<figure/>dar<figure/>chyt<figure/>otody
 <f29v.12,+P0>     qekeochor.otchey.s,y</zone>
 #
 #
@@ -1240,11 +1247,11 @@
 <f30r.6,+P0>      dchorol.sho.chor.cho,ro.raiin.dor.chseeor.dy
 <f30r.7,+P0>      qor.chain.cthorchy</zone>
 #
-<zone><f30r.8,+P0>      opchol,ol.chesey.scheo,r,chey.okeal<->dcheo,rchey
-<f30r.9,+P0>      dchey.qochar.chol.keeaiin.chcthey<->chor.cheky
-<f30r.10,+P0>     chokchaiin.dchor.chkchean.qotchy<->chctho.rchody
-<f30r.11,+P0>     qotchor.cheor.chey.cheor.chey.so[eeb:een]<->ydey<->sor.daiin
-<f30r.12,+P0>     dcheey.ckhey.ckhey.daiin.chkeaiin.dar<->chor<->ychdain
+<zone><f30r.8,+P0>      opchol,ol.chesey.scheo,r,chey.okeal<figure/>dcheo,rchey
+<f30r.9,+P0>      dchey.qochar.chol.keeaiin.chcthey<figure/>chor.cheky
+<f30r.10,+P0>     chokchaiin.dchor.chkchean.qotchy<figure/>chctho.rchody
+<f30r.11,+P0>     qotchor.cheor.chey.cheor.chey.so[eeb:een]<figure/>ydey<figure/>sor.daiin
+<f30r.12,+P0>     dcheey.ckhey.ckhey.daiin.chkeaiin.dar<figure/>chor<figure/>ychdain
 <f30r.13,+P0>     chodaiin.chtchey.chear.shy,keey</zone>
 #
 #
@@ -1320,10 +1327,10 @@
 # Plant ID: Mentastrum/Ros*(illegible)muentz (O'Neill),
 # brunella vulgaris
 #
-<zone><f32r.1,@P0>      fchaiin.shykeody.daiiody.dain<->sho.tchy.oty.qopy
-<f32r.2,+P0>      okor.okchor.sheor.ckhy.dal<->dshodar.qotchol
-<f32r.3,+P0>      qokchor.chor.cthol.chol.dol<->dcheodain.daiin
-<f32r.4,+P0>      schor.dsh[o:a]r.ytsho.dain<->daiin.choddal
+<zone><f32r.1,@P0>      fchaiin.shykeody.daiiody.dain<figure/>sho.tchy.oty.qopy
+<f32r.2,+P0>      okor.okchor.sheor.ckhy.dal<figure/>dshodar.qotchol
+<f32r.3,+P0>      qokchor.chor.cthol.chol.dol<figure/>dcheodain.daiin
+<f32r.4,+P0>      schor.dsh[o:a]r.ytsho.dain<figure/>daiin.choddal
 <f32r.5,+P0>      qotchy.qokchy.daiin</zone>
 #
 <zone><f32r.6,+P0>      fcho.tcheychedy
@@ -1351,17 +1358,17 @@
 # Halskraut, Convolvulus erectus?
 # Same plant as f102r2[1,2] ? (FSG, Stolfi)
 #
-<zone><f32v.1,@P0>      kcheodaiin.chol,kechy.qotaiin.daiioam<->o,chofchody
-<f32v.2,+P0>      daiin.odar.chy.daiin.chey.tch[y:o].l,dy<->dain.teor
-<f32v.3,+P0>      shor.daiin.chckhy.dsho.dain.daiin.s<->shokey.ka
-<f32v.4,+P0>      or,chr.chor.dor,chaiin.qotcho,r,chy<->dch[o:a].daiin
-<f32v.5,+P0>      chokchy.daiin.shy.chor.qo.kaiin.dain<->dchol.dosg
+<zone><f32v.1,@P0>      kcheodaiin.chol,kechy.qotaiin.daiioam<figure/>o,chofchody
+<f32v.2,+P0>      daiin.odar.chy.daiin.chey.tch[y:o].l,dy<figure/>dain.teor
+<f32v.3,+P0>      shor.daiin.chckhy.dsho.dain.daiin.s<figure/>shokey.ka
+<f32v.4,+P0>      or,chr.chor.dor,chaiin.qotcho,r,chy<figure/>dch[o:a].daiin
+<f32v.5,+P0>      chokchy.daiin.shy.chor.qo.kaiin.dain<figure/>dchol.dosg
 <f32v.6,+P0>      o,kchan.chol,shal.dchcthy</zone>
 #
-<zone><f32v.7,+P0>      ksho.cpho[s:r].she.sheaiin.otshcho.r.dain<->shckhy.s.odan
-<f32v.8,+P0>      otchol.daiin.daiin.ctho,daiin.qotaiin<->otchy.d<->shan
-<f32v.9,+P0>      qotchy.cfhy.skey.chocthy.daiin.cthaiin<->daiin
-<f32v.10,+P0>     sho.keol.chor.chol.daiin.cpho,l.cthol.da<->ar
+<zone><f32v.7,+P0>      ksho.cpho[s:r].she.sheaiin.otshcho.r.dain<figure/>shckhy.s.odan
+<f32v.8,+P0>      otchol.daiin.daiin.ctho,daiin.qotaiin<figure/>otchy.d<figure/>shan
+<f32v.9,+P0>      qotchy.cfhy.skey.chocthy.daiin.cthaiin<figure/>daiin
+<f32v.10,+P0>     sho.keol.chor.chol.daiin.cpho,l.cthol.da<figure/>ar
 <f32v.11,+P0>     ol.sho.chy</zone>
 #
 #
@@ -1386,16 +1393,16 @@
 # Publ: NYT 6May75, Krauss 30(top)?, Kahn plate, B@R p90 ; 'Sunflowers'
 # Plant ID: Scabiosa
 #
-<zone><f33v.1,@P0>      tar,ar.daiin<->ydain.cthey.dols<->sheky.ar,aiin.{cs}
-<f33v.2,+P0>      kchdy.dam.dy<->oky<->otal.dain.chdy<->ytam.otam.cham
-<f33v.3,+P0>      dar.chckhy.dy<->dyky<->ckhdy.oky.d[a:ch]m<->okar,dy.kam,dy
-<f33v.4,+P0>      tokar.shdy.dal<->qokar.shd<->otody.chedy<->ykedy.dodl.dain
-<f33v.5,+P0>      tchdy.chody.okaiin<->chckhy.dor.arl<->cthy.dy,ty,dy<->ykar.cheky.dy
-<f33v.6,+P0>      ycheo.dar.olaiin.okar.chdy.chdy.oldy<->okar.chdy</zone>
+<zone><f33v.1,@P0>      tar,ar.daiin<figure/>ydain.cthey.dols<figure/>sheky.ar,aiin.{cs}
+<f33v.2,+P0>      kchdy.dam.dy<figure/>oky<figure/>otal.dain.chdy<figure/>ytam.otam.cham
+<f33v.3,+P0>      dar.chckhy.dy<figure/>dyky<figure/>ckhdy.oky.d[a:ch]m<figure/>okar,dy.kam,dy
+<f33v.4,+P0>      tokar.shdy.dal<figure/>qokar.shd<figure/>otody.chedy<figure/>ykedy.dodl.dain
+<f33v.5,+P0>      tchdy.chody.okaiin<figure/>chckhy.dor.arl<figure/>cthy.dy,ty,dy<figure/>ykar.cheky.dy
+<f33v.6,+P0>      ycheo.dar.olaiin.okar.chdy.chdy.oldy<figure/>okar.chdy</zone>
 #
-<zone><f33v.7,+P0>      tshdy.shefchdy.shckhdy.oltedy.daiin.oky<->cheol.orain<->chdyshdy.porar
-<f33v.8,+P0>      dar,ar.sheey.keedy.okchy.okar.okedy.chy<->daiin.dy'.dy<->dar.aiin.okary
-<f33v.9,+P0>      sar.or,aiin.chor.or.shkair.shol.or.chckhy<->ar,aiin<->okain.dal.dy
+<zone><f33v.7,+P0>      tshdy.shefchdy.shckhdy.oltedy.daiin.oky<figure/>cheol.orain<figure/>chdyshdy.porar
+<f33v.8,+P0>      dar,ar.sheey.keedy.okchy.okar.okedy.chy<figure/>daiin.dy'.dy<figure/>dar.aiin.okary
+<f33v.9,+P0>      sar.or,aiin.chor.or.shkair.shol.or.chckhy<figure/>ar,aiin<figure/>okain.dal.dy
 <f33v.10,+P0>     lcho,ar.or.chey.lodaiin.o,or.okeedy.okaly
 <f33v.11,+P0>     tar.al.keey.oram</zone>
 #
@@ -1407,26 +1414,26 @@
 # Publ: Krauss 30(top), B@R p91; "Sunflowers''
 # Plant ID: smaller scabiosa
 #
-<zone><f34r.1,@P0>      pcheoepchy.olar.yl<->yfody.okedody.shod.ololdy.dar.ytey
-<f34r.2,+P0>      ytar.sheody.o,lam<->octhedy.otedy.chdain.oltey.kchy,ty
-<f34r.3,+P0>      qotedy.chyty.chdaly<->dar.chd.otedy.qotol.okedy.dody.ody.kam
+<zone><f34r.1,@P0>      pcheoepchy.olar.yl<figure/>yfody.okedody.shod.ololdy.dar.ytey
+<f34r.2,+P0>      ytar.sheody.o,lam<figure/>octhedy.otedy.chdain.oltey.kchy,ty
+<f34r.3,+P0>      qotedy.chyty.chdaly<figure/>dar.chd.otedy.qotol.okedy.dody.ody.kam
 # After this line the texts left and right of the rightmost plant are not well
 # aligned vertically. Their number is the same, but the ones on the right align
 # well with lines on the left one below the expected.
-<f34r.4,+P0>      ytedy.daiin.chey.aiin<->shy.chckhy<~>oltchedy.otedy.dam.checthy
+<f34r.4,+P0>      ytedy.daiin.chey.aiin<figure/>shy.chckhy<figure/>oltchedy.otedy.dam.checthy
 #
-<f34r.5,+P0>      qoteedy.shedy.shedy.ol<->okes.ar<~>ykeed,l.chedy.otey.okaiin
-<f34r.6,+P0>      oteol.chekey.chetey.oll<->chesy<~>daiin.cheky.fas.aiir.a[m:d]g
-<f34r.7,+P0>      qokedy.dal.chdy<->olchy<->ykch[y:?]<~>ykedy.qokchdy.s.as.oldam
-<f34r.8,+P0>      {ch'}otchy.qoky<->olk<->checkhy<~>ys,air.air.chodar.ta[m:g]
-<f34r.9,+P0>      ykchdy.qod<->ar<->ch{ct}<->a[{ikh}:ckh]y<~>or.lchey.todaly.okaiin.dardy</zone>
+<f34r.5,+P0>      qoteedy.shedy.shedy.ol<figure/>okes.ar<figure/>ykeed,l.chedy.otey.okaiin
+<f34r.6,+P0>      oteol.chekey.chetey.oll<figure/>chesy<figure/>daiin.cheky.fas.aiir.a[m:d]g
+<f34r.7,+P0>      qokedy.dal.chdy<figure/>olchy<figure/>ykch[y:?]<figure/>ykedy.qokchdy.s.as.oldam
+<f34r.8,+P0>      {ch'}otchy.qoky<figure/>olk<figure/>checkhy<figure/>ys,air.air.chodar.ta[m:g]
+<f34r.9,+P0>      ykchdy.qod<figure/>ar<figure/>ch{ct}<figure/>a[{ikh}:ckh]y<figure/>or.lchey.todaly.okaiin.dardy</zone>
 #
-<zone><f34r.10,+P0>     tcheo.olchckhy.oly<->otchdy.chefalchhs
-<f34r.11,+P0>     qokeey.sh.kaldaiin<->cheky.cthdaly<->otchedy.chty.s,aiin
-<f34r.12,+P0>     char.aiin.okor,ar.tol<->qokar.chckhy.chdal.ked.qokar.ar.daiin.dam
-<f34r.13,+P0>     ykeo.lor.ochey.oly<->okaly.kechdy.qokchdy.chor.ar.aiiin.daly
-<f34r.14,+P0>     or.ar.y,kar.ol,al.oky<->chody.qokal,chedy.chcthedy.cheky.daram
-<f34r.15,+P0>     sair.chekar.cheky.shek<->cholchedy.qokedy.yk,cheolchcthy</zone>
+<zone><f34r.10,+P0>     tcheo.olchckhy.oly<figure/>otchdy.chefalchhs
+<f34r.11,+P0>     qokeey.sh.kaldaiin<figure/>cheky.cthdaly<figure/>otchedy.chty.s,aiin
+<f34r.12,+P0>     char.aiin.okor,ar.tol<figure/>qokar.chckhy.chdal.ked.qokar.ar.daiin.dam
+<f34r.13,+P0>     ykeo.lor.ochey.oly<figure/>okaly.kechdy.qokchdy.chor.ar.aiiin.daly
+<f34r.14,+P0>     or.ar.y,kar.ol,al.oky<figure/>chody.qokal,chedy.chcthedy.cheky.daram
+<f34r.15,+P0>     sair.chekar.cheky.shek<figure/>cholchedy.qokedy.yk,cheolchcthy</zone>
 #
 #
 </surface><surface n="f34v">     <! $Q=E $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2>
@@ -1466,10 +1473,10 @@
 #
 <zone><f35r.9,+P0>      paiin.chear.aiin.chear.shorchaiin
 <f35r.10,+P0>     o,aiin.chaiin.ckhy.r.chl.s.chochy.daiin
-<f35r.11,+P0>     sh[{oh}:ch]eaiin.chol.cthaiin.l,chaiin.lchal,dal<->dair,aldy.n
-<f35r.12,+P0>     olor.chy.chaiin.chy.taiin.kchey.koldy<->chetchaiin
-<f35r.13,+P0>     qokoiin.chaiin.qokchaiin.lshy.lodaly<->oteey.taiin
-<f35r.14,+P0>     cthol.chol.aiin.qotchy.otchor.daiin<->shol.qotaiin
+<f35r.11,+P0>     sh[{oh}:ch]eaiin.chol.cthaiin.l,chaiin.lchal,dal<figure/>dair,aldy.n
+<f35r.12,+P0>     olor.chy.chaiin.chy.taiin.kchey.koldy<figure/>chetchaiin
+<f35r.13,+P0>     qokoiin.chaiin.qokchaiin.lshy.lodaly<figure/>oteey.taiin
+<f35r.14,+P0>     cthol.chol.aiin.qotchy.otchor.daiin<figure/>shol.qotaiin
 <f35r.15,+P0>     ochor.s.chiin.daiin.ytain</zone>
 #
 #
@@ -1513,10 +1520,10 @@
 <f36r.2,+P0>      oral.shor.ytaiin.qotaiin.qooldy.chty.chol,dy.tor
 <f36r.3,+P0>      qotchy.tchy.daiin.˜aiin.dolsain</zone>
 #
-<zone><f36r.4,+P0>      podaiir.cphy.qoypchol.som<->{c'y}<->chy.dchy.fchom,dar
-<f36r.5,+P0>      daiin.qor.chol.ctholy.s<->o<->r<->chy.sy<->chytaroiin
-<f36r.6,+P0>      okaiin.cthor.y,kaiiin.s<->dain.an<->dan
-<f36r.7,+P0>      qotol.cthol.okol,dy.okchy<->ytorory<->sold
+<zone><f36r.4,+P0>      podaiir.cphy.qoypchol.som<figure/>{c'y}<figure/>chy.dchy.fchom,dar
+<f36r.5,+P0>      daiin.qor.chol.ctholy.s<figure/>o<figure/>r<figure/>chy.sy<figure/>chytaroiin
+<f36r.6,+P0>      okaiin.cthor.y,kaiiin.s<figure/>dain.an<figure/>dan
+<f36r.7,+P0>      qotol.cthol.okol,dy.okchy<figure/>ytorory<figure/>sold
 <f36r.8,+P0>      ytchor.cthol.chaiin.yd
 <f36r.9,+P0>      ytodaly.daiin.otaro</zone>
 #
@@ -1529,8 +1536,8 @@
 #
 <zone><f36v.1,@P0>      pchar,asy.qoforom.shoaiin.tchey.ch[{ckoh}:{ckhh}]y.otaiin.cphar.daiin
 <f36v.2,+P0>      qotor.chol.daiin.otaiin.qotor.ytar.ochor.chety.ckh[o:a]r.dom
-<f36v.3,+P0>      dchytchy.ytor,s<->otaiin.qopchor.otar.otchaiin.s
-<f36v.4,+P0>      qotchor.y,ky,ty,dy<->daiin.cthor</zone>
+<f36v.3,+P0>      dchytchy.ytor,s<figure/>otaiin.qopchor.otar.otchaiin.s
+<f36v.4,+P0>      qotchor.y,ky,ty,dy<figure/>daiin.cthor</zone>
 #
 <zone><f36v.5,+P1>      tchor.ckhoiin.daiin.cphchar
 <f36v.6,+P1>      daiin.cthor.daiin.dal.dys
@@ -1555,14 +1562,14 @@
 <f37r.2,+P0>      ykoiin.cthor.okaiin.qo,tchy.ytody.qokaiin.sho.ytaiin
 <f37r.3,+P0>      qo,shy.qokaiin.cthol,dy.ckhor.oky,dy</zone>
 #
-<zone><f37r.4,+P0>      pchotchy.daiin.cfholdar.chol.daiin<->yd
+<zone><f37r.4,+P0>      pchotchy.daiin.cfholdar.chol.daiin<figure/>yd
 <f37r.5,+P0>      yky.qokchy.qotchor.chkol.otoly
-<f37r.6,+P0>      shor.shol.qokchy.qotomody<->dchol.daiin
+<f37r.6,+P0>      shor.shol.qokchy.qotomody<figure/>dchol.daiin
 <f37r.7,+P0>      sor.chey.kor.qokor.daiin</zone>
 #
-<zone><f37r.8,+P0>      koiin.chorody.qokaiin.{c'hh}ory.otal<->shor.sheor.dar
-<f37r.9,+P0>      ykchody.qotchy.ykaiin.chy.qotordy<->otcho.loldaiin
-<f37r.10,+P0>     qoto.o,kchochor.dchor.chy.shy.daiin<->ychey.kol,daiir
+<zone><f37r.8,+P0>      koiin.chorody.qokaiin.{c'hh}ory.otal<figure/>shor.sheor.dar
+<f37r.9,+P0>      ykchody.qotchy.ykaiin.chy.qotordy<figure/>otcho.loldaiin
+<f37r.10,+P0>     qoto.o,kchochor.dchor.chy.shy.daiin<figure/>ychey.kol,daiir
 <f37r.11,+P0>     okchor.daiin.ckhy.dain.daiin</zone>
 #
 #
@@ -1604,12 +1611,12 @@
 # Currier's language A, hand 1
 # herbal
 #
-<zone><f38r.1,@P0>      tolor.chockhy<->oky.choiin.okshol.oly.oky
-<f38r.2,+P0>      okshey.chodys<->ytoiin.otaiin.otaiin.cthar
-<f38r.3,+P0>      qokor.okaiin<->otaiin.qo,kchol.chokokor
-<f38r.4,+P0>      ychok.chey.chckh<->chy.chk[o:y].r.odaiin.d,aiin.sy
-<f38r.5,+P0>      o,kor.chey.kain<->chor.ctho.dain.ckholdy
-<f38r.6,+P0>      ysho.sho.kos<->daiin.okoy.chochor.daiin</zone>
+<zone><f38r.1,@P0>      tolor.chockhy<figure/>oky.choiin.okshol.oly.oky
+<f38r.2,+P0>      okshey.chodys<figure/>ytoiin.otaiin.otaiin.cthar
+<f38r.3,+P0>      qokor.okaiin<figure/>otaiin.qo,kchol.chokokor
+<f38r.4,+P0>      ychok.chey.chckh<figure/>chy.chk[o:y].r.odaiin.d,aiin.sy
+<f38r.5,+P0>      o,kor.chey.kain<figure/>chor.ctho.dain.ckholdy
+<f38r.6,+P0>      ysho.sho.kos<figure/>daiin.okoy.chochor.daiin</zone>
 #
 #
 </surface><surface n="f38v">     <! $Q=E $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
@@ -1618,13 +1625,13 @@
 # herbal
 # Plant ID: Cickorium?, Lactuca
 #
-<zone><f38v.1,@P0>      okchop.chol.shotol.oteol.okee[a:y].s<->chor.d.aiin,d
-<f38v.2,+P0>      choiin.shey.key.sho.oiin.s.chol,ldy<->okeaiin.o,kom
-<f38v.3,+P0>      qokeey.keor.daiin.okey.keey.daiin<->dair.daiin.s
-<f38v.4,+P0>      okeey.d,aiin.qokeey.chotey.tody<->oky.aiiin.d
-<f38v.5,+P0>      qoty.daiin.chol.oteeol.dody<->cheod.chody
-<f38v.6,+P0>      sho.keeey.key.tey.daiin.daiiin<->dain.dain
-<f38v.7,+P0>      daiin.qol.chy.dain.™.or.daiin<->dain.daldy
+<zone><f38v.1,@P0>      okchop.chol.shotol.oteol.okee[a:y].s<figure/>chor.d.aiin,d
+<f38v.2,+P0>      choiin.shey.key.sho.oiin.s.chol,ldy<figure/>okeaiin.o,kom
+<f38v.3,+P0>      qokeey.keor.daiin.okey.keey.daiin<figure/>dair.daiin.s
+<f38v.4,+P0>      okeey.d,aiin.qokeey.chotey.tody<figure/>oky.aiiin.d
+<f38v.5,+P0>      qoty.daiin.chol.oteeol.dody<figure/>cheod.chody
+<f38v.6,+P0>      sho.keeey.key.tey.daiin.daiiin<figure/>dain.dain
+<f38v.7,+P0>      daiin.qol.chy.dain.™.or.daiin<figure/>dain.daldy
 <f38v.8,+P0>      o,aiin.char.chshol.chokaiin</zone>
 #
 #
@@ -1668,13 +1675,13 @@
 <f39v.5,+P0>      ytedykor.or.sheky.kain.otar.or.aiin.okaiin.ckhol.ol.kor.oto,r.ofchy
 <f39v.6,+P0>      lkedy.okchey.shor.qoykam.cho,ckh{cfhh}y.or.aly.shody</zone>
 #
-<zone><f39v.7,+P0>      pardy.shedy.qokar.sheedy.oraly<->olaiir.okar.ar
-<f39v.8,+P0>      o{ek}ar.aiin.olkaiin.olky.dar.ald<->shek.chek.qokchy.dar.ain
-<f39v.9,+P0>      tar.aiin.dal.ar.ain.cheor.ydam<->shody.okal.shd,y.kshy.or
-<f39v.10,+P0>     dar.ar.ykar.or.yky.chdy.fchor<->qokain.ar.sheedy.olchef
-<f39v.11,+P0>     sarol.chedy.shekam.q[o:e]kar.chl<->ykeedy.chckhy.dalor.dy
-<f39v.12,+P0>     paiin.alaiin.otal,chd.okar.am<->okar.cheodal.ockhy
-<f39v.13,+P0>     dain.ockhedy.otedy.okedy<->lchdy.okaiin.daiiin,y
+<zone><f39v.7,+P0>      pardy.shedy.qokar.sheedy.oraly<figure/>olaiir.okar.ar
+<f39v.8,+P0>      o{ek}ar.aiin.olkaiin.olky.dar.ald<figure/>shek.chek.qokchy.dar.ain
+<f39v.9,+P0>      tar.aiin.dal.ar.ain.cheor.ydam<figure/>shody.okal.shd,y.kshy.or
+<f39v.10,+P0>     dar.ar.ykar.or.yky.chdy.fchor<figure/>qokain.ar.sheedy.olchef
+<f39v.11,+P0>     sarol.chedy.shekam.q[o:e]kar.chl<figure/>ykeedy.chckhy.dalor.dy
+<f39v.12,+P0>     paiin.alaiin.otal,chd.okar.am<figure/>okar.cheodal.ockhy
+<f39v.13,+P0>     dain.ockhedy.otedy.okedy<figure/>lchdy.okaiin.daiiin,y
 <f39v.14,+P0>     tar,aiin.okaiin.cholody</zone>
 #
 #
@@ -1684,17 +1691,17 @@
 # herbal
 # Plant ID: Primulaceon
 #
-<zone><f40r.1,@P0>      pchey.k,eodar.aldydy<->qoky.okal.shdy.olkedy.opches.ar.ordaiin
-<f40r.2,+P0>      qokar.okar.okedy.dar<->ykchey.kaiin.ok[a:o]s,chedy.okar.a,ralos
-<f40r.3,+P0>      shy.qokal.chdy.chckhd<->otor.aiir.o,ky.okolchy.qokar.okam
-<f40r.4,+P0>      or.aiin.chekody.dar<->qokol.okaiin.okar.oky.okoldy.ol
-<f40r.5,+P0>      lokar.qokar.okar<->okol.ol.chedy.qokchd.ar.ar.or.da[g:m]
-<f40r.6,+P0>      tor.or.ar.shok.or.am<->o,lshedy.qokam.chdy.kar.oraiin
-<f40r.7,+P0>      yaiin.chekaiin.oky<->ycheey</zone>
+<zone><f40r.1,@P0>      pchey.k,eodar.aldydy<figure/>qoky.okal.shdy.olkedy.opches.ar.ordaiin
+<f40r.2,+P0>      qokar.okar.okedy.dar<figure/>ykchey.kaiin.ok[a:o]s,chedy.okar.a,ralos
+<f40r.3,+P0>      shy.qokal.chdy.chckhd<figure/>otor.aiir.o,ky.okolchy.qokar.okam
+<f40r.4,+P0>      or.aiin.chekody.dar<figure/>qokol.okaiin.okar.oky.okoldy.ol
+<f40r.5,+P0>      lokar.qokar.okar<figure/>okol.ol.chedy.qokchd.ar.ar.or.da[g:m]
+<f40r.6,+P0>      tor.or.ar.shok.or.am<figure/>o,lshedy.qokam.chdy.kar.oraiin
+<f40r.7,+P0>      yaiin.chekaiin.oky<figure/>ycheey</zone>
 #
-<zone><f40r.8,+P0>      ksheo.keeey.dar.ai[g:m]<->kcheo.cfhdy.or,ain.chefal.daiin.dg
-<f40r.9,+P0>      taiin.ol.olaiin.or<->dain.okaiin.okaiin.okaiin.daram
-<f40r.10,+P0>     saiin.olcheey.chdy<->ychey.kašar.oky.ykedy.okair.ody
+<zone><f40r.8,+P0>      ksheo.keeey.dar.ai[g:m]<figure/>kcheo.cfhdy.or,ain.chefal.daiin.dg
+<f40r.9,+P0>      taiin.ol.olaiin.or<figure/>dain.okaiin.okaiin.okaiin.daram
+<f40r.10,+P0>     saiin.olcheey.chdy<figure/>ychey.kašar.oky.ykedy.okair.ody
 <f40r.11,+P0>     toar.ykaiin.ory.dal</zone>
 #
 #
@@ -1718,12 +1725,12 @@
 <f40v.11,+P0>     schedy.qokol.chedy.dalor.a{ith}y
 <f40v.12,+P0>     ycheekeey.daiin.okaiin</zone>
 #
-<zone><f40v.13,+P0>     toees.chedy.kedy.olfchedy.qokedy<->daiin.chefain
-<f40v.14,+P0>     saiin.o.lchey.kchedy.okar.qokchdy.dy<->qokees.am.chdy
-<f40v.15,+P0>     qokchey.qody.or.aiiin.o,kaiin.o,ckhy<->sheod.faimy
-<f40v.16,+P0>     shol.kedy.lor.ar.okar.qoky.kedy.r<->yteey.qokam
-<f40v.17,+P0>     tochey.qokeedy.qokaiin.okeos.qokar<->okees.ar.o[k:?]y
-<f40v.18,+P0>     saiin.otain.chckhy.okal.okair.arol<->qokey.okary
+<zone><f40v.13,+P0>     toees.chedy.kedy.olfchedy.qokedy<figure/>daiin.chefain
+<f40v.14,+P0>     saiin.o.lchey.kchedy.okar.qokchdy.dy<figure/>qokees.am.chdy
+<f40v.15,+P0>     qokchey.qody.or.aiiin.o,kaiin.o,ckhy<figure/>sheod.faimy
+<f40v.16,+P0>     shol.kedy.lor.ar.okar.qoky.kedy.r<figure/>yteey.qokam
+<f40v.17,+P0>     tochey.qokeedy.qokaiin.okeos.qokar<figure/>okees.ar.o[k:?]y
+<f40v.18,+P0>     saiin.otain.chckhy.okal.okair.arol<figure/>qokey.okary
 <f40v.19,+Pc>     pchedy.chetar.ofair.arody</zone>
 #
 #
@@ -1734,17 +1741,17 @@
 # Plant ID: Thistle
 # Transcription quality seriously reduced on this page
 #
-<zone><f41r.1,@P0>      pshey,kedal[ee:ch]y.oked.seekeeey<->opshes.[o:y]p[ch:ee]d.qotchedy.shkakeedy
-<f41r.2,+P0>      ykeeo.alshey,ykedy.kesh,dy.dy<->dor.[y:q]cheoky.qokee[d:?].chpy.qokedy.dy
-<f41r.3,+P0>      qok.sa[y:?]<!unclear>.[q:y][o:e]kedy.ychdykchdy<->qokedy.qokedy.shekchy.cheky.daly
-<f41r.4,+P0>      chdchy.ytcheeky.ypchedy.schdy<->ytedy.{cthh}y.chees.oteey.otal.da[m:g]
-<f41r.5,+P0>      qotchy.sal.yteedy.kchdy<->dchedy.k[ee:ch]dy.dchedy.dalain</zone>
+<zone><f41r.1,@P0>      pshey,kedal[ee:ch]y.oked.seekeeey<figure/>opshes.[o:y]p[ch:ee]d.qotchedy.shkakeedy
+<f41r.2,+P0>      ykeeo.alshey,ykedy.kesh,dy.dy<figure/>dor.[y:q]cheoky.qokee[d:?].chpy.qokedy.dy
+<f41r.3,+P0>      qok.sa[y:?]<!unclear>.[q:y][o:e]kedy.ychdykchdy<figure/>qokedy.qokedy.shekchy.cheky.daly
+<f41r.4,+P0>      chdchy.ytcheeky.ypchedy.schdy<figure/>ytedy.{cthh}y.chees.oteey.otal.da[m:g]
+<f41r.5,+P0>      qotchy.sal.yteedy.kchdy<figure/>dchedy.k[ee:ch]dy.dchedy.dalain</zone>
 #
-<zone><f41r.6,+P0>      shedey.polchedy.qokeey.chekedy.ytey<->chkeeod<->ypchedpy.shepy.shedy
-<f41r.7,+P0>      parchdy.kchey.yteedy.qokeod[o:y]<->okedy.chkedy.qokedy.ched[y:e].qokedy
-<f41r.8,+P0>      dair.chedy.chckhy.qokey.lchdy<->qokedy.qokal.chekedy.qodar,a[g:j]
-<f41r.9,+P0>      qokeedy.okedy.chekedy.chedy<->chckheody.chekol.daiin.cheo.al.otedy
-<f41r.10,+P0>     sshok.shedy.qekchdy.dchdaldy<->ykedy.qokeedy.qokedy.qokeg
+<zone><f41r.6,+P0>      shedey.polchedy.qokeey.chekedy.ytey<figure/>chkeeod<figure/>ypchedpy.shepy.shedy
+<f41r.7,+P0>      parchdy.kchey.yteedy.qokeod[o:y]<figure/>okedy.chkedy.qokedy.ched[y:e].qokedy
+<f41r.8,+P0>      dair.chedy.chckhy.qokey.lchdy<figure/>qokedy.qokal.chekedy.qodar,a[g:j]
+<f41r.9,+P0>      qokeedy.okedy.chekedy.chedy<figure/>chckheody.chekol.daiin.cheo.al.otedy
+<f41r.10,+P0>     sshok.shedy.qekchdy.dchdaldy<figure/>ykedy.qokeedy.qokedy.qokeg
 <f41r.11,+P0>     ykeod.ykeedy.chekeedy.cheked</zone>
 #
 #
@@ -1756,12 +1763,12 @@
 # Plain carrot or variety (RZ)
 #
 <f41v.1,@Lp>      keer[e:o]dal
-<zone><f41v.2,+P0>      pcheody.qofcheepy.ofchdy.cfhekchdy<->ypchedy.chepchefy.shdchdy.qotal.dar
-<f41v.3,+P0>      dshedy.tchey.s,aiin.shekey.okedy.okaly<->daiin.okedy.ykeeody.choy.keoy.dam
-<f41v.4,+P0>      qoke[o:d]dy.okey.qokeody.oleeol.lkedy<->lkeeody.qokeedy.okeey.qokol.sheols
-<f41v.5,+P0>      ycheos.olchey.daiin.or.chol[a:o]laiin<->oteedy.qoteol.oteodar.orain
-<f41v.6,+P0>      tadaiin.ol.cheos.yteedy.okal.[o:a]ld<->oteol.qokal.or.oteody
-<f41v.7,+P0>      ykeey.okey.ykeeol.ckhdy.chdal<->ykeo,aiin.okeody.oly
+<zone><f41v.2,+P0>      pcheody.qofcheepy.ofchdy.cfhekchdy<figure/>ypchedy.chepchefy.shdchdy.qotal.dar
+<f41v.3,+P0>      dshedy.tchey.s,aiin.shekey.okedy.okaly<figure/>daiin.okedy.ykeeody.choy.keoy.dam
+<f41v.4,+P0>      qoke[o:d]dy.okey.qokeody.oleeol.lkedy<figure/>lkeeody.qokeedy.okeey.qokol.sheols
+<f41v.5,+P0>      ycheos.olchey.daiin.or.chol[a:o]laiin<figure/>oteedy.qoteol.oteodar.orain
+<f41v.6,+P0>      tadaiin.ol.cheos.yteedy.okal.[o:a]ld<figure/>oteol.qokal.or.oteody
+<f41v.7,+P0>      ykeey.okey.ykeeol.ckhdy.chdal<figure/>ykeo,aiin.okeody.oly
 <f41v.8,+P0>      daiin.olkeeo.lkol,chedy.okeey</zone>
 #
 #
@@ -1783,11 +1790,11 @@
 <zone><f42r.7,+P0>      pcho.chy.kshaiin.shotaiin.cham.shan
 <f42r.8,+P0>      yshol.chees.cthol.shor.shol.ety.char,y
 <f42r.9,+P0>      qotch[a:o]r.otchol.ctho.kchodan.chkchory
-<f42r.10,+P0>     choty.dol.ksheo.cthor.otol.cthol.chol<->shol,dain
-<f42r.11,+P0>     qotor.cho.chody.daiin.shol.ctheey.dar<->chy.daiidy
-<f42r.12,+P0>     dcheey.chol.shol.chokaiin.choeky.d{cky}<->dain.dal
-<f42r.13,+P0>     qopor.shol.shot.shol.shol.daiin.dain.s<->cheam
-<f42r.14,+P0>     sho,kshey.choty.chdain.chodaiin.daiin<->dam
+<f42r.10,+P0>     choty.dol.ksheo.cthor.otol.cthol.chol<figure/>shol,dain
+<f42r.11,+P0>     qotor.cho.chody.daiin.shol.ctheey.dar<figure/>chy.daiidy
+<f42r.12,+P0>     dcheey.chol.shol.chokaiin.choeky.d{cky}<figure/>dain.dal
+<f42r.13,+P0>     qopor.shol.shot.shol.shol.daiin.dain.s<figure/>cheam
+<f42r.14,+P0>     sho,kshey.choty.chdain.chodaiin.daiin<figure/>dam
 <f42r.15,+Pr>     pchody.otshey.dodaiin</zone>
 #
 <zone><f42r.16,+P0>     pydaiin.sheor.shaiin.tsh.olchy.sholy
@@ -1806,21 +1813,21 @@
 # Currier's language A, hand 1
 # Plant ID: ranunculacea helleboria(?) (Mrs Voynich)
 #
-<zone><f42v.1,@P0>      œcho.{cto}.sheey.qocho.taiin.shols<->chol.chor.dain
-<f42v.2,+P0>      dshey.tchey.y.kchey.chtchy.{cõh}y.dan<->dain.otol.daiin
-<f42v.3,+P0>      sho.chotody.chotol.oky.chol.chol<->dl.chcthy.otoy
-<f42v.4,+P0>      qotchy.chkchy.sar.dy<->odaiil<->ykchy.o,kol,dg
-<f42v.5,+P0>      chokeeo,r.chey.chetan<->s,ary<->okol.chetaiin
-<f42v.6,+P0>      okeokear.cheotchar<->sy<->saiin.cthar,d,am
-<f42v.7,+P0>      chok.sheo,key.keeeyd<->chekeesshy
+<zone><f42v.1,@P0>      œcho.{cto}.sheey.qocho.taiin.shols<figure/>chol.chor.dain
+<f42v.2,+P0>      dshey.tchey.y.kchey.chtchy.{cõh}y.dan<figure/>dain.otol.daiin
+<f42v.3,+P0>      sho.chotody.chotol.oky.chol.chol<figure/>dl.chcthy.otoy
+<f42v.4,+P0>      qotchy.chkchy.sar.dy<figure/>odaiil<figure/>ykchy.o,kol,dg
+<f42v.5,+P0>      chokeeo,r.chey.chetan<figure/>s,ary<figure/>okol.chetaiin
+<f42v.6,+P0>      okeokear.cheotchar<figure/>sy<figure/>saiin.cthar,d,am
+<f42v.7,+P0>      chok.sheo,key.keeeyd<figure/>chekeesshy
 <f42v.8,+P0>      sodal.saiin</zone>
 #
-<zone><f42v.9,+P0>      posheor.sho.char.chekchey.qokod<->sho.cpheo.rchy
-<f42v.10,+P0>     schor.okchey.chy.shol.olor.cheaiin<->{ct}chy.tcheeb,d
-<f42v.11,+P0>     qo.aiin.qokeey.kchol.cheal.o,t,eold<->shey.teaiin,d
-<f42v.12,+P0>     ch[o:a]tcheey.chol.ol.chaiin.oteeaiin<->chkchy.taiin,y
-<f42v.13,+P0>     sho.chey.teor.shey.che{cthh}y.daiin<->chokeey.daiin
-<f42v.14,+P0>     qoteey.chy.kchy.cthy.{cts}ees.choly<->sarar.aral
+<zone><f42v.9,+P0>      posheor.sho.char.chekchey.qokod<figure/>sho.cpheo.rchy
+<f42v.10,+P0>     schor.okchey.chy.shol.olor.cheaiin<figure/>{ct}chy.tcheeb,d
+<f42v.11,+P0>     qo.aiin.qokeey.kchol.cheal.o,t,eold<figure/>shey.teaiin,d
+<f42v.12,+P0>     ch[o:a]tcheey.chol.ol.chaiin.oteeaiin<figure/>chkchy.taiin,y
+<f42v.13,+P0>     sho.chey.teor.shey.che{cthh}y.daiin<figure/>chokeey.daiin
+<f42v.14,+P0>     qoteey.chy.kchy.cthy.{cts}ees.choly<figure/>sarar.aral
 <f42v.15,+P0>     chokey.chol.okey
 <f42v.16,=Pt>     okor.odeey</zone>
 #
@@ -1910,7 +1917,7 @@
 <f44v.6,+P0>      tol.dair.ytaiin.dol,y.kchain.oty,keey.otchol.ytaiin,dy
 <f44v.7,+P0>      ok[y:o],tchaiin.cthol.dy.cheol.ololy</zone>
 #
-<zone><f44v.8,+P0>      tsheody.cthaiin.odaiin.shol.shey.cthy<->ykoda<->ol
+<zone><f44v.8,+P0>      tsheody.cthaiin.odaiin.shol.shey.cthy<figure/>ykoda<figure/>ol
 <f44v.9,+P0>      dshor.cthees.l,o,lkeees.ckhy.chcthy.lo
 <f44v.10,+P0>     lsho.qokchy.tshy.cphaiin.cthal.kal
 <f44v.11,+P0>     okal.chol.chol.choky.okaiin.cthy.otal
@@ -1946,16 +1953,16 @@
 # beatrum phula inal(sp)
 #
 <zone><f45v.1,@P0>      ko[r:s]ary.chko.kol,chey.fsholom.shor.ykchy.dod.opchaiin.olald
-<f45v.2,+P0>      okol.chor.daiin.cthy.okchol.chom.okolo[r:n].dy<->okchol.s
-<f45v.3,+P0>      qokchy.l,or.cheol.qot[o:a]l.qotol,chy.ky.cthod<->ykar,yd
+<f45v.2,+P0>      okol.chor.daiin.cthy.okchol.chom.okolo[r:n].dy<figure/>okchol.s
+<f45v.3,+P0>      qokchy.l,or.cheol.qot[o:a]l.qotol,chy.ky.cthod<figure/>ykar,yd
 <f45v.4,+P0>      okchy.qockhy.dain.dail.dair.shy</zone>
 #
-<zone><f45v.5,+P0>      qotol.choiin.okchar.dar.oty<->shoto.dol,py<->otytam
-<f45v.6,+P0>      ?s,aiin.cphor.qok{cy}.tod<->ytchdy.dy<->dy.cheg
-<f45v.7,+P0>      tchtcho,kchol.dshy.o,tyol<->ytchom
-<f45v.8,+P0>      yksheor.odal.sho.dy.pchom<->otor.oa[iir:iin]
-<f45v.9,+P0>      ychor.cthy.chol.qokom.sy<->sa,ykchom
-<f45v.10,+P0>     dshor.otshy.oky.tsholol<->ytchord
+<zone><f45v.5,+P0>      qotol.choiin.okchar.dar.oty<figure/>shoto.dol,py<figure/>otytam
+<f45v.6,+P0>      ?s,aiin.cphor.qok{cy}.tod<figure/>ytchdy.dy<figure/>dy.cheg
+<f45v.7,+P0>      tchtcho,kchol.dshy.o,tyol<figure/>ytchom
+<f45v.8,+P0>      yksheor.odal.sho.dy.pchom<figure/>otor.oa[iir:iin]
+<f45v.9,+P0>      ychor.cthy.chol.qokom.sy<figure/>sa,ykchom
+<f45v.10,+P0>     dshor.otshy.oky.tsholol<figure/>ytchord
 <f45v.11,+P0>     or,chor.ytchy.doiin.dcholdy</zone>
 #
 #
@@ -2034,20 +2041,20 @@
 # Plant ID: Toronicum Pardalianchus (Holm) [Gemswurtz]
 # Same plant as f102r2[1,1] (Petersen)
 #
-<zone><f47v.1,@P0>      psheot.cheor.cholsho.chopchy.sal<->sary
-<f47v.2,+P0>      dsheey.shy.cphy.otchey.daiidy.chory<->daiiy
-<f47v.3,+P0>      shol.char.oteol.dor.otchol.chkchy<->daiin
-<f47v.4,+P0>      qotol.sheey.kol.sho.keechy.qoty<->cthy
-<f47v.5,+P0>      dsholy.shees.chor.ody.shy.sy<->sary
-<f47v.6,+P0>      chody.cheor.saiin.dochod<->chol</zone>
+<zone><f47v.1,@P0>      psheot.cheor.cholsho.chopchy.sal<figure/>sary
+<f47v.2,+P0>      dsheey.shy.cphy.otchey.daiidy.chory<figure/>daiiy
+<f47v.3,+P0>      shol.char.oteol.dor.otchol.chkchy<figure/>daiin
+<f47v.4,+P0>      qotol.sheey.kol.sho.keechy.qoty<figure/>cthy
+<f47v.5,+P0>      dsholy.shees.chor.ody.shy.sy<figure/>sary
+<f47v.6,+P0>      chody.cheor.saiin.dochod<figure/>chol</zone>
 #
 <zone><f47v.7,+P0>      pchodaiin.dair.dcthy
 <f47v.8,+P0>      daiin.cheotar.chodaly.sal
 <f47v.9,+P0>      qotcheey.chety.chol.chol.dain
-<f47v.10,+P0>     chotcho,ltchey.[o:y].tcho,tchy.dy<->chol.chody.dar
-<f47v.11,+P0>     ot[ee:a:ei]y.cho.chdy.chy.key.chyky<->dchy.daiin.chy
-<f47v.12,+P0>     ch[y:o].cho,keesy.chy.chy.cheky<->chochy.daiin
-<f47v.13,+P0>     dshy.daiin.chdlety.chaiin<->dcheey.otald
+<f47v.10,+P0>     chotcho,ltchey.[o:y].tcho,tchy.dy<figure/>chol.chody.dar
+<f47v.11,+P0>     ot[ee:a:ei]y.cho.chdy.chy.key.chyky<figure/>dchy.daiin.chy
+<f47v.12,+P0>     ch[y:o].cho,keesy.chy.chy.cheky<figure/>chochy.daiin
+<f47v.13,+P0>     dshy.daiin.chdlety.chaiin<figure/>dcheey.otald
 <f47v.14,+P0>     chol.{ct}chey</zone>
 #
 #
@@ -2076,17 +2083,17 @@
 # Same plant as f89v[1,4] ? (Stolfi)
 #
 <zone><f48v.1,@P0>      pcheodchy.dshedy.fchedy.los.aiin.ykeeedy.shey.ypchedy.teedy.chdy.ypair,y.chedyty
-<f48v.2,+P0>      chey.tedy.otchody.ykeedy.otar,yotedy.cthdy<->okain.chety.choolkeey
-<f48v.3,+P0>      alchey.kor.y.keody.olkeeey.chody.chedy.daly<->okeeor.aiin.otar,air,am
-<f48v.4,+P0>      dchedy,tchddy.otsh.okeey.ty.otar.alchdy<->yteedy.oteed.y,kedy.m
-<f48v.5,+P0>      lkeey.qocthedy.taiin.shed.qokar.otedy.dy<->dain.tolkain.otam
-<f48v.6,+P0>      shdy.qokain.okar.otar.or.otees.ol.or.ain<->otal.ok.y,tar.chedy.am</zone>
+<f48v.2,+P0>      chey.tedy.otchody.ykeedy.otar,yotedy.cthdy<figure/>okain.chety.choolkeey
+<f48v.3,+P0>      alchey.kor.y.keody.olkeeey.chody.chedy.daly<figure/>okeeor.aiin.otar,air,am
+<f48v.4,+P0>      dchedy,tchddy.otsh.okeey.ty.otar.alchdy<figure/>yteedy.oteed.y,kedy.m
+<f48v.5,+P0>      lkeey.qocthedy.taiin.shed.qokar.otedy.dy<figure/>dain.tolkain.otam
+<f48v.6,+P0>      shdy.qokain.okar.otar.or.otees.ol.or.ain<figure/>otal.ok.y,tar.chedy.am</zone>
 #
-<zone><f48v.7,+P0>      pchedar.chey<->ypchedy.otedy.shef,eeedy.al<->shedy.otedy.fcheodal.cpheeg
-<f48v.8,+P0>      oteody.chkey<->okedy.chckhedy.ykedy.oldy<->otoly.chey.kaly.tokar.otam
-<f48v.9,+P0>      tor.shody.okal<->otchedy.cheky.oly.loldy.lol<->otchdy.otoldy.ytam.otedy
-<f48v.10,+P0>     tol.chedy.ytedy<->ykeol.chdy.chdor.chtol.chdy<->ytchedal.cthey.okar,ar.ary
-<f48v.11,+P0>     ykeedal.chckhy<->ykal.y,tam.or.cheedls.[s:d]ary</zone>
+<zone><f48v.7,+P0>      pchedar.chey<figure/>ypchedy.otedy.shef,eeedy.al<figure/>shedy.otedy.fcheodal.cpheeg
+<f48v.8,+P0>      oteody.chkey<figure/>okedy.chckhedy.ykedy.oldy<figure/>otoly.chey.kaly.tokar.otam
+<f48v.9,+P0>      tor.shody.okal<figure/>otchedy.cheky.oly.loldy.lol<figure/>otchdy.otoldy.ytam.otedy
+<f48v.10,+P0>     tol.chedy.ytedy<figure/>ykeol.chdy.chdor.chtol.chdy<figure/>ytchedal.cthey.okar,ar.ary
+<f48v.11,+P0>     ykeedal.chckhy<figure/>ykal.y,tam.or.cheedls.[s:d]ary</zone>
 #
 #
 </surface><surface n="f49r">     <! $Q=G $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1>
@@ -2098,7 +2105,7 @@
 #
 <zone><f49r.1,@P0>      pychol.dy.[sh:ch]or.shol.shtchy.shorpchor.opchor.shor,kchy
 <f49r.2,+P0>      qotor.sho.chotchy.choshy.qopchar.q'o.dor.daiin
-<f49r.3,+P0>      dsho<->dchor.dchor.daiin.dor.cheoraiin</zone>
+<f49r.3,+P0>      dsho<figure/>dchor.dchor.daiin.dor.cheoraiin</zone>
 #
 <zone><f49r.4,+P0>      ksh[o:a].qodain.chotshy.dodar
 <f49r.5,+P0>      chor.sheor.chey.teey.qotan
@@ -2158,30 +2165,30 @@
 <f49v.26,=P0>     qokeol,chokeeody.otol.kcho,s.chol.daiin</zone>
 #
 <f49v.27,*L0>     Œ
-<zone><f49v.28,=P0>     fchochor.shol.tchol.opcheodal.dchsy<->chotchy
+<zone><f49v.28,=P0>     fchochor.shol.tchol.opcheodal.dchsy<figure/>chotchy
 <f49v.29,*L0>     ¤
-<f49v.30,=P0>     dcho.d.chol.chokchodaiin.chokchy.tchol<->okchokol
+<f49v.30,=P0>     dcho.d.chol.chokchodaiin.chokchy.tchol<figure/>okchokol
 <f49v.31,*L0>     p
-<f49v.32,=P0>     tchotchey.chokeeodol.rcheey.otchodar<->dcho.dchog
+<f49v.32,=P0>     tchotchey.chokeeodol.rcheey.otchodar<figure/>dcho.dchog
 <f49v.33,*L0>     o
 <f49v.34,=P0>     shocho.oaiin.sheo.choty</zone>
 #
 <f49v.35,*L0>     À
-<zone><f49v.36,=P0>     qotcho.cheol.chol,s.cho,chcthey.dcheol<->chotchody
+<zone><f49v.36,=P0>     qotcho.cheol.chol,s.cho,chcthey.dcheol<figure/>chotchody
 <f49v.37,*L0>     y
-<f49v.38,=P0>     chokeo.sho.cheor.cheokchet.chor.daiin,dy<->daiin.qok[g:d]
+<f49v.38,=P0>     chokeo.sho.cheor.cheokchet.chor.daiin,dy<figure/>daiin.qok[g:d]
 <f49v.39,*L0>     e
-<f49v.40,=P0>     oaiin.chy.daiin.chol.chaiin.kshardy<->chokchy
+<f49v.40,=P0>     oaiin.chy.daiin.chol.chaiin.kshardy<figure/>chokchy
 <f49v.41,*L0>     Œ
-<f49v.42,=P0>     qokeaiin.cheo.chor.choteey.kcheol.dain<->cho.dai[s:r]in
+<f49v.42,=P0>     qokeaiin.cheo.chor.choteey.kcheol.dain<figure/>cho.dai[s:r]in
 <f49v.43,*L0>     d
-<f49v.44,=P0>     chokaiin.cho.dls.chariin.daiin.chain.dy<->chetcho.dy
+<f49v.44,=P0>     chokaiin.cho.dls.chariin.daiin.chain.dy<figure/>chetcho.dy
 <f49v.45,*L0>     y
-<f49v.46,=P0>     oaiin.cheky.ó.cho.rchseesy.kchor.sol<->chctho.s
+<f49v.46,=P0>     oaiin.cheky.ó.cho.rchseesy.kchor.sol<figure/>chctho.s
 <f49v.47,*L0>     e
-<f49v.48,=P0>     qotcheol.chey.chor.chokaly.chor,dal<->chaiin,d
+<f49v.48,=P0>     qotcheol.chey.chor.chokaly.chor,dal<figure/>chaiin,d
 <f49v.49,*L0>     k
-<f49v.50,=P0>     chol.chor.ches.chkalchy.chokeeoky<->chokoran
+<f49v.50,=P0>     chol.chor.ches.chkalchy.chokeeoky<figure/>chokoran
 <f49v.51,*L0>     y
 <f49v.52,=P0>     ykchokeo.r.cheey.daiin</zone>
 #
@@ -2200,8 +2207,8 @@
 <f50r.6,+P0>      ykain.[sh:{c's}]ear.ol,kchedy.okal.qotor.cheeor.olk[ee:a]dy.daiin.qoky
 <f50r.7,+P0>      todalain.qotal.kaiin.otaiin.otal.she.ka[r:s].ariin.okchedy.dariin
 <f50r.8,+P0>      yk,ykaiin.sheekar.otchdy.dar.kar.shedain.taipar.orolkain
-<f50r.9,+P0>      ytchdy.kchedy<->ykeey.kaiin.qokain.ald,[a:y]lo[s:r]am
-<f50r.10,+P0>     solkaiin<->opalke,chckhy.darin.chky</zone>
+<f50r.9,+P0>      ytchdy.kchedy<figure/>ykeey.kaiin.qokain.ald,[a:y]lo[s:r]am
+<f50r.10,+P0>     solkaiin<figure/>opalke,chckhy.darin.chky</zone>
 #
 #
 </surface><surface n="f50v">     <! $Q=G $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2>
@@ -2218,8 +2225,8 @@
 <f50v.6,+P0>      daiin.kedair.okal.chody.qokedy.okar.okchey.okedy.ota[r:s].chkeey
 <f50v.7,+P0>      tedaiin.odaiin.or.okaiin.ykor.daiin.choky.qotchdy.k[{cy}:ey].dairam
 <f50v.8,+P0>      ykar.okair.otor.qokedy.ykchol.kar.chckhy.olkaiin.okain.qo'd<!corr?>
-<f50v.9,+P0>      ytsheod.ain.sheshy.echedy.kchdy<->otaiin.okaiin.[o:a]ky
-<f50v.10,+P0>     dchedy.okaiin.olchdy.oloeedy<->ykeeod,ar.aro[o:a]d
+<f50v.9,+P0>      ytsheod.ain.sheshy.echedy.kchdy<figure/>otaiin.okaiin.[o:a]ky
+<f50v.10,+P0>     dchedy.okaiin.olchdy.oloeedy<figure/>ykeeod,ar.aro[o:a]d
 <f50v.11,+P0>     lchey.kar.ykchy.kchdy</zone>
 #
 #
@@ -2242,8 +2249,8 @@
 <f51r.11,+P0>     tchodaiin.[{oph}:cph]eody.qokol.ot[e:i]odaiin.kol,ota[g:m]
 <f51r.12,+P0>     yoees.ckheey.kol.cheeal.okeor.qockhey.pchodal
 <f51r.13,+P0>     oaiin.ckhol.yk[i:?]eol.otchey.cpheo,daiin.ykeoldy
-<f51r.14,+P0>     daii{ith}y.qodaiin.kaiiidal<->cphodal<->[s:r].al.dam
-<f51r.15,+P0>     qokol.cheor.ckhal.s.or.aldy<->otal</zone>
+<f51r.14,+P0>     daii{ith}y.qodaiin.kaiiidal<figure/>cphodal<figure/>[s:r].al.dam
+<f51r.15,+P0>     qokol.cheor.ckhal.s.or.aldy<figure/>otal</zone>
 #
 #
 </surface><surface n="f51v">     <! $Q=G $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1>
@@ -2252,13 +2259,13 @@
 # Currier's language A,  hand 1
 # Plant ID: Cow's tongue, Licopsis, Sedum Majus (Hauswurtz)
 #
-<zone><f51v.1,@P0>      poshody.qokodar.shodaiin.qotal<->dscheey.saiin,dy
-<f51v.2,+P0>      dshody.ckhody.qokol.dykaiin.chy<->qokey.daiin.cthy
-<f51v.3,+P0>      tchody.cthy.chckhey.qod.ytchody<->dchol.saiin.ytam
-<f51v.4,+P0>      otaiin.qodal.yt[o:a]l.cheodar.s,ody<->oteo,daiin.shokog
-<f51v.5,+P0>      todaiin.yt[a:o]dy.qokol.shodol.qockhy<->ykol.otaiin.dar.y
-<f51v.6,+P0>      okor.ctheody.qocphy.qok[a:o]l.qotaiin<->otyk[o:a]l.chol,daiin
-<f51v.7,+P0>      qotol.chodaiin.qokcheody.cho,r.chod<->ycthol.s.olcheety
+<zone><f51v.1,@P0>      poshody.qokodar.shodaiin.qotal<figure/>dscheey.saiin,dy
+<f51v.2,+P0>      dshody.ckhody.qokol.dykaiin.chy<figure/>qokey.daiin.cthy
+<f51v.3,+P0>      tchody.cthy.chckhey.qod.ytchody<figure/>dchol.saiin.ytam
+<f51v.4,+P0>      otaiin.qodal.yt[o:a]l.cheodar.s,ody<figure/>oteo,daiin.shokog
+<f51v.5,+P0>      todaiin.yt[a:o]dy.qokol.shodol.qockhy<figure/>ykol.otaiin.dar.y
+<f51v.6,+P0>      okor.ctheody.qocphy.qok[a:o]l.qotaiin<figure/>otyk[o:a]l.chol,daiin
+<f51v.7,+P0>      qotol.chodaiin.qokcheody.cho,r.chod<figure/>ycthol.s.olcheety
 <f51v.8,+P0>      olkeeody.qokal.qodaiin.{ykh}or.[{ofa}:{yfa}:?]l
 <f51v.9,+P0>      daiin.ckhol.shain.kcholol
 <f51v.10,+P0>     ykeol.sheo.qok[o:a]dy.fold
@@ -2274,12 +2281,12 @@
 # Plant ID: (unreadable)
 #
 <zone><f52r.1,@P0>      tdokchcfhy.ycphko.ytair.shar.qofy,daiin.ypchy.otchol.dar.yty
-<f52r.2,+P0>      oty.shor.ykoldy.qoky.koldal.oteees.dals<->otar,dl
-<f52r.3,+P0>      tchotshey.qoty.okchol.tchody.qotam.oky<->ytoldy
-<f52r.4,+P0>      l,shopchy.qoky.qotchy.oty.dar.oty.dam<->ychcthod
-<f52r.5,+P0>      oky.chor.okchal.okchar.shor.tol.ykair<->ytchdam
-<f52r.6,+P0>      daiin.shedaiin.qodal.dy.[ch:ee]okam.otchordy<->okchol.do
-<f52r.7,+P0>      qok[{ch'}:{cs}]y.qockhom.dals.shodaim.tcham.dody<->ykeey.dai[g:m:d].a[m:¯]
+<f52r.2,+P0>      oty.shor.ykoldy.qoky.koldal.oteees.dals<figure/>otar,dl
+<f52r.3,+P0>      tchotshey.qoty.okchol.tchody.qotam.oky<figure/>ytoldy
+<f52r.4,+P0>      l,shopchy.qoky.qotchy.oty.dar.oty.dam<figure/>ychcthod
+<f52r.5,+P0>      oky.chor.okchal.okchar.shor.tol.ykair<figure/>ytchdam
+<f52r.6,+P0>      daiin.shedaiin.qodal.dy.[ch:ee]okam.otchordy<figure/>okchol.do
+<f52r.7,+P0>      qok[{ch'}:{cs}]y.qockhom.dals.shodaim.tcham.dody<figure/>ykeey.dai[g:m:d].a[m:¯]
 <f52r.8,+P0>      or,cheey.dor.shey.kom.s.cheey.dch[o:a]m.daiin</zone>
 #
 #
@@ -2292,7 +2299,7 @@
 <f52v.2,+P0>      ytchey.chol.ctho,daiir.shy.kor.ese,chor.chy.dam
 <f52v.3,+P0>      oor,chor.chochar.l[s:r].chteeor.ytol.sheol.otam
 <f52v.4,+P0>      tchor.ctheor.ctheol.cheeor.cheol.chckheey.s[o:a]dy
-<f52v.5,+P0>      yteey.cthor,cheo[s:r].cpheodar.dy<->sarg
+<f52v.5,+P0>      yteey.cthor,cheo[s:r].cpheodar.dy<figure/>sarg
 <f52v.6,+P0>      qotodaiin.cthor.oty.kcholy</zone>
 #
 <zone><f52v.7,+P0>      pcheol.sholoiin.cthor.aiin
@@ -2315,10 +2322,10 @@
 <f53r.2,+P0>      dol.dain.s,cho,she.oty
 <f53r.3,+P0>      sho,[a:o][s:r].chokan.ody
 <f53r.4,+P0>      ytchodaiin.yky.otchey.otod
-<f53r.5,+P0>      ok[sh:?].otol.cfhy.cphodol.ykody.qokchod<->otcho.qot.oty
-<f53r.6,+P0>      ykeodar.oqoor.o{cki}.odor.chain.qokod<->ykchdy.chees.dal
-<f53r.7,+P0>      sodar.otos.qoy.tchy.otey.chos.okod<->ykchody.qok[ch:ee]y
-<f53r.8,+P0>      qotchol.dar.qoty.chtor.oltsho.{cto}<->ykeeod.o.y,toyd
+<f53r.5,+P0>      ok[sh:?].otol.cfhy.cphodol.ykody.qokchod<figure/>otcho.qot.oty
+<f53r.6,+P0>      ykeodar.oqoor.o{cki}.odor.chain.qokod<figure/>ykchdy.chees.dal
+<f53r.7,+P0>      sodar.otos.qoy.tchy.otey.chos.okod<figure/>ykchody.qok[ch:ee]y
+<f53r.8,+P0>      qotchol.dar.qoty.chtor.oltsho.{cto}<figure/>ykeeod.o.y,toyd
 <f53r.9,+P0>      otol.chol.ctheees.os.orol.chod.qoty</zone>
 #
 #
@@ -2338,7 +2345,7 @@
 <f53v.9,+P0>      octheody.shody.qodal.cthody.sheos.shodaiin
 <f53v.10,+P0>     ychocthy.qodal.shodaiin
 <f53v.11,+P0>     otsho.or.chear.sheod.chkodal
-<f53v.12,+P0>     ycheey.kchy.oky.kody<->ydam
+<f53v.12,+P0>     ycheey.kchy.oky.kody<figure/>ydam
 <f53v.13,+P0>     yckhodaiin.otoldy</zone>
 #
 #
@@ -2348,18 +2355,18 @@
 # Currier's language A,  hand 1
 # Plant ID: Thistle, leaves of boneset
 #
-<zone><f54r.1,@P0>      podaiin.shodal.qopchol.cfhe[o:a]dy<->opcheol.chocphy
-<f54r.2,+P0>      ytodaiin.otchey.otchey.qockhodal<->sockhody.sar
-<f54r.3,+P0>      daiir.cthody.ot[a:o]l.[e:o]kchody.ol.s.or.y<->ytchey.dam
-<f54r.4,+P0>      tor.ockhol.shokchy.kol,chom.[s:r]<->chey<->ctheot[o:a]l
+<zone><f54r.1,@P0>      podaiin.shodal.qopchol.cfhe[o:a]dy<figure/>opcheol.chocphy
+<f54r.2,+P0>      ytodaiin.otchey.otchey.qockhodal<figure/>sockhody.sar
+<f54r.3,+P0>      daiir.cthody.ot[a:o]l.[e:o]kchody.ol.s.or.y<figure/>ytchey.dam
+<f54r.4,+P0>      tor.ockhol.shokchy.kol,chom.[s:r]<figure/>chey<figure/>ctheot[o:a]l
 <f54r.5,+P0>      sar.sh.okeodain.chokey</zone>
 #
-<zone><f54r.6,+P0>      korar[e:i].ckhos.shofom.cher.chom.kcheor<->she.qkchol.dam
-<f54r.7,+P0>      dor.s.sheey.ksheody.sho.or.cheey.chety<->sol.de[sh:?].dam.dam
-<f54r.8,+P0>      t[o:a]shey.kodl.ckho.dar.sheekal.s.aiin<->okeam.etchal
-<f54r.9,+P0>      oaiin.or.ol.sal.qokor.chor.ckhol.s<->s,sho.chol.daiin
-<f54r.10,+P0>     tor.ol.dol.or.chol.chol.ckhol.okol.oky<->ytchor.ol,koldy
-<f54r.11,+P0>     daiin.okor.or.ol.ckhol.chor.cho¥.dam<->or.sho.chol.dom
+<zone><f54r.6,+P0>      korar[e:i].ckhos.shofom.cher.chom.kcheor<figure/>she.qkchol.dam
+<f54r.7,+P0>      dor.s.sheey.ksheody.sho.or.cheey.chety<figure/>sol.de[sh:?].dam.dam
+<f54r.8,+P0>      t[o:a]shey.kodl.ckho.dar.sheekal.s.aiin<figure/>okeam.etchal
+<f54r.9,+P0>      oaiin.or.ol.sal.qokor.chor.ckhol.s<figure/>s,sho.chol.daiin
+<f54r.10,+P0>     tor.ol.dol.or.chol.chol.ckhol.okol.oky<figure/>ytchor.ol,koldy
+<f54r.11,+P0>     daiin.okor.or.ol.ckhol.chor.cho¥.dam<figure/>or.sho.chol.dom
 <f54r.12,+P0>     yor.shodal.o.aiin.al.dol.choek,air,o,ldam</zone>
 #
 #
@@ -2414,20 +2421,20 @@
 # Currier's language B,  hand 2
 # Plant ID: Elephant's ear?
 #
-<zone><f55v.1,@P0>      kcheedchdy.oedain.chckhy<->otoldaiin.dodyd
-<f55v.2,+P0>      oeeed.yteey.okeedy.qoaiin<->okeody.ykee[s:r]an
-<f55v.3,+P0>      qokeeey.os.ain.qool.al,chedy<->[s:?]ar,aiin.ol.kar,am
-<f55v.4,+P0>      okar.chckhdy.che[o:a]dy.keeyfar,al<->ochedy.qokain.ody
-<f55v.5,+P0>      qokaiin.chaiin.ykain.ykan.ody<->daiin.chedy.talam
+<zone><f55v.1,@P0>      kcheedchdy.oedain.chckhy<figure/>otoldaiin.dodyd
+<f55v.2,+P0>      oeeed.yteey.okeedy.qoaiin<figure/>okeody.ykee[s:r]an
+<f55v.3,+P0>      qokeeey.os.ain.qool.al,chedy<figure/>[s:?]ar,aiin.ol.kar,am
+<f55v.4,+P0>      okar.chckhdy.che[o:a]dy.keeyfar,al<figure/>ochedy.qokain.ody
+<f55v.5,+P0>      qokaiin.chaiin.ykain.ykan.ody<figure/>daiin.chedy.talam
 <f55v.6,+P0>      ykaiin.daiin.ykair.cheky.daiiny</zone>
 #
 # Next line badly legible
-<zone><f55v.7,+P0>      okchd.yk[a:?]in.[sh:ch]eokey.or.ain<->[ch:?].kchdy.pchal.ar,aldy.dary
-<f55v.8,+P0>      tar.chedy.qokaiin.okar.qol<->otar,choÂar.talody.okar,y
-<f55v.9,+P0>      ykaky.qokchy.okal.chey.or<->or,aiin.okaiin.ykain.otaky
-<f55v.10,+P0>     oaiin.ol.s.aiin.okaiin.oky<->ytaiin.otar.y,kal.ykar.ol
-<f55v.11,+P0>     ykaiin.cheoar.cheeky.oldy<->aiin.okal.oltchy.or,y.orain
-<f55v.12,+P0>     daiin.[a:o]r.cheky.olkeechy.sl<->ar.aiin.daiin.otam</zone>
+<zone><f55v.7,+P0>      okchd.yk[a:?]in.[sh:ch]eokey.or.ain<figure/>[ch:?].kchdy.pchal.ar,aldy.dary
+<f55v.8,+P0>      tar.chedy.qokaiin.okar.qol<figure/>otar,choÂar.talody.okar,y
+<f55v.9,+P0>      ykaky.qokchy.okal.chey.or<figure/>or,aiin.okaiin.ykain.otaky
+<f55v.10,+P0>     oaiin.ol.s.aiin.okaiin.oky<figure/>ytaiin.otar.y,kal.ykar.ol
+<f55v.11,+P0>     ykaiin.cheoar.cheeky.oldy<figure/>aiin.okal.oltchy.or,y.orain
+<f55v.12,+P0>     daiin.[a:o]r.cheky.olkeechy.sl<figure/>ar.aiin.daiin.otam</zone>
 #
 #
 </surface><surface n="f56r">     <! $Q=G $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1>
@@ -2440,7 +2447,7 @@
 <zone><f56r.1,@P0>      o§chal.chchs¨y.oty.esedy.chy.ychocphy.chorchy.chy
 <f56r.2,+P0>      chokchey.ch[o:a]l.choly.korchy.chykey.choty.shokaiin
 <f56r.3,+P0>      olchey.chokchol.chey.keey.qokeey.chokeey.choksy
-<f56r.4,+P0>      qot,chor.chor.chokor.chkor,chy<->okar.chdy
+<f56r.4,+P0>      qot,chor.chor.chokor.chkor,chy<figure/>okar.chdy
 <f56r.5,+P0>      chochor.cho.chodaly.daiin
 <f56r.6,+P0>      ykch[o:a].dy.dchey.keey.daiin.y
 <f56r.7,+P0>      sho.kchol.otchor.choky.dal
@@ -2455,7 +2462,7 @@
 <f56r.15,+P0>     tcho,tchol.chol.cthy
 <f56r.16,+P0>     qotchy.chody.ctho,r.chey.kch[a:o]rg
 <f56r.17,+P0>     chokeey.qokcheey.schey.d,aiin.dy
-<f56r.18,+P0>     sho.chokchy.kchoar<->sotodan
+<f56r.18,+P0>     sho.chokchy.kchoar<figure/>sotodan
 <f56r.19,+P0>     otchey.keol.daiin</zone>
 #
 #
@@ -2468,7 +2475,7 @@
 <zone><f56v.1,@P0>      kche[a:o]t.shol.chey.qokoiin.shor,qotcheol.choror
 <f56v.2,+P0>      shodshey.qot[eee:ech]y.qoteey.daiin.qoteey.cthar
 <f56v.3,+P0>      ochey.chol.chol.qotchey.daiin.choteeey,dal
-<f56v.4,+P0>      schy.t,chey.daiin.d,eey.tad<->dain
+<f56v.4,+P0>      schy.t,chey.daiin.d,eey.tad<figure/>dain
 <f56v.5,+P0>      qoteees.sho.kcheey.s,aiin
 <f56v.6,+P0>      chokchol.chor.ckhos</zone>
 #
@@ -2496,10 +2503,10 @@
 <f57r.5,+P0>      qok[ch:ee]o.daiin.cheeodam</zone>
 #
 <zone><f57r.6,+P0>      tcheodal.okam.chckhey.okchdy.doctho.opchey.dy.kedaiin.oforam
-<f57r.7,+P0>      daii[s:r].sheedy.qokeedy.chetey<->oteeod.shekey.tedy.okaldg
-<f57r.8,+P0>      tair.sheedy.ochedy.{ckhhh}dy<->okchy.chedy.dal.qokedam
-<f57r.9,+P0>      [a:o]dair.sheeo,ckhy.sar.al.daii[d:j]y<->dcheckhey.daiin.chedy.cthedy
-<f57r.10,+P0>     qoetchey.kedy.shedaiin<->s,cheos.ykeos.q{cthh}y.tcfhy
+<f57r.7,+P0>      daii[s:r].sheedy.qokeedy.chetey<figure/>oteeod.shekey.tedy.okaldg
+<f57r.8,+P0>      tair.sheedy.ochedy.{ckhhh}dy<figure/>okchy.chedy.dal.qokedam
+<f57r.9,+P0>      [a:o]dair.sheeo,ckhy.sar.al.daii[d:j]y<figure/>dcheckhey.daiin.chedy.cthedy
+<f57r.10,+P0>     qoetchey.kedy.shedaiin<figure/>s,cheos.ykeos.q{cthh}y.tcfhy
 <f57r.11,+P0>     dshedy.{ct}echy.cphedam</zone>
 #
 #
@@ -2664,13 +2671,13 @@
 # across the stem.
 # Transcribed 7 Dec 91 by Gillogly, 9 dec 91 by Reeds, 13 Dec 91 Gillogly
 #
-<zone><f65v.1,@P0>      cphy.fchecfhy.dy<->dchepain.shety.qopy.fol.chpdy
-<f65v.2,+P0>      daiin.sheek.l,ody<->yteo.qop[s:r].air.cheot[ee:ch]y.dal[o:a]m
-<f65v.3,+P0>      ytal.cheot.shky.y<->[s:?]as.cheody</zone>
+<zone><f65v.1,@P0>      cphy.fchecfhy.dy<figure/>dchepain.shety.qopy.fol.chpdy
+<f65v.2,+P0>      daiin.sheek.l,ody<figure/>yteo.qop[s:r].air.cheot[ee:ch]y.dal[o:a]m
+<f65v.3,+P0>      ytal.cheot.shky.y<figure/>[s:?]as.cheody</zone>
 #
-<zone><f65v.4,+P0>      toeedy.otar.shedy<->yteey.sheody.qok[es:?]d.yfchey
-<f65v.5,+P0>      dshedy.okeody.qokd<->shckhy.choky.chokeody.okey,dy
-<f65v.6,+P0>      qo.ytchey.sh,{ckhh}cphy<->ykchedy.chedy.shckhdy</zone>
+<zone><f65v.4,+P0>      toeedy.otar.shedy<figure/>yteey.sheody.qok[es:?]d.yfchey
+<f65v.5,+P0>      dshedy.okeody.qokd<figure/>shckhy.choky.chokeody.okey,dy
+<f65v.6,+P0>      qo.ytchey.sh,{ckhh}cphy<figure/>ykchedy.chedy.shckhdy</zone>
 #
 #
 </surface><surface n="f66r">     <! $Q=H $P=G $F=z $B=1 $I=T $L=B $H=5 $X=O>
@@ -2809,7 +2816,7 @@
 <f66v.10,+P0>     dshal.keedy.qok,[o:y]r.okaiin.dol.kaldaiin.otal.dokal.okag
 <f66v.11,+P0>     yteeod.aiin.shekeod.saiin.ykofar.otaiin.otar.ched[y:o].kar[{c'}:s]
 <f66v.12,+P0>     qekar.okedy.cheky.dal.chekal.chckhy.kal.kal.dar.chk[ch:ee]ody
-<f66v.13,+P0>     ydees.shey.daiin.dalkal<->ykedaiin.shedar.ok[ch:ee]dy.oty</zone>
+<f66v.13,+P0>     ydees.shey.daiin.dalkal<figure/>ykedaiin.shedar.ok[ch:ee]dy.oty</zone>
 #
 #
 </surface><surface n="f67r1">    <! $Q=I $P=B $F=a $B=1 $I=A $H=4>
@@ -3058,7 +3065,7 @@
 #
 <zone><f68r1.1,@P0>     shokchy.chteey.choteey.cphol.cheor.opcheeol.otor.choctheeey.okchoal
 <f68r1.2,+P0>     tochso.otchl.qokeeedy.cheey.cheeteey.yteody.chpor.cheokorchey.chod
-<f68r1.3,+P0>     ykor.shey.qocheey.chokal<->okeey.ror.eckhear.daram
+<f68r1.3,+P0>     ykor.shey.qocheey.chokal<figure/>okeey.ror.eckhear.daram
 <f68r1.4,+P0>     dchor.okaiiin</zone>
 #
 # Blocked text near top Sun/Moon
@@ -3116,7 +3123,7 @@
 <f68r2.2,+P0>     dchy.ykeechy.dchyky.okeeody.rcheodal.chokeey.cheor.oram
 <f68r2.3,+P0>     tcheos.otchoky.okchol.okol.sheeor.chodchy.qokchdar
 <f68r2.4,+P0>     chor.chesy.or[ee:a]d.qoeeckhy.qockheol.qokeol.cheoal.dcholal
-<f68r2.5,+P0>     kcheoey.cheody<->sain.ykeody.chykchy</zone>
+<f68r2.5,+P0>     kcheoey.cheody<figure/>sain.ykeody.chykchy</zone>
 #
 # Circular text around moon, badly legible
 #
@@ -3201,7 +3208,7 @@
 #
 <zone><f68v3.1,@P0>     tchedy.chepchy.daiidy.shol.kcheoly.choteol.shol.s.chey.shodaiin.chetshedy.otsho.qooto.seeey
 <f68v3.2,+P0>     sshey.kcheol.sheey.qety.sheey.otchol.chal,sheey.daiin.sheody.qokol.aiir.chor.cheoty.oty
-<f68v3.3,+P0>     sho.chokar.sor.chor.cheky.daiin.dar.aiiin<->ytey.tol.cheeetchol.sam
+<f68v3.3,+P0>     sho.chokar.sor.chor.cheky.daiin.dar.aiiin<figure/>ytey.tol.cheeetchol.sam
 <f68v3.4,+P0>     dcheey.qo{ckhh}y.chydy</zone>
 #
 # Outer Circle, starting at the marker
@@ -3238,23 +3245,23 @@
 <f68v2.2,+P0>     dchaiin.shey.dcheedy.qokeey.shckeey.dal.dy.sheetey.daldy
 <f68v2.3,+P0>     qoeeey.shekeey.shkeey.s.alchey.cthy.shteody.qoteeody.dam
 <f68v2.4,+P0>     okeey.sheoy.keol.ycheety.okeody.shey.qokey.chol.chekody
-<f68v2.5,+P0>     scheos.seekey.okey.chody<->okeos.cheo.sal,ar.oallchdm</zone>
+<f68v2.5,+P0>     scheos.seekey.okey.chody<figure/>okeos.cheo.sal,ar.oallchdm</zone>
 #
 # Circumference
 <f68v2.6,@Cc>     <!10:30>okeadaiin.ykeeody.shsdy.shyokeey.dalches.oko[s:r].cheky.otees.oteydy.okechoy.yteody.chetedy.cheda[d:m]y.[–:ch]eectheey.otychdy.oteey.cpheeo,dy.otey.[ch:ee]key.daiin.chey.da[iir:iis].oteeys.sar.o[ckhee:{ck}eee]y.dor,chy.okchy.qokeechy.dal.chy.chokeeey.sary
 #
 # Radiating text, clockwise, starting at 00:30
 <f68v2.7,@Ro>     otey.dalar
-<f68v2.8,@Ro>     otosey<!star><->sary
+<f68v2.8,@Ro>     otosey<!star><figure/>sary
 <f68v2.9,@Ro>     yshesas.ar.shy
 <f68v2.10,@Ro>    socths.chety
-<f68v2.11,@Ro>    oteoys<!star><->orasaly
+<f68v2.11,@Ro>    oteoys<!star><figure/>orasaly
 <f68v2.12,@Ro>    yteody.chetey
 <f68v2.13,@Ro>    oteeos.alamchy
-<f68v2.14,@Ro>    otchdy<!star><->chetal
+<f68v2.14,@Ro>    otchdy<!star><figure/>chetal
 <f68v2.15,@Ro>    adairchdy.aiin
 <f68v2.16,@Ro>    dchedal.daiin
-<f68v2.17,@Ro>    ykeeepol<!star><->ypchy
+<f68v2.17,@Ro>    ykeeepol<!star><figure/>ypchy
 <f68v2.18,@Ro>    choteey.dary
 #
 #
@@ -3979,35 +3986,35 @@
 # Currier's language B, hand 2
 # 2 lakes and 14 nymphs
 #
-<zone><f75r.1,@P0>      kchedykary<->okeey.qokar.shyk,chedy.qotar.shedy
-<f75r.2,+P0>      dain.shey.ly<->ssheol.qol{chh}dy.chedykar.chekeedy.ror
-<f75r.3,+P0>      qokain.chal<->orchey.qey.kain.sheeky.ltain.olkar.or
-<f75r.4,+P0>      dackhy.lkamo<->ykeey.lshey.kal.dy.shey.ok.shey.qokeedy
-<f75r.5,+P0>      shey,kar.chey<->ckhey.r.ain.ol.olsheedy.qokeey.qoky
-<f75r.6,+P0>      pcheykeeor.olky<->dar.okey.qokain.chcthy.qokeedy.qoky
-<f75r.7,+P0>      pchedy.qokshdy<->ytain.chedy.qokar.chy.lol.chedy.qoky
-<f75r.8,+P0>      sor.chey.qokardy<->dsheckhy.qokain.chckhy.lshedy.okeedy
-<f75r.9,+P0>      qokchdy.chcthy.lo<->qokedy.qokan.checkhy.qokar.olchedy.sal
-<f75r.10,+P0>     dshor.qotar.chdy<->shey.qokain.chckhy.dy.otey.tedy.lchedy
-<f75r.11,+P0>     qokeedy.qokair.oly<->qokeedy.dy.qokal.okar.shedy.dor.chekam
-<f75r.12,+P0>     ssheckhy.qokal.oly<->shey.r.ol.cheey.shey.dy,olshedy.qoky
-<f75r.13,+P0>     pchedy.keedy.qokedy<->qokedy.qokedy.qokedy.qokain.olshedy
-<f75r.14,+P0>     sain.al,keishy.qokain,dy<->olshedy.qokain.chckhy.qokain.otar,aly
-<f75r.15,+P0>     sain.qokain.qolkeeoly<->saiin.chedy<->sol.or.shedy.okchdy.qoky
-<f75r.16,+P0>     dshedy.qokar.sheedy.lch<->shokain.chy<->okshedy.qokain.chedy
-<f75r.17,+P0>     pchedar.shepchy.lshedary<->dal<->shal<->shy,kol.shedy.qokam
-<f75r.18,+P0>     sol.sheedy.qol.shedy.qol<->otain.char.sar.oly
-<f75r.19,+P0>     qokshedy.qol,shey.qoky<->shey.{ith}ey.qokain.ar
-<f75r.20,+P0>     ry,shey.qor.chey.lchey,lo<->ydain.shey.qokain
-<f75r.21,+P0>     oqokain.chey.qckhsy.or<->ysheor.ol.lor.am
-<f75r.22,+P0>     odar,shey.qokain.chedy<->or,shey.kar.chedy,sar
-<f75r.23,+P0>     pchey,kshey.qokeey.qokal<->sshey.qol.chedyqokam
-<f75r.24,+P0>     qokain.olkeey.qolkary<->sain.checthy.lor.ol
-<f75r.25,+P0>     sain.shckhy.qokeedy.shy.dy<->qokeedy.lchedy.ram
-<f75r.26,+P0>     dain.ol.sheol.dain.ol.qoly<->dar,ajy</zone>
+<zone><f75r.1,@P0>      kchedykary<figure/>okeey.qokar.shyk,chedy.qotar.shedy
+<f75r.2,+P0>      dain.shey.ly<figure/>ssheol.qol{chh}dy.chedykar.chekeedy.ror
+<f75r.3,+P0>      qokain.chal<figure/>orchey.qey.kain.sheeky.ltain.olkar.or
+<f75r.4,+P0>      dackhy.lkamo<figure/>ykeey.lshey.kal.dy.shey.ok.shey.qokeedy
+<f75r.5,+P0>      shey,kar.chey<figure/>ckhey.r.ain.ol.olsheedy.qokeey.qoky
+<f75r.6,+P0>      pcheykeeor.olky<figure/>dar.okey.qokain.chcthy.qokeedy.qoky
+<f75r.7,+P0>      pchedy.qokshdy<figure/>ytain.chedy.qokar.chy.lol.chedy.qoky
+<f75r.8,+P0>      sor.chey.qokardy<figure/>dsheckhy.qokain.chckhy.lshedy.okeedy
+<f75r.9,+P0>      qokchdy.chcthy.lo<figure/>qokedy.qokan.checkhy.qokar.olchedy.sal
+<f75r.10,+P0>     dshor.qotar.chdy<figure/>shey.qokain.chckhy.dy.otey.tedy.lchedy
+<f75r.11,+P0>     qokeedy.qokair.oly<figure/>qokeedy.dy.qokal.okar.shedy.dor.chekam
+<f75r.12,+P0>     ssheckhy.qokal.oly<figure/>shey.r.ol.cheey.shey.dy,olshedy.qoky
+<f75r.13,+P0>     pchedy.keedy.qokedy<figure/>qokedy.qokedy.qokedy.qokain.olshedy
+<f75r.14,+P0>     sain.al,keishy.qokain,dy<figure/>olshedy.qokain.chckhy.qokain.otar,aly
+<f75r.15,+P0>     sain.qokain.qolkeeoly<figure/>saiin.chedy<figure/>sol.or.shedy.okchdy.qoky
+<f75r.16,+P0>     dshedy.qokar.sheedy.lch<figure/>shokain.chy<figure/>okshedy.qokain.chedy
+<f75r.17,+P0>     pchedar.shepchy.lshedary<figure/>dal<figure/>shal<figure/>shy,kol.shedy.qokam
+<f75r.18,+P0>     sol.sheedy.qol.shedy.qol<figure/>otain.char.sar.oly
+<f75r.19,+P0>     qokshedy.qol,shey.qoky<figure/>shey.{ith}ey.qokain.ar
+<f75r.20,+P0>     ry,shey.qor.chey.lchey,lo<figure/>ydain.shey.qokain
+<f75r.21,+P0>     oqokain.chey.qckhsy.or<figure/>ysheor.ol.lor.am
+<f75r.22,+P0>     odar,shey.qokain.chedy<figure/>or,shey.kar.chedy,sar
+<f75r.23,+P0>     pchey,kshey.qokeey.qokal<figure/>sshey.qol.chedyqokam
+<f75r.24,+P0>     qokain.olkeey.qolkary<figure/>sain.checthy.lor.ol
+<f75r.25,+P0>     sain.shckhy.qokeedy.shy.dy<figure/>qokeedy.lchedy.ram
+<f75r.26,+P0>     dain.ol.sheol.dain.ol.qoly<figure/>dar,ajy</zone>
 #
-<zone><f75r.27,+P0>     pdalshor.shtol.qoty.pshar.shedy.okaldy<->dar.otar.otody.dy.rol
-<f75r.28,+P0>     tchedy.pchedy.qokeey.sol.oldair.shecthy.qol<->l.sheedy.qokeedy.lolchedy
+<zone><f75r.27,+P0>     pdalshor.shtol.qoty.pshar.shedy.okaldy<figure/>dar.otar.otody.dy.rol
+<f75r.28,+P0>     tchedy.pchedy.qokeey.sol.oldair.shecthy.qol<figure/>l.sheedy.qokeedy.lolchedy
 <f75r.29,+P0>     dain.chkal.dy.lo,lkaiin.ol.okeedyqol.dain.olchey.qokeedy.chedy.qotan
 <f75r.30,+P0>     qo,dain.cheeky.qokey.qokain.cheky.qokal.dain.chedy.o,kalol,shedy.okar,olom
 <f75r.31,+P0>     dshedy.qokey.chckhy.qokar.shedy.chey.qoked.qokedy.daldy</zone>
@@ -4024,7 +4031,7 @@
 <f75r.41,+P0>     sokeedy.qokeedy.oteedy.qoky.dy,keedy.sy
 <f75r.42,+P0>     dshedy.qokedy.qokeedy.qoteey.qoteedy.d[o:a]r
 <f75r.43,+P0>     yshedy.chekar.oldy.qokain.chkar.otar,oldy
-<f75r.44,+P0>     dchedy.sain.okedy.qokedy.otedy.okoldy.otar.otam.olaiin.ch<->dar.dy
+<f75r.44,+P0>     dchedy.sain.okedy.qokedy.otedy.okoldy.otar.otam.olaiin.ch<figure/>dar.dy
 <f75r.45,+P0>     sshedy.shckhy.qokey.okedy.sarol.oty.otedy.qotedy.otedy.okaiin
 <f75r.46,+P0>     qokey.qokedy.sheol.qokedy.dain.shedy.otol,chedy.ol[o:a]r</zone>
 #
@@ -4045,23 +4052,23 @@
 # Oesophagus @ dissected stomach (GL) or water stream @ lake.
 # last character in first 5 lines aligned vertically reading slors
 #
-<zone><f75v.1,@P0>      pchedar.opchedy.qokedy.opchedy.qopdy<->dain.chetas.ch{cphh}y.qotam
+<zone><f75v.1,@P0>      pchedar.opchedy.qokedy.opchedy.qopdy<figure/>dain.chetas.ch{cphh}y.qotam
 <f75v.2,=L0>      s
-<f75v.3,*P0>      sor.sheky.qokain.okal.dal.olchedy<->daiin.chckhy.lkar.chckhy,rom
+<f75v.3,*P0>      sor.sheky.qokain.okal.dal.olchedy<figure/>daiin.chckhy.lkar.chckhy,rom
 <f75v.4,=L0>      l
-<f75v.5,*P0>      dl.shckhy.kain.olchey.qokain.dalyrd<->dl,shedy.qoteedy.cthedy.loly
+<f75v.5,*P0>      dl.shckhy.kain.olchey.qokain.dalyrd<figure/>dl,shedy.qoteedy.cthedy.loly
 <f75v.6,=L0>      l
-<f75v.7,*P0>      qokchdy.qokal.dal.ol.chety.lchdy<->shedy.ched.otedy.qotedy.otar
+<f75v.7,*P0>      qokchdy.qokal.dal.ol.chety.lchdy<figure/>shedy.ched.otedy.qotedy.otar
 <f75v.8,~L0>      o
 <f75v.9,+L0>      r
-<f75v.10,*P0>     qokeed.chedy,ky.okedy.lchedy.dar,ody<->dchedy.dar.olchedy.otedy.qoky
+<f75v.10,*P0>     qokeed.chedy,ky.okedy.lchedy.dar,ody<figure/>dchedy.dar.olchedy.otedy.qoky
 <f75v.11,=L0>     s
-<f75v.12,*P0>     qokedy.rshey.qol.chey.ol.chey.keed<->sol.key.dy,kedy.qokal.dar.oly
-<f75v.13,+P0>     ocheain.cheedy.qokal.dain.sheeky.qoky<->sshedy.tedy.otedy.tedy.taral
-<f75v.14,+P0>     qol.sheckhy.qokedy.qokedy.qokaly<->sor,chedy.qoky.olshty.qokydy
-<f75v.15,+P0>     sal.ol.olain.olkey.olshed.qokaly<->qokar.chedy.qokain.ty.lshdy,qo
-<f75v.16,+P0>     odchedy.qolshdy.shokshdy.qokain.?<->or.shedy.qolol,keedy.qokalom
-<f75v.17,+P0>     sal.shed,ykain.qokain.sheckhy.ld<->saiin.ckhy.lshedy</zone>
+<f75v.12,*P0>     qokedy.rshey.qol.chey.ol.chey.keed<figure/>sol.key.dy,kedy.qokal.dar.oly
+<f75v.13,+P0>     ocheain.cheedy.qokal.dain.sheeky.qoky<figure/>sshedy.tedy.otedy.tedy.taral
+<f75v.14,+P0>     qol.sheckhy.qokedy.qokedy.qokaly<figure/>sor,chedy.qoky.olshty.qokydy
+<f75v.15,+P0>     sal.ol.olain.olkey.olshed.qokaly<figure/>qokar.chedy.qokain.ty.lshdy,qo
+<f75v.16,+P0>     odchedy.qolshdy.shokshdy.qokain.?<figure/>or.shedy.qolol,keedy.qokalom
+<f75v.17,+P0>     sal.shed,ykain.qokain.sheckhy.ld<figure/>saiin.ckhy.lshedy</zone>
 #
 # Text near nymphs treated as two-word labels.
 # That means 20 labels
@@ -4201,12 +4208,12 @@
 # biological
 # Currier's language B, hand 2
 #
-<zone><f76v.1,@P0>      polarar.okor.opcheey.yteey.opchaly.lshedy.qofchdal.lkodol<->opa,korols
-<f76v.2,+P0>      sshedy.keedy.cholkeeey.otedor.okor.shedy.chedy.qokeedy.oly<->shey.qoyky
-<f76v.3,+P0>      dchedy.qokeedy.oteedy.chedaiin.chey.qokeedy.olkedy.ror<->oteedy.okal
-<f76v.4,+P0>      salkeey.sor.shecthy.daiin.okor.chpchedy.{cp}chy.oty.olor<->otchy.r,alchl
-<f76v.5,+P0>      s.otain.okain.chcthedy.qoteed.y.kedy.okedy.chedy<->otedy.teyteg
-<f76v.6,+P0>      qotees.olkeey.okeedy.qoeeedy.chckhey.sheor.aiin.otar<->cheedy.lchedy
+<zone><f76v.1,@P0>      polarar.okor.opcheey.yteey.opchaly.lshedy.qofchdal.lkodol<figure/>opa,korols
+<f76v.2,+P0>      sshedy.keedy.cholkeeey.otedor.okor.shedy.chedy.qokeedy.oly<figure/>shey.qoyky
+<f76v.3,+P0>      dchedy.qokeedy.oteedy.chedaiin.chey.qokeedy.olkedy.ror<figure/>oteedy.okal
+<f76v.4,+P0>      salkeey.sor.shecthy.daiin.okor.chpchedy.{cp}chy.oty.olor<figure/>otchy.r,alchl
+<f76v.5,+P0>      s.otain.okain.chcthedy.qoteed.y.kedy.okedy.chedy<figure/>otedy.teyteg
+<f76v.6,+P0>      qotees.olkeey.okeedy.qoeeedy.chckhey.sheor.aiin.otar<figure/>cheedy.lchedy
 <f76v.7,+P0>      doteey.qo.okaiin.oteedy.otedy.cheolchdy.okeedy.otedy.qokedy.okedar.da
 <f76v.8,+P0>      qokeedy.ochedy.roiin.sheedy.qokeedy.okeedy.olor.okeedy.qolkchey.r,[o:a]l
 <f76v.9,+P0>      sheor.chey.ral.cheey.r.al.cheedy</zone>
@@ -4415,7 +4422,7 @@
 <f78r.33,+P0>     ytedy.daiin.ykedy.y,olsheey.qokeey.okal.ol,keedy.dyky
 <f78r.34,+P0>     dshedy.qokeedy.qopchedy.qokaly.dar.okaiin.o,keeal.am
 <f78r.35,+P0>     y.sain.checkhy.qokain.cheeky.daiin.daiin.y,tees.ol,y
-<f78r.36,+P0>     qotchedy.lchedy.lchedykedy.qol<->saiin.ckhain.or
+<f78r.36,+P0>     qotchedy.lchedy.lchedykedy.qol<figure/>saiin.ckhain.or
 <f78r.37,+P0>     osal.ol.s.aiin.shee'.aiin.oly
 <f78r.38,+P0>     sar,aiin.oteedy.ol.aiin.chedy
 <f78r.39,+P0>     qotaiin.qokaiin.o[t:k]edy.l,keedy
@@ -4426,7 +4433,7 @@
 #
 <f78r.44,@Lt>     <!18>dar,alo{ifh}y
 <f78r.45,@Lt>     <!19>dchedaly
-<f78r.46,@Lt>     <!20>otarodla'y<-><!21>orory
+<f78r.46,@Lt>     <!20>otarodla'y<figure/><!21>orory
 <f78r.47,@Lt>     <!22>okaral
 #
 #
@@ -4462,7 +4469,7 @@
 <f78v.22,+P0>     [o:y]kol.shey.ol.shedy.okal.okchey.okeol.ol,chedy.qol
 <f78v.23,+P0>     qol.chedy.okeshy.qoteedy.okeedy.ol,shedy.qokedy,dy
 <f78v.24,+P0>     ytaiin.shedy.ol.sheedy.olshdy.shey.kshdy.shol.kedy
-<f78v.25,+P0>     teeol.olkeshey.qolcheol.ol.or.sheckhedy<-><!next line intruding>or.ol.sham
+<f78v.25,+P0>     teeol.olkeshey.qolcheol.ol.or.sheckhedy<figure/><!next line intruding>or.ol.sham
 <f78v.26,+P0>     qokaiin.or.sheedy.otain.ol.shedy.sol.fchedy.otaldy
 <f78v.27,+P0>     lol.kar.shr.r.ol.ols.sheey.ol.chedy.oltar.olkaiin
 <f78v.28,+P0>     olkain.shey.qokey.okar.ol.oteedy.chcthy.los.aiin,d
@@ -4607,7 +4614,7 @@
 <f80r.8,=Ln>      otalshedy
 <f80r.9,~Ln>      okar
 <f80r.10,+Ln>     okan
-<zone><f80r.11,@P0>     pdol.fshedy.{qÏ}polkain.octhor.okchdy.qokeedy.qopcheol<->olkoiin.y,darshey
+<zone><f80r.11,@P0>     pdol.fshedy.{qÏ}polkain.octhor.okchdy.qokeedy.qopcheol<figure/>olkoiin.y,darshey
 <f80r.12,+P0>     dykshy.ol,otchedy.qokain.qotain.chckhey.qokain.okal.qotain.okedy.qo,l,r
 <f80r.13,+P0>     tchedy.qotair.cheol.qokal.qokal.cheety.qokaiin.qokar.qokain.chedy.qokam
 <f80r.14,+P0>     solkain.shl.lky.chcthy.qokain.qotchy.qotal.dy.chckhy.lchey.qotar.otal
@@ -4802,11 +4809,11 @@
 # Strange object in one nynmph's hand, same as in f80v
 # Label nrs on this page same as Petersen
 #
-<zone><f82r.1,@P0>      qosheedy.qokeol.daiin.shckhy<->okeeor.cheey.daiin.shey
-<f82r.2,+P0>      dchedy.qolchedy.qokain.dy<->qokeedy.qokal.lcheckhy.lched
-<f82r.3,+P0>      qokeey.lcheckhedy.qokaly<->solkaiin.chckhy.qokaiin
-<f82r.4,+P0>      qokaiin.octheol.chkeey.ldy<->oteey.qokal.sheckhy.qoky
-<f82r.5,+P0>      sol.lkchedy.qokeedy.qokal<->cthol.chedy.qoteedy.qokal
+<zone><f82r.1,@P0>      qosheedy.qokeol.daiin.shckhy<figure/>okeeor.cheey.daiin.shey
+<f82r.2,+P0>      dchedy.qolchedy.qokain.dy<figure/>qokeedy.qokal.lcheckhy.lched
+<f82r.3,+P0>      qokeey.lcheckhedy.qokaly<figure/>solkaiin.chckhy.qokaiin
+<f82r.4,+P0>      qokaiin.octheol.chkeey.ldy<figure/>oteey.qokal.sheckhy.qoky
+<f82r.5,+P0>      sol.lkchedy.qokeedy.qokal<figure/>cthol.chedy.qoteedy.qokal
 <f82r.6,+P0>      sar.shedy.qol.shedaiin.sheckhy.okal.sheky.qotaiin.chedol
 <f82r.7,+P0>      dshedy.sotaiin.qokar.shedy.solshedy.qokeey.qoky.ls.cheey
 <f82r.8,+P0>      qekeey.sheedy.qokedy.lcho,r.cheey.qokey.qotal.chedy.qoteor
@@ -5003,7 +5010,7 @@
 #
 <f83v.9,@Lt>      ololary
 <f83v.10,@Lt>     okarchy
-<zone><f83v.11,@P0>     pchedar.shedal.qokar.shedal<->okchdy.qokedy.okail.shedy.qoky.lsheg
+<zone><f83v.11,@P0>     pchedar.shedal.qokar.shedal<figure/>okchdy.qokedy.okail.shedy.qoky.lsheg
 <f83v.12,+P0>     daiin.shckhy.qoeeo.lldar.cheey.qoal.qokeedy.olkar.sheedy.qokain.olal
 <f83v.13,+P0>     qol,chey.qo.lched.qolky.qokal.chedy.chedy.daiin.chckhy.cheor.ol.lal
 <f83v.14,+P0>     salched.qol,shedy.qolchedy.qolchdy.qol.rchedy.cheol,qokeor.sholdy
@@ -5282,7 +5289,7 @@
 <fRos.18,@L0>     <!4:1>daldal
 <fRos.19,@L0>     <!4:2>da[r:s]aldy
 #
-<fRos.20,@Cc>     <!05:00>sais,od,r,ar.or.okal.okal.or.alal.ykal.ol.ar.ol.al.ol.al,lor.okan.okod.oked.okeo.ldy.opashs.otedy.chedchs.sheekedy.odal.shd.olkeedy.yky,kaiir.okchdy.otol,ar,y<->aiin.aiir.oeal.okchdy.oly<->okain.olkaiin.ody
+<fRos.20,@Cc>     <!05:00>sais,od,r,ar.or.okal.okal.or.alal.ykal.ol.ar.ol.al.ol.al,lor.okan.okod.oked.okeo.ldy.opashs.otedy.chedchs.sheekedy.odal.shd.olkeedy.yky,kaiir.okchdy.otol,ar,y<figure/>aiin.aiir.oeal.okchdy.oly<figure/>okain.olkaiin.ody
 <fRos.21,@L0>     <!4:3>oko
 <fRos.22,@L0>     <!4:4>daiiny
 <fRos.23,@L0>     <!4:5>do{cfhh}y
@@ -5332,7 +5339,7 @@
 <fRos.60,@L0>     <!3:26>d,dy
 <fRos.61,@L0>     <!3:27>oteey
 #
-<fRos.62,@Cc>     <!00:00>otor.os.om.araiin.okeody.okar.odsheedy.odaiin.okchdy.okar.shor.okaiin.daiin.ofair.oly.olkair,odal.olkalor.olor<->s.y.o.d.esha,x.k.r.olar.oteedaiin.otes,ar.yqos.aiiin.ol.qotody.ol.oir.or.oroa.oteeedy.okal.okodar.otshe.okody.otedy.chdar.o'
+<fRos.62,@Cc>     <!00:00>otor.os.om.araiin.okeody.okar.odsheedy.odaiin.okchdy.okar.shor.okaiin.daiin.ofair.oly.olkair,odal.olkalor.olor<figure/>s.y.o.d.esha,x.k.r.olar.oteedaiin.otes,ar.yqos.aiiin.ol.qotody.ol.oir.or.oroa.oteeedy.okal.okodar.otshe.okody.otedy.chdar.o'
 #
 <fRos.63,@L0>     <!5:1>oteedy
 <fRos.64,@L0>     <!5:2>opy
@@ -5360,7 +5367,7 @@
 <fRos.85,@L0>     <!5:23>dairdy
 <fRos.86,@L0>     <!5:24>rody
 #
-<fRos.87,@Cc>     <!07:30>yke.okees.olchedy.okal,y.dol.otodar.shekal<->olkar.cheykar.shal.qokal.okchr.otar.otody.otody.otody.otas.chfol.okshy.okem.okar.ar.okedy.okedy.okchedy.eeekchedy.ofchdor.qotchdy.kar.chdar,chekolko{iph}
+<fRos.87,@Cc>     <!07:30>yke.okees.olchedy.okal,y.dol.otodar.shekal<figure/>olkar.cheykar.shal.qokal.okchr.otar.otody.otody.otody.otas.chfol.okshy.okem.okar.ar.okedy.okedy.okchedy.eeekchedy.ofchdor.qotchdy.kar.chdar,chekolko{iph}
 #
 <fRos.88,@L0>     <!8:1>ofary
 <fRos.89,@L0>     <!8:2>okady
@@ -5466,7 +5473,7 @@
 <f86v4.3,@Cc>     <!09:00>tchey.dair,alody.shes.qeeor.or.odarchdy.chdy.orcheos.o[s:r],ain.or.otee[d:?].chedees.oteedy.qoty.otedy.shedy.otedy.dar,shd.shy,y.schdy.chdeedy.dodar.oiin.or.oiin.sar,orchedy.qotchdy.dchdes.ar.sheody.opcho.fcheom
 <f86v4.4,@Cc>     <!09:00>pchedar.ar.o{cp}or.otees.oes.a[iir:iin].olkeor.dar.ain.desy.doeedey.opchedy.shedaiin.dar.otedy.dain.otey.dam.otedy.daiin.chocthy.dtedair.chody.sheos.otedos.qokechy.pchdeedy.dan.ol.dol.oty.sho.pol.otoldyl
 #
-<zone><f86v4.5,@P0>     pcheodar.oedy.qokeol.qoeol<->oqokeol.dar.ol.olair,am
+<zone><f86v4.5,@P0>     pcheodar.oedy.qokeol.qoeol<figure/>oqokeol.dar.ol.olair,am
 <f86v4.6,+P0>     ycheoltar.ol.ol,sheey.qokey.or.aiin.sheeor.sar.al.ol.sheey.qockheey
 <f86v4.7,+P0>     tol,sh,s,or.aiin.ol.keeod.lcheody.okedy.qokeody.qoain.a?
 <f86v4.8,+P0>     daiin.ol,keedy.otar.olshedy.okol,aiin.okal,cheockhy.sho{cthh}y.daiin
@@ -5608,11 +5615,11 @@
 <f86v3.13,+Pb>    <!W>osheey.orsheey.tcheody.qokain.qodaiin.olkar.chedaiin.y.chedy.qokady.cholkain
 <f86v3.14,+Pb>    <!W>ar.aiin.shodain.shor.chalkar.shekshol.okchor</zone>
 #
-<zone><f86v3.15,@P0>    tshd{ch'}ey.dalkshdy.shocfhy.saiin.or.airody<->chedaly
-<f86v3.16,+P0>    dcheody.skeeody.qokshey.cheodain.ykched<->sar,aldy
+<zone><f86v3.15,@P0>    tshd{ch'}ey.dalkshdy.shocfhy.saiin.or.airody<figure/>chedaly
+<f86v3.16,+P0>    dcheody.skeeody.qokshey.cheodain.ykched<figure/>sar,aldy
 <f86v3.17,+P0>    dsheody.qokchey.dal.or.odaiin.sar</zone>
 #
-<zone><f86v3.18,+P0>    pchedaiin.dchedy.qokchdy.qopchol.shol<->sheody.solkam
+<zone><f86v3.18,+P0>    pchedaiin.dchedy.qokchdy.qopchol.shol<figure/>sheody.solkam
 <f86v3.19,+P0>    dchey.otain.olkechy.qokam.chol.kchdy.chol.tchdy.dar,aiindy
 <f86v3.20,+P0>    lshodair.ykcho.dar.chody.ykeeody.qochey.chckhey.lkar,ary
 <f86v3.21,+P0>    dshedy.kshey.tchdy.shdy.ralkchedy.ytchol.qoty.okshy.tam
@@ -5665,22 +5672,22 @@
 # Currier's language A, hand 4
 # Petersen has omitted the right-hand part of paragraph 2
 #
-<zone><f87v.1,@P0>      ´cheey.daiin.cpheodar.shody.dcheody.todor.oeeepchody<->oldar
-<f87v.2,+P0>      schey.ctheey.qocthsy.s<->dcheoky.s,cth
-<f87v.3,+P0>      y,cheockhy.okey.cthy<->yteeor.{ct}os
-<f87v.4,+P0>      dcheecthey.cthosy<->ykeeor.oky
-<f87v.5,+P0>      ycheey.keeo.salckhy<->eoiin.scheom
-<f87v.6,+P0>      dcheos.shey.solchiyd<->oteos.cthey
-<f87v.7,+P0>      qotechoep.cheos.cthey<->qokeod.qokeog
-<f87v.8,+P0>      shoeey.cthey.qo.cthodol<->yteodaiin.sheol
+<zone><f87v.1,@P0>      ´cheey.daiin.cpheodar.shody.dcheody.todor.oeeepchody<figure/>oldar
+<f87v.2,+P0>      schey.ctheey.qocthsy.s<figure/>dcheoky.s,cth
+<f87v.3,+P0>      y,cheockhy.okey.cthy<figure/>yteeor.{ct}os
+<f87v.4,+P0>      dcheecthey.cthosy<figure/>ykeeor.oky
+<f87v.5,+P0>      ycheey.keeo.salckhy<figure/>eoiin.scheom
+<f87v.6,+P0>      dcheos.shey.solchiyd<figure/>oteos.cthey
+<f87v.7,+P0>      qotechoep.cheos.cthey<figure/>qokeod.qokeog
+<f87v.8,+P0>      shoeey.cthey.qo.cthodol<figure/>yteodaiin.sheol
 <f87v.9,+P0>      techol.qoscheody.otol</zone>
 #
-<zone><f87v.10,+P0>     opcheey.{cthh}y.cpheckhy<->cheo,r,chepcheol
-<f87v.11,+P0>     kchor.ol.cheeol.qok,odal<->lseeey.keodam
-<f87v.12,+P0>     ytcheoq[o:y].chos.ckheos.cheoy<->s,cheol.sal.dain
-<f87v.13,+P0>     ksheol.qoar.cfhs.ykaiin<->saral.aiim.am
-<f87v.14,+P0>     san.ainy.keol,dair.old<->ain.atolg
-<f87v.15,+P0>     yksho.qos<->arolor.or<->al.daraiing
+<zone><f87v.10,+P0>     opcheey.{cthh}y.cpheckhy<figure/>cheo,r,chepcheol
+<f87v.11,+P0>     kchor.ol.cheeol.qok,odal<figure/>lseeey.keodam
+<f87v.12,+P0>     ytcheoq[o:y].chos.ckheos.cheoy<figure/>s,cheol.sal.dain
+<f87v.13,+P0>     ksheol.qoar.cfhs.ykaiin<figure/>saral.aiim.am
+<f87v.14,+P0>     san.ainy.keol,dair.old<figure/>ain.atolg
+<f87v.15,+P0>     yksho.qos<figure/>arolor.or<figure/>al.daraiing
 <f87v.16,+P0>     saiin.olcthr<!through plant></zone>
 #
 #
@@ -5724,7 +5731,7 @@
 <f88r.24,@Lf>     otor,am
 <f88r.25,@Lf>     ofaldo
 #
-<zone><f88r.26,@P0>     poeear.sheoky.olkeey.cthol.poldy.s<->okoldy
+<zone><f88r.26,@P0>     poeear.sheoky.olkeey.cthol.poldy.s<figure/>okoldy
 <f88r.27,+P0>     qokol.chol.qokol.qokol.chol.cheey.or.aiin.oldal
 <f88r.28,+P0>     ykar.cheol.chol.chey.ckhey.s,or.shear.ar,alsy
 <f88r.29,+P0>     kor,chey.qokol.cheol.chody.qokol.kchor.chol,dal
@@ -5744,7 +5751,7 @@
 <f88v.4,@Lf>      otar.arody
 <f88v.5,@Lf>      otokol
 #
-<zone><f88v.6,@P0>      teodal.lkeo,cheor.roshckhy.sorshy<->aiin.cheokal.saldaiin
+<zone><f88v.6,@P0>      teodal.lkeo,cheor.roshckhy.sorshy<figure/>aiin.cheokal.saldaiin
 <f88v.7,+P0>      dshor.shor.qokeody.qokeo,lchey.chkeor.qokeey.daiin.qokeom
 <f88v.8,+P0>      qoaiin.cheoy.olcheody.qoekeol.cho.chckhy.qoeey.key.cheokam
 <f88v.9,+P0>      choeey.keeod,y.s,aiin.chody.okearcheol.archeey.sairal
@@ -5789,8 +5796,8 @@
 <zone><f89r1.6,@P0>     qoar,shar.qopcholy.qokod.chepy,dar.sheey.okor,sheeos.oldain
 <f89r1.7,+P0>     dshody.qocthy.chockhy.dal.chedy.qokeody.daldaiin.chodaiin.dal
 <f89r1.8,+P0>     qokeol.chol.qodaiin.chol.cheody.qokechy.daiin.ctheody.dam
-<f89r1.9,+P0>     yshor.s<->oiiin.daiin.qokeey.daiin.ckhol.qokain.cheamy
-<f89r1.10,+P0>    tdain.s<->chol.cheoky.cheody.qokar.dal.chor.{ckhh}y.daiin</zone>
+<f89r1.9,+P0>     yshor.s<figure/>oiiin.daiin.qokeey.daiin.ckhol.qokain.cheamy
+<f89r1.10,+P0>    tdain.s<figure/>chol.cheoky.cheody.qokar.dal.chor.{ckhh}y.daiin</zone>
 #
 <f89r1.11,@Lc>    ykyd
 <f89r1.12,@Lf>    chol,ches
@@ -5949,7 +5956,7 @@
 <zone><f90r1.1,@P0>     poleeol.qokeol.qokchod.choly.ctho[g:m]
 <f90r1.2,+P0>     yshol.tor.sheor.qotchor.qoky.darala
 <f90r1.3,+P0>     dair.shkeea.s.sary.okar.ykorshy.lkaldy
-<f90r1.4,+P0>     talchor.chodaiin.chocfhor.qokchor.chockhy<->okchod.qofchol
+<f90r1.4,+P0>     talchor.chodaiin.chocfhor.qokchor.chockhy<figure/>okchod.qofchol
 <f90r1.5,+P0>     ytor.ckhy.lpychol.sho.ol.okachey.[r:s].sheom.kchol.dchy.dasady
 <f90r1.6,+P0>     tol.otchol.shorydar.qokeos.okeoschso.chol,ytod.qokeos.dolshy
 <f90r1.7,+P0>     dar.chos.qocthy.qokcha.shko.qokol.oteey.chofy.ykeody.qokod
@@ -5962,11 +5969,11 @@
 # herbal
 # Currier's language A
 #
-<zone><f90r2.1,@P0>     toealchs.shakol.sheo.qoekeey<->soeeol.qoteody
-<f90r2.2,+P0>     saiin.ckheo.saiin.qockhey.s.ykeeody<->s,cheey.chos.ckhs
-<f90r2.3,+P0>     dsheeos.qokeod.qokeo.chol.ol.okal<->saiin.ctheo,s,ar
-<f90r2.4,+P0>     al.s.oin.cheo.ro.sokeey.qokeeas<->al.aral.oy[r:s]
-<f90r2.5,+P0>     ychor.ckhor.qoeeor.okaiin.dom<->olcheo.rodaiin
+<zone><f90r2.1,@P0>     toealchs.shakol.sheo.qoekeey<figure/>soeeol.qoteody
+<f90r2.2,+P0>     saiin.ckheo.saiin.qockhey.s.ykeeody<figure/>s,cheey.chos.ckhs
+<f90r2.3,+P0>     dsheeos.qokeod.qokeo.chol.ol.okal<figure/>saiin.ctheo,s,ar
+<f90r2.4,+P0>     al.s.oin.cheo.ro.sokeey.qokeeas<figure/>al.aral.oy[r:s]
+<f90r2.5,+P0>     ychor.ckhor.qoeeor.okaiin.dom<figure/>olcheo.rodaiin
 <f90r2.6,+P0>     daiin.qokor.okoiin.daiin</zone>
 #
 #
@@ -5977,14 +5984,14 @@
 # Plant ID: Xerantrium? Leaves of Osmuda regalis
 # Same plant as f100r[1,3] ? (Stolfi)
 #
-<zone><f90v2.1,@P0>     {cμh}da{i…h}y.qocfhey.opolraiin.ofchedal.s?<->shese.shodaiin.shea[s:r]
-<f90v2.2,+P0>     podchey.ctheod.{ikh}eeos.cheey.ykeey.s.o[is:?]<->qokchas.s,oin.sam
-<f90v2.3,+P0>     saiin.sheom.sheey.keeos.ol.cheeor.chy<->shy.tchody.okeeo[m:g]
+<zone><f90v2.1,@P0>     {cμh}da{i…h}y.qocfhey.opolraiin.ofchedal.s?<figure/>shese.shodaiin.shea[s:r]
+<f90v2.2,+P0>     podchey.ctheod.{ikh}eeos.cheey.ykeey.s.o[is:?]<figure/>qokchas.s,oin.sam
+<f90v2.3,+P0>     saiin.sheom.sheey.keeos.ol.cheeor.chy<figure/>shy.tchody.okeeo[m:g]
 <f90v2.4,+P0>     tchos.oteey.saiin.okeeey</zone>
 #
-<zone><f90v2.5,+P0>     tcheody.cpheal.qoar.cheol.chos,olols<->dshcheal.sheol.qodar
-<f90v2.6,+P0>     sal.sheol.shey.qokeey.qokeol.cheody.s<->ykeeol,dar,chody.y
-<f90v2.7,+P0>     shey.s.shee[y:a]l.sheol.sheody.tol.sheo{cty}<->oteey.chodar.chog
+<zone><f90v2.5,+P0>     tcheody.cpheal.qoar.cheol.chos,olols<figure/>dshcheal.sheol.qodar
+<f90v2.6,+P0>     sal.sheol.shey.qokeey.qokeol.cheody.s<figure/>ykeeol,dar,chody.y
+<f90v2.7,+P0>     shey.s.shee[y:a]l.sheol.sheody.tol.sheo{cty}<figure/>oteey.chodar.chog
 <f90v2.8,+P0>     teeas.qkeody.qokchy.oteeol.daiin</zone>
 #
 #
@@ -5995,17 +6002,17 @@
 # Same plant as f100r[1,3] ? (Stolfi)
 # gathering  mark 15
 #
-<zone><f90v1.1,@P0>     pcheor.chodar.oleees.chepy.shol<->shckheo<->otol.shey<->cheo,r.cheokeey
-<f90v1.2,+P0>     tshor.olsheod.qodaiin.qokeor.sy<->oraiin<->ykeeol<->octheody.{cthhh}y
-<f90v1.3,+P0>     daiin.shody.cfheos.qockhy.chol,ol<->sals<->sol<->yteey.or.cheey,tey
-<f90v1.4,+P0>     kos.sheor.chockhor.qekeody.cheody<->sy<->s<->olcheey.{cthh}y.qoky
-<f90v1.5,+P0>     dcheey.keey.keeey.cthey.yty<->okeeody<->sy<->olcheey.sh.qokeys
+<zone><f90v1.1,@P0>     pcheor.chodar.oleees.chepy.shol<figure/>shckheo<figure/>otol.shey<figure/>cheo,r.cheokeey
+<f90v1.2,+P0>     tshor.olsheod.qodaiin.qokeor.sy<figure/>oraiin<figure/>ykeeol<figure/>octheody.{cthhh}y
+<f90v1.3,+P0>     daiin.shody.cfheos.qockhy.chol,ol<figure/>sals<figure/>sol<figure/>yteey.or.cheey,tey
+<f90v1.4,+P0>     kos.sheor.chockhor.qekeody.cheody<figure/>sy<figure/>s<figure/>olcheey.{cthh}y.qoky
+<f90v1.5,+P0>     dcheey.keey.keeey.cthey.yty<figure/>okeeody<figure/>sy<figure/>olcheey.sh.qokeys
 <f90v1.6,+P0>     shctheo,ror,sheol,ol.kaiin</zone>
 #
-<zone><f90v1.7,+P0>     ksheodal.sheody.qocheot[o:y]<->shokol.qokeshs<->yteody.poda{i¶h}ey
-<f90v1.8,+P0>     daiin.okeeey.cheo.qotecheor.cthodaim.s<->cheol.chor.okeam
-<f90v1.9,+P0>     sheor.ol.qokeeoky.okeeol.okeeodaiin.ytol<->sor.a[s:r]iin.aiin
-<f90v1.10,+P0>    ykeeor.cheos.q{kh}ey.cheos.oteol.okechod<->oeey.keeos.aiiin
+<zone><f90v1.7,+P0>     ksheodal.sheody.qocheot[o:y]<figure/>shokol.qokeshs<figure/>yteody.poda{i¶h}ey
+<f90v1.8,+P0>     daiin.okeeey.cheo.qotecheor.cthodaim.s<figure/>cheol.chor.okeam
+<f90v1.9,+P0>     sheor.ol.qokeeoky.okeeol.okeeodaiin.ytol<figure/>sor.a[s:r]iin.aiin
+<f90v1.10,+P0>    ykeeor.cheos.q{kh}ey.cheos.oteol.okechod<figure/>oeey.keeos.aiiin
 <f90v1.11,+P0>    deeocthey.keeeol.sheol.{c't}sheol.daiin</zone>
 #
 #
@@ -6019,10 +6026,10 @@
 # Currier's language A, hand 4
 #
 <zone><f93r.1,@P0>      kodshol.otolsheeos.octhodaly.opalepam.oepchksheey.qotodain.s.oar
-<f93r.2,+P0>      ycham.s.chol.chotom.cthodar.sheo.s.oteodal.s<->ofchoshy.cthoshol
-<f93r.3,+P0>      dsho.dal.dalody.ytchchy.dam.chody.dal,ol<->schodchy.qotchd
-<f93r.4,+P0>      sol.shotol.qokchodal.shody.chotol,s<->otol.ytchdg
-<f93r.5,+P0>      ol.chody.cfhol.dol.qokol.otodar<->chodain
+<f93r.2,+P0>      ycham.s.chol.chotom.cthodar.sheo.s.oteodal.s<figure/>ofchoshy.cthoshol
+<f93r.3,+P0>      dsho.dal.dalody.ytchchy.dam.chody.dal,ol<figure/>schodchy.qotchd
+<f93r.4,+P0>      sol.shotol.qokchodal.shody.chotol,s<figure/>otol.ytchdg
+<f93r.5,+P0>      ol.chody.cfhol.dol.qokol.otodar<figure/>chodain
 <f93r.6,+P0>      tar,otor.s.cho.s.chol.sheoees
 <f93r.7,+P0>      shor.shol.ody.cheodaiin.s
 <f93r.8,+P0>      lor,sheeody.chodaiin.s.odar
@@ -6057,15 +6064,15 @@
 # herbal
 # Currier's language A, hand 4
 #
-<zone><f93v.1,@P0>      possheody.qoteeo.qoshocphy.opchody.opor<->opchy<->otchdal.or.shodaiin
-<f93v.2,+P0>      yteeody.qotody.qotchol.qocthody.ytey<->oky<->daiin<->dar.ctho[g:m]
-<f93v.3,+P0>      dchos.chody.qockhol.oky.cheodaiin.oty<->daiin<->otal<->dair.okol
-<f93v.4,+P0>      sol.shol.shdchy.qokchol.qokchody.chol<->chol<->{cty}<->ykchy.dar
-<f93v.5,+P0>      tshoky.cthody.qotchol.ckhol.dchog.s<->olo.oteo[?:s].chodaiindy
-<f93v.6,+P0>      ytch[?:o]l<!corr?>.ckhol.qochocthy.ctho.chkeey.cthody.s<->dar.she[y:q]okam
-<f93v.7,+P0>      oees.ckheody.qkcheey.koldy.tchodaiin.ctheos<->shodain.qokeeam
-<f93v.8,+P0>      dcho.chody.teol.sheol.cheeoldair.okchey.cthey<->dsheog.okeey.dama
-<f93v.9,+P0>      odeeeodl.cheodar.oksho.chody.okchey.cthol.oly<->ytchol<->sar<->dar
+<zone><f93v.1,@P0>      possheody.qoteeo.qoshocphy.opchody.opor<figure/>opchy<figure/>otchdal.or.shodaiin
+<f93v.2,+P0>      yteeody.qotody.qotchol.qocthody.ytey<figure/>oky<figure/>daiin<figure/>dar.ctho[g:m]
+<f93v.3,+P0>      dchos.chody.qockhol.oky.cheodaiin.oty<figure/>daiin<figure/>otal<figure/>dair.okol
+<f93v.4,+P0>      sol.shol.shdchy.qokchol.qokchody.chol<figure/>chol<figure/>{cty}<figure/>ykchy.dar
+<f93v.5,+P0>      tshoky.cthody.qotchol.ckhol.dchog.s<figure/>olo.oteo[?:s].chodaiindy
+<f93v.6,+P0>      ytch[?:o]l<!corr?>.ckhol.qochocthy.ctho.chkeey.cthody.s<figure/>dar.she[y:q]okam
+<f93v.7,+P0>      oees.ckheody.qkcheey.koldy.tchodaiin.ctheos<figure/>shodain.qokeeam
+<f93v.8,+P0>      dcho.chody.teol.sheol.cheeoldair.okchey.cthey<figure/>dsheog.okeey.dama
+<f93v.9,+P0>      odeeeodl.cheodar.oksho.chody.okchey.cthol.oly<figure/>ytchol<figure/>sar<figure/>dar
 <f93v.10,+P0>     ychol.chs.ckhy.s,cheeol</zone>
 #
 #
@@ -6081,8 +6088,8 @@
 <f94r.4,+P0>      shor.olkeedy.ol,kchdy.cheedy.kalchdy.chedaiin.or.chol,kar,am
 <f94r.5,+P0>      daiin.chekar.olkaiin.olkeody.ykaiin.otain.dar.okeed[y:o].ykaro
 <f94r.6,+P0>      saiin.choky.qotchdy.otaly.chedy.dal.dy.chckhaiin.chk.qof
-<f94r.7,+P0>      pchedar.oraiin.cheor.kas.or.als<->o,xo{ckhh}y.olkain.am
-<f94r.8,+P0>      yty.qokaiin.ykal.chdy.qoky<->osain.chykaidy.dam
+<f94r.7,+P0>      pchedar.oraiin.cheor.kas.or.als<figure/>o,xo{ckhh}y.olkain.am
+<f94r.8,+P0>      yty.qokaiin.ykal.chdy.qoky<figure/>osain.chykaidy.dam
 <f94r.9,+Pc>      otar,chdy.dytchdy</zone>
 #
 #
@@ -6091,19 +6098,19 @@
 # herbal
 # Currier's language B, hand 5
 #
-<zone><f94v.1,@P0>      tshedy.chedar.char.qokchedy.okal.dar<->opchackhy.oteedan
-<f94v.2,+P0>      ol,teedy.oteey.qekeey.oteey.teedal<->ykeedy.qotarain
-<f94v.3,+P0>      yshedy.chdaiin.otedy.sdal,tamdy<->chdy.qokeey.tam
-<f94v.4,+P0>      dchdy.otar.otchy,kedy.qokchdy.ol<->okchy</zone>
+<zone><f94v.1,@P0>      tshedy.chedar.char.qokchedy.okal.dar<figure/>opchackhy.oteedan
+<f94v.2,+P0>      ol,teedy.oteey.qekeey.oteey.teedal<figure/>ykeedy.qotarain
+<f94v.3,+P0>      yshedy.chdaiin.otedy.sdal,tamdy<figure/>chdy.qokeey.tam
+<f94v.4,+P0>      dchdy.otar.otchy,kedy.qokchdy.ol<figure/>okchy</zone>
 #
-<zone><f94v.5,+P0>      tedain.chedy.qokshd.okchdy.qokeal<->chorchor.tchor,am
-<f94v.6,+P0>      ycheeo.lkeol.otor.opchdy.qotar.aral<->otor.otchy.tody.oty
+<zone><f94v.5,+P0>      tedain.chedy.qokshd.okchdy.qokeal<figure/>chorchor.tchor,am
+<f94v.6,+P0>      ycheeo.lkeol.otor.opchdy.qotar.aral<figure/>otor.otchy.tody.oty
 <f94v.7,+P0>      toky.shey.qokaiin</zone>
 #
-<zone><f94v.8,+P0>      pchedaiin.sheocthy.daiin.cphedy.fchd<->otchy.qotchy.par,ar
-<f94v.9,+P0>      ytar.okedy.okeedy.qokshey.otaiin,y<->ypchdair.ol.s.aiin.oly
-<f94v.10,+P0>     ol,air.cheey.okchaiin.shy.tararain<->otody.qodar.oteey.dar
-<f94v.11,+P0>     todaiin.sh{cthh}y.qokar.chetaiin.chdy<->ykol.qoky.or,eedy.oky
+<zone><f94v.8,+P0>      pchedaiin.sheocthy.daiin.cphedy.fchd<figure/>otchy.qotchy.par,ar
+<f94v.9,+P0>      ytar.okedy.okeedy.qokshey.otaiin,y<figure/>ypchdair.ol.s.aiin.oly
+<f94v.10,+P0>     ol,air.cheey.okchaiin.shy.tararain<figure/>otody.qodar.oteey.dar
+<f94v.11,+P0>     todaiin.sh{cthh}y.qokar.chetaiin.chdy<figure/>ykol.qoky.or,eedy.oky
 <f94v.12,+P0>     daiin.chcthy.chdy.chckhy.okaiin</zone>
 #
 #
@@ -6152,10 +6159,10 @@
 <zone><f95v2.1,@P0>     tchody,podar.shody.qofaiin.ofchdy.otedy.qotedaiin.shor.olsain
 <f95v2.2,+P0>     sol.shedy.qotchey.alor.chdyty.olor.ok[a:o]dy.chody.qotaiin.y.kaipy
 <f95v2.3,+P0>     archytaiin.shekoiin.okar.or.aiin.chckhy.okal.otain.okalody
-<f95v2.4,+P0>     daiin.<!next line intrudes>olkain.qokan.shar.shekydy.dain.alkain<->okalaiin.s
-<f95v2.5,+P0>     tar.fcheey.shos.aiin.okar.olkaiin.otalain<->okaiin,ar
-<f95v2.6,+P0>     dain.ykaly.chals<->shedain.olaiin.y<->okain.ldy
-<f95v2.7,+P0>     qokeey.dar.chdykain<->ytasal.otain</zone>
+<f95v2.4,+P0>     daiin.<!next line intrudes>olkain.qokan.shar.shekydy.dain.alkain<figure/>okalaiin.s
+<f95v2.5,+P0>     tar.fcheey.shos.aiin.okar.olkaiin.otalain<figure/>okaiin,ar
+<f95v2.6,+P0>     dain.ykaly.chals<figure/>shedain.olaiin.y<figure/>okain.ldy
+<f95v2.7,+P0>     qokeey.dar.chdykain<figure/>ytasal.otain</zone>
 #
 #
 </surface><surface n="f95v1">    <! $Q=Q $P=J $F=y $B=2 $I=H $L=B $H=3 $C=5>
@@ -6198,8 +6205,8 @@
 <f96r.8,+P0>      ykeor.[se:sh]cheeol.sheol.qokeeey.chol.daiin
 <f96r.9,+P0>      todar.sheo.cthody.shokocfhy.chopcho.dory
 <f96r.10,+P0>     otchodol.shocthody.shockhy.otchodor.cho{cty}
-<f96r.11,+P0>     teol.cheody.shodol.qokchod<->s<->aiin.chokey
-<f96r.12,+P0>     dcheor.cheol.cheodaiin.ol<->dy<->d<->chs<->archeody
+<f96r.11,+P0>     teol.cheody.shodol.qokchod<figure/>s<figure/>aiin.chokey
+<f96r.12,+P0>     dcheor.cheol.cheodaiin.ol<figure/>dy<figure/>d<figure/>chs<figure/>archeody
 <f96r.13,+P0>     oteodsho.qotchos</zone>
 #
 #
@@ -6211,9 +6218,9 @@
 # Plant ID:  Smilax tracheia, or Chenopodium
 # Same plant as f99r[4,1] ? (GL)
 #
-<zone><f96v.1,@P0>      psheessheeor.qoepsheody.odar.ocpheeo<->opar.ysar.osoj
-<f96v.2,+P0>      ytear.yteor.olcheey.dteodoiin<->saro<->qoches,y,cheom
-<f96v.3,+P0>      dcheoteos.cpheos.sor.chcthory<->cth<->ytchey.daiin
+<zone><f96v.1,@P0>      psheessheeor.qoepsheody.odar.ocpheeo<figure/>opar.ysar.osoj
+<f96v.2,+P0>      ytear.yteor.olcheey.dteodoiin<figure/>saro<figure/>qoches,y,cheom
+<f96v.3,+P0>      dcheoteos.cpheos.sor.chcthory<figure/>cth<figure/>ytchey.daiin
 <f96v.4,+P0>      dsheos.sheey.teocthey.{ct}eeodody
 <f96v.5,+P0>      tockhy.cthey.ckheeody.ar.eeeykey
 <f96v.6,+P0>      yteeody.teodar.alchey.sy
@@ -6309,18 +6316,18 @@
 # Top row of labels. Petersen ID in curly brackets.
 <f99v.1,@Lc>      <!95a>okaramy
 <f99v.2,@Lf>      <!95b>otoldy
-<f99v.3,@Lf>      <!96>otor<->chy
+<f99v.3,@Lf>      <!96>otor<figure/>chy
 <f99v.4,@Lf>      <!97>oldy
-<f99v.5,@Lf>      <!98>dar<->ary
+<f99v.5,@Lf>      <!98>dar<figure/>ary
 <f99v.6,@Lf>      <!99>otaly
 <f99v.7,@Lf>      <!100>olsy
 <f99v.8,@Lf>      <!101>arol
 <f99v.9,@Lf>      <!102>otoky
 #
-<zone><f99v.10,@P0>     sol.cheols.ockhey.qo{ckhh}y.qkoldy.s<->ok.oleees.oteey.dain
-<f99v.11,+P0>     okoiin.choty.qokchol.qokeol.okoldy<->q{kh}oldy.toly.daiin
-<f99v.12,+P0>     qokeo.qokeol.chockhy.otol.daiin.oty<->oto{ck}ey.da.chor,aiin
-<f99v.13,+P0>     okoraiin.okol.shocthy<->qokor.oloiram</zone>
+<zone><f99v.10,@P0>     sol.cheols.ockhey.qo{ckhh}y.qkoldy.s<figure/>ok.oleees.oteey.dain
+<f99v.11,+P0>     okoiin.choty.qokchol.qokeol.okoldy<figure/>q{kh}oldy.toly.daiin
+<f99v.12,+P0>     qokeo.qokeol.chockhy.otol.daiin.oty<figure/>oto{ck}ey.da.chor,aiin
+<f99v.13,+P0>     okoraiin.okol.shocthy<figure/>qokor.oloiram</zone>
 #
 # Second row of labels. Petersen ID in curly brackets.
 <f99v.14,@Lc>     <!103a>okoldody
@@ -6345,19 +6352,19 @@
 <f99v.30,@Lf>     <!112>olky
 <f99v.31,@Lf>     <!113>doldam
 #
-<zone><f99v.32,@P0>     qokeeoy.chokol.qokeeo.dy.qokeeol.olpchey.daiir.okeedy<->okolol
+<zone><f99v.32,@P0>     qokeeoy.chokol.qokeeo.dy.qokeeol.olpchey.daiir.okeedy<figure/>okolol
 <f99v.33,+P0>     dol.okeeol.okeor.okal.okaiin.ckheol.okolaiin.okolaiin.cheoldy
 <f99v.34,+P0>     yoiin,ol.ol.olaiin.qockhey.qokol.olshy.qokeeor.or.aiin.doldam
 <f99v.35,+P0>     ol,okeeey.oqoeeol.cheol.chody.okoiin</zone>
 #
 <f99v.36,@Lc>     <!114a>oralas
 #
-<zone><f99v.37,@P0>     {c„}eol,so{c…h}ey.qokol.olkeol.daiin<->okoly
-<f99v.38,+P0>     ol.cheey.qokeol.okeol.okeol.shokol<->ykey
-<f99v.39,+P0>     dar.shol.okchey.ckhey.qokololal<->okeol
-<f99v.40,+P0>     or.aiin.okeody.okol.odaiin.qoky<->olaldy
-<f99v.41,+P0>     qockhol.oiin.shody.qokol.aiidal<->aiidaiim
-<f99v.42,+P0>     ol,sheol.olkeol.okol.or.oraloly<->ykeol.okal.okaldaly
+<zone><f99v.37,@P0>     {c„}eol,so{c…h}ey.qokol.olkeol.daiin<figure/>okoly
+<f99v.38,+P0>     ol.cheey.qokeol.okeol.okeol.shokol<figure/>ykey
+<f99v.39,+P0>     dar.shol.okchey.ckhey.qokololal<figure/>okeol
+<f99v.40,+P0>     or.aiin.okeody.okol.odaiin.qoky<figure/>olaldy
+<f99v.41,+P0>     qockhol.oiin.shody.qokol.aiidal<figure/>aiidaiim
+<f99v.42,+P0>     ol,sheol.olkeol.okol.or.oraloly<figure/>ykeol.okal.okaldaly
 <f99v.43,+P0>     ychol,olkeeoldy</zone>
 #
 <f99v.44,@Lf>     <!114b>koleearol
@@ -6379,7 +6386,7 @@
 <f100r.2,@Lf>     <!116>sochorcfhy
 <f100r.3,@Lf>     <!117>otear
 <f100r.4,@Lf>     <!118>chofa[r:n]y
-<f100r.5,@Lf>     <!119>sar,char<->daiindy
+<f100r.5,@Lf>     <!119>sar,char<figure/>daiindy
 <f100r.6,@Lf>     <!120>o[r:s]aro
 <f100r.7,@Lf>     <!121>chalsain
 <f100r.8,@Lf>     <!122>soity
@@ -6500,8 +6507,8 @@
 <f101v.17,@Lf>    odor
 <f101v.18,@Lf>    olaran
 #
-<zone><f101v.19,@P0>    tolchor.cheopor.or,ody.cphey,r.shee.fol,s,oiin.otsheey.otch???y,kcho,pcholy.chor.or.choror.sy<->dorar<->okoraiin.orolodain
-<f101v.20,+P0>    or.aiin.or.o.or.odam.chor.s.aiin.okor.cheeor.sheeol.qokol.et???ol.qoor.cheey.qykeod.oeeo.r.choy.s<->okeeody<->chodaiin.cthy.okody.dar
+<zone><f101v.19,@P0>    tolchor.cheopor.or,ody.cphey,r.shee.fol,s,oiin.otsheey.otch???y,kcho,pcholy.chor.or.choror.sy<figure/>dorar<figure/>okoraiin.orolodain
+<f101v.20,+P0>    or.aiin.or.o.or.odam.chor.s.aiin.okor.cheeor.sheeol.qokol.et???ol.qoor.cheey.qykeod.oeeo.r.choy.s<figure/>okeeody<figure/>chodaiin.cthy.okody.dar
 <f101v.21,+P0>    ycheor.o[?:e]o.dain.cheokal.{ykh}ody.cheeods.oraiin.qoeey.cthey.???eocthy.dain.cheod?.dydy</zone>
 #
 <zone><f101v.22,+P0>    ksear.lol,keeol.otal.or.ol.aiin.okeod.{ykh}ey.dain.olcheol.???opcheol.cthey.qekeoldy.qocthor.sheody.qo{ckhh}ey.odaiin.shoytolaiin.?sodaiin,dy
@@ -6527,8 +6534,8 @@
 <f102r1.6,+P0>    daiin.ykeeol.oldy.okodaiin</zone>
 #
 <f102r1.7,@Lc>    <!202a>okolaly
-<zone><f102r1.8,@P0>    pshodaiin.qoorar.chopy<->chofol.daiin.oteol.qoteol.doly
-<f102r1.9,+P0>    daiin.orsheoldy.qokeol<->oteeody.lshodykeodal.qokshdy,sy
+<zone><f102r1.8,@P0>    pshodaiin.qoorar.chopy<figure/>chofol.daiin.oteol.qoteol.doly
+<f102r1.9,+P0>    daiin.orsheoldy.qokeol<figure/>oteeody.lshodykeodal.qokshdy,sy
 <f102r1.10,+P0>   ycheol.sholdy.chol.chol.ykeeol.dol.doleodaiin.dal.cthedy
 <f102r1.11,+P0>   dcheo.qockhy.sol,sheey.okeody.qokeodol.shockhey.oleeol</zone>
 #
@@ -6536,8 +6543,8 @@
 <zone><f102r1.13,@P0>   teesody.qoeol.olcheor.qokey.okshey.qokeol.sheofol{ckhh}y
 <f102r1.14,+P0>   doeey.keeol.qokeo.daor.shey.qoteol.okol.chos.s.or.oeeaiin
 <f102r1.15,+P0>   or.chol.daiin.dykeor.sheey.qokeody.dor.os.ykeeykam
-<f102r1.16,+P0>   ddor.chordam<->soraiin.ykeey,dy.okeol.doeoear<->s.aral.dor
-<f102r1.17,+P0>   ydar,arody<->oldaiin.sody.chockhy,oly</zone>
+<f102r1.16,+P0>   ddor.chordam<figure/>soraiin.ykeey,dy.okeol.doeoear<figure/>s.aral.dor
+<f102r1.17,+P0>   ydar,arody<figure/>oldaiin.sody.chockhy,oly</zone>
 #
 #
 </surface><surface n="f102r2">   <! $Q=S $P=M $F=z $B=1 $I=P $L=A $H=1>
@@ -6654,7 +6661,7 @@
 <f102v1.17,@Lf>   <!240>loralody
 <f102v1.18,@Lf>   <!241>opchdard
 #
-<zone><f102v1.19,@P0>   fo[i:e]daiin.dair.or.sheol.okeeol.qoteol<->oro{ikh}ey.olkey
+<zone><f102v1.19,@P0>   fo[i:e]daiin.dair.or.sheol.okeeol.qoteol<figure/>oro{ikh}ey.olkey
 <f102v1.20,+P0>   soiin.shey.qokeey.qoeeol.qokeody.sheody.qoeteey.okeey.dam
 <f102v1.21,+P0>   qoeeody.ychey.okeody.deody.okody.cheodaiin.cheody.[r:s]am
 <f102v1.22,+P0>   yk[ee:ch]ody.chodaiin.qokeos.cheol.qool.chsey.oteody.okchy

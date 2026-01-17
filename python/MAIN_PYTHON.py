@@ -1,10 +1,25 @@
 import re
+import requests
 
-# Read in the file
-input_path = '../transliterationFiles/ZL3b-n/ZL3b-n.txt'
-output_path = '../transliterationFiles/ZL3b-n/ZL3b-n_test.txt'
+# Make it accept web text files
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Accept": "text/plain, */*"
+}
 
-with open(input_path, 'r', encoding='utf-8') as file:
+# Getting the README Information about the Transliteration file
+try:
+    # 2. Pass the headers argument to the get function
+    response = requests.get("https://www.voynich.nu/data/000_README.txt", headers=headers)
+    response.raise_for_status()
+    full_text = response.text
+    relevant_content = full_text.split("ZL3a-n.txt", 1)[1] # Get everything after ZL3a-n.txt
+
+except requests.exceptions.RequestException as e:
+    print(f"Error fetching the file: {e}")
+
+# Read the Transliteration file
+with open('../transliterationFiles/ZL3b-n/ZL3b-n.txt', 'r', encoding='utf-8') as file:
     filedata = file.read()
 
 # Define all replacements in a dictionary (Target : Replacement)
@@ -139,9 +154,12 @@ filedata = re.sub(r'<(f\d\d?\d?[rv]?\d?)>', r'</surface><surface n="\1">', filed
 filedata = re.sub(r'(<.+>)(\s+)(<%>)', r'\3\1\2', filedata)
 filedata = re.sub(r'<%>', '<zone>', filedata)
 filedata = re.sub(r'<\$>', '</zone>', filedata)
+filedata = re.sub(r'<->', '<figure/>', filedata)
+filedata = re.sub(r'<~>', '<figure/>', filedata)
 
 # Write the file out again
-with open(output_path, 'w', encoding='utf-8') as file:
-    file.write(filedata)
+with open('../transliterationFiles/ZL3b-n/ZL3b-n_test.txt', 'w', encoding='utf-8') as file:
+    file.write(relevant_content.strip()) # Gets Info from website ReadMe
+    file.write(filedata) # Changed File
 
 print("Conversion complete.")
