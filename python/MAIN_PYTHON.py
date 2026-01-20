@@ -152,10 +152,23 @@ for code, char in replacements.items():
 # Looks for patterns like <f76r> and converts to TEI surface tags
 filedata = re.sub(r'<(f\d\d?\d?[rv]?\d?)>', r'</surface><surface n="\1">', filedata)
 filedata = re.sub(r'(<.+>)(\s+)(<%>)', r'\3\1\2', filedata)
+# Zones
 filedata = re.sub(r'<%>', '<zone>', filedata)
 filedata = re.sub(r'<\$>', '</zone>', filedata)
+# Figures
 filedata = re.sub(r'<->', '<figure/>', filedata)
 filedata = re.sub(r'<~>', '<figure/>', filedata)
+# Lines
+filedata = re.sub(r'<f\d+[rv]\d?\.(\d+),([@+*=&~/!])([PLCR][01bcrtafnpstxzio])>\s+(.+)', r'<line n="\1" rendition="#\2 #\3">\4</line>', filedata)
+# Locator Char
+filedata = re.sub(r'rendition="#@', r'rendition="#At', filedata)
+filedata = re.sub(r'rendition="#\+', r'rendition="#Ad', filedata)
+filedata = re.sub(r'rendition="#\*', r'rendition="#As', filedata)
+filedata = re.sub(r'rendition="#=', r'rendition="#Aq', filedata)
+filedata = re.sub(r'rendition="#&', r'rendition="#An', filedata)
+filedata = re.sub(r'rendition="#~', r'rendition="#Am', filedata)
+filedata = re.sub(r'rendition="#/', r'rendition="#Al', filedata)
+filedata = re.sub(r'rendition="#!', r'rendition="#Ax', filedata)
 
 # Write the file out again
 with open('../transliterationFiles/ZL3b-n/ZL3b-n_test.txt', 'w', encoding='utf-8') as file:

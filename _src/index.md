@@ -4,4 +4,6 @@ layout: base.njk
 permalink: "index.html"
 ---
 
-Attempting Eleventy Site!
+<div class="corpus">
+Welcome to the Voynich TEI Website! This is where I will be keeping all the information used to make the Voynich TEI.
+</div>
