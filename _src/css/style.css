@@ -99,7 +99,7 @@ footer {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 .footer-column {
