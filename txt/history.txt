@@ -1,0 +1,9 @@
+1. The origins of this manuscript are unknown, but it has been carbon dated to have been made sometime between <date notBefore="1404" notAfter="1438">1404 and 1438</date>.
+2. Any history between <date notBefore="1404" notAfter="1576">1404 and 1576</date> is missing and unknown.
+3. Owned by Rudolph II of Habsburg during his reign in Prague from <date notBefore="1576" notAfter="1611">1576 to 1611</date>. In <date when="1599">1599</date>, Karl Widemann sold Rudolph II several books, one of which was likely the Voynich Manuscript, but this is not confirmed.
+4. Jacobus Horcicky de Tepenecz owned the manuscript in <date when="1622">1622</date>. This is noted in an inscription on folio 1r which reads <q>Jacobi de Tepenecz</q> under uv light. The manuscript was likely owned by someone else and given to him as a part of his inheritance.
+5. Owned by Georgius Barschius potentially sometime between <date notBefore="1627" notAfter="1637">1627 and 1637</date>.
+6. Johannes Marcus Marci of Kronland was gifted Barschius' alchemical library in <date when="1677">1677</date>, which included the Voynich Manuscript.
+7. Wilfred M. Voynich acquired the manuscript in <date when="1912">1912</date> at the Villa Mondragone in Italy
+8. H. P. Kraus purchases the manuscript from Ethel Voynich, Wilfrid Voynich's widow.
+9. Given to the Beinecke Library by H. P. Kraus

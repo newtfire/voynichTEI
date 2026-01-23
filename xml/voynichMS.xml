@@ -71,6 +71,9 @@
                             <p>Given to the Beinecke Library by H. P. Kraus</p>
                         </provenance>
                     </history>
+                    <msContents>
+                        <summary>The latest release of the Zandbergen-Landini transliteration of 1999 in the IVTFF 2.0 format. It is a complete transliteration, including all 5389 loci that have been identified in the MS. It uses the Eva alphabet, including the high-ascii extensions. The file has been corrected in numerous places. Some parts of the text inside folds of the pages still need to be added.</summary>
+                    </msContents>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

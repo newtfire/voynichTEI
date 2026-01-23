@@ -12,4 +12,6 @@ permalink: "about.html"
 This is my senior project for my DIGIT Major.
 
 Currently I am working on a Python file that changes the IVTFF file into a TEI file.
+
+I am having trouble with changing the '#' into comments. For some reason the Python will not pick up the hashtags, thus not changing it into an XML comment.
 </div>

@@ -1,0 +1,35 @@
+
+<tagsDecl>
+    <rendition xml:id="P">Linear text in paragraphs</rendition>
+    <rendition xml:id="P0">Normal left-justified text</rendition>
+    <rendition xml:id="P1">Normal paragraph text that is significantly away from the left, typically due to a drawing, or some other text to its left</rendition>
+    <rendition xml:id="Pb">A free-floating set of lines in a non-standard location</rendition>
+    <rendition xml:id="Pc">A roughly centred line (compared to the previous line)</rendition>
+    <rendition xml:id="Pr">A (roughly) right-justified line</rendition>
+    <rendition xml:id="Pt">A right-justified ‘title’ which is on the same line as the previous item</rendition>
+    <rendition xml:id="L">Short piece of text, a word, or a character that is anywhere on the page. Mostly these are the so-called labels</rendition>
+    <rendition xml:id="L0">It is not clearly near any drawing element</rendition>
+    <rendition xml:id="La">A label of an astronomical or cosmological drawing element, which is not a star or a zodiac element</rendition>
+    <rendition xml:id="Lc">A label of a container in the pharmaceutical section</rendition>
+    <rendition xml:id="Lf">A label of a fragment of a herb in the pharmaceutical section</rendition>
+    <rendition xml:id="Ln">A label of a nymph in the biological section</rendition>
+    <rendition xml:id="Lp">A label of a large herb or plant drawing (in the herbal section)</rendition>
+    <rendition xml:id="Ls">A label of a star</rendition>
+    <rendition xml:id="Lt">A label of a tube or a tub in the biological section (essentially everything that is not a nymph)</rendition>
+    <rendition xml:id="Lx">Extraneous writing (e.g. in the margin)</rendition>
+    <rendition xml:id="Lz">A label of a zodiac element</rendition>
+    <rendition xml:id="C">Text along the circumference of a circle</rendition>
+    <rendition xml:id="Ca">The text runs anti-clockwise (only one case in the MS)</rendition>
+    <rendition xml:id="Cc">The text runs clockwise</rendition>
+    <rendition xml:id="R">Text along the radius of a circle</rendition>
+    <rendition xml:id="Ri">The text runs outside to inside (inwards)</rendition>
+    <rendition xml:id="Ro">The text runs inside to outside (outwards)</rendition>
+    <rendition xml:id="At">Position of locus is unrelated to previous item. The position of this locus is unrelated to the previous item, or not easily described by one of the following. This locator is always used for the first item on each page</rendition>
+    <rendition xml:id="Ad">Generally below the previous item. This is the most common case</rendition>
+    <rendition xml:id="As">At the start of the line below the previous item, but at the left margin, while the previous item was not</rendition>
+    <rendition xml:id="Aq">The locus is on the same line as the previous item but separated by some white space</rendition>
+    <rendition xml:id="An">Similar to AQ but along a circular line</rendition>
+    <rendition xml:id="Am">Similar to AQ but the vertical alignment is not very good</rendition>
+    <rendition xml:id="Al">This locus is to the right of, and above the previous locus</rendition>
+    <rendition xml:id="Ax">This locus refers to text that in reality does not exist in the manuscript</rendition>
+</tagsDecl>
