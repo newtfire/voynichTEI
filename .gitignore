@@ -19,3 +19,7 @@ etc/
 pyvenv.cfg
 share/
 .ipynb_checkpoints/
+# Eleventy and Node stuff #
+/node_modules
+.idea/
+
