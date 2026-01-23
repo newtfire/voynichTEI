@@ -9,5 +9,5 @@ permalink: "index.html"
 </header>
 
 <div class="corpus">
-Welcome to the Voynich TEI Website! This is where I will be keeping all the information used to make the Voynich TEI.
+For my senior project, I am working with the Voynich Manuscript transliteration files created by René Zandbergen and converting them into a structured TEI (Text Encoding Initiative) format. My focus is on developing a TEI back end that catalogs and encodes all of the different plants depicted throughout the manuscript, linking the transliterated text to specific botanical illustrations where possible. This approach preserves the manuscript’s complex symbols, layout, and uncertainties while creating a searchable, machine-readable framework that supports botanical comparison, digital humanities research, and future scholarly analysis of the Voynich Manuscript’s herbal sections.
 </div>
