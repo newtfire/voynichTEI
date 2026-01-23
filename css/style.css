@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://collections.library.yale.edu/iiif/2/1006231/full/full/0/default.jpg");
+  background-color: #cccccc;
+  background-size: 120%;
+  background-position: center;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Headers */
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 50px;
+  margin: 20px;
+}
+
+/* Navigation Bar */
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.icon {
+  display: none;
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav.responsive {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topnav.responsive a {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Words on webpage */
+.corpus {
+  padding: 10px 20% 10px 20%;
+  flex: 1;
+}
+
+/* Footer (Menu, GitHub, Copyright) */
+
+footer {
+  background-color: #000000;
+  color: #f2f2f2;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 20px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-column a:hover {
+  color: #4da6ff;
+  text-decoration: underline;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column img {
+  margin: 15px;
+  display: block;
+}
