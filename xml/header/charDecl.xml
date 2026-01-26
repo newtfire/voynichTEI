@@ -1,0 +1,618 @@
+            
+            <charDecl>
+                <glyph xml:id="u20ac">
+                    <mapping type="Standard">€</mapping>
+                    <mapping type="Unicode">U+20AC</mapping>
+                    <mapping type="ASCII">128</mapping>
+                </glyph>
+                <glyph xml:id="u201a">
+                    <mapping type="Standard">‚</mapping>
+                    <mapping type="Unicode">U+201A</mapping>
+                    <mapping type="ASCII">130</mapping>
+                </glyph>
+                <glyph xml:id="u0192">
+                    <mapping type="Standard">ƒ</mapping>
+                    <mapping type="Unicode">U+0192</mapping>
+                    <mapping type="ASCII">131</mapping>
+                </glyph>
+                <glyph xml:id="u201e">
+                    <mapping type="Standard">„</mapping>
+                    <mapping type="Unicode">U+201E</mapping>
+                    <mapping type="ASCII">132</mapping>
+                </glyph>
+                <glyph xml:id="u2026">
+                    <mapping type="Standard">…</mapping>
+                    <mapping type="Unicode">U+2026</mapping>
+                    <mapping type="ASCII">133</mapping>
+                </glyph>
+                <glyph xml:id="u2020">
+                    <mapping type="Standard">†</mapping>
+                    <mapping type="Unicode">U+2020</mapping>
+                    <mapping type="ASCII">134</mapping>
+                </glyph>
+                <glyph xml:id="u2021">
+                    <mapping type="Standard">‡</mapping>
+                    <mapping type="Unicode">U+2021</mapping>
+                    <mapping type="ASCII">135</mapping>
+                </glyph>
+                <glyph xml:id="u02c6">
+                    <mapping type="Standard">ˆ</mapping>
+                    <mapping type="Unicode">U+02C6</mapping>
+                    <mapping type="ASCII">136</mapping>
+                </glyph>
+                <glyph xml:id="u2030">
+                    <mapping type="Standard">‰</mapping>
+                    <mapping type="Unicode">U+2030</mapping>
+                    <mapping type="ASCII">137</mapping>
+                </glyph>
+                <glyph xml:id="u0160">
+                    <mapping type="Standard">Š</mapping>
+                    <mapping type="Unicode">U+0160</mapping>
+                    <mapping type="ASCII">138</mapping>
+                </glyph>
+                <glyph xml:id="u2039">
+                    <mapping type="Standard">‹</mapping>
+                    <mapping type="Unicode">U+2039</mapping>
+                    <mapping type="ASCII">139</mapping>
+                </glyph>
+                <glyph xml:id="u0152">
+                    <mapping type="Standard">Œ</mapping>
+                    <mapping type="Unicode">U+0152</mapping>
+                    <mapping type="ASCII">140</mapping>
+                </glyph>
+                <glyph xml:id="u017d">
+                    <mapping type="Standard">Ž</mapping>
+                    <mapping type="Unicode">U+017D</mapping>
+                    <mapping type="ASCII">142</mapping>
+                </glyph>
+                <glyph xml:id="u2018">
+                    <mapping type="Standard">‘</mapping>
+                    <mapping type="Unicode">U+2018</mapping>
+                    <mapping type="ASCII">145</mapping>
+                </glyph>
+                <glyph xml:id="u2019">
+                    <mapping type="Standard">’</mapping>
+                    <mapping type="Unicode">U+2019</mapping>
+                    <mapping type="ASCII">146</mapping>
+                </glyph>
+                <glyph xml:id="u201c">
+                    <mapping type="Standard">“</mapping>
+                    <mapping type="Unicode">U+201C</mapping>
+                    <mapping type="ASCII">147</mapping>
+                </glyph>
+                <glyph xml:id="u201d">
+                    <mapping type="Standard">”</mapping>
+                    <mapping type="Unicode">U+201D</mapping>
+                    <mapping type="ASCII">148</mapping>
+                </glyph>
+                <glyph xml:id="u2022">
+                    <mapping type="Standard">•</mapping>
+                    <mapping type="Unicode">U+2022</mapping>
+                    <mapping type="ASCII">149</mapping>
+                </glyph>
+                <glyph xml:id="u2013">
+                    <mapping type="Standard">–</mapping>
+                    <mapping type="Unicode">U+2013</mapping>
+                    <mapping type="ASCII">150</mapping>
+                </glyph>
+                <glyph xml:id="u2014">
+                    <mapping type="Standard">—</mapping>
+                    <mapping type="Unicode">U+2014</mapping>
+                    <mapping type="ASCII">151</mapping>
+                </glyph>
+                <glyph xml:id="u02dc">
+                    <mapping type="Standard">˜</mapping>
+                    <mapping type="Unicode">U+02DC</mapping>
+                    <mapping type="ASCII">152</mapping>
+                </glyph>
+                <glyph xml:id="u2122">
+                    <mapping type="Standard">™</mapping>
+                    <mapping type="Unicode">U+2122</mapping>
+                    <mapping type="ASCII">153</mapping>
+                </glyph>
+                <glyph xml:id="u0161">
+                    <mapping type="Standard">š</mapping>
+                    <mapping type="Unicode">U+0161</mapping>
+                    <mapping type="ASCII">154</mapping>
+                </glyph>
+                <glyph xml:id="u203a">
+                    <mapping type="Standard">›</mapping>
+                    <mapping type="Unicode">U+203A</mapping>
+                    <mapping type="ASCII">155</mapping>
+                </glyph>
+                <glyph xml:id="u0153">
+                    <mapping type="Standard">œ</mapping>
+                    <mapping type="Unicode">U+0153</mapping>
+                    <mapping type="ASCII">156</mapping>
+                </glyph>
+                <glyph xml:id="u017e">
+                    <mapping type="Standard">ž</mapping>
+                    <mapping type="Unicode">U+017E</mapping>
+                    <mapping type="ASCII">158</mapping>
+                </glyph>
+                <glyph xml:id="u0178">
+                    <mapping type="Standard">Ÿ</mapping>
+                    <mapping type="Unicode">U+0178</mapping>
+                    <mapping type="ASCII">159</mapping>
+                </glyph>
+                <glyph xml:id="u00a0">
+                    <mapping type="Standard"> </mapping>
+                    <mapping type="Unicode">U+00A0</mapping>
+                    <mapping type="ASCII">160</mapping>
+                </glyph>
+                <glyph xml:id="u00a1">
+                    <mapping type="Standard">¡</mapping>
+                    <mapping type="Unicode">U+00A1</mapping>
+                    <mapping type="ASCII">161</mapping>
+                </glyph>
+                <glyph xml:id="u00a2">
+                    <mapping type="Standard">¢</mapping>
+                    <mapping type="Unicode">U+00A2</mapping>
+                    <mapping type="ASCII">162</mapping>
+                </glyph>
+                <glyph xml:id="u00a3">
+                    <mapping type="Standard">£</mapping>
+                    <mapping type="Unicode">U+00A3</mapping>
+                    <mapping type="ASCII">163</mapping>
+                </glyph>
+                <glyph xml:id="u00a4">
+                    <mapping type="Standard">¤</mapping>
+                    <mapping type="Unicode">U+00A4</mapping>
+                    <mapping type="ASCII">164</mapping>
+                </glyph>
+                <glyph xml:id="u00a5">
+                    <mapping type="Standard">¥</mapping>
+                    <mapping type="Unicode">U+00A5</mapping>
+                    <mapping type="ASCII">165</mapping>
+                </glyph>
+                <glyph xml:id="u00a6">
+                    <mapping type="Standard">¦</mapping>
+                    <mapping type="Unicode">U+00A6</mapping>
+                    <mapping type="ASCII">166</mapping>
+                </glyph>
+                <glyph xml:id="u00a7">
+                    <mapping type="Standard">§</mapping>
+                    <mapping type="Unicode">U+00A7</mapping>
+                    <mapping type="ASCII">167</mapping>
+                </glyph>
+                <glyph xml:id="u00a8">
+                    <mapping type="Standard">¨</mapping>
+                    <mapping type="Unicode">U+00A8</mapping>
+                    <mapping type="ASCII">168</mapping>
+                </glyph>
+                <glyph xml:id="u00a9">
+                    <mapping type="Standard">©</mapping>
+                    <mapping type="Unicode">U+00A9</mapping>
+                    <mapping type="ASCII">169</mapping>
+                </glyph>
+                <glyph xml:id="u00aa">
+                    <mapping type="Standard">ª</mapping>
+                    <mapping type="Unicode">U+00AA</mapping>
+                    <mapping type="ASCII">170</mapping>
+                </glyph>
+                <glyph xml:id="u00ab">
+                    <mapping type="Standard">«</mapping>
+                    <mapping type="Unicode">U+00AB</mapping>
+                    <mapping type="ASCII">171</mapping>
+                </glyph>
+                <glyph xml:id="u00ac">
+                    <mapping type="Standard">¬</mapping>
+                    <mapping type="Unicode">U+00AC</mapping>
+                    <mapping type="ASCII">172</mapping>
+                </glyph>
+                <glyph xml:id="u00ad">
+                    <mapping type="Standard">­</mapping>
+                    <mapping type="Unicode">U+00AD</mapping>
+                    <mapping type="ASCII">173</mapping>
+                </glyph>
+                <glyph xml:id="u00ae">
+                    <mapping type="Standard">®</mapping>
+                    <mapping type="Unicode">U+00AE</mapping>
+                    <mapping type="ASCII">174</mapping>
+                </glyph>
+                <glyph xml:id="u00af">
+                    <mapping type="Standard">¯</mapping>
+                    <mapping type="Unicode">U+00AF</mapping>
+                    <mapping type="ASCII">175</mapping>
+                </glyph>
+                <glyph xml:id="u00b0">
+                    <mapping type="Standard">°</mapping>
+                    <mapping type="Unicode">U+00B0</mapping>
+                    <mapping type="ASCII">176</mapping>
+                </glyph>
+                <glyph xml:id="u00b1">
+                    <mapping type="Standard">±</mapping>
+                    <mapping type="Unicode">U+00B1</mapping>
+                    <mapping type="ASCII">177</mapping>
+                </glyph>
+                <glyph xml:id="u00b2">
+                    <mapping type="Standard">²</mapping>
+                    <mapping type="Unicode">U+00B2</mapping>
+                    <mapping type="ASCII">178</mapping>
+                </glyph>
+                <glyph xml:id="u00b3">
+                    <mapping type="Standard">³</mapping>
+                    <mapping type="Unicode">U+00B3</mapping>
+                    <mapping type="ASCII">179</mapping>
+                </glyph>
+                <glyph xml:id="u00b4">
+                    <mapping type="Standard">´</mapping>
+                    <mapping type="Unicode">U+00B4</mapping>
+                    <mapping type="ASCII">180</mapping>
+                </glyph>
+                <glyph xml:id="u00b5">
+                    <mapping type="Standard">µ</mapping>
+                    <mapping type="Unicode">U+00B5</mapping>
+                    <mapping type="ASCII">181</mapping>
+                </glyph>
+                <glyph xml:id="u00b6">
+                    <mapping type="Standard">¶</mapping>
+                    <mapping type="Unicode">U+00B6</mapping>
+                    <mapping type="ASCII">182</mapping>
+                </glyph>
+                <glyph xml:id="u00b7">
+                    <mapping type="Standard">·</mapping>
+                    <mapping type="Unicode">U+00B7</mapping>
+                    <mapping type="ASCII">183</mapping>
+                </glyph>
+                <glyph xml:id="u00b8">
+                    <mapping type="Standard">¸</mapping>
+                    <mapping type="Unicode">U+00B8</mapping>
+                    <mapping type="ASCII">184</mapping>
+                </glyph>
+                <glyph xml:id="u00b9">
+                    <mapping type="Standard">¹</mapping>
+                    <mapping type="Unicode">U+00B9</mapping>
+                    <mapping type="ASCII">185</mapping>
+                </glyph>
+                <glyph xml:id="u00ba">
+                    <mapping type="Standard">º</mapping>
+                    <mapping type="Unicode">U+00BA</mapping>
+                    <mapping type="ASCII">186</mapping>
+                </glyph>
+                <glyph xml:id="u00bb">
+                    <mapping type="Standard">»</mapping>
+                    <mapping type="Unicode">U+00BB</mapping>
+                    <mapping type="ASCII">187</mapping>
+                </glyph>
+                <glyph xml:id="u00bc">
+                    <mapping type="Standard">¼</mapping>
+                    <mapping type="Unicode">U+00BC</mapping>
+                    <mapping type="ASCII">188</mapping>
+                </glyph>
+                <glyph xml:id="u00bd">
+                    <mapping type="Standard">½</mapping>
+                    <mapping type="Unicode">U+00BD</mapping>
+                    <mapping type="ASCII">189</mapping>
+                </glyph>
+                <glyph xml:id="u00be">
+                    <mapping type="Standard">¾</mapping>
+                    <mapping type="Unicode">U+00BE</mapping>
+                    <mapping type="ASCII">190</mapping>
+                </glyph>
+                <glyph xml:id="u00bf">
+                    <mapping type="Standard">¿</mapping>
+                    <mapping type="Unicode">U+00BF</mapping>
+                    <mapping type="ASCII">191</mapping>
+                </glyph>
+                <glyph xml:id="u00c0">
+                    <mapping type="Standard">À</mapping>
+                    <mapping type="Unicode">U+00C0</mapping>
+                    <mapping type="ASCII">192</mapping>
+                </glyph>
+                <glyph xml:id="u00c1">
+                    <mapping type="Standard">Á</mapping>
+                    <mapping type="Unicode">U+00C1</mapping>
+                    <mapping type="ASCII">193</mapping>
+                </glyph>
+                <glyph xml:id="u00c2">
+                    <mapping type="Standard">Â</mapping>
+                    <mapping type="Unicode">U+00C2</mapping>
+                    <mapping type="ASCII">194</mapping>
+                </glyph>
+                <glyph xml:id="u00c3">
+                    <mapping type="Standard">Ã</mapping>
+                    <mapping type="Unicode">U+00C3</mapping>
+                    <mapping type="ASCII">195</mapping>
+                </glyph>
+                <glyph xml:id="u00c4">
+                    <mapping type="Standard">Ä</mapping>
+                    <mapping type="Unicode">U+00C4</mapping>
+                    <mapping type="ASCII">196</mapping>
+                </glyph>
+                <glyph xml:id="u00c5">
+                    <mapping type="Standard">Å</mapping>
+                    <mapping type="Unicode">U+00C5</mapping>
+                    <mapping type="ASCII">197</mapping>
+                </glyph>
+                <glyph xml:id="u00c6">
+                    <mapping type="Standard">Æ</mapping>
+                    <mapping type="Unicode">U+00C6</mapping>
+                    <mapping type="ASCII">198</mapping>
+                </glyph>
+                <glyph xml:id="u00c7">
+                    <mapping type="Standard">Ç</mapping>
+                    <mapping type="Unicode">U+00C7</mapping>
+                    <mapping type="ASCII">199</mapping>
+                </glyph>
+                <glyph xml:id="u00c8">
+                    <mapping type="Standard">È</mapping>
+                    <mapping type="Unicode">U+00C8</mapping>
+                    <mapping type="ASCII">200</mapping>
+                </glyph>
+                <glyph xml:id="u00c9">
+                    <mapping type="Standard">É</mapping>
+                    <mapping type="Unicode">U+00C9</mapping>
+                    <mapping type="ASCII">201</mapping>
+                </glyph>
+                <glyph xml:id="u00ca">
+                    <mapping type="Standard">Ê</mapping>
+                    <mapping type="Unicode">U+00CA</mapping>
+                    <mapping type="ASCII">202</mapping>
+                </glyph>
+                <glyph xml:id="u00cb">
+                    <mapping type="Standard">Ë</mapping>
+                    <mapping type="Unicode">U+00CB</mapping>
+                    <mapping type="ASCII">203</mapping>
+                </glyph>
+                <glyph xml:id="u00cc">
+                    <mapping type="Standard">Ì</mapping>
+                    <mapping type="Unicode">U+00CC</mapping>
+                    <mapping type="ASCII">204</mapping>
+                </glyph>
+                <glyph xml:id="u00cd">
+                    <mapping type="Standard">Í</mapping>
+                    <mapping type="Unicode">U+00CD</mapping>
+                    <mapping type="ASCII">205</mapping>
+                </glyph>
+                <glyph xml:id="u00ce">
+                    <mapping type="Standard">Î</mapping>
+                    <mapping type="Unicode">U+00CE</mapping>
+                    <mapping type="ASCII">206</mapping>
+                </glyph>
+                <glyph xml:id="u00cf">
+                    <mapping type="Standard">Ï</mapping>
+                    <mapping type="Unicode">U+00CF</mapping>
+                    <mapping type="ASCII">207</mapping>
+                </glyph>
+                <glyph xml:id="u00d0">
+                    <mapping type="Standard">Ð</mapping>
+                    <mapping type="Unicode">U+00D0</mapping>
+                    <mapping type="ASCII">208</mapping>
+                </glyph>
+                <glyph xml:id="u00d1">
+                    <mapping type="Standard">Ñ</mapping>
+                    <mapping type="Unicode">U+00D1</mapping>
+                    <mapping type="ASCII">209</mapping>
+                </glyph>
+                <glyph xml:id="u00d2">
+                    <mapping type="Standard">Ò</mapping>
+                    <mapping type="Unicode">U+00D2</mapping>
+                    <mapping type="ASCII">210</mapping>
+                </glyph>
+                <glyph xml:id="u00d3">
+                    <mapping type="Standard">Ó</mapping>
+                    <mapping type="Unicode">U+00D3</mapping>
+                    <mapping type="ASCII">211</mapping>
+                </glyph>
+                <glyph xml:id="u00d4">
+                    <mapping type="Standard">Ô</mapping>
+                    <mapping type="Unicode">U+00D4</mapping>
+                    <mapping type="ASCII">212</mapping>
+                </glyph>
+                <glyph xml:id="u00d5">
+                    <mapping type="Standard">Õ</mapping>
+                    <mapping type="Unicode">U+00D5</mapping>
+                    <mapping type="ASCII">213</mapping>
+                </glyph>
+                <glyph xml:id="u00d6">
+                    <mapping type="Standard">Ö</mapping>
+                    <mapping type="Unicode">U+00D6</mapping>
+                    <mapping type="ASCII">214</mapping>
+                </glyph>
+                <glyph xml:id="u00d7">
+                    <mapping type="Standard">×</mapping>
+                    <mapping type="Unicode">U+00D7</mapping>
+                    <mapping type="ASCII">215</mapping>
+                </glyph>
+                <glyph xml:id="u00d8">
+                    <mapping type="Standard">Ø</mapping>
+                    <mapping type="Unicode">U+00D8</mapping>
+                    <mapping type="ASCII">216</mapping>
+                </glyph>
+                <glyph xml:id="u00d9">
+                    <mapping type="Standard">Ù</mapping>
+                    <mapping type="Unicode">U+00D9</mapping>
+                    <mapping type="ASCII">217</mapping>
+                </glyph>
+                <glyph xml:id="u00da">
+                    <mapping type="Standard">Ú</mapping>
+                    <mapping type="Unicode">U+00DA</mapping>
+                    <mapping type="ASCII">218</mapping>
+                </glyph>
+                <glyph xml:id="u00db">
+                    <mapping type="Standard">Û</mapping>
+                    <mapping type="Unicode">U+00DB</mapping>
+                    <mapping type="ASCII">219</mapping>
+                </glyph>
+                <glyph xml:id="u00dc">
+                    <mapping type="Standard">Ü</mapping>
+                    <mapping type="Unicode">U+00DC</mapping>
+                    <mapping type="ASCII">220</mapping>
+                </glyph>
+                <glyph xml:id="u00dd">
+                    <mapping type="Standard">Ý</mapping>
+                    <mapping type="Unicode">U+00DD</mapping>
+                    <mapping type="ASCII">221</mapping>
+                </glyph>
+                <glyph xml:id="u00de">
+                    <mapping type="Standard">Þ</mapping>
+                    <mapping type="Unicode">U+00DE</mapping>
+                    <mapping type="ASCII">222</mapping>
+                </glyph>
+                <glyph xml:id="u00df">
+                    <mapping type="Standard">ß</mapping>
+                    <mapping type="Unicode">U+00DF</mapping>
+                    <mapping type="ASCII">223</mapping>
+                </glyph>
+                <glyph xml:id="u00e0">
+                    <mapping type="Standard">à</mapping>
+                    <mapping type="Unicode">U+00E0</mapping>
+                    <mapping type="ASCII">224</mapping>
+                </glyph>
+                <glyph xml:id="u00e1">
+                    <mapping type="Standard">á</mapping>
+                    <mapping type="Unicode">U+00E1</mapping>
+                    <mapping type="ASCII">225</mapping>
+                </glyph>
+                <glyph xml:id="u00e2">
+                    <mapping type="Standard">â</mapping>
+                    <mapping type="Unicode">U+00E2</mapping>
+                    <mapping type="ASCII">226</mapping>
+                </glyph>
+                <glyph xml:id="u00e3">
+                    <mapping type="Standard">ã</mapping>
+                    <mapping type="Unicode">U+00E3</mapping>
+                    <mapping type="ASCII">227</mapping>
+                </glyph>
+                <glyph xml:id="u00e4">
+                    <mapping type="Standard">ä</mapping>
+                    <mapping type="Unicode">U+00E4</mapping>
+                    <mapping type="ASCII">228</mapping>
+                </glyph>
+                <glyph xml:id="u00e5">
+                    <mapping type="Standard">å</mapping>
+                    <mapping type="Unicode">U+00E5</mapping>
+                    <mapping type="ASCII">229</mapping>
+                </glyph>
+                <glyph xml:id="u00e6">
+                    <mapping type="Standard">æ</mapping>
+                    <mapping type="Unicode">U+00E6</mapping>
+                    <mapping type="ASCII">230</mapping>
+                </glyph>
+                <glyph xml:id="u00e7">
+                    <mapping type="Standard">ç</mapping>
+                    <mapping type="Unicode">U+00E7</mapping>
+                    <mapping type="ASCII">231</mapping>
+                </glyph>
+                <glyph xml:id="u00e8">
+                    <mapping type="Standard">è</mapping>
+                    <mapping type="Unicode">U+00E8</mapping>
+                    <mapping type="ASCII">232</mapping>
+                </glyph>
+                <glyph xml:id="u00e9">
+                    <mapping type="Standard">é</mapping>
+                    <mapping type="Unicode">U+00E9</mapping>
+                    <mapping type="ASCII">233</mapping>
+                </glyph>
+                <glyph xml:id="u00ea">
+                    <mapping type="Standard">ê</mapping>
+                    <mapping type="Unicode">U+00EA</mapping>
+                    <mapping type="ASCII">234</mapping>
+                </glyph>
+                <glyph xml:id="u00eb">
+                    <mapping type="Standard">ë</mapping>
+                    <mapping type="Unicode">U+00EB</mapping>
+                    <mapping type="ASCII">235</mapping>
+                </glyph>
+                <glyph xml:id="u00ec">
+                    <mapping type="Standard">ì</mapping>
+                    <mapping type="Unicode">U+00EC</mapping>
+                    <mapping type="ASCII">236</mapping>
+                </glyph>
+                <glyph xml:id="u00ed">
+                    <mapping type="Standard">í</mapping>
+                    <mapping type="Unicode">U+00ED</mapping>
+                    <mapping type="ASCII">237</mapping>
+                </glyph>
+                <glyph xml:id="u00ee">
+                    <mapping type="Standard">î</mapping>
+                    <mapping type="Unicode">U+00EE</mapping>
+                    <mapping type="ASCII">238</mapping>
+                </glyph>
+                <glyph xml:id="u00ef">
+                    <mapping type="Standard">ï</mapping>
+                    <mapping type="Unicode">U+00EF</mapping>
+                    <mapping type="ASCII">239</mapping>
+                </glyph>
+                <glyph xml:id="u00f0">
+                    <mapping type="Standard">ð</mapping>
+                    <mapping type="Unicode">U+00F0</mapping>
+                    <mapping type="ASCII">240</mapping>
+                </glyph>
+                <glyph xml:id="u00f1">
+                    <mapping type="Standard">ñ</mapping>
+                    <mapping type="Unicode">U+00F1</mapping>
+                    <mapping type="ASCII">241</mapping>
+                </glyph>
+                <glyph xml:id="u00f2">
+                    <mapping type="Standard">ò</mapping>
+                    <mapping type="Unicode">U+00F2</mapping>
+                    <mapping type="ASCII">242</mapping>
+                </glyph>
+                <glyph xml:id="u00f3">
+                    <mapping type="Standard">ó</mapping>
+                    <mapping type="Unicode">U+00F3</mapping>
+                    <mapping type="ASCII">243</mapping>
+                </glyph>
+                <glyph xml:id="u00f4">
+                    <mapping type="Standard">ô</mapping>
+                    <mapping type="Unicode">U+00F4</mapping>
+                    <mapping type="ASCII">244</mapping>
+                </glyph>
+                <glyph xml:id="u00f5">
+                    <mapping type="Standard">õ</mapping>
+                    <mapping type="Unicode">U+00F5</mapping>
+                    <mapping type="ASCII">245</mapping>
+                </glyph>
+                <glyph xml:id="u00f6">
+                    <mapping type="Standard">ö</mapping>
+                    <mapping type="Unicode">U+00F6</mapping>
+                    <mapping type="ASCII">246</mapping>
+                </glyph>
+                <glyph xml:id="u00f7">
+                    <mapping type="Standard">÷</mapping>
+                    <mapping type="Unicode">U+00F7</mapping>
+                    <mapping type="ASCII">247</mapping>
+                </glyph>
+                <glyph xml:id="u00f8">
+                    <mapping type="Standard">ø</mapping>
+                    <mapping type="Unicode">U+00F8</mapping>
+                    <mapping type="ASCII">248</mapping>
+                </glyph>
+                <glyph xml:id="u00f9">
+                    <mapping type="Standard">ù</mapping>
+                    <mapping type="Unicode">U+00F9</mapping>
+                    <mapping type="ASCII">249</mapping>
+                </glyph>
+                <glyph xml:id="u00fa">
+                    <mapping type="Standard">ú</mapping>
+                    <mapping type="Unicode">U+00FA</mapping>
+                    <mapping type="ASCII">250</mapping>
+                </glyph>
+                <glyph xml:id="u00fb">
+                    <mapping type="Standard">û</mapping>
+                    <mapping type="Unicode">U+00FB</mapping>
+                    <mapping type="ASCII">251</mapping>
+                </glyph>
+                <glyph xml:id="u00fc">
+                    <mapping type="Standard">ü</mapping>
+                    <mapping type="Unicode">U+00FC</mapping>
+                    <mapping type="ASCII">252</mapping>
+                </glyph>
+                <glyph xml:id="u00fd">
+                    <mapping type="Standard">ý</mapping>
+                    <mapping type="Unicode">U+00FD</mapping>
+                    <mapping type="ASCII">253</mapping>
+                </glyph>
+                <glyph xml:id="u00fe">
+                    <mapping type="Standard">þ</mapping>
+                    <mapping type="Unicode">U+00FE</mapping>
+                    <mapping type="ASCII">254</mapping>
+                </glyph>
+                <glyph xml:id="u00ff">
+                    <mapping type="Standard">ÿ</mapping>
+                    <mapping type="Unicode">U+00FF</mapping>
+                    <mapping type="ASCII">255</mapping>
+                </glyph>
+            </charDecl>

@@ -1,4 +1,5 @@
 module.exports = function (eleventyConfig){
+    eleventyConfig.addPassthroughCopy(".nojekyll");
     eleventyConfig.addPassthroughCopy("./_src/_includes/");
     eleventyConfig.addPassthroughCopy("./_src/css/");
     eleventyConfig.addPassthroughCopy("./_src/img/");
