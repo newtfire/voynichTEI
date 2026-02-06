@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="evaFontCSS.css"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="evaFontCSS.css"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
 <titleStmt>
     <title>Voynich Manuscript</title>
 </titleStmt>
 <publicationStmt>
     <publisher>Unknown</publisher>
     <pubPlace>[Central Europe?];[ca. 1401-1599?]</pubPlace>
-</publicationStmt><sourceDesc><msDesc>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
 <msIdentifier>
     <repository>Beinecke Rare Book and Manuscript Library</repository>
-</msIdentifier><physDesc>
+</msIdentifier>
+<physDesc>
 <handDesc hands="5">
     <!-- https://muse.jhu.edu/pub/56/article/754633/pdf -->
     <handNote xml:id="scribe1">
@@ -29,7 +38,8 @@
 </handDesc>
 <bindingDesc>
     <p><material>Goat</material> Skin</p>
-</bindingDesc></physDesc>
+</bindingDesc>
+</physDesc>
 <history>
     <origin notBefore="1404" notAfter="1438">
         <!-- https://www.voynich.nu/extra/carbon.html -->
@@ -61,630 +71,638 @@
     <provenance>
         <p>Given to the Beinecke Library by H. P. Kraus</p>
     </provenance>
-</history><msContents><summary>The latest release of the Zandbergen-Landini transliteration of 1999 
+</history>
+<msContents>
+<summary>The latest release of the Zandbergen-Landini transliteration of 1999 
 in the IVTFF 2.0 format. 
 It is a complete transliteration, including all 5389 loci that have 
 been identified in the MS. It uses the Eva alphabet, including the 
 high-ascii extensions.
 The file has been corrected in numerous places. Some parts of the text
-inside folds of the pages still need to be added.</summary></msContents></msDesc></sourceDesc></fileDesc><encodingDesc>            
-            <charDecl>
-                <glyph xml:id="u20ac">
-                    <mapping type="Standard">€</mapping>
-                    <mapping type="Unicode">U+20AC</mapping>
-                    <mapping type="ASCII">128</mapping>
-                </glyph>
-                <glyph xml:id="u201a">
-                    <mapping type="Standard">‚</mapping>
-                    <mapping type="Unicode">U+201A</mapping>
-                    <mapping type="ASCII">130</mapping>
-                </glyph>
-                <glyph xml:id="u0192">
-                    <mapping type="Standard">ƒ</mapping>
-                    <mapping type="Unicode">U+0192</mapping>
-                    <mapping type="ASCII">131</mapping>
-                </glyph>
-                <glyph xml:id="u201e">
-                    <mapping type="Standard">„</mapping>
-                    <mapping type="Unicode">U+201E</mapping>
-                    <mapping type="ASCII">132</mapping>
-                </glyph>
-                <glyph xml:id="u2026">
-                    <mapping type="Standard">…</mapping>
-                    <mapping type="Unicode">U+2026</mapping>
-                    <mapping type="ASCII">133</mapping>
-                </glyph>
-                <glyph xml:id="u2020">
-                    <mapping type="Standard">†</mapping>
-                    <mapping type="Unicode">U+2020</mapping>
-                    <mapping type="ASCII">134</mapping>
-                </glyph>
-                <glyph xml:id="u2021">
-                    <mapping type="Standard">‡</mapping>
-                    <mapping type="Unicode">U+2021</mapping>
-                    <mapping type="ASCII">135</mapping>
-                </glyph>
-                <glyph xml:id="u02c6">
-                    <mapping type="Standard">ˆ</mapping>
-                    <mapping type="Unicode">U+02C6</mapping>
-                    <mapping type="ASCII">136</mapping>
-                </glyph>
-                <glyph xml:id="u2030">
-                    <mapping type="Standard">‰</mapping>
-                    <mapping type="Unicode">U+2030</mapping>
-                    <mapping type="ASCII">137</mapping>
-                </glyph>
-                <glyph xml:id="u0160">
-                    <mapping type="Standard">Š</mapping>
-                    <mapping type="Unicode">U+0160</mapping>
-                    <mapping type="ASCII">138</mapping>
-                </glyph>
-                <glyph xml:id="u2039">
-                    <mapping type="Standard">‹</mapping>
-                    <mapping type="Unicode">U+2039</mapping>
-                    <mapping type="ASCII">139</mapping>
-                </glyph>
-                <glyph xml:id="u0152">
-                    <mapping type="Standard">Œ</mapping>
-                    <mapping type="Unicode">U+0152</mapping>
-                    <mapping type="ASCII">140</mapping>
-                </glyph>
-                <glyph xml:id="u017d">
-                    <mapping type="Standard">Ž</mapping>
-                    <mapping type="Unicode">U+017D</mapping>
-                    <mapping type="ASCII">142</mapping>
-                </glyph>
-                <glyph xml:id="u2018">
-                    <mapping type="Standard">‘</mapping>
-                    <mapping type="Unicode">U+2018</mapping>
-                    <mapping type="ASCII">145</mapping>
-                </glyph>
-                <glyph xml:id="u2019">
-                    <mapping type="Standard">’</mapping>
-                    <mapping type="Unicode">U+2019</mapping>
-                    <mapping type="ASCII">146</mapping>
-                </glyph>
-                <glyph xml:id="u201c">
-                    <mapping type="Standard">“</mapping>
-                    <mapping type="Unicode">U+201C</mapping>
-                    <mapping type="ASCII">147</mapping>
-                </glyph>
-                <glyph xml:id="u201d">
-                    <mapping type="Standard">”</mapping>
-                    <mapping type="Unicode">U+201D</mapping>
-                    <mapping type="ASCII">148</mapping>
-                </glyph>
-                <glyph xml:id="u2022">
-                    <mapping type="Standard">•</mapping>
-                    <mapping type="Unicode">U+2022</mapping>
-                    <mapping type="ASCII">149</mapping>
-                </glyph>
-                <glyph xml:id="u2013">
-                    <mapping type="Standard">–</mapping>
-                    <mapping type="Unicode">U+2013</mapping>
-                    <mapping type="ASCII">150</mapping>
-                </glyph>
-                <glyph xml:id="u2014">
-                    <mapping type="Standard">—</mapping>
-                    <mapping type="Unicode">U+2014</mapping>
-                    <mapping type="ASCII">151</mapping>
-                </glyph>
-                <glyph xml:id="u02dc">
-                    <mapping type="Standard">˜</mapping>
-                    <mapping type="Unicode">U+02DC</mapping>
-                    <mapping type="ASCII">152</mapping>
-                </glyph>
-                <glyph xml:id="u2122">
-                    <mapping type="Standard">™</mapping>
-                    <mapping type="Unicode">U+2122</mapping>
-                    <mapping type="ASCII">153</mapping>
-                </glyph>
-                <glyph xml:id="u0161">
-                    <mapping type="Standard">š</mapping>
-                    <mapping type="Unicode">U+0161</mapping>
-                    <mapping type="ASCII">154</mapping>
-                </glyph>
-                <glyph xml:id="u203a">
-                    <mapping type="Standard">›</mapping>
-                    <mapping type="Unicode">U+203A</mapping>
-                    <mapping type="ASCII">155</mapping>
-                </glyph>
-                <glyph xml:id="u0153">
-                    <mapping type="Standard">œ</mapping>
-                    <mapping type="Unicode">U+0153</mapping>
-                    <mapping type="ASCII">156</mapping>
-                </glyph>
-                <glyph xml:id="u017e">
-                    <mapping type="Standard">ž</mapping>
-                    <mapping type="Unicode">U+017E</mapping>
-                    <mapping type="ASCII">158</mapping>
-                </glyph>
-                <glyph xml:id="u0178">
-                    <mapping type="Standard">Ÿ</mapping>
-                    <mapping type="Unicode">U+0178</mapping>
-                    <mapping type="ASCII">159</mapping>
-                </glyph>
-                <glyph xml:id="u00a0">
-                    <mapping type="Standard"> </mapping>
-                    <mapping type="Unicode">U+00A0</mapping>
-                    <mapping type="ASCII">160</mapping>
-                </glyph>
-                <glyph xml:id="u00a1">
-                    <mapping type="Standard">¡</mapping>
-                    <mapping type="Unicode">U+00A1</mapping>
-                    <mapping type="ASCII">161</mapping>
-                </glyph>
-                <glyph xml:id="u00a2">
-                    <mapping type="Standard">¢</mapping>
-                    <mapping type="Unicode">U+00A2</mapping>
-                    <mapping type="ASCII">162</mapping>
-                </glyph>
-                <glyph xml:id="u00a3">
-                    <mapping type="Standard">£</mapping>
-                    <mapping type="Unicode">U+00A3</mapping>
-                    <mapping type="ASCII">163</mapping>
-                </glyph>
-                <glyph xml:id="u00a4">
-                    <mapping type="Standard">¤</mapping>
-                    <mapping type="Unicode">U+00A4</mapping>
-                    <mapping type="ASCII">164</mapping>
-                </glyph>
-                <glyph xml:id="u00a5">
-                    <mapping type="Standard">¥</mapping>
-                    <mapping type="Unicode">U+00A5</mapping>
-                    <mapping type="ASCII">165</mapping>
-                </glyph>
-                <glyph xml:id="u00a6">
-                    <mapping type="Standard">¦</mapping>
-                    <mapping type="Unicode">U+00A6</mapping>
-                    <mapping type="ASCII">166</mapping>
-                </glyph>
-                <glyph xml:id="u00a7">
-                    <mapping type="Standard">§</mapping>
-                    <mapping type="Unicode">U+00A7</mapping>
-                    <mapping type="ASCII">167</mapping>
-                </glyph>
-                <glyph xml:id="u00a8">
-                    <mapping type="Standard">¨</mapping>
-                    <mapping type="Unicode">U+00A8</mapping>
-                    <mapping type="ASCII">168</mapping>
-                </glyph>
-                <glyph xml:id="u00a9">
-                    <mapping type="Standard">©</mapping>
-                    <mapping type="Unicode">U+00A9</mapping>
-                    <mapping type="ASCII">169</mapping>
-                </glyph>
-                <glyph xml:id="u00aa">
-                    <mapping type="Standard">ª</mapping>
-                    <mapping type="Unicode">U+00AA</mapping>
-                    <mapping type="ASCII">170</mapping>
-                </glyph>
-                <glyph xml:id="u00ab">
-                    <mapping type="Standard">«</mapping>
-                    <mapping type="Unicode">U+00AB</mapping>
-                    <mapping type="ASCII">171</mapping>
-                </glyph>
-                <glyph xml:id="u00ac">
-                    <mapping type="Standard">¬</mapping>
-                    <mapping type="Unicode">U+00AC</mapping>
-                    <mapping type="ASCII">172</mapping>
-                </glyph>
-                <glyph xml:id="u00ad">
-                    <mapping type="Standard">­</mapping>
-                    <mapping type="Unicode">U+00AD</mapping>
-                    <mapping type="ASCII">173</mapping>
-                </glyph>
-                <glyph xml:id="u00ae">
-                    <mapping type="Standard">®</mapping>
-                    <mapping type="Unicode">U+00AE</mapping>
-                    <mapping type="ASCII">174</mapping>
-                </glyph>
-                <glyph xml:id="u00af">
-                    <mapping type="Standard">¯</mapping>
-                    <mapping type="Unicode">U+00AF</mapping>
-                    <mapping type="ASCII">175</mapping>
-                </glyph>
-                <glyph xml:id="u00b0">
-                    <mapping type="Standard">°</mapping>
-                    <mapping type="Unicode">U+00B0</mapping>
-                    <mapping type="ASCII">176</mapping>
-                </glyph>
-                <glyph xml:id="u00b1">
-                    <mapping type="Standard">±</mapping>
-                    <mapping type="Unicode">U+00B1</mapping>
-                    <mapping type="ASCII">177</mapping>
-                </glyph>
-                <glyph xml:id="u00b2">
-                    <mapping type="Standard">²</mapping>
-                    <mapping type="Unicode">U+00B2</mapping>
-                    <mapping type="ASCII">178</mapping>
-                </glyph>
-                <glyph xml:id="u00b3">
-                    <mapping type="Standard">³</mapping>
-                    <mapping type="Unicode">U+00B3</mapping>
-                    <mapping type="ASCII">179</mapping>
-                </glyph>
-                <glyph xml:id="u00b4">
-                    <mapping type="Standard">´</mapping>
-                    <mapping type="Unicode">U+00B4</mapping>
-                    <mapping type="ASCII">180</mapping>
-                </glyph>
-                <glyph xml:id="u00b5">
-                    <mapping type="Standard">µ</mapping>
-                    <mapping type="Unicode">U+00B5</mapping>
-                    <mapping type="ASCII">181</mapping>
-                </glyph>
-                <glyph xml:id="u00b6">
-                    <mapping type="Standard">¶</mapping>
-                    <mapping type="Unicode">U+00B6</mapping>
-                    <mapping type="ASCII">182</mapping>
-                </glyph>
-                <glyph xml:id="u00b7">
-                    <mapping type="Standard">·</mapping>
-                    <mapping type="Unicode">U+00B7</mapping>
-                    <mapping type="ASCII">183</mapping>
-                </glyph>
-                <glyph xml:id="u00b8">
-                    <mapping type="Standard">¸</mapping>
-                    <mapping type="Unicode">U+00B8</mapping>
-                    <mapping type="ASCII">184</mapping>
-                </glyph>
-                <glyph xml:id="u00b9">
-                    <mapping type="Standard">¹</mapping>
-                    <mapping type="Unicode">U+00B9</mapping>
-                    <mapping type="ASCII">185</mapping>
-                </glyph>
-                <glyph xml:id="u00ba">
-                    <mapping type="Standard">º</mapping>
-                    <mapping type="Unicode">U+00BA</mapping>
-                    <mapping type="ASCII">186</mapping>
-                </glyph>
-                <glyph xml:id="u00bb">
-                    <mapping type="Standard">»</mapping>
-                    <mapping type="Unicode">U+00BB</mapping>
-                    <mapping type="ASCII">187</mapping>
-                </glyph>
-                <glyph xml:id="u00bc">
-                    <mapping type="Standard">¼</mapping>
-                    <mapping type="Unicode">U+00BC</mapping>
-                    <mapping type="ASCII">188</mapping>
-                </glyph>
-                <glyph xml:id="u00bd">
-                    <mapping type="Standard">½</mapping>
-                    <mapping type="Unicode">U+00BD</mapping>
-                    <mapping type="ASCII">189</mapping>
-                </glyph>
-                <glyph xml:id="u00be">
-                    <mapping type="Standard">¾</mapping>
-                    <mapping type="Unicode">U+00BE</mapping>
-                    <mapping type="ASCII">190</mapping>
-                </glyph>
-                <glyph xml:id="u00bf">
-                    <mapping type="Standard">¿</mapping>
-                    <mapping type="Unicode">U+00BF</mapping>
-                    <mapping type="ASCII">191</mapping>
-                </glyph>
-                <glyph xml:id="u00c0">
-                    <mapping type="Standard">À</mapping>
-                    <mapping type="Unicode">U+00C0</mapping>
-                    <mapping type="ASCII">192</mapping>
-                </glyph>
-                <glyph xml:id="u00c1">
-                    <mapping type="Standard">Á</mapping>
-                    <mapping type="Unicode">U+00C1</mapping>
-                    <mapping type="ASCII">193</mapping>
-                </glyph>
-                <glyph xml:id="u00c2">
-                    <mapping type="Standard">Â</mapping>
-                    <mapping type="Unicode">U+00C2</mapping>
-                    <mapping type="ASCII">194</mapping>
-                </glyph>
-                <glyph xml:id="u00c3">
-                    <mapping type="Standard">Ã</mapping>
-                    <mapping type="Unicode">U+00C3</mapping>
-                    <mapping type="ASCII">195</mapping>
-                </glyph>
-                <glyph xml:id="u00c4">
-                    <mapping type="Standard">Ä</mapping>
-                    <mapping type="Unicode">U+00C4</mapping>
-                    <mapping type="ASCII">196</mapping>
-                </glyph>
-                <glyph xml:id="u00c5">
-                    <mapping type="Standard">Å</mapping>
-                    <mapping type="Unicode">U+00C5</mapping>
-                    <mapping type="ASCII">197</mapping>
-                </glyph>
-                <glyph xml:id="u00c6">
-                    <mapping type="Standard">Æ</mapping>
-                    <mapping type="Unicode">U+00C6</mapping>
-                    <mapping type="ASCII">198</mapping>
-                </glyph>
-                <glyph xml:id="u00c7">
-                    <mapping type="Standard">Ç</mapping>
-                    <mapping type="Unicode">U+00C7</mapping>
-                    <mapping type="ASCII">199</mapping>
-                </glyph>
-                <glyph xml:id="u00c8">
-                    <mapping type="Standard">È</mapping>
-                    <mapping type="Unicode">U+00C8</mapping>
-                    <mapping type="ASCII">200</mapping>
-                </glyph>
-                <glyph xml:id="u00c9">
-                    <mapping type="Standard">É</mapping>
-                    <mapping type="Unicode">U+00C9</mapping>
-                    <mapping type="ASCII">201</mapping>
-                </glyph>
-                <glyph xml:id="u00ca">
-                    <mapping type="Standard">Ê</mapping>
-                    <mapping type="Unicode">U+00CA</mapping>
-                    <mapping type="ASCII">202</mapping>
-                </glyph>
-                <glyph xml:id="u00cb">
-                    <mapping type="Standard">Ë</mapping>
-                    <mapping type="Unicode">U+00CB</mapping>
-                    <mapping type="ASCII">203</mapping>
-                </glyph>
-                <glyph xml:id="u00cc">
-                    <mapping type="Standard">Ì</mapping>
-                    <mapping type="Unicode">U+00CC</mapping>
-                    <mapping type="ASCII">204</mapping>
-                </glyph>
-                <glyph xml:id="u00cd">
-                    <mapping type="Standard">Í</mapping>
-                    <mapping type="Unicode">U+00CD</mapping>
-                    <mapping type="ASCII">205</mapping>
-                </glyph>
-                <glyph xml:id="u00ce">
-                    <mapping type="Standard">Î</mapping>
-                    <mapping type="Unicode">U+00CE</mapping>
-                    <mapping type="ASCII">206</mapping>
-                </glyph>
-                <glyph xml:id="u00cf">
-                    <mapping type="Standard">Ï</mapping>
-                    <mapping type="Unicode">U+00CF</mapping>
-                    <mapping type="ASCII">207</mapping>
-                </glyph>
-                <glyph xml:id="u00d0">
-                    <mapping type="Standard">Ð</mapping>
-                    <mapping type="Unicode">U+00D0</mapping>
-                    <mapping type="ASCII">208</mapping>
-                </glyph>
-                <glyph xml:id="u00d1">
-                    <mapping type="Standard">Ñ</mapping>
-                    <mapping type="Unicode">U+00D1</mapping>
-                    <mapping type="ASCII">209</mapping>
-                </glyph>
-                <glyph xml:id="u00d2">
-                    <mapping type="Standard">Ò</mapping>
-                    <mapping type="Unicode">U+00D2</mapping>
-                    <mapping type="ASCII">210</mapping>
-                </glyph>
-                <glyph xml:id="u00d3">
-                    <mapping type="Standard">Ó</mapping>
-                    <mapping type="Unicode">U+00D3</mapping>
-                    <mapping type="ASCII">211</mapping>
-                </glyph>
-                <glyph xml:id="u00d4">
-                    <mapping type="Standard">Ô</mapping>
-                    <mapping type="Unicode">U+00D4</mapping>
-                    <mapping type="ASCII">212</mapping>
-                </glyph>
-                <glyph xml:id="u00d5">
-                    <mapping type="Standard">Õ</mapping>
-                    <mapping type="Unicode">U+00D5</mapping>
-                    <mapping type="ASCII">213</mapping>
-                </glyph>
-                <glyph xml:id="u00d6">
-                    <mapping type="Standard">Ö</mapping>
-                    <mapping type="Unicode">U+00D6</mapping>
-                    <mapping type="ASCII">214</mapping>
-                </glyph>
-                <glyph xml:id="u00d7">
-                    <mapping type="Standard">×</mapping>
-                    <mapping type="Unicode">U+00D7</mapping>
-                    <mapping type="ASCII">215</mapping>
-                </glyph>
-                <glyph xml:id="u00d8">
-                    <mapping type="Standard">Ø</mapping>
-                    <mapping type="Unicode">U+00D8</mapping>
-                    <mapping type="ASCII">216</mapping>
-                </glyph>
-                <glyph xml:id="u00d9">
-                    <mapping type="Standard">Ù</mapping>
-                    <mapping type="Unicode">U+00D9</mapping>
-                    <mapping type="ASCII">217</mapping>
-                </glyph>
-                <glyph xml:id="u00da">
-                    <mapping type="Standard">Ú</mapping>
-                    <mapping type="Unicode">U+00DA</mapping>
-                    <mapping type="ASCII">218</mapping>
-                </glyph>
-                <glyph xml:id="u00db">
-                    <mapping type="Standard">Û</mapping>
-                    <mapping type="Unicode">U+00DB</mapping>
-                    <mapping type="ASCII">219</mapping>
-                </glyph>
-                <glyph xml:id="u00dc">
-                    <mapping type="Standard">Ü</mapping>
-                    <mapping type="Unicode">U+00DC</mapping>
-                    <mapping type="ASCII">220</mapping>
-                </glyph>
-                <glyph xml:id="u00dd">
-                    <mapping type="Standard">Ý</mapping>
-                    <mapping type="Unicode">U+00DD</mapping>
-                    <mapping type="ASCII">221</mapping>
-                </glyph>
-                <glyph xml:id="u00de">
-                    <mapping type="Standard">Þ</mapping>
-                    <mapping type="Unicode">U+00DE</mapping>
-                    <mapping type="ASCII">222</mapping>
-                </glyph>
-                <glyph xml:id="u00df">
-                    <mapping type="Standard">ß</mapping>
-                    <mapping type="Unicode">U+00DF</mapping>
-                    <mapping type="ASCII">223</mapping>
-                </glyph>
-                <glyph xml:id="u00e0">
-                    <mapping type="Standard">à</mapping>
-                    <mapping type="Unicode">U+00E0</mapping>
-                    <mapping type="ASCII">224</mapping>
-                </glyph>
-                <glyph xml:id="u00e1">
-                    <mapping type="Standard">á</mapping>
-                    <mapping type="Unicode">U+00E1</mapping>
-                    <mapping type="ASCII">225</mapping>
-                </glyph>
-                <glyph xml:id="u00e2">
-                    <mapping type="Standard">â</mapping>
-                    <mapping type="Unicode">U+00E2</mapping>
-                    <mapping type="ASCII">226</mapping>
-                </glyph>
-                <glyph xml:id="u00e3">
-                    <mapping type="Standard">ã</mapping>
-                    <mapping type="Unicode">U+00E3</mapping>
-                    <mapping type="ASCII">227</mapping>
-                </glyph>
-                <glyph xml:id="u00e4">
-                    <mapping type="Standard">ä</mapping>
-                    <mapping type="Unicode">U+00E4</mapping>
-                    <mapping type="ASCII">228</mapping>
-                </glyph>
-                <glyph xml:id="u00e5">
-                    <mapping type="Standard">å</mapping>
-                    <mapping type="Unicode">U+00E5</mapping>
-                    <mapping type="ASCII">229</mapping>
-                </glyph>
-                <glyph xml:id="u00e6">
-                    <mapping type="Standard">æ</mapping>
-                    <mapping type="Unicode">U+00E6</mapping>
-                    <mapping type="ASCII">230</mapping>
-                </glyph>
-                <glyph xml:id="u00e7">
-                    <mapping type="Standard">ç</mapping>
-                    <mapping type="Unicode">U+00E7</mapping>
-                    <mapping type="ASCII">231</mapping>
-                </glyph>
-                <glyph xml:id="u00e8">
-                    <mapping type="Standard">è</mapping>
-                    <mapping type="Unicode">U+00E8</mapping>
-                    <mapping type="ASCII">232</mapping>
-                </glyph>
-                <glyph xml:id="u00e9">
-                    <mapping type="Standard">é</mapping>
-                    <mapping type="Unicode">U+00E9</mapping>
-                    <mapping type="ASCII">233</mapping>
-                </glyph>
-                <glyph xml:id="u00ea">
-                    <mapping type="Standard">ê</mapping>
-                    <mapping type="Unicode">U+00EA</mapping>
-                    <mapping type="ASCII">234</mapping>
-                </glyph>
-                <glyph xml:id="u00eb">
-                    <mapping type="Standard">ë</mapping>
-                    <mapping type="Unicode">U+00EB</mapping>
-                    <mapping type="ASCII">235</mapping>
-                </glyph>
-                <glyph xml:id="u00ec">
-                    <mapping type="Standard">ì</mapping>
-                    <mapping type="Unicode">U+00EC</mapping>
-                    <mapping type="ASCII">236</mapping>
-                </glyph>
-                <glyph xml:id="u00ed">
-                    <mapping type="Standard">í</mapping>
-                    <mapping type="Unicode">U+00ED</mapping>
-                    <mapping type="ASCII">237</mapping>
-                </glyph>
-                <glyph xml:id="u00ee">
-                    <mapping type="Standard">î</mapping>
-                    <mapping type="Unicode">U+00EE</mapping>
-                    <mapping type="ASCII">238</mapping>
-                </glyph>
-                <glyph xml:id="u00ef">
-                    <mapping type="Standard">ï</mapping>
-                    <mapping type="Unicode">U+00EF</mapping>
-                    <mapping type="ASCII">239</mapping>
-                </glyph>
-                <glyph xml:id="u00f0">
-                    <mapping type="Standard">ð</mapping>
-                    <mapping type="Unicode">U+00F0</mapping>
-                    <mapping type="ASCII">240</mapping>
-                </glyph>
-                <glyph xml:id="u00f1">
-                    <mapping type="Standard">ñ</mapping>
-                    <mapping type="Unicode">U+00F1</mapping>
-                    <mapping type="ASCII">241</mapping>
-                </glyph>
-                <glyph xml:id="u00f2">
-                    <mapping type="Standard">ò</mapping>
-                    <mapping type="Unicode">U+00F2</mapping>
-                    <mapping type="ASCII">242</mapping>
-                </glyph>
-                <glyph xml:id="u00f3">
-                    <mapping type="Standard">ó</mapping>
-                    <mapping type="Unicode">U+00F3</mapping>
-                    <mapping type="ASCII">243</mapping>
-                </glyph>
-                <glyph xml:id="u00f4">
-                    <mapping type="Standard">ô</mapping>
-                    <mapping type="Unicode">U+00F4</mapping>
-                    <mapping type="ASCII">244</mapping>
-                </glyph>
-                <glyph xml:id="u00f5">
-                    <mapping type="Standard">õ</mapping>
-                    <mapping type="Unicode">U+00F5</mapping>
-                    <mapping type="ASCII">245</mapping>
-                </glyph>
-                <glyph xml:id="u00f6">
-                    <mapping type="Standard">ö</mapping>
-                    <mapping type="Unicode">U+00F6</mapping>
-                    <mapping type="ASCII">246</mapping>
-                </glyph>
-                <glyph xml:id="u00f7">
-                    <mapping type="Standard">÷</mapping>
-                    <mapping type="Unicode">U+00F7</mapping>
-                    <mapping type="ASCII">247</mapping>
-                </glyph>
-                <glyph xml:id="u00f8">
-                    <mapping type="Standard">ø</mapping>
-                    <mapping type="Unicode">U+00F8</mapping>
-                    <mapping type="ASCII">248</mapping>
-                </glyph>
-                <glyph xml:id="u00f9">
-                    <mapping type="Standard">ù</mapping>
-                    <mapping type="Unicode">U+00F9</mapping>
-                    <mapping type="ASCII">249</mapping>
-                </glyph>
-                <glyph xml:id="u00fa">
-                    <mapping type="Standard">ú</mapping>
-                    <mapping type="Unicode">U+00FA</mapping>
-                    <mapping type="ASCII">250</mapping>
-                </glyph>
-                <glyph xml:id="u00fb">
-                    <mapping type="Standard">û</mapping>
-                    <mapping type="Unicode">U+00FB</mapping>
-                    <mapping type="ASCII">251</mapping>
-                </glyph>
-                <glyph xml:id="u00fc">
-                    <mapping type="Standard">ü</mapping>
-                    <mapping type="Unicode">U+00FC</mapping>
-                    <mapping type="ASCII">252</mapping>
-                </glyph>
-                <glyph xml:id="u00fd">
-                    <mapping type="Standard">ý</mapping>
-                    <mapping type="Unicode">U+00FD</mapping>
-                    <mapping type="ASCII">253</mapping>
-                </glyph>
-                <glyph xml:id="u00fe">
-                    <mapping type="Standard">þ</mapping>
-                    <mapping type="Unicode">U+00FE</mapping>
-                    <mapping type="ASCII">254</mapping>
-                </glyph>
-                <glyph xml:id="u00ff">
-                    <mapping type="Standard">ÿ</mapping>
-                    <mapping type="Unicode">U+00FF</mapping>
-                    <mapping type="ASCII">255</mapping>
-                </glyph>
-            </charDecl>
+inside folds of the pages still need to be added.
+</summary>
+</msContents>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<charDecl>
+    <glyph xml:id="u20ac">
+        <mapping type="Standard">€</mapping>
+        <mapping type="Unicode">U+20AC</mapping>
+        <mapping type="ASCII">128</mapping>
+    </glyph>
+    <glyph xml:id="u201a">
+        <mapping type="Standard">‚</mapping>
+        <mapping type="Unicode">U+201A</mapping>
+        <mapping type="ASCII">130</mapping>
+    </glyph>
+    <glyph xml:id="u0192">
+        <mapping type="Standard">ƒ</mapping>
+        <mapping type="Unicode">U+0192</mapping>
+        <mapping type="ASCII">131</mapping>
+    </glyph>
+    <glyph xml:id="u201e">
+        <mapping type="Standard">„</mapping>
+        <mapping type="Unicode">U+201E</mapping>
+        <mapping type="ASCII">132</mapping>
+    </glyph>
+    <glyph xml:id="u2026">
+        <mapping type="Standard">…</mapping>
+        <mapping type="Unicode">U+2026</mapping>
+        <mapping type="ASCII">133</mapping>
+    </glyph>
+    <glyph xml:id="u2020">
+        <mapping type="Standard">†</mapping>
+        <mapping type="Unicode">U+2020</mapping>
+        <mapping type="ASCII">134</mapping>
+    </glyph>
+    <glyph xml:id="u2021">
+        <mapping type="Standard">‡</mapping>
+        <mapping type="Unicode">U+2021</mapping>
+        <mapping type="ASCII">135</mapping>
+    </glyph>
+    <glyph xml:id="u02c6">
+        <mapping type="Standard">ˆ</mapping>
+        <mapping type="Unicode">U+02C6</mapping>
+        <mapping type="ASCII">136</mapping>
+    </glyph>
+    <glyph xml:id="u2030">
+        <mapping type="Standard">‰</mapping>
+        <mapping type="Unicode">U+2030</mapping>
+        <mapping type="ASCII">137</mapping>
+    </glyph>
+    <glyph xml:id="u0160">
+        <mapping type="Standard">Š</mapping>
+        <mapping type="Unicode">U+0160</mapping>
+        <mapping type="ASCII">138</mapping>
+    </glyph>
+    <glyph xml:id="u2039">
+        <mapping type="Standard">‹</mapping>
+        <mapping type="Unicode">U+2039</mapping>
+        <mapping type="ASCII">139</mapping>
+    </glyph>
+    <glyph xml:id="u0152">
+        <mapping type="Standard">Œ</mapping>
+        <mapping type="Unicode">U+0152</mapping>
+        <mapping type="ASCII">140</mapping>
+    </glyph>
+    <glyph xml:id="u017d">
+        <mapping type="Standard">Ž</mapping>
+        <mapping type="Unicode">U+017D</mapping>
+        <mapping type="ASCII">142</mapping>
+    </glyph>
+    <glyph xml:id="u2018">
+        <mapping type="Standard">‘</mapping>
+        <mapping type="Unicode">U+2018</mapping>
+        <mapping type="ASCII">145</mapping>
+    </glyph>
+    <glyph xml:id="u2019">
+        <mapping type="Standard">’</mapping>
+        <mapping type="Unicode">U+2019</mapping>
+        <mapping type="ASCII">146</mapping>
+    </glyph>
+    <glyph xml:id="u201c">
+        <mapping type="Standard">“</mapping>
+        <mapping type="Unicode">U+201C</mapping>
+        <mapping type="ASCII">147</mapping>
+    </glyph>
+    <glyph xml:id="u201d">
+        <mapping type="Standard">”</mapping>
+        <mapping type="Unicode">U+201D</mapping>
+        <mapping type="ASCII">148</mapping>
+    </glyph>
+    <glyph xml:id="u2022">
+        <mapping type="Standard">•</mapping>
+        <mapping type="Unicode">U+2022</mapping>
+        <mapping type="ASCII">149</mapping>
+    </glyph>
+    <glyph xml:id="u2013">
+        <mapping type="Standard">–</mapping>
+        <mapping type="Unicode">U+2013</mapping>
+        <mapping type="ASCII">150</mapping>
+    </glyph>
+    <glyph xml:id="u2014">
+        <mapping type="Standard">—</mapping>
+        <mapping type="Unicode">U+2014</mapping>
+        <mapping type="ASCII">151</mapping>
+    </glyph>
+    <glyph xml:id="u02dc">
+        <mapping type="Standard">˜</mapping>
+        <mapping type="Unicode">U+02DC</mapping>
+        <mapping type="ASCII">152</mapping>
+    </glyph>
+    <glyph xml:id="u2122">
+        <mapping type="Standard">™</mapping>
+        <mapping type="Unicode">U+2122</mapping>
+        <mapping type="ASCII">153</mapping>
+    </glyph>
+    <glyph xml:id="u0161">
+        <mapping type="Standard">š</mapping>
+        <mapping type="Unicode">U+0161</mapping>
+        <mapping type="ASCII">154</mapping>
+    </glyph>
+    <glyph xml:id="u203a">
+        <mapping type="Standard">›</mapping>
+        <mapping type="Unicode">U+203A</mapping>
+        <mapping type="ASCII">155</mapping>
+    </glyph>
+    <glyph xml:id="u0153">
+        <mapping type="Standard">œ</mapping>
+        <mapping type="Unicode">U+0153</mapping>
+        <mapping type="ASCII">156</mapping>
+    </glyph>
+    <glyph xml:id="u017e">
+        <mapping type="Standard">ž</mapping>
+        <mapping type="Unicode">U+017E</mapping>
+        <mapping type="ASCII">158</mapping>
+    </glyph>
+    <glyph xml:id="u0178">
+        <mapping type="Standard">Ÿ</mapping>
+        <mapping type="Unicode">U+0178</mapping>
+        <mapping type="ASCII">159</mapping>
+    </glyph>
+    <glyph xml:id="u00a0">
+        <mapping type="Standard"> </mapping>
+        <mapping type="Unicode">U+00A0</mapping>
+        <mapping type="ASCII">160</mapping>
+    </glyph>
+    <glyph xml:id="u00a1">
+        <mapping type="Standard">¡</mapping>
+        <mapping type="Unicode">U+00A1</mapping>
+        <mapping type="ASCII">161</mapping>
+    </glyph>
+    <glyph xml:id="u00a2">
+        <mapping type="Standard">¢</mapping>
+        <mapping type="Unicode">U+00A2</mapping>
+        <mapping type="ASCII">162</mapping>
+    </glyph>
+    <glyph xml:id="u00a3">
+        <mapping type="Standard">£</mapping>
+        <mapping type="Unicode">U+00A3</mapping>
+        <mapping type="ASCII">163</mapping>
+    </glyph>
+    <glyph xml:id="u00a4">
+        <mapping type="Standard">¤</mapping>
+        <mapping type="Unicode">U+00A4</mapping>
+        <mapping type="ASCII">164</mapping>
+    </glyph>
+    <glyph xml:id="u00a5">
+        <mapping type="Standard">¥</mapping>
+        <mapping type="Unicode">U+00A5</mapping>
+        <mapping type="ASCII">165</mapping>
+    </glyph>
+    <glyph xml:id="u00a6">
+        <mapping type="Standard">¦</mapping>
+        <mapping type="Unicode">U+00A6</mapping>
+        <mapping type="ASCII">166</mapping>
+    </glyph>
+    <glyph xml:id="u00a7">
+        <mapping type="Standard">§</mapping>
+        <mapping type="Unicode">U+00A7</mapping>
+        <mapping type="ASCII">167</mapping>
+    </glyph>
+    <glyph xml:id="u00a8">
+        <mapping type="Standard">¨</mapping>
+        <mapping type="Unicode">U+00A8</mapping>
+        <mapping type="ASCII">168</mapping>
+    </glyph>
+    <glyph xml:id="u00a9">
+        <mapping type="Standard">©</mapping>
+        <mapping type="Unicode">U+00A9</mapping>
+        <mapping type="ASCII">169</mapping>
+    </glyph>
+    <glyph xml:id="u00aa">
+        <mapping type="Standard">ª</mapping>
+        <mapping type="Unicode">U+00AA</mapping>
+        <mapping type="ASCII">170</mapping>
+    </glyph>
+    <glyph xml:id="u00ab">
+        <mapping type="Standard">«</mapping>
+        <mapping type="Unicode">U+00AB</mapping>
+        <mapping type="ASCII">171</mapping>
+    </glyph>
+    <glyph xml:id="u00ac">
+        <mapping type="Standard">¬</mapping>
+        <mapping type="Unicode">U+00AC</mapping>
+        <mapping type="ASCII">172</mapping>
+    </glyph>
+    <glyph xml:id="u00ad">
+        <mapping type="Standard">­</mapping>
+        <mapping type="Unicode">U+00AD</mapping>
+        <mapping type="ASCII">173</mapping>
+    </glyph>
+    <glyph xml:id="u00ae">
+        <mapping type="Standard">®</mapping>
+        <mapping type="Unicode">U+00AE</mapping>
+        <mapping type="ASCII">174</mapping>
+    </glyph>
+    <glyph xml:id="u00af">
+        <mapping type="Standard">¯</mapping>
+        <mapping type="Unicode">U+00AF</mapping>
+        <mapping type="ASCII">175</mapping>
+    </glyph>
+    <glyph xml:id="u00b0">
+        <mapping type="Standard">°</mapping>
+        <mapping type="Unicode">U+00B0</mapping>
+        <mapping type="ASCII">176</mapping>
+    </glyph>
+    <glyph xml:id="u00b1">
+        <mapping type="Standard">±</mapping>
+        <mapping type="Unicode">U+00B1</mapping>
+        <mapping type="ASCII">177</mapping>
+    </glyph>
+    <glyph xml:id="u00b2">
+        <mapping type="Standard">²</mapping>
+        <mapping type="Unicode">U+00B2</mapping>
+        <mapping type="ASCII">178</mapping>
+    </glyph>
+    <glyph xml:id="u00b3">
+        <mapping type="Standard">³</mapping>
+        <mapping type="Unicode">U+00B3</mapping>
+        <mapping type="ASCII">179</mapping>
+    </glyph>
+    <glyph xml:id="u00b4">
+        <mapping type="Standard">´</mapping>
+        <mapping type="Unicode">U+00B4</mapping>
+        <mapping type="ASCII">180</mapping>
+    </glyph>
+    <glyph xml:id="u00b5">
+        <mapping type="Standard">µ</mapping>
+        <mapping type="Unicode">U+00B5</mapping>
+        <mapping type="ASCII">181</mapping>
+    </glyph>
+    <glyph xml:id="u00b6">
+        <mapping type="Standard">¶</mapping>
+        <mapping type="Unicode">U+00B6</mapping>
+        <mapping type="ASCII">182</mapping>
+    </glyph>
+    <glyph xml:id="u00b7">
+        <mapping type="Standard">·</mapping>
+        <mapping type="Unicode">U+00B7</mapping>
+        <mapping type="ASCII">183</mapping>
+    </glyph>
+    <glyph xml:id="u00b8">
+        <mapping type="Standard">¸</mapping>
+        <mapping type="Unicode">U+00B8</mapping>
+        <mapping type="ASCII">184</mapping>
+    </glyph>
+    <glyph xml:id="u00b9">
+        <mapping type="Standard">¹</mapping>
+        <mapping type="Unicode">U+00B9</mapping>
+        <mapping type="ASCII">185</mapping>
+    </glyph>
+    <glyph xml:id="u00ba">
+        <mapping type="Standard">º</mapping>
+        <mapping type="Unicode">U+00BA</mapping>
+        <mapping type="ASCII">186</mapping>
+    </glyph>
+    <glyph xml:id="u00bb">
+        <mapping type="Standard">»</mapping>
+        <mapping type="Unicode">U+00BB</mapping>
+        <mapping type="ASCII">187</mapping>
+    </glyph>
+    <glyph xml:id="u00bc">
+        <mapping type="Standard">¼</mapping>
+        <mapping type="Unicode">U+00BC</mapping>
+        <mapping type="ASCII">188</mapping>
+    </glyph>
+    <glyph xml:id="u00bd">
+        <mapping type="Standard">½</mapping>
+        <mapping type="Unicode">U+00BD</mapping>
+        <mapping type="ASCII">189</mapping>
+    </glyph>
+    <glyph xml:id="u00be">
+        <mapping type="Standard">¾</mapping>
+        <mapping type="Unicode">U+00BE</mapping>
+        <mapping type="ASCII">190</mapping>
+    </glyph>
+    <glyph xml:id="u00bf">
+        <mapping type="Standard">¿</mapping>
+        <mapping type="Unicode">U+00BF</mapping>
+        <mapping type="ASCII">191</mapping>
+    </glyph>
+    <glyph xml:id="u00c0">
+        <mapping type="Standard">À</mapping>
+        <mapping type="Unicode">U+00C0</mapping>
+        <mapping type="ASCII">192</mapping>
+    </glyph>
+    <glyph xml:id="u00c1">
+        <mapping type="Standard">Á</mapping>
+        <mapping type="Unicode">U+00C1</mapping>
+        <mapping type="ASCII">193</mapping>
+    </glyph>
+    <glyph xml:id="u00c2">
+        <mapping type="Standard">Â</mapping>
+        <mapping type="Unicode">U+00C2</mapping>
+        <mapping type="ASCII">194</mapping>
+    </glyph>
+    <glyph xml:id="u00c3">
+        <mapping type="Standard">Ã</mapping>
+        <mapping type="Unicode">U+00C3</mapping>
+        <mapping type="ASCII">195</mapping>
+    </glyph>
+    <glyph xml:id="u00c4">
+        <mapping type="Standard">Ä</mapping>
+        <mapping type="Unicode">U+00C4</mapping>
+        <mapping type="ASCII">196</mapping>
+    </glyph>
+    <glyph xml:id="u00c5">
+        <mapping type="Standard">Å</mapping>
+        <mapping type="Unicode">U+00C5</mapping>
+        <mapping type="ASCII">197</mapping>
+    </glyph>
+    <glyph xml:id="u00c6">
+        <mapping type="Standard">Æ</mapping>
+        <mapping type="Unicode">U+00C6</mapping>
+        <mapping type="ASCII">198</mapping>
+    </glyph>
+    <glyph xml:id="u00c7">
+        <mapping type="Standard">Ç</mapping>
+        <mapping type="Unicode">U+00C7</mapping>
+        <mapping type="ASCII">199</mapping>
+    </glyph>
+    <glyph xml:id="u00c8">
+        <mapping type="Standard">È</mapping>
+        <mapping type="Unicode">U+00C8</mapping>
+        <mapping type="ASCII">200</mapping>
+    </glyph>
+    <glyph xml:id="u00c9">
+        <mapping type="Standard">É</mapping>
+        <mapping type="Unicode">U+00C9</mapping>
+        <mapping type="ASCII">201</mapping>
+    </glyph>
+    <glyph xml:id="u00ca">
+        <mapping type="Standard">Ê</mapping>
+        <mapping type="Unicode">U+00CA</mapping>
+        <mapping type="ASCII">202</mapping>
+    </glyph>
+    <glyph xml:id="u00cb">
+        <mapping type="Standard">Ë</mapping>
+        <mapping type="Unicode">U+00CB</mapping>
+        <mapping type="ASCII">203</mapping>
+    </glyph>
+    <glyph xml:id="u00cc">
+        <mapping type="Standard">Ì</mapping>
+        <mapping type="Unicode">U+00CC</mapping>
+        <mapping type="ASCII">204</mapping>
+    </glyph>
+    <glyph xml:id="u00cd">
+        <mapping type="Standard">Í</mapping>
+        <mapping type="Unicode">U+00CD</mapping>
+        <mapping type="ASCII">205</mapping>
+    </glyph>
+    <glyph xml:id="u00ce">
+        <mapping type="Standard">Î</mapping>
+        <mapping type="Unicode">U+00CE</mapping>
+        <mapping type="ASCII">206</mapping>
+    </glyph>
+    <glyph xml:id="u00cf">
+        <mapping type="Standard">Ï</mapping>
+        <mapping type="Unicode">U+00CF</mapping>
+        <mapping type="ASCII">207</mapping>
+    </glyph>
+    <glyph xml:id="u00d0">
+        <mapping type="Standard">Ð</mapping>
+        <mapping type="Unicode">U+00D0</mapping>
+        <mapping type="ASCII">208</mapping>
+    </glyph>
+    <glyph xml:id="u00d1">
+        <mapping type="Standard">Ñ</mapping>
+        <mapping type="Unicode">U+00D1</mapping>
+        <mapping type="ASCII">209</mapping>
+    </glyph>
+    <glyph xml:id="u00d2">
+        <mapping type="Standard">Ò</mapping>
+        <mapping type="Unicode">U+00D2</mapping>
+        <mapping type="ASCII">210</mapping>
+    </glyph>
+    <glyph xml:id="u00d3">
+        <mapping type="Standard">Ó</mapping>
+        <mapping type="Unicode">U+00D3</mapping>
+        <mapping type="ASCII">211</mapping>
+    </glyph>
+    <glyph xml:id="u00d4">
+        <mapping type="Standard">Ô</mapping>
+        <mapping type="Unicode">U+00D4</mapping>
+        <mapping type="ASCII">212</mapping>
+    </glyph>
+    <glyph xml:id="u00d5">
+        <mapping type="Standard">Õ</mapping>
+        <mapping type="Unicode">U+00D5</mapping>
+        <mapping type="ASCII">213</mapping>
+    </glyph>
+    <glyph xml:id="u00d6">
+        <mapping type="Standard">Ö</mapping>
+        <mapping type="Unicode">U+00D6</mapping>
+        <mapping type="ASCII">214</mapping>
+    </glyph>
+    <glyph xml:id="u00d7">
+        <mapping type="Standard">×</mapping>
+        <mapping type="Unicode">U+00D7</mapping>
+        <mapping type="ASCII">215</mapping>
+    </glyph>
+    <glyph xml:id="u00d8">
+        <mapping type="Standard">Ø</mapping>
+        <mapping type="Unicode">U+00D8</mapping>
+        <mapping type="ASCII">216</mapping>
+    </glyph>
+    <glyph xml:id="u00d9">
+        <mapping type="Standard">Ù</mapping>
+        <mapping type="Unicode">U+00D9</mapping>
+        <mapping type="ASCII">217</mapping>
+    </glyph>
+    <glyph xml:id="u00da">
+        <mapping type="Standard">Ú</mapping>
+        <mapping type="Unicode">U+00DA</mapping>
+        <mapping type="ASCII">218</mapping>
+    </glyph>
+    <glyph xml:id="u00db">
+        <mapping type="Standard">Û</mapping>
+        <mapping type="Unicode">U+00DB</mapping>
+        <mapping type="ASCII">219</mapping>
+    </glyph>
+    <glyph xml:id="u00dc">
+        <mapping type="Standard">Ü</mapping>
+        <mapping type="Unicode">U+00DC</mapping>
+        <mapping type="ASCII">220</mapping>
+    </glyph>
+    <glyph xml:id="u00dd">
+        <mapping type="Standard">Ý</mapping>
+        <mapping type="Unicode">U+00DD</mapping>
+        <mapping type="ASCII">221</mapping>
+    </glyph>
+    <glyph xml:id="u00de">
+        <mapping type="Standard">Þ</mapping>
+        <mapping type="Unicode">U+00DE</mapping>
+        <mapping type="ASCII">222</mapping>
+    </glyph>
+    <glyph xml:id="u00df">
+        <mapping type="Standard">ß</mapping>
+        <mapping type="Unicode">U+00DF</mapping>
+        <mapping type="ASCII">223</mapping>
+    </glyph>
+    <glyph xml:id="u00e0">
+        <mapping type="Standard">à</mapping>
+        <mapping type="Unicode">U+00E0</mapping>
+        <mapping type="ASCII">224</mapping>
+    </glyph>
+    <glyph xml:id="u00e1">
+        <mapping type="Standard">á</mapping>
+        <mapping type="Unicode">U+00E1</mapping>
+        <mapping type="ASCII">225</mapping>
+    </glyph>
+    <glyph xml:id="u00e2">
+        <mapping type="Standard">â</mapping>
+        <mapping type="Unicode">U+00E2</mapping>
+        <mapping type="ASCII">226</mapping>
+    </glyph>
+    <glyph xml:id="u00e3">
+        <mapping type="Standard">ã</mapping>
+        <mapping type="Unicode">U+00E3</mapping>
+        <mapping type="ASCII">227</mapping>
+    </glyph>
+    <glyph xml:id="u00e4">
+        <mapping type="Standard">ä</mapping>
+        <mapping type="Unicode">U+00E4</mapping>
+        <mapping type="ASCII">228</mapping>
+    </glyph>
+    <glyph xml:id="u00e5">
+        <mapping type="Standard">å</mapping>
+        <mapping type="Unicode">U+00E5</mapping>
+        <mapping type="ASCII">229</mapping>
+    </glyph>
+    <glyph xml:id="u00e6">
+        <mapping type="Standard">æ</mapping>
+        <mapping type="Unicode">U+00E6</mapping>
+        <mapping type="ASCII">230</mapping>
+    </glyph>
+    <glyph xml:id="u00e7">
+        <mapping type="Standard">ç</mapping>
+        <mapping type="Unicode">U+00E7</mapping>
+        <mapping type="ASCII">231</mapping>
+    </glyph>
+    <glyph xml:id="u00e8">
+        <mapping type="Standard">è</mapping>
+        <mapping type="Unicode">U+00E8</mapping>
+        <mapping type="ASCII">232</mapping>
+    </glyph>
+    <glyph xml:id="u00e9">
+        <mapping type="Standard">é</mapping>
+        <mapping type="Unicode">U+00E9</mapping>
+        <mapping type="ASCII">233</mapping>
+    </glyph>
+    <glyph xml:id="u00ea">
+        <mapping type="Standard">ê</mapping>
+        <mapping type="Unicode">U+00EA</mapping>
+        <mapping type="ASCII">234</mapping>
+    </glyph>
+    <glyph xml:id="u00eb">
+        <mapping type="Standard">ë</mapping>
+        <mapping type="Unicode">U+00EB</mapping>
+        <mapping type="ASCII">235</mapping>
+    </glyph>
+    <glyph xml:id="u00ec">
+        <mapping type="Standard">ì</mapping>
+        <mapping type="Unicode">U+00EC</mapping>
+        <mapping type="ASCII">236</mapping>
+    </glyph>
+    <glyph xml:id="u00ed">
+        <mapping type="Standard">í</mapping>
+        <mapping type="Unicode">U+00ED</mapping>
+        <mapping type="ASCII">237</mapping>
+    </glyph>
+    <glyph xml:id="u00ee">
+        <mapping type="Standard">î</mapping>
+        <mapping type="Unicode">U+00EE</mapping>
+        <mapping type="ASCII">238</mapping>
+    </glyph>
+    <glyph xml:id="u00ef">
+        <mapping type="Standard">ï</mapping>
+        <mapping type="Unicode">U+00EF</mapping>
+        <mapping type="ASCII">239</mapping>
+    </glyph>
+    <glyph xml:id="u00f0">
+        <mapping type="Standard">ð</mapping>
+        <mapping type="Unicode">U+00F0</mapping>
+        <mapping type="ASCII">240</mapping>
+    </glyph>
+    <glyph xml:id="u00f1">
+        <mapping type="Standard">ñ</mapping>
+        <mapping type="Unicode">U+00F1</mapping>
+        <mapping type="ASCII">241</mapping>
+    </glyph>
+    <glyph xml:id="u00f2">
+        <mapping type="Standard">ò</mapping>
+        <mapping type="Unicode">U+00F2</mapping>
+        <mapping type="ASCII">242</mapping>
+    </glyph>
+    <glyph xml:id="u00f3">
+        <mapping type="Standard">ó</mapping>
+        <mapping type="Unicode">U+00F3</mapping>
+        <mapping type="ASCII">243</mapping>
+    </glyph>
+    <glyph xml:id="u00f4">
+        <mapping type="Standard">ô</mapping>
+        <mapping type="Unicode">U+00F4</mapping>
+        <mapping type="ASCII">244</mapping>
+    </glyph>
+    <glyph xml:id="u00f5">
+        <mapping type="Standard">õ</mapping>
+        <mapping type="Unicode">U+00F5</mapping>
+        <mapping type="ASCII">245</mapping>
+    </glyph>
+    <glyph xml:id="u00f6">
+        <mapping type="Standard">ö</mapping>
+        <mapping type="Unicode">U+00F6</mapping>
+        <mapping type="ASCII">246</mapping>
+    </glyph>
+    <glyph xml:id="u00f7">
+        <mapping type="Standard">÷</mapping>
+        <mapping type="Unicode">U+00F7</mapping>
+        <mapping type="ASCII">247</mapping>
+    </glyph>
+    <glyph xml:id="u00f8">
+        <mapping type="Standard">ø</mapping>
+        <mapping type="Unicode">U+00F8</mapping>
+        <mapping type="ASCII">248</mapping>
+    </glyph>
+    <glyph xml:id="u00f9">
+        <mapping type="Standard">ù</mapping>
+        <mapping type="Unicode">U+00F9</mapping>
+        <mapping type="ASCII">249</mapping>
+    </glyph>
+    <glyph xml:id="u00fa">
+        <mapping type="Standard">ú</mapping>
+        <mapping type="Unicode">U+00FA</mapping>
+        <mapping type="ASCII">250</mapping>
+    </glyph>
+    <glyph xml:id="u00fb">
+        <mapping type="Standard">û</mapping>
+        <mapping type="Unicode">U+00FB</mapping>
+        <mapping type="ASCII">251</mapping>
+    </glyph>
+    <glyph xml:id="u00fc">
+        <mapping type="Standard">ü</mapping>
+        <mapping type="Unicode">U+00FC</mapping>
+        <mapping type="ASCII">252</mapping>
+    </glyph>
+    <glyph xml:id="u00fd">
+        <mapping type="Standard">ý</mapping>
+        <mapping type="Unicode">U+00FD</mapping>
+        <mapping type="ASCII">253</mapping>
+    </glyph>
+    <glyph xml:id="u00fe">
+        <mapping type="Standard">þ</mapping>
+        <mapping type="Unicode">U+00FE</mapping>
+        <mapping type="ASCII">254</mapping>
+    </glyph>
+    <glyph xml:id="u00ff">
+        <mapping type="Standard">ÿ</mapping>
+        <mapping type="Unicode">U+00FF</mapping>
+        <mapping type="ASCII">255</mapping>
+    </glyph>
+</charDecl>
 <tagsDecl>
     <rendition xml:id="P">Linear text in paragraphs</rendition>
     <rendition xml:id="P0">Normal left-justified text</rendition>
@@ -718,15 +736,20 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
     <rendition xml:id="Am">Similar to AQ but the vertical alignment is not very good</rendition>
     <rendition xml:id="Al">This locus is to the right of, and above the previous locus</rendition>
     <rendition xml:id="Ax">This locus refers to text that in reality does not exist in the manuscript</rendition>
-</tagsDecl></encodingDesc><profileDesc>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
 <langUsage>
     <language ident="A">Language A</language>
     <language ident="B">Language B</language>
-</langUsage></profileDesc></teiHeader><sourceDoc><note type="outline">=IVTFF Eva- 2.0 M 5</note>
+</langUsage>
+</profileDesc>
+</teiHeader>
+<sourceDoc><note type="outline">=IVTFF Eva- 2.0 M 5</note>
 <note type="outline">ZL transliteration file, updated from EVMT project</note>
 <note type="outline">Version 3b of 13/05/2025</note>
 
-<surface n="f1r">      <note type="inline"> $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V</note>
+<surface n="f1r" type="recto">      <note type="inline">$Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V</note>
 <label>PAGE 1</label>
 <label>TEXT ONLY</label>
 <note type="outline">Currier's Language A, hand 1</note>
@@ -778,7 +801,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="28" rendition="#Aq #Pt">dchaiin</line></zone>
 
 
-</surface><surface n="f1v">      <note type="inline"> $Q=A $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
+</surface><surface n="f1v" type="verso">      <note type="inline">$Q=A $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
 <label>PAGE 2</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -800,7 +823,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #P0">taor.chotchey.dal.chody<figure/>schody.pol.chodar</line></zone>
 
 
-</surface><surface n="f2r">      <note type="inline"> $Q=A $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f2r" type="recto">      <note type="inline">$Q=A $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 3</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -825,7 +848,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="15" rendition="#At #L0">ios.an.on</line>
 
 
-</surface><surface n="f2v">      <note type="inline"> $Q=A $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1 $X=O</note>
+</surface><surface n="f2v" type="verso">      <note type="inline">$Q=A $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1 $X=O</note>
 <label>PAGE 4</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -843,7 +866,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="8" rendition="#Ad #P0">chokoishe.chor.cheol.chol.dolody</line></zone>
 
 
-</surface><surface n="f3r">      <note type="inline"> $Q=A $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f3r" type="recto">      <note type="inline">$Q=A $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 5</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -875,7 +898,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="20" rendition="#Ad #P0">ycheor.chol.odaiin.chol.s.aiin.okol,or.am</line></zone>
 
 
-</surface><surface n="f3v">      <note type="inline"> $Q=A $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f3v" type="verso">      <note type="inline">$Q=A $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 6</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -899,7 +922,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #P0">dain.sheam.y,keam</line></zone>
 
 
-</surface><surface n="f4r">      <note type="inline"> $Q=A $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C</note>
+</surface><surface n="f4r" type="recto">      <note type="inline">$Q=A $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C</note>
 <label>PAGE 7</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -922,7 +945,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">daiin.cthey</line></zone>
 
 
-</surface><surface n="f4v">      <note type="inline"> $Q=A $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f4v" type="verso">      <note type="inline">$Q=A $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 8</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -946,7 +969,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #P0">ochody.chy,key.chtody</line></zone>
 
 
-</surface><surface n="f5r">      <note type="inline"> $Q=A $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f5r" type="recto">      <note type="inline">$Q=A $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 9</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -963,7 +986,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="7" rendition="#Ad #P0">qotoeey.keey.cheo,kchy.shody</line></zone>
 
 
-</surface><surface n="f5v">      <note type="inline"> $Q=A $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f5v" type="verso">      <note type="inline">$Q=A $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 10</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -978,7 +1001,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="6" rendition="#Ad #P0">otol.chol.dairodg</line></zone>
 
 
-</surface><surface n="f6r">      <note type="inline"> $Q=A $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f6r" type="recto">      <note type="inline">$Q=A $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 11</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1001,7 +1024,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #P0">ysho.taiin.y,kaiim</line></zone>
 
 
-</surface><surface n="f6v">      <note type="inline"> $Q=A $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f6v" type="verso">      <note type="inline">$Q=A $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 12</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1033,7 +1056,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="21" rendition="#Ad #P0">ycheor.chor.octham</line></zone>
 
 
-</surface><surface n="f7r">      <note type="inline"> $Q=A $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f7r" type="recto">      <note type="inline">$Q=A $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 13</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1053,7 +1076,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #P0">s,chain.chor.daiin.chckhy</line></zone>
 
 
-</surface><surface n="f7v">      <note type="inline"> $Q=A $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f7v" type="verso">      <note type="inline">$Q=A $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 14</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1072,7 +1095,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">sho.keeo.daiir.chokchy.dor.deol.dy<figure/>dol,daiin</line></zone>
 
 
-</surface><surface n="f8r">      <note type="inline"> $Q=A $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f8r" type="recto">      <note type="inline">$Q=A $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 15</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1105,7 +1128,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="21" rendition="#Aq #Pt">schol.saim</line></zone>
 
 
-</surface><surface n="f8v">      <note type="inline"> $Q=A $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f8v" type="verso">      <note type="inline">$Q=A $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 16</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1133,7 +1156,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="17" rendition="#Ad #P0">dain.chear.daiin</line></zone>
 
 
-</surface><surface n="f9r">      <note type="inline"> $Q=B $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f9r" type="recto">      <note type="inline">$Q=B $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 17</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1153,7 +1176,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #Pc">ytcha[s:r].oraiin.chkor</line></zone>
 
 
-</surface><surface n="f9v">      <note type="inline"> $Q=B $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
+</surface><surface n="f9v" type="verso">      <note type="inline">$Q=B $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
 <label>PAGE 18</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1176,7 +1199,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0">chkaiin.ckhy.chor</line></zone>
 
 
-</surface><surface n="f10r">     <note type="inline"> $Q=B $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f10r" type="recto">     <note type="inline">$Q=B $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 19</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1197,7 +1220,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0"><g ref="#u2021">‡</g>odaiin.daiin.qotchy.qotor</line></zone>
 
 
-</surface><surface n="f10v">     <note type="inline"> $Q=B $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f10v" type="verso">     <note type="inline">$Q=B $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 20</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1213,7 +1236,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="7" rendition="#Ad #P0">qokol.chy,ky.chol,cheky.daiin.dain.chckhan</line></zone>
 
 
-</surface><surface n="f11r">     <note type="inline"> $Q=B $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f11r" type="recto">     <note type="inline">$Q=B $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 21</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1229,7 +1252,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="7" rendition="#Ad #P0">qotchy.okchol.cthy.dy</line></zone>
 
 
-</surface><surface n="f11v">     <note type="inline"> $Q=B $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f11v" type="verso">     <note type="inline">$Q=B $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 22</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1247,7 +1270,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <note type="outline">Folio 12 is missing. Its stub is still visible.</note>
 
 
-</surface><surface n="f13r">     <note type="inline"> $Q=B $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f13r" type="recto">     <note type="inline">$Q=B $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 23</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1266,7 +1289,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #P0">sotchy.kchy.okorory</line></zone>
 
 
-</surface><surface n="f13v">     <note type="inline"> $Q=B $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f13v" type="verso">     <note type="inline">$Q=B $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 24</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1285,7 +1308,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #P0">y,ol.chy.kchey.kchor.dal</line></zone>
 
 
-</surface><surface n="f14r">     <note type="inline"> $Q=B $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f14r" type="recto">     <note type="inline">$Q=B $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 25</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1307,7 +1330,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">sodaiin.chy.kchy.kchy.ykeody</line></zone>
 
 
-</surface><surface n="f14v">     <note type="inline"> $Q=B $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f14v" type="verso">     <note type="inline">$Q=B $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 26</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1324,7 +1347,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">dykchy.ctholdg<figure/>dchckhy</line></zone>
 
 
-</surface><surface n="f15r">     <note type="inline"> $Q=B $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f15r" type="recto">     <note type="inline">$Q=B $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 27</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1347,7 +1370,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="15" rendition="#Ad #P0">qotchor.chaiin.chy,kol.daky</line></zone>
 
 
-</surface><surface n="f15v">     <note type="inline"> $Q=B $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f15v" type="verso">     <note type="inline">$Q=B $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 28</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1368,7 +1391,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0">daiin.cthor.chol.chor</line></zone>
 
 
-</surface><surface n="f16r">     <note type="inline"> $Q=B $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f16r" type="recto">     <note type="inline">$Q=B $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 29</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1391,7 +1414,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">qok[{oh}:ch]or.dl.dy.shey</line></zone>
 
 
-</surface><surface n="f16v">     <note type="inline"> $Q=B $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f16v" type="verso">     <note type="inline">$Q=B $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 30</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1413,7 +1436,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">sokar.oaorar</line></zone>
 
 
-</surface><surface n="f17r">     <note type="inline"> $Q=C $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=O</note>
+</surface><surface n="f17r" type="recto">     <note type="inline">$Q=C $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=O</note>
 <label>PAGE 31</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1438,7 +1461,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#At #Lx">oteeeon.oiil</line>
 
 
-</surface><surface n="f17v">     <note type="inline"> $Q=C $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f17v" type="verso">     <note type="inline">$Q=C $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 32</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1470,7 +1493,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="23" rendition="#Ad #P0">chkeey.okeor.sh[a:o]r.okeom</line></zone>
 
 
-</surface><surface n="f18r">     <note type="inline"> $Q=C $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f18r" type="recto">     <note type="inline">$Q=C $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 33</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1492,7 +1515,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #Pc">ychekch,y.kchaiin</line></zone>
 
 
-</surface><surface n="f18v">     <note type="inline"> $Q=C $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f18v" type="verso">     <note type="inline">$Q=C $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 34</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1510,7 +1533,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #P0">yk[o:a].dshy.dair.ykol.dom<note type="inline">spots near dom</note></line></zone>
 
 
-</surface><surface n="f19r">     <note type="inline"> $Q=C $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f19r" type="recto">     <note type="inline">$Q=C $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 35</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1531,7 +1554,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">os,octhor.ytchor</line></zone>
 
 
-</surface><surface n="f19v">     <note type="inline"> $Q=C $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f19v" type="verso">     <note type="inline">$Q=C $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 36</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1553,7 +1576,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #Pr">otchol,cheaiin.cthol</line></zone>
 
 
-</surface><surface n="f20r">     <note type="inline"> $Q=C $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C</note>
+</surface><surface n="f20r" type="recto">     <note type="inline">$Q=C $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C</note>
 <label>PAGE 37</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1576,7 +1599,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">ochaiin.chor.chor,cheey.tchey</line></zone>
 
 
-</surface><surface n="f20v">     <note type="inline"> $Q=C $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f20v" type="verso">     <note type="inline">$Q=C $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 38</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1595,7 +1618,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">okoiin.chey.{<g ref="#u00c8">È</g>ph}ol.chory</line></zone>
 
 
-</surface><surface n="f21r">     <note type="inline"> $Q=C $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f21r" type="recto">     <note type="inline">$Q=C $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 39</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1616,7 +1639,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0">ykeey.chor.sheey.ysheol.chor.chol.daiin.chkaiin</line></zone>
 
 
-</surface><surface n="f21v">     <note type="inline"> $Q=C $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f21v" type="verso">     <note type="inline">$Q=C $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 40</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1631,7 +1654,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="8" rendition="#Ad #P0">cho.l.kchochaiin</line></zone>
 
 
-</surface><surface n="f22r">     <note type="inline"> $Q=C $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f22r" type="recto">     <note type="inline">$Q=C $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 41</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1654,7 +1677,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">dchor.dy,dain.qockhy.ykol,okain</line></zone>
 
 
-</surface><surface n="f22v">     <note type="inline"> $Q=C $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f22v" type="verso">     <note type="inline">$Q=C $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 42</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1678,7 +1701,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #Pc">saiinchy.daldalol</line></zone>
 
 
-</surface><surface n="f23r">     <note type="inline"> $Q=C $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f23r" type="recto">     <note type="inline">$Q=C $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 43</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1699,7 +1722,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">ykyk[a:o].dalory</line></zone>
 
 
-</surface><surface n="f23v">     <note type="inline"> $Q=C $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f23v" type="verso">     <note type="inline">$Q=C $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 44</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1719,7 +1742,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0">ol,aiios.oloro.eeeoly</line></zone>
 
 
-</surface><surface n="f24r">     <note type="inline"> $Q=C $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f24r" type="recto">     <note type="inline">$Q=C $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 45</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1746,7 +1769,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="20" rendition="#Ad #Pc">sam.chorly</line></zone>
 
 
-</surface><surface n="f24v">     <note type="inline"> $Q=C $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f24v" type="verso">     <note type="inline">$Q=C $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 46</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1772,7 +1795,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #P0">otchol.odaiim</line></zone>
 
 
-</surface><surface n="f25r">     <note type="inline"> $Q=D $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f25r" type="recto">     <note type="inline">$Q=D $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 47</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1787,7 +1810,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="7" rendition="#Aq #Pt">dair.otaiir.otosy</line></zone>
 
 
-</surface><surface n="f25v">     <note type="inline"> $Q=D $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f25v" type="verso">     <note type="inline">$Q=D $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 48</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1802,7 +1825,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="7" rendition="#Ad #P0">o{c'o}.chkey.daiiol.daiin.shckh<figure/>orchaiin</line></zone>
 
 
-</surface><surface n="f26r">     <note type="inline"> $Q=D $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f26r" type="recto">     <note type="inline">$Q=D $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 49</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -1822,7 +1845,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #P0">shese.aiin.sheos.cheody<figure/>otal</line></zone>
 
 
-</surface><surface n="f26v">     <note type="inline"> $Q=D $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f26v" type="verso">     <note type="inline">$Q=D $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 50</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -1839,7 +1862,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">ysheey.okeshy.shody.peshy.todydy</line></zone>
 
 
-</surface><surface n="f27r">     <note type="inline"> $Q=D $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f27r" type="recto">     <note type="inline">$Q=D $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 51</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1861,7 +1884,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #Pc">o[t:k]chodeey</line></zone>
 
 
-</surface><surface n="f27v">     <note type="inline"> $Q=D $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f27v" type="verso">     <note type="inline">$Q=D $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 52</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1876,7 +1899,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="8" rendition="#Ad #P0">okshes.okchokshy</line></zone>
 
 
-</surface><surface n="f28r">     <note type="inline"> $Q=D $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f28r" type="recto">     <note type="inline">$Q=D $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 53</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1893,7 +1916,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">ytchol.deey.yteol.deaiin</line></zone>
 
 
-</surface><surface n="f28v">     <note type="inline"> $Q=D $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f28v" type="verso">     <note type="inline">$Q=D $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 54</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1911,7 +1934,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">sor.chear.chl.[{c'}:s].choly.dar</line></zone>
 
 
-</surface><surface n="f29r">     <note type="inline"> $Q=D $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f29r" type="recto">     <note type="inline">$Q=D $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 55</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1928,7 +1951,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">qokshe.qor.chey.kor.cheod.ychom</line></zone>
 
 
-</surface><surface n="f29v">     <note type="inline"> $Q=D $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f29v" type="verso">     <note type="inline">$Q=D $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 56</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1949,7 +1972,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0">qekeochor.otchey.s,y</line></zone>
 
 
-</surface><surface n="f30r">     <note type="inline"> $Q=D $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f30r" type="recto">     <note type="inline">$Q=D $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 57</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1972,7 +1995,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">chodaiin.chtchey.chear.shy,keey</line></zone>
 
 
-</surface><surface n="f30v">     <note type="inline"> $Q=D $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f30v" type="verso">     <note type="inline">$Q=D $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 58</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -1991,7 +2014,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">sol.chokcheey.daiin.kchydy</line></zone>
 
 
-</surface><surface n="f31r">     <note type="inline"> $Q=D $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f31r" type="recto">     <note type="inline">$Q=D $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 59</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -2017,7 +2040,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #Pc">oteor.aiicthy</line></zone>
 
 
-</surface><surface n="f31v">     <note type="inline"> $Q=D $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f31v" type="verso">     <note type="inline">$Q=D $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 60</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -2037,7 +2060,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">saiin.ar.ckheos.chedy.okeey.qoear.oraiin.cheam</line></zone>
 
 
-</surface><surface n="f32r">     <note type="inline"> $Q=D $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
+</surface><surface n="f32r" type="recto">     <note type="inline">$Q=D $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
 <label>PAGE 61</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -2066,7 +2089,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="19" rendition="#Ad #P0">dol.dchol.dan</line></zone>
 
 
-</surface><surface n="f32v">     <note type="inline"> $Q=D $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f32v" type="verso">     <note type="inline">$Q=D $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 62</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -2089,7 +2112,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">ol.sho.chy</line></zone>
 
 
-</surface><surface n="f33r">     <note type="inline"> $Q=E $P=A $F=a $B=1 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f33r" type="recto">     <note type="inline">$Q=E $P=A $F=a $B=1 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 63</label>
 <note type="outline">Currier's language B, hand 2</note>
 <label>HERBAL</label>
@@ -2103,7 +2126,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="7" rendition="#Ad #P0">dar.chos.aiin.or.aiin.cheekaiin.okain.ar.okeeey</line></zone>
 
 
-</surface><surface n="f33v">     <note type="inline"> $Q=E $P=B $F=a $B=1 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f33v" type="verso">     <note type="inline">$Q=E $P=B $F=a $B=1 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 64</label>
 <note type="outline">Currier's language B, hand 2</note>
 <label>HERBAL</label>
@@ -2124,7 +2147,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">tar.al.keey.oram</line></zone>
 
 
-</surface><surface n="f34r">     <note type="inline"> $Q=E $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f34r" type="recto">     <note type="inline">$Q=E $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 65</label>
 <note type="outline">Currier's language B, hand 2</note>
 <label>HERBAL</label>
@@ -2153,7 +2176,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="15" rendition="#Ad #P0">sair.chekar.cheky.shek<figure/>cholchedy.qokedy.yk,cheolchcthy</line></zone>
 
 
-</surface><surface n="f34v">     <note type="inline"> $Q=E $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f34v" type="verso">     <note type="inline">$Q=E $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 66</label>
 <note type="outline">Currier's language B, hand 2</note>
 <label>HERBAL</label>
@@ -2173,7 +2196,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">yshos.ody.s.aiin.okey.okal,shedy</line></zone>
 
 
-</surface><surface n="f35r">     <note type="inline"> $Q=E $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f35r" type="recto">     <note type="inline">$Q=E $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 67</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -2197,7 +2220,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="15" rendition="#Ad #P0">ochor.s.chiin.daiin.ytain</line></zone>
 
 
-</surface><surface n="f35v">     <note type="inline"> $Q=E $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f35v" type="verso">     <note type="inline">$Q=E $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 68</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -2227,7 +2250,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="21" rendition="#Ad #P0">doiin.chor.chor</line></zone>
 
 
-</surface><surface n="f36r">     <note type="inline"> $Q=E $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f36r" type="recto">     <note type="inline">$Q=E $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 69</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -2245,7 +2268,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">ytodaly.daiin.otaro</line></zone>
 
 
-</surface><surface n="f36v">     <note type="inline"> $Q=E $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f36v" type="verso">     <note type="inline">$Q=E $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 70</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -2268,7 +2291,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #P1">soiin.chtain</line></zone>
 
 
-</surface><surface n="f37r">     <note type="inline"> $Q=E $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f37r" type="recto">     <note type="inline">$Q=E $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 71</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -2290,7 +2313,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">okchor.daiin.ckhy.dain.daiin</line></zone>
 
 
-</surface><surface n="f37v">     <note type="inline"> $Q=E $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f37v" type="verso">     <note type="inline">$Q=E $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 72</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -2323,7 +2346,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="23" rendition="#Ad #P0">yto.chol.daiin</line></zone>
 
 
-</surface><surface n="f38r">     <note type="inline"> $Q=E $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f38r" type="recto">     <note type="inline">$Q=E $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 73</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -2336,7 +2359,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="6" rendition="#Ad #P0">ysho.sho.kos<figure/>daiin.okoy.chochor.daiin</line></zone>
 
 
-</surface><surface n="f38v">     <note type="inline"> $Q=E $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f38v" type="verso">     <note type="inline">$Q=E $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 74</label>
 <note type="outline">Currier's language A, hand 1</note>
 <label>HERBAL</label>
@@ -2352,7 +2375,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="8" rendition="#Ad #P0">o,aiin.char.chshol.chokaiin</line></zone>
 
 
-</surface><surface n="f39r">     <note type="inline"> $Q=E $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f39r" type="recto">     <note type="inline">$Q=E $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 75</label>
 <note type="outline">Currier's language B, hand 2</note>
 <label>HERBAL</label>
@@ -2379,7 +2402,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #Pc">oteol.cholkal.qokal.dar.ykdy</line></zone>
 
 
-</surface><surface n="f39v">     <note type="inline"> $Q=E $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f39v" type="verso">     <note type="inline">$Q=E $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 76</label>
 <note type="outline">Currier's language B, hand 2</note>
 <label>HERBAL</label>
@@ -2402,7 +2425,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #P0">tar,aiin.okaiin.cholody</line></zone>
 
 
-</surface><surface n="f40r">     <note type="inline"> $Q=E $P=O $F=z $B=1 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f40r" type="recto">     <note type="inline">$Q=E $P=O $F=z $B=1 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 77</label>
 <note type="outline">Currier's language B, hand 2</note>
 <label>HERBAL</label>
@@ -2422,7 +2445,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">toar.ykaiin.ory.dal</line></zone>
 
 
-</surface><surface n="f40v">     <note type="inline"> $Q=E $P=P $F=z $B=1 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f40v" type="verso">     <note type="inline">$Q=E $P=P $F=z $B=1 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 78</label>
 <note type="outline">Currier's language B, hand 2</note>
 <label>HERBAL</label>
@@ -2451,7 +2474,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="19" rendition="#Ad #Pc">pchedy.chetar.ofair.arody</line></zone>
 
 
-</surface><surface n="f41r">     <note type="inline"> $Q=F $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
+</surface><surface n="f41r" type="recto">     <note type="inline">$Q=F $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
 <label>PAGE 79</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -2472,7 +2495,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">ykeod.ykeedy.chekeedy.cheked</line></zone>
 
 
-</surface><surface n="f41v">     <note type="inline"> $Q=F $P=B $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
+</surface><surface n="f41v" type="verso">     <note type="inline">$Q=F $P=B $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
 <label>PAGE 80</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -2489,7 +2512,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="8" rendition="#Ad #P0">daiin.olkeeo.lkol,chedy.okeey</line></zone>
 
 
-</surface><surface n="f42r">     <note type="inline"> $Q=F $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f42r" type="recto">     <note type="inline">$Q=F $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 81</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -2524,7 +2547,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="23" rendition="#Ad #Pr">okchol,shol.kolschees</line></zone>
 
 
-</surface><surface n="f42v">     <note type="inline"> $Q=F $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f42v" type="verso">     <note type="inline">$Q=F $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 82</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 1</note>
@@ -2549,7 +2572,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Aq #Pt">okor.odeey</line></zone>
 
 
-</surface><surface n="f43r">     <note type="inline"> $Q=F $P=E $F=c $B=3 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f43r" type="recto">     <note type="inline">$Q=F $P=E $F=c $B=3 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 83</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -2573,7 +2596,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #P0">ykeody.checkhy.choteey.odain.ch{ckhhh}y.chokoraiin</line></zone>
 
 
-</surface><surface n="f43v">     <note type="inline"> $Q=F $P=F $F=c $B=3 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f43v" type="verso">     <note type="inline">$Q=F $P=F $F=c $B=3 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 84</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -2599,7 +2622,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #P0">ol.eees.aiin.oloaiin.oteos.qoky.chey</line></zone>
 
 
-</surface><surface n="f44r">     <note type="inline"> $Q=F $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f44r" type="recto">     <note type="inline">$Q=F $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 85</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language A, hand 1</note>
@@ -2620,7 +2643,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">ytsho.qockhy.okchody</line></zone>
 
 
-</surface><surface n="f44v">     <note type="inline"> $Q=F $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f44v" type="verso">     <note type="inline">$Q=F $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 86</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language A, hand 1</note>
@@ -2642,7 +2665,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">lchor.shol.dairl</line></zone>
 
 
-</surface><surface n="f45r">     <note type="inline"> $Q=F $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f45r" type="recto">     <note type="inline">$Q=F $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 87</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language A, hand 1</note>
@@ -2662,7 +2685,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">l.okaiin.okcho.laldan.daldaiin</line></zone>
 
 
-</surface><surface n="f45v">     <note type="inline"> $Q=F $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f45v" type="verso">     <note type="inline">$Q=F $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 88</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language A, hand 1</note>
@@ -2683,7 +2706,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">or,chor.ytchy.doiin.dcholdy</line></zone>
 
 
-</surface><surface n="f46r">     <note type="inline"> $Q=F $P=K $F=x $B=3 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f46r" type="recto">     <note type="inline">$Q=F $P=K $F=x $B=3 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 89</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language B, hand 2</note>
@@ -2710,7 +2733,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="15" rendition="#Ad #P0">qokar.shol,kal.[a:o]lkeody</line></zone>
 
 
-</surface><surface n="f46v">     <note type="inline"> $Q=F $P=L $F=x $B=3 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f46v" type="verso">     <note type="inline">$Q=F $P=L $F=x $B=3 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 90</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language B, hand 2</note>
@@ -2731,7 +2754,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P1">ykar.chedy</line></zone>
 
 
-</surface><surface n="f47r">     <note type="inline"> $Q=F $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f47r" type="recto">     <note type="inline">$Q=F $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 91</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language A, hand 1</note>
@@ -2751,7 +2774,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">dsho.cphy.daiin.daiiny</line></zone>
 
 
-</surface><surface n="f47v">     <note type="inline"> $Q=F $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f47v" type="verso">     <note type="inline">$Q=F $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 92</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language A, hand 1</note>
@@ -2775,7 +2798,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #P0">chol.{ct}chey</line></zone>
 
 
-</surface><surface n="f48r">     <note type="inline"> $Q=F $P=O $F=z $B=1 $I=H $L=B $H=5 $C=2</note>
+</surface><surface n="f48r" type="recto">     <note type="inline">$Q=F $P=O $F=z $B=1 $I=H $L=B $H=5 $C=2</note>
 <label>PAGE 93</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language B, hand 2</note>
@@ -2792,7 +2815,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #Pc">yteched.ar.olkey.okeoam</line></zone>
 
 
-</surface><surface n="f48v">     <note type="inline"> $Q=F $P=P $F=z $B=1 $I=H $L=B $H=5 $C=2</note>
+</surface><surface n="f48v" type="verso">     <note type="inline">$Q=F $P=P $F=z $B=1 $I=H $L=B $H=5 $C=2</note>
 <label>PAGE 94</label>
 <label>HERBAL</label>
 <note type="outline">Curriers language B, hand 2</note>
@@ -2813,7 +2836,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">ykeedal.chckhy<figure/>ykal.y,tam.or.cheedls.[s:d]ary</line></zone>
 
 
-</surface><surface n="f49r">     <note type="inline"> $Q=G $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f49r" type="recto">     <note type="inline">$Q=G $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>HERBAL</label>
 <label>PAGE 95</label>
 <note type="outline">Curriers language A, hand 1</note>
@@ -2845,7 +2868,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="21" rendition="#Ad #P0">odch[o:y].chor.ety.shol</line></zone>
 
 
-</surface><surface n="f49v">     <note type="inline"> $Q=G $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=S</note>
+</surface><surface n="f49v" type="verso">     <note type="inline">$Q=G $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=S</note>
 <label>PAGE 96</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -2910,7 +2933,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="52" rendition="#Aq #P0">ykchokeo.r.cheey.daiin</line></zone>
 
 
-</surface><surface n="f50r">     <note type="inline"> $Q=G $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f50r" type="recto">     <note type="inline">$Q=G $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 97</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B,  hand 2</note>
@@ -2928,7 +2951,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #P0">solkaiin<figure/>opalke,chckhy.darin.chky</line></zone>
 
 
-</surface><surface n="f50v">     <note type="inline"> $Q=G $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f50v" type="verso">     <note type="inline">$Q=G $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 98</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B,  hand 2</note>
@@ -2947,7 +2970,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">lchey.kar.ykchy.kchdy</line></zone>
 
 
-</surface><surface n="f51r">     <note type="inline"> $Q=G $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f51r" type="recto">     <note type="inline">$Q=G $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 99</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -2970,7 +2993,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="15" rendition="#Ad #P0">qokol.cheor.ckhal.s.or.aldy<figure/>otal</line></zone>
 
 
-</surface><surface n="f51v">     <note type="inline"> $Q=G $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f51v" type="verso">     <note type="inline">$Q=G $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 100</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -2991,7 +3014,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">daiin.cheol.cheodain</line></zone>
 
 
-</surface><surface n="f52r">     <note type="inline"> $Q=G $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f52r" type="recto">     <note type="inline">$Q=G $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 101</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -3007,7 +3030,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="8" rendition="#Ad #P0">or,cheey.dor.shey.kom.s.cheey.dch[o:a]m.daiin</line></zone>
 
 
-</surface><surface n="f52v">     <note type="inline"> $Q=G $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f52v" type="verso">     <note type="inline">$Q=G $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 102</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -3029,7 +3052,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="14" rendition="#Ad #P0">odar.cheokor.ckheey</line></zone>
 
 
-</surface><surface n="f53r">     <note type="inline"> $Q=G $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f53r" type="recto">     <note type="inline">$Q=G $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 103</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -3046,7 +3069,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">otol.chol.ctheees.os.orol.chod.qoty</line></zone>
 
 
-</surface><surface n="f53v">     <note type="inline"> $Q=G $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f53v" type="verso">     <note type="inline">$Q=G $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 104</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -3066,7 +3089,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">yckhodaiin.otoldy</line></zone>
 
 
-</surface><surface n="f54r">     <note type="inline"> $Q=G $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f54r" type="recto">     <note type="inline">$Q=G $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 105</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -3087,7 +3110,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0">yor.shodal.o.aiin.al.dol.choek,air,o,ldam</line></zone>
 
 
-</surface><surface n="f54v">     <note type="inline"> $Q=G $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f54v" type="verso">     <note type="inline">$Q=G $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 106</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -3111,7 +3134,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #P0">daiin.chol.oldaiin</line></zone>
 
 
-</surface><surface n="f55r">     <note type="inline"> $Q=G $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f55r" type="recto">     <note type="inline">$Q=G $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 107</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B,  hand 2</note>
@@ -3132,7 +3155,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">lchdal.ockhy.daiin.otol.otar.shar,ain</line></zone>
 
 
-</surface><surface n="f55v">     <note type="inline"> $Q=G $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
+</surface><surface n="f55v" type="verso">     <note type="inline">$Q=G $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
 <label>PAGE 108</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B,  hand 2</note>
@@ -3154,7 +3177,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0">daiin.[a:o]r.cheky.olkeechy.sl<figure/>ar.aiin.daiin.otam</line></zone>
 
 
-</surface><surface n="f56r">     <note type="inline"> $Q=G $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f56r" type="recto">     <note type="inline">$Q=G $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 109</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -3183,7 +3206,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="19" rendition="#Ad #P0">otchey.keol.daiin</line></zone>
 
 
-</surface><surface n="f56v">     <note type="inline"> $Q=G $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
+</surface><surface n="f56v" type="verso">     <note type="inline">$Q=G $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
 <label>PAGE 110</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A,  hand 1</note>
@@ -3208,7 +3231,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #P0">s,o,kchol.chol.chol.daiin</line></zone>
 
 
-</surface><surface n="f57r">     <note type="inline"> $Q=H $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
+</surface><surface n="f57r" type="recto">     <note type="inline">$Q=H $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
 <label>PAGE 111</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B,  hand 2</note>
@@ -3227,7 +3250,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">dshedy.{ct}echy.cphedam</line></zone>
 
 
-</surface><surface n="f57v">     <note type="inline"> $Q=H $P=B $F=a $B=1 $I=C $H=1</note>
+</surface><surface n="f57v" type="verso">     <note type="inline">$Q=H $P=B $F=a $B=1 $I=C $H=1</note>
 <label>PAGE 112</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">Currier's language B,  hand 2 (???)</note>
@@ -3256,7 +3279,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 
 <note type="outline">Symbol in lower right corner: <g ref="#u00ff">ÿ</g></note>
 
-</surface><surface n="f58r">     <note type="inline"> $Q=H $P=C $F=b $B=2 $I=S $L=A $H=3</note>
+</surface><surface n="f58r" type="recto">     <note type="inline">$Q=H $P=C $F=b $B=2 $I=S $L=A $H=3</note>
 <label>PAGE 113</label>
 <label>TEXT ONLY</label>
 <note type="outline">Currier's language A</note>
@@ -3313,7 +3336,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="41" rendition="#Ad #P0">dchol.chokal.saiin.dal.okal,s,alchey</line></zone>
 
 
-</surface><surface n="f58v">     <note type="inline"> $Q=H $P=D $F=b $B=2 $I=S $L=A $H=3</note>
+</surface><surface n="f58v" type="verso">     <note type="inline">$Q=H $P=D $F=b $B=2 $I=S $L=A $H=3</note>
 <label>PAGE 114</label>
 <label>TEXT ONLY</label>
 <note type="outline">Currier's language A</note>
@@ -3370,7 +3393,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <note type="outline">folios 59-64 are missing</note>
 
 
-</surface><surface n="f65r">     <note type="inline"> $Q=H $P=E $F=y $B=2 $I=H $H=3</note>
+</surface><surface n="f65r" type="recto">     <note type="inline">$Q=H $P=E $F=y $B=2 $I=H $H=3</note>
 <label>PAGE 115</label>
 <label>HERBAL</label>
 <note type="outline">Plant with only two or three words next to it,</note>
@@ -3379,7 +3402,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="1" rendition="#At #Lp">otaim,dam.alam</line>
 
 
-</surface><surface n="f65v">     <note type="inline"> $Q=H $P=F $F=y $B=2 $I=H $H=3</note>
+</surface><surface n="f65v" type="verso">     <note type="inline">$Q=H $P=F $F=y $B=2 $I=H $H=3</note>
 <label>PAGE 116</label>
 <label>HERBAL</label>
 <note type="outline">appears as Plate II in Newbold facing p44.</note>
@@ -3397,7 +3420,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="6" rendition="#Ad #P0">qo.ytchey.sh,{ckhh}cphy<figure/>ykchedy.chedy.shckhdy</line></zone>
 
 
-</surface><surface n="f66r">     <note type="inline"> $Q=H $P=G $F=z $B=1 $I=T $L=B $H=5 $X=O</note>
+</surface><surface n="f66r" type="recto">     <note type="inline">$Q=H $P=G $F=z $B=1 $I=T $L=B $H=5 $X=O</note>
 <label>PAGE 117</label>
 <label>TEXT ONLY</label>
 <note type="outline">Currier's language B</note>
@@ -3510,7 +3533,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="82" rendition="#At #Lx">otcheo,daiin.chty.ykees,cheg</line>
 
 
-</surface><surface n="f66v">     <note type="inline"> $Q=H $P=H $F=z $B=1 $I=H $L=B $H=5</note>
+</surface><surface n="f66v" type="verso">     <note type="inline">$Q=H $P=H $F=z $B=1 $I=H $L=B $H=5</note>
 <label>PAGE 118</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B</note>
@@ -3536,7 +3559,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">ydees.shey.daiin.dalkal<figure/>ykedaiin.shedar.ok[ch:ee]dy.oty</line></zone>
 
 
-</surface><surface n="f67r1">    <note type="inline"> $Q=I $P=B $F=a $B=1 $I=A $H=4</note>
+</surface><surface n="f67r1">    <note type="inline">$Q=I $P=B $F=a $B=1 $I=A $H=4</note>
 <label>PAGE 119, 120</label>
 <label>ASTRONOMICAL</label>
 <note type="outline">"moon @ circles"</note>
@@ -3569,7 +3592,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="19" rendition="#At #Ri">dalary</line>
 
 
-</surface><surface n="f67r2">    <note type="inline"> $Q=I $P=C $F=a $B=1 $I=A $H=4</note>
+</surface><surface n="f67r2">    <note type="inline">$Q=I $P=C $F=a $B=1 $I=A $H=4</note>
 <label>PAGE 121, 124</label>
 <label>ASTRONOMICAL</label>
 <note type="outline">General description of page:</note>
@@ -3669,7 +3692,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="74" rendition="#Ad #P0">yshey.qokeeody.cheos.oeeos.qockhy.chos.aiin.okeeody.qokoaiin.odain.ar.air.ay</line></zone>
 
 
-</surface><surface n="f67v2">    <note type="inline"> $Q=I $P=E $F=a $B=1 $I=C $H=4</note>
+</surface><surface n="f67v2">    <note type="inline">$Q=I $P=E $F=a $B=1 $I=C $H=4</note>
 <label>PAGE 122</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">Roe, 6th September 1993</note>
@@ -3728,7 +3751,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="22" rendition="#At #La">okchos,am</line>
 
 
-</surface><surface n="f67v1">    <note type="inline"> $Q=I $P=F $F=a $B=1 $I=A $H=4</note>
+</surface><surface n="f67v1">    <note type="inline">$Q=I $P=F $F=a $B=1 $I=A $H=4</note>
 <label>PAGE 123</label>
 <label>ASTRONOMICAL</label>
 <note type="outline">General description of page:</note>
@@ -3773,7 +3796,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="29" rendition="#At #Ro">olar.aroky</line>
 
 
-</surface><surface n="f68r1">    <note type="inline"> $Q=I $P=H $F=z $B=1 $I=A $H=4</note>
+</surface><surface n="f68r1">    <note type="inline">$Q=I $P=H $F=z $B=1 $I=A $H=4</note>
 <label>PAGE 125</label>
 <label>ASTRONOMICAL</label>
 <note type="outline">Has star names</note>
@@ -3824,7 +3847,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="37" rendition="#At #Cc"><note type="inline">08:30</note>oky.okchdy.okardy.q[?:k]ear.oygy</line>
 
 
-</surface><surface n="f68r2">    <note type="inline"> $Q=I $P=I $F=z $B=1 $I=A $H=4</note>
+</surface><surface n="f68r2">    <note type="inline">$Q=I $P=I $F=z $B=1 $I=A $H=4</note>
 <label>PAGE 126</label>
 <label>ASTRONOMICAL</label>
 <note type="outline">General description of page:</note>
@@ -3876,7 +3899,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="31" rendition="#At #Cc"><note type="inline">09:30</note>okey.okoaiin.okol.o,ky.oeeeo.r.okey.okeeol.cheo.o.<g ref="#u00e7">ç</g><g ref="#u00e8">è</g><g ref="#u00e9">é</g><g ref="#u00ea">ê</g></line>
 
 
-</surface><surface n="f68r3">    <note type="inline"> $Q=I $P=J $F=z $B=1 $I=A $H=4</note>
+</surface><surface n="f68r3">    <note type="inline">$Q=I $P=J $F=z $B=1 $I=A $H=4</note>
 <label>PAGE 127</label>
 <label>ASTRONOMICAL</label>
 <note type="outline">General description of page:</note>
@@ -3916,7 +3939,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="22" rendition="#At #Cc"><note type="inline">09:30</note>otcheody.chokchy.okol.cheol.dar.cho.keol.dolaiin.okeol.oly</line>
 
 
-</surface><surface n="f68v3">    <note type="inline"> $Q=I $P=L $F=z $B=1 $I=C $H=4</note>
+</surface><surface n="f68v3">    <note type="inline">$Q=I $P=L $F=z $B=1 $I=C $H=4</note>
 <label>PAGE 128</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">The 'Spiral Nebula'</note>
@@ -3953,7 +3976,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="19" rendition="#Ad #Pb">ykeol.ctheepoey.dar</line></zone>
 
 
-</surface><surface n="f68v2">    <note type="inline"> $Q=I $P=M $F=z $B=1 $I=A $H=4</note>
+</surface><surface n="f68v2">    <note type="inline">$Q=I $P=M $F=z $B=1 $I=A $H=4</note>
 <label>PAGE 129</label>
 <label>ASTRONOMICAL</label>
 <note type="outline">Brumbaugh p41, called f.68r by him.</note>
@@ -3982,7 +4005,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="18" rendition="#At #Ro">choteey.dary</line>
 
 
-</surface><surface n="f68v1">    <note type="inline"> $Q=I $P=N $F=z $B=1 $I=A $H=4</note>
+</surface><surface n="f68v1">    <note type="inline">$Q=I $P=N $F=z $B=1 $I=A $H=4</note>
 <label>PAGE 130</label>
 <label>ASTRONOMICAL</label>
 <note type="outline">General description of page:</note>
@@ -4004,7 +4027,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#At #Ro">oteodain.sam</line>
 
 
-</surface><surface n="f69r">     <note type="inline"> $Q=J $P=A $F=a $B=1 $I=C $H=4</note>
+</surface><surface n="f69r" type="recto">     <note type="inline">$Q=J $P=A $F=a $B=1 $I=C $H=4</note>
 <label>PAGE 131</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">'organ pipes' radiating out from a small circle with a star in the middle.</note>
@@ -4070,7 +4093,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="49" rendition="#At #L0"><note type="inline">6</note>e[d:g]</line>
 
 
-</surface><surface n="f69v">     <note type="inline"> $Q=J $P=B $F=a $B=1 $I=C $H=4</note>
+</surface><surface n="f69v" type="verso">     <note type="inline">$Q=J $P=B $F=a $B=1 $I=C $H=4</note>
 <label>PAGE 132</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">Three bands of circular text. Text assumed to start</note>
@@ -4110,7 +4133,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="31" rendition="#At #Ri"><note type="inline">08:45</note>oar.alys</line>
 
 
-</surface><surface n="f70r1">    <note type="inline"> $Q=J $P=D $F=z $B=1 $I=C $H=4</note>
+</surface><surface n="f70r1">    <note type="inline">$Q=J $P=D $F=z $B=1 $I=C $H=4</note>
 <label>PAGE 133</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">Two bands of circular text.</note>
@@ -4143,7 +4166,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="19" rendition="#At #Ri"><note type="inline">08:30</note>okasd</line>
 
 
-</surface><surface n="f70r2">    <note type="inline"> $Q=J $P=E $F=z $B=1 $I=C $H=4</note>
+</surface><surface n="f70r2">    <note type="inline">$Q=J $P=E $F=z $B=1 $I=C $H=4</note>
 <label>PAGE 134</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">Face in centre, with 8 lozenges around it. Four large</note>
@@ -4175,7 +4198,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="19" rendition="#At #Cc"><note type="inline">12:00</note>oteesy.ol,chy.oteo.sal.ol.keey.oteol.choky.otcho[sh:ch]a</line>
 
 
-</surface><surface n="f70v2">    <note type="inline"> $Q=J $P=G $F=z $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f70v2">    <note type="inline">$Q=J $P=G $F=z $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 135</label>
 <label>PISCES</label>
 
@@ -4232,7 +4255,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="33" rendition="#At #Lz">otolal</line>
 
 
-</surface><surface n="f70v1">    <note type="inline"> $Q=J $P=H $F=z $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f70v1">    <note type="inline">$Q=J $P=H $F=z $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 136</label>
 <label>ARIES (DARK)</label>
 <note type="outline">Gathering mark 10</note>
@@ -4265,7 +4288,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="17" rendition="#An #Lz"><note type="inline">08:00</note>otear.araydy</line>
 
 
-</surface><surface n="f71r">     <note type="inline"> $Q=K $P=A $F=a $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f71r" type="recto">     <note type="inline">$Q=K $P=A $F=a $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 137</label>
 <label>ARIES (LIGHT)</label>
 
@@ -4295,7 +4318,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="18" rendition="#At #Cc"><note type="inline">10:00</note>oteeol.otal,chs.char.cheky.chotshy.okeeody.oteey.chekea'.okeol</line>
 
 
-</surface><surface n="f71v">     <note type="inline"> $Q=K $P=B $F=a $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f71v" type="verso">     <note type="inline">$Q=K $P=B $F=a $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 138</label>
 <label>TAURUS (LIGHT)</label>
 
@@ -4336,7 +4359,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="18" rendition="#At #Cc"><note type="inline">11:30</note>okeey.okeosar.otaiin.chkeeal.okal.cheekaiin.okaiin.okchor.dar.oteey.kal</line>
 
 
-</surface><surface n="f72r1">    <note type="inline"> $Q=K $P=D $F=z $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f72r1">    <note type="inline">$Q=K $P=D $F=z $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 139</label>
 <label>TAURUS (DARK)</label>
 <note type="outline">Three rings of circular text, locus indications C1 to C3 (outer</note>
@@ -4365,7 +4388,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="18" rendition="#At #Cc"><note type="inline">11:30</note>okeeols.aroly.okees.alaiin.okeor.chol.o.oteos.aiin.chal.otaiin.[a:o]tchor.chckhy</line>
 
 
-</surface><surface n="f72r2">    <note type="inline"> $Q=K $P=E $F=z $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f72r2">    <note type="inline">$Q=K $P=E $F=z $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 140</label>
 <label>GEMINI</label>
 <note type="outline">Three rings of circular text, locus indications C1 to C3 (outer</note>
@@ -4415,7 +4438,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="32" rendition="#At #Cc"><note type="inline">09:30</note>otoar.air,aloy.oka[iin:ii?].otees.chs.chchs,ar.aly.taly.dar.otchey.okaiin.olaiin.<g ref="#u00d3">Ó</g>y</line>
 
 
-</surface><surface n="f72r3">    <note type="inline"> $Q=K $P=F $F=z $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f72r3">    <note type="inline">$Q=K $P=F $F=z $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 141</label>
 <label>CANCER</label>
 <note type="outline">Four circular bands, locus indications C1 to C4 (outer</note>
@@ -4462,7 +4485,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="34" rendition="#At #Cc"><note type="inline">09:00</note>okeos.aiin,olaiin.oraiin.octheolarl.okeeody.oteos.aiin,koly</line>
 
 
-</surface><surface n="f72v3">    <note type="inline"> $Q=K $P=H $F=z $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f72v3">    <note type="inline">$Q=K $P=H $F=z $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 142</label>
 <label>LEO</label>
 <note type="outline">Three circular bands, locus indications C1 to C3 (outer</note>
@@ -4508,7 +4531,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="33" rendition="#At #Cc"><note type="inline">08:45</note>okesee[s:r],ar,chkeeol.okeolaiin.chalal.ykeeodarar.oleeody,shedy.solar.aldy.oteor.cheor</line>
 
 
-</surface><surface n="f72v2">    <note type="inline"> $Q=K $P=I $F=z $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f72v2">    <note type="inline">$Q=K $P=I $F=z $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 143</label>
 <label>VIRGO</label>
 <note type="outline">Three circular bands, locus indications C1 to C3 (outer</note>
@@ -4554,7 +4577,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="33" rendition="#At #Cc"><note type="inline">09:00</note>otaiin.otshedy.chokeedy.otes,al,al,ar.chetolain.sheodaly.sheokey.okealy.rary</line>
 
 
-</surface><surface n="f72v1">    <note type="inline"> $Q=K $P=J $F=z $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f72v1">    <note type="inline">$Q=K $P=J $F=z $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 144</label>
 <label>LIBRA</label>
 <note type="outline">Three circular bands, locus indications C1 to C3 (outer</note>
@@ -4602,7 +4625,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="33" rendition="#At #Cc"><note type="inline">09:30</note>otalal.dalal.ykeols.oteo,r,aiin.yotoam.oteey.saiin.oteeos,am</line>
 
 
-</surface><surface n="f73r">     <note type="inline"> $Q=L $P=A $F=a $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f73r" type="recto">     <note type="inline">$Q=L $P=A $F=a $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 145</label>
 <label>SCORPIUS</label>
 <note type="outline">Three circular bands, locus indications C1 to C3 (outer</note>
@@ -4648,7 +4671,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="33" rendition="#At #Cc"><note type="inline">10:00</note>osaiin.chedain.oteey.chedaly.okechs.chepcheesaly.oteodal</line>
 
 
-</surface><surface n="f73v">     <note type="inline"> $Q=L $P=B $F=a $B=1 $I=Z $H=4 $X=M</note>
+</surface><surface n="f73v" type="verso">     <note type="inline">$Q=L $P=B $F=a $B=1 $I=Z $H=4 $X=M</note>
 <label>PAGE 146</label>
 <label>SAGITTARIUS</label>
 <note type="outline">Three circular bands, locus indications C1 to C3 (outer</note>
@@ -4697,7 +4720,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <note type="outline">folio 74 missing</note>
 
 
-</surface><surface n="f75r">     <note type="inline"> $Q=M $P=A $F=a $B=1 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f75r" type="recto">     <note type="inline">$Q=M $P=A $F=a $B=1 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 147</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -4762,7 +4785,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="53" rendition="#Ad #Pb">dainy</line></zone>
 
 
-</surface><surface n="f75v">     <note type="inline"> $Q=M $P=B $F=a $B=1 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f75v" type="verso">     <note type="inline">$Q=M $P=B $F=a $B=1 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 148</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -4851,7 +4874,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="70" rendition="#Ad #P1">qokey.olchedy.otey.orol</line></zone>
 
 
-</surface><surface n="f76r">     <note type="inline"> $Q=M $P=C $F=b $B=2 $I=T $L=B $H=2 $C=2 $X=S</note>
+</surface><surface n="f76r" type="recto">     <note type="inline">$Q=M $P=C $F=b $B=2 $I=T $L=B $H=2 $C=2 $X=S</note>
 <label>PAGE 149</label>
 <label>TEXT ONLY</label>
 <note type="outline">reversed in Brumbaugh p114</note>
@@ -4920,7 +4943,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="56" rendition="#Ad #P0">qokaiin.ol.shedy.qokeey.or.shdy</line></zone>
 
 
-</surface><surface n="f76v">     <note type="inline"> $Q=M $P=D $F=b $B=2 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f76v" type="verso">     <note type="inline">$Q=M $P=D $F=b $B=2 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 150</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -4973,7 +4996,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="41" rendition="#Ad #P0">sol.shey.chedy.qokedy.chedy.qol.r.aiin.shedy</line></zone>
 
 
-</surface><surface n="f77r">     <note type="inline"> $Q=M $P=E $F=c $B=3 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f77r" type="recto">     <note type="inline">$Q=M $P=E $F=c $B=3 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 151</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Large blood vessels (GL)</note>
@@ -5035,7 +5058,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="50" rendition="#At #Lt">otolaiin,o</line>
 
 
-</surface><surface n="f77v">     <note type="inline"> $Q=M $P=F $F=c $B=3 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f77v" type="verso">     <note type="inline">$Q=M $P=F $F=c $B=3 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 152</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's  language B, hand 2</note>
@@ -5095,7 +5118,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="45" rendition="#At #Ln">o?eoedu</line>
 
 
-</surface><surface n="f78r">     <note type="inline"> $Q=M $P=G $F=d $B=4 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f78r" type="recto">     <note type="inline">$Q=M $P=G $F=d $B=4 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 153</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Newbold plate V, Kraus XXIX, Kraus Autobiog p220</note>
@@ -5154,7 +5177,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="47" rendition="#At #Lt"><note type="inline">22</note>okaral</line>
 
 
-</surface><surface n="f78v">     <note type="inline"> $Q=M $P=H $F=d $B=4 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f78v" type="verso">     <note type="inline">$Q=M $P=H $F=d $B=4 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 154</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -5196,7 +5219,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="32" rendition="#Ad #P0">lol.cheor.sheol.dy.qokar.otalor</line></zone>
 
 
-</surface><surface n="f79r">     <note type="inline"> $Q=M $P=I $F=e $B=5 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f79r" type="recto">     <note type="inline">$Q=M $P=I $F=e $B=5 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 155</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's  language B, hand 2</note>
@@ -5256,7 +5279,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="44" rendition="#Ad #P0">ody.aran.okeey.dar,cheory</line></zone>
 
 
-</surface><surface n="f79v">     <note type="inline"> $Q=M $P=J $F=e $B=5 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f79v" type="verso">     <note type="inline">$Q=M $P=J $F=e $B=5 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 156</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Guy p212, Bennett p188 (he calls it f 80), Poundstone p193, Zimansky;</note>
@@ -5314,7 +5337,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="42" rendition="#Ad #P0">okchedy.qokain.sheky.chedy.ol,ain,y,daral</line></zone>
 
 
-</surface><surface n="f80r">     <note type="inline"> $Q=M $P=K $F=v $B=5 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f80r" type="recto">     <note type="inline">$Q=M $P=K $F=v $B=5 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 157</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Guy p213 (who calls it f80v), Bennett p189</note>
@@ -5381,7 +5404,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="53" rendition="#Ad #P0">lol.eey.lchey.qokal.cheol.lchor.otlol</line></zone>
 
 
-</surface><surface n="f80v">     <note type="inline"> $Q=M $P=L $F=v $B=5 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f80v" type="verso">     <note type="inline">$Q=M $P=L $F=v $B=5 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 158</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -5440,7 +5463,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="44" rendition="#Ad #P0">qokal.orol</line></zone>
 
 
-</surface><surface n="f81r">     <note type="inline"> $Q=M $P=M $F=w $B=4 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f81r" type="recto">     <note type="inline">$Q=M $P=M $F=w $B=4 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 159</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Brumbaugh p9, Harper's; "hot tubs''</note>
@@ -5481,7 +5504,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="31" rendition="#Ad #P0">sol,shedy.ol.lchedy.shedy.shy.olkedy.ches.ar.or.oraiiin</line></zone>
 
 
-</surface><surface n="f81v">     <note type="inline"> $Q=M $P=N $F=w $B=4 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f81v" type="verso">     <note type="inline">$Q=M $P=N $F=w $B=4 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 160</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -5519,7 +5542,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="28" rendition="#At #Lt">otain.olkal</line>
 
 
-</surface><surface n="f82r">     <note type="inline"> $Q=M $P=O $F=x $B=3 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f82r" type="recto">     <note type="inline">$Q=M $P=O $F=x $B=3 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 161</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's language B, hand 2</note>
@@ -5577,7 +5600,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="45" rendition="#Aq #Ln">okeear</line>
 
 
-</surface><surface n="f82v">     <note type="inline"> $Q=M $P=P $F=x $B=3 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f82v" type="verso">     <note type="inline">$Q=M $P=P $F=x $B=3 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 162</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Brumbaugh p104; B's allegorical reproduction</note>
@@ -5640,7 +5663,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="48" rendition="#Ad #Lt">oteedy</line>
 
 
-</surface><surface n="f83r">     <note type="inline"> $Q=M $P=Q $F=y $B=2 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f83r" type="recto">     <note type="inline">$Q=M $P=Q $F=y $B=2 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 163</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's  language B, hand 2</note>
@@ -5711,7 +5734,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="55" rendition="#Ad #Pb">sol.rtain.cthal</line></zone>
 
 
-</surface><surface n="f83v">     <note type="inline"> $Q=M $P=R $F=y $B=2 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f83v" type="verso">     <note type="inline">$Q=M $P=R $F=y $B=2 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 164</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's  language B, hand 2</note>
@@ -5755,7 +5778,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="35" rendition="#At #Lt">okaiin</line>
 
 
-</surface><surface n="f84r">     <note type="inline"> $Q=M $P=S $F=z $B=1 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f84r" type="recto">     <note type="inline">$Q=M $P=S $F=z $B=1 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 165</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Newbold VI, Zimansky; Public baths</note>
@@ -5817,7 +5840,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="47" rendition="#At #Lt"><note type="inline">33</note>otaly</line>
 
 
-</surface><surface n="f84v">     <note type="inline"> $Q=M $P=T $F=z $B=1 $I=B $L=B $H=2 $C=2</note>
+</surface><surface n="f84v" type="verso">     <note type="inline">$Q=M $P=T $F=z $B=1 $I=B $L=B $H=2 $C=2</note>
 <label>PAGE 166</label>
 <label>BIOLOGICAL</label>
 <note type="outline">Currier's language B,  hand 2</note>
@@ -5882,7 +5905,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="51" rendition="#Ad #Pb">ochedy</line>
 
 
-</surface><surface n="f85r1">    <note type="inline"> $Q=N $P=B $F=a $B=1 $I=T $L=B $H=2 $C=3</note>
+</surface><surface n="f85r1">    <note type="inline">$Q=N $P=B $F=a $B=1 $I=T $L=B $H=2 $C=3</note>
 <label>PAGE 167</label>
 <label>TEXT ONLY</label>
 <note type="outline">Currier's language B, hand 3</note>
@@ -5935,7 +5958,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="35" rendition="#Ad #Pc">s,ar,chedar.olpchdy.otol.otchedy</line></zone>
 
 
-</surface><surface n="f85r2">    <note type="inline"> $Q=N $P=C $F=a $B=1 $I=C $L=B $H=2 $C=3</note>
+</surface><surface n="f85r2">    <note type="inline">$Q=N $P=C $F=a $B=1 $I=C $L=B $H=2 $C=3</note>
 <label>PAGE 171</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">Currier's language B, hand 3</note>
@@ -5974,7 +5997,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="24" rendition="#At #Cc"><note type="inline">09:30</note>okees.ochar.oted[o:a]r.ochedy.otody.olchedy.oteedo.ar.or.airol.otees.ar.aram</line>
 
 
-</surface><surface n="fRos">     <note type="inline"> $Q=N $P=D      $B=1 $I=C $L=B $H=4 $C=3</note>
+</surface><surface n="fRos">     <note type="inline">$Q=N $P=D      $B=1 $I=C $L=B $H=4 $C=3</note>
 
 <note type="outline">Part of 6-page 9-circle         85v2 86r4 86r6     1 4 7</note>
 <note type="outline">composite. Page and circle      85v1 86r3 86r5     2 5 8</note>
@@ -6174,7 +6197,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="160" rendition="#Ad #L0">che[?:o]ky</line>
 
 
-</surface><surface n="f86v4">    <note type="inline"> $Q=N $P=N $F=z $B=1 $I=C $L=B $H=2 $C=3</note>
+</surface><surface n="f86v4">    <note type="inline">$Q=N $P=N $F=z $B=1 $I=C $L=B $H=2 $C=3</note>
 <label>PAGE 168</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">Currier's language B, hand 3</note>
@@ -6197,7 +6220,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #Pc">dar.oleey.ol.yy</line></zone>
 
 
-</surface><surface n="f86v6">    <note type="inline"> $Q=N $P=O $F=z $B=1 $I=T $L=B $H=2 $C=3</note>
+</surface><surface n="f86v6">    <note type="inline">$Q=N $P=O $F=z $B=1 $I=T $L=B $H=2 $C=3</note>
 <label>PAGE 169</label>
 <label>TEXT ONLY</label>
 <note type="outline">Currier's language B, hand 3</note>
@@ -6252,7 +6275,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="45" rendition="#Ad #P0">paiin.otar.otolkshy.qokshey.ar.otalky.chear.ai[o:a]dam</line></zone>
 
 
-</surface><surface n="f86v5">    <note type="inline"> $Q=N $P=P $F=z $B=1 $I=T $L=B $H=2 $C=3</note>
+</surface><surface n="f86v5">    <note type="inline">$Q=N $P=P $F=z $B=1 $I=T $L=B $H=2 $C=3</note>
 <label>PAGE 172</label>
 <label>TEXT ONLY</label>
 <note type="outline">Currier's language B, hand 3</note>
@@ -6303,7 +6326,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="39" rendition="#Ad #Pr">yteody.chedy.qoteey.octhy.dy</line></zone>
 
 
-</surface><surface n="f86v3">    <note type="inline"> $Q=N $P=Q $F=z $B=1 $I=C $L=B $H=2 $C=3</note>
+</surface><surface n="f86v3">    <note type="inline">$Q=N $P=Q $F=z $B=1 $I=C $L=B $H=2 $C=3</note>
 <label>PAGE 173, 174</label>
 <label>COSMOLOGICAL</label>
 <note type="outline">Currier's language  B, hand  3</note>
@@ -6359,7 +6382,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="36" rendition="#Ad #Pb"><note type="inline">S</note>ykeeedy.qoteey.qodaiin.okeeey</line></zone>
 
 
-</surface><surface n="f87r">     <note type="inline"> $Q=O $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
+</surface><surface n="f87r" type="recto">     <note type="inline">$Q=O $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
 <label>PAGE 175</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 4</note>
@@ -6383,7 +6406,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #P0">yteeo[r:s].cheol.dcheeol</line></zone>
 
 
-</surface><surface n="f87v">     <note type="inline"> $Q=O $P=B $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
+</surface><surface n="f87v" type="verso">     <note type="inline">$Q=O $P=B $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
 <label>PAGE 180</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 4</note>
@@ -6408,7 +6431,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="16" rendition="#Ad #P0">saiin.olcthr<note type="inline">through plant</note></line></zone>
 
 
-</surface><surface n="f88r">     <note type="inline"> $Q=O $P=C $F=b $B=2 $I=P $L=A $H=1 $C=4</note>
+</surface><surface n="f88r" type="recto">     <note type="inline">$Q=O $P=C $F=b $B=2 $I=P $L=A $H=1 $C=4</note>
 <label>PAGE 181</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Washington Post, 5 Aug 62 (Sunday)</note>
@@ -6456,7 +6479,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="31" rendition="#Ad #P0">dar.chear.chol.dol.qoekeor.cheom</line></zone>
 
 
-</surface><surface n="f88v">     <note type="inline"> $Q=O $P=D $F=b $B=2 $I=P $L=A $H=1 $C=4</note>
+</surface><surface n="f88v" type="verso">     <note type="inline">$Q=O $P=D $F=b $B=2 $I=P $L=A $H=1 $C=4</note>
 <label>PAGE 182</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A, hand 4</note>
@@ -6499,7 +6522,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="30" rendition="#At #Lf">dararda[?:]</line>
 
 
-</surface><surface n="f89r1">    <note type="inline"> $Q=O $P=F $F=y $B=2 $I=P $L=A $H=1</note>
+</surface><surface n="f89r1">    <note type="inline">$Q=O $P=F $F=y $B=2 $I=P $L=A $H=1</note>
 <label>PAGE 183</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's  language A</note>
@@ -6538,7 +6561,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="27" rendition="#At #Lf">yd{cpo}dy</line>
 
 
-</surface><surface n="f89r2">    <note type="inline"> $Q=O $P=G $F=y $B=2 $I=P $L=A $H=1</note>
+</surface><surface n="f89r2">    <note type="inline">$Q=O $P=G $F=y $B=2 $I=P $L=A $H=1</note>
 <label>PAGE 184</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A</note>
@@ -6588,7 +6611,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="34" rendition="#At #Lf">otolarol</line>
 
 
-</surface><surface n="f89v2">    <note type="inline"> $Q=O $P=I $F=y $B=2 $I=P $L=A $H=1</note>
+</surface><surface n="f89v2">    <note type="inline">$Q=O $P=I $F=y $B=2 $I=P $L=A $H=1</note>
 <label>PAGE 185</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A</note>
@@ -6630,7 +6653,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="28" rendition="#At #Lf"><note type="inline">61</note>daseky</line>
 
 
-</surface><surface n="f89v1">    <note type="inline"> $Q=O $P=J $F=y $B=2 $I=P $L=A $H=1</note>
+</surface><surface n="f89v1">    <note type="inline">$Q=O $P=J $F=y $B=2 $I=P $L=A $H=1</note>
 <label>PAGE 186</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A</note>
@@ -6665,7 +6688,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="24" rendition="#At #Lf">opaldaiin</line>
 
 
-</surface><surface n="f90r1">    <note type="inline"> $Q=O $P=L $F=z $B=1 $I=H $L=A $H=1</note>
+</surface><surface n="f90r1">    <note type="inline">$Q=O $P=L $F=z $B=1 $I=H $L=A $H=1</note>
 <label>PAGE 187</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A</note>
@@ -6681,7 +6704,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #Pr">ykodar.qoekchy.shokol.okam</line></zone>
 
 
-</surface><surface n="f90r2">    <note type="inline"> $Q=O $P=M $F=z $B=1 $I=H $L=A $H=1</note>
+</surface><surface n="f90r2">    <note type="inline">$Q=O $P=M $F=z $B=1 $I=H $L=A $H=1</note>
 <label>PAGE 188</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A</note>
@@ -6694,7 +6717,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="6" rendition="#Ad #P0">daiin.qokor.okoiin.daiin</line></zone>
 
 
-</surface><surface n="f90v2">    <note type="inline"> $Q=O $P=O $F=z $B=1 $I=H $L=A $H=1</note>
+</surface><surface n="f90v2">    <note type="inline">$Q=O $P=O $F=z $B=1 $I=H $L=A $H=1</note>
 <label>PAGE 189</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A</note>
@@ -6712,7 +6735,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="8" rendition="#Ad #P0">teeas.qkeody.qokchy.oteeol.daiin</line></zone>
 
 
-</surface><surface n="f90v1">    <note type="inline"> $Q=O $P=P $F=z $B=1 $I=H $L=A $H=1</note>
+</surface><surface n="f90v1">    <note type="inline">$Q=O $P=P $F=z $B=1 $I=H $L=A $H=1</note>
 <label>PAGE 190</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A</note>
@@ -6736,7 +6759,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <note type="outline">folios  91-92 missing</note>
 
 
-</surface><surface n="f93r">     <note type="inline"> $Q=Q $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
+</surface><surface n="f93r" type="recto">     <note type="inline">$Q=Q $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
 <label>PAGE 191</label>
 <label>HERBAL</label>
 <note type="outline">Brumbaugh p80; O'Neill's "American Sunflower"</note>
@@ -6776,7 +6799,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="32" rendition="#Ad #P0">dol.chokal.schos</line></zone>
 
 
-</surface><surface n="f93v">     <note type="inline"> $Q=Q $P=B $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
+</surface><surface n="f93v" type="verso">     <note type="inline">$Q=Q $P=B $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
 <label>PAGE 192</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 4</note>
@@ -6793,7 +6816,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="10" rendition="#Ad #P0">ychol.chs.ckhy.s,cheeol</line></zone>
 
 
-</surface><surface n="f94r">     <note type="inline"> $Q=Q $P=C $F=b $B=2 $I=H $L=B $H=3 $C=5</note>
+</surface><surface n="f94r" type="recto">     <note type="inline">$Q=Q $P=C $F=b $B=2 $I=H $L=B $H=3 $C=5</note>
 <label>PAGE 193</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 5</note>
@@ -6810,7 +6833,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #Pc">otar,chdy.dytchdy</line></zone>
 
 
-</surface><surface n="f94v">     <note type="inline"> $Q=Q $P=D $F=b $B=2 $I=H $L=B $H=3 $C=5</note>
+</surface><surface n="f94v" type="verso">     <note type="inline">$Q=Q $P=D $F=b $B=2 $I=H $L=B $H=3 $C=5</note>
 <label>PAGE 194</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 5</note>
@@ -6831,7 +6854,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="12" rendition="#Ad #P0">daiin.chcthy.chdy.chckhy.okaiin</line></zone>
 
 
-</surface><surface n="f95r1">    <note type="inline"> $Q=Q $P=F $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
+</surface><surface n="f95r1">    <note type="inline">$Q=Q $P=F $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
 <label>PAGE 195</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 5</note>
@@ -6850,7 +6873,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="11" rendition="#Ad #P0">ykaiin.or.chdy.chekain.ol,dar.ykar.olkeey.ldar.chekal</line></zone>
 
 
-</surface><surface n="f95r2">    <note type="inline"> $Q=Q $P=G $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
+</surface><surface n="f95r2">    <note type="inline">$Q=Q $P=G $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
 <label>PAGE 196</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 5</note>
@@ -6867,7 +6890,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="9" rendition="#Ad #P0">poiin.okar.qokol.shsdy.okar.chdaiin.olky</line></zone>
 
 
-</surface><surface n="f95v2">    <note type="inline"> $Q=Q $P=I $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
+</surface><surface n="f95v2">    <note type="inline">$Q=Q $P=I $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
 <label>PAGE 197</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 5</note>
@@ -6882,7 +6905,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="7" rendition="#Ad #P0">qokeey.dar.chdykain<figure/>ytasal.otain</line></zone>
 
 
-</surface><surface n="f95v1">    <note type="inline"> $Q=Q $P=J $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
+</surface><surface n="f95v1">    <note type="inline">$Q=Q $P=J $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
 <label>PAGE 198</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language B, hand 5</note>
@@ -6906,7 +6929,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">lshee.qodain.okaiin.otody.chcthy</line></zone>
 
 
-</surface><surface n="f96r">     <note type="inline"> $Q=Q $P=K $F=z $B=1 $I=H $L=A $H=1 $C=4</note>
+</surface><surface n="f96r" type="recto">     <note type="inline">$Q=Q $P=K $F=z $B=1 $I=H $L=A $H=1 $C=4</note>
 <label>PAGE 199</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 4</note>
@@ -6927,7 +6950,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="13" rendition="#Ad #P0">oteodsho.qotchos</line></zone>
 
 
-</surface><surface n="f96v">     <note type="inline"> $Q=Q $P=L $F=z $B=1 $I=H $L=A $H=1 $C=4</note>
+</surface><surface n="f96v" type="verso">     <note type="inline">$Q=Q $P=L $F=z $B=1 $I=H $L=A $H=1 $C=4</note>
 <label>PAGE 200</label>
 <label>HERBAL</label>
 <note type="outline">Currier's language A, hand 4</note>
@@ -6953,7 +6976,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <note type="outline">folios 97-98 missing</note>
 
 
-</surface><surface n="f99r">     <note type="inline"> $Q=S $P=A $F=a $B=1 $I=P $L=A $H=1</note>
+</surface><surface n="f99r" type="recto">     <note type="inline">$Q=S $P=A $F=a $B=1 $I=P $L=A $H=1</note>
 <label>PAGE 201</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Kraus plate XXXI labeled jars</note>
@@ -7024,7 +7047,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="52" rendition="#Ad #P0">ychor.ols.or,agairom</line></zone>
 
 
-</surface><surface n="f99v">     <note type="inline"> $Q=S $P=B $F=a $B=1 $I=P $L=A $H=1</note>
+</surface><surface n="f99v" type="verso">     <note type="inline">$Q=S $P=B $F=a $B=1 $I=P $L=A $H=1</note>
 <label>PAGE 202</label>
 <note type="outline">phamaceutical</note>
 <note type="outline">B@R p88; faces "capsicum"</note>
@@ -7087,7 +7110,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="44" rendition="#At #Lf"><note type="inline">114b</note>koleearol</line>
 
 
-</surface><surface n="f100r">    <note type="inline"> $Q=S $P=C $F=b $B=2 $I=P $L=A $H=1</note>
+</surface><surface n="f100r" type="recto">    <note type="inline">$Q=S $P=C $F=b $B=2 $I=P $L=A $H=1</note>
 <label>PAGE 203</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">B@R p88, Brum Spec. p547, Brum p96, Way p138, Brumbaugh's s-=called</note>
@@ -7132,7 +7155,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="27" rendition="#Ad #P0">chol.cheol.cho.chckheody.otolchey</line></zone>
 
 
-</surface><surface n="f100v">    <note type="inline"> $Q=S $P=D $F=b $B=2 $I=P $L=A $H=1</note>
+</surface><surface n="f100v" type="verso">    <note type="inline">$Q=S $P=D $F=b $B=2 $I=P $L=A $H=1</note>
 <label>PAGE 204</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Brumbaugh p86; "medicinal herbs''</note>
@@ -7168,7 +7191,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="22" rendition="#Ad #P0">daiin.cheky.chory</line></zone>
 
 
-</surface><surface n="f101r">    <note type="inline"> $Q=S $P=E $F=y $B=2 $I=P $L=A $H=1</note>
+</surface><surface n="f101r" type="recto">    <note type="inline">$Q=S $P=E $F=y $B=2 $I=P $L=A $H=1</note>
 <label>PAGE 205</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">101r1 and 101r2 form a single "logical" page. The text loci are all collected</note>
@@ -7192,7 +7215,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <note type="outline">All text on this page in normal paragraphs covered by f101r1</note>
 
 
-</surface><surface n="f101v">    <note type="inline"> $Q=S $P=H $F=y $B=2 $I=P $L=A $H=1</note>
+</surface><surface n="f101v" type="verso">    <note type="inline">$Q=S $P=H $F=y $B=2 $I=P $L=A $H=1</note>
 <label>PAGE 206</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A, hand 4?</note>
@@ -7238,7 +7261,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="28" rendition="#Ad #Pc">teol.cheol.etchey.???cheo,r.cheol.cthol.cholaiin.chol,qkar</line></zone>
 
 
-</surface><surface n="f102r1">   <note type="inline"> $Q=S $P=L $F=z $B=1 $I=P $L=A $H=1</note>
+</surface><surface n="f102r1">   <note type="inline">$Q=S $P=L $F=z $B=1 $I=P $L=A $H=1</note>
 <label>PAGE 208</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A</note>
@@ -7264,7 +7287,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="17" rendition="#Ad #P0">ydar,arody<figure/>oldaiin.sody.chockhy,oly</line></zone>
 
 
-</surface><surface n="f102r2">   <note type="inline"> $Q=S $P=M $F=z $B=1 $I=P $L=A $H=1</note>
+</surface><surface n="f102r2">   <note type="inline">$Q=S $P=M $F=z $B=1 $I=P $L=A $H=1</note>
 <label>PAGE 209</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A</note>
@@ -7297,7 +7320,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="22" rendition="#At #Lf"><note type="inline">213</note>odalydary</line>
 
 
-</surface><surface n="f102v2">   <note type="inline"> $Q=S $P=O $F=z $B=1 $I=P $L=A $H=1</note>
+</surface><surface n="f102v2">   <note type="inline">$Q=S $P=O $F=z $B=1 $I=P $L=A $H=1</note>
 <label>PAGE 210</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A</note>
@@ -7348,7 +7371,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="39" rendition="#Ad #P0">yotaiin.cheor.cheekey.orain</line></zone>
 
 
-</surface><surface n="f102v1">   <note type="inline"> $Q=S $P=P $F=z $B=1 $I=P $L=A $H=1</note>
+</surface><surface n="f102v1">   <note type="inline">$Q=S $P=P $F=z $B=1 $I=P $L=A $H=1</note>
 <label>PAGE 211</label>
 <label>PHARMACEUTICAL</label>
 <note type="outline">Currier's language A</note>
@@ -7386,7 +7409,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="24" rendition="#Ad #P0">ysaiin.ckhey.qoor.cheol</line></zone>
 
 
-</surface><surface n="f103r">    <note type="inline"> $Q=T $P=A $F=a $B=1 $I=S $L=B $H=3 $C=X</note>
+</surface><surface n="f103r" type="recto">    <note type="inline">$Q=T $P=A $F=a $B=1 $I=S $L=B $H=3 $C=X</note>
 <label>PAGE 212</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B, hand X</note>
@@ -7484,7 +7507,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="54" rendition="#Ad #P0">dsheey.qoteeey.darchedy.qokey.qoty</line></zone>
 
 
-</surface><surface n="f103v">    <note type="inline"> $Q=T $P=B $F=a $B=1 $I=S $L=B $H=3 $C=X</note>
+</surface><surface n="f103v" type="verso">    <note type="inline">$Q=T $P=B $F=a $B=1 $I=S $L=B $H=3 $C=X</note>
 <label>PAGE 213</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B, hand X</note>
@@ -7563,7 +7586,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="46" rendition="#Ad #P0">tain.shol.qokain.chckhy.rorol.chdy.raly.osaiin.chary</line></zone>
 
 
-</surface><surface n="f104r">    <note type="inline"> $Q=T $P=C $F=b $B=2 $I=S $L=B $H=3 $C=X</note>
+</surface><surface n="f104r" type="recto">    <note type="inline">$Q=T $P=C $F=b $B=2 $I=S $L=B $H=3 $C=X</note>
 <label>PAGE 214</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B, hand X</note>
@@ -7640,7 +7663,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="45" rendition="#Ad #P0">daiin.olcheeo.l.s.aiin.otain.ar.chedy.qokaiin.otaiin.otaiin</line></zone>
 
 
-</surface><surface n="f104v">    <note type="inline"> $Q=T $P=D $F=b $B=2 $I=S $L=B $H=3 $C=X</note>
+</surface><surface n="f104v" type="verso">    <note type="inline">$Q=T $P=D $F=b $B=2 $I=S $L=B $H=3 $C=X</note>
 <label>PAGE 215</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B, hand X</note>
@@ -7716,7 +7739,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="44" rendition="#Ad #P0">daiin.y,cheeo,chey.okeeey.qokeeey.okeey.okeey</line></zone>
 
 
-</surface><surface n="f105r">    <note type="inline"> $Q=T $P=E $F=c $B=3 $I=S $L=B $H=3 $C=Y</note>
+</surface><surface n="f105r" type="recto">    <note type="inline">$Q=T $P=E $F=c $B=3 $I=S $L=B $H=3 $C=Y</note>
 <label>PAGE 216</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B, hand Y</note>
@@ -7779,7 +7802,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="37" rendition="#Ad #Pc">otoiir.chedaiin.otair.otaly</line></zone>
 
 
-</surface><surface n="f105v">    <note type="inline"> $Q=T $P=F $F=c $B=3 $I=S $L=B $H=3 $C=Y</note>
+</surface><surface n="f105v" type="verso">    <note type="inline">$Q=T $P=F $F=c $B=3 $I=S $L=B $H=3 $C=Y</note>
 <label>PAGE 217</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B, hand Y</note>
@@ -7843,7 +7866,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="38" rendition="#Ad #P0">cheody.oaiir.ain.okshey</line></zone>
 
 
-</surface><surface n="f106r">    <note type="inline"> $Q=T $P=G $F=d $B=4 $I=S $L=B $H=3 $C=X</note>
+</surface><surface n="f106r" type="recto">    <note type="inline">$Q=T $P=G $F=d $B=4 $I=S $L=B $H=3 $C=X</note>
 <label>PAGE 218</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B, hand X</note>
@@ -7926,7 +7949,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="47" rendition="#Ad #P0">ycheoar.okain.qokain.char,oky.cheokam</line></zone>
 
 
-</surface><surface n="f106v">    <note type="inline"> $Q=T $P=H $F=d $B=4 $I=S $L=B $H=3 $C=X</note>
+</surface><surface n="f106v" type="verso">    <note type="inline">$Q=T $P=H $F=d $B=4 $I=S $L=B $H=3 $C=X</note>
 <label>PAGE 219</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B, hand X</note>
@@ -8008,7 +8031,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="47" rendition="#Ad #P0">dcheoaiin.shky</line></zone>
 
 
-</surface><surface n="f107r">    <note type="inline"> $Q=T $P=I $F=e $B=5 $I=S $L=B $H=3</note>
+</surface><surface n="f107r" type="recto">    <note type="inline">$Q=T $P=I $F=e $B=5 $I=S $L=B $H=3</note>
 <label>PAGE 220</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8094,7 +8117,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="51" rendition="#Ad #P0">sar.ain.chol.ol,cheey.otal.otal,ol.otchy.qoky.otaily</line></zone>
 
 
-</surface><surface n="f107v">    <note type="inline"> $Q=T $P=J $F=e $B=5 $I=S $L=B $H=3</note>
+</surface><surface n="f107v" type="verso">    <note type="inline">$Q=T $P=J $F=e $B=5 $I=S $L=B $H=3</note>
 <label>PAGE 221</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8178,7 +8201,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="49" rendition="#Ad #P0">ycheosaiin.oekey.chey.qokeey.y,cheey.dy.qoy</line></zone>
 
 
-</surface><surface n="f108r">    <note type="inline"> $Q=T $P=K $F=f $B=6 $I=S $L=B $H=3</note>
+</surface><surface n="f108r" type="recto">    <note type="inline">$Q=T $P=K $F=f $B=6 $I=S $L=B $H=3</note>
 <label>PAGE 222</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8264,7 +8287,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="50" rendition="#Ad #P0">qokeedy,lchedy.lkaiin.chdy.qokey.okedy.okaram.chdar,ar.okam</line></zone>
 
 
-</surface><surface n="f108v">    <note type="inline"> $Q=T $P=L $F=f $B=6 $I=S $L=B $H=3</note>
+</surface><surface n="f108v" type="verso">    <note type="inline">$Q=T $P=L $F=f $B=6 $I=S $L=B $H=3</note>
 <label>PAGE 223</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8348,7 +8371,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <note type="outline">folios  109-110 missing</note>
 
 
-</surface><surface n="f111r">    <note type="inline"> $Q=T $P=M $F=u $B=6 $I=S $L=B $H=3</note>
+</surface><surface n="f111r" type="recto">    <note type="inline">$Q=T $P=M $F=u $B=6 $I=S $L=B $H=3</note>
 <label>PAGE 224</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8431,7 +8454,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="54" rendition="#Ad #P0">tair.chckhaiin.dair.qokal.otain.okal</line></zone>
 
 
-</surface><surface n="f111v">    <note type="inline"> $Q=T $P=N $F=u $B=6 $I=S $L=B $H=3</note>
+</surface><surface n="f111v" type="verso">    <note type="inline">$Q=T $P=N $F=u $B=6 $I=S $L=B $H=3</note>
 <label>PAGE 225</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8515,7 +8538,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="51" rendition="#Ad #P0">sain.cheal.chckhy.okain.okal,aiin.choty.chckhy</line></zone>
 
 
-</surface><surface n="f112r">    <note type="inline"> $Q=T $P=O $F=v $B=5 $I=S $L=B $H=3</note>
+</surface><surface n="f112r" type="recto">    <note type="inline">$Q=T $P=O $F=v $B=5 $I=S $L=B $H=3</note>
 <label>PAGE 226</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8589,7 +8612,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="45" rendition="#Ad #P0">yor.aiin.o,keeey,teey.shkar.oteeedyqokeey.okeey.okary.oin.yky</line></zone>
 
 
-</surface><surface n="f112v">    <note type="inline"> $Q=T $P=P $F=v $B=5 $I=S $L=B $H=3</note>
+</surface><surface n="f112v" type="verso">    <note type="inline">$Q=T $P=P $F=v $B=5 $I=S $L=B $H=3</note>
 <label>PAGE 227</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8670,7 +8693,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="47" rendition="#Ad #P0">[?:e].otar.aig.oaral.alor.aiiin.olkaiin.oty.ary</line></zone>
 
 
-</surface><surface n="f113r">    <note type="inline"> $Q=T $P=Q $F=w $B=4 $I=S $L=B $H=3</note>
+</surface><surface n="f113r" type="recto">    <note type="inline">$Q=T $P=Q $F=w $B=4 $I=S $L=B $H=3</note>
 <label>PAGE 228</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8759,7 +8782,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="51" rendition="#Ad #P0">ykeeol.qokaiin.olkal.airody.okaiin.okalal.loary</line></zone>
 
 
-</surface><surface n="f113v">    <note type="inline"> $Q=T $P=R $F=w $B=4 $I=S $L=B $H=3</note>
+</surface><surface n="f113v" type="verso">    <note type="inline">$Q=T $P=R $F=w $B=4 $I=S $L=B $H=3</note>
 <label>PAGE 229</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8844,7 +8867,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="49" rendition="#Ad #P0">yshey.teeo.oteedy.qokeey.otaiin.olaiin.cheokain.lkeey.ltal.keedy</line></zone>
 
 
-</surface><surface n="f114r">    <note type="inline"> $Q=T $P=S $F=x $B=3 $I=S $L=B $H=3</note>
+</surface><surface n="f114r" type="recto">    <note type="inline">$Q=T $P=S $F=x $B=3 $I=S $L=B $H=3</note>
 <label>PAGE 230</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8921,7 +8944,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="45" rendition="#Ad #P0">dain.ched.chodaiin.otain.chdar.chedy.chocthy</line></zone>
 
 
-</surface><surface n="f114v">    <note type="inline"> $Q=T $P=T $F=x $B=3 $I=S $L=B $H=3</note>
+</surface><surface n="f114v" type="verso">    <note type="inline">$Q=T $P=T $F=x $B=3 $I=S $L=B $H=3</note>
 <label>PAGE 231</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -8992,7 +9015,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="41" rendition="#Ad #P0">yaiin.o?oy.[o:a]keey.cheody.qokaiin.otain.al.kain.choty</line></zone>
 
 
-</surface><surface n="f115r">    <note type="inline"> $Q=T $P=U $F=y $B=2 $I=S $L=B $H=@</note>
+</surface><surface n="f115r" type="recto">    <note type="inline">$Q=T $P=U $F=y $B=2 $I=S $L=B $H=@</note>
 <label>PAGE 232</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -9069,7 +9092,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="45" rendition="#Ad #P0">y.dchedy.kody.qokeedy.chols</line></zone>
 
 
-</surface><surface n="f115v">    <note type="inline"> $Q=T $P=V $F=y $B=2 $I=S $L=B $H=3</note>
+</surface><surface n="f115v" type="verso">    <note type="inline">$Q=T $P=V $F=y $B=2 $I=S $L=B $H=3</note>
 <label>PAGE 233</label>
 <label>TEXT ONLY / STARS</label>
 <note type="outline">Currier's language B</note>
@@ -9146,7 +9169,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="45" rendition="#Ad #P0">yk,chedaiin.chody.qokaiin.dary.cholaiim</line></zone>
 
 
-</surface><surface n="f116r">    <note type="inline"> $Q=T $P=W $F=z $B=1 $I=S $L=B $H=3</note>
+</surface><surface n="f116r" type="recto">    <note type="inline">$Q=T $P=W $F=z $B=1 $I=S $L=B $H=3</note>
 <label>PAGE 234</label>
 <note type="outline">Currier's language B</note>
 <label>TEXT ONLY / STARS</label>
@@ -9220,7 +9243,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="50" rendition="#Ad #P0">sodal.ch,al.chcthy.chckhy.qol,ain,ary</line></zone>
 
 
-</surface><surface n="f116v">    <note type="inline"> $Q=T $P=X $F=z $B=1 $I=T $H=3 $X=V</note>
+</surface><surface n="f116v" type="verso">    <note type="inline">$Q=T $P=X $F=z $B=1 $I=T $H=3 $X=V</note>
 <label>PAGE 235</label>
 <note type="outline">has "key-like" sequence</note>
 <note type="outline">has extraneous writing mixed with voynich script</note>
@@ -9232,4 +9255,7 @@ inside folds of the pages still need to be added.</summary></msContents></msDesc
 <line n="1" rendition="#At #Lx">oror.sheey<note type="inline">valsch vbren so nim gaf mich o</note></line>
 
 <note type="outline">end of file</note>
-</surface></sourceDoc></TEI>
+
+</surface>
+</sourceDoc>
+</TEI>

@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 
 # For this example, we'll parse the string directly
 
-with open('../voynichMS_TEST.xml', 'r', encoding='utf-8') as file:
+with open('../../voynichMS_TEST.xml', 'r', encoding='utf-8') as file:
     xml_data = file.read()
 
 try:
