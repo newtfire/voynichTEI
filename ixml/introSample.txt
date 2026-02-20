@@ -1,0 +1,53 @@
+<f1r>      <! $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V>
+# page 1
+# text only
+# Currier's Language A, hand 1
+# There is a key-like sequence in the right margin apparently added after
+# the main text was written. Unclear in Petersen copies, but seems to be
+# the roman alphabet. It starts at the end of the second line and it
+# is not well aligned with the rest of the lines: a,b,c,d,e,f,g,h,
+# i, (j is missing) k, (l,m,n are not readable),o,p,q,r
+# There is non-Voynich text at bottom of folio: the signature
+# of Jacobus de Tepenecz
+#
+# At the end of the paragraphs there are further words (right justified)
+# as if they were the name of the author in a quotation.
+#
+# Next to the end of the 1st line there is a thick non-Voynich symbol
+# resembling an underlined 29 (commented as @254; )
+# The 2nd and 3rd paragraphs start with thick non-Voynich symbols.
+#
+<f1r.1,@P0>       <%>fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy<!@254;>
+<f1r.2,+P0>       sory.ckhar.or,y.kair.chtaiin.shar.ase.cthar.cthar,dan
+<f1r.3,+P0>       syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sy
+<f1r.4,+P0>       soiin.oteey.oteo[s:r],roloty.cthiar,daiin.okaiin.or.okan
+<f1r.5,+P0>       sair,y.chear.cthaiin.cphar.cfhaiin
+<f1r.6,=Pt>       ydaraishy<$>
+#
+<f1r.7,*P0>       <%><!@252;>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary
+<f1r.8,+P0>       yshey.shody.okchoy.otchol.chocthy.os,chy.dain.chor.kos
+<f1r.9,+P0>       daiin.shos.cfhol.shody
+<f1r.10,=Pt>      dain.os.teody<$>
+#
+<f1r.11,*P0>      <%><!@253;>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es
+<f1r.12,+P0>      oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin
+<f1r.13,+P0>      shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.sho.oldain.d
+<f1r.14,+P0>      dain.oiin.chol.odaiin.chodain.chdy.ok[a:o]in.d?n.cthy.kod
+<f1r.15,+P0>      daiin.shckhey.{ck}eo.r.char.shey.kol.chol.chol.kor.chal
+<f1r.16,+P0>      sho.chol.shodan.kshy.kchy.d.or.chodaiin.sho.koeam
+<f1r.17,+P0>      ycho.tchey.chekain.sheo,pshol.dydyd.cthy.dai[{cto}:@194;]y
+<f1r.18,+P0>      yto.shol.she.kodshey.cphealy.dar,ain.dain.ckhyds
+<f1r.19,+P0>      dchar.shcthaiin.okaiir.chey.@192;chy.@130;tol.cthols.dlo{ct}o
+<f1r.20,+P0>      shok.chor.chey.dain.ckhey
+<f1r.21,=Pt>      otol.daiiin<$>
+#
+<f1r.22,*P0>      <%>cpho.shaiin.shokcheey.chol.tshodeesy.shey.pydeey.cha.ro,dar
+<f1r.23,+P0>      ydoin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar
+<f1r.24,+P0>      cho.?o.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar
+<f1r.25,+P0>      ycheey.okeey.oky.daiin.okchey.kokaiin.o?chol.k?dchy.dal
+<f1r.26,+P0>      dcheo.shody.koshey.cthy.ok,chey.keey.keey,dal.chtor
+<f1r.27,+P0>      ?eo?.chol.chok.choty.chotey
+<f1r.28,=Pt>      dchaiin<$>
+#
+#
+<f1v>      <! $Q=A $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C>
