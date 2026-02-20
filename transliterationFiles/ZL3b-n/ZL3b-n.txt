@@ -6073,7 +6073,7 @@
 # page 193
 # herbal
 # Currier's language B, hand 5
-# Plant ID: Botriculum (Lunaria? Mondform?}
+# Plant ID: Botriculum (Lunaria? Mondform?)
 #
 <f94r.1,@P0>      <%>tchedy.opaiir.chedaiin.dsheedy.qopchedal.keodaiin.otalaiin.oar
 <f94r.2,+P0>      dor.cheody.okaiin.odor.okal.okair.oky.daiir.qotar.okar.olaiin

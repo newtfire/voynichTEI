@@ -231,7 +231,35 @@ replacements = {
     '@253;': '<g ref="#u00fd">ý</g>',
     '@254;': '<g ref="#u00fe">þ</g>',
     '@255;': '<g ref="#u00ff">ÿ</g>',
-    '&lt;!': '<note type="inline">',
+
+    'in': '<g ref="#in">in</g>',
+    'i<g ref="#in">in</g>': '<g ref="#iin">iin</g>',
+    'i<g ref="#iin">iin</g>': '<g ref="#iiin">iiin</g>',
+
+    'im': '<g ref="#im">im</g>',
+    'i<g ref="#im">im</g>': '<g ref="#iim">iim</g>',
+    'i<g ref="#iim">iim</g>': '<g ref="#iiim">iiim</g>',
+
+    'il': '<g ref="#il">il</g>',
+    'i<g ref="#il">il</g>': '<g ref="#iil">iil</g>',
+    'i<g ref="#iil">iil</g>': '<g ref="#iiil">iiil</g>',
+
+    'ir': '<g ref="#ir">ir</g>',
+    'i<g ref="#ir">ir</g>': '<g ref="#iir">iir</g>',
+    'i<g ref="#iir">iir</g>': '<g ref="#iiir">iiir</g>',
+
+    'ch': '<g ref="#ch">ch</g>',
+    'sh': '<g ref="#sh">sh</g>',
+    'cph': '<g ref="#cph">cph</g>',
+    'cth': '<g ref="#cth">cth</g>',
+    'cfh': '<g ref="#cfh">cfh</g>',
+    'ckh': '<g ref="#ckh">ckh</g>',
+
+    '<note type="outl"><g ref="#in">in</g>e"&gt;': '<note type="outline">',
+
+    '<note type="outl<g ref="#in">in</g>e">': '<note type="outline">',
+
+    '&lt;!': '<note type="comment">',
     '&lt;unreadable&gt;': '<unclear/>'
 }
 
@@ -240,12 +268,12 @@ for code, char in replacements.items():
 
 # End Comments
 filedata = re.sub(r'<note type="outline">(.+?)&gt;', r'<note type="outline">\1</note>', filedata)
-filedata = re.sub(r'<note type="inline">(.+?)&gt;', r'<note type="inline">\1</note>', filedata)
+filedata = re.sub(r'<note type="comment">(.+?)&gt;', r'<note type="comment">\1</note>', filedata)
 # Looks for patterns like <f76r> and converts to TEI surface tags
 filedata = re.sub(r'&lt;(f\d\d?\d?[rv]?\d?)&gt;', r'</surface><surface n="\1">', filedata)
 filedata = re.sub(r'(<surface n="f\d+v")>', r'\1 type="verso">', filedata)
 filedata = re.sub(r'(<surface n="f\d+r")>', r'\1 type="recto">', filedata)
-filedata = re.sub(r'(&lt;.+&gt;)(\s+)(<note type="inline">[A-Z]</note>)(<%>)', r'\4\1\3', filedata)
+filedata = re.sub(r'(&lt;.+&gt;)(\s+)(<note type="comment">[A-Z]</note>)(<%>)', r'\4\1\3', filedata)
 filedata = re.sub(r'(&lt;.+&gt;)(\s+)(&lt;%&gt;)', r'\3\1\2', filedata)
 # Zones
 filedata = re.sub(r'&lt;%&gt;', '<zone>', filedata)
@@ -296,7 +324,7 @@ filedata = re.sub(r'(<note type="outline">)(\n)', r'\2', filedata)
 # Lines Again
 filedata = re.sub(r'&lt;f\d+[rv]\d?\.(\d+),@(Pb)>(.+)', r'<line n="\1" rendition="#At #\2">\3</line>', filedata)
 filedata = re.sub(r'(<line n="\d+" rendition="#[A-Z][a-z] #[A-Z][a-z]">)(<note type="outline">.+</note>)(<zone>)', r'\3\1\2', filedata)
-filedata = re.sub(r'(<line n="\d+" rendition="#[A-Z][a-z] #[A-Z][a-z]">)(<note type="inline">.+</note>)(<zone>)', r'\3\1\2', filedata)
+filedata = re.sub(r'(<line n="\d+" rendition="#[A-Z][a-z] #[A-Z][a-z]">)(<note type="comment">.+</note>)(<zone>)', r'\3\1\2', filedata)
 # Fixing fRos
 filedata = re.sub(r'&lt;(fRos)&gt;', r'</surface><surface n="\1">', filedata)
 filedata = re.sub(r'(<zone)(><line n="\d\d?" rendition="#A[td] #P0">)<@H=(\d)>', r'\1 hand="#scribe\3"\2', filedata)
@@ -311,7 +339,9 @@ filedata = re.sub(r'"\s+>', '">', filedata)
 filedata = filedata.replace('</surface>', '', 1)
 # Getting rid of extra space in front of <note type="outline">
 filedata = re.sub(r'(<note type="outline">) ', r'\1', filedata)
-filedata = re.sub(r'(<note type="inline">) ', r'\1', filedata)
+filedata = re.sub(r'(<note type="comment">) ', r'\1', filedata)
+# Creating inline comments
+filedata = re.sub(r'\{(.+?)}', r'<note type="inline">\1</note>', filedata)
 
 with open('../ZL3b-n_test1.xml', 'w', encoding='utf-8') as file:
     file.write(f'<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/css" href="evaFontCSS.css"?>\n<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>\n<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>')
