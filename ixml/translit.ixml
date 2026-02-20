@@ -1,0 +1,14 @@
+xml: pageBound, (note; dumbHash; line)+, pageBound.
+pageBound: lab, "f", [N]+, ["r";"v"], rab, extraInfo, newline?.
+@extraInfo: (space;NotSpace)+.
+note: -"#", space, noteBody, newline.
+-noteBody: (space;NotSpace)+.
+line: rendition, lineBody, newline. 
+@rendition: -lab, "f", [N]+, ["r";"v"], ".", [N]+, ",", ["@";"+";"*";"=";"&";"~";"/";"!"], ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
+-lineBody: (space;NotSpace)+.
+-lab: -["<"]. 
+-rab: -[">"].
+-space: -[#20]. 
+-newline: -#d?, -#a.
+-NotSpace: ~[#d;#a;#20].
+-dumbHash: -"#", -newline.
