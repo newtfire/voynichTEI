@@ -1,14 +1,40 @@
-xml: pageBound, (note; dumbHash; line)+, pageBound.
-pageBound: lab, "f", [N]+, ["r";"v"], rab, extraInfo, newline?.
-@extraInfo: (space;NotSpace)+.
+sourceDoc: surface+.
+surface: surfaceN, extraInfo, comment, newline, (note; dumbHash; line)*.
+@surfaceN: lab, "f", [N]+, ["r";"v"], [N]*, rab.
+-extraInfo: (space; AnyNotSpace)*.
+
 note: -"#", space, noteBody, newline.
--noteBody: (space;NotSpace)+.
-line: rendition, lineBody, newline. 
-@rendition: -lab, "f", [N]+, ["r";"v"], ".", [N]+, ",", ["@";"+";"*";"=";"&";"~";"/";"!"], ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
--lineBody: (space;NotSpace)+.
--lab: -["<"]. 
+-noteBody: noteChar*.
+-noteChar: ~[#d;#a].
+
+line: lineN, rendition, lineBody, newline.
+@lineN: -lab, -"f", -[N]+, -["r";"v"], -[N]*, -".", [N]+, -",".
+@rendition: ["@";"+";"*";"=";"&";"~";"/";"!"], ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
+-lineBody: (space; comment; figure; startPara; endPara; ligature; choice; unclear; plainChar)+.
+
+comment: -"<", -"!", -space, commentChar*, -">".
+-commentChar: ~[#d;#a;">"].
+
+figure: -"<", (-"-"; -"~"), -">".
+
+ligature: -"{", plainChar+, -"}".
+
+startPara: -"<", -"%", -">".
+endPara: -"<", -"$", -">".
+
+unclear: "?".
+
+choice: -"[", unclearAlt, ( -":", unclearAlt )+, -"]".
+
+unclearAlt: (ligature; choiceChar)+.
+-choiceChar: ~[#d;#a;#20;"<";"[";"]";":";"{";"}"].
+
+-lab: -["<"].
 -rab: -[">"].
--space: -[#20]. 
+-space: -[#20].
+-keepSpace: [#20].
 -newline: -#d?, -#a.
--NotSpace: ~[#d;#a;#20].
+-AnyNotSpace: ~[#d;#a;#20].
+-NotSpace: ~[#d;#a;#20;"<"].
+-plainChar: ~[#d;#a;#20;"<";"{";"}";"[";"]";":";"?"].
 -dumbHash: -"#", -newline.

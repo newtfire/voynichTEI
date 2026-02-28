@@ -24,12 +24,12 @@
 <f1r.5,+P0>       sair,y.chear.cthaiin.cphar.cfhaiin
 <f1r.6,=Pt>       ydaraishy<$>
 #
-<f1r.7,*P0>       <%><!@252;>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary
+<f1r.7,*P0>       <%><!ü>odar.{c'y}.shol.cphoy.oydar.sh.s.cfhoaiin.shodary
 <f1r.8,+P0>       yshey.shody.okchoy.otchol.chocthy.os,chy.dain.chor.kos
 <f1r.9,+P0>       daiin.shos.cfhol.shody
 <f1r.10,=Pt>      dain.os.teody<$>
 #
-<f1r.11,*P0>      <%><!@253;>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es
+<f1r.11,*P0>      <%><!ý>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es
 <f1r.12,+P0>      oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin
 <f1r.13,+P0>      shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.sho.oldain.d
 <f1r.14,+P0>      dain.oiin.chol.odaiin.chodain.chdy.ok[a:o]in.d?n.cthy.kod
