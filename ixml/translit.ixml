@@ -12,7 +12,7 @@ line: lineN, rendition, lineBody, newline.
 @rendition: ["@";"+";"*";"=";"&";"~";"/";"!"], ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
 -lineBody: (space; comment; figure; startPara; endPara; ligature; choice; unclear; plainChar)+.
 
-comment: -"<", -"!", -space, commentChar*, -">".
+comment: -"<", -"!", commentChar*, -">".
 -commentChar: ~[#d;#a;">"].
 
 figure: -"<", (-"-"; -"~"), -">".
