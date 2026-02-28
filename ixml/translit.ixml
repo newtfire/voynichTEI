@@ -10,7 +10,7 @@ note: -"#", space, noteBody, newline.
 line: lineN, rendition, lineBody, newline.
 @lineN: -lab, -"f", -[N]+, -["r";"v"], -[N]*, -".", [N]+, -",".
 @rendition: ["@";"+";"*";"=";"&";"~";"/";"!"], ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
--lineBody: (space; comment; figure; startPara; endPara; ligature; choice; unclear; plainChar)+.
+-lineBody: (space; comment; figure; milestone-start; milestone-end; ligature; choice; unclear; plainChar)+.
 
 comment: -"<", -"!", commentChar*, -">".
 -commentChar: ~[#d;#a;">"].
@@ -19,8 +19,9 @@ figure: -"<", (-"-"; -"~"), -">".
 
 ligature: -"{", plainChar+, -"}".
 
-startPara: -"<", -"%", -">".
-endPara: -"<", -"$", -">".
+milestone-start: -"<", -"%", -">".
+
+milestone-end:-"<", -"$", -">".
 
 unclear: "?".
 
