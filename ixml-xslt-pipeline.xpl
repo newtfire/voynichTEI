@@ -29,7 +29,7 @@
         <!--ebb: This is very weird in the land of XProc, but //c:file/@name 
             literally retrieves the filename you're currently processing.
             The p:load line ensures that we are importing each text file for processing. -->
-    <p:identity message="Got some plain text input here ready to process!"/>
+    <p:identity message="Yo! Got some plain text input here ready to process!"/>
     <!-- ================================================================ -->
     <!-- Add structural markup with ixml                                  -->
     <!-- Calabash will use Markup Blitz instead of default CoffeePot!      -->
@@ -47,7 +47,7 @@
     <!-- ================================================================ -->  
     <!-- Now let's store the output in a file in the same directory with this XProc file.  -->
     <!-- ================================================================ -->
-    <p:store name="simple-XML" href="{$filename}.xml"/>
+    <p:store name="simple-XML" href="ixml-output/{$filename}.xml"/>
         <!-- {$filename} is the filename variable drawn from your source text,
             so you'll see output for each input text that comes through this pipeline. -->
     <p:identity message="Stored some simple XML made by invisible XML grammar."/>
@@ -65,7 +65,7 @@
         <p:with-input port="stylesheet" href="xslt/ixmlOut-to-TEI.xsl"/>
         <!-- The value of @href needs to be the filepath to your XSLT transformation file for this step in the pipeline. -->
     </p:xslt>
-    <p:identity message="Running the Identity Trnasformation XSLT to develop the XML"/>
+    <p:identity message="Running the Identity Transformation XSLT to develop the XML"/>
     <!-- What you see in the p:store after the XSLT step basically sets the XSLT output details. 
     Here we are specifying that we want XML output (we would use the same for SVG). If you 
     go to make HTML output, then set 'method': 'xhtml'. -->
@@ -77,5 +77,5 @@
         }"/>
     <p:identity message="Saved finalized XML"/>
     <!-- ebb: Later, let's put in a Relax NG, maybe Schematron validation steps here -->
-    
+  </p:for-each>
 </p:declare-step>
