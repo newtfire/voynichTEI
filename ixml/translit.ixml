@@ -1,0 +1,41 @@
+sourceDoc: surface+.
+surface: surfaceN, extraInfo, comment, newline, (note; dumbHash; line)*.
+@surfaceN: lab, "f", [N]+, ["r";"v"], [N]*, rab.
+-extraInfo: (space; AnyNotSpace)*.
+
+note: -"#", space, noteBody, newline.
+-noteBody: noteChar*.
+-noteChar: ~[#d;#a].
+
+line: lineN, rendition, lineBody, newline.
+@lineN: -lab, -"f", -[N]+, -["r";"v"], -[N]*, -".", [N]+, -",".
+@rendition: ["@";"+";"*";"=";"&";"~";"/";"!"], ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
+-lineBody: (space; comment; figure; milestone-start; milestone-end; ligature; choice; unclear; plainChar)+.
+
+comment: -"<", -"!", commentChar*, -">".
+-commentChar: ~[#d;#a;">"].
+
+figure: -"<", (-"-"; -"~"), -">".
+
+ligature: -"{", plainChar+, -"}".
+
+milestone-start: -"<", -"%", -">".
+
+milestone-end:-"<", -"$", -">".
+
+unclear: "?".
+
+choice: -"[", unclearAlt, ( -":", unclearAlt )+, -"]".
+
+unclearAlt: (ligature; choiceChar)+.
+-choiceChar: ~[#d;#a;#20;"<";"[";"]";":";"{";"}"].
+
+-lab: -["<"].
+-rab: -[">"].
+-space: -[#20].
+-keepSpace: [#20].
+-newline: -#d?, -#a.
+-AnyNotSpace: ~[#d;#a;#20].
+-NotSpace: ~[#d;#a;#20;"<"].
+-plainChar: ~[#d;#a;#20;"<";"{";"}";"[";"]";":";"?"].
+-dumbHash: -"#", -newline.

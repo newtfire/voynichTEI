@@ -25,7 +25,7 @@ except requests.exceptions.RequestException as e:
 
 titleStmt = ""
 try:
-    with open('../xml/header/titleStmt.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/titleStmt.xml', 'r', encoding='utf-8') as ts_file:
         titleStmt = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/titleStmt.xml' was not found.")
@@ -34,7 +34,7 @@ except Exception as e:
 
 publicationStmt = ""
 try:
-    with open('../xml/header/publicationStmt.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/publicationStmt.xml', 'r', encoding='utf-8') as ts_file:
         publicationStmt = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/publicationStmt.xml' was not found.")
@@ -43,7 +43,7 @@ except Exception as e:
 
 msIdentifier = ""
 try:
-    with open('../xml/header/msIdentifier.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/msIdentifier.xml', 'r', encoding='utf-8') as ts_file:
         msIdentifier = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/msIdentifier.xml' was not found.")
@@ -52,7 +52,7 @@ except Exception as e:
 
 handDesc = ""
 try:
-    with open('../xml/header/handDesc.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/handDesc.xml', 'r', encoding='utf-8') as ts_file:
         handDesc = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/handDesc.xml' was not found.")
@@ -61,7 +61,7 @@ except Exception as e:
 
 bindingDesc = ""
 try:
-    with open('../xml/header/bindingDesc.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/bindingDesc.xml', 'r', encoding='utf-8') as ts_file:
         bindingDesc = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/bindingDesc.xml' was not found.")
@@ -70,7 +70,7 @@ except Exception as e:
 
 history = ""
 try:
-    with open('../xml/header/history.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/history.xml', 'r', encoding='utf-8') as ts_file:
         history = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/history.xml' was not found.")
@@ -79,7 +79,7 @@ except Exception as e:
 
 charDecl = ""
 try:
-    with open('../xml/header/charDecl.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/charDecl.xml', 'r', encoding='utf-8') as ts_file:
         charDecl = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/charDecl.xml' was not found.")
@@ -88,7 +88,7 @@ except Exception as e:
 
 tagsDecl = ""
 try:
-    with open('../xml/header/tagsDecl.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/tagsDecl.xml', 'r', encoding='utf-8') as ts_file:
         tagsDecl = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/tagsDecl.xml' was not found.")
@@ -98,7 +98,7 @@ except Exception as e:
 
 langUsage = ""
 try:
-    with open('../xml/header/langUsage.xml', 'r', encoding='utf-8') as ts_file:
+    with open('../../xml/header/langUsage.xml', 'r', encoding='utf-8') as ts_file:
         langUsage = ts_file.read()
 except FileNotFoundError:
     print("Warning: '../xml/header/langUsage.xml' was not found.")
@@ -106,7 +106,7 @@ except Exception as e:
     print(f"Error reading langUsage.xml: {e}")
 
 
-with open('../transliterationFiles/ZL3b-n/ZL3b-n.txt', 'r', encoding='utf-8') as file:
+with open('../../transliterationFiles/ZL3b-n/ZL3b-n.txt', 'r', encoding='utf-8') as file:
     filedata = file.read()
 
 replacements = {
@@ -343,7 +343,7 @@ filedata = re.sub(r'(<note type="comment">) ', r'\1', filedata)
 # Creating inline comments
 filedata = re.sub(r'\{(.+?)}', r'<note type="inline">\1</note>', filedata)
 
-with open('../ZL3b-n_test1.xml', 'w', encoding='utf-8') as file:
+with open('../../ZL3b-n_test1.xml', 'w', encoding='utf-8') as file:
     file.write(f'<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/css" href="evaFontCSS.css"?>\n<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>\n<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>')
     file.write(f'\n<TEI xmlns="http://www.tei-c.org/ns/1.0">')
     file.write(f"\n<teiHeader>") # Start of Header

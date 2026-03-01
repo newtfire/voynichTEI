@@ -102,9 +102,9 @@ def merge_graphics(graphics_xml_path, target_xml_content):
 
 def main():
     # File paths
-    input_file = '../ZL3b-n_test1.xml'
-    output_file = '../ZL3b-n_test2.xml'
-    graphics_file = '../xml/graphics.xml'
+    input_file = '../../ZL3b-n_test1.xml'
+    output_file = '../../ZL3b-n_test2.xml'
+    graphics_file = '../../xml/graphics.xml'
 
     try:
         print("Processing XML file...")

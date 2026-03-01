@@ -1,0 +1,2836 @@
+<f1v>      <! $Q=A $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C>
+# page 2
+# herbal
+# Currier's language A, hand 1
+# Plant ID: uva lupi, aterpa belladonn[a], solatrum d[iv|w]ale, solanum nigrum=morella
+# Ref: Fuchs p.398, Fischer p.17
+# Same plant as f102r1[3,2] (Petersen, Stolfi)
+# Two paragraphs of text, plant cutting through middle
+#
+<f1v.1,@P0>       <%>kchsy.chydaiin.ol<->o,l,tchey.char.cfhar,am
+<f1v.2,+P0>       yteey.char.or.ochy<->dcho.lkody.okodar.chody
+<f1v.3,+P0>       da,ckhy.ckhockhy.shy<->dksheey.cthy.kotchody.dal
+<f1v.4,+P0>       dol.chokeo.dair.dam<->sochey.chokody<$>
+#
+<f1v.5,+P0>       <%>potoy.shol.dair.cphoal<->dar.chey.tody.otoaiin.shoshy
+<f1v.6,+P0>       choky.chol.ctho,l,shol.okal<->dolchey.chodo.lol.chy.cthy
+<f1v.7,+P0>       qo<!bar over o>.ol,choees.cheol.dol.cthey<->ykol.dol.dolo.ykol.do,lchiody<!corr?>
+<f1v.8,+P0>       okolshol.kol,kechy.chol.ky<->chol.cthol.chody.chol.daiin
+<f1v.9,+P0>       shor.okol.chol.dol,ky.dar<->shol.dchor.o,tcho.dar.[sh:{Ñh}]ody
+<f1v.10,+P0>      taor.chotchey.dal.chody<->schody.pol.chodar<$>
+#
+#
+<f2r>      <! $Q=A $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# page 3
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Cyanus segelis coeruleus (Kornblume), centaurea (cf. Holm)
+# Two paragraphs, top one cut in many places. 1 label near plant leaf
+#
+<f2r.1,@P0>       <%>kydainy.ypchol.daiin.otchal<->ypchaiin.ckholsy
+<f2r.2,+P0>       dorchory<->chkar.s<->shor.cthy.{cto}
+<f2r.3,+P0>       qotaiin<->cthey.y<->chor.chy.ydy<->chaiin
+<f2r.4,+P0>       {c'o}aiidy<->chtod,dy<->cphy.dals<->chokaiin.d
+<f2r.5,+P0>       otochor.al<->shodaiin<->chol,dan<->ytchaiin.dan
+<f2r.6,+P0>       saiin.dain,d<->dkol.sor<->ytoldy<->dchol.dchy.cthy
+<f2r.7,+P0>       shor.ckhy.daiiny<->chol,dan<$>
+#
+<f2r.8,+P0>       <%>kydain.shaiin.qoy.s.shol.fodan<->yksh.olsheey.daiildy
+<f2r.9,+P0>       dls,sho.kol.sheey.qokey.ykody.so<->chol,yky.dain.daiisol
+<f2r.10,+P0>      qo'ky.cholaiin.shol.sheky.daiin<->cthey.keol.saiin.e'a'iin
+<f2r.11,+P0>      ychain.dal.chy.dalor.shan.dan<->olsaiin.sheey.ckhor
+<f2r.12,+P0>      okol.chy.chor.cthor.yor.an.chan<->saiin.chety.chyky.sal
+<f2r.13,+P0>      sho.ykeey.chey.daiin.chcthy<$>
+<f2r.14,@Lp>      ytoail
+<f2r.15,@L0>      ios.an.on
+#
+#
+<f2v>      <! $Q=A $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1 $X=O>
+# page 4
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Collocasia, Egyptian lotus, Nymphoides Peltata (R. Zandbergen)
+# Just 8 lines, all cut by plant
+#
+<f2v.1,@P0>       <%>kooiin.cheo,pchor.otaiin,odain.chor<->dair.shty
+<f2v.2,+P0>       kcho,kchy.sho.shol.qotcho.loeees.qoty<->chor.daiin
+<f2v.3,+P0>       otchy.chor.lshy.chol.chody.chodain<->chcthy.daiin
+<f2v.4,+P0>       sho.cholo.cheor.chodaiin<$>
+#
+<f2v.5,+P0>       <%>kchor<!mark above o>.shy.daiiin.ch{cko}m<->s,shey.dor,chol,daiin
+<f2v.6,+P0>       dor.chol.chor.chol.keol.chy.chty<->daiin.o,tchor.chan
+<f2v.7,+P0>       daiin.chotchey.qoteeey.chokeos<->chees.chr.cheaiin
+<f2v.8,+P0>       chokoishe.chor.cheol.chol.dolody<$>
+#
+#
+<f3r>      <! $Q=A $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 5
+# herbal
+# Currier's language A, hand 1
+# Plant ID: crassulatea (Cretan Dittany)
+# 20 normal lines of text
+#
+<f3r.1,@P0>       <%>tsheos.qopal.chol.cthol.daimg
+<f3r.2,+P0>       ycheor.chor.dam.qotcham.cham
+<f3r.3,+P0>       ochor.qocheor.chol.daiin.cthy
+<f3r.4,+P0>       schey.chor.chal.chag.cham.cho
+<f3r.5,+P0>       qokol.chololy.s.cham.cthol
+<f3r.6,+P0>       ychtaiin.chor.cthom.otaldam
+<f3r.7,+P0>       otchol.qodaiin.chom.shom.damo
+<f3r.8,+P0>       ysheor.chor.chol.oky.dago
+<f3r.9,+P0>       sho.vor.sheoldam.otchody.ol
+<f3r.10,+P0>      ydar.cholcthom<$>
+#
+<f3r.11,+P0>      <%>pcheol.shol.sols.sheol.shey
+<f3r.12,+P0>      okadaiin.qokchor.qo,schodam.octhy
+<f3r.13,+P0>      qokeey.qot,shey.qokody.qokshey.cheody
+<f3r.14,+P0>      chor.qodair.okeey.qokeey<$>
+#
+<f3r.15,+P0>      <%>tsheoarom.shor.or.chor.olchsy.chom.otchom<->oporar
+<f3r.16,+P0>      oteol.chol.s.cheol.ekshy.qokeom.qokol.daiin<->soleeg
+<f3r.17,+P0>      soeom.okeom.yteody.qokeeodal.sam<$>
+#
+<f3r.18,+P0>      <%>pcheoldom.shodaiin.qopchor.qopol.opchol,qoty<->otolom
+<f3r.19,+P0>      otchor.ol,cheor.qoeor.dair.qoteol.qosaiin<->chor.cthy
+<f3r.20,+P0>      ycheor.chol.odaiin.chol.s.aiin.okol,or.am<$>
+#
+#
+<f3v>      <! $Q=A $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 6
+# Currier's language A, hand 1
+# herbal
+# Two paragraphs of text, left of plant picture
+# Same root as f100v [1,1] (Petersen
+#
+<f3v.1,@P0>       <%>koaiin.cphor.qotoy.sha.ckhol.ykoaiin.s.oly
+<f3v.2,+P0>       daiidy.qoteeol.okeeor.okor.olytol.dol,dar
+<f3v.3,+P0>       okom.chol.shol.seees.chom.cheeykam.okai
+<f3v.4,+P0>       qodar.ees.eey.kcheol.okal.do.r.chear,een
+<f3v.5,+P0>       ychear.otchal.cho,r.char.ckh[a:y]
+<f3v.6,+P0>       or.cheor.kor.chodaly.chom<$>
+#
+<f3v.7,+P0>       <%>tchor.otcham.chor.cfham.s
+<f3v.8,+P0>       ykchy.kchom.chor.chckhol.oka
+<f3v.9,+P0>       ytcheear.okeol.cthodoaly.chor.cthy
+<f3v.10,+P0>      ochos.daiin.qokshol.daiim.chol.okary
+<f3v.11,+P0>      sho.shockho.ckhy.tchor.chodaiin.chom
+<f3v.12,+P0>      osh.chodair.ytchy.tchor.kcham.s
+<f3v.13,+P0>      shar.shkaiin.qokchy.yty.cthal.chky
+<f3v.14,+P0>      dain.sheam.y,keam<$>
+#
+#
+<f4r>      <! $Q=A $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C>
+# page 7
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Hypericum; Centaurium Erythaea (O'Neill)
+# Two paragraphs of text, flower cuts through top one
+#
+<f4r.1,@P0>       <%>kodalchy.chpady.sheol.ol,sheey.qotey<->doiin.chor.ytoy
+<f4r.2,+P0>       dchor.shol.shol.cthol.shtchy.chaiin.£s<->choraiin.chom
+<f4r.3,+P0>       otchol.chol.chy.chaiin.qotaiin<->daiin.shain
+<f4r.4,+P0>       qotchol,chy.yty.daiin.okaiin.cthy<$>
+#
+<f4r.5,+P0>       <%>pydaiin.qotchy.dy,tydy
+<f4r.6,+P0>       chor.shytchy.dytcheey
+<f4r.7,+P0>       qotaiin.cthol.daiin.cthom
+<f4r.8,+P0>       shor.shol.shol.cthy.cpholdy
+<f4r.9,+P0>       daiin.ckhochy.tchy.kor,aiin
+<f4r.10,+P0>      odal.shor.shyshol.cphaiin
+<f4r.11,+P0>      qotchoiin.she[o:a]r.qoty
+<f4r.12,+P0>      soiin.chaiin.chaiin
+<f4r.13,+P0>      daiin.cthey<$>
+#
+#
+<f4v>      <! $Q=A $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 8
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Convulvula Ipomea? (climbing plant)
+# Two paragraphs, top one split by plant
+#
+<f4v.1,@P0>       <%>pchooiin.ksheo.kchoy.chopchy.dolds<->dlod
+<f4v.2,+P0>       ol.chey.chy.cthy.shkchor.sheo.cheory<->choldy
+<f4v.3,+P0>       sho.sho.chaiin.shaiin.daiin.qodaiin<->o,aram
+<f4v.4,+P0>       qok[sh:ch]y.qocthy.choteol.daiin.cthey<->choaiin
+<f4v.5,+P0>       shor.sheey.{cto}.otoiin.shey.qotchoiin<->chodain
+<f4v.6,+P0>       ytchoy.shokchy.cphody<$>
+#
+<f4v.7,+P0>       <%>torchy.sheeor.chor.chokch[y:e].cphydy
+<f4v.8,+P0>       oleeeb.chor.cthol.sho.otor.cthory
+<f4v.9,+P0>       qooko,iiin,cheog.chcthy.shoky.daiin
+<f4v.10,+P0>      otaiin.sheo.okeody.chol,chokeody
+<f4v.11,+P0>      sho.kcheor.shody.shtaiin.qotol,daiin
+<f4v.12,+P0>      qokey.sho.okeol.s,keey.shar,char,ody
+<f4v.13,+P0>      shody.s.cheor.chokody.shodaiin.qoty
+<f4v.14,+P0>      ochody.chy,key.chtody<$>
+#
+#
+<f5r>      <! $Q=A $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 9
+# herbal
+# Currier's language A, hand 1
+# Plant ID: [Herba] Paris, Indian Cucumber?
+# Two paragraphs
+#
+<f5r.1,@P0>       <%>kchody.fchoy.chkoy.oaiin.oar,olsy.chody.dkshy,dy
+<f5r.2,+P0>       ochey.okey.qokaiin.sho.ckhoy.cthey.chey.ok[a:y]{ƒo}s.otol
+<f5r.3,+P0>       qoaiin.otan,chy.daiin.oteeeb.chocthy.otchy.qotchody
+<f5r.4,+P0>       otain.sheody.chan.s.cheor.chocthy<$>
+#
+<f5r.5,+P0>       <%>tchy.shody.qoaiin.cholols.sho.qotcheo.daiin.shodaiin
+<f5r.6,+P0>       sho.cheor,chey.qoeeey.qoykeeey.qoeor.cthy.shotshy.dy
+<f5r.7,+P0>       qotoeey.keey.cheo,kchy.shody<$>
+#
+#
+<f5v>      <! $Q=A $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 10
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Paretaria Urtica (O'Neill)
+# Only one paragraph of text
+#
+<f5v.1,@P0>       <%>k,o,cheor.chor.ytchey.pshod.chols.chodaiin.ytoiiin.daiin
+<f5v.2,+P0>       dchol.{c'y}.chol.otaiin.dain.cthor.chots.ychopordg
+<f5v.3,+P0>       qotcho.ytor.daiin.daiin.otchor.daiin.q'o.darchor.do
+<f5v.4,+P0>       qotor.shees.otol.ykoiin.shol,daiin.cthor.okch,y,taiin
+<f5v.5,+P0>       shokeeol.chor.cheotol.otchol.daiin.dal.chol,chotaiin
+<f5v.6,+P0>       otol.chol.dairodg<$>
+#
+#
+<f6r>      <! $Q=A $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 11
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Asclepiades, but with wrong leaves (of Pediculum)
+# One paragraph with 14 lines, plant cutting through
+#
+<f6r.1,@P0>       <%>foar.y.shol.cholor.cphol.chor.ch{ck}<->chopchol.otcham
+<f6r.2,+P0>       daiin.chckhy.chor.chor.kar.cthy<->cthor.chotols
+<f6r.3,+P0>       foeear.kshor.choky.os.cheoeees<->ykeor.ytaiin.dam
+<f6r.4,+P0>       dar.cho,s.sheor.cho{ith}y.otcham<->yaiir.chy
+<f6r.5,+P0>       t[a:o]r.okoiin.shees.ytaly.cthaiin<->odam
+<f6r.6,+P0>       or.al.daiin.ckham.okom.cthaiin<->ydaiin
+<f6r.7,+P0>       daiin.qodaiin.cho.s.chol.okaiin.s
+<f6r.8,+P0>       ychol.ckhor.pchar.sheo.ckhaiin
+<f6r.9,+P0>       dar.sheol.skaiiodar.otaiin.chory
+<f6r.10,+P0>      tchor.ctheod.chy.shor.od,she.od
+<f6r.11,+P0>      ychar.olchaj.ol.chokaiin
+<f6r.12,+P0>      or.shol.cthom.chor.cthy
+<f6r.13,+P0>      qocthol.[y:q]odaiin.cthy
+<f6r.14,+P0>      ysho.taiin.y,kaiim<$>
+#
+#
+<f6v>      <! $Q=A $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 12
+# herbal
+# Currier's language A, hand 1
+# Plant ID: blackgum tree?, arctium? Bidens(sp?)kyptis (O'Neill),
+# (castor oil busk, ricinus?)
+# 21 lines in apparently two paragraphs
+#
+<f6v.1,@P0>       <%>koary,sar.[ch:{oh}]eekar<!funny o, ö?>.qoor.shor.chapchy.s.chear.char.otchy
+<f6v.2,+P0>       oees.chor.chckhy.qoekchar.chea[s:r].odaiiin.kchey.chor,chaiin
+<f6v.3,+P0>       qoair.ckhy.chol.oechockhy.chekchoy.ckhy.okol<->rychos
+<f6v.4,+P0>       y,shckhy.ytchoy.s.os.y.jajy.dchy.dey.okody<->ytody
+<f6v.5,+P0>       dair.{c'ha},chodam.dam.okor.oty<->doldom<$>
+#
+<f6v.6,+P0>       <%>tchody.shocthol.cho{cthh}y.s
+<f6v.7,+P0>       ychos.ychol.daiin.cthol.dol
+<f6v.8,+P0>       ychor.chor.okchey.qokom
+<f6v.9,+P0>       oeeo,dal.chor.cthom.s
+<f6v.10,+P0>      qokchod.ychear.kchdy
+<f6v.11,+P0>      lor.char.otam.ctho,m,dy
+<f6v.12,+P0>      ytcho[s:r].shy.qokam.cthy
+<f6v.13,+P0>      yodaiin.cthy.s.chor.oees.or
+<f6v.14,+P0>      qokor.chol.cthol.tchalody
+<f6v.15,+P0>      chockhy.s.or.chy.s,ain.ar
+<f6v.16,+P0>      ochy.cthar.cth[a:o]r.cthy
+<f6v.17,+P0>      y,chaies.ckhal.cthodam.dy
+<f6v.18,+P0>      ytchocthol.ches.{ith}or
+<f6v.19,+P0>      ocholy.kchos.chy.dor
+<f6v.20,+P0>      dchor.choldar.okol.daiin
+<f6v.21,+P0>      ycheor.chor.octham<$>
+#
+#
+<f7r>      <! $Q=A $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1>
+# page 13
+# herbal
+# Currier's language A, hand 1
+# Pland ID: Nymphaea alba
+# 10 lines in two paragraphs, both cut by plant
+#
+<f7r.1,@P0>       <%>fchodaiin.shopchey.qko<->shey.qoos.sheey.charochy
+<f7r.2,+P0>       dcheey.keo.r.shor.dold<->dchey.kchey.otchy.cheody
+<f7r.3,+P0>       oeeees.cheodaiin.sheey<->ytcheey.qotchy.chald
+<f7r.4,+P0>       qokcho.cho.lochey.daiin<->ychey.kchos.odaiin
+<f7r.5,+P0>       oaiir<->otaiin<$>
+#
+<f7r.6,+P0>       <%>ksholo,chey.qotoees.chkoldy<->otchor.choaiin
+<f7r.7,+P0>       dshoy.cthol.chol.otchol.dain<->shody.shol.chotchy
+<f7r.8,+P0>       okchey.deeeese.choty.qokchy<->shol.keey.choty.dain
+<f7r.9,+P0>       qokechy.ol,choiin.chol.cphey<->shckhy.chochy.kchod
+<f7r.10,+P0>      s,chain.chor.daiin.chckhy<$>
+#
+#
+<f7v>      <! $Q=A $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1>
+# page 14
+# herbal
+# Currier's language A, hand 1
+# Plant ID: polygonum persicaria, potentilla silvestris, oculus christi
+# 9 lines, two paragraphs, plant intrudes in bottom paragraph
+#
+<f7v.1,@P0>       <%>polyshy.shey.tchody.qopchy.otshol.dy.daiin.tshodody
+<f7v.2,+P0>       chochy.cthy.daiin.qoky.ch{cphh}y.daiin.cthol.cthy.cthd
+<f7v.3,+P0>       qokchy.dykchy.chkeey.kshy.ky.ty.dor.cheey.o,l,cheol,dy
+<f7v.4,+P0>       choteeeb.oeear.choschy.dain.sho.kshy.shol.deees.dol
+<f7v.5,+P0>       dchodaiin.qotchy.cheey.tcheey<$>
+#
+<f7v.6,+P0>       <%>kchor.sheod.sheodaiin.sho,daiin.oksho,lshol.dair.qos
+<f7v.7,+P0>       okshodeeeb.chorcheor,odaiin.shotch[o:?]<->dol.dol.dor.aiin
+<f7v.8,+P0>       qoteeeo.r.cho,cheeody.qotchey.tey<->o,kcho,r.daiin
+<f7v.9,+P0>       sho.keeo.daiir.chokchy.dor.deol.dy<->dol,daiin<$>
+#
+#
+<f8r>      <! $Q=A $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 15
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Praenanthes (O'Neill), Atriplex hastata (spinach?)(Voynich)
+# Hedera Helix (RZ)
+# last word(s) in each paragraph flushed to the right (signatures?)
+#
+<f8r.1,@P0>       <%>pshol.chor.otshal.chopy<->cph[o:a]l.chody.shy.cfhodar.shor
+<f8r.2,+P0>       tchty.sh,kcheals.sho<->okche.do.dchy.dain.al
+<f8r.3,+P0>       chodar.shy.sy<->chodaiin.shokchy.chor.dy
+<f8r.4,+P0>       qotor.chor.chor.sheey<->dchol.shesed.chof.chy.dam
+<f8r.5,+P0>       okchey.do.r.cheeey.dy.ky<->scho.chky.{ck}ooaiin.ch[y:a],taiin
+<f8r.6,+P0>       tosh.{ck}cheey.koltoldy<->shy.choety.cheeody.sol
+<f8r.7,+P0>       choto.kchoan.choor.dain
+<f8r.8,=Pt>       dcho.dain<$>
+#
+<f8r.9,*P0>       <%>tchoep.sho.pcheey.pchey<->ofchey.dsheey.sholdaiin.shor
+<f8r.10,+P0>      daiin.cheey.teeodan.dy<->cheocthy.oksheo.dol.dairg
+<f8r.11,+P0>      shol.cheodaiin.daiin.do<->y,tchody.chot.choty.otariin
+<f8r.12,+P0>      qo,chodaiin.shotokody<->chotol
+<f8r.13,=Pt>      okokchodg<$>
+#
+<f8r.14,*P0>      <%>{c„h}o.{cÄh}ey.shol.chofydy<->sho.chey.kshey.lody.cholal
+<f8r.15,+P0>      dchey.ckhol.chol.chey.kc{cs}<->chy.{cto}daiin.dol.daiiir[{ih}:ch]y.ckhy
+<f8r.16,+P0>      ychey.kch[e:o]kchy.chsey,kchy<->scheaiin.cthai{ih}ar.cthy.dar
+<f8r.17,+P0>      chol.dchy.qokar.chl<->aiin.chean.{ck}y.char.chaiin
+<f8r.18,+P0>      okar.cfhaiin.chaiin.{cl}<->daiin.chor.cha.rchealcham
+<f8r.19,+P0>      sair.cheain.cphol.dar<->shol.kaiin.shol.kaiin.dai,kam
+<f8r.20,+P0>      or.cho,kesey.shey.o.kal<->chal
+<f8r.21,=Pt>      schol.saim<$>
+#
+#
+<f8v>      <! $Q=A $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 16
+# herbal
+# Currier's language A, hand 1
+# gathering mark 1: 13mg (Primus)
+# end of quire I
+# Plant ID: Silene
+#
+<f8v.1,@P0>       <%>{cØh}od.soo{cÄh}<->sol.shol.otol.chol.opcheaiin.opydaiin.saiin
+<f8v.2,+P0>       shcthal.sar<->chor.sheaiin.shor.chykchy.otaiin.{ct}y
+<f8v.3,+P0>       qody.cheal.sy<->chory<->chear.shol.chaiin.shaiin.dolas
+<f8v.4,+P0>       dshol.shol<->dol<->chean.cthar.shealy.daiin.chary
+<f8v.5,+P0>       chol.chol.dar<->otchar.etaiin.cthol.dar
+<f8v.6,+P0>       daiin.cthan<->ytchy.chey,kaiin.dain.ar
+<f8v.7,+P0>       sho.kchol<->dar.shey.cthar.chotain.ry
+<f8v.8,+P0>       okcholksh<->chol.chol.chol.cthaiin.dain
+<f8v.9,+P0>       shol.orchl<->chokchy.chol.cthor.chaiin
+<f8v.10,+P0>      scharchy<->oeesody.kchey.pchy.cpharom
+<f8v.11,+P0>      sorain<$>
+#
+<f8v.12,+P0>      <%>pchar.cho.rol.dal<->shear.chchotaiin.chal.daiin
+<f8v.13,+P0>      kchor.otchar.oky<->chokain.keoky.otorchy.satar
+<f8v.14,+P0>      shor.okol.lokaiin<->shol.kol.char.cthey.tchy.ckham
+<f8v.15,+P0>      or.chol.chan.ch{ck}y<->chor.cheain.char.cheeky.chor.ry
+<f8v.16,+P0>      chor.cheor.chear<->oteey.dchor.chodey.cho.raiin
+<f8v.17,+P0>      dain.chear.daiin<$>
+#
+#
+<f9r>      <! $Q=B $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1>
+# page 17
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Chelidonium Majus, Sallkraut (sp?)
+# last 3 words in last paragraph indented (signatures?)
+#
+<f9r.1,@P0>       <%>tydlo.choly.cthor.orchey.s.shy.odaiin.sary<->shor.cthy
+<f9r.2,+P0>       oykeey.chol,ytaiin.okchody.toeoky.okoiin.dy<->or.chaiin
+<f9r.3,+P0>       toiin.cphy.qotod.otaiin.cthy.okor.chey<->ctho,d.ram
+<f9r.4,+P0>       [y:o]shy.chokcho.chcthod,shor.shaiin.otar,dor<->ytol.dayty
+<f9r.5,+P0>       daiin.chor.sor.cthy.chokoiin.shol.dsholdy<->otchol.ot.dy<$>
+#
+<f9r.6,+P0>       <%>pshoain.cthoaiin.okaiir.{c†h}odoral.shar<->sy<->shydal.chdy
+<f9r.7,+P0>       or.chol.chy,tchy.tchol.ytor.qotol.chyky<->chodar.aiin
+<f9r.8,+P0>       qotcho.qokchy.cthey.koraiin.okain.d<->dal<->s.olshocth[y:g]
+<f9r.9,+P0>       ocho,cthy.cho{cto}y.chodykchy.saiin,dchy<->daiin
+<f9r.10,+Pc>      ytcha[s:r].oraiin.chkor<$>
+#
+#
+<f9v>      <! $Q=B $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C>
+# page 18
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Herba Trinitatis, Freyschamkraut(sp?) (O'Neill)
+# Viola Tricoloris, Jacca sive Flos Trinitatis
+# RZ: Viola allright but all upside down
+#
+<f9v.1,@P0>       <%>fochor.oporody.opy.shor.daiin.qopchypcho.qofol.shol.cfhol.daiin
+<f9v.2,+P0>       dchor.qoaiin.chkaiin.cthor.chol.chor.cphol.dy<->oty.qokaiin.dy
+<f9v.3,+P0>       ykey.chor.ykaiin.daiin.cthy.otaiin.oky<->oeees.daiin
+<f9v.4,+P0>       ytey,tch,y.kaiin.cthor.otol.oty.toldy<$>
+#
+<f9v.5,+P0>       <%>pchor.ypcheey.qotor.ypchy.olcfholy.t[o:e]<->ar<->chty.daiiin
+<f9v.6,+P0>       odol.choy.ksheody.chody<->da[in:iin]<->otchy.cthod<->yko
+<f9v.7,+P0>       qo.chol.chol.{ct}chy.daiin<->otal<->dor<->daim
+<f9v.8,+P0>       soiin.daiin.qokcho.rokyd<->daly
+<f9v.9,+P0>       daiin.chy.tor.chyty.dary<->ytoldy
+<f9v.10,+P0>      oty.kchol.chol.chy.kyty
+<f9v.11,+P0>      ychor.chshoty.oky,kaiin
+<f9v.12,+P0>      chkaiin.ckhy.chor<$>
+#
+#
+<f10r>     <! $Q=B $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# page 19
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Scabiosa
+#
+<f10r.1,@P0>      <%>pchocthy.shor.octhody.chorchy.pchodol.chopchal.ypch,kom
+<f10r.2,+P0>      dchey.cthoor.char.chty.os,chair.otytchol.oky.daiin.etyd
+<f10r.3,+P0>      qotor.o,tchy.daiin.chocthy.qotchy.chol.or.yty.dy.dy
+<f10r.4,+P0>      sor.chaiin.chcthy.ctho,ckhy.or.aiin.chtchor.do[iir:iin].ody
+<f10r.5,+P0>      qokchy.qotchol.chol.cthy<$>
+#
+<f10r.6,+P0>      <%>ycheor.cthy.chor.cthaiin.qoctholy.dy<->chy.taiin.shy
+<f10r.7,+P0>      dchy.qokchol.y,kchaiin.yty.daiin.cth<->dain.dair,am
+<f10r.8,+P0>      qotchor.chor.otol.chol.cholor<->chol.daiin.dar
+<f10r.9,+P0>      oykchor.shor.chor.chy.kaiiin.dy<->chodaiin
+<f10r.10,+P0>     oqot[o:a]r.otor.cfhy.cthor.osain<->ytoiin
+<f10r.11,+P0>     ‡otchoshor.qoty.qotor.cthyd<->otar
+<f10r.12,+P0>     ‡odaiin.daiin.qotchy.qotor<$>
+#
+#
+<f10v>     <! $Q=B $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# page 20
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Hellebore? orientalis
+#
+<f10v.1,@P0>      <%>paiin,daiin.sheo.pcheey.qoty.daiin.cthor.otydy.sain
+<f10v.2,+P0>      dain.daiin.ckhy.chcthor.choiin.qot.chodaiin.cthy.daiin
+<f10v.3,+P0>      dsho.ytey.kchol.ol,ty.chol.dy<$>
+#
+<f10v.4,+P0>      <%>qotchytor.shoiin.daiin.qotchey.sh{cthh}y.ytor.dain
+<f10v.5,+P0>      sho,ykeey.daiin.qotchy.qotor.chol.daiin.qokchy,ky
+<f10v.6,+P0>      shoiin.chor.shcthy.qoty.qotoiin.qokol.chor,aiin
+<f10v.7,+P0>      qokol.chy,ky.chol,cheky.daiin.dain.chckhan<$>
+#
+#
+<f11r>     <! $Q=B $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 21
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Silene Aca[ul|nt]is (O'N)
+#
+<f11r.1,@P0>      <%>tshol.schoal.cfhy.shfydaiin.cphy.shey.tchody.shoyty
+<f11r.2,+P0>      socthody.qodor,y.kshy.daiin.ytchy.ytchoky.kchol.daiin
+<f11r.3,+P0>      qoty.chol.cthy.d[o:a]r.ykychy.choty.dain.chaiin.daiin.d[o:e]d
+<f11r.4,+P0>      dchol.chy.kchy.dy.daiin<$>
+#
+<f11r.5,+P0>      <%>tchol.shor.shor.dky.{c'h”h}y.daiin.cthy.d,y,chodl,daiin
+<f11r.6,+P0>      odl.d,s,y.otol.chaiin.ykchor.dair.chody.cthy.s.daiin
+<f11r.7,+P0>      qotchy.okchol.cthy.dy<$>
+#
+#
+<f11v>     <! $Q=B $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 22
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Leonotus or Leonarus
+# G. Turner's pineapple
+#
+<f11v.1,@P0>      <%>poldchody.shcphy.shordy.qoty<->shol.cphar.dan,y
+<f11v.2,+P0>      shol.dy.chckhy.shcthy.daiin.dam<->ykchy.dain.dchy
+<f11v.3,+P0>      otchor.dy.kchy.tchy.[˜:d]ar.qokchd<->oky.choldy,dy
+<f11v.4,+P0>      qokchor.cholol{cr}.chyky.dchy.qoky<->ctho.tchey.tu
+<f11v.5,*L0>      dd
+<f11v.6,=P0>      soydy.qoteey.qot.chor.dy.ddy<->cthor.shy,arg
+<f11v.7,+P0>      ycheor.ksho.dor.cthey.s,chold<$>
+#
+# Folio 12 is missing. Its stub is still visible.
+#
+#
+<f13r>     <! $Q=B $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 23
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Tussilago petronitas, colto foot (all sp?)
+#
+<f13r.1,@P0>      <%>torshor.opchy.shol.dy.qopchy.shol.opchor.dypchy.dchg
+<f13r.2,+P0>      dchol.chol.dol.shkchy.ydal.shy.ykchy.qot[?:ch]y.daiin.s.y
+<f13r.3,+P0>      s,y.dchor.shaiin.oeees.ykor.chor.ytshy.ykchy.kchy.dar
+<f13r.4,+P0>      qodchy.ytchy.otchor<$>
+#
+<f13r.5,+P0>      <%>shorodo.shy.tshy.kchol.dpchy,qopchy.otchol.cfholdy
+<f13r.6,+P0>      tchor.dor.daiin.qotchol.okchy.okchor,oiin.chckhy.d
+<f13r.7,+P0>      dchy.qoky.chol.dy.qo{kh}y.d,oldy<->okchor.doaiin
+<f13r.8,+P0>      shochy.qokchy.torchy.k{chky}<->s.okchey.daiin
+<f13r.9,+P0>      oldy.shey.chol.d[o:a]iin.ykoly<->okchal.daldy
+<f13r.10,+P0>     sotchy.kchy.okorory<$>
+#
+#
+<f13v>     <! $Q=B $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 24
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Crassulatea Fetthenne(sp?)
+#
+<f13v.1,@P0>      <%>koair.chtoiin.otchy.kchod.otol.otchy.octhos
+<f13v.2,+P0>      oko.qokol.chodal.otchol.cphol.choty
+<f13v.3,+P0>      qokchy.qokod.chy.otchy.cthody
+<f13v.4,+P0>      o,l,s.chey.okos.oa[iin:in].okshy.qo{cky}
+<f13v.5,+P0>      qoky.daiin<$>
+#
+<f13v.6,+P0>      <%>foldaiin.olcphy.shol.dy<->oty.shor.qotyd<->dairod
+<f13v.7,+P0>      dain.okal.chy.qokchory<->dchy.kok[y:a]daiin<->shon
+<f13v.8,+P0>      otchy.daiin.y,dain.ykol<->okchy.o,kald<->d,y,taiin
+<f13v.9,+P0>      tchtod.otal.cthor.ytal<->y.cho,tal<->sho.qocthy
+<f13v.10,+P0>     y,ol.chy.kchey.kchor.dal<$>
+#
+#
+<f14r>     <! $Q=B $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 25
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Pfeilkraut - scorpion, Sagittaria
+#
+<f14r.1,@P0>      <%>pcho,daiin.chopol.shoiin.daiin.dain
+<f14r.2,+P0>      o,ykeey.soiiin.chok.qokchy.da.okol
+<f14r.3,+P0>      ydaiin.olchy.kchor.daiin.olol
+<f14r.4,+P0>      ochkch[o:a]r.kol.shy.daiin.dorody
+<f14r.5,+P0>      qokchol.dar.dalo.qotolo
+<f14r.6,+P0>      ychol.oir.okor.choor.ockhy
+<f14r.7,+P0>      otcho.dain.chckhy<$>
+#
+<f14r.8,+P0>      <%>soshy.‰chol.shor.cheos.ykaiin.s
+<f14r.9,+P0>      sody.chody.otchody.qotchy,koiin.sy<->sho.ty,dy
+<f14r.10,+P0>     qotchor.chod.shoty.chody.dol,dy,dy<->okchydy
+<f14r.11,+P0>     dchokchy.schol.dy.shey.dar.qoty<->ykeeyky
+<f14r.12,+P0>     oeeeb.chey.keor.chey.tchyky<->chodalg
+<f14r.13,+P0>     sodaiin.chy.kchy.kchy.ykeody<$>
+#
+#
+<f14v>     <! $Q=B $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 26
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Osmodei (fern root)
+#
+<f14v.1,@P0>      <%>pdychoiin.yfodain.otyshy.dy.ypchor.daiin.kol.ydain
+<f14v.2,+P0>      okchor.d,chytshy.oty.chy.cthy.otchy,ty.chol,daiin
+<f14v.3,+P0>      ychy,dy.daiin.chcthy.y[k:t],ykaiin.dytchy.{ykhh}y.ky,dy
+<f14v.4,+P0>      ytychy.ksho.ykshy.shokshor.yty.darody.dyoty,ds
+<f14v.5,+P0>      okshy.daiin.okchor,chky.qotchy.daiin.cthor.oty
+<f14v.6,+P0>      qoty.choky.cthy.chokchy.dy,dy,dy.chckhy.dchyd.n
+<f14v.7,+P0>      oy,kshy.cho,ty.dydy,odyd.otchy.o.kchy.dshy.dardy
+<f14v.8,+P0>      chokshor.daiin<->okshody.daiin<->dol.dair.dam
+<f14v.9,+P0>      dykchy.ctholdg<->dchckhy<$>
+#
+#
+<f15r>     <! $Q=B $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1>
+# page 27
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Saw/Some thistle?
+#
+<f15r.1,@P0>      <%>tshor.shey.tchaly<->shy.chtols.shey.daiin
+<f15r.2,+P0>      otchor.qokchor.oly<->okor.shy.koly
+<f15r.3,+P0>      qokaiin.qotchy,tydy<->daiin.chol.cthy
+<f15r.4,+P0>      scheaiin.chodaiin.chl<->sol.ckhaiin.sal
+<f15r.5,+P0>      qotchy.r,shor.cthy<->daiin.cthy.dy
+<f15r.6,+P0>      dchy.ko,kaiin.chdy<->saiin.okear
+<f15r.7,+P0>      daiin.shkaiin.cthy<->sho.keocthy
+<f15r.8,+P0>      shocthy.tol,kaiin,s<->dain.ctholy
+<f15r.9,+P0>      octhain.qokaiin.chos<->odaiin.cthl,s.y
+<f15r.10,+P0>     ychain.ch{ckhh}y.okshy<->saiiin.dolchds
+<f15r.11,+P0>     okaiin.otaiin.chl.sy<->chor.choross
+<f15r.12,+P0>     qotor.shor.tcheor.chy<->cthaiin<->shan
+<f15r.13,+P0>     ykshol.dor.sheey.cthy.dain<->sky<->shor,shoty
+<f15r.14,+P0>     otcho.kchy.chol.daiin.{ith}ar<->ytol.dor.dom
+<f15r.15,+P0>     qotchor.chaiin.chy,kol.daky<$>
+#
+#
+<f15v>     <! $Q=B $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1>
+# page 28
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Herba Paris (liliacesus), Herba Mortis
+# Leaves = Aconitum / Paris Quadrifolia (O'Neill)
+#
+<f15v.1,@P0>      <%>poror.orshy.choiin.dtchan.opchordy
+<f15v.2,+P0>      Šchor.or.oro.r,aiin.cthy.[?:t]ain,dar
+<f15v.3,+P0>      cthor.daiin.qokor.okeor.okaiin
+<f15v.4,+P0>      doiin.choky.shol.qoky.qotchod
+<f15v.5,+P0>      otchor.chor.chor.ytchor.cthy.s
+<f15v.6,+P0>      qotchey.choty.kaiin.otchy.r.aiin
+<f15v.7,+P0>      {co}y.cho[iin:iir].sho.[?:s].chy.s.chy.tor.ols
+<f15v.8,+P0>      ytchor.chor.ol.oiin.oty.shol.daiin
+<f15v.9,+P0>      otchol,octhol.chol.chol.chody.kan
+<f15v.10,+P0>     sor.chor.cthoiin.cthy.qokaiin
+<f15v.11,+P0>     sol,oiin.cheor.chol.daiin.cthy
+<f15v.12,+P0>     daiin.cthor.chol.chor<$>
+#
+#
+<f16r>     <! $Q=B $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 29
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Canabis, Hemp, Ampfer(?)
+#
+<f16r.1,@P0>      <%>pocheody.qopchey.sykaiin.opchy,dor.ychy<->daiin.dy<->chor.orom
+<f16r.2,+P0>      ychykchy.otey<!corr?>.kol.shor.ody.otody.qoy<->oeesordy
+<f16r.3,+P0>      ydor.sheal.okchy.qoy,koiin.choky.ykair
+<f16r.4,+Pc>      dainod.ychealod<$>
+#
+<f16r.5,*P0>      <%>tchor.chor.chs.y,kch.shocthy.opchy.ty,ky
+<f16r.6,+P0>      oshaiin.dyky.oeees.deeeod.aiin.d,toaiin
+<f16r.7,+P0>      daiin.dalchy.dyky.schy.s,aiin.doal.qoky
+<f16r.8,+P0>      shotchy.ydain.yky.shody.otol.daiin
+<f16r.9,+P0>      saiin.ytaiin<$>
+#
+<f16r.10,+P0>     <%>toror.dal[y:o],dal.opchy,fchol.ypcho{cfy}.okal
+<f16r.11,+P0>     sokchy.qokol.choty.okchy.cthy.chy,kchy
+<f16r.12,+P0>     dy,cho,kchy.shcthy.shtshy.sho.tchokyd
+<f16r.13,+P0>     qok[{oh}:ch]or.dl.dy.shey<$>
+#
+#
+<f16v>     <! $Q=B $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 30
+# herbal
+# Currier's language A, hand 1
+# gathering  mark 2: 29
+#
+<f16v.1,@P0>      <%>pchroiin.otchor.chpchol.chpchey.s,pcho{ct}y
+<f16v.2,+P0>      ytchor.y.ky,chokchy.qokchocthor.shory
+<f16v.3,+P0>      ykchy.dy.choy.qoty.chy,kchy.koshet
+<f16v.4,+P0>      dchol.chcthody.cphod.chotol.dal
+<f16v.5,+P0>      ytchy.chyty.chor.chol.ytchy.dan
+<f16v.6,+P0>      sor.ch,k[a:o]r.oty.chkar.chol.dairin<$>
+#
+<f16v.7,+P0>      <%>pchocthy.chypchy.qotchy.ch{cfhh}y.sy
+<f16v.8,+P0>      daiin.chol.y.daiin.chcthy.qot,char.chor.sholo
+<f16v.9,+P0>      dshy.okaiin.okaiin.chol.chor.cthor.ty.chody
+<f16v.10,+P0>     qokchy.chy,dy.ykchy.chckhy.otain.cthor.[cth:{ith}]y
+<f16v.11,+P0>     okytaiin.chkchy.saiin
+<f16v.12,+P0>     daiin.yky.otor.chody
+<f16v.13,+P0>     sokar.oaorar<$>
+#
+#
+<f17r>     <! $Q=C $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=O>
+# page 31
+# herbal
+# Currier's language A, hand 1
+# has extraneous writing on top of page
+# mull*av alhor lucz hev vellome o ***....
+#
+<f17r.1,@P0>      <%>fshody.daram.ydar,chog.opydy.ypod.chop.otchy.dody.oldckhy
+<f17r.2,+P0>      ydair.choky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods
+<f17r.3,+P0>      chol.or.chy.qodam.okor.chor.okchom<$>
+#
+<f17r.4,+P0>      <%>tchoš.shol.qokol.qor.olaiin.opydg<->som.ypchy.ypaim
+<f17r.5,+P0>      ychekchy.cthy.chor.shor.cphor.cphaldy<->dair.cthey.qody
+<f17r.6,+P0>      tsho.qof,cho.qokcheor.cheteg<$>
+#
+<f17r.7,+P0>      <%>ksheo.qokchy.choldshy.zepchy<->d{c'a}<->opchordy
+<f17r.8,+P0>      dchchy.dychear.schar.ykchy
+<f17r.9,+P0>      soy.chckho.o.da[s:r].chypcham
+<f17r.10,+P0>     dar.chear.dcheor.[s:?]ain.y.mol
+<f17r.11,+P0>     otchol.cthar.okaiin.chol.daiiin
+<f17r.12,+P0>     ychod,y.chotom<$>
+#
+<f17r.13,@Lx>     oteeeon.oiil
+#
+#
+<f17v>     <! $Q=C $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1>
+# page 32
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Tamus communis, Polygonum dumetorum(sp?), Smilax,
+# trachaia leaves (Dioscorides fol/25r)
+#
+<f17v.1,@P0>      <%>pchodol.chor.pchy.opydaiin.odal,dy
+<f17v.2,+P0>      ycheey.keeor.cthodal.okol.odaiin.okal
+<f17v.3,+P0>      oldaig.odaiin.okal.oldaiin.chockhol.olol
+<f17v.4,+P0>      kchor.fchol.cphol.olcheol.ok[eee:eeee]y
+<f17v.5,+P0>      ychol.chol.dolcheey.tchol.dar.ckhy
+<f17v.6,+P0>      oekor.or.okaiin.or.otaiin,d
+<f17v.7,+P0>      sor.chkeey.poiis.cheor.os.s.aiin
+<f17v.8,+P0>      qokeey.kchar.ol.dy.choldaiin.sy
+<f17v.9,+P0>      ycheol.shol.kchol.choltaiin.ol
+<f17v.10,+P0>     oytor.okeor.okar.okol.daiir,a[r:m]
+<f17v.11,+P0>     qokcheo.qokoiir.ctheol.chol
+<f17v.12,+P0>     oy.choy.keaiin.chckhey.ol.chor
+<f17v.13,+P0>     ykeor.chol.chol.cthol.chkor.sheol
+<f17v.14,+P0>     olo.r.okeeol.chodaiin.okeol.tchory
+<f17v.15,+P0>     ychor.cthy.che'eky.cheo.otor.oteol
+<f17v.16,+P0>     okcheol.chol.okeol.cthol.otcheolom
+<f17v.17,+P0>     qoain.[s:e']ar.she.dol.qopchaiin.cthor
+<f17v.18,+P0>     otor.cheeor.ol.chol.dor.chr.or,eees
+<f17v.19,+P0>     dain.chey.qoaiin.cthor.cholchom
+<f17v.20,+P0>     ykeey.okeey.cheor.chol.sho.odaiin
+<f17v.21,+P0>     oal.sheor.sholor.or.shecthy.cpheor.daiin
+<f17v.22,+P0>     qokeee.dar.chey.keeor.cheeol.ctheey.cthy
+<f17v.23,+P0>     chkeey.okeor.sh[a:o]r.okeom<$>
+#
+#
+<f18r>     <! $Q=C $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# page 33
+# herbal
+# Currier's language A, hand 1
+#
+<f18r.1,@P0>      <%>pdrairdy.darod{cf}.yoar.ykchol.dar.om.chckhy<->octhor.dal
+<f18r.2,+P0>      otshol.qokchol.chykchy.okchal.daiin.dy<->chol.dain
+<f18r.3,+P0>      qokchor.chor.{c‹h}{ök}ey.or,chey.qokchol.dy<->ytcharg
+<f18r.4,+P0>      chor.[cth:{ith}]or.okeor.ykchol.okain<$>
+#
+<f18r.5,+P0>      <%>tchor.shor.cthaiin.cthol.chlol.chom
+<f18r.6,+P0>      ychy.kchor.dair.ytol.chcthy.dar.dar.dal
+<f18r.7,+P0>      oshor.shaiin.cthy.sholdy.doldy<->doldaiin
+<f18r.8,+P0>      qokchor.ckhol.olody.okal,dy<->dary
+<f18r.9,+P0>      chol.chcthal.okshal.chykald
+<f18r.10,+P0>     dar.shor.qokchol.ol.ydaiin
+<f18r.11,+P0>     sotchaiin.chokchy.chckhol.chor.g
+<f18r.12,+P0>     ychair.cthol.daiin.qokchy.cthy
+<f18r.13,+P0>     or.shaiin.cth[a:o]r.cthal.okal.dar
+<f18r.14,+Pc>     ychekch,y.kchaiin<$>
+#
+#
+<f18v>     <! $Q=C $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# page 34
+# herbal
+# Currier's language A, hand 1
+# Same plant as f102r2[3,1] ? (FSG, Stolfi)
+#
+<f18v.1,@P0>      <%>told.shor.ytshy.otchdal.dchal.dchy.ytdg
+<f18v.2,+P0>      qoeees.or.oaiin.shyŒ.okshy.qokchy.qokchy.s.g
+<f18v.3,+P0>      orshy.qoky.qoky.chkchy.qokshy.qokam
+<f18v.4,+P0>      qotchy.qokay.qokchy.ykcho.ydl.dar
+<f18v.5,+P0>      ychoees.ykchy.qol.kchy.qotchol.daiir,om
+<f18v.6,+P0>      qotor,chor.otchy.qokeees.chy.s.ar.ykar
+<f18v.7,+P0>      ychol.dor.chod.qokol.daiin.qokol.dar.dy
+<f18v.8,+P0>      tolol.sh.cphoy.daror.ddy.ytor.ykam
+<f18v.9,+P0>      okchor.qotchy.qokchy.ytol.doky.dy
+<f18v.10,+P0>     yk[o:a].dshy.dair.ykol.dom<!spots near dom><$>
+#
+#
+<f19r>     <! $Q=C $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 35
+# herbal
+# Currier's language A, hand 1
+# Same plant as f102v1[2,2] ? (Stolfi)
+#
+<f19r.1,@P0>      <%>pchor.qodchy.qotshy.dy.tchy.qotchy.qoky.daiin.dchydy
+<f19r.2,+P0>      dshy.chor.y.tchy.chol.dytchy.chordy.daiin.dyty.ñ.choò<!corr?>
+<f19r.3,+P0>      oscheor.shy.tdaiin.chol.dor.yky
+<f19r.4,+P0>      qokorar.daiin.chckhy.shy,kchor
+<f19r.5,+P0>      otchy.tchy.qoky.daiin.ó
+<f19r.6,+P0>      yshor.shy.daiin.otytchy.daiin
+<f19r.7,+P0>      qo'k.cho.ky.cthar.dor.chan.dar
+<f19r.8,+P0>      or.chor.daky.dal.chor.dorl.shy
+<f19r.9,+P0>      qotchor.dy.dor.y.tchy,kchy.shdaiin
+<f19r.10,+P0>     daiin.cthor.chol.ykchor.chordy
+<f19r.11,+P0>     qotchy.qolody.choldy.cthyd
+<f19r.12,+P0>     ykchor.chor.daiin.daiinol
+<f19r.13,+P0>     os,octhor.ytchor<$>
+#
+#
+<f19v>     <! $Q=C $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 36
+# herbal
+# Currier's language A, hand 1
+#
+<f19v.1,@P0>      <%>pochaiin.cthor.chpcheos.opchey.py,kchy
+<f19v.2,+P0>      qokchy.kchol.sor.qokchos.ykchy.darom
+<f19v.3,+P0>      otchy.chol,daiin.qotol.ytol.daiiin
+<f19v.4,+P0>      ytch.chcthy.qotol.daiin.daiin
+<f19v.5,+P0>      qotchy.qoteey.daiin.doty.qot
+<f19v.6,+P0>      ychoy.kchor.cthol.chocthy.s
+<f19v.7,+P0>      ycho.[r:s].chaiin.cthor<$>
+#
+<f19v.8,+P0>      <%>toy.tchey,qo.dchol.qokchs.dom
+<f19v.9,+P0>      ychor.oky.chor.yt[o:a]l.chol.oky,ddor
+<f19v.10,+P0>     daiin.chor.daiin.qoko[r:n].y.okchan
+<f19v.11,+P0>     qotol.d[o:a]r.okchor.daiin.cthor.otam
+<f19v.12,+P0>     otch.okchodshy.daiin.or.otaiin.dai[s:r]
+<f19v.13,+P0>     yees.ykchol.oty.ytor.ytar.ytchor.ytaiin
+<f19v.14,+Pr>     otchol,cheaiin.cthol<$>
+#
+#
+<f20r>     <! $Q=C $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C>
+# page 37
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Moss Polytrichum (O'Neill), cranberry
+#
+<f20r.1,@P0>      <%>kdchody.chopy.cheey.qotchol.qotoeey.dchor.chaiin
+<f20r.2,+P0>      chod,ey.cthey.chotol.odaiir.qotchy.cthody.chodchy
+<f20r.3,+P0>      qoteey.cho,chodaiin.sho.qochy.chey.tcheodal.daral
+<f20r.4,+P0>      ochol.ol.teey.ot[o:a]lchey<$>
+#
+<f20r.5,+P0>      <%>pchocthy.chokoaiin.{cp}y.cheeeb.opchey.shosaiin.ó
+<f20r.6,+P0>      choees.okchor.qotol.cheey.daiin.chy.choiin.daiin
+<f20r.7,+P0>      ocho,lshod.daiin.choteol.chol.dol.shol.otaiin
+<f20r.8,+P0>      schodain.cheo.r.cheody<$>
+#
+<f20r.9,+P0>      <%>fchodees.shody.qotchey.qokchey.qocphy.chokoldy
+<f20r.10,+P0>     ochoaiin.chor.sody.pchodaiin.chetody.choky.dchy.toy
+<f20r.11,+P0>     dchod.qoteeody.ytchy.qo,tshey.dchaiin.chol,ody
+<f20r.12,+P0>     shoiin.cheody.otchey.otchy.tchy.qoteey.daiin.dar
+<f20r.13,+P0>     ochaiin.chor.chor,cheey.tchey<$>
+#
+#
+<f20v>     <! $Q=C $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 38
+# herbal
+# Currier's language A, hand 1
+#
+<f20v.1,@P0>      <%>faiis,ar.okoy.shy,pofochey.opchy.qopy.choldy.opydy.cphy
+<f20v.2,+P0>      sos.ykoiin.cheol.chol.choiin.checthy.otol.chol.chodaiin.oty
+<f20v.3,+P0>      okchy.sho,kchol.shol.chcthy.qoty.chy.tolshy.qotchy
+<f20v.4,+P0>      sho.or.aiin.shol.daiin<$>
+#
+<f20v.5,+P0>      <%>tshol.folchol.otor.shol.shor.fshodchy.otchy.chcphy.dy
+<f20v.6,+P0>      doiiin.chockhy.da[n:r].cheo{ikh}y.shos.cheos.char.[{ith}:cth]aiin
+<f20v.7,+P0>      shocthy.sho.cthy.daiin.sheoy.tey.s<->soaiin
+<f20v.8,+P0>      shain.choraly.sho.ar.chy.daiin.d.s
+<f20v.9,+P0>      ykchy.keody.cho.cthy.chol.shd.qoty.dô
+<f20v.10,+P0>     shokaiin.chocthy.chol.daiin.chy.chor.ety
+<f20v.11,+P0>     okoiin.chey.{Èph}ol.chory<$>
+#
+#
+<f21r>     <! $Q=C $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 39
+# herbal
+# Currier's language A, hand 1
+#
+<f21r.1,@P0>      <%>pchor.o,eeockhy.o.fychey.ypchey.qopcheody.otaiin.chan
+<f21r.2,+P0>      saiin.chcphy.oky,sheaiin.qotchol.oteos.sheey.cthy.daiin
+<f21r.3,+P0>      qotol,shy.o.l.cheor.chy.qokchey.chey.keey.dy<$>
+#
+<f21r.4,+P0>      <%>pchofychy.daiin.cthain.o,tolosheey.qocthey.tolchory
+<f21r.5,+P0>      ykeey.daiin.chosy.qokoiin.otol.chol.qotcheol.okeoaiin
+<f21r.6,+P0>      dchor.y.kol,y,ky.chol.kol.qokeol.chol,ol.qoteeol.dady
+<f21r.7,+P0>      shoeor.cheor.choke[o:a]dy.cho,cthor.shy<$>
+#
+<f21r.8,+P0>      <%>fcho,kshy.otor.sheol.ocphal.opsheas.cthodaiin.oty
+<f21r.9,+P0>      okaiin.sho.tshaiin.chkaiin.sh,cthey.cthody.cthy.s
+<f21r.10,+P0>     totchy.keor.chy,ky.qotaiin.qotchol.ty.ctheey.otaiin
+<f21r.11,+P0>     shol.chol.shol.tchol.chcthy.otyky.shey.yteol.shody
+<f21r.12,+P0>     ykeey.chor.sheey.ysheol.chor.chol.daiin.chkaiin<$>
+#
+#
+<f21v>     <! $Q=C $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 40
+# herbal
+# Currier's language A, hand 1
+#
+<f21v.1,@P0>      <%>toldshy.chofchy.qofshey.shckhol.odaiin.shey.ckholy
+<f21v.2,+P0>      oeeesoy.qokchy.chody.qotchy.qokchy.choty.tchol.daiin
+<f21v.3,+P0>      qotol.keeees.chotchy.tcho.choty.chor.qotol.daiin.dal
+<f21v.4,+P0>      sho.chodaiin.choty.chol.daiin.daiin.chty<->chtol
+<f21v.5,+P0>      osho.deey.ctho.l.sho,cthy.daiin.dait.oky
+<f21v.6,+P0>      sho.tsho.chotshol.chol.todaiin.daiin
+<f21v.7,+P0>      ykcho.lchol.cho,l,chaiin.otchy.s.sheaiin
+<f21v.8,+P0>      cho.l.kchochaiin<$>
+#
+#
+<f22r>     <! $Q=C $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 41
+# herbal
+# Currier's language A, hand 1
+#
+<f22r.1,@P0>      <%>pol.olshy.fcholy.shol.dpchy.oty.okoly.daiin.opchy,s.ocphy
+<f22r.2,+P0>      ol.oiin.shol.o.kor.qokchol.daiin.okaiin.cthor.dain.ckhy.dom
+<f22r.3,+P0>      qokol.dykaiin.o,kchy.daiin.cthol.ctholo.dar.shain<$>
+#
+<f22r.4,+P0>      <%>pchaiin.ofchy.daiin.cfhy.doroiin.ypchol.sy<->schor.daiin
+<f22r.5,+P0>      ol.daiin.qokchy.dar.daiin.chor.oldor.oky<->y,choldchy
+<f22r.6,+P0>      y.chokshchy.cth[eeb:een]<$>
+#
+<f22r.7,+P0>      <%>kchol.shol.dsheor.{c'¢ˆ}.chdoly.ytaiin.ol<->otchy.cphal
+<f22r.8,+P0>      dchor.oty.daiin.ctholy.qoky.chotaiin.chocthy<->do[Ë:l]iin.dchor
+<f22r.9,+P0>      odaiin.dain.cthy.ctheo,r.o[r:in]aiino<$>
+#
+<f22r.10,+P0>     <%>kchol.chor.daiin.cthoiin.dchor.chey.qokol,dy<->opchol.oldam
+<f22r.11,+P0>     do[iin:iir].yckhody.qokchy.oky.otoldy.yty.dol.or<->d[ch:a]chy.daiin
+<f22r.12,+P0>     odchaiin.cthy.okchy.kchy.dchol.daiin<->ydaiin
+<f22r.13,+P0>     dchor.dy,dain.qockhy.ykol,okain<$>
+#
+#
+<f22v>     <! $Q=C $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 42
+# herbal
+# Currier's language A, hand 1
+#
+<f22v.1,@P0>      <%>pysaiinor.ofchar.oky.tchy.otdy<->sor.shy.qo'd
+<f22v.2,+P0>      daiin.y,kaiin.qotchy.kchy.[o:y]tchyd<->dshor.ychy
+<f22v.3,+P0>      qoky.kchorl.otchy.cthy.otchyky<->ytchol.otam
+<f22v.4,+P0>      otchaiin.shoty.qoky<->saiin<->odaiin.ytaiin
+<f22v.5,+P0>      dor.y,kcheor.daiin<$>
+#
+<f22v.6,+P0>      <%>fshor.shy,tchor.otaiin
+<f22v.7,+P0>      ychor.chor.qokchol.chory
+<f22v.8,+P0>      qotchy.cthy.qokol.daiin.dam
+<f22v.9,+P0>      okshor.shody.chol.tchol.otaiin,daiin
+<f22v.10,+P0>     qokchy.daiin.s<->or.ytal
+<f22v.11,+P0>     sokaiin.oty.dy
+<f22v.12,+P0>     ychky.daiin.cthy
+<f22v.13,+P0>     okchain.chkoldy.shotoly
+<f22v.14,+P0>     qotch[y:?].olshly.shol.daiin
+<f22v.15,+P0>     sho.cthy.chocthy.qokchy.dory
+<f22v.16,+Pc>     saiinchy.daldalol<$>
+#
+#
+<f23r>     <! $Q=C $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1>
+# page 43
+# herbal
+# Currier's language A, hand 1
+# Same plant as f102r2[3,1] (FSG, GL)
+#
+<f23r.1,@P0>      <%>pydchdom.chy.fcholdy.oty.otchol,shy.opyaiin.y',yfchy.daiin.ololdy.dal
+<f23r.2,+P0>      to.ar.chor.daiin.chk,dain.otchy.lolchor.daiin.dam.okchol.dain,g
+<f23r.3,+P0>      dchar.ykor.y,kaiin.daiin.cth[?:o].g<$>
+#
+<f23r.4,+P0>      <%>qokoldy.okaiir.ykaiil,g.qokeey.ofchol.dain.yfchor.olfchor.otchald
+<f23r.5,+P0>      ychor.qokchol.ytym.chol.da[ir:in].chol.ar.ol.ol.dol.dain<$>
+#
+<f23r.6,+P0>      <%>tshol.y,kor.qokaiin.yky.dar.okol.dchey.daiidal.dam.ytcho.ldals
+<f23r.7,+P0>      okar.olchar.shaiin.qokchol.dar.qokchol.dairo.r.ol.daiin.alg
+<f23r.8,+P0>      qokshy.char.daiir.qokaiin.olol.qoaiin.ykchy.s<->dal.okchy
+<f23r.9,+P0>      okol,ok,shy.qokol,dy<->dal.[d:j]she.qokeees.y.oly<->daiin.dal
+<f23r.10,+P0>     q[o:y]k.okaiin.chkchy,s<->yteain.odal.chal,dy<->dar.ykain
+<f23r.11,+P0>     ykyk[a:o].dalory<$>
+#
+#
+<f23v>     <! $Q=C $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1>
+# page 44
+# herbal
+# Currier's language A, hand 1
+#
+<f23v.1,@P0>      <%>podairol.odaiiily.sho,al,dy.opchol.otol.ol.chcphy.qotchar.s
+<f23v.2,+P0>      qot{co}tor.chy.okchaldy.qokchey.dol<->otchol.chal.otchg
+<f23v.3,+P0>      ycho.okaiin.okeol.eees.o,l.daiin.okeeor<->daiin.qotcholg
+<f23v.4,+P0>      okchey.dair.sholol.ol,dal<->otchor,[d:g]ar
+<f23v.5,+P0>      dor,chear.shor.dol.oaldary<$>
+#
+<f23v.6,+P0>      <%>tshol.shor.shkshy.okol.daiin<->otshor.olsar
+<f23v.7,+P0>      otor.oiin.sho.shol.qokol.daiin<->sol.daiin.ylg
+<f23v.8,+P0>      qokaiin.dain.qokor.okal,g.dam<->chor.olol.dam
+<f23v.9,+P0>      otshy.dal.dar.oldar.ar.or<->qoto.l,chees.g
+<f23v.10,+P0>     dor.chy.kshol.chol.ctho[?:l]<->otol.oloiir
+<f23v.11,+P0>     y,okaiin.doroiin.olols.oiin<->ol.cheeb.ols
+<f23v.12,+P0>     ol,aiios.oloro.eeeoly<$>
+#
+#
+<f24r>     <! $Q=C $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 45
+# herbal
+# Currier's language A, hand 1
+#
+<f24r.1,@P0>      <%>por,or,y.chor.opchar.she.cheol.daiin.or
+<f24r.2,+P0>      qotaiin.char.odaiin.okai{ikh}al.oky
+<f24r.3,+P0>      ycthar.cthal.okol.qotar.ckhy
+<f24r.4,+P0>      or.chckhaly.cthar.eeor.chees.da
+<f24r.5,+P0>      qodar.cho.r.chey.cthy.cthe.keom
+<f24r.6,+P0>      oeeeos.cthor.otal.qocthol.qoky
+<f24r.7,+P0>      q‘kar.chtar.s.cheor.cthol.qodol
+<f24r.8,+P0>      ychor.s.om.qoear.daiin.qokeol
+<f24r.9,+P0>      odaiin.ckham.qodai{ikh}y.dol.dal
+<f24r.10,+P0>     q[?:e]or.cfhar.chor.s.am.chotaiin.dy
+<f24r.11,+P0>     sar.cheoiees.okeem.cheor.qokain
+<f24r.12,+P0>     qokchy.qotchy.tol.tod.ckhy
+<f24r.13,+P0>     oees.ol.s.chey.chcth.s,ar
+<f24r.14,+P0>     qor.cheey.qod.char.cthal
+<f24r.15,+P0>     ockhoees.oeees.ol.dal.s
+<f24r.16,+P0>     sham.okeal.dal.dam.dal
+<f24r.17,+P0>     sshey.otam.sham.cthoj.oky
+<f24r.18,+P0>     ycheol.chol.daiin.chol.s
+<f24r.19,+P0>     yol.kol.chol.shom.otacphy
+<f24r.20,+Pc>     sam.chorly<$>
+#
+#
+<f24v>     <! $Q=C $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 46
+# herbal
+# Currier's language A, hand 1
+# gathering mark 3
+# Plant ID: (hard to read)
+#
+<f24v.1,@P0>      <%>tchodar.chocfhey.opom.shod.chcphy.opshody.ocphoraiin.o,k,o’am
+<f24v.2,+P0>      ydals.ckhor.shy.cho.dch[o:a]r.otol.otaiir<->otchos.okchom.okcho
+<f24v.3,+P0>      octh[y:o]l.odchees.oesearies<!small e>.okam.chcth
+<f24v.4,+P0>      ydal.sh.okol.okaiin.odaiin.dlos
+<f24v.5,+P0>      oeor.oraiin.tchar.oro<$>
+#
+<f24v.6,+P0>      <%>tochol.chor.{cf}arsa,r<!s above last a>
+<f24v.7,+P0>      ycheol.daid.dar.olom
+<f24v.8,+P0>      kochky.chcthy.shol.sain
+<f24v.9,+P0>      ychol.chol.or.chor.om
+<f24v.10,+P0>     okoeor.ctheod.choy.keol
+<f24v.11,+P0>     ydaiin.chear.qodom.okodaiin
+<f24v.12,+P0>     ksho.foar.{ct}o.sho.qok[ch:ee].ok.okchal
+<f24v.13,+P0>     oeeey.cheol.chol.odor.sho.do.otolodal
+<f24v.14,+P0>     do[iir:ar].cheeodam.sho.sho.dy
+<f24v.15,+P0>     dchey.kchod.dch[a:o]l.ochdy
+<f24v.16,+P0>     otchol.odaiim<$>
+#
+#
+<f25r>     <! $Q=D $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1>
+# page 47
+# herbal
+# Currier's language A, hand 1
+# Plant ID: too many to list here but mostly nettle- or mint-like
+#
+<f25r.1,@P0>      <%>fcholdy.soshy.daiin.{ck}y.shody.daiin,ocholdy.cpholdy.sy
+<f25r.2,+P0>      otor.chor.chsky.chotchy.shair.qod.sh[a:o]chy.kchy.chkain
+<f25r.3,+P0>      qotchy.qotshy.cheesees.sheear.s.chain.daiin.chain.dan
+<f25r.4,+P0>      dchckhy.shocthy.ytchey.cthor.s.chan.chaiin.qotchain
+<f25r.5,+P0>      qotcheaiin.dchain.cthain.daiin.daiin.cthain.qotaiin
+<f25r.6,+P0>      okal.chotaiin
+<f25r.7,=Pt>      dair.otaiir.otosy<$>
+#
+#
+<f25v>     <! $Q=D $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1>
+# page 48
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Leontopodium Edelweiss + unreadable
+#
+<f25v.1,@P0>      <%>poeeaiin.qo,ky.shy.daiin.qopchey.otchey.qofchor,sos
+<f25v.2,+P0>      dchor.cthor.chor.daiin.s.okeeaiin.daiin.ckhey.daiin
+<f25v.3,+P0>      orcho.kchor.chol.daiin.sh[cfh:ckh]o,r,daiin.dshey.daiity
+<f25v.4,+P0>      qokaiin.qokcho.shol.daiin.ckhear.ckhol.daiin.chkear
+<f25v.5,+P0>      dar.chokeey.dshor.dshey.qochol.dol.cho.daiin.daiin
+<f25v.6,+P0>      qokcho,r,ochy.qotchy.qotoral<->cho.“.chain.deeaiir.s
+<f25v.7,+P0>      o{c'o}.chkey.daiiol.daiin.shckh<->orchaiin<$>
+#
+#
+<f26r>     <! $Q=D $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# page 49
+# herbal
+# Currier's language B, hand 2
+# Plant ID: Flower like artemisium absinth / wermuth but leaves are not
+# gnaphalium?
+#
+<f26r.1,@P0>      <%>psheoky.odaiir.qoy<->ofshod.chypchey.ypchedy.ain<->chofo,che{ph}dy
+<f26r.2,+P0>      dchey.Šaiin.adeeody<->ykecthey.chedy.ytedy.dy<->checthedy.ls
+<f26r.3,+P0>      oaiin.shcthy.cthedy.oloy<->ykeedy.olchedy.dal<->y.sheey.s,aiin.s
+<f26r.4,+P0>      qokedy.cheos.ytedy.qokedy<->ytedy.chekedy<->daiin.odam.s,aldy
+<f26r.5,+P0>      saiin.shedy.eedy.eedy.s,chy<->daiin.cthedy<->qokeedy.qokedy.cthey
+<f26r.6,+P0>      rchedy.qokedy<$>
+#
+<f26r.7,+P0>      <%>pcho.qokedy.dar,sheo.ypchseds.s<->aiin<->sha,p,chedyfchy.dalchedy.sar
+<f26r.8,+P0>      daiin.shedy.qokeedy.qoteedar.s<->ok<->ol<->ytedy.qokeedy.qokedy
+<f26r.9,+P0>      tcheoshy.dchdy.okedy.chckhy.s<->dy<->dy<->ykeechy.okeedy.cheky
+<f26r.10,+P0>     shese.aiin.sheos.cheody<->otal<$>
+#
+#
+<f26v>     <! $Q=D $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# page 50
+# herbal
+# Currier's language B, hand 2
+# Plant ID: Verbena foenica
+#
+<f26v.1,@P0>      <%>pchedar.qodary.daiiin.pcheety.s,air.shedy.ypchedy.ypchdy.qopy.shdy
+<f26v.2,+P0>      saraiir.chekedy.qokedy.otedy.sar,y,etedy.qokedy.or.a{i'h}e.alys.chedy
+<f26v.3,+P0>      pchdar.opar.dar.cheeol.ofchdy.otedy.{c°h}dy.odar.chedy.ytedy.okchdy.g
+<f26v.4,+P0>      y[ckhe:{ck}ee]ody.qokedy.deey.saldy.okedor.or.cheos.oraiin.okeo.chekaiin
+<f26v.5,+P0>      deeol.cheody.qoteedy.qokody.qotedy.qotedy.opchedy.ofchy.chs.ar
+<f26v.6,+P0>      toeedy.keody.shedy.dar.chedy.sches.or,cheeky.dar.chey.cheky.yteedy
+<f26v.7,+P0>      pchedy.dar.cheoet.chy.sair.chees.odaiiin.chkeeey.ykey.sheey
+<f26v.8,+P0>      tchedy.okeeos.cheeos.ysaiin.okcheey.keody.s,aiin.cheeos.qokes.ory
+<f26v.9,+P0>      ysheey.okeshy.shody.peshy.todydy<$>
+#
+#
+<f27r>     <! $Q=D $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 51
+# herbal
+# Currier's language A, hand 1
+# Plant ID: (small one:) Asarium Europeum (Haselwurz)
+#
+<f27r.1,@P0>      <%>ksor.shey.shoteo.chforaiin.shy<->shod.chary
+<f27r.2,+P0>      dy.{co}ain.shol.dain.dar.shokyd<->dchol.cthey,ds
+<f27r.3,+P0>      chol.shy.keol.chol.chy.shol.chy<->daiin.chey.dam
+<f27r.4,+P0>      qokey.chor.char.chy.dchy.keey<->chos.cthody
+<f27r.5,+P0>      dor.chees.ctho,shy.{c”h}ar,y<->daiin.dair
+<f27r.6,+P0>      chy.t,chols.chor.chol{oh}aiin<!corr?><->shy.kchal,dy<$>
+#
+<f27r.7,+P0>      <%>kchey.chey.kcheol.pch[o:y].schey.ly<->chals.cham
+<f27r.8,+P0>      ytchy.chy.t,chol.dy.t,chey.dain<->chol.dal
+<f27r.9,+P0>      dchey.keeod.shotchey.chol.oty<->chy,tolg
+<f27r.10,+P0>     qotchey.shes.s.y.chy.tchey.dy
+<f27r.11,+P0>     chol.daiiin.chees.chos.{ct}ey.dan
+<f27r.12,+P0>     dain.cheokeey.chey.cthey.otal
+<f27r.13,+Pc>     o[t:k]chodeey<$>
+#
+#
+<f27v>     <! $Q=D $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 52
+# herbal
+# Currier's language A, hand 1
+#
+<f27v.1,@P0>      <%>pochof.chof.cho.sho.soly.shol.ytchar.opchory.kchor,chor
+<f27v.2,+P0>      dchy.chkar.otchy.shy.shy.dchy.dshy.kchy.cheo.daidy.dchy
+<f27v.3,+P0>      kchey.kchy.dchokchy.dsho.d{ca}r.chodchy.etcheody.shld
+<f27v.4,+P0>      okcho.chy.kch[ee:o]d.chl.chol.kod<->o.oksho.do,cheesg
+<f27v.5,+P0>      qoky.sh,keeo.[s:r]cho,dar.shkol<->chotchy.ctho,dol
+<f27v.6,+P0>      dsho.kchrrr.okeedy<->dch[s:r]chy<->sotchdy
+<f27v.7,+P0>      sho.shoykcho.shdy<->dchd<->chschsy<->otchdy
+<f27v.8,+P0>      okshes.okchokshy<$>
+#
+#
+<f28r>     <! $Q=D $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 53
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Arum or Arisarum (Haselwurtz)
+#
+<f28r.1,@P0>      <%>pchodar.shod.chocphy.opchol.daiin<->otchol.chy.qo,ldy
+<f28r.2,+P0>      otchor.otchor.cthol.{ct}y.ctheol.dy<->dchar.chakod.dly
+<f28r.3,+P0>      qotchaiin.shor.cthol.cthol.shor<->chotchy.tchodar
+<f28r.4,+P0>      choty.chtol.otol.chotchy.cthol<->otol.choky.qoty
+<f28r.5,+P0>      oksho.otorchy.kchoror.chodaiin<->sho,cthody.okoy
+<f28r.6,+P0>      qokchol.qodaiin.otcholchy.daiin<->cho.qokol.o,kam
+<f28r.7,+P0>      sho.otor.shockhy.shocthy.otoldy<->dshor.dol.dar
+<f28r.8,+P0>      oschotshl.daiin.okchey.kol.daiin<->shol.dsho.otaiin
+<f28r.9,+P0>      ytchol.deey.yteol.deaiin<$>
+#
+#
+<f28v>     <! $Q=D $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 54
+# herbal
+# Currier's language A, hand 1
+#
+<f28v.1,@P0>      <%>kshol.qooiiin.shor.pshoiiin.shepchy.qoty.dy.shory
+<f28v.2,+P0>      ykcholy.qoty.chy,dy.qokchol.chor.tchy.qokchody.cheor.o
+<f28v.3,+P0>      chor.chol.chy.choiin<$>
+#
+<f28v.4,+P0>      <%>tshoiin.cheor.chor.o.chty.qotol.sheol.shor.daiin.qoty
+<f28v.5,+P0>      otol.chol.daiin.chkaiin.shoiin.qotchey.qotshey.daiiin
+<f28v.6,+Pr>      daiin.chkaiin<$>
+#
+<f28v.7,*P0>      <%>pchol.oiir.chol.tsho.daiin.sho<->t{co}<->chy.chtshy.dair,am
+<f28v.8,+P0>      okain.chan.chain.cthor.dain<->yk<->chy<->daiin.cthol
+<f28v.9,+P0>      sor.chear.chl.[{c'}:s].choly.dar<$>
+#
+#
+<f29r>     <! $Q=D $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 55
+# herbal
+# Currier's language A, hand 1
+#
+<f29r.1,@P0>      <%>posaiin.she.aiin.chep,oty.chy.qotchy.qoty.cheecthy
+<f29r.2,+P0>      dshe.ykchy.choty.oky.cho,l.chchoty.choky.chy,ty,dy
+<f29r.3,+P0>      qokchy.qoty.kchaiin.shear.cthor<->dchor.choly
+<f29r.4,+P0>      chocthy.qoos.chos<$>
+#
+<f29r.5,+P0>      <%>kcheol.cheor.sheos.sheey.teey.d[a:y]<->shos.o{cty}
+<f29r.6,+P0>      chokshy.shocthy.shor.shor.daiin<->qokaiiin
+<f29r.7,+P0>      qokchy.chol.shokchy.qokaiin.choety<->choty.kaiin
+<f29r.8,+P0>      shor.chor.shosheky.shy.qoty,kody<->daiin.cthy
+<f29r.9,+P0>      qokshe.qor.chey.kor.cheod.ychom<$>
+#
+#
+<f29v>     <! $Q=D $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 56
+# herbal
+# Currier's language A, hand 1
+#
+<f29v.1,@P0>      <%>kooiin.shor.chetchy.ol,ls.shytchy.cthy,shy<->cho.shy.daiin
+<f29v.2,+P0>      qotcheaiin.s.chol.chol.cthy.chey.cthold<->ytchor.dary
+<f29v.3,+P0>      chol.chol.kor.shey.odaiin.qotchy.taiin<->s.she.otey.sy
+<f29v.4,+P0>      ysho.otshy.okaiin.cthy.oltchy.{cto}s<->shot.sho.okaiin<$>
+#
+<f29v.5,+P0>      <%>tochon.chain.shan.shoty<->chshy<->shy
+<f29v.6,+P0>      dchor.chol.chaiin.shaiin.cthod<->dar<->chs<->shody
+<f29v.7,+P0>      qotcho.kchor.daiin.ykaiin.dy<->shdy<->chocthy.sheky
+<f29v.8,+P0>      otol.shotchor.cholody.dain<->ch[{cti}:cth]<->chy.cthody.dol
+<f29v.9,+P0>      sho.chokor.chor.chy.ydaiin.cho<->ykeeb<->oaiin<$>
+#
+<f29v.10,+P0>     <%>qokoiin.okaiin.cho<->[{cti}:cth]<->chyd<->chykar
+<f29v.11,+P0>     daiin.chteo[r:s].octhy<->dar<->chyt<->otody
+<f29v.12,+P0>     qekeochor.otchey.s,y<$>
+#
+#
+<f30r>     <! $Q=D $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 57
+# herbal
+# Currier's language A, hand 1
+# Plant ID: (Holm) Dentaria(?) leaf only. Schippenwurtz?
+# Menanthes trifolia
+#
+<f30r.1,@P0>      <%>okeeesy.chey.shorchey.fcheody.shey.tchy.che[s:r].d.o.shey
+<f30r.2,+P0>      ychody.chey.chkeey.ksho.keeor.cheor.shey.she.keeodol.sy
+<f30r.3,+P0>      chodaiin.cho,ry.chey.doiin.sain.chorain.cheey,keem
+<f30r.4,+P0>      qokechy.qoko.qop.char.soin.chan.qot,chaiin
+<f30r.5,+P0>      choko.qokochy.deeey.dkeeor.cheoldain.chory
+<f30r.6,+P0>      dchorol.sho.chor.cho,ro.raiin.dor.chseeor.dy
+<f30r.7,+P0>      qor.chain.cthorchy<$>
+#
+<f30r.8,+P0>      <%>opchol,ol.chesey.scheo,r,chey.okeal<->dcheo,rchey
+<f30r.9,+P0>      dchey.qochar.chol.keeaiin.chcthey<->chor.cheky
+<f30r.10,+P0>     chokchaiin.dchor.chkchean.qotchy<->chctho.rchody
+<f30r.11,+P0>     qotchor.cheor.chey.cheor.chey.so[eeb:een]<->ydey<->sor.daiin
+<f30r.12,+P0>     dcheey.ckhey.ckhey.daiin.chkeaiin.dar<->chor<->ychdain
+<f30r.13,+P0>     chodaiin.chtchey.chear.shy,keey<$>
+#
+#
+<f30v>     <! $Q=D $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 58
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Boragine
+#
+<f30v.1,@P0>      <%>{c„h}s{c…h}ain.shosaiin.chocthey.sho.chepchy.shor.sheaiin
+<f30v.2,+P0>      qotchor.chy.she.kchor.chory.keor,ol.chy.daiin.ctholdy
+<f30v.3,+P0>      chotchol.daiin.cthol.doiin.daiin.chokeor.dal.chto[{ith}:cth]y
+<f30v.4,+P0>      otchey.daiin.chor.checkhy.qotchod.daiin
+<f30v.5,+P0>      dain.choty.chkol.ytor.cheoldy
+<f30v.6,+P0>      qokeeor.chokol.chokeody.dair,y
+<f30v.7,+P0>      ch[a:o]kchy.sho,kcho,tcho.ctho.sos
+<f30v.8,+P0>      oyshy.cheotol.cphoaiin.cphey
+<f30v.9,+P0>      qotchor.chor.sheey.cheolsos
+<f30v.10,+P0>     sho.sheoldy.otcheor.daiin
+<f30v.11,+P0>     sol.chokcheey.daiin.kchydy<$>
+#
+#
+<f31r>     <! $Q=D $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2>
+# page 59
+# herbal
+# Currier's language B, hand 2
+# Plant ID: Hyrcio[unreadable] Arabum
+#
+<f31r.1,@P0>      <%>keedey.qofchedy.shee,s.aiin.qokee•.chepakeo
+<f31r.2,+P0>      dcheey.daiin.okeedy.qokees.s.aiin.shekeey.qef
+<f31r.3,+P0>      qokeey.chey.daiin.qokeey.[s:r]air.chekey.s,aiin.da?
+<f31r.4,+P0>      qotar.chy.dar.lo,r,ar.cheey.keeol,chedy.qokey
+<f31r.5,+P0>      daiin.sheeody.qokeor<$>
+#
+<f31r.6,+P0>      <%>tshokeody.qokedy.qotedy.chep[o:a]s.cheda,[s:r].aiin.dal
+<f31r.7,+P0>      ykeedar.saiin.checkhey.sheol.qokedy.ykeedy.chedy.ldy
+<f31r.8,+P0>      shedy.qokedy.cheol.cheod.qokeody.cheol.checthy
+<f31r.9,+P0>      daiir.sheeo.shcthey.okeol<$>
+#
+<f31r.10,+P0>     <%>tol,shso.okedy.okedy.qokedy.qokeedy.dar.shedshey
+<f31r.11,+P0>     olsheol.qokchy.dal,chey.deey.kchy.keey.okaiiin.ykeey
+<f31r.12,+P0>     qoaiin.yches.okedy.sheey.chedaiin.dar
+<f31r.13,+P0>     olsheor.qoekedy.otedy.ykedy.dals
+<f31r.14,+P0>     saii[s:r].or.chedy.daiin.okeedy
+<f31r.15,+P0>     yshedair.sheol,cheky.okedam
+<f31r.16,+Pc>     oteor.aiicthy<$>
+#
+#
+<f31v>     <! $Q=D $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2>
+# page 60
+# herbal
+# Currier's language B, hand 2
+# Plant ID: Heracleum cervofilum
+#
+<f31v.1,@P0>      <%>podair.sheedy.otedy.oteedy.qotolcheo.s.ar,ar.oteey.dk[ch:a]rar.als
+<f31v.2,+P0>      ytchos.[o:a]ckhey.okeeo,s.cheody.okeey.keeody.daiin.cheody.keedy
+<f31v.3,+P0>      ykeeo.daiin.shedal.okedy.okey.keo,dy.okchey.sair,okees.o.lkedy
+<f31v.4,+P0>      dair.cthedy.qokedy.okeody.chedar.oked.al.ockhedy.okeedy.ota[s:d]
+<f31v.5,+P0>      ykeos.cheeoy.or,aiin<$>
+#
+<f31v.6,+P0>      <%>pcheeody.qop.chedal.checfhy.chefchol.or.cheef,alaiin.opal.sheo.otar
+<f31v.7,+P0>      olkeedam.ches.chol,keeol.checkhy.okeol.okal.oky.cheokar.okor.ary
+<f31v.8,+P0>      ykaiin.chee,ksheey.ychekeeor.cheor.o,r,checthy.okechoked.lchey.okam
+<f31v.9,+P0>      ytecheol.sheoeky.okeos.aiin.a[{ikh}:ckh]edy.chkaiin.chetchey.ctheey.okear
+<f31v.10,+P0>     dar.choar.al.kar.oeeeos.cheos.aiin.o.ckhey.okeo.kor.okeol.ain
+<f31v.11,+P0>     saiin.ar.ckheos.chedy.okeey.qoear.oraiin.cheam<$>
+#
+#
+<f32r>     <! $Q=D $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1 $X=C>
+# page 61
+# herbal
+# Currier's language A, hand 1
+# Plant ID: Mentastrum/Ros*(illegible)muentz (O'Neill),
+# brunella vulgaris
+#
+<f32r.1,@P0>      <%>fchaiin.shykeody.daiiody.dain<->sho.tchy.oty.qopy
+<f32r.2,+P0>      okor.okchor.sheor.ckhy.dal<->dshodar.qotchol
+<f32r.3,+P0>      qokchor.chor.cthol.chol.dol<->dcheodain.daiin
+<f32r.4,+P0>      schor.dsh[o:a]r.ytsho.dain<->daiin.choddal
+<f32r.5,+P0>      qotchy.qokchy.daiin<$>
+#
+<f32r.6,+P0>      <%>fcho.tcheychedy
+<f32r.7,+P0>      otol.dol.ol,dair
+<f32r.8,+P0>      qo,ar.daiin.dam
+<f32r.9,+P0>      dytchor.dary
+<f32r.10,+P0>     dchor.ctho,daiin
+<f32r.11,+P0>     shos.chckhol.n
+<f32r.12,+P0>     shodaiin.–tol
+<f32r.13,+P0>     otcho,rol.dain.daiin.cthy
+<f32r.14,+P0>     schey.qot,shey.daiin.cths
+<f32r.15,+P0>     qokchy.qotol.doiir.ol
+<f32r.16,+P0>     otchol.chey.soty
+<f32r.17,+P0>     chokeol.dchoty
+<f32r.18,+P0>     doiin.sho,shy
+<f32r.19,+P0>     dol.dchol.dan<$>
+#
+#
+<f32v>     <! $Q=D $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 62
+# herbal
+# Currier's language A, hand 1
+# gathering mark 4
+# Plant ID: Campanula Ranunculus (Holm), Archangelica, Glockenblume,
+# Halskraut, Convolvulus erectus?
+# Same plant as f102r2[1,2] ? (FSG, Stolfi)
+#
+<f32v.1,@P0>      <%>kcheodaiin.chol,kechy.qotaiin.daiioam<->o,chofchody
+<f32v.2,+P0>      daiin.odar.chy.daiin.chey.tch[y:o].l,dy<->dain.teor
+<f32v.3,+P0>      shor.daiin.chckhy.dsho.dain.daiin.s<->shokey.ka
+<f32v.4,+P0>      or,chr.chor.dor,chaiin.qotcho,r,chy<->dch[o:a].daiin
+<f32v.5,+P0>      chokchy.daiin.shy.chor.qo.kaiin.dain<->dchol.dosg
+<f32v.6,+P0>      o,kchan.chol,shal.dchcthy<$>
+#
+<f32v.7,+P0>      <%>ksho.cpho[s:r].she.sheaiin.otshcho.r.dain<->shckhy.s.odan
+<f32v.8,+P0>      otchol.daiin.daiin.ctho,daiin.qotaiin<->otchy.d<->shan
+<f32v.9,+P0>      qotchy.cfhy.skey.chocthy.daiin.cthaiin<->daiin
+<f32v.10,+P0>     sho.keol.chor.chol.daiin.cpho,l.cthol.da<->ar
+<f32v.11,+P0>     ol.sho.chy<$>
+#
+#
+<f33r>     <! $Q=E $P=A $F=a $B=1 $I=H $L=B $H=2 $C=2>
+# page 63
+# Currier's language B, hand 2
+# herbal
+#
+<f33r.1,@P0>      <%>tshdar.shd[o:a]r.shepchdy.cphody.yfoldy.qofo{ikh}dy.otchedy.lfchdy.daiin
+<f33r.2,+P0>      ytchedy.qokar.cheky.okaldy.qokaldy.otor.oldar.qotar.otar.otardam
+<f33r.3,+P0>      laiin.y.cheky.qokedy.shedy.chdal.chechdaiin.qokchy.ody.chekeedy.yka[m:g]
+<f33r.4,+P0>      taiin.chekey.or.al,aiiin.saiin.okaiin.dar.cheedy.chkeey.far.aiin.s
+<f33r.5,+P0>      pair.or.aiin.otaiin.ol,kor.aiin.okal.otal.chdal.shekal.qokar.ota[m:g]
+<f33r.6,+P0>      yteey.shody.kchedy,dy.chekar.okaiin.okaiin.daiin.okal
+<f33r.7,+P0>      dar.chos.aiin.or.aiin.cheekaiin.okain.ar.okeeey<$>
+#
+#
+<f33v>     <! $Q=E $P=B $F=a $B=1 $I=H $L=B $H=2 $C=2>
+# page 64
+# Currier's language B, hand 2
+# herbal
+# Publ: NYT 6May75, Krauss 30(top)?, Kahn plate, B@R p90 ; 'Sunflowers'
+# Plant ID: Scabiosa
+#
+<f33v.1,@P0>      <%>tar,ar.daiin<->ydain.cthey.dols<->sheky.ar,aiin.{cs}
+<f33v.2,+P0>      kchdy.dam.dy<->oky<->otal.dain.chdy<->ytam.otam.cham
+<f33v.3,+P0>      dar.chckhy.dy<->dyky<->ckhdy.oky.d[a:ch]m<->okar,dy.kam,dy
+<f33v.4,+P0>      tokar.shdy.dal<->qokar.shd<->otody.chedy<->ykedy.dodl.dain
+<f33v.5,+P0>      tchdy.chody.okaiin<->chckhy.dor.arl<->cthy.dy,ty,dy<->ykar.cheky.dy
+<f33v.6,+P0>      ycheo.dar.olaiin.okar.chdy.chdy.oldy<->okar.chdy<$>
+#
+<f33v.7,+P0>      <%>tshdy.shefchdy.shckhdy.oltedy.daiin.oky<->cheol.orain<->chdyshdy.porar
+<f33v.8,+P0>      dar,ar.sheey.keedy.okchy.okar.okedy.chy<->daiin.dy'.dy<->dar.aiin.okary
+<f33v.9,+P0>      sar.or,aiin.chor.or.shkair.shol.or.chckhy<->ar,aiin<->okain.dal.dy
+<f33v.10,+P0>     lcho,ar.or.chey.lodaiin.o,or.okeedy.okaly
+<f33v.11,+P0>     tar.al.keey.oram<$>
+#
+#
+<f34r>     <! $Q=E $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# page 65
+# Currier's language B, hand 2
+# herbal
+# Publ: Krauss 30(top), B@R p91; "Sunflowers''
+# Plant ID: smaller scabiosa
+#
+<f34r.1,@P0>      <%>pcheoepchy.olar.yl<->yfody.okedody.shod.ololdy.dar.ytey
+<f34r.2,+P0>      ytar.sheody.o,lam<->octhedy.otedy.chdain.oltey.kchy,ty
+<f34r.3,+P0>      qotedy.chyty.chdaly<->dar.chd.otedy.qotol.okedy.dody.ody.kam
+# After this line the texts left and right of the rightmost plant are not well
+# aligned vertically. Their number is the same, but the ones on the right align
+# well with lines on the left one below the expected.
+<f34r.4,+P0>      ytedy.daiin.chey.aiin<->shy.chckhy<~>oltchedy.otedy.dam.checthy
+#
+<f34r.5,+P0>      qoteedy.shedy.shedy.ol<->okes.ar<~>ykeed,l.chedy.otey.okaiin
+<f34r.6,+P0>      oteol.chekey.chetey.oll<->chesy<~>daiin.cheky.fas.aiir.a[m:d]g
+<f34r.7,+P0>      qokedy.dal.chdy<->olchy<->ykch[y:?]<~>ykedy.qokchdy.s.as.oldam
+<f34r.8,+P0>      {ch'}otchy.qoky<->olk<->checkhy<~>ys,air.air.chodar.ta[m:g]
+<f34r.9,+P0>      ykchdy.qod<->ar<->ch{ct}<->a[{ikh}:ckh]y<~>or.lchey.todaly.okaiin.dardy<$>
+#
+<f34r.10,+P0>     <%>tcheo.olchckhy.oly<->otchdy.chefalchhs
+<f34r.11,+P0>     qokeey.sh.kaldaiin<->cheky.cthdaly<->otchedy.chty.s,aiin
+<f34r.12,+P0>     char.aiin.okor,ar.tol<->qokar.chckhy.chdal.ked.qokar.ar.daiin.dam
+<f34r.13,+P0>     ykeo.lor.ochey.oly<->okaly.kechdy.qokchdy.chor.ar.aiiin.daly
+<f34r.14,+P0>     or.ar.y,kar.ol,al.oky<->chody.qokal,chedy.chcthedy.cheky.daram
+<f34r.15,+P0>     sair.chekar.cheky.shek<->cholchedy.qokedy.yk,cheolchcthy<$>
+#
+#
+<f34v>     <! $Q=E $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# page 66
+# Currier's language B, hand 2
+# herbal
+# Plant ID: libanotus umbilifera
+#
+<f34v.1,@P0>      <%>k[e':s]chdy.chdy.chefchy.shdy.qopchdy.shdydy.chdalchdy.ypchdy.chcthdy.spaiin
+<f34v.2,+P0>      tol.qokchy.dychedy.okchy.chckhdy.chdaiin.ckhy.loees.ykar.aiin.oldam
+<f34v.3,+P0>      ytal.shor.chdal.olchdy.char.or.ol.kedaiiin.chcthy.okchdy.chckhy.dasam
+<f34v.4,+P0>      tchdaiin.chekal.shedy.qokedar.chdaiin.oldar.qoldar.chedy.daiin.otam
+<f34v.5,+P0>      lshaiir.or,air.shedy.chechey.dykey.kair.chedy.qokar.chekaly.ch[a:o]lky<$>
+#
+<f34v.6,+P0>      <%>pchedar.shear.qokchdy.qokees.cheol.ypchdaiin.chedy.lr,ar.chedain
+<f34v.7,+P0>      olchdaiin.chedy.chey,keedy.chy.kedy.dy.qokedy.okey.s,a[ir:is].chkain.otain
+<f34v.8,+P0>      ysheos.otar.ar.choraiin.cheky.olchdaiin.or.oldar.chdar.oka[m:g]
+<f34v.9,+P0>      lsheody.cphy.qokeey.keedy.kchdy.chedy.qokedy.chdy.kal,shs.oldaiin
+<f34v.10,+P0>     daiin.chdy.tedy.kchdy.okeedy.checkhy.chdy.kain.chear.or.okedy.okam
+<f34v.11,+P0>     yshos.ody.s.aiin.okey.okal,shedy<$>
+#
+#
+<f35r>     <! $Q=E $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 67
+# Currier's language A, hand 1
+# herbal
+# Plant ID: orchid root?
+#
+<f35r.1,@P0>      <%>{c„h}oo.r,choly,{cÄh}y.choty.char.dy
+<f35r.2,+P0>      qokeeaiin.chokaiin.qo,tchy.daiin
+<f35r.3,+P0>      dchaiin.cthey.qotchey.taiin.cthory
+<f35r.4,+P0>      qotchy.shet,chy.ckhol.cheey.daiin.dainl
+<f35r.5,+P0>      otchor.sho.tcheey.scheey.daiin.dain,or
+<f35r.6,+P0>      schaiin.char.chan.daiin
+<f35r.7,+P0>      shosaiin.tchor.choky
+<f35r.8,+P0>      qokeey.ky,kaiin.daiin<$>
+#
+<f35r.9,+P0>      <%>paiin.chear.aiin.chear.shorchaiin
+<f35r.10,+P0>     o,aiin.chaiin.ckhy.r.chl.s.chochy.daiin
+<f35r.11,+P0>     sh[{oh}:ch]eaiin.chol.cthaiin.l,chaiin.lchal,dal<->dair,aldy.n
+<f35r.12,+P0>     olor.chy.chaiin.chy.taiin.kchey.koldy<->chetchaiin
+<f35r.13,+P0>     qokoiin.chaiin.qokchaiin.lshy.lodaly<->oteey.taiin
+<f35r.14,+P0>     cthol.chol.aiin.qotchy.otchor.daiin<->shol.qotaiin
+<f35r.15,+P0>     ochor.s.chiin.daiin.ytain<$>
+#
+#
+<f35v>     <! $Q=E $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 68
+# Currier's language A, hand 1
+# herbal
+# Plant ID: uva quercia (vitis), oak/quercus, gall apple?
+# grape vine?, oak tree (RZ)
+#
+<f35v.1,@P0>      <%>parchor.chocthy.roaiin.ar
+<f35v.2,+P0>      qotchy.o,tchey.kchor.yty
+<f35v.3,+P0>      dchor.choty.chyty.daiin
+<f35v.4,+P0>      ytchy.qotchy.dchy.cthy
+<f35v.5,+P0>      dchokchy.chocthy.chckhor
+<f35v.6,+P0>      shol.tcheey.chkcheeu.chcthaiin
+<f35v.7,+P0>      tcho,tchor.shol.sho.{co},kol.daiin
+<f35v.8,+P0>      oaiin.tchor.cho.chotchy.dchold
+<f35v.9,+P0>      qokchaiin.cho.ksho,l,choiin
+<f35v.10,+P0>     okcheey.chosar.shory
+<f35v.11,+P0>     qotcheeaiin.chodaiin
+<f35v.12,+P0>     dchaiin.d.aiin.d.aiin,dal,s
+<f35v.13,+P0>     ol.char.od.ar.chear
+<f35v.14,+P0>     tcheain.shy.tar.dain
+<f35v.15,+P0>     ykol.cheol.okchy.tch
+<f35v.16,+P0>     ydaiin.okeey.d,aiin
+<f35v.17,+P0>     daiin.dain.chkaly.choly
+<f35v.18,+P0>     daiin.qokeeeb.chokee[o:y].r
+<f35v.19,+P0>     schokey.y,keol.chol.daiin
+<f35v.20,+P0>     sodaiin.shy.dchy.ckhy.dan
+<f35v.21,+P0>     doiin.chor.chor<$>
+#
+#
+<f36r>     <! $Q=E $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 69
+# Currier's language A, hand 1
+# herbal
+# Plant ID: Geranium (SDC = [RZ])
+#
+<f36r.1,@P0>      <%>pcha—dan.qorain.chcfhal.soiin.cphor.shaiin.cthy.dair
+<f36r.2,+P0>      oral.shor.ytaiin.qotaiin.qooldy.chty.chol,dy.tor
+<f36r.3,+P0>      qotchy.tchy.daiin.˜aiin.dolsain<$>
+#
+<f36r.4,+P0>      <%>podaiir.cphy.qoypchol.som<->{c'y}<->chy.dchy.fchom,dar
+<f36r.5,+P0>      daiin.qor.chol.ctholy.s<->o<->r<->chy.sy<->chytaroiin
+<f36r.6,+P0>      okaiin.cthor.y,kaiiin.s<->dain.an<->dan
+<f36r.7,+P0>      qotol.cthol.okol,dy.okchy<->ytorory<->sold
+<f36r.8,+P0>      ytchor.cthol.chaiin.yd
+<f36r.9,+P0>      ytodaly.daiin.otaro<$>
+#
+#
+<f36v>     <! $Q=E $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 70
+# Currier's language A, hand 1
+# herbal
+# Plant ID: Indian hemp
+#
+<f36v.1,@P0>      <%>pchar,asy.qoforom.shoaiin.tchey.ch[{ckoh}:{ckhh}]y.otaiin.cphar.daiin
+<f36v.2,+P0>      qotor.chol.daiin.otaiin.qotor.ytar.ochor.chety.ckh[o:a]r.dom
+<f36v.3,+P0>      dchytchy.ytor,s<->otaiin.qopchor.otar.otchaiin.s
+<f36v.4,+P0>      qotchor.y,ky,ty,dy<->daiin.cthor<$>
+#
+<f36v.5,+P1>      <%>tchor.ckhoiin.daiin.cphchar
+<f36v.6,+P1>      daiin.cthor.daiin.dal.dys
+<f36v.7,+P1>      qoky.keol.okchor.o,s,ch[y:a],shan
+<f36v.8,+P1>      ykshy.ytchy.dol.y,tydy.yky
+<f36v.9,+P1>      okaiin.y,kcholqod.chory
+<f36v.10,+P1>     ykchotchy.daiin.daiild
+<f36v.11,+P1>     oty.chcthy.ytoryd
+<f36v.12,+P1>     ytol.kchy.oty,chd
+<f36v.13,+P1>     oky.she.cthol.oty
+<f36v.14,+P1>     soiin.chtain<$>
+#
+#
+<f37r>     <! $Q=E $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 71
+# Currier's language A, hand 1
+# herbal
+# The page seems to have been torn and stiched
+# Plant ID: Baldrian, Valerian, dwarf ceder(?), (+illegible)
+#
+<f37r.1,@P0>      <%>tocphol.shaiin.qotor.ofchor.oty.chory.daiin.otod,[o:a]r
+<f37r.2,+P0>      ykoiin.cthor.okaiin.qo,tchy.ytody.qokaiin.sho.ytaiin
+<f37r.3,+P0>      qo,shy.qokaiin.cthol,dy.ckhor.oky,dy<$>
+#
+<f37r.4,+P0>      <%>pchotchy.daiin.cfholdar.chol.daiin<->yd
+<f37r.5,+P0>      yky.qokchy.qotchor.chkol.otoly
+<f37r.6,+P0>      shor.shol.qokchy.qotomody<->dchol.daiin
+<f37r.7,+P0>      sor.chey.kor.qokor.daiin<$>
+#
+<f37r.8,+P0>      <%>koiin.chorody.qokaiin.{c'hh}ory.otal<->shor.sheor.dar
+<f37r.9,+P0>      ykchody.qotchy.ykaiin.chy.qotordy<->otcho.loldaiin
+<f37r.10,+P0>     qoto.o,kchochor.dchor.chy.shy.daiin<->ychey.kol,daiir
+<f37r.11,+P0>     okchor.daiin.ckhy.dain.daiin<$>
+#
+#
+<f37v>     <! $Q=E $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 72
+# Currier's language A, hand 1
+# herbal
+# Same plant as f102r1[3,1] ? (Stolfi)
+#
+<f37v.1,@P0>      <%>[t:k]shody.qocthy.qotoldy.chopdain.sol
+<f37v.2,+P0>      dor.chol.cthor.orchochor.daiin
+<f37v.3,+P0>      qokchon.shy.chon.daiin.dy
+<f37v.4,+P0>      dshor.dytory.dshor.daiin
+<f37v.5,+P0>      dchor.qotol.ykchon.dain
+<f37v.6,+P0>      yokor.ytchor.saiin.oty
+<f37v.7,+P0>      qotchor.daiin<$>
+#
+<f37v.8,+P0>      <%>qotor.choiin.chetchy.daiin
+<f37v.9,+P0>      dor.chor.sho.daiiin.daiin
+<f37v.10,+P0>     soiin.{ch'}ey.o,koiin.chey.tom
+<f37v.11,+P0>     qotoiin.choror.cthol.daiin
+<f37v.12,+P0>     chor,sh[y:o]ly.sheaiin.do.tody
+<f37v.13,+P0>     sotoiiin<$>
+#
+<f37v.14,+P0>     <%>todain.cphaiin.cphorods
+<f37v.15,+P0>     soiiin.cheoky.daiin.dain
+<f37v.16,+P0>     qotor.daiin.chotaiin
+<f37v.17,+P0>     sokchor.qokoiiin.ykeeols
+<f37v.18,+P0>     oyteey.daiin.daiinody
+<f37v.19,+P0>     daiin.qkaiin.qotal.daiin
+<f37v.20,+P0>     y,cho{ckah}y.ykol,daiin,s
+<f37v.21,+P0>     oshctho.do.daiin.cthols
+<f37v.22,+P0>     qotol.ytoiin.cho{cthh}y
+<f37v.23,+P0>     yto.chol.daiin<$>
+#
+#
+<f38r>     <! $Q=E $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 73
+# Currier's language A, hand 1
+# herbal
+#
+<f38r.1,@P0>      <%>tolor.chockhy<->oky.choiin.okshol.oly.oky
+<f38r.2,+P0>      okshey.chodys<->ytoiin.otaiin.otaiin.cthar
+<f38r.3,+P0>      qokor.okaiin<->otaiin.qo,kchol.chokokor
+<f38r.4,+P0>      ychok.chey.chckh<->chy.chk[o:y].r.odaiin.d,aiin.sy
+<f38r.5,+P0>      o,kor.chey.kain<->chor.ctho.dain.ckholdy
+<f38r.6,+P0>      ysho.sho.kos<->daiin.okoy.chochor.daiin<$>
+#
+#
+<f38v>     <! $Q=E $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 74
+# Currier's language A, hand 1
+# herbal
+# Plant ID: Cickorium?, Lactuca
+#
+<f38v.1,@P0>      <%>okchop.chol.shotol.oteol.okee[a:y].s<->chor.d.aiin,d
+<f38v.2,+P0>      choiin.shey.key.sho.oiin.s.chol,ldy<->okeaiin.o,kom
+<f38v.3,+P0>      qokeey.keor.daiin.okey.keey.daiin<->dair.daiin.s
+<f38v.4,+P0>      okeey.d,aiin.qokeey.chotey.tody<->oky.aiiin.d
+<f38v.5,+P0>      qoty.daiin.chol.oteeol.dody<->cheod.chody
+<f38v.6,+P0>      sho.keeey.key.tey.daiin.daiiin<->dain.dain
+<f38v.7,+P0>      daiin.qol.chy.dain.™.or.daiin<->dain.daldy
+<f38v.8,+P0>      o,aiin.char.chshol.chokaiin<$>
+#
+#
+<f39r>     <! $Q=E $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2>
+# page 75
+# Currier's language B, hand 2
+# herbal
+# Plant ID: crocus? (RZ)
+# Same plant as f95r2 ? (Stolfi)
+#
+<f39r.1,@P0>      <%>tedo,chshd.cphhofy.chdain.shey.f[sh:se]y,dy.orain.cheepaiin.ofy.shey.k[a:o]ly.dy
+<f39r.2,+P0>      olchey.cheky.qokedy.shekshey.qolain.ch{ckh'h}y.chdy.dair.shckhey.dold
+<f39r.3,+P0>      qokalchdy.chekaiin.checkhy.darshed.qokeedar.eeedy.dar.ar.cheey.dyckhy
+<f39r.4,+P0>      tchedy.chdy.olaiin.chedy.shckhdchy.chol.or.ordy.chees.aly.okalcheg
+<f39r.5,+P0>      dchdy.chdy.ykaiin<$>
+#
+<f39r.6,+P0>      <%>pchdaiin.she,dam.qofchedy.shedy.kchdy.dydy.opchekaiin.sho{ckhh}y.shdalo.ry
+<f39r.7,+P0>      dchdar.chedy.cholal.qokedar.chdy.chckhdy.dar.ar.al.ydy.eee,s.aiiin
+<f39r.8,+P0>      lchedy.shedy.qokaiin.chkeey.fchedy.okam.ch{cfhh}y.saiin.chckhy.daisog
+<f39r.9,+P0>      tchedy.shol.odal.qokaiin.shdaiin<$>
+#
+<f39r.10,+P0>     <%>pchdar.shedy.ar.aiir.okair.ykeols.shedy.qockhdy.laiin.{c'y}ky
+<f39r.11,+P0>     dshdy.ar.aiin.y.yk[en:{cr}].chdy.ykal.olkaiin.qokaldar.cheol.dar.aiin
+<f39r.12,+P0>     tolchda[iin:ii?]<!corr?>.chckhy.s,aiin.olor.chls.aiin.oky.ches.aiin.dal
+<f39r.13,+P0>     ytor.chdar.shey.qokaiin.chor.kar.sheolkedy.otedy.tedy.s,aiin
+<f39r.14,+P0>     daiin.shckhy.chekl.ol,daiin.chedy.ykeey.daiin.otal.chdam.qokam
+<f39r.15,+P0>     qolkain.ol,cheol.daiin.dar.ol.dld.[ar:iir].ador.aiin.ofcheefar
+<f39r.16,+Pc>     oteol.cholkal.qokal.dar.ykdy<$>
+#
+#
+<f39v>     <! $Q=E $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2>
+# page 76
+# Currier's language B, hand 2
+# herbal
+# Plant ID: Primulaceon(?) (ag arthritis)
+#
+<f39v.1,@P0>      <%>pdair.chdy.fdykain.or.air.sheykaiiin.ofchy.kar.or.aiin.dolky.o[sh:{i'h}]dy
+<f39v.2,+P0>      sor.shy.kar.chol.qoty.kchdy.olky.dar.chdy.ykar.olkedaiin.ody.dy
+<f39v.3,+P0>      daiin.chor.okain.okaii,fchody.saiin.or,aiin.qokaiin.ytodaiin.okam
+<f39v.4,+P0>      y,okeey.chody.cheor.aiin.okody.chodal.ykedy.qokedy.dal,o,[d:?],aiin.shky
+<f39v.5,+P0>      ytedykor.or.sheky.kain.otar.or.aiin.okaiin.ckhol.ol.kor.oto,r.ofchy
+<f39v.6,+P0>      lkedy.okchey.shor.qoykam.cho,ckh{cfhh}y.or.aly.shody<$>
+#
+<f39v.7,+P0>      <%>pardy.shedy.qokar.sheedy.oraly<->olaiir.okar.ar
+<f39v.8,+P0>      o{ek}ar.aiin.olkaiin.olky.dar.ald<->shek.chek.qokchy.dar.ain
+<f39v.9,+P0>      tar.aiin.dal.ar.ain.cheor.ydam<->shody.okal.shd,y.kshy.or
+<f39v.10,+P0>     dar.ar.ykar.or.yky.chdy.fchor<->qokain.ar.sheedy.olchef
+<f39v.11,+P0>     sarol.chedy.shekam.q[o:e]kar.chl<->ykeedy.chckhy.dalor.dy
+<f39v.12,+P0>     paiin.alaiin.otal,chd.okar.am<->okar.cheodal.ockhy
+<f39v.13,+P0>     dain.ockhedy.otedy.okedy<->lchdy.okaiin.daiiin,y
+<f39v.14,+P0>     tar,aiin.okaiin.cholody<$>
+#
+#
+<f40r>     <! $Q=E $P=O $F=z $B=1 $I=H $L=B $H=2 $C=2>
+# page 77
+# Currier's language B, hand 2
+# herbal
+# Plant ID: Primulaceon
+#
+<f40r.1,@P0>      <%>pchey.k,eodar.aldydy<->qoky.okal.shdy.olkedy.opches.ar.ordaiin
+<f40r.2,+P0>      qokar.okar.okedy.dar<->ykchey.kaiin.ok[a:o]s,chedy.okar.a,ralos
+<f40r.3,+P0>      shy.qokal.chdy.chckhd<->otor.aiir.o,ky.okolchy.qokar.okam
+<f40r.4,+P0>      or.aiin.chekody.dar<->qokol.okaiin.okar.oky.okoldy.ol
+<f40r.5,+P0>      lokar.qokar.okar<->okol.ol.chedy.qokchd.ar.ar.or.da[g:m]
+<f40r.6,+P0>      tor.or.ar.shok.or.am<->o,lshedy.qokam.chdy.kar.oraiin
+<f40r.7,+P0>      yaiin.chekaiin.oky<->ycheey<$>
+#
+<f40r.8,+P0>      <%>ksheo.keeey.dar.ai[g:m]<->kcheo.cfhdy.or,ain.chefal.daiin.dg
+<f40r.9,+P0>      taiin.ol.olaiin.or<->dain.okaiin.okaiin.okaiin.daram
+<f40r.10,+P0>     saiin.olcheey.chdy<->ychey.kašar.oky.ykedy.okair.ody
+<f40r.11,+P0>     toar.ykaiin.ory.dal<$>
+#
+#
+<f40v>     <! $Q=E $P=P $F=z $B=1 $I=H $L=B $H=2 $C=2>
+# page 78
+# Currier's language B, hand 2
+# herbal
+# gathering mark 5
+# Plant ID: Thistle, Gerneolem(?) Artichoke, Helianthus Tuberosus
+#
+<f40v.1,@P0>      <%>pchedain.chefaiin.oldy
+<f40v.2,+P0>      todar.qokaiin.ol.ara[g:m]
+<f40v.3,+P0>      s,air,ain.okaiin.okam
+<f40v.4,+P0>      taraiin.okaiin.ch{ckhy}
+<f40v.5,+P0>      solaiin.okar.oly.chckhy
+<f40v.6,+P0>      qoeedaiin.ol.chedy.daiin
+<f40v.7,+P0>      shody.qokol,chedy.s.ar
+<f40v.8,+P0>      chodaiin.chkalykedy.okal
+<f40v.9,+P0>      tchy,pchody.pchdy.kor.ol
+<f40v.10,+P0>     tchkaiin.tchedy.qokaiin.oraiin
+<f40v.11,+P0>     schedy.qokol.chedy.dalor.a{ith}y
+<f40v.12,+P0>     ycheekeey.daiin.okaiin<$>
+#
+<f40v.13,+P0>     <%>toees.chedy.kedy.olfchedy.qokedy<->daiin.chefain
+<f40v.14,+P0>     saiin.o.lchey.kchedy.okar.qokchdy.dy<->qokees.am.chdy
+<f40v.15,+P0>     qokchey.qody.or.aiiin.o,kaiin.o,ckhy<->sheod.faimy
+<f40v.16,+P0>     shol.kedy.lor.ar.okar.qoky.kedy.r<->yteey.qokam
+<f40v.17,+P0>     tochey.qokeedy.qokaiin.okeos.qokar<->okees.ar.o[k:?]y
+<f40v.18,+P0>     saiin.otain.chckhy.okal.okair.arol<->qokey.okary
+<f40v.19,+Pc>     pchedy.chetar.ofair.arody<$>
+#
+#
+<f41r>     <! $Q=F $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2>
+# page 79
+# herbal
+# Currier's language B, hand 2
+# Plant ID: Thistle
+# Transcription quality seriously reduced on this page
+#
+<f41r.1,@P0>      <%>pshey,kedal[ee:ch]y.oked.seekeeey<->opshes.[o:y]p[ch:ee]d.qotchedy.shkakeedy
+<f41r.2,+P0>      ykeeo.alshey,ykedy.kesh,dy.dy<->dor.[y:q]cheoky.qokee[d:?].chpy.qokedy.dy
+<f41r.3,+P0>      qok.sa[y:?]<!unclear>.[q:y][o:e]kedy.ychdykchdy<->qokedy.qokedy.shekchy.cheky.daly
+<f41r.4,+P0>      chdchy.ytcheeky.ypchedy.schdy<->ytedy.{cthh}y.chees.oteey.otal.da[m:g]
+<f41r.5,+P0>      qotchy.sal.yteedy.kchdy<->dchedy.k[ee:ch]dy.dchedy.dalain<$>
+#
+<f41r.6,+P0>      <%>shedey.polchedy.qokeey.chekedy.ytey<->chkeeod<->ypchedpy.shepy.shedy
+<f41r.7,+P0>      parchdy.kchey.yteedy.qokeod[o:y]<->okedy.chkedy.qokedy.ched[y:e].qokedy
+<f41r.8,+P0>      dair.chedy.chckhy.qokey.lchdy<->qokedy.qokal.chekedy.qodar,a[g:j]
+<f41r.9,+P0>      qokeedy.okedy.chekedy.chedy<->chckheody.chekol.daiin.cheo.al.otedy
+<f41r.10,+P0>     sshok.shedy.qekchdy.dchdaldy<->ykedy.qokeedy.qokedy.qokeg
+<f41r.11,+P0>     ykeod.ykeedy.chekeedy.cheked<$>
+#
+#
+<f41v>     <! $Q=F $P=B $F=a $B=1 $I=H $L=B $H=5 $C=2>
+# page 80
+# herbal
+# Currier's language B, hand 2
+# Plant ID: <unreadable>, Fern, Maidenhair fern??? Tansy?
+# Plain carrot or variety (RZ)
+#
+<f41v.1,@Lp>      keer[e:o]dal
+<f41v.2,+P0>      <%>pcheody.qofcheepy.ofchdy.cfhekchdy<->ypchedy.chepchefy.shdchdy.qotal.dar
+<f41v.3,+P0>      dshedy.tchey.s,aiin.shekey.okedy.okaly<->daiin.okedy.ykeeody.choy.keoy.dam
+<f41v.4,+P0>      qoke[o:d]dy.okey.qokeody.oleeol.lkedy<->lkeeody.qokeedy.okeey.qokol.sheols
+<f41v.5,+P0>      ycheos.olchey.daiin.or.chol[a:o]laiin<->oteedy.qoteol.oteodar.orain
+<f41v.6,+P0>      tadaiin.ol.cheos.yteedy.okal.[o:a]ld<->oteol.qokal.or.oteody
+<f41v.7,+P0>      ykeey.okey.ykeeol.ckhdy.chdal<->ykeo,aiin.okeody.oly
+<f41v.8,+P0>      daiin.olkeeo.lkol,chedy.okeey<$>
+#
+#
+<f42r>     <! $Q=F $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# page 81
+# herbal
+# Currier's language A, hand 1
+# Has two plants.
+# Plant ID: Tropical Arum sagittarium visicating,
+# crelpius(sp?) ranunculus, arum sagittarii
+#
+<f42r.1,@P0>      <%>{c›h}o.ofaiin.ctha{ih}{cÄh}y.otcheey.pchear
+<f42r.2,+P0>      solkaiin.char.cheky.otshaiin.daiir[y:a]
+<f42r.3,+P0>      toshy.chtshar.chotar.chain.dal
+<f42r.4,+P0>      shor.chetar.chotai[s:r].dar.cthaiin
+<f42r.5,+P0>      qokar.chockhy.chotor.chy.kary
+<f42r.6,+Pc>      dorain.[{ih}:ch]ar<$>
+#
+<f42r.7,+P0>      <%>pcho.chy.kshaiin.shotaiin.cham.shan
+<f42r.8,+P0>      yshol.chees.cthol.shor.shol.ety.char,y
+<f42r.9,+P0>      qotch[a:o]r.otchol.ctho.kchodan.chkchory
+<f42r.10,+P0>     choty.dol.ksheo.cthor.otol.cthol.chol<->shol,dain
+<f42r.11,+P0>     qotor.cho.chody.daiin.shol.ctheey.dar<->chy.daiidy
+<f42r.12,+P0>     dcheey.chol.shol.chokaiin.choeky.d{cky}<->dain.dal
+<f42r.13,+P0>     qopor.shol.shot.shol.shol.daiin.dain.s<->cheam
+<f42r.14,+P0>     sho,kshey.choty.chdain.chodaiin.daiin<->dam
+<f42r.15,+Pr>     pchody.otshey.dodaiin<$>
+#
+<f42r.16,+P0>     <%>pydaiin.sheor.shaiin.tsh.olchy.sholy
+<f42r.17,+P0>     shotol,shol.chety.daiin.chokchy.chkaiin
+<f42r.18,+P0>     qody.cthochy.otaiin.shy.kshes.chorain
+<f42r.19,+P0>     otchoty.daiin.chot,sho.{ck¿h}y<!corr?>,{cty},s.os
+<f42r.20,+P0>     shol.chol.shoky.okol.sho.chol.shol.chal
+<f42r.21,+P0>     shol.chol.chol.shol.{ct}oiin.{c'o}s.odan
+<f42r.22,+P0>     kchaiin.chos.ckhaiin.choro,r.chaiin
+<f42r.23,+Pr>     okchol,shol.kolschees<$>
+#
+#
+<f42v>     <! $Q=F $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# page 82
+# herbal
+# Currier's language A, hand 1
+# Plant ID: ranunculacea helleboria(?) (Mrs Voynich)
+#
+<f42v.1,@P0>      <%>œcho.{cto}.sheey.qocho.taiin.shols<->chol.chor.dain
+<f42v.2,+P0>      dshey.tchey.y.kchey.chtchy.{cõh}y.dan<->dain.otol.daiin
+<f42v.3,+P0>      sho.chotody.chotol.oky.chol.chol<->dl.chcthy.otoy
+<f42v.4,+P0>      qotchy.chkchy.sar.dy<->odaiil<->ykchy.o,kol,dg
+<f42v.5,+P0>      chokeeo,r.chey.chetan<->s,ary<->okol.chetaiin
+<f42v.6,+P0>      okeokear.cheotchar<->sy<->saiin.cthar,d,am
+<f42v.7,+P0>      chok.sheo,key.keeeyd<->chekeesshy
+<f42v.8,+P0>      sodal.saiin<$>
+#
+<f42v.9,+P0>      <%>posheor.sho.char.chekchey.qokod<->sho.cpheo.rchy
+<f42v.10,+P0>     schor.okchey.chy.shol.olor.cheaiin<->{ct}chy.tcheeb,d
+<f42v.11,+P0>     qo.aiin.qokeey.kchol.cheal.o,t,eold<->shey.teaiin,d
+<f42v.12,+P0>     ch[o:a]tcheey.chol.ol.chaiin.oteeaiin<->chkchy.taiin,y
+<f42v.13,+P0>     sho.chey.teor.shey.che{cthh}y.daiin<->chokeey.daiin
+<f42v.14,+P0>     qoteey.chy.kchy.cthy.{cts}ees.choly<->sarar.aral
+<f42v.15,+P0>     chokey.chol.okey
+<f42v.16,=Pt>     okor.odeey<$>
+#
+#
+<f43r>     <! $Q=F $P=E $F=c $B=3 $I=H $L=B $H=2 $C=2>
+# page 83
+# herbal
+# Currier's language B, hand 2
+# Plant ID: Antennaria Gnaphalium
+#
+<f43r.1,@P0>      <%>tarodaiin.ytedy.eeody.ofchtar.chcphedy.ypar.shol.folor.aiin.cphey.dar
+<f43r.2,+P0>      yteody.oteol.ytedy.ar.chety.dar.aiir.okaldy.daral.otchdy.daiin.dals
+<f43r.3,+P0>      yty.yty.oty.she.ody.shy.olor.yteedy.kaiin.chky.qotydy.dar.aiin.ykam
+<f43r.4,+P0>      das,ar.ytey,tedy,kar.arar.she.kalchdy.cholky.qotaly.chedy.oty.otam
+<f43r.5,+P0>      ykar.ch[e:i]dy.shekody.qotody.qotar.okedy.dar.choetchy.dam.otain.y,tam
+<f43r.6,+P0>      kchedy.chedy.daly.cheody.cheolkeepchy<$>
+#
+<f43r.7,+P0>      <%>pshesy.otey,kshdy.opchdy.kedar.okedy.chdy.sho{cphh}y.dyty,dy.pchdy.kedy.dam
+<f43r.8,+P0>      ytchedy.chedy.cheody.shy.qoiiin.sheeeky.chedy.dain.shy.ykolor.[o:a]taiin.old
+<f43r.9,+P0>      dshedy.qotedy.dor.cheey.odain<$>
+#
+<f43r.10,+P0>     <%>pshdar.shed.ody.qotedy.yfchdy.qo{ckhh}dy.opchdy.daiin.qokedy.dydydy.qotar
+<f43r.11,+P0>     ytchedy.ty.shol.t[o:a]ldy.shody.oteedy.shdy.otolol.shd.olky.ytol.otary.cheky,dy
+<f43r.12,+P0>     dor.shol.qokol,shedy.qotedy.qokeedy.qokody.okeedy.otedy.shedy.oty.yty,dy.saiin
+<f43r.13,+P0>     tshed.qosheckhey.odeeedy.qeokeey.qotedy.daiin.shodody.shochol.chckhy.y,kedydy
+<f43r.14,+P0>     ykeody.checkhy.choteey.odain.ch{ckhhh}y.chokoraiin<$>
+#
+#
+<f43v>     <! $Q=F $P=F $F=c $B=3 $I=H $L=B $H=2 $C=2>
+# page 84
+# herbal
+# Currier's language B, hand 2
+# Two plants. Polygonum biatorta (sp?). Lunaria (RCAZ)?
+#
+<f43v.1,@P0>      <%>pdsairy.dalteoshy.d[o:a]ly.sheet.or.arodl.lkeo.r.araiin.otedy.opolde
+<f43v.2,+P0>      shedy.octhy.otedy.chedy.dar.ches{kh}y.okeody.oky.okaldy.kchdy.okar
+<f43v.3,+P0>      tody.teedy.qot.chocthy.chky.oky.chdy.okedy.ykaiin.chey.ody.dary
+<f43v.4,+P0>      d{ch'h}ey,ykeedy.chees.ain.shy.qocthedy.chey.qokar.checkhy.okam
+<f43v.5,+P0>      qokchedy.oralody.otedol.chcthdy.chtey<$>
+#
+<f43v.6,+P0>      <%>tolkchdy.okedy.qoked[a:o]l.shedy.okedal.shedy.pchdol.otey.dalorain
+<f43v.7,+P0>      ytshedy.ykeody.oykeedy.chedy.tedy.chcthy.otam.ot.ytaiin.otas
+<f43v.8,+P0>      shetcheodchs.ochedy.oteody.chedy.chody.daiin.sheody.ykar.chef
+<f43v.9,+P0>      yt[ch:ee]dy.olos.aiin.ockhy<$>
+#
+<f43v.10,+P0>     <%>tarchor.ar.aldar.chdy.daldar.chepy.yteedy.s,ypchey,pchedy.yfor
+<f43v.11,+P0>     ysheey.or,air.yteey.cheody.ar.sheo.qody.chckhy.chdy.choty.she{cthy}
+<f43v.12,+P0>     yshee.kedy.dar.chey.qotedy.etaiin.chedy.cthey.oteol.or,aiin.odain
+<f43v.13,+P0>     dshedy.tedy.ckhedy.chekcheey.dy,keody.otedy.cheetam.okedar.amam
+<f43v.14,+P0>     dykeedain.chedy.okeedy.chedal.olkey.cheky.cho[a:y]l,chedy.oteorom
+<f43v.15,+P0>     oteod.qolkeey.kaldy.chy.darod[y:?].qokeey.kol.dary.taros
+<f43v.16,+P0>     ol.eees.aiin.oloaiin.oteos.qoky.chey<$>
+#
+#
+<f44r>     <! $Q=F $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 85
+# herbal
+# Curriers language A, hand 1
+# Plant ID: Veratrum (sp?)
+#
+<f44r.1,@P0>      <%>tshodpy.ora{iph}y.koees.ypsholy.shy.otoloaiin
+<f44r.2,+P0>      ydsh.dyeees.y,ty.oky.okchey.qykchey.dchy,dy
+<f44r.3,+P0>      oair.ekokeey.kshotol.otal.daiin.ototaykal
+<f44r.4,+P0>      ychor.ykchey.ykchy.chody.dam<$>
+#
+<f44r.5,+P0>      <%>toy.shysho.qoteey.char.cheeky.sheey.ytey.daiin
+<f44r.6,+P0>      dshor.y,tchol.shy.o.¾cheekchy.qotchy.otchy.dar
+<f44r.7,+P0>      qot{ch'}.o[q:y]d.shol.qotshy.oyty.chom<$>
+#
+<f44r.8,+P0>      <%>pshy.opchey.qopchy.ofchey.roiry.sholos.ykchy<!separated ch>
+<f44r.9,+P0>      otchol.ol,dchckhy.qoky.qotchy.qokchy.qokyd
+<f44r.10,+P0>     qokchor.okchy.qoto.ykol.choky.choky.chol,dam
+<f44r.11,+P0>     ytsho.qockhy.okchody<$>
+#
+#
+<f44v>     <! $Q=F $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 86
+# herbal
+# Curriers language A, hand 1
+#
+<f44v.1,@P0>      <%>tsho.qotshy.cthol.d.chor.otol.shol.tol.qotshol.otoldy
+<f44v.2,+P0>      yolkol.cheol.qokchain.daly.otchol.daiin.shol.qotor.ar
+<f44v.3,+P0>      tol.okchor.shcthy.otol.daiin.cthy.cthy<$>
+#
+<f44v.4,+P0>      <%>yokalod.shaiin.shor.shorody.shky.sho.y,tchy.opchod.opy
+<f44v.5,+P0>      oain.shol.cthy.cphaiin.ykchor.otchy.qoty.ytchear.cthain
+<f44v.6,+P0>      tol.dair.ytaiin.dol,y.kchain.oty,keey.otchol.ytaiin,dy
+<f44v.7,+P0>      ok[y:o],tchaiin.cthol.dy.cheol.ololy<$>
+#
+<f44v.8,+P0>      <%>tsheody.cthaiin.odaiin.shol.shey.cthy<->ykoda<->ol
+<f44v.9,+P0>      dshor.cthees.l,o,lkeees.ckhy.chcthy.lo
+<f44v.10,+P0>     lsho.qokchy.tshy.cphaiin.cthal.kal
+<f44v.11,+P0>     okal.chol.chol.choky.okaiin.cthy.otal
+<f44v.12,+P0>     ychey.teol.chaiin.chcthy.ctho.cthol
+<f44v.13,+P0>     lchor.shol.dairl<$>
+#
+#
+<f45r>     <! $Q=F $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 87
+# herbal
+# Curriers language A, hand 1
+#
+<f45r.1,@P0>      <%>pykydal.sha{ikh}y.oty.shey.qop.char.opchal.ypchor.ofchar
+<f45r.2,+P0>      shor.cthy.qoky.qokol.qokaiin.chol.chol.ykaiin.dar.om
+<f45r.3,+P0>      qo.chcthy.kchol.daiin.qoaiin.cthy.chaiin.ykeey.cthom
+<f45r.4,+P0>      lor.y.kaiin.ykeol.ykeol.cham<$>
+#
+<f45r.5,+P0>      <%>kol,sho.pchor.kchey.ty.opchaldy.otshy.qokchy.dol,daiin
+<f45r.6,+P0>      otchar.okchar.daiin.ytchody.tcholol.otar.dal.dary
+<f45r.7,+P0>      lchar.qor.y.kar.dar<$>
+#
+<f45r.8,+P0>      <%>tchol.cthy.qodaiin.cthy.dain.{öthh}ey.otydal.daiin.[g:d]
+<f45r.9,+P0>      Éor.or.chain.dain.ykolody.ytaiin.qotchol.kol.dy
+<f45r.10,+P0>     okaiin.shar.yky.oky.kair.daldy.dalor.cheol.dal
+<f45r.11,+P0>     l.okaiin.okcho.laldan.daldaiin<$>
+#
+#
+<f45v>     <! $Q=F $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 88
+# herbal
+# Curriers language A, hand 1
+# Plant ID: Sentellaria, Veronica? carnedris(sp), Ehrenpreis?,
+# beatrum phula inal(sp)
+#
+<f45v.1,@P0>      <%>ko[r:s]ary.chko.kol,chey.fsholom.shor.ykchy.dod.opchaiin.olald
+<f45v.2,+P0>      okol.chor.daiin.cthy.okchol.chom.okolo[r:n].dy<->okchol.s
+<f45v.3,+P0>      qokchy.l,or.cheol.qot[o:a]l.qotol,chy.ky.cthod<->ykar,yd
+<f45v.4,+P0>      okchy.qockhy.dain.dail.dair.shy<$>
+#
+<f45v.5,+P0>      <%>qotol.choiin.okchar.dar.oty<->shoto.dol,py<->otytam
+<f45v.6,+P0>      ?s,aiin.cphor.qok{cy}.tod<->ytchdy.dy<->dy.cheg
+<f45v.7,+P0>      tchtcho,kchol.dshy.o,tyol<->ytchom
+<f45v.8,+P0>      yksheor.odal.sho.dy.pchom<->otor.oa[iir:iin]
+<f45v.9,+P0>      ychor.cthy.chol.qokom.sy<->sa,ykchom
+<f45v.10,+P0>     dshor.otshy.oky.tsholol<->ytchord
+<f45v.11,+P0>     or,chor.ytchy.doiin.dcholdy<$>
+#
+#
+<f46r>     <! $Q=F $P=K $F=x $B=3 $I=H $L=B $H=2 $C=2>
+# page 89
+# herbal
+# Curriers language B, hand 2
+# Plant (root) ID: Asclepias, (+unreadable)
+#
+<f46r.1,@P0>      <%>pcheocphy.qotedy.chety.dy.chepchx.yfcheky.o[s:r]aiin.shee.qoteol.daiin.shee.dy.daly
+<f46r.2,+P0>      sodaiin.sheeoly.qoor.sheo,teoly.chckhy.daiin.sh[{ck}:ek].sheet.shedy.xo[r:s].aiin.sheckhy
+<f46r.3,+P0>      daiin.shor.ykal.che[{kh}:{th}]y.daiin.she.dalshedy.qokol.s.aiin.shee.ykar.daiin
+<f46r.4,+P0>      tshedar.chol.kaldy.chckhy.qokaldy.chekal.chckhy.sheky.sheky.dalo{cthh}y
+<f46r.5,+P0>      okeedy.shekeey.ykey.shedy.chdy.shky.qotsheod.ytedy.ytey.che[o:a]r<$>
+#
+<f46r.6,+P0>      <%>tedy.d[y:o]tedy.shee.keedy.ypchedy.chdalor.sheedy.odo[s:r],aiin.opchedy.dykedy.chdam
+<f46r.7,+P0>      xol.shol.qokaiin.ytchdy.qokchdy.s,ar.chdy.cthy.otedy.chedy.qokar.chcthy.m
+<f46r.8,+P0>      dsheol.chy.chckhy.shy.shdy.chky.chody.cthdy.s.cheos.chey<$>
+#
+<f46r.9,+P0>      <%>tshdy.shdy.fchedy.dyfchdy.shol.kees,ytaly.fchdy.dy.karal.shky.yty.dardam
+<f46r.10,+P0>     tchey.shy.chkal.chd.qokdy.shdy.adoldy.olaiir.sheol<$>
+#
+<f46r.11,+P0>     <%>pchdair.shd.shep,daiin.shdy.o{ifh}edy.qopchdy.ldy.shear.opdarshdy.s.ˆyfchedy
+<f46r.12,+P0>     techy.daiin.sheockhy.choky.r.aiin.ches.shey.kar.sheckhy.chdy.chckham
+<f46r.13,+P0>     ar,akaiin.shol.okeey.chol.dar.ols.lain.y<$>
+#
+<f46r.14,+P0>     <%>otchealkar.sholkshy.qokar.cheol.okal.dam.chdam.qokam
+<f46r.15,+P0>     qokar.shol,kal.[a:o]lkeody<$>
+#
+#
+<f46v>     <! $Q=F $P=L $F=x $B=3 $I=H $L=B $H=2 $C=2>
+# page 90
+# herbal
+# Curriers language B, hand 2
+# Plant ID: Boragine, Anchusa (has red mark along top of roots)
+#
+<f46v.1,@P0>      <%>pody,lshed.ypdy,shedy.opchedy.ytedy.oepchol.yfchey.tochsy.oka[s:r].ykchdy.daiin
+<f46v.2,+P0>      ytair,aiin.otchdy.okaly.daiin.qokedy.otar.ar.oldy.otedy.saim.okey.tody.daiin
+<f46v.3,+P0>      ytchey.keody.chockhdy.chotal.okalshdy.sh[?:d]y<!funny d>.qokar.oty.qoty.shedy.chedy.dam
+<f46v.4,+P0>      ydaiin.chckhy.chdal.olar.chckhdy.chdody.tar.cham.kedy.daiin.y,kaiir.shckhefy
+<f46v.5,+P0>      lodaiin.shedy.qokedy.chdy.okedy.dykaly.daiin.chedy.okeedy.s,ar,air.cthy
+<f46v.6,+P0>      tor.aiirchar.shedy.olaiin.qotedy.sheedy.qokaldy.qokedy.d[o:a]ir.chody.cthey.m
+<f46v.7,+P0>      dchedy.cheeky.dam,ched.lchedy.chedy
+<f46v.8,=Pt>      okeedchsy.qokeedy.chetedar.or.ai{cky}y
+<f46v.9,+P1>      yteedy.shedy.che{ck}edy.chtedy.daim
+<f46v.10,+P1>     sheol.[a:o]r.chey.okaiin.daim.oty.om
+<f46v.11,+P1>     tolshey.otedy.chocpheod.oty.dam
+<f46v.12,+P1>     dair.aly.chdam.chcthy.chdam
+<f46v.13,+P1>     ykar.chedy<$>
+#
+#
+<f47r>     <! $Q=F $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1>
+# page 91
+# herbal
+# Curriers language A, hand 1
+# Plant ID: Indian cucumber?
+#
+<f47r.1,@P0>      <%>Ÿchair.oly.sheaiin.shol.daiin.chdy
+<f47r.2,+P0>      chokchol.chol,choldy.dair.cha[d:j],aiin
+<f47r.3,+P0>      dor.chol.chy.chaiin.ckhey.chol.dain.okaiin
+<f47r.4,+P0>      qokcheo.cthey.chokain.chol.daiin.kchdal
+<f47r.5,+P0>      dain.olshey.chokolg<$>
+#
+<f47r.6,+P0>      <%>folr.chey,so.chol.shol,aiin.shol.shol.chdy.cholol
+<f47r.7,+P0>      schesy.kchor.cthaiin.chol.chol.chol.chor.{ck¿h}ey
+<f47r.8,+P0>      shokeey.chy.tchod.choy.sho.chtchy.¡char.ctham
+<f47r.9,+P0>      qoko,kor.chaiin.okal.chol.daiin.okcho,kcho[r:s]sy
+<f47r.10,+P0>     shy.otcho.keey.tor.chey.otchy.tchol.dain.dam
+<f47r.11,+P0>     dsho.cphy.daiin.daiiny<$>
+#
+#
+<f47v>     <! $Q=F $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1>
+# page 92
+# herbal
+# Curriers language A, hand 1
+# Plant ID: Toronicum Pardalianchus (Holm) [Gemswurtz]
+# Same plant as f102r2[1,1] (Petersen)
+#
+<f47v.1,@P0>      <%>psheot.cheor.cholsho.chopchy.sal<->sary
+<f47v.2,+P0>      dsheey.shy.cphy.otchey.daiidy.chory<->daiiy
+<f47v.3,+P0>      shol.char.oteol.dor.otchol.chkchy<->daiin
+<f47v.4,+P0>      qotol.sheey.kol.sho.keechy.qoty<->cthy
+<f47v.5,+P0>      dsholy.shees.chor.ody.shy.sy<->sary
+<f47v.6,+P0>      chody.cheor.saiin.dochod<->chol<$>
+#
+<f47v.7,+P0>      <%>pchodaiin.dair.dcthy
+<f47v.8,+P0>      daiin.cheotar.chodaly.sal
+<f47v.9,+P0>      qotcheey.chety.chol.chol.dain
+<f47v.10,+P0>     chotcho,ltchey.[o:y].tcho,tchy.dy<->chol.chody.dar
+<f47v.11,+P0>     ot[ee:a:ei]y.cho.chdy.chy.key.chyky<->dchy.daiin.chy
+<f47v.12,+P0>     ch[y:o].cho,keesy.chy.chy.cheky<->chochy.daiin
+<f47v.13,+P0>     dshy.daiin.chdlety.chaiin<->dcheey.otald
+<f47v.14,+P0>     chol.{ct}chey<$>
+#
+#
+<f48r>     <! $Q=F $P=O $F=z $B=1 $I=H $L=B $H=5 $C=2>
+# page 93
+# herbal
+# Curriers language B, hand 2
+# Same plant as f89v2[3,4] ? (Stolfi)
+#
+<f48r.1,@P0>      <%>pshdaiin.ypchdy.opchey.{c¢h}y.dal.sheodaiin.sheokeol.ykeeody.olaiin.opaldy
+<f48r.2,+P0>      daiin.yteeol.cheody.kechodshey.qotedy.chtaiin.otchdy.tedain.okain.ckhy
+<f48r.3,+P0>      sheody.she.teoteey.oteodaiin.ody.qoteo.l.kedy.dol,odal.qotar.opchety.ldy
+<f48r.4,+P0>      tolkeol,dain.otaiin.ykeedy.chet.ytedy,tedy.qokdy.tshdy.chetedy.ctheety.r
+<f48r.5,+P0>      yteey.teol.okeody.cheockhy.olsheey.qoekaiin.octhey.cholkar.aiin.cthar.od
+<f48r.6,+P0>      alshey.lkeedy.ytchedy.qokedy.lotal.qotol.otal,ched.o,key.ykeey.da[l:?]dy
+<f48r.7,+P0>      tocthy.qokeol.yteedy.lolkeol.otolches.al.ar.ykeeodam.okedy.okam
+<f48r.8,+Pr>      otchdain.shol.oteol.oteoly.ykeey.dam,dr
+<f48r.9,+Pc>      yteched.ar.olkey.okeoam<$>
+#
+#
+<f48v>     <! $Q=F $P=P $F=z $B=1 $I=H $L=B $H=5 $C=2>
+# page 94
+# herbal
+# Curriers language B, hand 2
+# gathering mark 6
+# Same plant as f89v[1,4] ? (Stolfi)
+#
+<f48v.1,@P0>      <%>pcheodchy.dshedy.fchedy.los.aiin.ykeeedy.shey.ypchedy.teedy.chdy.ypair,y.chedyty
+<f48v.2,+P0>      chey.tedy.otchody.ykeedy.otar,yotedy.cthdy<->okain.chety.choolkeey
+<f48v.3,+P0>      alchey.kor.y.keody.olkeeey.chody.chedy.daly<->okeeor.aiin.otar,air,am
+<f48v.4,+P0>      dchedy,tchddy.otsh.okeey.ty.otar.alchdy<->yteedy.oteed.y,kedy.m
+<f48v.5,+P0>      lkeey.qocthedy.taiin.shed.qokar.otedy.dy<->dain.tolkain.otam
+<f48v.6,+P0>      shdy.qokain.okar.otar.or.otees.ol.or.ain<->otal.ok.y,tar.chedy.am<$>
+#
+<f48v.7,+P0>      <%>pchedar.chey<->ypchedy.otedy.shef,eeedy.al<->shedy.otedy.fcheodal.cpheeg
+<f48v.8,+P0>      oteody.chkey<->okedy.chckhedy.ykedy.oldy<->otoly.chey.kaly.tokar.otam
+<f48v.9,+P0>      tor.shody.okal<->otchedy.cheky.oly.loldy.lol<->otchdy.otoldy.ytam.otedy
+<f48v.10,+P0>     tol.chedy.ytedy<->ykeol.chdy.chdor.chtol.chdy<->ytchedal.cthey.okar,ar.ary
+<f48v.11,+P0>     ykeedal.chckhy<->ykal.y,tam.or.cheedls.[s:d]ary<$>
+#
+#
+<f49r>     <! $Q=G $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1>
+# herbal
+# page 95
+# Curriers language A, hand 1
+# Brumbaugh p4, Harper's 'potato'
+# Plant ID: Tamus communis (Holm), Scamonia
+#
+<f49r.1,@P0>      <%>pychol.dy.[sh:ch]or.shol.shtchy.shorpchor.opchor.shor,kchy
+<f49r.2,+P0>      qotor.sho.chotchy.choshy.qopchar.q'o.dor.daiin
+<f49r.3,+P0>      dsho<->dchor.dchor.daiin.dor.cheoraiin<$>
+#
+<f49r.4,+P0>      <%>ksh[o:a].qodain.chotshy.dodar
+<f49r.5,+P0>      chor.sheor.chey.teey.qotan
+<f49r.6,+P0>      ol,or,sh{e'e}es.sheoty.choldaiin
+<f49r.7,+P0>      qokeor.cheey.qokchy.qotody
+<f49r.8,+P0>      chot,chor.chy.cheet.qolsor
+<f49r.9,+P0>      oykeeey.chey.kshey.choroiin
+<f49r.10,+P0>     sho.r.choiin.shor.shor,shy
+<f49r.11,+P0>     chotcheol.dchol<$>
+#
+<f49r.12,+P0>     <%>podaiin.cheo.kcho.daiin.chcthy
+<f49r.13,+P0>     {c'o}d.chol,y.tcheol.daiin.cthodd
+<f49r.14,+P0>     q'o.shoqoky.shor.sheor.otol.daiin
+<f49r.15,+P0>     ochol.chol.chody.dchodaiin.da'iin
+<f49r.16,+P0>     q'ocho.cheey.dchey.qotchody
+<f49r.17,+P0>     olol,ol.chey.chey.kchy.qotchol.chosory
+<f49r.18,+P0>     sheor.cheol.od.cho.dcheeey.qot,chotchy
+<f49r.19,+P0>     dcheo.r.cheey.keolchey.chokchol.chokan
+<f49r.20,+P0>     qotcho.chods.cho.cho[ch:sh]y.chs.oriin
+<f49r.21,+P0>     odch[o:y].chor.ety.shol<$>
+#
+#
+<f49v>     <! $Q=G $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=S>
+# page 96
+# herbal
+# Currier's language A,  hand 1
+# has a 'key-like' sequence
+# Plant ID: Lunaria. Cyclamen (Holm)
+# In the left margin there is a vertical sequence 1 2 3 4 5 aligned with
+# the 1st paragraph, starting from line 2.
+#
+<f49v.1,@L0>      f
+<f49v.2,=P0>      <%>kshor.shol.cphokchol.ch{cfhh}y
+<f49v.3,*L0>      o
+<f49v.4,=P0>      qokchy.qokchod.sho.ckhy
+<f49v.5,*L0>      r
+<f49v.6,=P0>      chotchy.chcthy.cthey.koddy
+<f49v.7,*L0>      y
+<f49v.8,=P0>      okeodsho.chotshol.dam
+<f49v.9,*L0>      e
+<f49v.10,=P0>     shol.shodaiin.qotchar
+<f49v.11,*L0>     Œ
+<f49v.12,=P0>     qot[ch:ee]y.chokchy.choky
+<f49v.13,*L0>     k
+<f49v.14,=P0>     chotchy.chodaiin.dan
+<f49v.15,*L0>     s
+<f49v.16,=P0>     qoteees.cheo.daiin,dol
+<f49v.17,*L0>     p
+<f49v.18,=P0>     ochor.sheeod.ksheo,dl
+<f49v.19,*L0>     o
+<f49v.20,=P0>     q'oksho,daiin.shckhy,dar
+<f49v.21,*L0>     À
+<f49v.22,=P0>     dchol.cthol.daiin.choky
+<f49v.23,*L0>     y
+<f49v.24,=P0>     ochokeey.ckhey.daiin.dain.chokag
+<f49v.25,*L0>     e
+<f49v.26,=P0>     qokeol,chokeeody.otol.kcho,s.chol.daiin<$>
+#
+<f49v.27,*L0>     Œ
+<f49v.28,=P0>     <%>fchochor.shol.tchol.opcheodal.dchsy<->chotchy
+<f49v.29,*L0>     ¤
+<f49v.30,=P0>     dcho.d.chol.chokchodaiin.chokchy.tchol<->okchokol
+<f49v.31,*L0>     p
+<f49v.32,=P0>     tchotchey.chokeeodol.rcheey.otchodar<->dcho.dchog
+<f49v.33,*L0>     o
+<f49v.34,=P0>     shocho.oaiin.sheo.choty<$>
+#
+<f49v.35,*L0>     À
+<f49v.36,=P0>     <%>qotcho.cheol.chol,s.cho,chcthey.dcheol<->chotchody
+<f49v.37,*L0>     y
+<f49v.38,=P0>     chokeo.sho.cheor.cheokchet.chor.daiin,dy<->daiin.qok[g:d]
+<f49v.39,*L0>     e
+<f49v.40,=P0>     oaiin.chy.daiin.chol.chaiin.kshardy<->chokchy
+<f49v.41,*L0>     Œ
+<f49v.42,=P0>     qokeaiin.cheo.chor.choteey.kcheol.dain<->cho.dai[s:r]in
+<f49v.43,*L0>     d
+<f49v.44,=P0>     chokaiin.cho.dls.chariin.daiin.chain.dy<->chetcho.dy
+<f49v.45,*L0>     y
+<f49v.46,=P0>     oaiin.cheky.ó.cho.rchseesy.kchor.sol<->chctho.s
+<f49v.47,*L0>     e
+<f49v.48,=P0>     qotcheol.chey.chor.chokaly.chor,dal<->chaiin,d
+<f49v.49,*L0>     k
+<f49v.50,=P0>     chol.chor.ches.chkalchy.chokeeoky<->chokoran
+<f49v.51,*L0>     y
+<f49v.52,=P0>     ykchokeo.r.cheey.daiin<$>
+#
+#
+<f50r>     <! $Q=G $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# page 97
+# herbal
+# Currier's language B,  hand 2
+# Plant ID: Artichoke, (species of sunflower?)
+#
+<f50r.1,@P0>      <%>psheor.olkair.olfchedy.qop[eee:che]dar.opchey.dair.o,laiin.chefchdy
+<f50r.2,+P0>      sor.orsheckhy.ockhody.shos.alol.dy.kar.oky.daiiin.okar.ar.okam
+<f50r.3,+P0>      tshol.kar.sheedy.okeody.qokedy.chody.kchdy.pchdy.chkaiin.odam
+<f50r.4,+P0>      tchdy.qokas.chedy.qokchdy.qokaiin.or.ar.alol.keodaiin.ols
+<f50r.5,+P0>      solkchy.chckhy.qokchdy.qokchdy.okar.ar.y.qokchdy.kar.ar.okain
+<f50r.6,+P0>      ykain.[sh:{c's}]ear.ol,kchedy.okal.qotor.cheeor.olk[ee:a]dy.daiin.qoky
+<f50r.7,+P0>      todalain.qotal.kaiin.otaiin.otal.she.ka[r:s].ariin.okchedy.dariin
+<f50r.8,+P0>      yk,ykaiin.sheekar.otchdy.dar.kar.shedain.taipar.orolkain
+<f50r.9,+P0>      ytchdy.kchedy<->ykeey.kaiin.qokain.ald,[a:y]lo[s:r]am
+<f50r.10,+P0>     solkaiin<->opalke,chckhy.darin.chky<$>
+#
+#
+<f50v>     <! $Q=G $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# page 98
+# herbal
+# Currier's language B,  hand 2
+# Plant ID: Umbellifera? (O'Neill), (coxcomb?)
+#
+<f50v.1,@P0>      <%>tchy.do.ldar.shotchdy.qokchdy.opchedy.qokol.shor.ofar,fardam
+<f50v.2,+P0>      tchodain.oeeey.okaiin.shedy.qokaly.chdy.oky.keody.cheey.okain
+<f50v.3,+P0>      pochedy.qokody.checkhy.shckhy.dalol.ykeeey.qokedy.okain.okal
+<f50v.4,+P0>      dar.qoain.olaiin.ol[s:r].aiin.o,l.okeedy.okchdy.otar.chckhey.or
+<f50v.5,+P0>      y,chy.tair.chckhy.qekaiin.qodaiin.olcheky.chedy.chkedy.okedyd
+<f50v.6,+P0>      daiin.kedair.okal.chody.qokedy.okar.okchey.okedy.ota[r:s].chkeey
+<f50v.7,+P0>      tedaiin.odaiin.or.okaiin.ykor.daiin.choky.qotchdy.k[{cy}:ey].dairam
+<f50v.8,+P0>      ykar.okair.otor.qokedy.ykchol.kar.chckhy.olkaiin.okain.qo'd<!corr?>
+<f50v.9,+P0>      ytsheod.ain.sheshy.echedy.kchdy<->otaiin.okaiin.[o:a]ky
+<f50v.10,+P0>     dchedy.okaiin.olchdy.oloeedy<->ykeeod,ar.aro[o:a]d
+<f50v.11,+P0>     lchey.kar.ykchy.kchdy<$>
+#
+#
+<f51r>     <! $Q=G $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 99
+# herbal
+# Currier's language A,  hand 1
+# Plant ID: Mandrake (Manley)
+#
+<f51r.1,@P0>      <%>tsholdchy.qotchy.opchear.ypchedy
+<f51r.2,+P0>      dcheodaiin.ckheody.ckhody.chody
+<f51r.3,+P0>      ydchody.ckhey.oty.ckhe[o:a]dar.qoky
+<f51r.4,+P0>      daiin.{ct}[e:i]s.okol.cheody.ckhy.cheeey
+<f51r.5,+P0>      tcheody.qodaiin.okeey.qockhey.taiin
+<f51r.6,+P0>      ycho,daiin.chokaiin.ykchodaiin.ykald
+<f51r.7,+P0>      ychos,ar.eeckhy.kcho.qokchy.qotal
+<f51r.8,+P0>      oshol.odaiin.[ckhe:{ckhh}]y.ckheody.qokey.otydy
+<f51r.9,+P0>      tol.daiin.daim.qchodal.dal.qody.qoetam
+<f51r.10,+P0>     ykchol.d[o:a]r.shey.qokeol.kchey.shol.okam
+<f51r.11,+P0>     tchodaiin.[{oph}:cph]eody.qokol.ot[e:i]odaiin.kol,ota[g:m]
+<f51r.12,+P0>     yoees.ckheey.kol.cheeal.okeor.qockhey.pchodal
+<f51r.13,+P0>     oaiin.ckhol.yk[i:?]eol.otchey.cpheo,daiin.ykeoldy
+<f51r.14,+P0>     daii{ith}y.qodaiin.kaiiidal<->cphodal<->[s:r].al.dam
+<f51r.15,+P0>     qokol.cheor.ckhal.s.or.aldy<->otal<$>
+#
+#
+<f51v>     <! $Q=G $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# page 100
+# herbal
+# Currier's language A,  hand 1
+# Plant ID: Cow's tongue, Licopsis, Sedum Majus (Hauswurtz)
+#
+<f51v.1,@P0>      <%>poshody.qokodar.shodaiin.qotal<->dscheey.saiin,dy
+<f51v.2,+P0>      dshody.ckhody.qokol.dykaiin.chy<->qokey.daiin.cthy
+<f51v.3,+P0>      tchody.cthy.chckhey.qod.ytchody<->dchol.saiin.ytam
+<f51v.4,+P0>      otaiin.qodal.yt[o:a]l.cheodar.s,ody<->oteo,daiin.shokog
+<f51v.5,+P0>      todaiin.yt[a:o]dy.qokol.shodol.qockhy<->ykol.otaiin.dar.y
+<f51v.6,+P0>      okor.ctheody.qocphy.qok[a:o]l.qotaiin<->otyk[o:a]l.chol,daiin
+<f51v.7,+P0>      qotol.chodaiin.qokcheody.cho,r.chod<->ycthol.s.olcheety
+<f51v.8,+P0>      olkeeody.qokal.qodaiin.{ykh}or.[{ofa}:{yfa}:?]l
+<f51v.9,+P0>      daiin.ckhol.shain.kcholol
+<f51v.10,+P0>     ykeol.sheo.qok[o:a]dy.fold
+<f51v.11,+P0>     ycheoky.sheey.ykeey.chey
+<f51v.12,+P0>     ochockhy.daiin.cho,ckhey
+<f51v.13,+P0>     daiin.cheol.cheodain<$>
+#
+#
+<f52r>     <! $Q=G $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 101
+# herbal
+# Currier's language A,  hand 1
+# Plant ID: (unreadable)
+#
+<f52r.1,@P0>      <%>tdokchcfhy.ycphko.ytair.shar.qofy,daiin.ypchy.otchol.dar.yty
+<f52r.2,+P0>      oty.shor.ykoldy.qoky.koldal.oteees.dals<->otar,dl
+<f52r.3,+P0>      tchotshey.qoty.okchol.tchody.qotam.oky<->ytoldy
+<f52r.4,+P0>      l,shopchy.qoky.qotchy.oty.dar.oty.dam<->ychcthod
+<f52r.5,+P0>      oky.chor.okchal.okchar.shor.tol.ykair<->ytchdam
+<f52r.6,+P0>      daiin.shedaiin.qodal.dy.[ch:ee]okam.otchordy<->okchol.do
+<f52r.7,+P0>      qok[{ch'}:{cs}]y.qockhom.dals.shodaim.tcham.dody<->ykeey.dai[g:m:d].a[m:¯]
+<f52r.8,+P0>      or,cheey.dor.shey.kom.s.cheey.dch[o:a]m.daiin<$>
+#
+#
+<f52v>     <! $Q=G $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# page 102
+# herbal
+# Currier's language A,  hand 1
+#
+<f52v.1,@P0>      <%>pchor.chcphol.cphaiiin.otcheor.ytor,kol.chocph[a:o]r
+<f52v.2,+P0>      ytchey.chol.ctho,daiir.shy.kor.ese,chor.chy.dam
+<f52v.3,+P0>      oor,chor.chochar.l[s:r].chteeor.ytol.sheol.otam
+<f52v.4,+P0>      tchor.ctheor.ctheol.cheeor.cheol.chckheey.s[o:a]dy
+<f52v.5,+P0>      yteey.cthor,cheo[s:r].cpheodar.dy<->sarg
+<f52v.6,+P0>      qotodaiin.cthor.oty.kcholy<$>
+#
+<f52v.7,+P0>      <%>pcheol.sholoiin.cthor.aiin
+<f52v.8,+P0>      kodaiin.cthy.qokeey.s.ol
+<f52v.9,+P0>      daiin.ckheol.chol.qoke[y:o]l.daiin
+<f52v.10,+P0>     yokee[y:o].qokody.chol.sol,s.aiin
+<f52v.11,+P0>     daiin.shor.qodaiin.ckhey.sal
+<f52v.12,+P0>     qoekar.ckhol.ykchody.ckhy
+<f52v.13,+P0>     yk[o:a]r.okaiiin.ckheeey.daiig
+<f52v.14,+P0>     odar.cheokor.ckheey<$>
+#
+#
+<f53r>     <! $Q=G $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 103
+# herbal
+# Currier's language A,  hand 1
+# Plant ID: Elecampane
+#
+<f53r.1,@P0>      <%>k[o:a]dam,chocthody.oty
+<f53r.2,+P0>      dol.dain.s,cho,she.oty
+<f53r.3,+P0>      sho,[a:o][s:r].chokan.ody
+<f53r.4,+P0>      ytchodaiin.yky.otchey.otod
+<f53r.5,+P0>      ok[sh:?].otol.cfhy.cphodol.ykody.qokchod<->otcho.qot.oty
+<f53r.6,+P0>      ykeodar.oqoor.o{cki}.odor.chain.qokod<->ykchdy.chees.dal
+<f53r.7,+P0>      sodar.otos.qoy.tchy.otey.chos.okod<->ykchody.qok[ch:ee]y
+<f53r.8,+P0>      qotchol.dar.qoty.chtor.oltsho.{cto}<->ykeeod.o.y,toyd
+<f53r.9,+P0>      otol.chol.ctheees.os.orol.chod.qoty<$>
+#
+#
+<f53v>     <! $Q=G $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# page 104
+# herbal
+# Currier's language A,  hand 1
+#
+<f53v.1,@P0>      <%>tshor,shey.qodckhy.e{ph}o.oltshey.daiin.qopchy
+<f53v.2,+P0>      okeey.daiin.sheekol.shom.shol.cthy.dchom.do
+<f53v.3,+P0>      ydaiin.cph[o:a]m.chol.dockhy.cthol.dam.oty
+<f53v.4,+P0>      qokol,daiiin.qockhor.okchor.daiio,dain.d
+<f53v.5,+P0>      ysheey.ckhol.chckhey.daiin.ctheody.ydy
+<f53v.6,+P0>      ochoiky.dshey.chol.ykcheody.choldam
+<f53v.7,+P0>      todaiin.shodaiin.qote[a:o].dchy.qotod.odaiin
+<f53v.8,+P0>      sheey.kshody.tsheody.sheody.sheetchy.opod
+<f53v.9,+P0>      octheody.shody.qodal.cthody.sheos.shodaiin
+<f53v.10,+P0>     ychocthy.qodal.shodaiin
+<f53v.11,+P0>     otsho.or.chear.sheod.chkodal
+<f53v.12,+P0>     ycheey.kchy.oky.kody<->ydam
+<f53v.13,+P0>     yckhodaiin.otoldy<$>
+#
+#
+<f54r>     <! $Q=G $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 105
+# herbal
+# Currier's language A,  hand 1
+# Plant ID: Thistle, leaves of boneset
+#
+<f54r.1,@P0>      <%>podaiin.shodal.qopchol.cfhe[o:a]dy<->opcheol.chocphy
+<f54r.2,+P0>      ytodaiin.otchey.otchey.qockhodal<->sockhody.sar
+<f54r.3,+P0>      daiir.cthody.ot[a:o]l.[e:o]kchody.ol.s.or.y<->ytchey.dam
+<f54r.4,+P0>      tor.ockhol.shokchy.kol,chom.[s:r]<->chey<->ctheot[o:a]l
+<f54r.5,+P0>      sar.sh.okeodain.chokey<$>
+#
+<f54r.6,+P0>      <%>korar[e:i].ckhos.shofom.cher.chom.kcheor<->she.qkchol.dam
+<f54r.7,+P0>      dor.s.sheey.ksheody.sho.or.cheey.chety<->sol.de[sh:?].dam.dam
+<f54r.8,+P0>      t[o:a]shey.kodl.ckho.dar.sheekal.s.aiin<->okeam.etchal
+<f54r.9,+P0>      oaiin.or.ol.sal.qokor.chor.ckhol.s<->s,sho.chol.daiin
+<f54r.10,+P0>     tor.ol.dol.or.chol.chol.ckhol.okol.oky<->ytchor.ol,koldy
+<f54r.11,+P0>     daiin.okor.or.ol.ckhol.chor.cho¥.dam<->or.sho.chol.dom
+<f54r.12,+P0>     yor.shodal.o.aiin.al.dol.choek,air,o,ldam<$>
+#
+#
+<f54v>     <! $Q=G $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# page 106
+# herbal
+# Currier's language A,  hand 1
+# not found in FSG item 1609
+#
+<f54v.1,@P0>      <%>pcheodar.chpal.oloiin.ckhey<!bar interrupted>.dar.qokeey.cpheeain.s,al
+<f54v.2,+P0>      dcheain.cphaiin.s.ar.cheor.qodaiin.cthaildy.ypchal
+<f54v.3,+P0>      yair.ykar.oky.cham.chody.ykoldam.cheol,am
+<f54v.4,+P0>      dar,chor.cheky.chol.okaiin.chody.chol,dy
+<f54v.5,+P0>      o[d:?]aiin.ytaiin.qodaim.qokar.chy.s.am
+<f54v.6,+P0>      tol.cheol.shocthy.qodaiin.k[ee:ch]ody
+<f54v.7,+P0>      daiin.sheody.qoctheol.s.aiin.qotchy
+<f54v.8,+P0>      daiino,d,aim.qokaiin.yteal.okal.om
+<f54v.9,+P0>      ydaiin.qockhey.qodal.ytam.okal,dy
+<f54v.10,+P0>     kol.{ck}aiin.chckhy.qokal.dal.qocthy
+<f54v.11,+P0>     oaiin.qockhy.qokam
+<f54v.12,+P0>     tol.chol.cthol.s
+<f54v.13,+P0>     y,chol.okal.yckhey
+<f54v.14,+P0>     tar.cphey.tam.aldam
+<f54v.15,+P0>     or.alchy.ytal.dol.chodoldy
+<f54v.16,+P0>     daiin.chol.oldaiin<$>
+#
+#
+<f55r>     <! $Q=G $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2>
+# page 107
+# herbal
+# Currier's language B,  hand 2
+#
+<f55r.1,@P0>      <%>podaiin.shekchy.qofair.okar.yk.[{oh}:ch]epaiin.qokchdy.os.arod
+<f55r.2,+P0>      okair.or.aiin.chody.ykair.y.qokar.okar.ol.ykar.ar.al
+<f55r.3,+P0>      ykaiir.chol.chky.okar.chky.chdy.qokar.okaiin.chckhy.s.aiin
+<f55r.4,+P0>      daiin.or.orol.char.ar.kaiin.okchd.ykar.odaiin.chdolaiin
+<f55r.5,+P0>      y.or.aiin.okal.chol.kchoy.pchtchdy.o[{ck}:ek]aiin.oka[s:r]or.olkam
+<f55r.6,+P0>      tcho,daiin.sho.ke¦y.kedy.okol.chdy<$>
+#
+<f55r.7,+P0>      <%>tchedar.che[o:a]l,kedy.chody.kshdy.qotchdy.qokchdy.olkardam
+<f55r.8,+P0>      dchykey.char.chek.xar.odas.xaloeees.cpheody.qokeeody
+<f55r.9,+P0>      dain.cheky.dar.chckhy.dal.qoko.lkeedy.dar.kaiin.dy.ka[g:m]
+<f55r.10,+P0>     dair.okal.qokar.or.[o:a]rÁ.o.ar.odaiin.okeey.darchd.ol
+<f55r.11,+P0>     l[{oh}:ch]or.chey.keedy.dy.qokal.oka[m:j].dal,shdy.otal.otaldiin
+<f55r.12,+P0>     oain.ckhy.dl.oiiin.daiin.okaiin.chelal.qokaiin.okain.r
+<f55r.13,+P0>     lchdal.ockhy.daiin.otol.otar.shar,ain<$>
+#
+#
+<f55v>     <! $Q=G $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2>
+# page 108
+# herbal
+# Currier's language B,  hand 2
+# Plant ID: Elephant's ear?
+#
+<f55v.1,@P0>      <%>kcheedchdy.oedain.chckhy<->otoldaiin.dodyd
+<f55v.2,+P0>      oeeed.yteey.okeedy.qoaiin<->okeody.ykee[s:r]an
+<f55v.3,+P0>      qokeeey.os.ain.qool.al,chedy<->[s:?]ar,aiin.ol.kar,am
+<f55v.4,+P0>      okar.chckhdy.che[o:a]dy.keeyfar,al<->ochedy.qokain.ody
+<f55v.5,+P0>      qokaiin.chaiin.ykain.ykan.ody<->daiin.chedy.talam
+<f55v.6,+P0>      ykaiin.daiin.ykair.cheky.daiiny<$>
+#
+# Next line badly legible
+<f55v.7,+P0>      <%>okchd.yk[a:?]in.[sh:ch]eokey.or.ain<->[ch:?].kchdy.pchal.ar,aldy.dary
+<f55v.8,+P0>      tar.chedy.qokaiin.okar.qol<->otar,choÂar.talody.okar,y
+<f55v.9,+P0>      ykaky.qokchy.okal.chey.or<->or,aiin.okaiin.ykain.otaky
+<f55v.10,+P0>     oaiin.ol.s.aiin.okaiin.oky<->ytaiin.otar.y,kal.ykar.ol
+<f55v.11,+P0>     ykaiin.cheoar.cheeky.oldy<->aiin.okal.oltchy.or,y.orain
+<f55v.12,+P0>     daiin.[a:o]r.cheky.olkeechy.sl<->ar.aiin.daiin.otam<$>
+#
+#
+<f56r>     <! $Q=G $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 109
+# herbal
+# Currier's language A,  hand 1
+# Plant ID: Boragine echium, Dianthus flower (convolvulus?)
+# Kraus p45, Zimansky; 'fern'
+#
+<f56r.1,@P0>      <%>o§chal.chchs¨y.oty.esedy.chy.ychocphy.chorchy.chy
+<f56r.2,+P0>      chokchey.ch[o:a]l.choly.korchy.chykey.choty.shokaiin
+<f56r.3,+P0>      olchey.chokchol.chey.keey.qokeey.chokeey.choksy
+<f56r.4,+P0>      qot,chor.chor.chokor.chkor,chy<->okar.chdy
+<f56r.5,+P0>      chochor.cho.chodaly.daiin
+<f56r.6,+P0>      ykch[o:a].dy.dchey.keey.daiin.y
+<f56r.7,+P0>      sho.kchol.otchor.choky.dal
+<f56r.8,+P0>      schol.choy.choky.cheeckhody<$>
+#
+<f56r.9,+P0>      <%>tchoky.kchol.shol.chotchey,tchol
+<f56r.10,+P0>     yt,chor.otchy.chok.y,t.chey.r.okaiin
+<f56r.11,+P0>     shy,kcheey.daiin.cthol.chos.chokor
+<f56r.12,+P0>     sh.cho.kchey.qokokchy
+<f56r.13,+P0>     okchy.chokcheo.kchal
+<f56r.14,+P0>     s,chol.chotol.qotchy
+<f56r.15,+P0>     tcho,tchol.chol.cthy
+<f56r.16,+P0>     qotchy.chody.ctho,r.chey.kch[a:o]rg
+<f56r.17,+P0>     chokeey.qokcheey.schey.d,aiin.dy
+<f56r.18,+P0>     sho.chokchy.kchoar<->sotodan
+<f56r.19,+P0>     otchey.keol.daiin<$>
+#
+#
+<f56v>     <! $Q=G $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# page 110
+# herbal
+# Currier's language A,  hand 1
+# gathering mark 7
+#
+<f56v.1,@P0>      <%>kche[a:o]t.shol.chey.qokoiin.shor,qotcheol.choror
+<f56v.2,+P0>      shodshey.qot[eee:ech]y.qoteey.daiin.qoteey.cthar
+<f56v.3,+P0>      ochey.chol.chol.qotchey.daiin.choteeey,dal
+<f56v.4,+P0>      schy.t,chey.daiin.d,eey.tad<->dain
+<f56v.5,+P0>      qoteees.sho.kcheey.s,aiin
+<f56v.6,+P0>      chokchol.chor.ckhos<$>
+#
+<f56v.7,+P0>      <%>kchokchy.{ck}chol.shol.chol.otchyd
+<f56v.8,+P0>      ykchor.chokchy.qokcho.tcheey.kol
+<f56v.9,+P0>      shotchot.chokcho.kcho,kaiin.oky
+<f56v.10,+P0>     ol,kchy.ksho.shy.ytol.chotor,y,dy
+<f56v.11,+P0>     chotchey.keeol.chey.kchol.tchain
+<f56v.12,+P0>     qokchey.ctheey.lkeey.kcheeytain
+<f56v.13,+P0>     ykor.aiin.chorol.sho,shol.daiin
+<f56v.14,+P0>     chol,cheo.kchol.chol.choky.chotor
+<f56v.15,+P0>     otchol.chol.chol.daiin.chotaiin
+<f56v.16,+P0>     s,o,kchol.chol.chol.daiin<$>
+#
+#
+<f57r>     <! $Q=H $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2>
+# page 111
+# herbal
+# Currier's language B,  hand 2
+#
+<f57r.1,@P0>      <%>poeeockhey.odain.cheop.sheody.shocfhey.dy.sheep.sheody.[e:y]odam
+<f57r.2,+P0>      daiir.air.chety.cheo,ckhy.chockhy.cheotey.sh,kchey.s.odaiin.shey
+<f57r.3,+P0>      qokeeody.cheooky.qokeody.sheey.okeody.cheody.cheeody.cheekeody
+<f57r.4,+P0>      dchos.cheocthy.cheody.qot[ee:ch]ody.octhody.okeeody.chteody.cheody,s
+<f57r.5,+P0>      qok[ch:ee]o.daiin.cheeodam<$>
+#
+<f57r.6,+P0>      <%>tcheodal.okam.chckhey.okchdy.doctho.opchey.dy.kedaiin.oforam
+<f57r.7,+P0>      daii[s:r].sheedy.qokeedy.chetey<->oteeod.shekey.tedy.okaldg
+<f57r.8,+P0>      tair.sheedy.ochedy.{ckhhh}dy<->okchy.chedy.dal.qokedam
+<f57r.9,+P0>      [a:o]dair.sheeo,ckhy.sar.al.daii[d:j]y<->dcheckhey.daiin.chedy.cthedy
+<f57r.10,+P0>     qoetchey.kedy.shedaiin<->s,cheos.ykeos.q{cthh}y.tcfhy
+<f57r.11,+P0>     dshedy.{ct}echy.cphedam<$>
+#
+#
+<f65r>     <! $Q=H $P=E $F=y $B=2 $I=H $H=3>
+# page 115
+# herbal
+# Plant with only two or three words next to it,
+# treated as a label.
+#
+<f65r.1,@Lp>      otaim,dam.alam
+#
+#
+<f65v>     <! $Q=H $P=F $F=y $B=2 $I=H $H=3>
+# page 116
+# herbal
+# appears as Plate II in Newbold facing p44.
+# It features a plant with many roots, branches and flowers; the main stem
+# separates the lines of text into two columns, which are well-registered
+# across the stem.
+# Transcribed 7 Dec 91 by Gillogly, 9 dec 91 by Reeds, 13 Dec 91 Gillogly
+#
+<f65v.1,@P0>      <%>cphy.fchecfhy.dy<->dchepain.shety.qopy.fol.chpdy
+<f65v.2,+P0>      daiin.sheek.l,ody<->yteo.qop[s:r].air.cheot[ee:ch]y.dal[o:a]m
+<f65v.3,+P0>      ytal.cheot.shky.y<->[s:?]as.cheody<$>
+#
+<f65v.4,+P0>      <%>toeedy.otar.shedy<->yteey.sheody.qok[es:?]d.yfchey
+<f65v.5,+P0>      dshedy.okeody.qokd<->shckhy.choky.chokeody.okey,dy
+<f65v.6,+P0>      qo.ytchey.sh,{ckhh}cphy<->ykchedy.chedy.shckhdy<$>
+#
+#
+<f66v>     <! $Q=H $P=H $F=z $B=1 $I=H $L=B $H=5>
+# page 118
+# herbal
+# Currier's language B
+# gathering mark 8
+# Plant ID: Primula?
+# Has extraneous writing
+# Petersen had some problems with this page, and FSG also on locus 7
+#
+<f66v.1,@P0>      <%>okeodof.sheod.ychoopy.opch.dal.dor,sheefy.ytody.da[l:?]deam
+<f66v.2,+P0>      teodal.t[che:{chh}]dy.dshey.okshedy.okeedy.dcheeky.daldy.qotal.sy
+<f66v.3,+P0>      ytos.s.or.sheeky.okechdy.ok[ee:ch]dal.dar.otal.chody.cheky
+<f66v.4,+P0>      shokeshy.daiin.cheos.chety.dol.chckhy.dal.ko,dal.chekal.dal
+<f66v.5,+P0>      shdy.shedefam.qokedy.chokal.dal<$>
+#
+<f66v.6,+P0>      <%>tchod.sheody.shckhed.chos.chor.sheo.keody.chepar.sheopam
+<f66v.7,+P0>      qokeos.sheody.chekeos.chody.kotody.qotchdy.chckhd.ytchdy
+<f66v.8,+P0>      dchekeedy.cheody.qokchdy.qokol.keedy.cheky.chety.kody<$>
+#
+<f66v.9,+P0>      <%>pody.sheody.chpadar.sheey.fchdly.cheoseesey.kchy.qofchal
+<f66v.10,+P0>     dshal.keedy.qok,[o:y]r.okaiin.dol.kaldaiin.otal.dokal.okag
+<f66v.11,+P0>     yteeod.aiin.shekeod.saiin.ykofar.otaiin.otar.ched[y:o].kar[{c'}:s]
+<f66v.12,+P0>     qekar.okedy.cheky.dal.chekal.chckhy.kal.kal.dar.chk[ch:ee]ody
+<f66v.13,+P0>     ydees.shey.daiin.dalkal<->ykedaiin.shedar.ok[ch:ee]dy.oty<$>
+#
+#
+<f87r>     <! $Q=O $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4>
+# page 175
+# herbal
+# Currier's language A, hand 4
+#
+<f87r.1,@P0>      <%>poalshsal.shocphor.ypcho.cpheo.saiin.oteodal.saiin
+<f87r.2,+P0>      dcheeckhos.chety.cthodal.yteodam.cphecthy.syty
+<f87r.3,+P0>      tchor.oteedy.ykeey.{cthh}ody.keos.sheekchey.saiidy
+<f87r.4,+P0>      soraiin.qockhos.cheodor.ckheokey.chcthody.s.odar
+<f87r.5,+P0>      daiin.ctheey.ckheckhy.cthody.chor.s,al.dar.chor
+<f87r.6,+P0>      tos.she.keodaiin.pcheos.sheo.so.shkeody.soraiin
+<f87r.7,+P0>      y,teeodal.cho.keeody.shy.ko[o:l]<!corr?>,sols.chekol
+<f87r.8,+P0>      solsheor.ysaiin.chor.cheory.kchody
+<f87r.9,+P0>      sor.shocthey.oteody.dchol.saraiin
+<f87r.10,+P0>     sho.cthos.cheodal.ctheody.qoty<$>
+#
+<f87r.11,+P0>     <%>psheodshy.dal.shee.saldal.shol.aldy
+<f87r.12,+P0>     ysheee[r:s].chetchy.teodar.otcheol.tockhy
+<f87r.13,+P0>     keor.ckheey.shody.qoeeeety.s,chody.daiin
+<f87r.14,+P0>     daiin.shol.cthey.okeol.cheor.okeeo,daiim
+<f87r.15,+P0>     shos.cheol.cheos.ckhey.saiin.q'ockheo,ldaiin
+<f87r.16,+P0>     yteeo[r:s].cheol.dcheeol<$>
+#
+#
+<f87v>     <! $Q=O $P=B $F=a $B=1 $I=H $L=A $H=1 $C=4>
+# page 180
+# herbal
+# Currier's language A, hand 4
+# Petersen has omitted the right-hand part of paragraph 2
+#
+<f87v.1,@P0>      <%>´cheey.daiin.cpheodar.shody.dcheody.todor.oeeepchody<->oldar
+<f87v.2,+P0>      schey.ctheey.qocthsy.s<->dcheoky.s,cth
+<f87v.3,+P0>      y,cheockhy.okey.cthy<->yteeor.{ct}os
+<f87v.4,+P0>      dcheecthey.cthosy<->ykeeor.oky
+<f87v.5,+P0>      ycheey.keeo.salckhy<->eoiin.scheom
+<f87v.6,+P0>      dcheos.shey.solchiyd<->oteos.cthey
+<f87v.7,+P0>      qotechoep.cheos.cthey<->qokeod.qokeog
+<f87v.8,+P0>      shoeey.cthey.qo.cthodol<->yteodaiin.sheol
+<f87v.9,+P0>      techol.qoscheody.otol<$>
+#
+<f87v.10,+P0>     <%>opcheey.{cthh}y.cpheckhy<->cheo,r,chepcheol
+<f87v.11,+P0>     kchor.ol.cheeol.qok,odal<->lseeey.keodam
+<f87v.12,+P0>     ytcheoq[o:y].chos.ckheos.cheoy<->s,cheol.sal.dain
+<f87v.13,+P0>     ksheol.qoar.cfhs.ykaiin<->saral.aiim.am
+<f87v.14,+P0>     san.ainy.keol,dair.old<->ain.atolg
+<f87v.15,+P0>     yksho.qos<->arolor.or<->al.daraiing
+<f87v.16,+P0>     saiin.olcthr<!through plant><$>
+#
+#
+<f90r1>    <! $Q=O $P=L $F=z $B=1 $I=H $L=A $H=1>
+# page 187
+# herbal
+# Currier's language A
+#
+<f90r1.1,@P0>     <%>poleeol.qokeol.qokchod.choly.ctho[g:m]
+<f90r1.2,+P0>     yshol.tor.sheor.qotchor.qoky.darala
+<f90r1.3,+P0>     dair.shkeea.s.sary.okar.ykorshy.lkaldy
+<f90r1.4,+P0>     talchor.chodaiin.chocfhor.qokchor.chockhy<->okchod.qofchol
+<f90r1.5,+P0>     ytor.ckhy.lpychol.sho.ol.okachey.[r:s].sheom.kchol.dchy.dasady
+<f90r1.6,+P0>     tol.otchol.shorydar.qokeos.okeoschso.chol,ytod.qokeos.dolshy
+<f90r1.7,+P0>     dar.chos.qocthy.qokcha.shko.qokol.oteey.chofy.ykeody.qokod
+<f90r1.8,+P0>     kor.sheol.qodar.oko.ykeey.qokeey.qodar.qokeed.s.choky
+<f90r1.9,+Pr>     ykodar.qoekchy.shokol.okam<$>
+#
+#
+<f90r2>    <! $Q=O $P=M $F=z $B=1 $I=H $L=A $H=1>
+# page 188
+# herbal
+# Currier's language A
+#
+<f90r2.1,@P0>     <%>toealchs.shakol.sheo.qoekeey<->soeeol.qoteody
+<f90r2.2,+P0>     saiin.ckheo.saiin.qockhey.s.ykeeody<->s,cheey.chos.ckhs
+<f90r2.3,+P0>     dsheeos.qokeod.qokeo.chol.ol.okal<->saiin.ctheo,s,ar
+<f90r2.4,+P0>     al.s.oin.cheo.ro.sokeey.qokeeas<->al.aral.oy[r:s]
+<f90r2.5,+P0>     ychor.ckhor.qoeeor.okaiin.dom<->olcheo.rodaiin
+<f90r2.6,+P0>     daiin.qokor.okoiin.daiin<$>
+#
+#
+<f90v2>    <! $Q=O $P=O $F=z $B=1 $I=H $L=A $H=1>
+# page 189
+# herbal
+# Currier's language A
+# Plant ID: Xerantrium? Leaves of Osmuda regalis
+# Same plant as f100r[1,3] ? (Stolfi)
+#
+<f90v2.1,@P0>     <%>{cμh}da{i…h}y.qocfhey.opolraiin.ofchedal.s?<->shese.shodaiin.shea[s:r]
+<f90v2.2,+P0>     podchey.ctheod.{ikh}eeos.cheey.ykeey.s.o[is:?]<->qokchas.s,oin.sam
+<f90v2.3,+P0>     saiin.sheom.sheey.keeos.ol.cheeor.chy<->shy.tchody.okeeo[m:g]
+<f90v2.4,+P0>     tchos.oteey.saiin.okeeey<$>
+#
+<f90v2.5,+P0>     <%>tcheody.cpheal.qoar.cheol.chos,olols<->dshcheal.sheol.qodar
+<f90v2.6,+P0>     sal.sheol.shey.qokeey.qokeol.cheody.s<->ykeeol,dar,chody.y
+<f90v2.7,+P0>     shey.s.shee[y:a]l.sheol.sheody.tol.sheo{cty}<->oteey.chodar.chog
+<f90v2.8,+P0>     teeas.qkeody.qokchy.oteeol.daiin<$>
+#
+#
+<f90v1>    <! $Q=O $P=P $F=z $B=1 $I=H $L=A $H=1>
+# page 190
+# herbal
+# Currier's language A
+# Same plant as f100r[1,3] ? (Stolfi)
+# gathering  mark 15
+#
+<f90v1.1,@P0>     <%>pcheor.chodar.oleees.chepy.shol<->shckheo<->otol.shey<->cheo,r.cheokeey
+<f90v1.2,+P0>     tshor.olsheod.qodaiin.qokeor.sy<->oraiin<->ykeeol<->octheody.{cthhh}y
+<f90v1.3,+P0>     daiin.shody.cfheos.qockhy.chol,ol<->sals<->sol<->yteey.or.cheey,tey
+<f90v1.4,+P0>     kos.sheor.chockhor.qekeody.cheody<->sy<->s<->olcheey.{cthh}y.qoky
+<f90v1.5,+P0>     dcheey.keey.keeey.cthey.yty<->okeeody<->sy<->olcheey.sh.qokeys
+<f90v1.6,+P0>     shctheo,ror,sheol,ol.kaiin<$>
+#
+<f90v1.7,+P0>     <%>ksheodal.sheody.qocheot[o:y]<->shokol.qokeshs<->yteody.poda{i¶h}ey
+<f90v1.8,+P0>     daiin.okeeey.cheo.qotecheor.cthodaim.s<->cheol.chor.okeam
+<f90v1.9,+P0>     sheor.ol.qokeeoky.okeeol.okeeodaiin.ytol<->sor.a[s:r]iin.aiin
+<f90v1.10,+P0>    ykeeor.cheos.q{kh}ey.cheos.oteol.okechod<->oeey.keeos.aiiin
+<f90v1.11,+P0>    deeocthey.keeeol.sheol.{c't}sheol.daiin<$>
+#
+#
+# folios  91-92 missing
+#
+#
+<f93r>     <! $Q=Q $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4>
+# page 191
+# herbal
+# Brumbaugh p80; O'Neill's "American Sunflower"
+# Currier's language A, hand 4
+#
+<f93r.1,@P0>      <%>kodshol.otolsheeos.octhodaly.opalepam.oepchksheey.qotodain.s.oar
+<f93r.2,+P0>      ycham.s.chol.chotom.cthodar.sheo.s.oteodal.s<->ofchoshy.cthoshol
+<f93r.3,+P0>      dsho.dal.dalody.ytchchy.dam.chody.dal,ol<->schodchy.qotchd
+<f93r.4,+P0>      sol.shotol.qokchodal.shody.chotol,s<->otol.ytchdg
+<f93r.5,+P0>      ol.chody.cfhol.dol.qokol.otodar<->chodain
+<f93r.6,+P0>      tar,otor.s.cho.s.chol.sheoees
+<f93r.7,+P0>      shor.shol.ody.cheodaiin.s
+<f93r.8,+P0>      lor,sheeody.chodaiin.s.odar
+<f93r.9,+P0>      shodam.okcheody.cthoctho'l
+<f93r.10,+P0>     ychos.chey.keol.cheol.ckhody
+<f93r.11,+P0>     okeol.oteol.s,odam.sheo,al.sal
+<f93r.12,+P0>     qokor.shey.okcheor.sheodom
+<f93r.13,+P0>     shodaiin.qotchy.kchol,r
+<f93r.14,+P0>     ychey.ckhos.okcheod.chr
+<f93r.15,+P0>     ochol.shodal.dol.cheodam
+<f93r.16,+P0>     choshy.qokor.chckhs
+<f93r.17,+P0>     tcheo.l.cholchecthody
+<f93r.18,+P0>     olkees.shodaiin.shody
+<f93r.19,+P0>     tchor.shol.r.sheoky
+<f93r.20,+P0>     ychockhy.cthol.osos
+<f93r.21,+P0>     dol.shol.daiin.shcthy
+<f93r.22,+P0>     kchor.cthy.chakal.daiin
+<f93r.23,+P0>     oain.okor.shody.teols
+<f93r.24,+P0>     ychocthy.chotey.teey,s
+<f93r.25,+P0>     ysaiin.chotar.shody
+<f93r.26,+P0>     ocheodaiin.tchos.sor
+<f93r.27,+P0>     qokor.cheo.los.ckheody
+<f93r.28,+P0>     ychor.odol.chodaiin.s
+<f93r.29,+P0>     dain.{ck}cho.ctho.ctho[s:e]g
+<f93r.30,+P0>     shodaiin.qokcho.cthol
+<f93r.31,+P0>     ol.chol.cthol.olchod
+<f93r.32,+P0>     dol.chokal.schos<$>
+#
+#
+<f93v>     <! $Q=Q $P=B $F=a $B=1 $I=H $L=A $H=1 $C=4>
+# page 192
+# herbal
+# Currier's language A, hand 4
+#
+<f93v.1,@P0>      <%>possheody.qoteeo.qoshocphy.opchody.opor<->opchy<->otchdal.or.shodaiin
+<f93v.2,+P0>      yteeody.qotody.qotchol.qocthody.ytey<->oky<->daiin<->dar.ctho[g:m]
+<f93v.3,+P0>      dchos.chody.qockhol.oky.cheodaiin.oty<->daiin<->otal<->dair.okol
+<f93v.4,+P0>      sol.shol.shdchy.qokchol.qokchody.chol<->chol<->{cty}<->ykchy.dar
+<f93v.5,+P0>      tshoky.cthody.qotchol.ckhol.dchog.s<->olo.oteo[?:s].chodaiindy
+<f93v.6,+P0>      ytch[?:o]l<!corr?>.ckhol.qochocthy.ctho.chkeey.cthody.s<->dar.she[y:q]okam
+<f93v.7,+P0>      oees.ckheody.qkcheey.koldy.tchodaiin.ctheos<->shodain.qokeeam
+<f93v.8,+P0>      dcho.chody.teol.sheol.cheeoldair.okchey.cthey<->dsheog.okeey.dama
+<f93v.9,+P0>      odeeeodl.cheodar.oksho.chody.okchey.cthol.oly<->ytchol<->sar<->dar
+<f93v.10,+P0>     ychol.chs.ckhy.s,cheeol<$>
+#
+#
+<f94r>     <! $Q=Q $P=C $F=b $B=2 $I=H $L=B $H=3 $C=5>
+# page 193
+# herbal
+# Currier's language B, hand 5
+# Plant ID: Botriculum (Lunaria? Mondform?}
+#
+<f94r.1,@P0>      <%>tchedy.opaiir.chedaiin.dsheedy.qopchedal.keodaiin.otalaiin.oar
+<f94r.2,+P0>      dor.cheody.okaiin.odor.okal.okair.oky.daiir.qotar.okar.olaiin
+<f94r.3,+P0>      todal.cholky.qokal.shdy.qoky.otody.qokolchey.qokair.opary
+<f94r.4,+P0>      shor.olkeedy.ol,kchdy.cheedy.kalchdy.chedaiin.or.chol,kar,am
+<f94r.5,+P0>      daiin.chekar.olkaiin.olkeody.ykaiin.otain.dar.okeed[y:o].ykaro
+<f94r.6,+P0>      saiin.choky.qotchdy.otaly.chedy.dal.dy.chckhaiin.chk.qof
+<f94r.7,+P0>      pchedar.oraiin.cheor.kas.or.als<->o,xo{ckhh}y.olkain.am
+<f94r.8,+P0>      yty.qokaiin.ykal.chdy.qoky<->osain.chykaidy.dam
+<f94r.9,+Pc>      otar,chdy.dytchdy<$>
+#
+#
+<f94v>     <! $Q=Q $P=D $F=b $B=2 $I=H $L=B $H=3 $C=5>
+# page 194
+# herbal
+# Currier's language B, hand 5
+#
+<f94v.1,@P0>      <%>tshedy.chedar.char.qokchedy.okal.dar<->opchackhy.oteedan
+<f94v.2,+P0>      ol,teedy.oteey.qekeey.oteey.teedal<->ykeedy.qotarain
+<f94v.3,+P0>      yshedy.chdaiin.otedy.sdal,tamdy<->chdy.qokeey.tam
+<f94v.4,+P0>      dchdy.otar.otchy,kedy.qokchdy.ol<->okchy<$>
+#
+<f94v.5,+P0>      <%>tedain.chedy.qokshd.okchdy.qokeal<->chorchor.tchor,am
+<f94v.6,+P0>      ycheeo.lkeol.otor.opchdy.qotar.aral<->otor.otchy.tody.oty
+<f94v.7,+P0>      toky.shey.qokaiin<$>
+#
+<f94v.8,+P0>      <%>pchedaiin.sheocthy.daiin.cphedy.fchd<->otchy.qotchy.par,ar
+<f94v.9,+P0>      ytar.okedy.okeedy.qokshey.otaiin,y<->ypchdair.ol.s.aiin.oly
+<f94v.10,+P0>     ol,air.cheey.okchaiin.shy.tararain<->otody.qodar.oteey.dar
+<f94v.11,+P0>     todaiin.sh{cthh}y.qokar.chetaiin.chdy<->ykol.qoky.or,eedy.oky
+<f94v.12,+P0>     daiin.chcthy.chdy.chckhy.okaiin<$>
+#
+#
+<f95r1>    <! $Q=Q $P=F $F=y $B=2 $I=H $L=B $H=3 $C=5>
+# page 195
+# herbal
+# Currier's language B, hand 5
+#
+<f95r1.1,@P0>     <%>kshdor.chepchdy.ofaiin.ol.oldaiin.opshol.qokaiin.oty.odain
+<f95r1.2,+P0>     ol.chdy.chdy.qokaiin.shdy.qokaiin.chdy,kol,chdy.qoty.oky,dan
+<f95r1.3,+P0>     teodaiin.oekeey.qokees.ody.chekaiin.chekaiin.chky.chaiin
+<f95r1.4,+P0>     ycheey,ky.olkain.chey,kain.cholky.chedy.qokaiin.chy.kaiin.ly
+<f95r1.5,+P0>     atar.chedy.todaiin.qoky.shdaly<$>
+#
+<f95r1.6,+P0>     <%>tchdor.or.chekchdy.qokar.chcthy.qotchdy,lshedy.qoky.qofain.dy
+<f95r1.7,+P0>     ykchedy.sheky.chekar.chdain.chdaiin.okar.chetchdy.chdy.chkam
+<f95r1.8,+P0>     olkor.chdaiin.cholkaiin.qokeedy.qoky.chey.lchedy.chedy.alod
+<f95r1.9,+P0>     tchdy.tchor.chol.tar.chdy.okol.ykoldy.olkeedy.qotaiin.or
+<f95r1.10,+P0>    daiin.chckhy.okaiin.chckhy.daiin.ykedy.ep[?:a]iin.okaraiin.ls
+<f95r1.11,+P0>    ykaiin.or.chdy.chekain.ol,dar.ykar.olkeey.ldar.chekal<$>
+#
+#
+<f95r2>    <! $Q=Q $P=G $F=y $B=2 $I=H $L=B $H=3 $C=5>
+# page 196
+# herbal
+# Currier's language B, hand 5
+#
+<f95r2.1,@P0>     <%>kshedy.or.chdy.dalfchy.qodaiin.chckhyfchy.daraiin.dalal
+<f95r2.2,+P0>     daiin.shody.chkain.chol.chckhy.otain.oty.oteedy.kar,okam
+<f95r2.3,+P0>     todaiin.chor.chckhy.qokol.chkar.ol.otaiin.ofar.okain.aram
+<f95r2.4,+P0>     daiin.shody.tor.or.okain.chckhey<$>
+#
+<f95r2.5,+P0>     <%>tshod.qokal.ody.chcfhol.okal.chedy.dalshdy.qopchdy.kary
+<f95r2.6,+P0>     y,olkor.ol.shol.qotar.chdy.chdy.qokar.okar.qokar.odaly
+<f95r2.7,+P0>     dshedy.otal.qokal.dol.or.eeedy.okeedy.okedyted.otam
+<f95r2.8,+P0>     tedykaiin.y,cheol.okal.chedy.shdy.qokchdy.otar.chctham
+<f95r2.9,+P0>     poiin.okar.qokol.shsdy.okar.chdaiin.olky<$>
+#
+#
+<f95v2>    <! $Q=Q $P=I $F=y $B=2 $I=H $L=B $H=3 $C=5>
+# page 197
+# herbal
+# Currier's language B, hand 5
+# Plant ID: Banberry? Actaea Waxberry
+#
+<f95v2.1,@P0>     <%>tchody,podar.shody.qofaiin.ofchdy.otedy.qotedaiin.shor.olsain
+<f95v2.2,+P0>     sol.shedy.qotchey.alor.chdyty.olor.ok[a:o]dy.chody.qotaiin.y.kaipy
+<f95v2.3,+P0>     archytaiin.shekoiin.okar.or.aiin.chckhy.okal.otain.okalody
+<f95v2.4,+P0>     daiin.<!next line intrudes>olkain.qokan.shar.shekydy.dain.alkain<->okalaiin.s
+<f95v2.5,+P0>     tar.fcheey.shos.aiin.okar.olkaiin.otalain<->okaiin,ar
+<f95v2.6,+P0>     dain.ykaly.chals<->shedain.olaiin.y<->okain.ldy
+<f95v2.7,+P0>     qokeey.dar.chdykain<->ytasal.otain<$>
+#
+#
+<f95v1>    <! $Q=Q $P=J $F=y $B=2 $I=H $L=B $H=3 $C=5>
+# page 198
+# herbal
+# Currier's language B, hand 5
+# Plant ID: Wermut, Artemisium Absynthum
+#
+<f95v1.1,@P0>     <%>{c„h}olteedy,{c…h}oepaiin.oekshy.qofchdaiin.shoyfar.okshy.okain.ar.alfshed
+<f95v1.2,+P0>     okshy.tshor.qoksh.qokain.otar.oty.qokedy.otal.ytchdy.qokar.am
+<f95v1.3,+P0>     tchody.qokaiin.y,char.okain.sheody.chedy.chcthykedy.ety.dain.al
+<f95v1.4,+P0>     tchedy.qokal.oty.shekshey.otaldy.okshey.ytshedy.okarar.yty.chdy
+<f95v1.5,+P0>     otal.shedy.odaiin.chey<$>
+#
+<f95v1.6,+P0>     <%>tshdal.qokshy.dchdy.shedy.dkshey.chefar.otchdy.ol.shedar.chdam
+<f95v1.7,+P0>     dshey,kain.qokar.olkar.<!next line intrudes>chy.tar.otar.chdy.kchdy.dolkain.otardy
+<f95v1.8,+P0>     dchody.sheos.qodaiin.fchodaiin.chtal.dar.okedy.okchedy<$>
+#
+<f95v1.9,+P0>     <%>tshey,taiin.ol,k,shol,kshed.qokeeod.raiin.qokeey.qoko.skchdy
+<f95v1.10,+P0>    sain.sheyk.chody.k.chedain.chedaiin.otain.daiin<$>
+#
+<f95v1.11,+P0>    <%>pshedar.shedy.kshedy.qotches.or,aiin.shekaiin.otain.tshes.qokain
+<f95v1.12,+P0>    shotshey.s,aiin.ody.olkchdy.qotaiin.shcthy.dolkchy.tchdaiin.dal
+<f95v1.13,+P0>    lshee.qodain.okaiin.otody.chcthy<$>
+#
+#
+<f96r>     <! $Q=Q $P=K $F=z $B=1 $I=H $L=A $H=1 $C=4>
+# page 199
+# herbal
+# Currier's language A, hand 4
+# Plant ID: dipsaxus, calendula (O'Neill)
+#
+<f96r.1,@P0>      <%>tor.cheeor.ckheos.olsheeosol.cpheol.cpheor.chodar
+<f96r.2,+P0>      ytol.oteeor.sheol.oteey.qokeody.qokeeody.cthey
+<f96r.3,+P0>      toaiin.{cthh}odal.chos.ckheody.keody.chodol.oty
+<f96r.4,+P0>      or.chor.chkchol.chokchor.s.or.sheockhy.choly
+<f96r.5,+P0>      daiin.chodaiin.cthey.tol.sheor.qokeol.okol
+<f96r.6,+P0>      lor.ckheey.chol.cholody.cheol.ctheor.sor
+<f96r.7,+P0>      oiir.or.ckhor.chkey.ckhocthy.or.chockhy
+<f96r.8,+P0>      ykeor.[se:sh]cheeol.sheol.qokeeey.chol.daiin
+<f96r.9,+P0>      todar.sheo.cthody.shokocfhy.chopcho.dory
+<f96r.10,+P0>     otchodol.shocthody.shockhy.otchodor.cho{cty}
+<f96r.11,+P0>     teol.cheody.shodol.qokchod<->s<->aiin.chokey
+<f96r.12,+P0>     dcheor.cheol.cheodaiin.ol<->dy<->d<->chs<->archeody
+<f96r.13,+P0>     oteodsho.qotchos<$>
+#
+#
+<f96v>     <! $Q=Q $P=L $F=z $B=1 $I=H $L=A $H=1 $C=4>
+# page 200
+# herbal
+# Currier's language A, hand 4
+# gathering mark 17
+# Plant ID:  Smilax tracheia, or Chenopodium
+# Same plant as f99r[4,1] ? (GL)
+#
+<f96v.1,@P0>      <%>psheessheeor.qoepsheody.odar.ocpheeo<->opar.ysar.osoj
+<f96v.2,+P0>      ytear.yteor.olcheey.dteodoiin<->saro<->qoches,y,cheom
+<f96v.3,+P0>      dcheoteos.cpheos.sor.chcthory<->cth<->ytchey.daiin
+<f96v.4,+P0>      dsheos.sheey.teocthey.{ct}eeodody
+<f96v.5,+P0>      tockhy.cthey.ckheeody.ar.eeeykey
+<f96v.6,+P0>      yteeody.teodar.alchey.sy
+<f96v.7,+P0>      sheodal.chorary{cto}l
+<f96v.8,+P0>      ycheey.ckheal.daiins
+<f96v.9,+P0>      oeol.ckheor.cheoraiin
+<f96v.10,+P0>     ctheor.oral.char.ckhey
+<f96v.11,+P0>     sar.os.checkhey.so{cthh}
+<f96v.12,+P0>     sosar.cheekeo.dain
+<f96v.13,+P0>     soysar.cheor<$>
+#
+#
