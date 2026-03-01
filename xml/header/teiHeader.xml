@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="evaFontCSS.css"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+   <fileDesc>
+      <titleStmt>
+         <title>Voynich Manuscript</title>
+      </titleStmt>
+      <publicationStmt>
+         <publisher>Unknown</publisher>
+         <pubPlace>[Central Europe?];[ca. 1401-1599?]</pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+         <msDesc>
+            <msIdentifier>
+               <repository>Beinecke Rare Book and Manuscript Library</repository>
+            </msIdentifier>
+            <physDesc>
+               <handDesc hands="5">
+                  <!-- https://muse.jhu.edu/pub/56/article/754633/pdf -->
+                  <handNote xml:id="scribe1">
+                     <p>The [h] character in Scribe 1 is distinguished by a sharp angle at the top of the first vertical as the quill changes direction, a bowed crossbar, a round loop, and a very slight foot at the base of the second vertical. The word-end [m] and [n] glyphs conclude with a backward flourish that stretches as far as the penultimate minim.</p>
+                  </handNote>
+                  <handNote xml:id="scribe2">
+                     <p>More cramped than Scribe 1, with a slightly slanted character. This scribe uses a horizontal, straight crossbar, an oval loop, and an upwardly angled final tick. The final backstroke of [m] and [n] is short, barely passing the final minim.</p>
+                  </handNote>
+                  <handNote xml:id="scribe3">
+                     <p>The [h] written by Scribe 3 is similar to that of Scribe 1, although slightly more compact. The final stroke of [m] and [n] curves back on itself, nearly touching the top of the final minim.</p>
+                  </handNote>
+                  <handNote xml:id="scribe4">
+                     <p>The [h] written by Scribe 4 has a perpendicular crossbar, an oversize loop, and a prominent final foot. The final stroke of [m] and [n] is tall, with only a slight curvature.</p>
+                  </handNote>
+                  <handNote xml:id="scribe5">
+                     <p>The [h] is tall and narrow, with a bowed cross-stroke that begins at the top of the vertical, and a minuscule tick at the foot of the second vertical. The [m] has a long, low finial that finishes above the penultimate minim</p>
+                  </handNote>
+               </handDesc>
+               <bindingDesc>
+                  <p><material>Goat</material> Skin</p>
+               </bindingDesc>
+            </physDesc>
+            <history>
+               <origin notAfter="1438" notBefore="1404">
+                  <!-- https://www.voynich.nu/extra/carbon.html -->
+                  <p>The origins of this manuscript are unknown, but it has been carbon dated to have been made sometime between <date notAfter="1438" notBefore="1404">1404 and 1438</date>.</p>
+               </origin>
+               <provenance>
+                  <!-- https://www.voynich.nu/curricula.html -->
+                  <p>Any history between <date notAfter="1576" notBefore="1404">1404 and 1576</date> is missing and unknown.</p>
+               </provenance>
+               <provenance>
+                  <p>Owned by Rudolph II of Habsburg during his reign in Prague from <date notAfter="1611" notBefore="1576">1576 to 1611</date>. In <date when="1599">1599</date>, Karl Widemann sold Rudolph II several books, one of which was likely the Voynich Manuscript, but this is not confirmed.</p>
+               </provenance>
+               <provenance>
+                  <p>Jacobus Horcicky de Tepenecz owned the manuscript in <date when="1622">1622</date>. This is noted in an inscription on folio 1r which reads <q>Jacobi de Tepenecz</q> under uv light. The manuscript was likely owned by someone else and given to him as a part of his inheritance.</p>
+               </provenance>
+               <provenance>
+                  <p>Owned by Georgius Barschius potentially sometime between <date notAfter="1637" notBefore="1627">1627 and 1637</date>.</p>
+               </provenance>
+               <provenance>
+                  <p>Johannes Marcus Marci of Kronland was gifted Barschius' alchemical library in <date when="1677">1677</date>, which included the Voynich Manuscript.</p>
+               </provenance>
+               <provenance>
+                  <p>Wilfred M. Voynich acquired the manuscript in <date when="1912">1912</date> at the Villa Mondragone in Italy</p>
+               </provenance>
+               <provenance>
+                  <!-- https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript -->
+                  <p>H. P. Kraus purchases the manuscript from Ethel Voynich, Wilfrid Voynich's widow.</p>
+               </provenance>
+               <provenance>
+                  <p>Given to the Beinecke Library by H. P. Kraus</p>
+               </provenance>
+            </history>
+            <msContents>
+               <summary>The latest release of the Zandbergen-Landini transliteration of 1999 in the IVTFF 2.0 format. It is a complete transliteration, including all 5389 loci that have been identified in the MS. It uses the Eva alphabet, including the high-ascii extensions. The file has been corrected in numerous places. Some parts of the text inside folds of the pages still need to be added. </summary>
+            </msContents>
+         </msDesc>
+      </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+      <tagsDecl>
+         <rendition xml:id="P">Linear text in paragraphs</rendition>
+         <rendition xml:id="P0">Normal left-justified text</rendition>
+         <rendition xml:id="P1">Normal paragraph text that is significantly away from the left, typically due to a drawing, or some other text to its left</rendition>
+         <rendition xml:id="Pb">A free-floating set of lines in a non-standard location</rendition>
+         <rendition xml:id="Pc">A roughly centred line (compared to the previous line)</rendition>
+         <rendition xml:id="Pr">A (roughly) right-justified line</rendition>
+         <rendition xml:id="Pt">A right-justified ‘title’ which is on the same line as the previous item</rendition>
+         <rendition xml:id="L">Short piece of text, a word, or a character that is anywhere on the page. Mostly these are the so-called labels</rendition>
+         <rendition xml:id="L0">It is not clearly near any drawing element</rendition>
+         <rendition xml:id="La">A label of an astronomical or cosmological drawing element, which is not a star or a zodiac element</rendition>
+         <rendition xml:id="Lc">A label of a container in the pharmaceutical section</rendition>
+         <rendition xml:id="Lf">A label of a fragment of a herb in the pharmaceutical section</rendition>
+         <rendition xml:id="Ln">A label of a nymph in the biological section</rendition>
+         <rendition xml:id="Lp">A label of a large herb or plant drawing (in the herbal section)</rendition>
+         <rendition xml:id="Ls">A label of a star</rendition>
+         <rendition xml:id="Lt">A label of a tube or a tub in the biological section (essentially everything that is not a nymph)</rendition>
+         <rendition xml:id="Lx">Extraneous writing (e.g. in the margin)</rendition>
+         <rendition xml:id="Lz">A label of a zodiac element</rendition>
+         <rendition xml:id="C">Text along the circumference of a circle</rendition>
+         <rendition xml:id="Ca">The text runs anti-clockwise (only one case in the MS)</rendition>
+         <rendition xml:id="Cc">The text runs clockwise</rendition>
+         <rendition xml:id="R">Text along the radius of a circle</rendition>
+         <rendition xml:id="Ri">The text runs outside to inside (inwards)</rendition>
+         <rendition xml:id="Ro">The text runs inside to outside (outwards)</rendition>
+         <rendition xml:id="At">Position of locus is unrelated to previous item. The position of this locus is unrelated to the previous item, or not easily described by one of the following. This locator is always used for the first item on each page</rendition>
+         <rendition xml:id="Ad">Generally below the previous item. This is the most common case</rendition>
+         <rendition xml:id="As">At the start of the line below the previous item, but at the left margin, while the previous item was not</rendition>
+         <rendition xml:id="Aq">The locus is on the same line as the previous item but separated by some white space</rendition>
+         <rendition xml:id="An">Similar to AQ but along a circular line</rendition>
+         <rendition xml:id="Am">Similar to AQ but the vertical alignment is not very good</rendition>
+         <rendition xml:id="Al">This locus is to the right of, and above the previous locus</rendition>
+         <rendition xml:id="Ax">This locus refers to text that in reality does not exist in the manuscript</rendition>
+      </tagsDecl>
+   </encodingDesc>
+   <profileDesc>
+      <langUsage>
+         <language ident="A">Language A</language>
+         <language ident="B">Language B</language>
+      </langUsage>
+   </profileDesc>
+</teiHeader>
+</TEI>
