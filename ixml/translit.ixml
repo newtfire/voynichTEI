@@ -9,7 +9,7 @@ note: -"#", space, noteBody, newline.
 
 line: lineN, rendition, lineBody, newline.
 @lineN: -lab, -"f", -[N]+, -["r";"v"], -[N]*, -".", [N]+, -",".
-@rendition: ["@";"+";"*";"=";"&";"~";"/";"!"], ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
+@rendition: (at;ad;as;aq;an;am;al;ax), +"#", ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
 -lineBody: (space; comment; figure; milestone-start; milestone-end; ligature; choice; unclear; plainChar)+.
 
 comment: -"<", -"!", commentChar*, -">".
@@ -29,6 +29,15 @@ choice: -"[", unclearAlt, ( -":", unclearAlt )+, -"]".
 
 unclearAlt: (ligature; choiceChar)+.
 -choiceChar: ~[#d;#a;#20;"<";"[";"]";":";"{";"}"].
+
+-at: -"@",+"#At ".
+-ad: -"+",+"#Ad ".
+-as: -"*",+"#As ".
+-aq: -"=",+"#Aq ".
+-an: -"&",+"#An ".
+-am: -"~",+"#Am ".
+-al: -"/",+"#Al ".
+-ax: -"!",+"#Ax ".
 
 -lab: -["<"].
 -rab: -[">"].
