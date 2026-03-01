@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
-    xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs math tei"
+    xmlns="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs math"
     version="3.0">
+    
+    <xsl:output method="xml" indent="yes"/>
     
     <!-- hjb: I ended up just making one teiHeader doc -->
     <xsl:variable name="teiHeader" as="element(teiHeader)" select="doc('../xml/header/teiHeader.xml')//teiHeader"/>
    
     
     <!-- ebb: KEEP GOING AND GET ALL THE PARTS OF THE TEIHEADER.  -->
+    
+    
  
     <xsl:mode on-no-match="shallow-copy"/>
+    
+    
+    <!-- NAMESPACE!!! NON-TO-TEI-->
+    <xsl:template match="*">
+    <!-- Create a new element with the target namespace 'X' -->
+    <xsl:element name="{local-name()}">
+        <!-- Apply templates to copy attributes and child nodes -->
+        <xsl:apply-templates/>
+    </xsl:element>
+    </xsl:template>
 
 
     <xsl:template match="/">
@@ -65,6 +77,7 @@
             <xsl:value-of select="."/>
         </xsl:attribute>
     </xsl:template>
+    
     
 
     
