@@ -1,5 +1,10 @@
-sourceDoc: surface+.
-surface: surfaceN, extraInfo, comment, newline, (note; dumbHash; line)*.
+sourceDoc: droppedPrelude, surface+.
+
+-droppedPrelude: firstNote, note, note, dumbHash.
+firstNote: -"#", -noteBody, -newline.
+
+surface: (surfaceN; surfaceNros), extraInfo, comment, newline, (note; dumbHash; line)*.
+@surfaceNros: lab, "f", "R", "o", "s", rab.
 @surfaceN: lab, "f", [N]+, ["r";"v"], [N]*, rab.
 -extraInfo: (space; AnyNotSpace)*.
 
@@ -7,10 +12,11 @@ note: -"#", space, noteBody, newline.
 -noteBody: noteChar*.
 -noteChar: ~[#d;#a].
 
-line: lineN, rendition, lineBody, newline.
+line: (lineN; lineNros), rendition, lineBody, newline.
+@lineNros: -lab, -"f", -"R", -"o", -"s", -".", [N]+, -",".
 @lineN: -lab, -"f", -[N]+, -["r";"v"], -[N]*, -".", [N]+, -",".
 @rendition: (at;ad;as;aq;an;am;al;ax), +"#", ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
--lineBody: (space; comment; figure; milestone-start; milestone-end; ligature; choice; unclear; plainChar)+.
+-lineBody: (space; comment; figure; milestone-start; milestone-end; ligature; choice; unclear; plainChar; dumbHand)+.
 
 comment: -"<", -"!", commentChar*, -">".
 -commentChar: ~[#d;#a;">"].
@@ -25,10 +31,12 @@ milestone-end:-"<", -"$", -">".
 
 unclear: "?".
 
-choice: -"[", unclearAlt, ( -":", unclearAlt )+, -"]".
+choice: -"[", unclearAlt?, ( -":", unclearAlt?)+, -"]".
 
 unclearAlt: (ligature; choiceChar)+.
 -choiceChar: ~[#d;#a;#20;"<";"[";"]";":";"{";"}"].
+
+-dumbHand: -"<", -"@", -"H", -"=", -[N], -">".
 
 -at: -"@",+"#At ".
 -ad: -"+",+"#Ad ".
