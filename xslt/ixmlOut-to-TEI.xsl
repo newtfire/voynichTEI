@@ -10,9 +10,6 @@
     
     <!-- hjb: I ended up just making one teiHeader doc -->
     <xsl:variable name="teiHeader" as="element(teiHeader)" select="doc('../xml/header/teiHeader.xml')//teiHeader"/>
-   
-    
-    <!-- ebb: KEEP GOING AND GET ALL THE PARTS OF THE TEIHEADER.  -->
     
     
  
