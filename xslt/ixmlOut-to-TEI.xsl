@@ -21,7 +21,7 @@
     <!-- Create a new element with the target namespace 'X' -->
     <xsl:element name="{local-name()}">
         <!-- Apply templates to copy attributes and child nodes -->
-        <xsl:apply-templates/>
+        <xsl:apply-templates select="@* | node()"/>
     </xsl:element>
     </xsl:template>
 
