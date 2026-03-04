@@ -1,4 +1,4 @@
-sourceDoc: droppedPrelude, surface+.
+sourceDoc: droppedPrelude?, surface+.
 
 -droppedPrelude: firstNote, note, note, dumbHash.
 firstNote: -"#", -noteBody, -newline.

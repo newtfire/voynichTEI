@@ -1,7 +1,7 @@
 ---
-title: About
+title: Methods
 layout: base.njk
-permalink: "about.html"
+permalink: "methods.html"
 ---
 
 <header>
@@ -9,11 +9,33 @@ permalink: "about.html"
 </header>
 
 <div class="corpus">
-This project is a digital humanities exploration of the Voynich Manuscript, one of the most mysterious and undeciphered texts in history. Using the Voynich Manuscript transliteration files created by René Zandbergen, this project transforms existing transliterations into a structured TEI (Text Encoding Initiative) framework designed for scholarly research and long-term digital preservation.
+<h1>Step 1: Gather Files</h1>
+
+<p>Gather the files necessary for this project. All of these can be found on my <a href="https://github.com/newtfire/voynichTEI">GitHub Repo</a>, but if you would like to manually download them from their original source, feel free to do so below.</p>
+<ul>
+<li><a href="https://www.voynich.nu/data/ZL3b-n.txt">ZL3b-n.txt</a> - A complete transliteration of the Voynich Manuscript in IVTFF 2.0 format.</li>
+<li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/ixml/herbal.txt">herbal.txt</a> - Just the herbal section of the Transliteration</li>
+<li><a href="https://www.voynich.nu/Fonts/EVA2.ttf">EVA2.tff</a> - Extensible Voynich Alphabet font</li>
+<li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/python/replaceAscii.py">replaceAscii.py</a> - Replaces the ascii with unicode characters (you may need to change the file names depending on where you put your files for this to work)</li>
+<li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/ixml/translit.ixml">translit.ixml</a> - An Invisible XML file that makes the IVTFF file into XML</li>
+<li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/ixml/translitHerbal.ixml">translitHerbal.ixml</a> - An Invisible XML file for just the herbal section (herbal.txt)</li>
+<li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/xslt/ixmlOut-to-TEI.xsl">ixmlOut-to-TEI.xsl</a> - XSLT to transform herbal XML into proper TEI</li>
+</ul>
+</div>
+
+<div class="corpus">
+<h1>Step 2: Downloads</h1>
+
+<p>This is a list of things I used in order to complete this project.</p>
+
+<ul>
+<li><a href="https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html?os=Windows">OxygenXML Editor</a></li>
+<li><a href="https://github.com/newtfire/textAnalysis-Hub/blob/main/Installations/ixml-xproc-InstallNotes-Win.md">Windows Installations</a> - Scroll to Markup Blitz and download that</li>
+<li><a href="https://github.com/newtfire/textAnalysis-Hub/blob/main/Installations/ixml-xproc-InstallNotes-Mac.md">Mac Installations</a> - Scroll to Markup Blitz and download that</li>
+</ul>
+
+
 </div>
 <div class="corpus">
-The primary focus of this project is the creation of a TEI back end that identifies, organizes, and encodes the various plants illustrated throughout the manuscript. By treating each plant as a distinct, structured entity within TEI, the project links textual transliterations to their corresponding botanical imagery, allowing for more systematic comparison and analysis. This approach preserves the manuscript’s unusual symbols, visual structure, and textual uncertainty while making the data machine-readable and searchable.
-</div>
-<div class="corpus">
-By re-encoding the Voynich Manuscript in this way, this project aims to provide researchers, students, and digital humanists with new tools to study the manuscript’s herbal sections, explore patterns across illustrations and text, and support future work in botanical identification, manuscript studies, and computational analysis.
+
 </div>

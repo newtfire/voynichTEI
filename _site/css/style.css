@@ -15,6 +15,32 @@ body {
   flex-direction: column;
 }
 
+a {
+  color: white;
+}
+
+/* Words on webpage */
+.corpus {
+  padding: 10px 10% 10px 10%;
+  flex: 1;
+}
+
+.corpus h1 {
+  text-align: left;
+  padding: 0px;
+  color: #ffffff;
+  font-size: 35px;
+  margin: 0px;
+}
+
+.corpus p {
+  padding: 10px;
+}
+
+.corpus ul {
+  padding: 0px 30px 0px 30px;
+}
+
 /* Headers */
 
 h1 {
@@ -81,12 +107,6 @@ h1 {
     width: 100%;
     text-align: left;
   }
-}
-
-/* Words on webpage */
-.corpus {
-  padding: 10px 20% 10px 20%;
-  flex: 1;
 }
 
 /* Footer (Menu, GitHub, Copyright) */
