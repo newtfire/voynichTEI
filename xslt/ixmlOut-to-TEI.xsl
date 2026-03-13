@@ -37,7 +37,11 @@
         </TEI>
     </xsl:template>
     
-
+    <xsl:template match="firstNote">
+        <note>
+            <xsl:apply-templates/>
+        </note>
+    </xsl:template>
     
     <xsl:template match="milestone-start">
         <milestone unit="block" type="start"/>
