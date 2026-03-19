@@ -28,6 +28,70 @@ A TEI analysis of the Voynich Manuscript
    * ![img/evafontoxygen10.png](img/evafontoxygen10.png)
 
 ---
+
+## Methods
+### Step 1: Gather Files
+Clone this repo onto your computer by doing the following:
+```
+git clone https://github.com/newtfire/voynichTEI.git
+```
+
+### Step 2: Downloads
+This is a list of programs I used in order to complete this project:
+1. [OxygenXML Editor](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html?os=Windows)
+1. [PyCharm](https://www.jetbrains.com/pycharm/?source=google&medium=cpc&campaign=amer_en_us_est_pycharm_branded&term=pycharm&content=785237935139&gad_source=1&gad_campaignid=14127625430&gclid=CjwKCAjw687NBhB4EiwAQ645dpuecQzEsyA8-SytU0ErWbuCJxzVifV3OwpJaoTVVxdhp3a2vymErRoCLCwQAvD_BwE)
+1. [Markup Blitz Windows](https://github.com/newtfire/textAnalysis-Hub/blob/main/Installations/ixml-xproc-InstallNotes-Win.md#markup-blitz)
+1. [Markup Blitz Mac](https://github.com/newtfire/textAnalysis-Hub/blob/main/Installations/ixml-xproc-InstallNotes-Mac.md#markup-blitz)
+
+### Step 2.5: Python
+NOTE: This step is only if you plan to use the entire ZL3b-n.txt document and not just the herbal section. If you are only using the herbal section, feel free to skip this, as the herbal.txt file already did this for you!
+
+In PyCharm, create a VoynichTEI project, and open replaceAscii.py (Located [here](https://github.com/newtfire/voynichTEI/tree/main/python) inside the python directory).
+
+Run the file, and you should now have a ZL3b-n_updated.txt file (Located [here](https://github.com/newtfire/voynichTEI/tree/main/ixml) inside the ixml directory).
+
+## Step 3: Invisible XML
+Go into your Bash shell and go to the VoynichTEI directory
+
+Type the following into your Git Bash shell to go into your ixml directory:
+```
+cd ixml
+```
+To get an output on the entire ZL3b-n document, in your shell, type the following:
+```
+blitz translit.ixml ZL3b-n_updated.txt > outputXML.xml
+```
+If you just want the herbal section instead, type the following:
+```
+blitz translitHerbal.ixml herbal.txt > outputXML.xml
+```
+This sends the text documents through the invisible xml file and makes it into an XML file!
+
+## Step 4: XSLT
+Now we need to send the output XML file through an XSLT file. You will need OxygenXML to do this.
+
+In Oxygen, open your outputXML.xml file and the ixmlOut-to-TEI.xsl document (Located [here](https://github.com/newtfire/voynichTEI/tree/main/xslt) in the xslt directory).
+
+Switch to the XSLT Debugger Perspective, which is located at the top right of the screen:
+
+![_src/img/methods_XSLTDebuggerPerspective.png](_src/img/methods_XSLTDebuggerPerspective.png)
+
+In the top left corner, put `outputXML.xml` in the XML input, and `ixmlOut-to-TEI.xsl` in the XSL input like so:
+
+![_src/img/methods_whatToPut.png](_src/img/methods_whatToPut.png)
+
+When you are ready, put the filepath to where you would like your output file saved. Here, I just wrote outputTEI.xml as an example:
+
+![_src/img/methods_output.png](_src/img/methods_output.png)
+
+Press the run button:
+
+![_src/img/methods_RunButton.png](_src/img/methods_RunButton.png)
+
+Now you have it as a proper TEI file!
+
+---
+
 ## Layout of the Manuscript
 * Quire 1
 

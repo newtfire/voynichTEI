@@ -62,5 +62,8 @@ permalink: "methods.html"
     <img src="img/methods_whatToPut.png">
     <p>When you are ready, put the filepath to where you would like your output file saved. Here, I just wrote <code>outputTEI.xml</code> as an example:</p>
     <img src="img/methods_output.png">
+    <p>Press the run button:</p>
+    <img src="img/methods_RunButton.png">
+    <p>Now you have it as a proper TEI file!</p>
 </div>
 
