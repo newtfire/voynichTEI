@@ -73,11 +73,37 @@
         </xsl:attribute>
     </xsl:template>
     
+    <xsl:template match="@surfaceNros">
+        <xsl:attribute name="n">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
     <xsl:template match="@lineN">
         <xsl:attribute name="n">
             <xsl:value-of select="."/>
         </xsl:attribute>
     </xsl:template>
+    
+    <xsl:template match="@lineNros">
+        <xsl:attribute name="n">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="choice">
+        <xsl:choose>
+            <xsl:when test="count(unclearAlt)=1">
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>
+                <choice>
+                    <xsl:apply-templates/>
+                </choice>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     
     
 

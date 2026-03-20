@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../evaFontCSS.css"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -5994,9 +5999,7 @@
             <note type="outline">10:00</note>oteesody.otey.oteeos.sheoty.yteeg.dchsaiin.shol.okeees.air,am,shey.qokeodal.oteotey.oteoldy.oteal,chedy.chotalal.okal,cheol.sar,aiin.cheokealy.sardy.otol.chekar.alteol.oltar,ar</line>
          <note>Inner band of labels</note>
          <line n="21" rendition="#At #Lz">
-            <note type="outline">10:30</note>okaiin<choice>
-               <unclear>y</unclear>
-            </choice>
+            <note type="outline">10:30</note>okaiin<unclear>y</unclear>
          </line>
          <line n="22" rendition="#An #Lz">
             <note type="outline">11:30</note>ockhol</line>
@@ -7381,9 +7384,7 @@
                <unclear>?</unclear>
             </choice>shey.qokeey.okeey.oky.ykeey.qoky.oky.lky.olchy.ky.dsholyd</line>
          <line n="12" rendition="#Ad #P0">qol.ol.chdy.shedy.qokedy.ytedy.chetedy.lkedey.ytedy</line>
-         <line n="13" rendition="#Ad #P0">ykeshey.dch<choice>
-               <unclear>s</unclear>
-            </choice>ed<note type="outline">s above e</note>,ytedy.ytedy.dar.ykeda<g>iph</g>y.qoty.ykedy.okal</line>
+         <line n="13" rendition="#Ad #P0">ykeshey.dch<unclear>s</unclear>ed<note type="outline">s above e</note>,ytedy.ytedy.dar.ykeda<g>iph</g>y.qoty.ykedy.okal</line>
          <line n="14" rendition="#Ad #P0">dshedy.ykeedy.sheeky.daiin.okedy.qokeed.qokedy.lchpchdy</line>
          <line n="15" rendition="#Ad #P0">qokal.chedy.ol.sheey.salshcthdy.qofchedy.r.chedy.ltary</line>
          <line n="16" rendition="#Ad #P0">lor.shedy.qoeedy.ol.chy.rshdy.lshedy.dar.chdy.pchdy</line>
@@ -8015,7 +8016,7 @@
                <unclear>a</unclear>
             </choice>r.ochedy.otody.olchedy.oteedo.ar.or.airol.otees.ar.aram</line>
       </surface>
-      <surface surfaceNros="fRos">
+      <surface n="fRos">
          <note type="outline"> $Q=N $P=D      $B=1 $I=C $L=B $H=4 $C=3</note>
          <note>Part of 6-page 9-circle         85v2 86r4 86r6     1 4 7</note>
          <note>composite. Page and circle      85v1 86r3 86r5     2 5 8</note>
@@ -8023,123 +8024,123 @@
          <note>right.</note>
          <note>Petersen loci as {circle:locus} e.g. {1:9} inside circle 1.</note>
          <note>This is the upper left page with parts of circles 1 and 2.</note>
-         <line lineNros="1" rendition="#At #L0">
+         <line n="1" rendition="#At #L0">
             <note type="outline">1:11</note>saeeasa<unclear>?</unclear>
          </line>
-         <line lineNros="2" rendition="#At #Cc">
+         <line n="2" rendition="#At #Cc">
             <note type="outline">10:30</note>oto.tosaes.adar.otar.otes,okaiin.dal,al,chdar.otdar.chefchs.okor.ol.om.olkeeodaiin.shol.okal.orshees.qoeey.okalol.otodr.ochs.ar,ol.oqokam.oteed.oteedy.okedy.lraiin.or,aiin.okor.okeedy</line>
          <note>The following are block left of circle, left margin unreadable</note>
-         <line lineNros="3" rendition="#At #L0">
+         <line n="3" rendition="#At #L0">
             <note type="outline">1:1</note>ofain,ain</line>
-         <line lineNros="4" rendition="#Ad #L0">
+         <line n="4" rendition="#Ad #L0">
             <note type="outline">1:2</note>ych,<unclear>?</unclear>ais</line>
-         <line lineNros="5" rendition="#Ad #L0">
+         <line n="5" rendition="#Ad #L0">
             <note type="outline">1:3</note>ydekam</line>
-         <line lineNros="6" rendition="#Ad #L0">
+         <line n="6" rendition="#Ad #L0">
             <note type="outline">1:4</note>darchedy</line>
-         <line lineNros="7" rendition="#Ad #L0">
+         <line n="7" rendition="#Ad #L0">
             <note type="outline">1:5</note>otochedy,sy</line>
-         <line lineNros="8" rendition="#Ad #L0">
+         <line n="8" rendition="#Ad #L0">
             <note type="outline">1:6</note>soeedoy.olal</line>
-         <line lineNros="9" rendition="#Ad #L0">
+         <line n="9" rendition="#Ad #L0">
             <note type="outline">1:7</note>dchor.orary</line>
-         <line lineNros="10" rendition="#Ad #L0">
+         <line n="10" rendition="#Ad #L0">
             <note type="outline">1:8</note>sairo<choice>
                <unclear>j</unclear>
                <unclear>d</unclear>
             </choice>am</line>
-         <line lineNros="11" rendition="#At #L0">
+         <line n="11" rendition="#At #L0">
             <note type="outline">1:9</note>okchdarar</line>
-         <line lineNros="12" rendition="#At #L0">
+         <line n="12" rendition="#At #L0">
             <note type="outline">2:9</note>soiindy</line>
-         <line lineNros="13" rendition="#At #L0">
+         <line n="13" rendition="#At #L0">
             <note type="outline">2:10</note>ytedar</line>
-         <line lineNros="14" rendition="#At #L0">
+         <line n="14" rendition="#At #L0">
             <note type="outline">2:11</note>
             <choice>
                <unclear>d</unclear>
                <unclear>?</unclear>
             </choice>dsschx</line>
-         <line lineNros="15" rendition="#At #L0">
+         <line n="15" rendition="#At #L0">
             <note type="outline">2:13</note>daldar</line>
-         <line lineNros="16" rendition="#At #L0">
+         <line n="16" rendition="#At #L0">
             <note type="outline">2:12</note>ofardy</line>
-         <line lineNros="17" rendition="#At #L0">
+         <line n="17" rendition="#At #L0">
             <note type="outline">1:10</note>orarol</line>
-         <line lineNros="18" rendition="#At #L0">
+         <line n="18" rendition="#At #L0">
             <note type="outline">4:1</note>daldal</line>
-         <line lineNros="19" rendition="#At #L0">
+         <line n="19" rendition="#At #L0">
             <note type="outline">4:2</note>da<choice>
                <unclear>r</unclear>
                <unclear>s</unclear>
             </choice>aldy</line>
-         <line lineNros="20" rendition="#At #Cc">
+         <line n="20" rendition="#At #Cc">
             <note type="outline">05:00</note>sais,od,r,ar.or.okal.okal.or.alal.ykal.ol.ar.ol.al.ol.al,lor.okan.okod.oked.okeo.ldy.opashs.otedy.chedchs.sheekedy.odal.shd.olkeedy.yky,kaiir.okchdy.otol,ar,y<figure/>aiin.aiir.oeal.okchdy.oly<figure/>okain.olkaiin.ody</line>
-         <line lineNros="21" rendition="#At #L0">
+         <line n="21" rendition="#At #L0">
             <note type="outline">4:3</note>oko</line>
-         <line lineNros="22" rendition="#At #L0">
+         <line n="22" rendition="#At #L0">
             <note type="outline">4:4</note>daiiny</line>
-         <line lineNros="23" rendition="#At #L0">
+         <line n="23" rendition="#At #L0">
             <note type="outline">4:5</note>do<g>cfhh</g>y</line>
-         <line lineNros="24" rendition="#At #L0">
+         <line n="24" rendition="#At #L0">
             <note type="outline">4:6</note>okedy</line>
-         <line lineNros="25" rendition="#At #L0">
+         <line n="25" rendition="#At #L0">
             <note type="outline">4:7</note>o<choice>
                <unclear>k</unclear>
                <unclear>p</unclear>
             </choice>ary</line>
-         <line lineNros="26" rendition="#At #L0">
+         <line n="26" rendition="#At #L0">
             <note type="outline">4:8</note>opain</line>
-         <line lineNros="27" rendition="#At #L0">
+         <line n="27" rendition="#At #L0">
             <note type="outline">4:9</note>opar</line>
-         <line lineNros="28" rendition="#At #L0">
+         <line n="28" rendition="#At #L0">
             <note type="outline">4:10</note>adairy</line>
-         <line lineNros="29" rendition="#At #L0">
+         <line n="29" rendition="#At #L0">
             <note type="outline">4:11</note>dxar</line>
-         <line lineNros="30" rendition="#At #L0">
+         <line n="30" rendition="#At #L0">
             <note type="outline">4:12</note>okory</line>
-         <line lineNros="31" rendition="#At #L0">
+         <line n="31" rendition="#At #L0">
             <note type="outline">4:13</note>opo<choice>
                <unclear>k</unclear>
                <unclear>t</unclear>
             </choice>chosody</line>
-         <line lineNros="32" rendition="#At #L0">
+         <line n="32" rendition="#At #L0">
             <note type="outline">7:12</note>adashgasain</line>
-         <line lineNros="33" rendition="#At #L0">
+         <line n="33" rendition="#At #L0">
             <note type="outline">7:13</note>cfair.o@213;ol<g>c@133;h</g>y</line>
-         <line lineNros="34" rendition="#At #L0">
+         <line n="34" rendition="#At #L0">
             <note type="outline">7:1</note>okody</line>
-         <line lineNros="35" rendition="#At #Cc">
+         <line n="35" rendition="#At #Cc">
             <note type="outline">00:00</note>okos.<g>cp</g>or.air,u.oteoteedy.otos.otedar.ches.okodainol.ykedy.eedor.tchdaiin.sy.sarald.todar.chkar.odair.or.oal.okchdy.seedy.oteedy.ykchda.cheky.o.aiin.okees.olar.or.ykeedy.okeo,lodaiin.or.olaiiin.olar</line>
-         <line lineNros="36" rendition="#At #Cc">
+         <line n="36" rendition="#At #Cc">
             <note type="outline">Spiral</note>o<unclear>?</unclear>ochs.octhey.osar,aram.arkeeody.ochdor,ol.oekairy.ytodaro.opalshy.or,arodar.ykodar.ykodar.ykary.opalxy</line>
-         <line lineNros="37" rendition="#At #L0">
+         <line n="37" rendition="#At #L0">
             <note type="outline">7:10</note>opoor,daly</line>
-         <line lineNros="38" rendition="#At #L0">
+         <line n="38" rendition="#At #L0">
             <note type="outline">7:7</note>okas.oedady</line>
-         <line lineNros="39" rendition="#At #Pb">
+         <line n="39" rendition="#At #Pb">
             <note type="outline">7:5</note>
             <milestone unit="block" type="start"/>kechy.qolchedar,ar</line>
-         <line lineNros="40" rendition="#Ad #Pb">
+         <line n="40" rendition="#Ad #Pb">
             <note type="outline">7:6</note>otedy.chdaiin.oty<milestone unit="block" type="end"/>
          </line>
-         <line lineNros="41" rendition="#At #L0">
+         <line n="41" rendition="#At #L0">
             <note type="outline">7:3</note>o<choice>
                <unclear>s</unclear>
                <unclear>r</unclear>
             </choice>al</line>
-         <line lineNros="42" rendition="#At #L0">
+         <line n="42" rendition="#At #L0">
             <note type="outline">7:2</note>
             <g>cp</g>eey</line>
-         <line lineNros="43" rendition="#At #L0">
+         <line n="43" rendition="#At #L0">
             <note type="outline">7:4</note>okor</line>
-         <line lineNros="44" rendition="#At #L0">
+         <line n="44" rendition="#At #L0">
             <note type="outline">7:8</note>sarchcphdy</line>
-         <line lineNros="45" rendition="#At #L0">
+         <line n="45" rendition="#At #L0">
             <note type="outline">7:9</note>otchdy.otoldy</line>
-         <line lineNros="46" rendition="#At #L0">
+         <line n="46" rendition="#At #L0">
             <note type="outline">7:11</note>ofchedaiin</line>
-         <line lineNros="47" rendition="#At #Cc">
+         <line n="47" rendition="#At #Cc">
             <note type="outline">10:30</note>osar.otar.otodeedy.oty,daiin.sheor.oar.otedy,qotedy.oteey.otoraiin.chekad<unclear>?</unclear>r.ol.aiin.okedal.olor.op<choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
@@ -8150,211 +8151,211 @@
                <unclear>a</unclear>
                <unclear>o</unclear>
             </choice>l,o,laiin</line>
-         <line lineNros="48" rendition="#At #L0">
+         <line n="48" rendition="#At #L0">
             <note type="outline">2:1</note>otedal</line>
-         <line lineNros="49" rendition="#At #L0">
+         <line n="49" rendition="#At #L0">
             <note type="outline">2:2</note>opaiin,o</line>
-         <line lineNros="50" rendition="#At #L0">
+         <line n="50" rendition="#At #L0">
             <note type="outline">2:3</note>otchdy</line>
-         <line lineNros="51" rendition="#At #L0">
+         <line n="51" rendition="#At #L0">
             <note type="outline">2:4</note>okchy</line>
-         <line lineNros="52" rendition="#At #L0">
+         <line n="52" rendition="#At #L0">
             <note type="outline">2:5</note>chkeedy</line>
-         <line lineNros="53" rendition="#At #L0">
+         <line n="53" rendition="#At #L0">
             <note type="outline">2:6</note>opairar</line>
-         <line lineNros="54" rendition="#At #L0">
+         <line n="54" rendition="#At #L0">
             <note type="outline">2:7</note>odee<choice>
                <unclear>?</unclear>
                <unclear>d</unclear>
             </choice>y</line>
-         <line lineNros="55" rendition="#At #L0">
+         <line n="55" rendition="#At #L0">
             <note type="outline">2:8</note>okody</line>
-         <line lineNros="56" rendition="#At #L0">
+         <line n="56" rendition="#At #L0">
             <note type="outline">3:22</note>depcheky</line>
-         <line lineNros="57" rendition="#At #L0">
+         <line n="57" rendition="#At #L0">
             <note type="outline">3:23</note>ot<choice>
                <unclear>ch</unclear>
                <unclear>a</unclear>
             </choice>
          </line>
-         <line lineNros="58" rendition="#At #L0">
+         <line n="58" rendition="#At #L0">
             <note type="outline">3:24</note>osy</line>
-         <line lineNros="59" rendition="#At #L0">
+         <line n="59" rendition="#At #L0">
             <note type="outline">3:25</note>
             <choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
             </choice>dl</line>
-         <line lineNros="60" rendition="#At #L0">
+         <line n="60" rendition="#At #L0">
             <note type="outline">3:26</note>d,dy</line>
-         <line lineNros="61" rendition="#At #L0">
+         <line n="61" rendition="#At #L0">
             <note type="outline">3:27</note>oteey</line>
-         <line lineNros="62" rendition="#At #Cc">
+         <line n="62" rendition="#At #Cc">
             <note type="outline">00:00</note>otor.os.om.araiin.okeody.okar.odsheedy.odaiin.okchdy.okar.shor.okaiin.daiin.ofair.oly.olkair,odal.olkalor.olor<figure/>s.y.o.d.esha,x.k.r.olar.oteedaiin.otes,ar.yqos.aiiin.ol.qotody.ol.oir.or.oroa.oteeedy.okal.okodar.otshe.okody.otedy.chdar.o'</line>
-         <line lineNros="63" rendition="#At #L0">
+         <line n="63" rendition="#At #L0">
             <note type="outline">5:1</note>oteedy</line>
-         <line lineNros="64" rendition="#At #L0">
+         <line n="64" rendition="#At #L0">
             <note type="outline">5:2</note>opy</line>
-         <line lineNros="65" rendition="#At #L0">
+         <line n="65" rendition="#At #L0">
             <note type="outline">5:3</note>odal</line>
-         <line lineNros="66" rendition="#At #L0">
+         <line n="66" rendition="#At #L0">
             <note type="outline">5:4</note>shdy</line>
-         <line lineNros="67" rendition="#At #L0">
+         <line n="67" rendition="#At #L0">
             <note type="outline">5:5</note>opchees</line>
-         <line lineNros="68" rendition="#At #L0">
+         <line n="68" rendition="#At #L0">
             <note type="outline">5:6</note>opar</line>
-         <line lineNros="69" rendition="#At #L0">
+         <line n="69" rendition="#At #L0">
             <note type="outline">5:7</note>daral</line>
-         <line lineNros="70" rendition="#At #L0">
+         <line n="70" rendition="#At #L0">
             <note type="outline">5:8</note>otdodar.oedy</line>
-         <line lineNros="71" rendition="#At #L0">
+         <line n="71" rendition="#At #L0">
             <note type="outline">5:9</note>soshxor.arar</line>
-         <line lineNros="72" rendition="#At #L0">
+         <line n="72" rendition="#At #L0">
             <note type="outline">5:10</note>otedain.otedy</line>
-         <line lineNros="73" rendition="#At #L0">
+         <line n="73" rendition="#At #L0">
             <note type="outline">5:11</note>ytedar.ary</line>
-         <line lineNros="74" rendition="#At #L0">
+         <line n="74" rendition="#At #L0">
             <note type="outline">5:12</note>opcheda<choice>
                <unclear>iin</unclear>
                <unclear>iir</unclear>
             </choice>
          </line>
-         <line lineNros="75" rendition="#At #L0">
+         <line n="75" rendition="#At #L0">
             <note type="outline">5:13</note>ols</line>
-         <line lineNros="76" rendition="#At #L0">
+         <line n="76" rendition="#At #L0">
             <note type="outline">5:14</note>ypal</line>
-         <line lineNros="77" rendition="#At #L0">
+         <line n="77" rendition="#At #L0">
             <note type="outline">5:15</note>opydsh</line>
-         <line lineNros="78" rendition="#At #L0">
+         <line n="78" rendition="#At #L0">
             <note type="outline">5:16</note>rshy</line>
-         <line lineNros="79" rendition="#At #L0">
+         <line n="79" rendition="#At #L0">
             <note type="outline">5:17</note>olz</line>
-         <line lineNros="80" rendition="#At #L0">
+         <line n="80" rendition="#At #L0">
             <note type="outline">5:18</note>dtedg</line>
-         <line lineNros="81" rendition="#At #L0">
+         <line n="81" rendition="#At #L0">
             <note type="outline">5:19</note>opy</line>
-         <line lineNros="82" rendition="#At #L0">
+         <line n="82" rendition="#At #L0">
             <note type="outline">5:20</note>ofdaj</line>
-         <line lineNros="83" rendition="#At #L0">
+         <line n="83" rendition="#At #L0">
             <note type="outline">5:21</note>ddary</line>
-         <line lineNros="84" rendition="#At #L0">
+         <line n="84" rendition="#At #L0">
             <note type="outline">5:22</note>ot<choice>
                <unclear>o</unclear>
                <unclear>e</unclear>
             </choice>dy</line>
-         <line lineNros="85" rendition="#At #L0">
+         <line n="85" rendition="#At #L0">
             <note type="outline">5:23</note>dairdy</line>
-         <line lineNros="86" rendition="#At #L0">
+         <line n="86" rendition="#At #L0">
             <note type="outline">5:24</note>rody</line>
-         <line lineNros="87" rendition="#At #Cc">
+         <line n="87" rendition="#At #Cc">
             <note type="outline">07:30</note>yke.okees.olchedy.okal,y.dol.otodar.shekal<figure/>olkar.cheykar.shal.qokal.okchr.otar.otody.otody.otody.otas.chfol.okshy.okem.okar.ar.okedy.okedy.okchedy.eeekchedy.ofchdor.qotchdy.kar.chdar,chekolko<g>iph</g>
          </line>
-         <line lineNros="88" rendition="#At #L0">
+         <line n="88" rendition="#At #L0">
             <note type="outline">8:1</note>ofary</line>
-         <line lineNros="89" rendition="#At #L0">
+         <line n="89" rendition="#At #L0">
             <note type="outline">8:2</note>okady</line>
-         <line lineNros="90" rendition="#At #L0">
+         <line n="90" rendition="#At #L0">
             <note type="outline">8:3</note>okchdy.kary</line>
-         <line lineNros="91" rendition="#At #L0">
+         <line n="91" rendition="#At #L0">
             <note type="outline">8:4</note>oraiin,eey</line>
-         <line lineNros="92" rendition="#At #L0">
+         <line n="92" rendition="#At #L0">
             <note type="outline">9:3</note>opodchd<choice>
                <unclear>a</unclear>
                <unclear>?</unclear>
             </choice>l</line>
-         <line lineNros="93" rendition="#At #L0">
+         <line n="93" rendition="#At #L0">
             <note type="outline">9:2</note>dar<choice>
                <unclear>ch</unclear>
                <unclear>ee</unclear>
             </choice>dy</line>
          <note>Start of circle 3</note>
-         <line lineNros="94" rendition="#At #Cc">
+         <line n="94" rendition="#At #Cc">
             <note type="outline">07:30</note>otchdaiin.otodar.otedar.otar,odaiin.olkaiin.otl.xasashe.ol.ar.a<g>ikh</g>e.chedaiin.ockhedy.shed<choice>
                <unclear>a</unclear>
                <unclear>y</unclear>
             </choice>.otody.okedal,d.or,aiin.otody.toor.chepar.ol.chckhy.opchdar.o,r.a,r.al.xar.opor.olchedy.okalm.or.afalairidy</line>
-         <line lineNros="95" rendition="#At #L0">
+         <line n="95" rendition="#At #L0">
             <note type="outline">3:5</note>okaramal</line>
-         <line lineNros="96" rendition="#At #L0">
+         <line n="96" rendition="#At #L0">
             <note type="outline">3:6</note>opchdy</line>
-         <line lineNros="97" rendition="#At #L0">
+         <line n="97" rendition="#At #L0">
             <note type="outline">3:7</note>ofdora<choice>
                <unclear>m</unclear>
                <unclear>?</unclear>
             </choice>
          </line>
-         <line lineNros="98" rendition="#At #L0">
+         <line n="98" rendition="#At #L0">
             <note type="outline">3:8</note>oda</line>
-         <line lineNros="99" rendition="#At #L0">
+         <line n="99" rendition="#At #L0">
             <note type="outline">3:16</note>ofchdar</line>
-         <line lineNros="100" rendition="#At #L0">
+         <line n="100" rendition="#At #L0">
             <note type="outline">3:9</note>otedam</line>
-         <line lineNros="101" rendition="#At #L0">
+         <line n="101" rendition="#At #L0">
             <note type="outline">3:10</note>lokedshs</line>
-         <line lineNros="102" rendition="#At #L0">
+         <line n="102" rendition="#At #L0">
             <note type="outline">3:11</note>otodar</line>
-         <line lineNros="103" rendition="#At #L0">
+         <line n="103" rendition="#At #L0">
             <note type="outline">3:12</note>otedaiin</line>
-         <line lineNros="104" rendition="#At #L0">
+         <line n="104" rendition="#At #L0">
             <note type="outline">3:13</note>okedy</line>
-         <line lineNros="105" rendition="#At #L0">
+         <line n="105" rendition="#At #L0">
             <note type="outline">3:14</note>xoltedy</line>
-         <line lineNros="106" rendition="#At #L0">
+         <line n="106" rendition="#At #L0">
             <note type="outline">3:15</note>op<choice>
                <unclear>ch</unclear>
                <unclear>a</unclear>
             </choice>dam</line>
-         <line lineNros="107" rendition="#At #L0">
+         <line n="107" rendition="#At #L0">
             <note type="outline">3:19</note>otedy,oporam</line>
-         <line lineNros="108" rendition="#At #L0">
+         <line n="108" rendition="#At #L0">
             <note type="outline">3:17</note>ot<choice>
                <unclear>ch</unclear>
                <unclear>?</unclear>
             </choice>dy</line>
-         <line lineNros="109" rendition="#Ad #L0">
+         <line n="109" rendition="#Ad #L0">
             <note type="outline">3:18</note>otody</line>
-         <line lineNros="110" rendition="#Al #L0">
+         <line n="110" rendition="#Al #L0">
             <note type="outline">3:20</note>chdain</line>
-         <line lineNros="111" rendition="#Ad #L0">
+         <line n="111" rendition="#Ad #L0">
             <note type="outline">3:21</note>oted<choice>
                <unclear>y</unclear>
                <unclear>?</unclear>
             </choice>
          </line>
          <note>Text around Brumbaugh's 'clock'</note>
-         <line lineNros="112" rendition="#At #L0">
+         <line n="112" rendition="#At #L0">
             <note type="outline">left of clock</note>opa<g>i'h</g>efchdy</line>
-         <line lineNros="113" rendition="#Aq #Cc">
+         <line n="113" rendition="#Aq #Cc">
             <note type="outline">above clock</note>
             <note type="outline">08:00</note>sar.odaiin,or</line>
-         <line lineNros="114" rendition="#Ad #Ca">
+         <line n="114" rendition="#Ad #Ca">
             <note type="outline">below clock</note>
             <note type="outline">06:30</note>o.dar.<choice>
                <unclear>aiird</unclear>
                <unclear>???</unclear>
             </choice>
          </line>
-         <line lineNros="115" rendition="#Aq #L0">
+         <line n="115" rendition="#Aq #L0">
             <note type="outline">right of clock</note>oteoly</line>
-         <line lineNros="116" rendition="#At #L0">
+         <line n="116" rendition="#At #L0">
             <note type="outline">3:1</note>ofod<choice>
                <unclear>a</unclear>
                <unclear>y</unclear>
             </choice>dy</line>
-         <line lineNros="117" rendition="#At #L0">
+         <line n="117" rendition="#At #L0">
             <note type="outline">3:2</note>opd<choice>
                <unclear>a</unclear>
                <unclear>y</unclear>
             </choice>dy</line>
-         <line lineNros="118" rendition="#At #L0">
+         <line n="118" rendition="#At #L0">
             <note type="outline">3:3</note>otodey</line>
-         <line lineNros="119" rendition="#At #L0">
+         <line n="119" rendition="#At #L0">
             <note type="outline">3:4</note>otodedy</line>
-         <line lineNros="120" rendition="#At #L0">
+         <line n="120" rendition="#At #L0">
             <note type="outline">6:1</note>opchdain</line>
-         <line lineNros="121" rendition="#At #L0">
+         <line n="121" rendition="#At #L0">
             <note type="outline">6:2</note>otdar.shed</line>
-         <line lineNros="122" rendition="#At #Cc">
+         <line n="122" rendition="#At #Cc">
             <note type="outline">06:30</note>okedar.okody.okair.ched<choice>
                <unclear>y</unclear>
                <unclear>o</unclear>
@@ -8363,96 +8364,96 @@
                <unclear>k</unclear>
             </choice>ar.aiin.yky.odaiin.okal.okalar</line>
          <note>Following are counter-clockwise from 09:00</note>
-         <line lineNros="123" rendition="#At #L0">
+         <line n="123" rendition="#At #L0">
             <note type="outline">6:3</note>ofaraiin</line>
-         <line lineNros="124" rendition="#At #L0">
+         <line n="124" rendition="#At #L0">
             <note type="outline">6:4</note>okolar</line>
-         <line lineNros="125" rendition="#At #L0">
+         <line n="125" rendition="#At #L0">
             <note type="outline">6:5</note>okchdy</line>
-         <line lineNros="126" rendition="#At #L0">
+         <line n="126" rendition="#At #L0">
             <note type="outline">6:6</note>ykedy</line>
-         <line lineNros="127" rendition="#At #L0">
+         <line n="127" rendition="#At #L0">
             <note type="outline">6:7</note>oteedy</line>
-         <line lineNros="128" rendition="#At #L0">
+         <line n="128" rendition="#At #L0">
             <note type="outline">6:8</note>otosaiin</line>
-         <line lineNros="129" rendition="#At #L0">
+         <line n="129" rendition="#At #L0">
             <note type="outline">6:9</note>otchdam</line>
-         <line lineNros="130" rendition="#At #L0">
+         <line n="130" rendition="#At #L0">
             <note type="outline">6:10</note>
             <choice>
                <unclear>o</unclear>
                <unclear>?</unclear>
             </choice>tedy</line>
-         <line lineNros="131" rendition="#At #L0">
+         <line n="131" rendition="#At #L0">
             <note type="outline">6:11</note>okar</line>
-         <line lineNros="132" rendition="#At #L0">
+         <line n="132" rendition="#At #L0">
             <note type="outline">6:12</note>lashalg</line>
-         <line lineNros="133" rendition="#At #Cc">
+         <line n="133" rendition="#At #Cc">
             <note type="outline">05:30</note>ok,ar,ar.okary.otodeed.odar.chekaiin.oees.<unclear>?</unclear>
             <unclear>?</unclear>
             <unclear>?</unclear>
             <note type="outline">long gap</note>.oiin.okees.oiir.odaiin.okalol.aiiin.okal,ol.otar.chchdam.chetey.otodches.oteesey.chckhy.otody.otal.chedal.opal.olkar.okedaiin.oror</line>
-         <line lineNros="134" rendition="#At #L0">
+         <line n="134" rendition="#At #L0">
             <note type="outline">9:6</note>o@214;alda</line>
-         <line lineNros="135" rendition="#At #L0">
+         <line n="135" rendition="#At #L0">
             <note type="outline">9:1</note>osaram</line>
-         <line lineNros="136" rendition="#At #L0">
+         <line n="136" rendition="#At #L0">
             <note type="outline">9:7</note>oparodam</line>
-         <line lineNros="137" rendition="#At #Pb">
+         <line n="137" rendition="#At #Pb">
             <note type="outline">VI</note>
             <milestone unit="block" type="start"/>otam.opchody.oteey</line>
-         <line lineNros="138" rendition="#As #Pb">
+         <line n="138" rendition="#As #Pb">
             <unclear>?</unclear>opar.chepchey.oteedy.olaiin.osshy<milestone unit="block" type="end"/>
          </line>
-         <line lineNros="139" rendition="#At #Pb">
+         <line n="139" rendition="#At #Pb">
             <note type="outline">VII</note>
             <milestone unit="block" type="start"/>tol.ofar.chefaiin.ol</line>
-         <line lineNros="140" rendition="#Ad #Pb">okchy.qokedy.qokedy</line>
-         <line lineNros="141" rendition="#Ad #Pb">tol.teoor.o,l,chekor<milestone unit="block" type="end"/>
+         <line n="140" rendition="#Ad #Pb">okchy.qokedy.qokedy</line>
+         <line n="141" rendition="#Ad #Pb">tol.teoor.o,l,chekor<milestone unit="block" type="end"/>
          </line>
-         <line lineNros="142" rendition="#At #Pb">
+         <line n="142" rendition="#At #Pb">
             <note type="outline">VIII</note>
             <milestone unit="block" type="start"/>okar.olche<choice>
                <unclear>t</unclear>
                <unclear>k</unclear>
             </choice>y.daiin</line>
-         <line lineNros="143" rendition="#Ad #Pb">ok<choice>
+         <line n="143" rendition="#Ad #Pb">ok<choice>
                <unclear>?</unclear>
                <unclear>ee</unclear>
             </choice>dy.qokcho.chfady.oro</line>
-         <line lineNros="144" rendition="#Ad #Pb">okeechy.okol.shee<choice>
+         <line n="144" rendition="#Ad #Pb">okeechy.okol.shee<choice>
                <unclear>o</unclear>
                <unclear>y</unclear>
             </choice>.tolf<choice>
                <unclear>ch</unclear>
                <unclear>a</unclear>
             </choice>d</line>
-         <line lineNros="145" rendition="#Ad #Pb">saiir.shodaiin<milestone unit="block" type="end"/>
+         <line n="145" rendition="#Ad #Pb">saiir.shodaiin<milestone unit="block" type="end"/>
          </line>
-         <line lineNros="146" rendition="#At #L0">
+         <line n="146" rendition="#At #L0">
             <note type="outline">I</note>dor</line>
-         <line lineNros="147" rendition="#Ad #L0">oky</line>
-         <line lineNros="148" rendition="#Ad #L0">roo</line>
-         <line lineNros="149" rendition="#At #L0">
+         <line n="147" rendition="#Ad #L0">oky</line>
+         <line n="148" rendition="#Ad #L0">roo</line>
+         <line n="149" rendition="#At #L0">
             <note type="outline">II</note>otol</line>
-         <line lineNros="150" rendition="#Ad #L0">ardas</line>
-         <line lineNros="151" rendition="#Ad #L0">l,chdy</line>
-         <line lineNros="152" rendition="#At #L0">
+         <line n="150" rendition="#Ad #L0">ardas</line>
+         <line n="151" rendition="#Ad #L0">l,chdy</line>
+         <line n="152" rendition="#At #L0">
             <note type="outline">III</note>oparod</line>
-         <line lineNros="153" rendition="#Ad #L0">shckhdy</line>
-         <line lineNros="154" rendition="#Ad #L0">tshda</line>
-         <line lineNros="155" rendition="#At #L0">
+         <line n="153" rendition="#Ad #L0">shckhdy</line>
+         <line n="154" rendition="#Ad #L0">tshda</line>
+         <line n="155" rendition="#At #L0">
             <note type="outline">IV</note>opchd</line>
-         <line lineNros="156" rendition="#Ad #L0">opchdy</line>
-         <line lineNros="157" rendition="#Ad #L0">qokal</line>
-         <line lineNros="158" rendition="#At #L0">
+         <line n="156" rendition="#Ad #L0">opchdy</line>
+         <line n="157" rendition="#Ad #L0">qokal</line>
+         <line n="158" rendition="#At #L0">
             <note type="outline">V</note>shet<choice>
                <unclear>?</unclear>
                <unclear>a</unclear>
             </choice>
          </line>
-         <line lineNros="159" rendition="#Ad #L0">opchsy</line>
-         <line lineNros="160" rendition="#Ad #L0">che<choice>
+         <line n="159" rendition="#Ad #L0">opchsy</line>
+         <line n="160" rendition="#Ad #L0">che<choice>
                <unclear>?</unclear>
                <unclear>o</unclear>
             </choice>ky</line>
@@ -8913,9 +8914,7 @@
             </choice>tam</line>
          <line n="19" rendition="#Ad #P0">odaiin.sheo,ol.qokeey.olaiin.cheody.chocthey.oteody,dy</line>
          <line n="20" rendition="#Ad #P0">
-            <choice>
-               <unclear>s</unclear>
-            </choice>qokeodaiin<note type="outline">corr?</note>.cheody.oteol.cheockhy.chody<milestone unit="block" type="end"/>
+            <unclear>s</unclear>qokeodaiin<note type="outline">corr?</note>.cheody.oteol.cheockhy.chody<milestone unit="block" type="end"/>
          </line>
          <line n="21" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>toair<g>ch'</g>y.oteeody.cpheody.ykchey.dam.cheor.chaly,korain</line>
@@ -8932,9 +8931,7 @@
          <line n="27" rendition="#At #Lc">daramdal</line>
          <line n="28" rendition="#At #Lf">otydary</line>
          <line n="29" rendition="#At #Lf">otdordy</line>
-         <line n="30" rendition="#At #Lf">dararda<choice>
-               <unclear>?</unclear>
-            </choice>
+         <line n="30" rendition="#At #Lf">dararda<unclear>?</unclear>
          </line>
       </surface>
       <surface n="f89r1">
@@ -9000,9 +8997,7 @@
          <line n="7" rendition="#Ad #P0">chos,aiin.cheodal.daiin.chy.chedain.dolchsyckheol.daiin.chody.cheedy.tchodol.chor.choldy.chos.dol.okcheeg</line>
          <line n="8" rendition="#Ad #P0">tol.daiin.daiin.daiinody.qokeey.cheoldy.qody.cheor.sain.daiin.oky.cheody.cheoky<milestone unit="block" type="end"/>
          </line>
-         <line n="9" rendition="#At #Lc">otold<choice>
-               <unclear>y</unclear>
-            </choice>
+         <line n="9" rendition="#At #Lc">otold<unclear>y</unclear>
          </line>
          <line n="10" rendition="#At #Lf">okol.shol.dy</line>
          <line n="11" rendition="#At #Lf">opchoroiin</line>
@@ -9077,9 +9072,7 @@
          <line n="19" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>toar.qokeeody.doef.shey.dair.olsheos.psheoepoain.daiin.qekor.okeor.otol,sheey.daldaiin</line>
          <line n="20" rendition="#Ad #P0">dol.dair.chey.okaiin.shy.daiin.odor.sheos.aiin.daikeody.qokorar.sheody.qoko.ltcheody.otal</line>
-         <line n="21" rendition="#Ad #P0">dar.qockhy.qokal.okeoy.chockh<choice>
-               <unclear>y</unclear>
-            </choice>.daiin.odaiin.ykeody.okols,sheey.keeody.daiin.qokos.okeom</line>
+         <line n="21" rendition="#Ad #P0">dar.qockhy.qokal.okeoy.chockh<unclear>y</unclear>.daiin.odaiin.ykeody.okols,sheey.keeody.daiin.qokos.okeom</line>
          <line n="22" rendition="#Ad #P0">ockhody.daiin.ykam.s.chty,chy.cthey.dair,air.chool.loy.dair.cheo,daiin<milestone unit="block" type="end"/>
          </line>
          <note>Petersen loci of next labels in curly brackets</note>
