@@ -5,6 +5,7 @@ firstNote: -"#", -noteBody, -newline.
 
 surface: (surfaceN; surfaceNros), extraInfo, comment, newline, (note; dumbHash; line)*.
 @surfaceNros: lab, "f", "R", "o", "s", rab.
+
 @surfaceN: lab, "f", [N]+, ["r";"v"], [N]*, rab.
 -extraInfo: (space; AnyNotSpace)*.
 
@@ -14,6 +15,7 @@ note: -"#", space, noteBody, newline.
 
 line: (lineN; lineNros), rendition, lineBody, newline.
 @lineNros: -lab, -"f", -"R", -"o", -"s", -".", [N]+, -",".
+
 @lineN: -lab, -"f", -[N]+, -["r";"v"], -[N]*, -".", [N]+, -",".
 @rendition: (at;ad;as;aq;an;am;al;ax), +"#", ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
 -lineBody: (space; comment; figure; milestone-start; milestone-end; ligature; choice; unclear; plainChar; dumbHand)+.

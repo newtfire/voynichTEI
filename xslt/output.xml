@@ -143,13 +143,13 @@
          <note>At the end of the paragraphs there are further words (right justified)</note>
          <note>as if they were the name of the author in a quotation.</note>
          <note>Next to the end of the 1st line there is a thick non-Voynich symbol</note>
-         <note>resembling an underlined 29 (commented as @254; )</note>
+         <note>resembling an underlined 29 (commented as þ )</note>
          <note>The 2nd and 3rd paragraphs start with thick non-Voynich symbols.</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>fachys.ykal.ar.ataiin.shol.shory.<choice>
                <unclear>cth</unclear>
                <unclear>oto</unclear>
-            </choice>res.y.kor.sholdy<note type="outline">@254;</note>
+            </choice>res.y.kor.sholdy<note type="outline">þ</note>
          </line>
          <line n="2" rendition="#Ad #P0">sory.ckhar.or,y.kair.chtaiin.shar.ase.cthar.cthar,dan</line>
          <line n="3" rendition="#Ad #P0">syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sy</line>
@@ -162,14 +162,14 @@
          </line>
          <line n="7" rendition="#As #P0">
             <milestone unit="block" type="start"/>
-            <note type="outline">@252;</note>odar.<g>c'y</g>.shol.cphoy.oydar.sh.s.cfhoaiin.shodary</line>
+            <note type="outline">ü</note>odar.<g>c'y</g>.shol.cphoy.oydar.sh.s.cfhoaiin.shodary</line>
          <line n="8" rendition="#Ad #P0">yshey.shody.okchoy.otchol.chocthy.os,chy.dain.chor.kos</line>
          <line n="9" rendition="#Ad #P0">daiin.shos.cfhol.shody</line>
          <line n="10" rendition="#Aq #Pt">dain.os.teody<milestone unit="block" type="end"/>
          </line>
          <line n="11" rendition="#As #P0">
             <milestone unit="block" type="start"/>
-            <note type="outline">@253;</note>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es</line>
+            <note type="outline">ý</note>ydain.cphesaiin.ols.cphey.ytain.shoshy.cphodal,es</line>
          <line n="12" rendition="#Ad #P0">oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin</line>
          <line n="13" rendition="#Ad #P0">shoy.ckhey.kodaiin.cphy.cphodaiils.cthey.sho.oldain.d</line>
          <line n="14" rendition="#Ad #P0">dain.oiin.chol.odaiin.chodain.chdy.ok<choice>
@@ -182,10 +182,10 @@
                <unclear>
                   <g>cto</g>
                </unclear>
-               <unclear>@194;</unclear>
+               <unclear>Â</unclear>
             </choice>y</line>
          <line n="18" rendition="#Ad #P0">yto.shol.she.kodshey.cphealy.dar,ain.dain.ckhyds</line>
-         <line n="19" rendition="#Ad #P0">dchar.shcthaiin.okaiir.chey.@192;chy.@130;tol.cthols.dlo<g>ct</g>o</line>
+         <line n="19" rendition="#Ad #P0">dchar.shcthaiin.okaiir.chey.Àchy.‚tol.cthols.dlo<g>ct</g>o</line>
          <line n="20" rendition="#Ad #P0">shok.chor.chey.dain.ckhey</line>
          <line n="21" rendition="#Aq #Pt">otol.daiiin<milestone unit="block" type="end"/>
          </line>
@@ -224,7 +224,7 @@
          <line n="9" rendition="#Ad #P0">shor.okol.chol.dol,ky.dar<figure/>shol.dchor.o,tcho.dar.<choice>
                <unclear>sh</unclear>
                <unclear>
-                  <g>@209;h</g>
+                  <g>Ñh</g>
                </unclear>
             </choice>ody</line>
          <line n="10" rendition="#Ad #P0">taor.chotchey.dal.chody<figure/>schody.pol.chodar<milestone unit="block" type="end"/>
@@ -354,7 +354,7 @@
          <note>Two paragraphs of text, flower cuts through top one</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>kodalchy.chpady.sheol.ol,sheey.qotey<figure/>doiin.chor.ytoy</line>
-         <line n="2" rendition="#Ad #P0">dchor.shol.shol.cthol.shtchy.chaiin.@163;s<figure/>choraiin.chom</line>
+         <line n="2" rendition="#Ad #P0">dchor.shol.shol.cthol.shtchy.chaiin.£s<figure/>choraiin.chom</line>
          <line n="3" rendition="#Ad #P0">otchol.chol.chy.chaiin.qotaiin<figure/>daiin.shain</line>
          <line n="4" rendition="#Ad #P0">qotchol,chy.yty.daiin.okaiin.cthy<milestone unit="block" type="end"/>
          </line>
@@ -418,7 +418,7 @@
                <unclear>a</unclear>
                <unclear>y</unclear>
             </choice>
-            <g>@131;o</g>s.otol</line>
+            <g>ƒo</g>s.otol</line>
          <line n="3" rendition="#Ad #P0">qoaiin.otan,chy.daiin.oteeeb.chocthy.otchy.qotchody</line>
          <line n="4" rendition="#Ad #P0">otain.sheody.chan.s.cheor.chocthy<milestone unit="block" type="end"/>
          </line>
@@ -489,7 +489,7 @@
                <unclear>
                   <g>oh</g>
                </unclear>
-            </choice>eekar<note type="outline">funny o, @246;?</note>.qoor.shor.chapchy.s.chear.char.otchy</line>
+            </choice>eekar<note type="outline">funny o, ö?</note>.qoor.shor.chapchy.s.chear.char.otchy</line>
          <line n="2" rendition="#Ad #P0">oees.chor.chckhy.qoekchar.chea<choice>
                <unclear>s</unclear>
                <unclear>r</unclear>
@@ -603,7 +603,7 @@
          </line>
          <line n="14" rendition="#As #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;h</g>o.<g>c@196;h</g>ey.shol.chofydy<figure/>sho.chey.kshey.lody.cholal</line>
+            <g>c„h</g>o.<g>cÄh</g>ey.shol.chofydy<figure/>sho.chey.kshey.lody.cholal</line>
          <line n="15" rendition="#Ad #P0">dchey.ckhol.chol.chey.kc<g>cs</g>
             <figure/>chy.<g>cto</g>daiin.dol.daiiir<choice>
                <unclear>
@@ -633,7 +633,7 @@
          <note>Plant ID: Silene</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@216;h</g>od.soo<g>c@196;h</g>
+            <g>cØh</g>od.soo<g>cÄh</g>
             <figure/>sol.shol.otol.chol.opcheaiin.opydaiin.saiin</line>
          <line n="2" rendition="#Ad #P0">shcthal.sar<figure/>chor.sheaiin.shor.chykchy.otaiin.<g>ct</g>y</line>
          <line n="3" rendition="#Ad #P0">qody.cheal.sy<figure/>chory<figure/>chear.shol.chaiin.shaiin.dolas</line>
@@ -674,7 +674,7 @@
          <line n="5" rendition="#Ad #P0">daiin.chor.sor.cthy.chokoiin.shol.dsholdy<figure/>otchol.ot.dy<milestone unit="block" type="end"/>
          </line>
          <line n="6" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>pshoain.cthoaiin.okaiir.<g>c@134;h</g>odoral.shar<figure/>sy<figure/>shydal.chdy</line>
+            <milestone unit="block" type="start"/>pshoain.cthoaiin.okaiir.<g>c†h</g>odoral.shar<figure/>sy<figure/>shydal.chdy</line>
          <line n="7" rendition="#Ad #P0">or.chol.chy,tchy.tchol.ytor.qotol.chyky<figure/>chodar.aiin</line>
          <line n="8" rendition="#Ad #P0">qotcho.qokchy.cthey.koraiin.okain.d<figure/>dal<figure/>s.olshocth<choice>
                <unclear>y</unclear>
@@ -746,8 +746,8 @@
                <unclear>o</unclear>
                <unclear>a</unclear>
             </choice>r.otor.cfhy.cthor.osain<figure/>ytoiin</line>
-         <line n="11" rendition="#Ad #P0">@135;otchoshor.qoty.qotor.cthyd<figure/>otar</line>
-         <line n="12" rendition="#Ad #P0">@135;odaiin.daiin.qotchy.qotor<milestone unit="block" type="end"/>
+         <line n="11" rendition="#Ad #P0">‡otchoshor.qoty.qotor.cthyd<figure/>otar</line>
+         <line n="12" rendition="#Ad #P0">‡odaiin.daiin.qotchy.qotor<milestone unit="block" type="end"/>
          </line>
       </surface>
       <surface n="f10v">
@@ -787,7 +787,7 @@
          <line n="4" rendition="#Ad #P0">dchol.chy.kchy.dy.daiin<milestone unit="block" type="end"/>
          </line>
          <line n="5" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>tchol.shor.shor.dky.<g>c'h@148;h</g>y.daiin.cthy.d,y,chodl,daiin</line>
+            <milestone unit="block" type="start"/>tchol.shor.shor.dky.<g>c'h”h</g>y.daiin.cthy.d,y,chodl,daiin</line>
          <line n="6" rendition="#Ad #P0">odl.d,s,y.otol.chaiin.ykchor.dair.chody.cthy.s.daiin</line>
          <line n="7" rendition="#Ad #P0">qotchy.okchol.cthy.dy<milestone unit="block" type="end"/>
          </line>
@@ -803,7 +803,7 @@
             <milestone unit="block" type="start"/>poldchody.shcphy.shordy.qoty<figure/>shol.cphar.dan,y</line>
          <line n="2" rendition="#Ad #P0">shol.dy.chckhy.shcthy.daiin.dam<figure/>ykchy.dain.dchy</line>
          <line n="3" rendition="#Ad #P0">otchor.dy.kchy.tchy.<choice>
-               <unclear>@152;</unclear>
+               <unclear>˜</unclear>
                <unclear>d</unclear>
             </choice>ar.qokchd<figure/>oky.choldy,dy</line>
          <line n="4" rendition="#Ad #P0">qokchor.cholol<g>cr</g>.chyky.dchy.qoky<figure/>ctho.tchey.tu</line>
@@ -888,7 +888,7 @@
          <line n="7" rendition="#Ad #P0">otcho.dain.chckhy<milestone unit="block" type="end"/>
          </line>
          <line n="8" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>soshy.@137;chol.shor.cheos.ykaiin.s</line>
+            <milestone unit="block" type="start"/>soshy.‰chol.shor.cheos.ykaiin.s</line>
          <line n="9" rendition="#Ad #P0">sody.chody.otchody.qotchy,koiin.sy<figure/>sho.ty,dy</line>
          <line n="10" rendition="#Ad #P0">qotchor.chod.shoty.chody.dol,dy,dy<figure/>okchydy</line>
          <line n="11" rendition="#Ad #P0">dchokchy.schol.dy.shey.dar.qoty<figure/>ykeeyky</line>
@@ -950,7 +950,7 @@
          <note>Leaves = Aconitum / Paris Quadrifolia (O'Neill)</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>poror.orshy.choiin.dtchan.opchordy</line>
-         <line n="2" rendition="#Ad #P0">@138;chor.or.oro.r,aiin.cthy.<choice>
+         <line n="2" rendition="#Ad #P0">Šchor.or.oro.r,aiin.cthy.<choice>
                <unclear>?</unclear>
                <unclear>t</unclear>
             </choice>ain,dar</line>
@@ -1052,7 +1052,7 @@
          <line n="3" rendition="#Ad #P0">chol.or.chy.qodam.okor.chor.okchom<milestone unit="block" type="end"/>
          </line>
          <line n="4" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>tcho@154;.shol.qokol.qor.olaiin.opydg<figure/>som.ypchy.ypaim</line>
+            <milestone unit="block" type="start"/>tchoš.shol.qokol.qor.olaiin.opydg<figure/>som.ypchy.ypaim</line>
          <line n="5" rendition="#Ad #P0">ychekchy.cthy.chor.shor.cphor.cphaldy<figure/>dair.cthey.qody</line>
          <line n="6" rendition="#Ad #P0">tsho.qof,cho.qokcheor.cheteg<milestone unit="block" type="end"/>
          </line>
@@ -1127,8 +1127,8 @@
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>pdrairdy.darod<g>cf</g>.yoar.ykchol.dar.om.chckhy<figure/>octhor.dal</line>
          <line n="2" rendition="#Ad #P0">otshol.qokchol.chykchy.okchal.daiin.dy<figure/>chol.dain</line>
-         <line n="3" rendition="#Ad #P0">qokchor.chor.<g>c@139;h</g>
-            <g>@246;k</g>ey.or,chey.qokchol.dy<figure/>ytcharg</line>
+         <line n="3" rendition="#Ad #P0">qokchor.chor.<g>c‹h</g>
+            <g>ök</g>ey.or,chey.qokchol.dy<figure/>ytcharg</line>
          <line n="4" rendition="#Ad #P0">chor.<choice>
                <unclear>cth</unclear>
                <unclear>
@@ -1160,7 +1160,7 @@
          <note>Same plant as f102r2[3,1] ? (FSG, Stolfi)</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>told.shor.ytshy.otchdal.dchal.dchy.ytdg</line>
-         <line n="2" rendition="#Ad #P0">qoeees.or.oaiin.shy@140;.okshy.qokchy.qokchy.s.g</line>
+         <line n="2" rendition="#Ad #P0">qoeees.or.oaiin.shyŒ.okshy.qokchy.qokchy.s.g</line>
          <line n="3" rendition="#Ad #P0">orshy.qoky.qoky.chkchy.qokshy.qokam</line>
          <line n="4" rendition="#Ad #P0">qotchy.qokay.qokchy.ykcho.ydl.dar</line>
          <line n="5" rendition="#Ad #P0">ychoees.ykchy.qol.kchy.qotchol.daiir,om</line>
@@ -1183,11 +1183,11 @@
          <note>Same plant as f102v1[2,2] ? (Stolfi)</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>pchor.qodchy.qotshy.dy.tchy.qotchy.qoky.daiin.dchydy</line>
-         <line n="2" rendition="#Ad #P0">dshy.chor.y.tchy.chol.dytchy.chordy.daiin.dyty.@241;.cho@242;<note type="outline">corr?</note>
+         <line n="2" rendition="#Ad #P0">dshy.chor.y.tchy.chol.dytchy.chordy.daiin.dyty.ñ.choò<note type="outline">corr?</note>
          </line>
          <line n="3" rendition="#Ad #P0">oscheor.shy.tdaiin.chol.dor.yky</line>
          <line n="4" rendition="#Ad #P0">qokorar.daiin.chckhy.shy,kchor</line>
-         <line n="5" rendition="#Ad #P0">otchy.tchy.qoky.daiin.@243;</line>
+         <line n="5" rendition="#Ad #P0">otchy.tchy.qoky.daiin.ó</line>
          <line n="6" rendition="#Ad #P0">yshor.shy.daiin.otytchy.daiin</line>
          <line n="7" rendition="#Ad #P0">qo'k.cho.ky.cthar.dor.chan.dar</line>
          <line n="8" rendition="#Ad #P0">or.chor.daky.dal.chor.dorl.shy</line>
@@ -1254,7 +1254,7 @@
             </choice>lchey<milestone unit="block" type="end"/>
          </line>
          <line n="5" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>pchocthy.chokoaiin.<g>cp</g>y.cheeeb.opchey.shosaiin.@243;</line>
+            <milestone unit="block" type="start"/>pchocthy.chokoaiin.<g>cp</g>y.cheeeb.opchey.shosaiin.ó</line>
          <line n="6" rendition="#Ad #P0">choees.okchor.qotol.cheey.daiin.chy.choiin.daiin</line>
          <line n="7" rendition="#Ad #P0">ocho,lshod.daiin.choteol.chol.dol.shol.otaiin</line>
          <line n="8" rendition="#Ad #P0">schodain.cheo.r.cheody<milestone unit="block" type="end"/>
@@ -1291,9 +1291,9 @@
             </choice>aiin</line>
          <line n="7" rendition="#Ad #P0">shocthy.sho.cthy.daiin.sheoy.tey.s<figure/>soaiin</line>
          <line n="8" rendition="#Ad #P0">shain.choraly.sho.ar.chy.daiin.d.s</line>
-         <line n="9" rendition="#Ad #P0">ykchy.keody.cho.cthy.chol.shd.qoty.d@244;</line>
+         <line n="9" rendition="#Ad #P0">ykchy.keody.cho.cthy.chol.shd.qoty.dô</line>
          <line n="10" rendition="#Ad #P0">shokaiin.chocthy.chol.daiin.chy.chor.ety</line>
-         <line n="11" rendition="#Ad #P0">okoiin.chey.<g>@200;ph</g>ol.chory<milestone unit="block" type="end"/>
+         <line n="11" rendition="#Ad #P0">okoiin.chey.<g>Èph</g>ol.chory<milestone unit="block" type="end"/>
          </line>
       </surface>
       <surface n="f21r">
@@ -1359,9 +1359,9 @@
             <milestone unit="block" type="end"/>
          </line>
          <line n="7" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>kchol.shol.dsheor.<g>c'@162;@136;</g>.chdoly.ytaiin.ol<figure/>otchy.cphal</line>
+            <milestone unit="block" type="start"/>kchol.shol.dsheor.<g>c'¢ˆ</g>.chdoly.ytaiin.ol<figure/>otchy.cphal</line>
          <line n="8" rendition="#Ad #P0">dchor.oty.daiin.ctholy.qoky.chotaiin.chocthy<figure/>do<choice>
-               <unclear>@203;</unclear>
+               <unclear>Ë</unclear>
                <unclear>l</unclear>
             </choice>iin.dchor</line>
          <line n="9" rendition="#Ad #P0">odaiin.dain.cthy.ctheo,r.o<choice>
@@ -1494,7 +1494,7 @@
          <line n="4" rendition="#Ad #P0">or.chckhaly.cthar.eeor.chees.da</line>
          <line n="5" rendition="#Ad #P0">qodar.cho.r.chey.cthy.cthe.keom</line>
          <line n="6" rendition="#Ad #P0">oeeeos.cthor.otal.qocthol.qoky</line>
-         <line n="7" rendition="#Ad #P0">q@145;kar.chtar.s.cheor.cthol.qodol</line>
+         <line n="7" rendition="#Ad #P0">q‘kar.chtar.s.cheor.cthol.qodol</line>
          <line n="8" rendition="#Ad #P0">ychor.s.om.qoear.daiin.qokeol</line>
          <line n="9" rendition="#Ad #P0">odaiin.ckham.qodai<g>ikh</g>y.dol.dal</line>
          <line n="10" rendition="#Ad #P0">q<choice>
@@ -1521,7 +1521,7 @@
          <note>gathering mark 3</note>
          <note>Plant ID: (hard to read)</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>tchodar.chocfhey.opom.shod.chcphy.opshody.ocphoraiin.o,k,o@146;am</line>
+            <milestone unit="block" type="start"/>tchodar.chocfhey.opom.shod.chcphy.opshody.ocphoraiin.o,k,o’am</line>
          <line n="2" rendition="#Ad #P0">ydals.ckhor.shy.cho.dch<choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
@@ -1591,7 +1591,7 @@
             </choice>o,r,daiin.dshey.daiity</line>
          <line n="4" rendition="#Ad #P0">qokaiin.qokcho.shol.daiin.ckhear.ckhol.daiin.chkear</line>
          <line n="5" rendition="#Ad #P0">dar.chokeey.dshor.dshey.qochol.dol.cho.daiin.daiin</line>
-         <line n="6" rendition="#Ad #P0">qokcho,r,ochy.qotchy.qotoral<figure/>cho.@147;.chain.deeaiir.s</line>
+         <line n="6" rendition="#Ad #P0">qokcho,r,ochy.qotchy.qotoral<figure/>cho.“.chain.deeaiir.s</line>
          <line n="7" rendition="#Ad #P0">o<g>c'o</g>.chkey.daiiol.daiin.shckh<figure/>orchaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
@@ -1604,7 +1604,7 @@
          <note>gnaphalium?</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>psheoky.odaiir.qoy<figure/>ofshod.chypchey.ypchedy.ain<figure/>chofo,che<g>ph</g>dy</line>
-         <line n="2" rendition="#Ad #P0">dchey.@138;aiin.adeeody<figure/>ykecthey.chedy.ytedy.dy<figure/>checthedy.ls</line>
+         <line n="2" rendition="#Ad #P0">dchey.Šaiin.adeeody<figure/>ykecthey.chedy.ytedy.dy<figure/>checthedy.ls</line>
          <line n="3" rendition="#Ad #P0">oaiin.shcthy.cthedy.oloy<figure/>ykeedy.olchedy.dal<figure/>y.sheey.s,aiin.s</line>
          <line n="4" rendition="#Ad #P0">qokedy.cheos.ytedy.qokedy<figure/>ytedy.chekedy<figure/>daiin.odam.s,aldy</line>
          <line n="5" rendition="#Ad #P0">saiin.shedy.eedy.eedy.s,chy<figure/>daiin.cthedy<figure/>qokeedy.qokedy.cthey</line>
@@ -1626,7 +1626,7 @@
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>pchedar.qodary.daiiin.pcheety.s,air.shedy.ypchedy.ypchdy.qopy.shdy</line>
          <line n="2" rendition="#Ad #P0">saraiir.chekedy.qokedy.otedy.sar,y,etedy.qokedy.or.a<g>i'h</g>e.alys.chedy</line>
-         <line n="3" rendition="#Ad #P0">pchdar.opar.dar.cheeol.ofchdy.otedy.<g>c@176;h</g>dy.odar.chedy.ytedy.okchdy.g</line>
+         <line n="3" rendition="#Ad #P0">pchdar.opar.dar.cheeol.ofchdy.otedy.<g>c°h</g>dy.odar.chedy.ytedy.okchdy.g</line>
          <line n="4" rendition="#Ad #P0">y<choice>
                <unclear>ckhe</unclear>
                <unclear>
@@ -1650,7 +1650,7 @@
          <line n="2" rendition="#Ad #P0">dy.<g>co</g>ain.shol.dain.dar.shokyd<figure/>dchol.cthey,ds</line>
          <line n="3" rendition="#Ad #P0">chol.shy.keol.chol.chy.shol.chy<figure/>daiin.chey.dam</line>
          <line n="4" rendition="#Ad #P0">qokey.chor.char.chy.dchy.keey<figure/>chos.cthody</line>
-         <line n="5" rendition="#Ad #P0">dor.chees.ctho,shy.<g>c@148;h</g>ar,y<figure/>daiin.dair</line>
+         <line n="5" rendition="#Ad #P0">dor.chees.ctho,shy.<g>c”h</g>ar,y<figure/>daiin.dair</line>
          <line n="6" rendition="#Ad #P0">chy.t,chols.chor.chol<g>oh</g>aiin<note type="outline">corr?</note>
             <figure/>shy.kchal,dy<milestone unit="block" type="end"/>
          </line>
@@ -1844,7 +1844,7 @@
          <note>Plant ID: Boragine</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;h</g>s<g>c@133;h</g>ain.shosaiin.chocthey.sho.chepchy.shor.sheaiin</line>
+            <g>c„h</g>s<g>c…h</g>ain.shosaiin.chocthey.sho.chepchy.shor.sheaiin</line>
          <line n="2" rendition="#Ad #P0">qotchor.chy.she.kchor.chory.keor,ol.chy.daiin.ctholdy</line>
          <line n="3" rendition="#Ad #P0">chotchol.daiin.cthol.doiin.daiin.chokeor.dal.chto<choice>
                <unclear>
@@ -1872,7 +1872,7 @@
          <note>Currier's language B, hand 2</note>
          <note>Plant ID: Hyrcio[unreadable] Arabum</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>keedey.qofchedy.shee,s.aiin.qokee@149;.chepakeo</line>
+            <milestone unit="block" type="start"/>keedey.qofchedy.shee,s.aiin.qokee•.chepakeo</line>
          <line n="2" rendition="#Ad #P0">dcheey.daiin.okeedy.qokees.s.aiin.shekeey.qef</line>
          <line n="3" rendition="#Ad #P0">qokeey.chey.daiin.qokeey.<choice>
                <unclear>s</unclear>
@@ -1968,7 +1968,7 @@
          <line n="9" rendition="#Ad #P0">dytchor.dary</line>
          <line n="10" rendition="#Ad #P0">dchor.ctho,daiin</line>
          <line n="11" rendition="#Ad #P0">shos.chckhol.n</line>
-         <line n="12" rendition="#Ad #P0">shodaiin.@150;tol</line>
+         <line n="12" rendition="#Ad #P0">shodaiin.–tol</line>
          <line n="13" rendition="#Ad #P0">otcho,rol.dain.daiin.cthy</line>
          <line n="14" rendition="#Ad #P0">schey.qot,shey.daiin.cths</line>
          <line n="15" rendition="#Ad #P0">qokchy.qotol.doiir.ol</line>
@@ -2156,7 +2156,7 @@
          <note>Plant ID: orchid root?</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;h</g>oo.r,choly,<g>c@196;h</g>y.choty.char.dy</line>
+            <g>c„h</g>oo.r,choly,<g>cÄh</g>y.choty.char.dy</line>
          <line n="2" rendition="#Ad #P0">qokeeaiin.chokaiin.qo,tchy.daiin</line>
          <line n="3" rendition="#Ad #P0">dchaiin.cthey.qotchey.taiin.cthory</line>
          <line n="4" rendition="#Ad #P0">qotchy.shet,chy.ckhol.cheey.daiin.dainl</line>
@@ -2221,9 +2221,9 @@
          <note>herbal</note>
          <note>Plant ID: Geranium (SDC = [RZ])</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>pcha@151;dan.qorain.chcfhal.soiin.cphor.shaiin.cthy.dair</line>
+            <milestone unit="block" type="start"/>pcha—dan.qorain.chcfhal.soiin.cphor.shaiin.cthy.dair</line>
          <line n="2" rendition="#Ad #P0">oral.shor.ytaiin.qotaiin.qooldy.chty.chol,dy.tor</line>
-         <line n="3" rendition="#Ad #P0">qotchy.tchy.daiin.@152;aiin.dolsain<milestone unit="block" type="end"/>
+         <line n="3" rendition="#Ad #P0">qotchy.tchy.daiin.˜aiin.dolsain<milestone unit="block" type="end"/>
          </line>
          <line n="4" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>podaiir.cphy.qoypchol.som<figure/>
@@ -2378,7 +2378,7 @@
          <line n="4" rendition="#Ad #P0">okeey.d,aiin.qokeey.chotey.tody<figure/>oky.aiiin.d</line>
          <line n="5" rendition="#Ad #P0">qoty.daiin.chol.oteeol.dody<figure/>cheod.chody</line>
          <line n="6" rendition="#Ad #P0">sho.keeey.key.tey.daiin.daiiin<figure/>dain.dain</line>
-         <line n="7" rendition="#Ad #P0">daiin.qol.chy.dain.@153;.or.daiin<figure/>dain.daldy</line>
+         <line n="7" rendition="#Ad #P0">daiin.qol.chy.dain.™.or.daiin<figure/>dain.daldy</line>
          <line n="8" rendition="#Ad #P0">o,aiin.char.chshol.chokaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
@@ -2495,7 +2495,7 @@
             </choice>
             <figure/>kcheo.cfhdy.or,ain.chefal.daiin.dg</line>
          <line n="9" rendition="#Ad #P0">taiin.ol.olaiin.or<figure/>dain.okaiin.okaiin.okaiin.daram</line>
-         <line n="10" rendition="#Ad #P0">saiin.olcheey.chdy<figure/>ychey.ka@154;ar.oky.ykedy.okair.ody</line>
+         <line n="10" rendition="#Ad #P0">saiin.olcheey.chdy<figure/>ychey.kašar.oky.ykedy.okair.ody</line>
          <line n="11" rendition="#Ad #P0">toar.ykaiin.ory.dal<milestone unit="block" type="end"/>
          </line>
       </surface>
@@ -2645,8 +2645,8 @@
          <note>crelpius(sp?) ranunculus, arum sagittarii</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@155;h</g>o.ofaiin.ctha<g>ih</g>
-            <g>c@196;h</g>y.otcheey.pchear</line>
+            <g>c›h</g>o.ofaiin.ctha<g>ih</g>
+            <g>cÄh</g>y.otcheey.pchear</line>
          <line n="2" rendition="#Ad #P0">solkaiin.char.cheky.otshaiin.daiir<choice>
                <unclear>y</unclear>
                <unclear>a</unclear>
@@ -2684,7 +2684,7 @@
             <milestone unit="block" type="start"/>pydaiin.sheor.shaiin.tsh.olchy.sholy</line>
          <line n="17" rendition="#Ad #P0">shotol,shol.chety.daiin.chokchy.chkaiin</line>
          <line n="18" rendition="#Ad #P0">qody.cthochy.otaiin.shy.kshes.chorain</line>
-         <line n="19" rendition="#Ad #P0">otchoty.daiin.chot,sho.<g>ck@191;h</g>y<note type="outline">corr?</note>,<g>cty</g>,s.os</line>
+         <line n="19" rendition="#Ad #P0">otchoty.daiin.chot,sho.<g>ck¿h</g>y<note type="outline">corr?</note>,<g>cty</g>,s.os</line>
          <line n="20" rendition="#Ad #P0">shol.chol.shoky.okol.sho.chol.shol.chal</line>
          <line n="21" rendition="#Ad #P0">shol.chol.chol.shol.<g>ct</g>oiin.<g>c'o</g>s.odan</line>
          <line n="22" rendition="#Ad #P0">kchaiin.chos.ckhaiin.choro,r.chaiin</line>
@@ -2698,8 +2698,8 @@
          <note>Currier's language A, hand 1</note>
          <note>Plant ID: ranunculacea helleboria(?) (Mrs Voynich)</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>@156;cho.<g>cto</g>.sheey.qocho.taiin.shols<figure/>chol.chor.dain</line>
-         <line n="2" rendition="#Ad #P0">dshey.tchey.y.kchey.chtchy.<g>c@245;h</g>y.dan<figure/>dain.otol.daiin</line>
+            <milestone unit="block" type="start"/>œcho.<g>cto</g>.sheey.qocho.taiin.shols<figure/>chol.chor.dain</line>
+         <line n="2" rendition="#Ad #P0">dshey.tchey.y.kchey.chtchy.<g>cõh</g>y.dan<figure/>dain.otol.daiin</line>
          <line n="3" rendition="#Ad #P0">sho.chotody.chotol.oky.chol.chol<figure/>dl.chcthy.otoy</line>
          <line n="4" rendition="#Ad #P0">qotchy.chkchy.sar.dy<figure/>odaiil<figure/>ykchy.o,kol,dg</line>
          <line n="5" rendition="#Ad #P0">chokeeo,r.chey.chetan<figure/>s,ary<figure/>okol.chetaiin</line>
@@ -2817,7 +2817,7 @@
          </line>
          <line n="5" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>toy.shysho.qoteey.char.cheeky.sheey.ytey.daiin</line>
-         <line n="6" rendition="#Ad #P0">dshor.y,tchol.shy.o.@190;cheekchy.qotchy.otchy.dar</line>
+         <line n="6" rendition="#Ad #P0">dshor.y,tchol.shy.o.¾cheekchy.qotchy.otchy.dar</line>
          <line n="7" rendition="#Ad #P0">qot<g>ch'</g>.o<choice>
                <unclear>q</unclear>
                <unclear>y</unclear>
@@ -2876,12 +2876,12 @@
          <line n="7" rendition="#Ad #P0">lchar.qor.y.kar.dar<milestone unit="block" type="end"/>
          </line>
          <line n="8" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>tchol.cthy.qodaiin.cthy.dain.<g>@246;thh</g>ey.otydal.daiin.<choice>
+            <milestone unit="block" type="start"/>tchol.cthy.qodaiin.cthy.dain.<g>öthh</g>ey.otydal.daiin.<choice>
                <unclear>g</unclear>
                <unclear>d</unclear>
             </choice>
          </line>
-         <line n="9" rendition="#Ad #P0">@201;or.or.chain.dain.ykolody.ytaiin.qotchol.kol.dy</line>
+         <line n="9" rendition="#Ad #P0">Éor.or.chain.dain.ykolody.ytaiin.qotchol.kol.dy</line>
          <line n="10" rendition="#Ad #P0">okaiin.shar.yky.oky.kair.daldy.dalor.cheol.dal</line>
          <line n="11" rendition="#Ad #P0">l.okaiin.okcho.laldan.daldaiin<milestone unit="block" type="end"/>
          </line>
@@ -2973,7 +2973,7 @@
          <line n="10" rendition="#Ad #P0">tchey.shy.chkal.chd.qokdy.shdy.adoldy.olaiir.sheol<milestone unit="block" type="end"/>
          </line>
          <line n="11" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>pchdair.shd.shep,daiin.shdy.o<g>ifh</g>edy.qopchdy.ldy.shear.opdarshdy.s.@136;yfchedy</line>
+            <milestone unit="block" type="start"/>pchdair.shd.shep,daiin.shdy.o<g>ifh</g>edy.qopchdy.ldy.shear.opdarshdy.s.ˆyfchedy</line>
          <line n="12" rendition="#Ad #P0">techy.daiin.sheockhy.choky.r.aiin.ches.shey.kar.sheckhy.chdy.chckham</line>
          <line n="13" rendition="#Ad #P0">ar,akaiin.shol.okeey.chol.dar.ols.lain.y<milestone unit="block" type="end"/>
          </line>
@@ -3026,7 +3026,7 @@
          <note>Curriers language A, hand 1</note>
          <note>Plant ID: Indian cucumber?</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>@159;chair.oly.sheaiin.shol.daiin.chdy</line>
+            <milestone unit="block" type="start"/>Ÿchair.oly.sheaiin.shol.daiin.chdy</line>
          <line n="2" rendition="#Ad #P0">chokchol.chol,choldy.dair.cha<choice>
                <unclear>d</unclear>
                <unclear>j</unclear>
@@ -3037,8 +3037,8 @@
          </line>
          <line n="6" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>folr.chey,so.chol.shol,aiin.shol.shol.chdy.cholol</line>
-         <line n="7" rendition="#Ad #P0">schesy.kchor.cthaiin.chol.chol.chol.chor.<g>ck@191;h</g>ey</line>
-         <line n="8" rendition="#Ad #P0">shokeey.chy.tchod.choy.sho.chtchy.@161;char.ctham</line>
+         <line n="7" rendition="#Ad #P0">schesy.kchor.cthaiin.chol.chol.chol.chor.<g>ck¿h</g>ey</line>
+         <line n="8" rendition="#Ad #P0">shokeey.chy.tchod.choy.sho.chtchy.¡char.ctham</line>
          <line n="9" rendition="#Ad #P0">qoko,kor.chaiin.okal.chol.daiin.okcho,kcho<choice>
                <unclear>r</unclear>
                <unclear>s</unclear>
@@ -3090,7 +3090,7 @@
          <note>Curriers language B, hand 2</note>
          <note>Same plant as f89v2[3,4] ? (Stolfi)</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>pshdaiin.ypchdy.opchey.<g>c@162;h</g>y.dal.sheodaiin.sheokeol.ykeeody.olaiin.opaldy</line>
+            <milestone unit="block" type="start"/>pshdaiin.ypchdy.opchey.<g>c¢h</g>y.dal.sheodaiin.sheokeol.ykeeody.olaiin.opaldy</line>
          <line n="2" rendition="#Ad #P0">daiin.yteeol.cheody.kechodshey.qotedy.chtaiin.otchdy.tedain.okain.ckhy</line>
          <line n="3" rendition="#Ad #P0">sheody.she.teoteey.oteodaiin.ody.qoteo.l.kedy.dol,odal.qotar.opchety.ldy</line>
          <line n="4" rendition="#Ad #P0">tolkeol,dain.otaiin.ykeedy.chet.ytedy,tedy.qokdy.tshdy.chetedy.ctheety.r</line>
@@ -3198,7 +3198,7 @@
          <line n="8" rendition="#Aq #P0">okeodsho.chotshol.dam</line>
          <line n="9" rendition="#As #L0">e</line>
          <line n="10" rendition="#Aq #P0">shol.shodaiin.qotchar</line>
-         <line n="11" rendition="#As #L0">@140;</line>
+         <line n="11" rendition="#As #L0">Œ</line>
          <line n="12" rendition="#Aq #P0">qot<choice>
                <unclear>ch</unclear>
                <unclear>ee</unclear>
@@ -3211,24 +3211,24 @@
          <line n="18" rendition="#Aq #P0">ochor.sheeod.ksheo,dl</line>
          <line n="19" rendition="#As #L0">o</line>
          <line n="20" rendition="#Aq #P0">q'oksho,daiin.shckhy,dar</line>
-         <line n="21" rendition="#As #L0">@192;</line>
+         <line n="21" rendition="#As #L0">À</line>
          <line n="22" rendition="#Aq #P0">dchol.cthol.daiin.choky</line>
          <line n="23" rendition="#As #L0">y</line>
          <line n="24" rendition="#Aq #P0">ochokeey.ckhey.daiin.dain.chokag</line>
          <line n="25" rendition="#As #L0">e</line>
          <line n="26" rendition="#Aq #P0">qokeol,chokeeody.otol.kcho,s.chol.daiin<milestone unit="block" type="end"/>
          </line>
-         <line n="27" rendition="#As #L0">@140;</line>
+         <line n="27" rendition="#As #L0">Œ</line>
          <line n="28" rendition="#Aq #P0">
             <milestone unit="block" type="start"/>fchochor.shol.tchol.opcheodal.dchsy<figure/>chotchy</line>
-         <line n="29" rendition="#As #L0">@164;</line>
+         <line n="29" rendition="#As #L0">¤</line>
          <line n="30" rendition="#Aq #P0">dcho.d.chol.chokchodaiin.chokchy.tchol<figure/>okchokol</line>
          <line n="31" rendition="#As #L0">p</line>
          <line n="32" rendition="#Aq #P0">tchotchey.chokeeodol.rcheey.otchodar<figure/>dcho.dchog</line>
          <line n="33" rendition="#As #L0">o</line>
          <line n="34" rendition="#Aq #P0">shocho.oaiin.sheo.choty<milestone unit="block" type="end"/>
          </line>
-         <line n="35" rendition="#As #L0">@192;</line>
+         <line n="35" rendition="#As #L0">À</line>
          <line n="36" rendition="#Aq #P0">
             <milestone unit="block" type="start"/>qotcho.cheol.chol,s.cho,chcthey.dcheol<figure/>chotchody</line>
          <line n="37" rendition="#As #L0">y</line>
@@ -3239,7 +3239,7 @@
          </line>
          <line n="39" rendition="#As #L0">e</line>
          <line n="40" rendition="#Aq #P0">oaiin.chy.daiin.chol.chaiin.kshardy<figure/>chokchy</line>
-         <line n="41" rendition="#As #L0">@140;</line>
+         <line n="41" rendition="#As #L0">Œ</line>
          <line n="42" rendition="#Aq #P0">qokeaiin.cheo.chor.choteey.kcheol.dain<figure/>cho.dai<choice>
                <unclear>s</unclear>
                <unclear>r</unclear>
@@ -3247,7 +3247,7 @@
          <line n="43" rendition="#As #L0">d</line>
          <line n="44" rendition="#Aq #P0">chokaiin.cho.dls.chariin.daiin.chain.dy<figure/>chetcho.dy</line>
          <line n="45" rendition="#As #L0">y</line>
-         <line n="46" rendition="#Aq #P0">oaiin.cheky.@243;.cho.rchseesy.kchor.sol<figure/>chctho.s</line>
+         <line n="46" rendition="#Aq #P0">oaiin.cheky.ó.cho.rchseesy.kchor.sol<figure/>chctho.s</line>
          <line n="47" rendition="#As #L0">e</line>
          <line n="48" rendition="#Aq #P0">qotcheol.chey.chor.chokaly.chor,dal<figure/>chaiin,d</line>
          <line n="49" rendition="#As #L0">k</line>
@@ -3465,7 +3465,7 @@
                <unclear>d</unclear>
             </choice>.a<choice>
                <unclear>m</unclear>
-               <unclear>@175;</unclear>
+               <unclear>¯</unclear>
             </choice>
          </line>
          <line n="8" rendition="#Ad #P0">or,cheey.dor.shey.kom.s.cheey.dch<choice>
@@ -3625,7 +3625,7 @@
             </choice>shey.kodl.ckho.dar.sheekal.s.aiin<figure/>okeam.etchal</line>
          <line n="9" rendition="#Ad #P0">oaiin.or.ol.sal.qokor.chor.ckhol.s<figure/>s,sho.chol.daiin</line>
          <line n="10" rendition="#Ad #P0">tor.ol.dol.or.chol.chol.ckhol.okol.oky<figure/>ytchor.ol,koldy</line>
-         <line n="11" rendition="#Ad #P0">daiin.okor.or.ol.ckhol.chor.cho@165;.dam<figure/>or.sho.chol.dom</line>
+         <line n="11" rendition="#Ad #P0">daiin.okor.or.ol.ckhol.chor.cho¥.dam<figure/>or.sho.chol.dom</line>
          <line n="12" rendition="#Ad #P0">yor.shodal.o.aiin.al.dol.choek,air,o,ldam<milestone unit="block" type="end"/>
          </line>
       </surface>
@@ -3684,7 +3684,7 @@
                <unclear>s</unclear>
                <unclear>r</unclear>
             </choice>or.olkam</line>
-         <line n="6" rendition="#Ad #P0">tcho,daiin.sho.ke@166;y.kedy.okol.chdy<milestone unit="block" type="end"/>
+         <line n="6" rendition="#Ad #P0">tcho,daiin.sho.ke¦y.kedy.okol.chdy<milestone unit="block" type="end"/>
          </line>
          <line n="7" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>tchedar.che<choice>
@@ -3700,7 +3700,7 @@
          <line n="10" rendition="#Ad #P0">dair.okal.qokar.or.<choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
-            </choice>r@193;.o.ar.odaiin.okeey.darchd.ol</line>
+            </choice>rÁ.o.ar.odaiin.okeey.darchd.ol</line>
          <line n="11" rendition="#Ad #P0">l<choice>
                <unclear>
                   <g>oh</g>
@@ -3751,7 +3751,7 @@
                <unclear>ch</unclear>
                <unclear>?</unclear>
             </choice>.kchdy.pchal.ar,aldy.dary</line>
-         <line n="8" rendition="#Ad #P0">tar.chedy.qokaiin.okar.qol<figure/>otar,cho@194;ar.talody.okar,y</line>
+         <line n="8" rendition="#Ad #P0">tar.chedy.qokaiin.okar.qol<figure/>otar,choÂar.talody.okar,y</line>
          <line n="9" rendition="#Ad #P0">ykaky.qokchy.okal.chey.or<figure/>or,aiin.okaiin.ykain.otaky</line>
          <line n="10" rendition="#Ad #P0">oaiin.ol.s.aiin.okaiin.oky<figure/>ytaiin.otar.y,kal.ykar.ol</line>
          <line n="11" rendition="#Ad #P0">ykaiin.cheoar.cheeky.oldy<figure/>aiin.okal.oltchy.or,y.orain</line>
@@ -3769,7 +3769,7 @@
          <note>Plant ID: Boragine echium, Dianthus flower (convolvulus?)</note>
          <note>Kraus p45, Zimansky; 'fern'</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>o@167;chal.chchs@168;y.oty.esedy.chy.ychocphy.chorchy.chy</line>
+            <milestone unit="block" type="start"/>o§chal.chchs¨y.oty.esedy.chy.ychocphy.chorchy.chy</line>
          <line n="2" rendition="#Ad #P0">chokchey.ch<choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
@@ -3897,20 +3897,20 @@
             <note type="outline">10:30</note>o.l.<choice>
                <unclear>d</unclear>
                <unclear>j</unclear>
-            </choice>.r.v.x.k.m.f.@169;v.t.r.@170;.@171;.y.I.@172;.o.l.d.r.v.x.k.m.f.@169;v.t.r.@170;.@171;.y.c.@172;.o.l.d.r.v.x.k.m.p.@169;v.t.r.@170;.@171;.y.c.@172;.o.l.d.r.v.x.k.m.p.@169;v.t.r.@170;.@171;.y.c.@172;</line>
+            </choice>.r.v.x.k.m.f.©v.t.r.ª.«.y.I.¬.o.l.d.r.v.x.k.m.f.©v.t.r.ª.«.y.c.¬.o.l.d.r.v.x.k.m.p.©v.t.r.ª.«.y.c.¬.o.l.d.r.v.x.k.m.p.©v.t.r.ª.«.y.c.¬</line>
          <line n="4" rendition="#Ad #Cc">
             <note type="outline">10:00</note>daiin.otey.of<choice>
                <unclear>che</unclear>
                <unclear>eee</unclear>
-            </choice>y.shes.o.d.okeeod.l.o.lkeeol.dkedar.yf.aros.s.y.chedaiin.k.eeety.x.deeodal.vo.tchor.<g>ch'</g>.kedar.dal.@172;.daiin.aiin.otal.daro.v</line>
+            </choice>y.shes.o.d.okeeod.l.o.lkeeol.dkedar.yf.aros.s.y.chedaiin.k.eeety.x.deeodal.vo.tchor.<g>ch'</g>.kedar.dal.¬.daiin.aiin.otal.daro.v</line>
          <line n="5" rendition="#Ad #Cc">
             <note type="outline">10:00</note>o.<choice>
                <unclear>v</unclear>
                <unclear>a</unclear>
-            </choice>.l.r.m.aiin.d.@170;.c.f.<choice>
+            </choice>.l.r.m.aiin.d.ª.c.f.<choice>
                <unclear>s</unclear>
                <unclear>r</unclear>
-            </choice>.y.l.k.x.l.r.@171;,ar.o.r.<choice>
+            </choice>.y.l.k.x.l.r.«,ar.o.r.<choice>
                <unclear>a</unclear>
                <unclear>?</unclear>
             </choice>.t.l.<choice>
@@ -3935,7 +3935,7 @@
          <line n="11" rendition="#At #Ro">ara<unclear>?</unclear>arar</line>
          <line n="12" rendition="#At #Ro">okeely</line>
          <line n="13" rendition="#At #Ro">ocfhor,okear</line>
-         <note>Symbol in lower right corner: @255;</note>
+         <note>Symbol in lower right corner: ÿ</note>
       </surface>
       <surface n="f58r">
          <note type="outline"> $Q=H $P=C $F=b $B=2 $I=S $L=A $H=3</note>
@@ -3949,7 +3949,7 @@
             <milestone unit="block" type="start"/>kor,cholfy.shofchy.otoralchy.chofchol.sholy.otaly.dal,m</line>
          <line n="2" rendition="#Ad #P0">dshodal.or.ckhy.olchear.char.tal.ytal.ytar.olchokal</line>
          <line n="3" rendition="#Ad #P0">ykechod.dalaldam.ytam.choty.otchy.otaly.shoty.s</line>
-         <line n="4" rendition="#Ad #P0">dshor.sholar.aiin,shalom.shaly.dalchy.oteom.dal.sholala@210;</line>
+         <line n="4" rendition="#Ad #P0">dshor.sholar.aiin,shalom.shaly.dalchy.oteom.dal.sholalaÒ</line>
          <line n="5" rendition="#Ad #P0">qor.dchair,am.otar.otar.char.ar.al.char.ar,ary.ytalar.cham</line>
          <line n="6" rendition="#Ad #P0">torchey.otaiin.chary.oteor,y.otal.dalchor.ykeey.choltam</line>
          <line n="7" rendition="#Ad #P0">saiin.cholkeey.dal.shom.sholteol.ytalody.otey.cheoly.o.tchy</line>
@@ -4037,7 +4037,7 @@
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>tol.shokchy.opaiin.opaiin.chofaly.ypar.ypal.opal.opaldaiin</line>
          <line n="2" rendition="#Ad #P0">dair.or.<g>ch'h</g>aiin.tair.y.qotalody.s,aiin.okeody.qotair.ar.alor.orky</line>
-         <line n="3" rendition="#Ad #P0">todal.qotain.sho<g>@246;k@191;@191;h</g>y<note type="outline">corr?</note>.qokeol.okey.qokalchal.daly.ar.aim</line>
+         <line n="3" rendition="#Ad #P0">todal.qotain.sho<g>ök¿¿h</g>y<note type="outline">corr?</note>.qokeol.okey.qokalchal.daly.ar.aim</line>
          <line n="4" rendition="#Ad #P0">or,aiin.okair,y.dair,al.qokal.qokaiin.qokaly.okar.olkaly.okal</line>
          <line n="5" rendition="#Ad #P0">faiir.ofas,ar.qotaiin.sholy.qotaiin.yqokaly.okal.qokaly.okaly</line>
          <line n="6" rendition="#Ad #P0">qokair.ar.aly.sho<choice>
@@ -4209,7 +4209,7 @@
          <line n="21" rendition="#Ad #L0">d</line>
          <line n="22" rendition="#Ad #L0">o</line>
          <line n="23" rendition="#Ad #L0">f</line>
-         <line n="24" rendition="#Ad #L0">@169;</line>
+         <line n="24" rendition="#Ad #L0">©</line>
          <line n="25" rendition="#Ad #L0">x</line>
          <line n="26" rendition="#Ad #L0">air</line>
          <line n="27" rendition="#Ad #L0">d</line>
@@ -4224,12 +4224,12 @@
          <line n="36" rendition="#Ad #L0">f</line>
          <line n="37" rendition="#Ad #L0">c<note type="outline">cf f57v seq.</note>
          </line>
-         <line n="38" rendition="#Ad #L0">@172;<note type="outline">cf f57v?</note>
+         <line n="38" rendition="#Ad #L0">¬<note type="outline">cf f57v?</note>
          </line>
          <line n="39" rendition="#Ad #L0">x</line>
          <line n="40" rendition="#Ad #L0">t</line>
          <line n="41" rendition="#Ad #L0">o</line>
-         <line n="42" rendition="#Ad #L0">@195;</line>
+         <line n="42" rendition="#Ad #L0">Ã</line>
          <line n="43" rendition="#Ad #L0">l</line>
          <line n="44" rendition="#Ad #L0">r</line>
          <line n="45" rendition="#Ad #L0">t</line>
@@ -4433,7 +4433,7 @@
                <unclear>
                   <g>c'</g>
                </unclear>
-               <unclear>@164;</unclear>
+               <unclear>¤</unclear>
             </choice>ey.shs.okar</line>
          <line n="4" rendition="#An #L0">shekchy.sykos</line>
          <line n="5" rendition="#An #L0">ykeody.okchy</line>
@@ -4735,7 +4735,7 @@
          <line n="27" rendition="#At #Ls">oiinar</line>
          <line n="28" rendition="#At #Ls">okoldy</line>
          <line n="29" rendition="#At #Ls">ykchdy</line>
-         <line n="30" rendition="#At #Ls">@167;oeeod<g>c@196;h</g>y</line>
+         <line n="30" rendition="#At #Ls">§oeeod<g>cÄh</g>y</line>
          <line n="31" rendition="#At #Ls">ocphy</line>
          <line n="32" rendition="#At #Ls">okeeodal</line>
          <line n="33" rendition="#At #Ls">okshor</line>
@@ -4780,7 +4780,7 @@
                <unclear>o</unclear>
             </choice>.okozy.okaesy.qokool.chio.qoiol</line>
          <note>Labeled stars. Numbers one less than Petersen's</note>
-         <line n="7" rendition="#At #Ls">o@167;olch<g>c@133;h</g>y</line>
+         <line n="7" rendition="#At #Ls">o§olch<g>c…h</g>y</line>
          <line n="8" rendition="#At #Ls">cheorol</line>
          <line n="9" rendition="#At #Ls">odaiin</line>
          <line n="10" rendition="#At #Ls">ochory</line>
@@ -4809,7 +4809,7 @@
             </choice>or</line>
          <note>Bottom ring of text</note>
          <line n="31" rendition="#At #Cc">
-            <note type="outline">09:30</note>okey.okoaiin.okol.o,ky.oeeeo.r.okey.okeeol.cheo.o.@231;@232;@233;@234;</line>
+            <note type="outline">09:30</note>okey.okoaiin.okol.o,ky.oeeeo.r.okey.okeeol.cheo.o.çèéê</line>
       </surface>
       <surface n="f68r3">
          <note type="outline"> $Q=I $P=J $F=z $B=1 $I=A $H=4</note>
@@ -4822,7 +4822,7 @@
          <note>Locus C1 is one ring of text around the diagram.</note>
          <line n="1" rendition="#At #Cc">
             <note type="outline">09:30</note>odeed.oteedy,cheoteey.oshchey.chokol.cheody.chedy.oteodaiin.otchodal.sol.cheor.oteo.choteey.oeteody.opcheody.dchedy.daiin.oteeody.dascheedy.oteeody.qoeee<g>ct</g>
-            <g>c@204;</g>g.dcheeo.okeodly.do.ls.oschaiin.cheockhedchy.chodal.cheod<choice>
+            <g>cÌ</g>g.dcheeo.okeodly.do.ls.oschaiin.cheockhedchy.chodal.cheod<choice>
                <unclear>a</unclear>
                <unclear>y</unclear>
             </choice>.chol,al.oteodched.okedy.qokeey.shoky.dol.daleeed.okeoeiiir</line>
@@ -4927,7 +4927,7 @@
                <unclear>d</unclear>
                <unclear>m</unclear>
             </choice>y.<choice>
-               <unclear>@150;</unclear>
+               <unclear>–</unclear>
                <unclear>ch</unclear>
             </choice>eectheey.otychdy.oteey.cpheeo,dy.otey.<choice>
                <unclear>ch</unclear>
@@ -5006,7 +5006,7 @@
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>tcheeos.shey.opaiin.chey.shey.qokeeyshdy.ol.ot.otal.sar</line>
          <line n="2" rendition="#Ad #P0">daiin.shey.okaiin.shkechy.sheey.tey.chy.cthy.otol.cham</line>
-         <line n="3" rendition="#Ad #P0">sheos,aiin.<g>c@178;</g>ar.choetey.okal.chy.ykar.ytchey.cheotam</line>
+         <line n="3" rendition="#Ad #P0">sheos,aiin.<g>c²</g>ar.choetey.okal.chy.ykar.ytchey.cheotam</line>
          <line n="4" rendition="#Ad #P0">ycheoraiin.ychey.otaiin.okchor.yty.chkal.shol<milestone unit="block" type="end"/>
          </line>
          <note>Large circle divided into 16 segments, using L loci</note>
@@ -5119,9 +5119,9 @@
          <note>in each case after wide gap near 11:00 hours.</note>
          <note>28 words along radiating segments</note>
          <line n="1" rendition="#At #Cc">
-            <note type="outline">11:00</note>dair.cheyky.otaza.sar,ar,chykar.okoirsh,ar.chetody.okeeos.o,tey.otokeeey.okeeody.okeey.doiir.<g>c@204;</g>teeo.y.chey.ot.y.okedy.chsdy.okeod.y.dy.choaiin.okar.okar.chol.chees.yto.odair.oty.oteeo.dar.o,eykeody.dchor.char</line>
+            <note type="outline">11:00</note>dair.cheyky.otaza.sar,ar,chykar.okoirsh,ar.chetody.okeeos.o,tey.otokeeey.okeeody.okeey.doiir.<g>cÌ</g>teeo.y.chey.ot.y.okedy.chsdy.okeod.y.dy.choaiin.okar.okar.chol.chees.yto.odair.oty.oteeo.dar.o,eykeody.dchor.char</line>
          <line n="2" rendition="#At #Cc">
-            <note type="outline">11:00</note>yka<g>c@204;</g>.chol.ykar.dal.ykady.<choice>
+            <note type="outline">11:00</note>yka<g>cÌ</g>.chol.ykar.dal.ykady.<choice>
                <unclear>i</unclear>
                <unclear>?</unclear>
             </choice>okeeor.cheey.choly.ykeeal.cheo<choice>
@@ -5132,7 +5132,7 @@
                <unclear>?</unclear>
             </choice>l.cheody.cheal.yetey.chear,y,dy.ykey.ch.y.dy.chol.ykar.ol,y.ykeeody,chey.dal,ody.airchy.choky.ychey.chey</line>
          <line n="3" rendition="#At #Cc">
-            <note type="outline">11:00</note>doair.otaldal.dair.@240;.chdy.otoar.ar,@240;,chy.qoteor.cho.qotair.chda.oteeal.cheor,ar,air.oteody.ytyd,a.dchy.otoly.okeodal.oteoarar.cheteese<unclear>?</unclear>r.dair.chey.okody.dal.oteey.oteey</line>
+            <note type="outline">11:00</note>doair.otaldal.dair.ð.chdy.otoar.ar,ð,chy.qoteor.cho.qotair.chda.oteeal.cheor,ar,air.oteody.ytyd,a.dchy.otoly.okeodal.oteoarar.cheteese<unclear>?</unclear>r.dair.chey.okody.dal.oteey.oteey</line>
          <line n="4" rendition="#At #Ri">
             <note type="outline">09:30</note>okeey,sar</line>
          <line n="5" rendition="#At #Ri">
@@ -5341,7 +5341,7 @@
             <note type="outline">10:30</note>okcheo.dar.otey.ykeey.tchy.otsheo.oteotey.she<choice>
                <unclear>y</unclear>
                <unclear>o</unclear>
-            </choice>.shecth.opcheoldair.dateey.sal.ody.choteey.choeteedy.oteoteotsho.yteos.alain.sheodaly.<g>c@162;h</g>o.aiin.cholkal.chokear.oteody.cholaiin.oteeoal.al.sheeos.okey.chol,dy.otees.cho.s.ola<choice>
+            </choice>.shecth.opcheoldair.dateey.sal.ody.choteey.choeteedy.oteoteotsho.yteos.alain.sheodaly.<g>c¢h</g>o.aiin.cholkal.chokear.oteody.cholaiin.oteeoal.al.sheeos.okey.chol,dy.otees.cho.s.ola<choice>
                <unclear>r</unclear>
                <unclear>n</unclear>
             </choice>.otoaiin.oteeody.sos.todaiin.chokain.otalal.oteeam</line>
@@ -5390,7 +5390,7 @@
             </choice>
          </line>
          <line n="21" rendition="#At #Cc">
-            <note type="outline">09:00</note>daii@197;amdy.otar.am.aral.otair,chedaiin.oteey.dair.shchey.daiin.chalaly.oteody.chotol.chedy.oteotey.oteeeor,ar.alody.daiir.oteedar.oteey.teey.dalal.cheoltey.oteedy.sheeteey.<unclear>?</unclear>okeeol.ykeeos.shey.ykair.arar.alos</line>
+            <note type="outline">09:00</note>daiiÅamdy.otar.am.aral.otair,chedaiin.oteey.dair.shchey.daiin.chalaly.oteody.chotol.chedy.oteotey.oteeeor,ar.alody.daiir.oteedar.oteey.teey.dalal.cheoltey.oteedy.sheeteey.<unclear>?</unclear>okeeol.ykeeos.shey.ykair.arar.alos</line>
          <note>Nymph labels. Clock position is that of nymph (approx).</note>
          <note>Ordering cf. ThP.</note>
          <note>Inner ring:</note>
@@ -5731,7 +5731,7 @@
             <note type="outline">09:30</note>otoar.air,aloy.oka<choice>
                <unclear>iin</unclear>
                <unclear>ii?</unclear>
-            </choice>.otees.chs.chchs,ar.aly.taly.dar.otchey.okaiin.olaiin.@211;y</line>
+            </choice>.otees.chs.chchs,ar.aly.taly.dar.otchey.okaiin.olaiin.Óy</line>
       </surface>
       <surface n="f72r3">
          <note type="outline"> $Q=K $P=F $F=z $B=1 $I=Z $H=4 $X=M</note>
@@ -5758,7 +5758,7 @@
          <line n="5" rendition="#An #Lz">
             <note type="outline">01:00</note>osarsheeeo</line>
          <line n="6" rendition="#An #Lz">
-            <note type="outline">02:00</note>oto@192;aiin</line>
+            <note type="outline">02:00</note>otoÀaiin</line>
          <line n="7" rendition="#An #Lz">
             <note type="outline">02:30</note>opoiiin<choice>
                <unclear>o</unclear>
@@ -5816,7 +5816,7 @@
             </choice>rary.eee<choice>
                <unclear>r</unclear>
                <unclear>s</unclear>
-            </choice>,che@212;shees.opcholalaiin.oteeor.am.sheal.o<choice>
+            </choice>,cheÔshees.opcholalaiin.oteeor.am.sheal.o<choice>
                <unclear>k</unclear>
                <unclear>t</unclear>
             </choice>aipchy.oteees,ar.am.olaiin.otedar.olol.choty.oteol.sheshdy.chedy.chedy.dy.shes.eedy.sheol.shy,ckhol</line>
@@ -6578,7 +6578,7 @@
             <choice>
                <unclear>p</unclear>
                <unclear>f</unclear>
-            </choice>chedy.@174;.sal.dol.shdy.olkedy.qokaiin.otal.rory<milestone unit="block" type="end"/>
+            </choice>chedy.®.sal.dol.shdy.olkedy.qokaiin.otal.rory<milestone unit="block" type="end"/>
          </line>
          <line n="51" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>qkor.shedy.shey.keedy.sal.raiin.opchdy.dar,chedy.qopchedy.ro<choice>
@@ -6624,7 +6624,7 @@
          <line n="17" rendition="#Ad #P0">sar.olkeey.shokaiin.sheolol.otedy.qekchdy.qoeeedy.qokedy.lkedy.chdy</line>
          <line n="18" rendition="#Ad #P0">lshey.qockhedy.qodeey.qolkeedy.qokedy.chol.chedchey.daiin.olkedy</line>
          <line n="19" rendition="#Ad #P0">or,as.sheey.otar.shedy.otchedy.checkhey.olchedy.checkhy.checkhy.lky</line>
-         <line n="20" rendition="#Ad #P0">dol.sheetey.qokedy.ol.checkhy.lshedy.qokeedy.cheedy.qokeedy.shl.loiii@175;</line>
+         <line n="20" rendition="#Ad #P0">dol.sheetey.qokedy.ol.checkhy.lshedy.qokeedy.cheedy.qokeedy.shl.loiii¯</line>
          <line n="21" rendition="#Ad #P0">cthedy.oteol.chdar.chckhy.chees.s<choice>
                <unclear>a</unclear>
                <unclear>o</unclear>
@@ -6849,7 +6849,7 @@
          <line n="4" rendition="#Ad #P0">qokeedy.qokedy.shedy.tchedy.otar.olkedy.dam</line>
          <line n="5" rendition="#Ad #P0">qckhedy.cheky.dol.chedy.qokedy.qokain.olkedy</line>
          <line n="6" rendition="#Ad #P0">yteedy.qotal.dol,shedy.qokedar.chcthey.otor.dor.or</line>
-         <line n="7" rendition="#Ad #P0">qokal.otedy.qokedy.qokedy.dal.qokedy.qokedy.s,@176;am</line>
+         <line n="7" rendition="#Ad #P0">qokal.otedy.qokedy.qokedy.dal.qokedy.qokedy.s,°am</line>
          <line n="8" rendition="#Ad #P0">dshedy.qokedy.okar.qokedy.shedy.ykedy.shedy.qoky</line>
          <line n="9" rendition="#Ad #P0">schedy.keedy.qokedy.chckhd.qokain.chedy.qotedy.dy</line>
          <line n="10" rendition="#Ad #P0">dshedy.deedy.qokeedy.otedy.otal.tedy.otey.ol<choice>
@@ -6881,7 +6881,7 @@
          <line n="27" rendition="#Ad #P0">daiin.chckhal.daiil,aldy<milestone unit="block" type="end"/>
          </line>
          <line n="28" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>@176;orain.ol.qokeedy.kchol.tchal,olkee.yfchey.ofchedy.taly</line>
+            <milestone unit="block" type="start"/>°orain.ol.qokeedy.kchol.tchal,olkee.yfchey.ofchedy.taly</line>
          <line n="29" rendition="#Ad #P0">ssheky.ol,kedy.chckhy.dain.oty.qokor.oky.dain.chy.<note type="outline">corr?</note>ol</line>
          <line n="30" rendition="#Ad #P0">qokeedy.qokey.daiin.olkain.dal.chedy.ololdal.chcht<choice>
                <unclear>y</unclear>
@@ -6899,7 +6899,7 @@
                <unclear>t</unclear>
                <unclear>k</unclear>
             </choice>edy.l,keedy</line>
-         <line n="40" rendition="#Ad #P0">shedy.qol.shedy.qokaiin.d,@206;ol</line>
+         <line n="40" rendition="#Ad #P0">shedy.qol.shedy.qokaiin.d,Îol</line>
          <line n="41" rendition="#Ad #P0">ykain.chdar.chedy.qokain.dy</line>
          <line n="42" rendition="#Ad #P0">dain.chfaiin.opaly.kotaly</line>
          <line n="43" rendition="#Ad #P0">lchedy.pchedy.qokaiin.d<choice>
@@ -6925,7 +6925,7 @@
          <note>9 ladies in an odd-shaped bathtub</note>
          <note>B@R p88</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>@177;ykedy.olfchedy.qokedy.spchy.chedy.rol.dor.ofchedy.qokedy</line>
+            <milestone unit="block" type="start"/>±ykedy.olfchedy.qokedy.spchy.chedy.rol.dor.ofchedy.qokedy</line>
          <line n="2" rendition="#Ad #P0">olshedy.qokedy.rshedy.cthdy.otedy.kedy.dal,dal.dol.oty.dal</line>
          <line n="3" rendition="#Ad #P0">qokedy.chety.qolshedy.okedy.dol,eesolchey.qotedy.ol,dam</line>
          <line n="4" rendition="#Ad #P0">ol,chy.lshdy.lcheckhy.ol.keedy.lcheckhey.l,olkedykain,ol</line>
@@ -6935,7 +6935,7 @@
          <line n="8" rendition="#Ad #P0">qokedy.otedy.qokain.oteedy.qokeedy.dar.okedy.dkedy.dain</line>
          <line n="9" rendition="#Ad #P0">y,cheolk,o,lkeedy.qokedy.ol,chedol.okeedy.qotedy.rorarol</line>
          <line n="10" rendition="#Ad #P0">dshedy.qokedy.or,shedy.pchedy.qoke<choice>
-               <unclear>@166;</unclear>
+               <unclear>¦</unclear>
                <unclear>ee</unclear>
             </choice>dy.okedy.opchedy</line>
          <line n="11" rendition="#Ad #P0">qol.chedy.qol.okeey.ykal.ol.chdy.qokain.chcthy.daiin</line>
@@ -7158,7 +7158,7 @@
          <line n="9" rendition="#Am #Ln">okar</line>
          <line n="10" rendition="#Ad #Ln">okan</line>
          <line n="11" rendition="#At #P0">
-            <milestone unit="block" type="start"/>pdol.fshedy.<g>q@207;</g>polkain.octhor.okchdy.qokeedy.qopcheol<figure/>olkoiin.y,darshey</line>
+            <milestone unit="block" type="start"/>pdol.fshedy.<g>qÏ</g>polkain.octhor.okchdy.qokeedy.qopcheol<figure/>olkoiin.y,darshey</line>
          <line n="12" rendition="#Ad #P0">dykshy.ol,otchedy.qokain.qotain.chckhey.qokain.okal.qotain.okedy.qo,l,r</line>
          <line n="13" rendition="#Ad #P0">tchedy.qotair.cheol.qokal.qokal.cheety.qokaiin.qokar.qokain.chedy.qokam</line>
          <line n="14" rendition="#Ad #P0">solkain.shl.lky.chcthy.qokain.qotchy.qotal.dy.chckhy.lchey.qotar.otal</line>
@@ -7200,8 +7200,8 @@
          <note>Stream of blue liquid</note>
          <line n="34" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;h</g>
-            <g>c@133;h</g>ey.rcheky.shepchedy.qokar.ol.qockhey.olchey.qokedy.koroiin.y</line>
+            <g>c„h</g>
+            <g>c…h</g>ey.rcheky.shepchedy.qokar.ol.qockhey.olchey.qokedy.koroiin.y</line>
          <line n="35" rendition="#Ad #P0">olkeey.l,sheol.qokeey.shedy.qol.shedy.qokain.shey.qoty.qokain.qokady</line>
          <line n="36" rendition="#Ad #P0">qokeey.rchey.tain.oteey.qokain.shekaiin.sheckhy.qolshey.qokain.ol.lom</line>
          <line n="37" rendition="#Ad #P0">sol.olkeeey.otar.orchey.qokeey.ltalor.olor.qokaiin.ol.shey.qotor,alom</line>
@@ -7523,7 +7523,7 @@
          <line n="21" rendition="#Ad #P0">dain.chey.qokeeey.qoky.okaiin.okain.olkain.otain.okar,aly</line>
          <line n="22" rendition="#Ad #P0">qokain.chedy.qolkshey.qotal.shey.qokain.ol,checkhy.ly</line>
          <line n="23" rendition="#Ad #P0">yshedy.qolchey.qolaiin.otain.olkeedy.qotshedy.oll</line>
-         <line n="24" rendition="#Ad #P0">dshedy.qokaiin.olchedy.qokal.shedy.qotal.dytar,y,l@152;l</line>
+         <line n="24" rendition="#Ad #P0">dshedy.qokaiin.olchedy.qokal.shedy.qotal.dytar,y,l˜l</line>
          <line n="25" rendition="#Ad #P0">qok.sheol.kechey.qoty.ral.tchdarol.sheytchdy.qokal</line>
          <line n="26" rendition="#Ad #P0">saiin.shey.qokol.chol.qol.sheedy.qokal.shedy.qokaiin</line>
          <line n="27" rendition="#Ad #P0">qokain.sheal.qolchedy.qokaiir.olkaiin.shedy<milestone unit="block" type="end"/>
@@ -7604,7 +7604,7 @@
          <line n="27" rendition="#Ad #P1">dain.chedy.qokeedy.shckhedy.shckhedy</line>
          <line n="28" rendition="#Ad #P1">saiin.cheeky.sheey.qokedy.shedy.oldy</line>
          <line n="29" rendition="#Ad #P1">salche'dy.cheey.qody.kesd.oldy</line>
-         <line n="30" rendition="#Ad #P1">s,okeedy.qokeedy.qoky.saii@208;<milestone unit="block" type="end"/>
+         <line n="30" rendition="#Ad #P1">s,okeedy.qokeedy.qoky.saiiÐ<milestone unit="block" type="end"/>
          </line>
          <line n="31" rendition="#Ad #P1">
             <milestone unit="block" type="start"/>techedy.qotchedy.okeedy,ldy</line>
@@ -7756,7 +7756,7 @@
             <milestone unit="block" type="start"/>p<choice>
                <unclear>a</unclear>
                <unclear>o</unclear>
-            </choice>lchd.@146;chedy.shcthy.olky.dar.opalkaiin.o,qofchedy.or,aiiin.ofoly.oroly</line>
+            </choice>lchd.’chedy.shcthy.olky.dar.opalkaiin.o,qofchedy.or,aiiin.ofoly.oroly</line>
          <line n="28" rendition="#Ad #P0">sar.ol.olaiin.y,qol,y,qor.or.ckhedy.chkedy.okain.shedy.qokolchedy.olain</line>
          <line n="29" rendition="#Ad #P0">qokeedy.okeey.dar.olchedy.qsolkeedy.rar.checkhy.otar.chedy.olchcthy.lor</line>
          <line n="30" rendition="#Ad #P0">dchdy.qokedy.ol,chckhy.olchdy.sar,or.ykeedy.chetey.rain.shedy.shekam</line>
@@ -7882,7 +7882,7 @@
             </choice>.shedar.sheol.qo,<choice>
                <unclear>ar</unclear>
                <unclear>iir</unclear>
-            </choice>.chofchdy.qotd<g>c@178;</g>y.ofar</line>
+            </choice>.chofchdy.qotd<g>c²</g>y.ofar</line>
          <line n="10" rendition="#Ad #P0">dair.chotaiin.cheod.cheolkeedy<milestone unit="block" type="end"/>
          </line>
          <line n="11" rendition="#Ad #P0">
@@ -8107,7 +8107,7 @@
          <line n="32" rendition="#At #L0">
             <note type="outline">7:12</note>adashgasain</line>
          <line n="33" rendition="#At #L0">
-            <note type="outline">7:13</note>cfair.o@213;ol<g>c@133;h</g>y</line>
+            <note type="outline">7:13</note>cfair.oÕol<g>c…h</g>y</line>
          <line n="34" rendition="#At #L0">
             <note type="outline">7:1</note>okody</line>
          <line n="35" rendition="#At #Cc">
@@ -8394,7 +8394,7 @@
             <unclear>?</unclear>
             <note type="outline">long gap</note>.oiin.okees.oiir.odaiin.okalol.aiiin.okal,ol.otar.chchdam.chetey.otodches.oteesey.chckhy.otody.otal.chedal.opal.olkar.okedaiin.oror</line>
          <line n="134" rendition="#At #L0">
-            <note type="outline">9:6</note>o@214;alda</line>
+            <note type="outline">9:6</note>oÖalda</line>
          <line n="135" rendition="#At #L0">
             <note type="outline">9:1</note>osaram</line>
          <line n="136" rendition="#At #L0">
@@ -8511,7 +8511,7 @@
             <milestone unit="block" type="start"/>pcheypchdar.op<choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
-            </choice>r<g>c@179;h</g>y.ches,aiin.ofy.chedy.otedalol.orairody.qotchdaiin.qopy</line>
+            </choice>r<g>c³h</g>y.ches,aiin.ofy.chedy.otedalol.orairody.qotchdaiin.qopy</line>
          <line n="2" rendition="#Ad #P0">ochody.chol.chey.qotchdy.kchdy.qopchd.chpchy.qopchy.qoky.chedy.qokol.lray</line>
          <line n="3" rendition="#Ad #P0">qolchy.olkeedy.chdal,chedy.chor.ar.arody.qokchdy.chdal.okar.chdy.otaiin</line>
          <line n="4" rendition="#Ad #P0">dshor.shdy.shor.ol,aiin.olkeedy.shdal.oteor.chdar.l,karchees.olkar.dalam</line>
@@ -8520,13 +8520,13 @@
          <line n="7" rendition="#Ad #P0">qokaiin.y,lchedor.or.aiin.ol,or.olkal.or.shedy.qokal.s,ar.archey.dy</line>
          <line n="8" rendition="#Ad #P0">ykaiin.odaiin.chal.sair.ytar.chody.ldaly.chdal.ykchedy.ltchedy.dar</line>
          <line n="9" rendition="#Ad #P0">dshor.ykaiin.dar.sheey.qokol.cheol.otar.ar.aiiin.qoteeos.aiin</line>
-         <line n="10" rendition="#Ad #P0">sarar.ykaiin.soldam.sheol.qckhy.dalor.olaiin.olkaiin.qodar.o@185;y</line>
+         <line n="10" rendition="#Ad #P0">sarar.ykaiin.soldam.sheol.qckhy.dalor.olaiin.olkaiin.qodar.o¹y</line>
          <line n="11" rendition="#Ad #P0">qokaiin.olkeey.qokeor.or.cheeaiin.yteedy.qoko.lchdol.or.chcphar.ar</line>
          <line n="12" rendition="#Ad #P0">ykeealor.qokal.otar.ykairolky<milestone unit="block" type="end"/>
          </line>
          <line n="13" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;h</g>ol<g>c@133;h</g>y.qopaiin.yfchdy.cpholkaiin.cholfchy.qopar.aroiiin.opchedy.opoly</line>
+            <g>c„h</g>ol<g>c…h</g>y.qopaiin.yfchdy.cpholkaiin.cholfchy.qopar.aroiiin.opchedy.opoly</line>
          <line n="14" rendition="#Ad #P0">ykchy.cholkaiin.chey.ykeedy.okal.or.chcfhy.lkey.okar.dar.ol,a<choice>
                <unclear>in</unclear>
                <unclear>iin</unclear>
@@ -8734,7 +8734,7 @@
             <milestone unit="block" type="start"/>toeeedchy.okchey.qokchedy.shedy.ytcheodar</line>
          <line n="30" rendition="#Ad #Pb">
             <note type="outline">S</note>ytchey.yteey.chdal.or.cheey.daiin.cheokaii<choice>
-               <unclear>@175;</unclear>
+               <unclear>¯</unclear>
                <unclear>m</unclear>
             </choice>
          </line>
@@ -8748,7 +8748,7 @@
             <note type="outline">S</note>yteeo,dy.chedy.qokal.yteey.qokar.am</line>
          <line n="35" rendition="#Ad #Pb">
             <note type="outline">S</note>dcheey.teeody.oty.otchedy.daiiraii<choice>
-               <unclear>@175;</unclear>
+               <unclear>¯</unclear>
                <unclear>m</unclear>
             </choice>
          </line>
@@ -8799,7 +8799,7 @@
          <note>Currier's language A, hand 4</note>
          <note>Petersen has omitted the right-hand part of paragraph 2</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>@180;cheey.daiin.cpheodar.shody.dcheody.todor.oeeepchody<figure/>oldar</line>
+            <milestone unit="block" type="start"/>´cheey.daiin.cpheodar.shody.dcheody.todor.oeeepchody<figure/>oldar</line>
          <line n="2" rendition="#Ad #P0">schey.ctheey.qocthsy.s<figure/>dcheoky.s,cth</line>
          <line n="3" rendition="#Ad #P0">y,cheockhy.okey.cthy<figure/>yteeor.<g>ct</g>os</line>
          <line n="4" rendition="#Ad #P0">dcheecthey.cthosy<figure/>ykeeor.oky</line>
@@ -8963,7 +8963,7 @@
          </line>
          <line n="19" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>pshol.sheo.qoa<g>ith</g>y.cheocphy.s,sheyr.qokair,ydam.daly</line>
-         <line n="20" rendition="#Ad #P0">daim.cheom.qoa<g>ith</g>y.air.cheody.ldain.dal.chom.chtaii@197;</line>
+         <line n="20" rendition="#Ad #P0">daim.cheom.qoa<g>ith</g>y.air.cheody.ldain.dal.chom.chtaiiÅ</line>
          <line n="21" rendition="#Ad #P0">taiin.dam.shoety.dal.qokchy.ykchdy.otcham.ol.sshr,aiin</line>
          <line n="22" rendition="#Ad #P0">ycheeo,r.sheol.qockhedy.yty.sheody.qotol.chead,chey.dal</line>
          <line n="23" rendition="#Ad #P0">dain.oteos.cheody.cheodain.daiin.chodaiin<milestone unit="block" type="end"/>
@@ -9177,7 +9177,7 @@
          <note>Same plant as f100r[1,3] ? (Stolfi)</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@181;h</g>da<g>i@133;h</g>y.qocfhey.opolraiin.ofchedal.s<unclear>?</unclear>
+            <g>cμh</g>da<g>i…h</g>y.qocfhey.opolraiin.ofchedal.s<unclear>?</unclear>
             <figure/>shese.shodaiin.shea<choice>
                <unclear>s</unclear>
                <unclear>r</unclear>
@@ -9226,7 +9226,7 @@
                <unclear>o</unclear>
                <unclear>y</unclear>
             </choice>
-            <figure/>shokol.qokeshs<figure/>yteody.poda<g>i@182;h</g>ey</line>
+            <figure/>shokol.qokeshs<figure/>yteody.poda<g>i¶h</g>ey</line>
          <line n="8" rendition="#Ad #P0">daiin.okeeey.cheo.qotecheor.cthodaim.s<figure/>cheol.chor.okeam</line>
          <line n="9" rendition="#Ad #P0">sheor.ol.qokeeoky.okeeol.okeeodaiin.ytol<figure/>sor.a<choice>
                <unclear>s</unclear>
@@ -9429,7 +9429,7 @@
          <note>Plant ID: Wermut, Artemisium Absynthum</note>
          <line n="1" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;h</g>olteedy,<g>c@133;h</g>oepaiin.oekshy.qofchdaiin.shoyfar.okshy.okain.ar.alfshed</line>
+            <g>c„h</g>olteedy,<g>c…h</g>oepaiin.oekshy.qofchdaiin.shoyfar.okshy.okain.ar.alfshed</line>
          <line n="2" rendition="#Ad #P0">okshy.tshor.qoksh.qokain.otar.oty.qokedy.otal.ytchdy.qokar.am</line>
          <line n="3" rendition="#Ad #P0">tchody.qokaiin.y,char.okain.sheody.chedy.chcthykedy.ety.dain.al</line>
          <line n="4" rendition="#Ad #P0">tchedy.qokal.oty.shekshey.otaldy.okshey.ytshedy.okarar.yty.chdy</line>
@@ -9692,7 +9692,7 @@
             <note type="outline">114a</note>oralas</line>
          <line n="37" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;</g>eol,so<g>c@133;h</g>ey.qokol.olkeol.daiin<figure/>okoly</line>
+            <g>c„</g>eol,so<g>c…h</g>ey.qokol.olkeol.daiin<figure/>okoly</line>
          <line n="38" rendition="#Ad #P0">ol.cheey.qokeol.okeol.okeol.shokol<figure/>ykey</line>
          <line n="39" rendition="#Ad #P0">dar.shol.okchey.ckhey.qokololal<figure/>okeol</line>
          <line n="40" rendition="#Ad #P0">or.aiin.okeody.okol.odaiin.qoky<figure/>olaldy</line>
@@ -9744,7 +9744,7 @@
          <line n="11" rendition="#At #Lf">
             <note type="outline">125</note>sofam</line>
          <line n="12" rendition="#At #P0">
-            <milestone unit="block" type="start"/>pcheol.sheod.qocpheeckhy.shodol.<g>c@132;h</g>da,@168;oto.cho<choice>
+            <milestone unit="block" type="start"/>pcheol.sheod.qocpheeckhy.shodol.<g>c„h</g>da,¨oto.cho<choice>
                <unclear>?</unclear>
                <unclear>ch</unclear>
             </choice>os.sheey.ch<g>cthh'</g>o.s</line>
@@ -9817,7 +9817,7 @@
             <note type="outline">143</note>chos.ctharal</line>
          <line n="14" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;h</g>dee<g>c@133;h</g>y.sheocphy.qoteody.ckhoor.ar.chor.oteey.daiin.qokomo</line>
+            <g>c„h</g>dee<g>c…h</g>y.sheocphy.qoteody.ckhoor.ar.chor.oteey.daiin.qokomo</line>
          <line n="15" rendition="#Ad #P0">sor.cheey.dair.ol.cheol.qoolkeey.chol.cheey.qokeol.chotol,s</line>
          <line n="16" rendition="#Ad #P0">ykeeol.chol.chey.eeoseeo,s.sheeo.okeol.ches.okeor.okeol.dy</line>
          <line n="17" rendition="#Ad #P0">chockhey.sholkcheol.qokeol.okol.chol.chotor.chso.solcthy</line>
@@ -9840,7 +9840,7 @@
          <line n="2" rendition="#Ad #P0">dol.chokeey.chkey.cthey.okalchol.kol,o,keey.r.or.ol.okol,ol.olchey.qok,chal.okey.qokeol.kar.shey.teol.or.oiiin.chol,daiin<milestone unit="block" type="end"/>
          </line>
          <line n="3" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>@183;ol<g>c@133;h</g>eol.okeor.r.sheol.qokol.shey.dol.shey.okeey.ctheey.yteeoldy.kchol.ol,sheody.or.ol.sheor.qotoiir.otol.sheey.s,sheo.tchey.ol,dar.am</line>
+            <milestone unit="block" type="start"/>·ol<g>c…h</g>eol.okeor.r.sheol.qokol.shey.dol.shey.okeey.ctheey.yteeoldy.kchol.ol,sheody.or.ol.sheor.qotoiir.otol.sheey.s,sheo.tchey.ol,dar.am</line>
          <line n="4" rendition="#Ad #P0">ycheeo.or.sheeol.daiin.sheeol.okeol.ctheol.<g>c'y</g>keeo.qockheol.daiin.shy.chol.okeeor.<g>cto</g>dy.chkchol.dateody.okeol.dairin.okeey.okeey.dairin</line>
          <line n="5" rendition="#Ad #P0">daiin.ctheol.cheol.okor.or.aiin.cheol.cho,keeodchey.okol.okeol.dor.chol.ch<choice>
                <unclear>y</unclear>
@@ -9852,7 +9852,7 @@
             </choice>s.sheokeey.sheeor.chchy.chodaiin.cheeckhey.teeol.s.cheol.rar.oeeor<milestone unit="block" type="end"/>
          </line>
          <line n="7" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>cphoar.oaiin.ypcholy.daiin.otaiin.otaiin.yfolaiin.@184;cheolain.ypchey.<g>yph</g>ody.shotey.odariin.sheo<choice>
+            <milestone unit="block" type="start"/>cphoar.oaiin.ypcholy.daiin.otaiin.otaiin.yfolaiin.¸cheolain.ypchey.<g>yph</g>ody.shotey.odariin.sheo<choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
             </choice>r.sheor.ckheey.<g>ykh</g>ey.qokchey.cholp.cheol,dy</line>
@@ -9923,7 +9923,7 @@
             <unclear>?</unclear>opcheol.cthey.qekeoldy.qocthor.sheody.qo<g>ckhh</g>ey.odaiin.shoytolaiin.<unclear>?</unclear>sodaiin,dy</line>
          <line n="23" rendition="#Ad #P0">yaiin.ol,olor.daiin.okeey.qok.ykeol.daiin.qockhy.daiin.olch<unclear>?</unclear>
             <unclear>?</unclear>
-            <unclear>?</unclear>dar.qokeol.dol.oraiin.oldaiin.keeol@138;,rch.qokeeeor.s,ydy.cheor.okeey.choldy.dar</line>
+            <unclear>?</unclear>dar.qokeol.dol.oraiin.oldaiin.keeolŠ,rch.qokeeeor.s,ydy.cheor.okeey.choldy.dar</line>
          <line n="24" rendition="#Ad #P0">teeeol.sheol.qokeor.<g>ykh</g>ol.olcho.r.chokey.chor.ctheey.daiin<unclear>?</unclear>
             <unclear>?</unclear>
             <unclear>?</unclear>daiin.cheeody.cheey,keo.cheol.daiiin.deeor.cheedy<milestone unit="block" type="end"/>
@@ -10024,7 +10024,7 @@
          </line>
          <line n="16" rendition="#At #P0">
             <milestone unit="block" type="start"/>
-            <g>c@132;h</g>ol.d<g>c@133;h</g>ody.cthol,soeees.ykeody.qokeey.qotchy.soefchocphy</line>
+            <g>c„h</g>ol.d<g>c…h</g>ody.cthol,soeees.ykeody.qokeey.qotchy.soefchocphy</line>
          <line n="17" rendition="#Ad #P0">ykeockhey.okey.qokeeo.ckhey.qokey.desey.qyoeey.dol.chkey.choky</line>
          <line n="18" rendition="#Ad #P0">otol.shey.qockhey.dol.shey.dol.sheey.qokol.daiin.oky.oky</line>
          <line n="19" rendition="#Ad #P0">qokeod.okeal.okeo,l.y,cheo.ckhey.q<g>kh</g>ody.qokey.ody.keeody.chody</line>
@@ -10163,7 +10163,7 @@
          <line n="9" rendition="#Ad #P0">teody.ckheey.qokeol.sheky.qockheor.or.cheo,rchol.qoteor.dar</line>
          <line n="10" rendition="#Ad #P0">kochor.ol.ydaiin.choraiin.sheey.ykeey.kor,shey.qokey.dy</line>
          <line n="11" rendition="#Ad #P0">sol,chol.qooiin.qokol.cheol.chey.kolcheey.daiin.cheody.dy</line>
-         <line n="12" rendition="#Ad #P0">y,cheol.cheol.doiir.shekcheor.s,ar.cheor.<g>@246;kh</g>ey.pchodaiin</line>
+         <line n="12" rendition="#Ad #P0">y,cheol.cheol.doiir.shekcheor.s,ar.cheor.<g>ökh</g>ey.pchodaiin</line>
          <line n="13" rendition="#Ad #P0">toiin.ol.daiin.qkol.cheol.daiin.qokar.oaiin.cheey.<choice>
                <unclear>s</unclear>
                <unclear>r</unclear>
@@ -10616,7 +10616,7 @@
          <note>Light star, dotted, 8 points, tail</note>
          <line n="22" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>ytchedy.qokchedy.qotchy.qokchedy.qokchd.ls,aiin.qchor.sheor.ytaiin.chey.tal</line>
-         <line n="23" rendition="#Ad #P0">tchey.qokchey.qochey.qodeey.qodaiin.chodaiin.chckhdy.dairar.otar.qotai@208;.<unclear>?</unclear>l</line>
+         <line n="23" rendition="#Ad #P0">tchey.qokchey.qochey.qodeey.qodaiin.chodaiin.chckhdy.dairar.otar.qotaiÐ.<unclear>?</unclear>l</line>
          <line n="24" rendition="#Ad #P0">ykaiin.cheor.cheeey.daiiin.cheo,dalaiin.chockhedy.chedaiin.otor.qokar,ary</line>
          <line n="25" rendition="#Ad #P0">dsheey.qoykeey.lchedy.qokedaiin.ar,chcthy.daiin,cheey.sair.ol.aiin.chedy</line>
          <line n="26" rendition="#Ad #P0">ysheor.sheey.qodaiin.chodar.chochs<milestone unit="block" type="end"/>
@@ -10650,7 +10650,7 @@
          <line n="37" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>posairy.ytedar,chedy.shoefcheey,kechy.sar,odl.air.shey.qopcheey,sol.ain.arodam</line>
          <line n="38" rendition="#Ad #P0">okechey.chedy,chchy.qotain.qokain.chey.or,aiin.cheo.or,aiin.chedain.okam</line>
-         <line n="39" rendition="#Ad #P0">yshey.@206;ar.a,kain.char.lkeey.roiir.shey.cheey.kar.ar.lkchs.ar,y,@206;,ais.alod</line>
+         <line n="39" rendition="#Ad #P0">yshey.Îar.a,kain.char.lkeey.roiir.shey.cheey.kar.ar.lkchs.ar,y,Î,ais.alod</line>
          <line n="40" rendition="#Ad #P0">qokeeey.okchedy.qokeey.aiin,odain.orchedy.qoky<milestone unit="block" type="end"/>
          </line>
          <note>Light star, dotted, 8 points, tail</note>
@@ -10671,7 +10671,7 @@
          <note>Currier's language B, hand Y</note>
          <note>Light star, dotted, 8 points, tail</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>@199;aiin,dar.chcphy.qokeey.qopaiin.ypcheeey.saraisl.aiin.cheedy.<choice>
+            <milestone unit="block" type="start"/>Çaiin,dar.chcphy.qokeey.qopaiin.ypcheeey.saraisl.aiin.cheedy.<choice>
                <unclear>?</unclear>
                <unclear>k</unclear>
             </choice>aiin.arody</line>
@@ -10714,7 +10714,7 @@
          </line>
          <note>Light star, 8 points, tail</note>
          <line n="17" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>lteedy.okeeddl.sheokedy.qokedy.shol.kol.aiirol.qokchedy.daiin.okedy.q@145;ky</line>
+            <milestone unit="block" type="start"/>lteedy.okeeddl.sheokedy.qokedy.shol.kol.aiirol.qokchedy.daiin.okedy.q‘ky</line>
          <line n="18" rendition="#Ad #P0">sheoy.oleedy.daiin.al,chedy.okeeey.chdaiin.otedy.cheoty.oteedy.oteey.chdy</line>
          <line n="19" rendition="#Ad #P0">dsechey.oteol.daiindy.saiin.chedy.laiin.okeeody.okeeyteedy.odaiin.aiir,al</line>
          <line n="20" rendition="#Ad #P0">s,aiin.chey,teol.ykair.paiir.olkaiin.olfaiin.odar.al.airody.al.teedar.dam</line>
@@ -11580,12 +11580,12 @@
          <line n="20" rendition="#Ad #P0">qokeey.qokeey.l<choice>
                <unclear>ch</unclear>
                <unclear>a</unclear>
-            </choice>edy.checthy.chedey.cheol.teedy.okeedy.qokeedy.okeey.cho,ol.l,kai@175;</line>
+            </choice>edy.checthy.chedey.cheol.teedy.okeedy.qokeedy.okeey.cho,ol.l,kai¯</line>
          <line n="21" rendition="#Ad #P0">daiin.okar.ain.teey.oteey.ox,o,r,shey.chey,ky,deedy.cheo.dain.sheet.ar.al,l.cheotydy</line>
          <line n="22" rendition="#Ad #P0">ssheo,l,keedy.dal.tched.checkhey.okey.qo,ain.qo,chedy.qokeor.okeey.keo,cthedy.qokey</line>
          <note>Light star, 8 points, tail</note>
          <line n="23" rendition="#Ad #P0">dshey.sheeckhy.qokeshey.keeshody.qokeey.qokedy.okain.shekal.okechedy.qokechedy</line>
-         <line n="24" rendition="#Ad #P0">sain.chckhey.cheos.lchal.lkechey.okeey.lkechedy.oteodain.char.lky.lchr.ainai@175;</line>
+         <line n="24" rendition="#Ad #P0">sain.chckhey.cheos.lchal.lkechey.okeey.lkechedy.oteodain.char.lky.lchr.ainai¯</line>
          <line n="25" rendition="#Ad #P0">so,sheor.okeedy.oteeey.qokeey.qokeeo,s.chedar.alal.o<g>ikh</g>y.oxar.aiin.odaiin.chody</line>
          <note>Light star, dotted, 8 points, tail</note>
          <line n="26" rendition="#Ad #P0">soaiin.shecthy.oteodaiin.chedy.otedar.air,ykeey.shedain.l.chedy.qokeedy.qoteedaiin</line>
@@ -11794,7 +11794,7 @@
          <note>Currier's language B</note>
          <note>Light star, dotted, 7 points, tail</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>folchey.qokeey.ykair<note type="outline">corr?</note>.@185;arally.oteedal.or,aiin.chcphy<note type="outline">erased?</note>
+            <milestone unit="block" type="start"/>folchey.qokeey.ykair<note type="outline">corr?</note>.¹arally.oteedal.or,aiin.chcphy<note type="outline">erased?</note>
          </line>
          <line n="2" rendition="#Ad #P0">saiin.oar.qolkaiin.otail.ol.olaiin.chol.otar</line>
          <line n="3" rendition="#Ad #P0">or,chedar.cheey.oteedy.oteedy.otaiin.oty.odys</line>
@@ -11938,7 +11938,7 @@
             <milestone unit="block" type="start"/>tchor.aiin.odeedy.oteeey.qokey.lody.chcfhy.ochos.aiin.olky</line>
          <line n="12" rendition="#Ad #P0">daiin.al.olkeedain.oteey.sheeol.qokeedy.qochaiin.oteey,qoty</line>
          <line n="13" rendition="#Ad #P0">dcheoty.oy.otchedy.chedy.daiin.chedal.chedy.qokaiin.otam</line>
-         <line n="14" rendition="#Ad #P0">sain.air.a@175;.ykeedain.qokeedy.chedaiin.al<choice>
+         <line n="14" rendition="#Ad #P0">sain.air.a¯.ykeedain.qokeedy.chedaiin.al<choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
             </choice>in<milestone unit="block" type="end"/>
@@ -12042,7 +12042,7 @@
          <note>Currier's language B</note>
          <note>Light star, 7 points, tail</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>pches@186;chy.ypcheedy.fchdy.chetar.qopchedaiin.oteey.oty.lkchy.chodain.alar.chedy</line>
+            <milestone unit="block" type="start"/>pchesºchy.ypcheedy.fchdy.chetar.qopchedaiin.oteey.oty.lkchy.chodain.alar.chedy</line>
          <line n="2" rendition="#Ad #P0">dar.okeedy.oteeody.qokedy.otchechy.okeorl.al,keeos.ched.al.ar.ch<g>ckhh</g>y.ykolairol</line>
          <line n="3" rendition="#Ad #P0">shchs.oal.chs,aiin.oteeosy<milestone unit="block" type="end"/>
          </line>
@@ -12195,10 +12195,10 @@
          <line n="13" rendition="#Ad #P0">
             <milestone unit="block" type="start"/>poraiin.otar.ar.okol.shedy.qokchedy.otchdy.qotor.qoteedar.roral.fchee,llor</line>
          <line n="14" rendition="#Ad #P0">dar.al.sheey.qotaiin.chor.cthol.okeshos.olchedy.qokaiin.okal.o,kaiin.olo</line>
-         <line n="15" rendition="#Ad #P0">@187;ar,ar.okeey.oeky.otcheedaiin.ol.tchdy.pche<choice>
+         <line n="15" rendition="#Ad #P0">»ar,ar.okeey.oeky.otcheedaiin.ol.tchdy.pche<choice>
                <unclear>o</unclear>
                <unclear>a</unclear>
-            </choice>l.kcheor.@206;aiin.cheey.qokaram</line>
+            </choice>l.kcheor.Îaiin.cheey.qokaram</line>
          <line n="16" rendition="#Ad #P0">daiin.chl.l,keey.lkaiin.chdain.qokain.<g>ch'</g>eor.okalchedy.qokar.olkam.ar</line>
          <line n="17" rendition="#Ad #P0">saraiin.shedy.lcheey.olkar.okaiin.cthororaiin.yteeeor<milestone unit="block" type="end"/>
          </line>
@@ -12282,7 +12282,7 @@
          <note>Currier's language B</note>
          <note>Light star, dotted, 7 points, tail</note>
          <line n="1" rendition="#At #P0">
-            <milestone unit="block" type="start"/>tchedol.dairor.pcheos.ytaiin.otody.yteeed.oteeodl.o@188;aiin.okarol</line>
+            <milestone unit="block" type="start"/>tchedol.dairor.pcheos.ytaiin.otody.yteeed.oteeodl.o¼aiin.okarol</line>
          <line n="2" rendition="#Ad #P0">deedar.qoteeddy.dair.o,kedy.okoeey.r,aiin.oor.cheed.ol.keeed.lkeeedam</line>
          <line n="3" rendition="#Ad #P0">ycheod<milestone unit="block" type="end"/>
          </line>
@@ -12443,7 +12443,7 @@
          </line>
          <note>Light star, dotted, 7 points, tail</note>
          <line n="18" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>dorkcheky.cheo,aiin.qotaiin.otody.qokalsheody.choypshedy.qoto.@189;shxam</line>
+            <milestone unit="block" type="start"/>dorkcheky.cheo,aiin.qotaiin.otody.qokalsheody.choypshedy.qoto.½shxam</line>
          <line n="19" rendition="#Ad #P0">o,sh<choice>
                <unclear>s</unclear>
                <unclear>?</unclear>
@@ -12548,7 +12548,7 @@
          </line>
          <note>Light star, 8 points, tail</note>
          <line n="22" rendition="#Ad #P0">
-            <milestone unit="block" type="start"/>psheody.chsho.tchdy.dar.chedy.okchdar.chdor.cheedy.<g>y@162;h</g>y.cheedy.qepchey.lkam</line>
+            <milestone unit="block" type="start"/>psheody.chsho.tchdy.dar.chedy.okchdar.chdor.cheedy.<g>y¢h</g>y.cheedy.qepchey.lkam</line>
          <line n="23" rendition="#Ad #P0">dchey,keey.qokeod.chody.qokcho.<choice>
                <unclear>s</unclear>
                <unclear>r</unclear>

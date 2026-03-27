@@ -52,7 +52,7 @@
     </xsl:template>
   
     <xsl:template match="comment">
-        <note type="outline">
+        <note type="inline">
             <xsl:apply-templates/>
         </note>
     </xsl:template>

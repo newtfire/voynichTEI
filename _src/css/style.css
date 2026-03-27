@@ -57,6 +57,22 @@ img {
   margin: 0px;
 }
 
+.corpus h2 {
+  text-align: left;
+  padding: 5px 0px 0px 10px;
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.corpus h3 {
+  text-align: left;
+  padding: 5px 0px 0px 10px;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0px;
+}
+
 .corpus p {
   padding: 10px;
 }
@@ -141,6 +157,11 @@ footer {
   padding: 10px 20px;
   text-align: center;
   margin-top: auto;
+}
+
+footer img {
+  margin: 0px 20px;
+  border-style: none;
 }
 
 .footer-row {
