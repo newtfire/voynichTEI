@@ -12,6 +12,7 @@
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
   <a href="methods.html">Methods</a>
+  <a href="instructions.html">Instructions</a>
   <a href="citations.html">Citations</a>
 </div>
 
@@ -19,58 +20,179 @@
     <h1>Methods</h1>
 </header>
 <div class="corpus">
-    <h1>Step 1: Gather Files</h1>
-    <p>Gather the files necessary for this project. All of these can be found on my <a href="https://github.com/newtfire/voynichTEI">GitHub Repo</a>, but if you would like to manually download them from their original source, feel free to do so below.</p>
+<h1>Goal</h1>
+<p>This project begins with a transliteration of the Voynich Manuscript and converts that transcription into a TEI-compliant XML file. The goal is not to produce a new transcription of the manuscript, but to formalize an existing transliteration in a machine-readable scholarly format that supports analysis, preservation, and reuse.</p>
+</div>
+<div class="corpus">
+<h1>Transformation Process</h1>
+<h2>File Preparation</h2>
+<p>I started by searching for any transliteration file on the Voynich Manuscript that I could find. While looking at the files on the <a href="https://www.voynich.nu/data/">https://www.voynich.nu/data/</a> site and reading through its README, I decided that using the <a href="https://www.voynich.nu/data/ZL3b-n.txt">ZL3b-n.txt</a> file would be the best, as it is a complete transliteration. It was last updated May 5, 2025, and uploaded to the website on June 4, 2025. The file is in an IVTFF 2.0 format, which stands for Intermediate Voynich MS Transliteration File Format. This file is also in the public domain.</p>
+<p>Here is a small sample of the formatting (This is not a direct copy of the file. It is just an example of the formatting):</p>
+<pre><code>&lt;f1r&gt;      &lt;! $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V&gt;
+# page 1
+# text only
+# Currier's Language A, hand 1
+#
+&lt;f1r.1,@P0&gt;       &lt;%&gt;fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy&lt;!@254;&gt;
+&lt;f1v.2,+P0&gt;       yteey.char.or.ochy&lt;-&gt;dcho.lkody.okodar.chody
+#
+#</code></pre>
+<p>This document <a href="https://www.voynich.nu/software/ivtt/IVTFF_format.pdf">IVTFF – Intermediate Voynich MS Transliteration File Format</a>, thoroughly explains the file format and its use. I looked this over and decided how it would transform into TEI.</p>
+<p>The following is how I determined what was what, and why I changed it the way I did.</p>
+<ul>
+    <li><code>&lt;f1r&gt;</code> → <code>&lt;surface n="f1r"&gt;</code>
     <ul>
-        <li><a href="https://www.voynich.nu/data/ZL3b-n.txt">ZL3b-n.txt</a> - A complete transliteration of the Voynich Manuscript in IVTFF 2.0 format.</li>
-        <li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/ixml/herbal.txt">herbal.txt</a> - Just the herbal section of the Transliteration</li>
-        <li><a href="https://www.voynich.nu/Fonts/EVA2.ttf">EVA2.tff</a> - Extensible Voynich Alphabet font</li>
-        <li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/python/replaceAscii.py">replaceAscii.py</a> - Replaces the ascii with unicode characters (you may need to change the file names depending on where you put your files for this to work)</li>
-        <li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/ixml/translit.ixml">translit.ixml</a> - An Invisible XML file that makes the IVTFF file into XML</li>
-        <li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/ixml/translitHerbal.ixml">translitHerbal.ixml</a> - An Invisible XML file for just the herbal section (herbal.txt)</li>
-        <li><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/xslt/ixmlOut-to-TEI.xsl">ixmlOut-to-TEI.xsl</a> - XSLT to transform herbal XML into proper TEI</li>
+        <li>In section 4.2, it describes how the page numbering works. Each page number is identified as f (for folio) followed by the folio number, then followed by r (recto) or v (verso).</li>
+        <li>I decided to make this a surface element, as according to the TEI website, a surface element "represents any two-dimensional space on some physical surface forming part of the source material, such as a piece of paper, a face of a monument, a billboard, a scroll, a leaf etc."</li>
     </ul>
-</div>
-<div class="corpus">
-    <h1>Step 2: Downloads</h1>
-    <p>This is a list of things I used in order to complete this project.</p>
+    </li>
+    <li><code>&lt;! &gt;</code> → <code>&lt;note type="inline"&gt;</code>
     <ul>
-        <li><a href="https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html?os=Windows">OxygenXML Editor</a></li>
-        <li><a href="https://www.jetbrains.com/pycharm/?source=google&medium=cpc&campaign=amer_en_us_est_pycharm_branded&term=pycharm&content=785237935139&gad_source=1&gad_campaignid=14127625430&gclid=CjwKCAjw687NBhB4EiwAQ645dpuecQzEsyA8-SytU0ErWbuCJxzVifV3OwpJaoTVVxdhp3a2vymErRoCLCwQAvD_BwE">PyCharm</a></li>
-        <li><a href="https://github.com/newtfire/textAnalysis-Hub/blob/main/Installations/ixml-xproc-InstallNotes-Win.md">Windows Installations</a> - Scroll to Markup Blitz and download that</li>
-        <li><a href="https://github.com/newtfire/textAnalysis-Hub/blob/main/Installations/ixml-xproc-InstallNotes-Mac.md">Mac Installations</a> - Scroll to Markup Blitz and download that</li>
+        <li>In section 5.7.2, inline comments start with the &lt;! characters, and is ended by the first appearance of a &gt;, which will be on the same line</li>
+        <li>I decided to make this a note element, as a note element can contain any annotation made within the document.</li>
     </ul>
+    </li>
+    <li><code>#</code> → <code>&lt;note&gt;</code>
+    <ul>
+        <li>In section 5.7.1, comment lines start with a # in the first position of a line.</li>
+        <li>I decided to make this a note element as well, but without an attribute, as this is just a normal comment line.</li>
+    </ul>
+    </li>
+    <li><code>&lt;f1r.1,@P0&gt;</code> → <code>&lt;line n="1" rendition="#At #P0"&gt;</code>
+    </li>
+</ul>
+</div>
+<div class="corpus"> 
+<h3>Python</h3>
+    <p>The IVTFF file uses high-ascii extensions, meaning this symbol <code>þ</code> shows up as <code>@254;</code>. We don't want the ascii code, we want the unicode version of it.</p> 
+    <p>The easiest solution to change all of these was through a python script that replaces the ascii with the unicode character, which you can look at <a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/python/replaceAscii.py">here</a>.</p>
+    <p>Here is a portion of the python file:</p>
+<pre><code>def replace_symbols(input_file, output_file):
+    replacements = {
+        '@128;': '€',
+        '@130;': '‚',
+        '@131;': 'ƒ',
+        '@132;': '„',
+        # Continues on.
+
+    with open(input_file, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    for old, new in replacements.items():
+        content = content.replace(old, new)
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(content)
+
+if __name__ == "__main__":
+    input_path = "../ixml/ZL3b-n.txt"
+    output_path = "../ixml/ZL3b-n_updated.txt"
+
+    replace_symbols(input_path, output_path)
+    print("Replacement complete.")
+</code></pre>
+<p>Now the output from the example should look like this:</p>
+<pre><code>&lt;f1r&gt;      &lt;! $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V&gt;
+# page 1
+# text only
+# Currier's Language A, hand 1
+#
+&lt;f1r.1,@P0&gt;       &lt;%&gt;fachys.ykal.ar.ataiin.shol.shory.[cth:oto]res.y.kor.sholdy&lt;!þ&gt;
+&lt;f1v.2,+P0&gt;       yteey.char.or.ochy&lt;-&gt;dcho.lkody.okodar.chody
+#
+#</code></pre>
+<p>Something I considered after creating this file was potentially doing this in the Invisible XML file instead to make this have less steps. I am on the fence on if this would be beneficial or not, as it would add about 200 more lines to the grammar of the IXML, so maybe it is better to keep them separate.</p>
 </div>
 <div class="corpus">
-    <h1>Step 2.5: Python</h1>
-    <p>NOTE: This step is only if you plan to use the entire ZL3b-n.txt document and not just the herbal section. If you are only using the herbal section, feel free to skip this, as the herbal.txt file already did this for you!</p>
-    <p>In PyCharm, create a VoynichTEI project if using the VoynichTEI from GitHub, and open replaceAscii.py (located inside the Python directory if using VoynichTEI).</p>
-    <p>If you are not using the VoynichTEI from GitHub, you may need to change the input and output filenames.</p>
-    <p>Run the file, and you should now have a ZL3b-n_updated.txt file!</p>
+    <h3>Invisible XML</h3>
+    <p>Due to the standard structure of the IVTFF Format, I opted to use Invisible XML in order to transform the format into an XML file. Originally, I attemted to use a Python script to do this, but it proved to be much more complicated than an Invisible XML grammar.</p>
+    <p>In order to get Invisible XML to work, I had to write the following grammar. This all takes the formatting from the IVTFF and changes it into an XML file. For example, this file takes the <code>&lt;-&gt;</code> and changes it into <code>&lt;figure/&gt;</code>.</p>
+    <pre><code>sourceDoc: droppedPrelude?, surface+.
+-droppedPrelude: firstNote, note, note, dumbHash.
+firstNote: -"#", -noteBody, -newline.
+surface: (surfaceN; surfaceNros), extraInfo, comment, newline, (note; dumbHash; line)*.
+@surfaceNros: lab, "f", "R", "o", "s", rab.
+@surfaceN: lab, "f", [N]+, ["r";"v"], [N]*, rab.
+-extraInfo: (space; AnyNotSpace)*.
+note: -"#", space, noteBody, newline.
+-noteBody: noteChar*.
+-noteChar: ~[#d;#a].
+line: (lineN; lineNros), rendition, lineBody, newline.
+@lineNros: -lab, -"f", -"R", -"o", -"s", -".", [N]+, -",".
+@lineN: -lab, -"f", -[N]+, -["r";"v"], -[N]*, -".", [N]+, -",".
+@rendition: (at;ad;as;aq;an;am;al;ax), +"#", ["A"-"Z"], ["0";"1";"a"-"z"], -rab.
+-lineBody: (space; comment; figure; milestone-start; milestone-end; ligature; choice; unclear; plainChar; dumbHand)+.
+comment: -"<", -"!", commentChar*, -">".
+-commentChar: ~[#d;#a;">"].
+figure: -"<", (-"-"; -"~"), -">".
+ligature: -"{", plainChar+, -"}".
+milestone-start: -"<", -"%", -">".
+milestone-end:-"<", -"$", -">".
+unclear: "?".
+choice: -"[", unclearAlt?, ( -":", unclearAlt?)+, -"]".
+unclearAlt: (ligature; choiceChar)+.
+-choiceChar: ~[#d;#a;#20;"<";"[";"]";":";"{";"}"].
+-dumbHand: -"<", -"@", -"H", -"=", -[N], -">".
+-at: -"@",+"#At ".
+-ad: -"+",+"#Ad ".
+-as: -"*",+"#As ".
+-aq: -"=",+"#Aq ".
+-an: -"&",+"#An ".
+-am: -"~",+"#Am ".
+-al: -"/",+"#Al ".
+-ax: -"!",+"#Ax ".
+-lab: -["<"].
+-rab: -[">"].
+-space: -[#20].
+-keepSpace: [#20].
+-newline: -#d?, -#a.
+-AnyNotSpace: ~[#d;#a;#20].
+-NotSpace: ~[#d;#a;#20;"<"].
+-plainChar: ~[#d;#a;#20;"<";"{";"}";"[";"]";":";"?"].
+-dumbHash: -"#", -newline.</code></pre>
+<p>Now the file example should look like this:</p>
+<pre><code>&lt;sourceDoc&gt;
+   &lt;surface surfaceN="f1r"&gt;
+      &lt;comment&gt; $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V&lt;/comment&gt;
+      &lt;note&gt;page 1&lt;/note&gt;
+      &lt;note&gt;text only&lt;/note&gt;
+      &lt;note&gt;Currier's Language A, hand 1&lt;/note&gt;
+      &lt;line lineN="1" rendition="#At #P0"&gt;
+         &lt;milestone-start/&gt;fachys.ykal.ar.ataiin.shol.shory.&lt;choice&gt;
+            &lt;unclearAlt&gt;cth&lt;/unclearAlt&gt;
+            &lt;unclearAlt&gt;oto&lt;/unclearAlt&gt;
+         &lt;/choice&gt;res.y.kor.sholdy&lt;comment&gt;þ&lt;/comment&gt;
+      &lt;/line&gt;
+      &lt;line lineN="2" rendition="#Ad #P0"&gt;yteey.char.or.ochy&lt;figure/&gt;dcho.lkody.okodar.chody&lt;/line&gt;
+   &lt;/surface&gt;
+&lt;/sourceDoc&gt;
+</code></pre>
 </div>
 <div class="corpus">
-    <h1>Step 3: Invisible XML</h1>
-    <p>Once you've downloaded the files, OxygenXML Editor, and the installations, go into your Bash shell and go to the VoynichTEI directory (or wherever you downloaded your files)</p>
-    <p>If you are using the VoynichTEI directory, type <code>cd ixml</code> to go into the ixml directory.</p>
-    <p>To get an output on the entire ZL3b-n document, in your shell, type the following:</p>
-    <pre><code>blitz translit.ixml ZL3b-n_updated.txt > outputXML.xml</code></pre>
-    <p>If you just want the herbal section instead, type the following:</p>
-    <pre><code>blitz translitHerbal.ixml herbal.txt > outputXML.xml</code></pre>
-    <p>This sends the text documents through the invisible xml file and makes it into an XML file!</p>
+    <h3>XSLT</h3>
+    <p>In order to make this a proper TEI file, I had to run the output of the Invisible XML file through XSLT. This is because it changes the elements and attribute names when given. For example, this XSLT changes <code>&lt;comment&gt;</code> to <code>&lt;note type="outline"&gt;</code>, and <code>lineN="1"</code> to <code>n="1"</code></p>
+    <p>You can view the whole file <a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/xslt/ixmlOut-to-TEI.xsl">here</a>.</p>
+    <p>Now the output should look like this:</p>
+<pre><code>&lt;sourceDoc&gt;
+   &lt;surface n="f1r"&gt;
+      &lt;note type="outline"&gt; $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V&lt;/comment&gt;
+      &lt;note&gt;page 1&lt;/note&gt;
+      &lt;note&gt;text only&lt;/note&gt;
+      &lt;note&gt;Currier's Language A, hand 1&lt;/note&gt;
+      &lt;line n="1" rendition="#At #P0"&gt;
+         &lt;milestone unit="block" type="start"/&gt;fachys.ykal.ar.ataiin.shol.shory.&lt;choice&gt;
+            &lt;unclearAlt&gt;cth&lt;/unclearAlt&gt;
+            &lt;unclearAlt&gt;oto&lt;/unclearAlt&gt;
+         &lt;/choice&gt;res.y.kor.sholdy&lt;comment&gt;þ&lt;/comment&gt;
+      &lt;/line&gt;
+      &lt;line n="2" rendition="#Ad #P0"&gt;yteey.char.or.ochy&lt;figure/&gt;dcho.lkody.okodar.chody&lt;/line&gt;
+   &lt;/surface&gt;
+&lt;/sourceDoc&gt;
+</code></pre>
 </div>
 <div class="corpus">
-    <h1>Step 4: XSLT</h1>
-    <p>Now we need to send the output XML file through an XSLT file. You will need OxygenXML to do this.</p>
-    <p>Open your outputXML.xml file and the ixmlOut-to-TEI.xsl document in Oxygen.</p>
-    <p>Switch to the XSLT Debugger Perspective, which is located at the top right of the screen:</p>
-    <img src="img/methods_XSLTDebuggerPerspective.png">
-    <p>In the top left corner, put <code>outputXML.xml</code> in the XML input, and <code>ixmlOut-to-TEI.xsl</code> in the XSL input like so:</p>
-    <img src="img/methods_whatToPut.png">
-    <p>When you are ready, put the filepath to where you would like your output file saved. Here, I just wrote <code>outputTEI.xml</code> as an example:</p>
-    <img src="img/methods_output.png">
-    <p>Press the run button:</p>
-    <img src="img/methods_RunButton.png">
-    <p>Now you have it as a proper TEI file!</p>
+    <h1>EVA Font</h1>
+    <p>This file uses the Eva font, which was designed by Gabriel Landini. I should note that commerical use of this font is frowned upon, and should only be used for private use. The font was updated in 2025, and can be downloaded <a href="https://www.voynich.nu/Fonts/EVA2.ttf">here</a>.</p>
 </div>
 
 
@@ -94,6 +216,9 @@
                 </li>
                 <li>
                     <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="instructions.html">Instructions</a>
                 </li>
                 <li>
                     <a href="citations.html">Citations</a>
