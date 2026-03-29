@@ -6073,7 +6073,7 @@
 # page 193
 # herbal
 # Currier's language B, hand 5
-# Plant ID: Botriculum (Lunaria? Mondform?}
+# Plant ID: Botriculum (Lunaria? Mondform?)
 #
 <f94r.1,@P0>      <%>tchedy.opaiir.chedaiin.dsheedy.qopchedal.keodaiin.otalaiin.oar
 <f94r.2,+P0>      dor.cheody.okaiin.odor.okal.okair.oky.daiir.qotar.okar.olaiin
@@ -6998,7 +6998,7 @@
 # Currier's language B, hand Y
 #
 # Light star, dotted, 8 points, tail
-<f105r.1,@P0>     <%>Çaiin,dar.chcphy.qokeey.qopaiin.ypcheeey.saraisl.aiin.cheedy.[?:k]aiin.arody
+<f105r.1,@P0>     <%>Çaiin,dar.chcphy.qokeey.qopaiin.ypcheeey.saraisl.aiin.cheedy.[?:k]aiin.arody
 <f105r.2,+P0>     dshees.yey.cheey.raiin.otchdy.qodor.ches.or.cheey.okees.odar.cheody,qody
 <f105r.3,+P0>     olshey.qod[en:a'].odeey.kcheody.cheeo.ar.yteey.ytchy.otedy.qokeedy.qokeey.rol
 <f105r.4,+P0>     ykaiin.olkeedy.odaiin.okar.eeeodaiin.yteey.ochedy.[q:?]okeeey.oy.teedy.qotam

@@ -29,7 +29,7 @@ A TEI analysis of the Voynich Manuscript
 
 ---
 
-## Methods
+## Instructions
 ### Step 1: Gather Files
 Clone this repo onto your computer by doing the following:
 ```
@@ -53,17 +53,13 @@ Run the file, and you should now have a ZL3b-n_updated.txt file (Located [here](
 ## Step 3: Invisible XML
 Go into your Bash shell and go to the VoynichTEI directory
 
-Type the following into your Git Bash shell to go into your ixml directory:
-```
-cd ixml
-```
 To get an output on the entire ZL3b-n document, in your shell, type the following:
 ```
-blitz translit.ixml ZL3b-n_updated.txt > outputXML.xml
+blitz ixml/translit.ixml transliterationFiles/ZL3b-n_updated.txt > xml/outputXML.xml
 ```
 If you just want the herbal section instead, type the following:
 ```
-blitz translitHerbal.ixml herbal.txt > outputXML.xml
+blitz ixml/translitHerbal.ixml transliterationFiles/herbal.txt > xml/outputXMLherbal.xml
 ```
 This sends the text documents through the invisible xml file and makes it into an XML file!
 
@@ -76,7 +72,7 @@ Switch to the XSLT Debugger Perspective, which is located at the top right of th
 
 ![_src/img/methods_XSLTDebuggerPerspective.png](_src/img/methods_XSLTDebuggerPerspective.png)
 
-In the top left corner, put `outputXML.xml` in the XML input, and `ixmlOut-to-TEI.xsl` in the XSL input like so:
+In the top left corner, put `outputXML.xml` or `outputXMLherbal.xml` in the XML input, and `ixmlOut-to-TEI.xsl` in the XSL input like so:
 
 ![_src/img/methods_whatToPut.png](_src/img/methods_whatToPut.png)
 

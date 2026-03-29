@@ -130,8 +130,8 @@ def replace_symbols(input_file, output_file):
         f.write(content)
 
 if __name__ == "__main__":
-    input_path = "../ixml/ZL3b-n.txt"
-    output_path = "../ixml/ZL3b-n_updated.txt"
+    input_path = "../transliterationFiles/ZL3b-n.txt"
+    output_path = "../transliterationFiles/ZL3b-n_updated.txt"
 
     replace_symbols(input_path, output_path)
     print("Replacement complete.")

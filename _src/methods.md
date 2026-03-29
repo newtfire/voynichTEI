@@ -56,8 +56,8 @@ permalink: "methods.html"
 <div class="corpus"> 
 <h3>Python</h3>
     <p>The IVTFF file uses high-ascii extensions, meaning this symbol <code>þ</code> shows up as <code>@254;</code>. We don't want the ascii code, we want the unicode version of it.</p> 
-    <p>The easiest solution to change all of these was through a python script that replaces the ascii with the unicode character, which you can look at <a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/python/replaceAscii.py">here</a>.</p>
-    <p>Here is a portion of the python file:</p>
+    <p>The easiest solution to change all of these was through a Python script that replaces the ascii with the unicode character, which you can look at <a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/python/replaceAscii.py">here</a>.</p>
+    <p>Here is a portion of the Python file:</p>
 
 <pre><code>def replace_symbols(input_file, output_file):
     replacements = {
@@ -95,12 +95,12 @@ if __name__ == "__main__":
 #
 #</code></pre>
 
-<p>Something I considered after creating this file was potentially doing this in the Invisible XML file instead to make this have less steps. I am on the fence on if this would be beneficial or not, as it would add about 200 more lines to the grammar of the IXML, so maybe it is better to keep them separate.</p>
+<p>Something I considered after creating this file was potentially doing this in the Invisible XML file instead to make this have less steps. I am on the fence on if this would be beneficial or not, as it would add about 200 more lines to the grammar of the IXML, so maybe it is better to keep them separate. More on this in the next section.</p>
 </div>
 
 <div class="corpus">
     <h3>Invisible XML</h3>
-    <p>Due to the standard structure of the IVTFF Format, I opted to use Invisible XML in order to transform the format into an XML file. Originally, I attemted to use a Python script to do this, but it proved to be much more complicated than an Invisible XML grammar.</p>
+    <p>Due to the standard structure of the IVTFF Format, I opted to use <a href="invisiblexml.org">Invisible XML</a> in order to transform the format into an XML file. Originally, I attemted to use a Python script to do this, but it proved to be much more complicated than an Invisible XML grammar.</p>
     <p>In order to get Invisible XML to work, I had to write the following grammar. This all takes the formatting from the IVTFF and changes it into an XML file. For example, this file takes the <code>&lt;-&gt;</code> and changes it into <code>&lt;figure/&gt;</code>.</p>
     <pre><code>sourceDoc: droppedPrelude?, surface+.
 -droppedPrelude: firstNote, note, note, dumbHash.
