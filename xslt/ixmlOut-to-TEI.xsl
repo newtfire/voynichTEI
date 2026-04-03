@@ -68,13 +68,13 @@
     </xsl:template>
     
     <xsl:template match="@surfaceN">
-        <xsl:attribute name="n">
+        <xsl:attribute name="xml:id">
             <xsl:value-of select="."/>
         </xsl:attribute>
     </xsl:template>
     
     <xsl:template match="@surfaceNros">
-        <xsl:attribute name="n">
+        <xsl:attribute name="xml:id">
             <xsl:value-of select="."/>
         </xsl:attribute>
     </xsl:template>

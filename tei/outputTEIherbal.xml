@@ -120,7 +120,7 @@
       </profileDesc>
    </teiHeader>
    <sourceDoc>
-      <surface n="f1v">
+      <surface xml:id="f1v">
          <note type="inline"> $Q=A $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
          <note>page 2</note>
          <note>herbal</note>
@@ -150,7 +150,7 @@
          <line n="10" rendition="#Ad #P0">taor.chotchey.dal.chody<figure/>schody.pol.chodar<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f2r">
+      <surface xml:id="f2r">
          <note type="inline"> $Q=A $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 3</note>
          <note>herbal</note>
@@ -179,7 +179,7 @@
          <line n="14" rendition="#At #Lp">ytoail</line>
          <line n="15" rendition="#At #L0">ios.an.on</line>
       </surface>
-      <surface n="f2v">
+      <surface xml:id="f2v">
          <note type="inline"> $Q=A $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1 $X=O</note>
          <note>page 4</note>
          <note>herbal</note>
@@ -199,7 +199,7 @@
          <line n="8" rendition="#Ad #P0">chokoishe.chor.cheol.chol.dolody<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f3r">
+      <surface xml:id="f3r">
          <note type="inline"> $Q=A $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 5</note>
          <note>herbal</note>
@@ -235,7 +235,7 @@
          <line n="20" rendition="#Ad #P0">ycheor.chol.odaiin.chol.s.aiin.okol,or.am<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f3v">
+      <surface xml:id="f3v">
          <note type="inline"> $Q=A $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 6</note>
          <note>Currier's language A, hand 1</note>
@@ -265,7 +265,7 @@
          <line n="14" rendition="#Ad #P0">dain.sheam.y,keam<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f4r">
+      <surface xml:id="f4r">
          <note type="inline"> $Q=A $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C</note>
          <note>page 7</note>
          <note>herbal</note>
@@ -293,7 +293,7 @@
          <line n="13" rendition="#Ad #P0">daiin.cthey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f4v">
+      <surface xml:id="f4v">
          <note type="inline"> $Q=A $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 8</note>
          <note>herbal</note>
@@ -325,7 +325,7 @@
          <line n="14" rendition="#Ad #P0">ochody.chy,key.chtody<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f5r">
+      <surface xml:id="f5r">
          <note type="inline"> $Q=A $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 9</note>
          <note>herbal</note>
@@ -348,7 +348,7 @@
          <line n="7" rendition="#Ad #P0">qotoeey.keey.cheo,kchy.shody<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f5v">
+      <surface xml:id="f5v">
          <note type="inline"> $Q=A $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 10</note>
          <note>herbal</note>
@@ -364,7 +364,7 @@
          <line n="6" rendition="#Ad #P0">otol.chol.dairodg<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f6r">
+      <surface xml:id="f6r">
          <note type="inline"> $Q=A $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 11</note>
          <note>herbal</note>
@@ -395,7 +395,7 @@
          <line n="14" rendition="#Ad #P0">ysho.taiin.y,kaiim<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f6v">
+      <surface xml:id="f6v">
          <note type="inline"> $Q=A $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 12</note>
          <note>herbal</note>
@@ -443,7 +443,7 @@
          <line n="21" rendition="#Ad #P0">ycheor.chor.octham<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f7r">
+      <surface xml:id="f7r">
          <note type="inline"> $Q=A $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 13</note>
          <note>herbal</note>
@@ -465,7 +465,7 @@
          <line n="10" rendition="#Ad #P0">s,chain.chor.daiin.chckhy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f7v">
+      <surface xml:id="f7v">
          <note type="inline"> $Q=A $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 14</note>
          <note>herbal</note>
@@ -490,7 +490,7 @@
          <line n="9" rendition="#Ad #P0">sho.keeo.daiir.chokchy.dor.deol.dy<figure/>dol,daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f8r">
+      <surface xml:id="f8r">
          <note type="inline"> $Q=A $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 15</note>
          <note>herbal</note>
@@ -543,7 +543,7 @@
          <line n="21" rendition="#Aq #Pt">schol.saim<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f8v">
+      <surface xml:id="f8v">
          <note type="inline"> $Q=A $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 16</note>
          <note>herbal</note>
@@ -575,7 +575,7 @@
          <line n="17" rendition="#Ad #P0">dain.chear.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f9r">
+      <surface xml:id="f9r">
          <note type="inline"> $Q=B $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 17</note>
          <note>herbal</note>
@@ -608,7 +608,7 @@
             </choice>.oraiin.chkor<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f9v">
+      <surface xml:id="f9v">
          <note type="inline"> $Q=B $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
          <note>page 18</note>
          <note>herbal</note>
@@ -641,7 +641,7 @@
          <line n="12" rendition="#Ad #P0">chkaiin.ckhy.chor<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f10r">
+      <surface xml:id="f10r">
          <note type="inline"> $Q=B $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 19</note>
          <note>herbal</note>
@@ -670,7 +670,7 @@
          <line n="12" rendition="#Ad #P0">‡odaiin.daiin.qotchy.qotor<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f10v">
+      <surface xml:id="f10v">
          <note type="inline"> $Q=B $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 20</note>
          <note>herbal</note>
@@ -688,7 +688,7 @@
          <line n="7" rendition="#Ad #P0">qokol.chy,ky.chol,cheky.daiin.dain.chckhan<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f11r">
+      <surface xml:id="f11r">
          <note type="inline"> $Q=B $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 21</note>
          <note>herbal</note>
@@ -712,7 +712,7 @@
          <line n="7" rendition="#Ad #P0">qotchy.okchol.cthy.dy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f11v">
+      <surface xml:id="f11v">
          <note type="inline"> $Q=B $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 22</note>
          <note>herbal</note>
@@ -733,7 +733,7 @@
          </line>
          <note>Folio 12 is missing. Its stub is still visible.</note>
       </surface>
-      <surface n="f13r">
+      <surface xml:id="f13r">
          <note type="inline"> $Q=B $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 23</note>
          <note>herbal</note>
@@ -761,7 +761,7 @@
          <line n="10" rendition="#Ad #P0">sotchy.kchy.okorory<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f13v">
+      <surface xml:id="f13v">
          <note type="inline"> $Q=B $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 24</note>
          <note>herbal</note>
@@ -789,7 +789,7 @@
          <line n="10" rendition="#Ad #P0">y,ol.chy.kchey.kchor.dal<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f14r">
+      <surface xml:id="f14r">
          <note type="inline"> $Q=B $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 25</note>
          <note>herbal</note>
@@ -816,7 +816,7 @@
          <line n="13" rendition="#Ad #P0">sodaiin.chy.kchy.kchy.ykeody<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f14v">
+      <surface xml:id="f14v">
          <note type="inline"> $Q=B $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 26</note>
          <note>herbal</note>
@@ -837,7 +837,7 @@
          <line n="9" rendition="#Ad #P0">dykchy.ctholdg<figure/>dchckhy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f15r">
+      <surface xml:id="f15r">
          <note type="inline"> $Q=B $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 27</note>
          <note>herbal</note>
@@ -861,7 +861,7 @@
          <line n="15" rendition="#Ad #P0">qotchor.chaiin.chy,kol.daky<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f15v">
+      <surface xml:id="f15v">
          <note type="inline"> $Q=B $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 28</note>
          <note>herbal</note>
@@ -893,7 +893,7 @@
          <line n="12" rendition="#Ad #P0">daiin.cthor.chol.chor<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f16r">
+      <surface xml:id="f16r">
          <note type="inline"> $Q=B $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 29</note>
          <note>herbal</note>
@@ -927,7 +927,7 @@
             </choice>or.dl.dy.shey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f16v">
+      <surface xml:id="f16v">
          <note type="inline"> $Q=B $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 30</note>
          <note>herbal</note>
@@ -959,7 +959,7 @@
          <line n="13" rendition="#Ad #P0">sokar.oaorar<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f17r">
+      <surface xml:id="f17r">
          <note type="inline"> $Q=C $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=O</note>
          <note>page 31</note>
          <note>herbal</note>
@@ -993,7 +993,7 @@
          </line>
          <line n="13" rendition="#At #Lx">oteeeon.oiil</line>
       </surface>
-      <surface n="f17v">
+      <surface xml:id="f17v">
          <note type="inline"> $Q=C $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 32</note>
          <note>herbal</note>
@@ -1039,7 +1039,7 @@
             </choice>r.okeom<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f18r">
+      <surface xml:id="f18r">
          <note type="inline"> $Q=C $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 33</note>
          <note>herbal</note>
@@ -1072,7 +1072,7 @@
          <line n="14" rendition="#Ad #Pc">ychekch,y.kchaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f18v">
+      <surface xml:id="f18v">
          <note type="inline"> $Q=C $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 34</note>
          <note>herbal</note>
@@ -1095,7 +1095,7 @@
             <milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f19r">
+      <surface xml:id="f19r">
          <note type="inline"> $Q=C $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 35</note>
          <note>herbal</note>
@@ -1118,7 +1118,7 @@
          <line n="13" rendition="#Ad #P0">os,octhor.ytchor<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f19v">
+      <surface xml:id="f19v">
          <note type="inline"> $Q=C $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 36</note>
          <note>herbal</note>
@@ -1158,7 +1158,7 @@
          <line n="14" rendition="#Ad #Pr">otchol,cheaiin.cthol<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f20r">
+      <surface xml:id="f20r">
          <note type="inline"> $Q=C $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C</note>
          <note>page 37</note>
          <note>herbal</note>
@@ -1187,7 +1187,7 @@
          <line n="13" rendition="#Ad #P0">ochaiin.chor.chor,cheey.tchey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f20v">
+      <surface xml:id="f20v">
          <note type="inline"> $Q=C $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 38</note>
          <note>herbal</note>
@@ -1216,7 +1216,7 @@
          <line n="11" rendition="#Ad #P0">okoiin.chey.<g>Èph</g>ol.chory<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f21r">
+      <surface xml:id="f21r">
          <note type="inline"> $Q=C $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 39</note>
          <note>herbal</note>
@@ -1243,7 +1243,7 @@
          <line n="12" rendition="#Ad #P0">ykeey.chor.sheey.ysheol.chor.chol.daiin.chkaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f21v">
+      <surface xml:id="f21v">
          <note type="inline"> $Q=C $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 40</note>
          <note>herbal</note>
@@ -1259,7 +1259,7 @@
          <line n="8" rendition="#Ad #P0">cho.l.kchochaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f22r">
+      <surface xml:id="f22r">
          <note type="inline"> $Q=C $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 41</note>
          <note>herbal</note>
@@ -1302,7 +1302,7 @@
          <line n="13" rendition="#Ad #P0">dchor.dy,dain.qockhy.ykol,okain<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f22v">
+      <surface xml:id="f22v">
          <note type="inline"> $Q=C $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 42</note>
          <note>herbal</note>
@@ -1334,7 +1334,7 @@
          <line n="16" rendition="#Ad #Pc">saiinchy.daldalol<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f23r">
+      <surface xml:id="f23r">
          <note type="inline"> $Q=C $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 43</note>
          <note>herbal</note>
@@ -1373,7 +1373,7 @@
             </choice>.dalory<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f23v">
+      <surface xml:id="f23v">
          <note type="inline"> $Q=C $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 44</note>
          <note>herbal</note>
@@ -1402,7 +1402,7 @@
          <line n="12" rendition="#Ad #P0">ol,aiios.oloro.eeeoly<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f24r">
+      <surface xml:id="f24r">
          <note type="inline"> $Q=C $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 45</note>
          <note>herbal</note>
@@ -1433,7 +1433,7 @@
          <line n="20" rendition="#Ad #Pc">sam.chorly<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f24v">
+      <surface xml:id="f24v">
          <note type="inline"> $Q=C $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 46</note>
          <note>herbal</note>
@@ -1477,7 +1477,7 @@
          <line n="16" rendition="#Ad #P0">otchol.odaiim<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f25r">
+      <surface xml:id="f25r">
          <note type="inline"> $Q=D $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 47</note>
          <note>herbal</note>
@@ -1496,7 +1496,7 @@
          <line n="7" rendition="#Aq #Pt">dair.otaiir.otosy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f25v">
+      <surface xml:id="f25v">
          <note type="inline"> $Q=D $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 48</note>
          <note>herbal</note>
@@ -1515,7 +1515,7 @@
          <line n="7" rendition="#Ad #P0">o<g>c'o</g>.chkey.daiiol.daiin.shckh<figure/>orchaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f26r">
+      <surface xml:id="f26r">
          <note type="inline"> $Q=D $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 49</note>
          <note>herbal</note>
@@ -1537,7 +1537,7 @@
          <line n="10" rendition="#Ad #P0">shese.aiin.sheos.cheody<figure/>otal<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f26v">
+      <surface xml:id="f26v">
          <note type="inline"> $Q=D $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 50</note>
          <note>herbal</note>
@@ -1559,7 +1559,7 @@
          <line n="9" rendition="#Ad #P0">ysheey.okeshy.shody.peshy.todydy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f27r">
+      <surface xml:id="f27r">
          <note type="inline"> $Q=D $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 51</note>
          <note>herbal</note>
@@ -1590,7 +1590,7 @@
             </choice>chodeey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f27v">
+      <surface xml:id="f27v">
          <note type="inline"> $Q=D $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 52</note>
          <note>herbal</note>
@@ -1615,7 +1615,7 @@
          <line n="8" rendition="#Ad #P0">okshes.okchokshy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f28r">
+      <surface xml:id="f28r">
          <note type="inline"> $Q=D $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 53</note>
          <note>herbal</note>
@@ -1633,7 +1633,7 @@
          <line n="9" rendition="#Ad #P0">ytchol.deey.yteol.deaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f28v">
+      <surface xml:id="f28v">
          <note type="inline"> $Q=D $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 54</note>
          <note>herbal</note>
@@ -1660,7 +1660,7 @@
             </choice>.choly.dar<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f29r">
+      <surface xml:id="f29r">
          <note type="inline"> $Q=D $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 55</note>
          <note>herbal</note>
@@ -1684,7 +1684,7 @@
          <line n="9" rendition="#Ad #P0">qokshe.qor.chey.kor.cheod.ychom<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f29v">
+      <surface xml:id="f29v">
          <note type="inline"> $Q=D $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 56</note>
          <note>herbal</note>
@@ -1724,7 +1724,7 @@
          <line n="12" rendition="#Ad #P0">qekeochor.otchey.s,y<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f30r">
+      <surface xml:id="f30r">
          <note type="inline"> $Q=D $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 57</note>
          <note>herbal</note>
@@ -1756,7 +1756,7 @@
          <line n="13" rendition="#Ad #P0">chodaiin.chtchey.chear.shy,keey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f30v">
+      <surface xml:id="f30v">
          <note type="inline"> $Q=D $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 58</note>
          <note>herbal</note>
@@ -1785,7 +1785,7 @@
          <line n="11" rendition="#Ad #P0">sol.chokcheey.daiin.kchydy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f31r">
+      <surface xml:id="f31r">
          <note type="inline"> $Q=D $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 59</note>
          <note>herbal</note>
@@ -1827,7 +1827,7 @@
          <line n="16" rendition="#Ad #Pc">oteor.aiicthy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f31v">
+      <surface xml:id="f31v">
          <note type="inline"> $Q=D $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 60</note>
          <note>herbal</note>
@@ -1864,7 +1864,7 @@
          <line n="11" rendition="#Ad #P0">saiin.ar.ckheos.chedy.okeey.qoear.oraiin.cheam<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f32r">
+      <surface xml:id="f32r">
          <note type="inline"> $Q=D $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1 $X=C</note>
          <note>page 61</note>
          <note>herbal</note>
@@ -1898,7 +1898,7 @@
          <line n="19" rendition="#Ad #P0">dol.dchol.dan<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f32v">
+      <surface xml:id="f32v">
          <note type="inline"> $Q=D $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 62</note>
          <note>herbal</note>
@@ -1932,7 +1932,7 @@
          <line n="11" rendition="#Ad #P0">ol.sho.chy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f33r">
+      <surface xml:id="f33r">
          <note type="inline"> $Q=E $P=A $F=a $B=1 $I=H $L=B $H=2 $C=2</note>
          <note>page 63</note>
          <note>Currier's language B, hand 2</note>
@@ -1958,7 +1958,7 @@
          <line n="7" rendition="#Ad #P0">dar.chos.aiin.or.aiin.cheekaiin.okain.ar.okeeey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f33v">
+      <surface xml:id="f33v">
          <note type="inline"> $Q=E $P=B $F=a $B=1 $I=H $L=B $H=2 $C=2</note>
          <note>page 64</note>
          <note>Currier's language B, hand 2</note>
@@ -1985,7 +1985,7 @@
          <line n="11" rendition="#Ad #P0">tar.al.keey.oram<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f34r">
+      <surface xml:id="f34r">
          <note type="inline"> $Q=E $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 65</note>
          <note>Currier's language B, hand 2</note>
@@ -2033,7 +2033,7 @@
          <line n="15" rendition="#Ad #P0">sair.chekar.cheky.shek<figure/>cholchedy.qokedy.yk,cheolchcthy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f34v">
+      <surface xml:id="f34v">
          <note type="inline"> $Q=E $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 66</note>
          <note>Currier's language B, hand 2</note>
@@ -2068,7 +2068,7 @@
          <line n="11" rendition="#Ad #P0">yshos.ody.s.aiin.okey.okal,shedy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f35r">
+      <surface xml:id="f35r">
          <note type="inline"> $Q=E $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 67</note>
          <note>Currier's language A, hand 1</note>
@@ -2100,7 +2100,7 @@
          <line n="15" rendition="#Ad #P0">ochor.s.chiin.daiin.ytain<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f35v">
+      <surface xml:id="f35v">
          <note type="inline"> $Q=E $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 68</note>
          <note>Currier's language A, hand 1</note>
@@ -2134,7 +2134,7 @@
          <line n="21" rendition="#Ad #P0">doiin.chor.chor<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f36r">
+      <surface xml:id="f36r">
          <note type="inline"> $Q=E $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 69</note>
          <note>Currier's language A, hand 1</note>
@@ -2156,7 +2156,7 @@
          <line n="9" rendition="#Ad #P0">ytodaly.daiin.otaro<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f36v">
+      <surface xml:id="f36v">
          <note type="inline"> $Q=E $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 70</note>
          <note>Currier's language A, hand 1</note>
@@ -2194,7 +2194,7 @@
          <line n="14" rendition="#Ad #P1">soiin.chtain<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f37r">
+      <surface xml:id="f37r">
          <note type="inline"> $Q=E $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 71</note>
          <note>Currier's language A, hand 1</note>
@@ -2222,7 +2222,7 @@
          <line n="11" rendition="#Ad #P0">okchor.daiin.ckhy.dain.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f37v">
+      <surface xml:id="f37v">
          <note type="inline"> $Q=E $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 72</note>
          <note>Currier's language A, hand 1</note>
@@ -2265,7 +2265,7 @@
          <line n="23" rendition="#Ad #P0">yto.chol.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f38r">
+      <surface xml:id="f38r">
          <note type="inline"> $Q=E $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 73</note>
          <note>Currier's language A, hand 1</note>
@@ -2282,7 +2282,7 @@
          <line n="6" rendition="#Ad #P0">ysho.sho.kos<figure/>daiin.okoy.chochor.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f38v">
+      <surface xml:id="f38v">
          <note type="inline"> $Q=E $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 74</note>
          <note>Currier's language A, hand 1</note>
@@ -2302,7 +2302,7 @@
          <line n="8" rendition="#Ad #P0">o,aiin.char.chshol.chokaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f39r">
+      <surface xml:id="f39r">
          <note type="inline"> $Q=E $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 75</note>
          <note>Currier's language B, hand 2</note>
@@ -2350,7 +2350,7 @@
          <line n="16" rendition="#Ad #Pc">oteol.cholkal.qokal.dar.ykdy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f39v">
+      <surface xml:id="f39v">
          <note type="inline"> $Q=E $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 76</note>
          <note>Currier's language B, hand 2</note>
@@ -2386,7 +2386,7 @@
          <line n="14" rendition="#Ad #P0">tar,aiin.okaiin.cholody<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f40r">
+      <surface xml:id="f40r">
          <note type="inline"> $Q=E $P=O $F=z $B=1 $I=H $L=B $H=2 $C=2</note>
          <note>page 77</note>
          <note>Currier's language B, hand 2</note>
@@ -2419,7 +2419,7 @@
          <line n="11" rendition="#Ad #P0">toar.ykaiin.ory.dal<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f40v">
+      <surface xml:id="f40v">
          <note type="inline"> $Q=E $P=P $F=z $B=1 $I=H $L=B $H=2 $C=2</note>
          <note>page 78</note>
          <note>Currier's language B, hand 2</note>
@@ -2458,7 +2458,7 @@
          <line n="19" rendition="#Ad #Pc">pchedy.chetar.ofair.arody<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f41r">
+      <surface xml:id="f41r">
          <note type="inline"> $Q=F $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
          <note>page 79</note>
          <note>herbal</note>
@@ -2525,7 +2525,7 @@
          <line n="11" rendition="#Ad #P0">ykeod.ykeedy.chekeedy.cheked<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f41v">
+      <surface xml:id="f41v">
          <note type="inline"> $Q=F $P=B $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
          <note>page 80</note>
          <note>herbal</note>
@@ -2555,7 +2555,7 @@
          <line n="8" rendition="#Ad #P0">daiin.olkeeo.lkol,chedy.okeey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f42r">
+      <surface xml:id="f42r">
          <note type="inline"> $Q=F $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 81</note>
          <note>herbal</note>
@@ -2611,7 +2611,7 @@
          <line n="23" rendition="#Ad #Pr">okchol,shol.kolschees<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f42v">
+      <surface xml:id="f42v">
          <note type="inline"> $Q=F $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 82</note>
          <note>herbal</note>
@@ -2642,7 +2642,7 @@
          <line n="16" rendition="#Aq #Pt">okor.odeey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f43r">
+      <surface xml:id="f43r">
          <note type="inline"> $Q=F $P=E $F=c $B=3 $I=H $L=B $H=2 $C=2</note>
          <note>page 83</note>
          <note>herbal</note>
@@ -2678,7 +2678,7 @@
          <line n="14" rendition="#Ad #P0">ykeody.checkhy.choteey.odain.ch<g>ckhhh</g>y.chokoraiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f43v">
+      <surface xml:id="f43v">
          <note type="inline"> $Q=F $P=F $F=c $B=3 $I=H $L=B $H=2 $C=2</note>
          <note>page 84</note>
          <note>herbal</note>
@@ -2723,7 +2723,7 @@
          <line n="16" rendition="#Ad #P0">ol.eees.aiin.oloaiin.oteos.qoky.chey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f44r">
+      <surface xml:id="f44r">
          <note type="inline"> $Q=F $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 85</note>
          <note>herbal</note>
@@ -2751,7 +2751,7 @@
          <line n="11" rendition="#Ad #P0">ytsho.qockhy.okchody<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f44v">
+      <surface xml:id="f44v">
          <note type="inline"> $Q=F $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 86</note>
          <note>herbal</note>
@@ -2779,7 +2779,7 @@
          <line n="13" rendition="#Ad #P0">lchor.shol.dairl<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f45r">
+      <surface xml:id="f45r">
          <note type="inline"> $Q=F $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 87</note>
          <note>herbal</note>
@@ -2806,7 +2806,7 @@
          <line n="11" rendition="#Ad #P0">l.okaiin.okcho.laldan.daldaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f45v">
+      <surface xml:id="f45v">
          <note type="inline"> $Q=F $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 88</note>
          <note>herbal</note>
@@ -2843,7 +2843,7 @@
          <line n="11" rendition="#Ad #P0">or,chor.ytchy.doiin.dcholdy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f46r">
+      <surface xml:id="f46r">
          <note type="inline"> $Q=F $P=K $F=x $B=3 $I=H $L=B $H=2 $C=2</note>
          <note>page 89</note>
          <note>herbal</note>
@@ -2905,7 +2905,7 @@
             </choice>lkeody<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f46v">
+      <surface xml:id="f46v">
          <note type="inline"> $Q=F $P=L $F=x $B=3 $I=H $L=B $H=2 $C=2</note>
          <note>page 90</note>
          <note>herbal</note>
@@ -2939,7 +2939,7 @@
          <line n="13" rendition="#Ad #P1">ykar.chedy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f47r">
+      <surface xml:id="f47r">
          <note type="inline"> $Q=F $P=M $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 91</note>
          <note>herbal</note>
@@ -2967,7 +2967,7 @@
          <line n="11" rendition="#Ad #P0">dsho.cphy.daiin.daiiny<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f47v">
+      <surface xml:id="f47v">
          <note type="inline"> $Q=F $P=N $F=y $B=2 $I=H $L=A $H=1 $C=1</note>
          <note>page 92</note>
          <note>herbal</note>
@@ -3003,7 +3003,7 @@
          <line n="14" rendition="#Ad #P0">chol.<g>ct</g>chey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f48r">
+      <surface xml:id="f48r">
          <note type="inline"> $Q=F $P=O $F=z $B=1 $I=H $L=B $H=5 $C=2</note>
          <note>page 93</note>
          <note>herbal</note>
@@ -3024,7 +3024,7 @@
          <line n="9" rendition="#Ad #Pc">yteched.ar.olkey.okeoam<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f48v">
+      <surface xml:id="f48v">
          <note type="inline"> $Q=F $P=P $F=z $B=1 $I=H $L=B $H=5 $C=2</note>
          <note>page 94</note>
          <note>herbal</note>
@@ -3050,7 +3050,7 @@
             </choice>ary<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f49r">
+      <surface xml:id="f49r">
          <note type="inline"> $Q=G $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>herbal</note>
          <note>page 95</note>
@@ -3098,7 +3098,7 @@
             </choice>.chor.ety.shol<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f49v">
+      <surface xml:id="f49v">
          <note type="inline"> $Q=G $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=S</note>
          <note>page 96</note>
          <note>herbal</note>
@@ -3176,7 +3176,7 @@
          <line n="52" rendition="#Aq #P0">ykchokeo.r.cheey.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f50r">
+      <surface xml:id="f50r">
          <note type="inline"> $Q=G $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 97</note>
          <note>herbal</note>
@@ -3215,7 +3215,7 @@
          <line n="10" rendition="#Ad #P0">solkaiin<figure/>opalke,chckhy.darin.chky<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f50v">
+      <surface xml:id="f50v">
          <note type="inline"> $Q=G $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 98</note>
          <note>herbal</note>
@@ -3253,7 +3253,7 @@
          <line n="11" rendition="#Ad #P0">lchey.kar.ykchy.kchdy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f51r">
+      <surface xml:id="f51r">
          <note type="inline"> $Q=G $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 99</note>
          <note>herbal</note>
@@ -3311,7 +3311,7 @@
          <line n="15" rendition="#Ad #P0">qokol.cheor.ckhal.s.or.aldy<figure/>otal<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f51v">
+      <surface xml:id="f51v">
          <note type="inline"> $Q=G $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 100</note>
          <note>herbal</note>
@@ -3356,7 +3356,7 @@
          <line n="13" rendition="#Ad #P0">daiin.cheol.cheodain<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f52r">
+      <surface xml:id="f52r">
          <note type="inline"> $Q=G $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 101</note>
          <note>herbal</note>
@@ -3394,7 +3394,7 @@
             </choice>m.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f52v">
+      <surface xml:id="f52v">
          <note type="inline"> $Q=G $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 102</note>
          <note>herbal</note>
@@ -3439,7 +3439,7 @@
          <line n="14" rendition="#Ad #P0">odar.cheokor.ckheey<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f53r">
+      <surface xml:id="f53r">
          <note type="inline"> $Q=G $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 103</note>
          <note>herbal</note>
@@ -3474,7 +3474,7 @@
          <line n="9" rendition="#Ad #P0">otol.chol.ctheees.os.orol.chod.qoty<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f53v">
+      <surface xml:id="f53v">
          <note type="inline"> $Q=G $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1</note>
          <note>page 104</note>
          <note>herbal</note>
@@ -3501,7 +3501,7 @@
          <line n="13" rendition="#Ad #P0">yckhodaiin.otoldy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f54r">
+      <surface xml:id="f54r">
          <note type="inline"> $Q=G $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 105</note>
          <note>herbal</note>
@@ -3549,7 +3549,7 @@
          <line n="12" rendition="#Ad #P0">yor.shodal.o.aiin.al.dol.choek,air,o,ldam<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f54v">
+      <surface xml:id="f54v">
          <note type="inline"> $Q=G $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1</note>
          <note>page 106</note>
          <note>herbal</note>
@@ -3580,7 +3580,7 @@
          <line n="16" rendition="#Ad #P0">daiin.chol.oldaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f55r">
+      <surface xml:id="f55r">
          <note type="inline"> $Q=G $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 107</note>
          <note>herbal</note>
@@ -3634,7 +3634,7 @@
          <line n="13" rendition="#Ad #P0">lchdal.ockhy.daiin.otol.otar.shar,ain<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f55v">
+      <surface xml:id="f55v">
          <note type="inline"> $Q=G $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2</note>
          <note>page 108</note>
          <note>herbal</note>
@@ -3681,7 +3681,7 @@
             </choice>r.cheky.olkeechy.sl<figure/>ar.aiin.daiin.otam<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f56r">
+      <surface xml:id="f56r">
          <note type="inline"> $Q=G $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 109</note>
          <note>herbal</note>
@@ -3721,7 +3721,7 @@
          <line n="19" rendition="#Ad #P0">otchey.keol.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f56v">
+      <surface xml:id="f56v">
          <note type="inline"> $Q=G $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1</note>
          <note>page 110</note>
          <note>herbal</note>
@@ -3754,7 +3754,7 @@
          <line n="16" rendition="#Ad #P0">s,o,kchol.chol.chol.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f57r">
+      <surface xml:id="f57r">
          <note type="inline"> $Q=H $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2</note>
          <note>page 111</note>
          <note>herbal</note>
@@ -3794,7 +3794,7 @@
          <line n="11" rendition="#Ad #P0">dshedy.<g>ct</g>echy.cphedam<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f65r">
+      <surface xml:id="f65r">
          <note type="inline"> $Q=H $P=E $F=y $B=2 $I=H $H=3</note>
          <note>page 115</note>
          <note>herbal</note>
@@ -3802,7 +3802,7 @@
          <note>treated as a label.</note>
          <line n="1" rendition="#At #Lp">otaim,dam.alam</line>
       </surface>
-      <surface n="f65v">
+      <surface xml:id="f65v">
          <note type="inline"> $Q=H $P=F $F=y $B=2 $I=H $H=3</note>
          <note>page 116</note>
          <note>herbal</note>
@@ -3838,7 +3838,7 @@
          <line n="6" rendition="#Ad #P0">qo.ytchey.sh,<g>ckhh</g>cphy<figure/>ykchedy.chedy.shckhdy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f66v">
+      <surface xml:id="f66v">
          <note type="inline"> $Q=H $P=H $F=z $B=1 $I=H $L=B $H=5</note>
          <note>page 118</note>
          <note>herbal</note>
@@ -3896,7 +3896,7 @@
             </choice>dy.oty<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f87r">
+      <surface xml:id="f87r">
          <note type="inline"> $Q=O $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
          <note>page 175</note>
          <note>herbal</note>
@@ -3932,7 +3932,7 @@
             </choice>.cheol.dcheeol<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f87v">
+      <surface xml:id="f87v">
          <note type="inline"> $Q=O $P=B $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
          <note>page 180</note>
          <note>herbal</note>
@@ -3963,7 +3963,7 @@
             <milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f90r1">
+      <surface xml:id="f90r1">
          <note type="inline"> $Q=O $P=L $F=z $B=1 $I=H $L=A $H=1</note>
          <note>page 187</note>
          <note>herbal</note>
@@ -3987,7 +3987,7 @@
          <line n="9" rendition="#Ad #Pr">ykodar.qoekchy.shokol.okam<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f90r2">
+      <surface xml:id="f90r2">
          <note type="inline"> $Q=O $P=M $F=z $B=1 $I=H $L=A $H=1</note>
          <note>page 188</note>
          <note>herbal</note>
@@ -4005,7 +4005,7 @@
          <line n="6" rendition="#Ad #P0">daiin.qokor.okoiin.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f90v2">
+      <surface xml:id="f90v2">
          <note type="inline"> $Q=O $P=O $F=z $B=1 $I=H $L=A $H=1</note>
          <note>page 189</note>
          <note>herbal</note>
@@ -4043,7 +4043,7 @@
          <line n="8" rendition="#Ad #P0">teeas.qkeody.qokchy.oteeol.daiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f90v1">
+      <surface xml:id="f90v1">
          <note type="inline"> $Q=O $P=P $F=z $B=1 $I=H $L=A $H=1</note>
          <note>page 190</note>
          <note>herbal</note>
@@ -4074,7 +4074,7 @@
          </line>
          <note>folios  91-92 missing</note>
       </surface>
-      <surface n="f93r">
+      <surface xml:id="f93r">
          <note type="inline"> $Q=Q $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
          <note>page 191</note>
          <note>herbal</note>
@@ -4118,7 +4118,7 @@
          <line n="32" rendition="#Ad #P0">dol.chokal.schos<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f93v">
+      <surface xml:id="f93v">
          <note type="inline"> $Q=Q $P=B $F=a $B=1 $I=H $L=A $H=1 $C=4</note>
          <note>page 192</note>
          <note>herbal</note>
@@ -4151,7 +4151,7 @@
          <line n="10" rendition="#Ad #P0">ychol.chs.ckhy.s,cheeol<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f94r">
+      <surface xml:id="f94r">
          <note type="inline"> $Q=Q $P=C $F=b $B=2 $I=H $L=B $H=3 $C=5</note>
          <note>page 193</note>
          <note>herbal</note>
@@ -4172,7 +4172,7 @@
          <line n="9" rendition="#Ad #Pc">otar,chdy.dytchdy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f94v">
+      <surface xml:id="f94v">
          <note type="inline"> $Q=Q $P=D $F=b $B=2 $I=H $L=B $H=3 $C=5</note>
          <note>page 194</note>
          <note>herbal</note>
@@ -4196,7 +4196,7 @@
          <line n="12" rendition="#Ad #P0">daiin.chcthy.chdy.chckhy.okaiin<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f95r1">
+      <surface xml:id="f95r1">
          <note type="inline"> $Q=Q $P=F $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
          <note>page 195</note>
          <note>herbal</note>
@@ -4220,7 +4220,7 @@
          <line n="11" rendition="#Ad #P0">ykaiin.or.chdy.chekain.ol,dar.ykar.olkeey.ldar.chekal<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f95r2">
+      <surface xml:id="f95r2">
          <note type="inline"> $Q=Q $P=G $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
          <note>page 196</note>
          <note>herbal</note>
@@ -4239,7 +4239,7 @@
          <line n="9" rendition="#Ad #P0">poiin.okar.qokol.shsdy.okar.chdaiin.olky<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f95v2">
+      <surface xml:id="f95v2">
          <note type="inline"> $Q=Q $P=I $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
          <note>page 197</note>
          <note>herbal</note>
@@ -4258,7 +4258,7 @@
          <line n="7" rendition="#Ad #P0">qokeey.dar.chdykain<figure/>ytasal.otain<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f95v1">
+      <surface xml:id="f95v1">
          <note type="inline"> $Q=Q $P=J $F=y $B=2 $I=H $L=B $H=3 $C=5</note>
          <note>page 198</note>
          <note>herbal</note>
@@ -4287,7 +4287,7 @@
          <line n="13" rendition="#Ad #P0">lshee.qodain.okaiin.otody.chcthy<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f96r">
+      <surface xml:id="f96r">
          <note type="inline"> $Q=Q $P=K $F=z $B=1 $I=H $L=A $H=1 $C=4</note>
          <note>page 199</note>
          <note>herbal</note>
@@ -4313,7 +4313,7 @@
          <line n="13" rendition="#Ad #P0">oteodsho.qotchos<milestone unit="block" type="end"/>
          </line>
       </surface>
-      <surface n="f96v">
+      <surface xml:id="f96v">
          <note type="inline"> $Q=Q $P=L $F=z $B=1 $I=H $L=A $H=1 $C=4</note>
          <note>page 200</note>
          <note>herbal</note>

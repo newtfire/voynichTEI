@@ -201,7 +201,12 @@
          <note>page 2</note>
          <note>herbal</note>
          <note>Currier's language A, hand 1</note>
-         <note>Plant ID: uva lupi, aterpa belladonn[a], solatrum d[iv|w]ale, solanum nigrum=morella</note>
+         <!-- 2026-04-02 hjb: I am not sure what uva lupi is supposed to be -->
+         <!-- 2026-04-02 hjb: Aterpa belladonn[a] is supposed to be Atropa bella-donna, which is a type of nightshade -->
+         <!-- 2026-04-02 hjb: Solatrum could be Solanum, which is a type of nightshade -->
+         <!-- 2026-04-02 hjb: Dwale is Solanum Laethale, which is a type of nightshade -->
+         <!-- 2026-04-02 hjb: Solanum Nigrum and Morella are the names of Black Nightshade -->
+         <note>Plant ID: uva lupi, <name ref="#belladonna">aterpa belladonn[a], solatrum d[iv|w]ale</name>, solanum nigrum=morella</note>
          <note>Ref: Fuchs p.398, Fischer p.17</note>
          <note>Same plant as f102r1[3,2] (Petersen, Stolfi)</note>
          <note>Two paragraphs of text, plant cutting through middle</note>

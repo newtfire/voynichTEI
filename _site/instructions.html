@@ -52,11 +52,10 @@
 <div class="corpus">
     <h1>Step 4: Invisible XML</h1>
     <p>Once you've downloaded the files, OxygenXML Editor, and the installations, go into your Bash shell and go to the VoynichTEI directory (or wherever you downloaded your files)</p>
-    <p>If you are using the VoynichTEI directory, type <code>cd ixml</code> to go into the ixml directory.</p>
     <p>To get an output on the entire ZL3b-n document, in your shell, type the following:</p>
-    <pre><code>blitz translit.ixml ZL3b-n_updated.txt > outputXML.xml</code></pre>
+    <pre><code>blitz ixml/translit.ixml transliterationFiles/ZL3b-n_updated.txt > xml/outputXML.xml</code></pre>
     <p>If you just want the herbal section instead, type the following:</p>
-    <pre><code>blitz translitHerbal.ixml herbal.txt > outputXML.xml</code></pre>
+    <pre><code>blitz ixml/translitHerbal.ixml transliterationFiles/herbal.txt > xml/outputXMLherbal.xml</code></pre>
     <p>This sends the text documents through the invisible xml file and makes it into an XML file!</p>
 </div>
 <div class="corpus">
