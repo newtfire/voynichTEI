@@ -21,6 +21,26 @@
       <body>
          <div type="voynich_team">
             <listPerson>
+               <person xml:id="ebb">
+                  <persName>
+                     <surname>Beshero-Bondar</surname>
+                     <forename>Elisa</forename>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>Program Chair, <ref
+                           target="https://behrend.psu.edu/school-of-humanities-social-sciences/academic-programs/digital-media-arts-and-technology"
+                           >Digital Media, Arts, and Technology (DIGIT)</ref>, Professor of Digital
+                        Humanities, and Director of the <ref target="https://newtfire.org">Digital
+                           Humanities Lab</ref> at <affiliation>Penn State Erie, The Behrend
+                           College</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>An active member of the Text Encoding Initiative (TEI), she has served since
+                     2016 on the <ref target="http://www.tei-c.org/Activities/Council/">TEI
+                        Technical Council</ref>, an eleven-member international committee that
+                     supervises amendments to the <ref target="https://tei-c.org/guidelines/P5/">TEI
+                        Guideline</ref>s.</note>
+               </person>
                <person xml:id="hjb">
                   <persName>
                      <surname>Bills</surname>
