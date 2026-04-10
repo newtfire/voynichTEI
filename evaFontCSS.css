@@ -28,6 +28,14 @@ figure {
     font-family: Arial, sans-serif;
 }
 
+graphic {
+    max-width: 300px;
+}
+
+person {
+    display: block;
+}
+
 note {
     display: inline;
 }
