@@ -55,18 +55,6 @@
          </div>
          <div type="voynich_people">
             <listPerson>
-               <person xml:id="eds">
-                  <persName>
-                     <surname>Sherwood</surname>
-                     <forename>Edith</forename>
-                     <roleName>Decoder</roleName>
-                  </persName>
-                  <note resp="#hjb">Author of many articles about the manuscript. Wrote an article
-                     on decoding the plants.</note>
-                  <note>
-                     <ptr target="https://voynichlanguage.fandom.com/wiki/Edith_Sherwood"/>
-                  </note>
-               </person>
                <person xml:id="hth">
                   <persName>
                      <surname>Holm</surname>
@@ -135,7 +123,7 @@
                      <graphic
                         url="https://collections.library.yale.edu/iiif/2/1006077/full/full/0/default.jpg"/>
                      <head>Illustration on f1v</head>
-                     <figDesc>Potentially <name ref="#belladonna">Atropa Bella-Donna</name>
+                     <figDesc>Potentially <name ref="#belladonna">Atropa Bella-Donna</name> or <name ref="#solanumNigrum">Solanum Nigrum</name>
                         suggested by <persName ref="#tcp">Theodore Petersen</persName>.</figDesc>
                   </figure>
                </item>
@@ -157,8 +145,7 @@
                            ref="#egyptianLotus">Egyptian Lotus</name> suggested by <persName
                            ref="#tcp">Petersen</persName>, or <name ref="#nymphoidesPeltata"
                            >Nymphoides Peltata</name> suggested by <persName ref="#rzn"
-                           >Zandbergen</persName> or <name ref="#waterlily">Waterlily</name>
-                        suggested by <persName ref="#eds">Sherwood</persName>.</figDesc>
+                           >Zandbergen</persName>.</figDesc>
                   </figure>
                </item>
                <item xml:id="f3r_il">
@@ -167,9 +154,7 @@
                         url="https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg"/>
                      <head>Illustration on f3r</head>
                      <figDesc>Potentially <name ref="#cretanDittany">Cretan Dittany</name>,
-                        suggested by <persName ref="#tcp">Petersen</persName>, or <name ref="#sage"
-                           >Sage</name> suggested by <persName ref="#eds"
-                        >Sherwood</persName></figDesc>
+                        suggested by <persName ref="#tcp">Petersen</persName>.</figDesc>
                   </figure>
                </item>
                <item xml:id="f3v_il">
@@ -177,63 +162,19 @@
                      <graphic
                         url="https://collections.library.yale.edu/iiif/2/1006081/full/full/0/default.jpg"/>
                      <head>Illustration on f3v</head>
-                     <figDesc>Potentially <name ref="#birdsFoot">Bird’s foot trefoil</name>,
-                        suggested by <persName ref="#eds">Sherwood</persName>.</figDesc>
+                     <figDesc><name ref="#unknown">Unknown</name>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f4r_il">
+                  <figure>
+                     <graphic
+                        url="https://collections.library.yale.edu/iiif/2/1006082/full/full/0/default.jpg"/>
+                     <head>Illustration on f4r</head>
+                     <figDesc>Potentially Hypericum or Centaurium Erythaea, suggested by O'Neill</figDesc>
                   </figure>
                </item>
             </list>
             <list sortKey="plants">
-               <item xml:id="acanthus">
-                  <name>Acanthus</name>
-                  <name type="genus">Acanthus</name>
-                  <name type="family">Acanthaceae</name>
-                  <name>
-                     <addName type="typescript">ckhaiin</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f6r">f6r</ref>, and the text is also
-                     located in f15r and f42r. Suggested by <name ref="#eds">Edith
-                     Sherwood</name>.</note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Acanthus"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="alkanet">
-                  <name>Alkanet</name>
-                  <name type="genus">Alkanna</name>
-                  <name type="family">Boraginaceae</name>
-                  <name>
-                     <addName type="typescript">shor</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f8v">f8v</ref>, and is located in the
-                     text almost 91 times. Suggested by <name ref="#eds">Edith
-                     Sherwood</name>.</note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Alkanna"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="bayLaurel">
-                  <name>Bay Laurel</name>
-                  <name type="genus">Laurus</name>
-                  <name type="species">Laurus nobilis</name>
-                  <name type="family">Lauraceae</name>
-                  <name>
-                     <addName type="typescript">shotch</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f7v">f7v</ref>. Suggested by <name
-                        ref="#eds">Edith Sherwood</name>.</note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Laurus_nobilis"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
                <item xml:id="belladonna">
                   <name>Atropa Bella-Donna</name>
                   <name type="genus">Atropa</name>
@@ -251,6 +192,7 @@
                   <name>
                      <addName>Dwale</addName>
                   </name>
+                  <desc resp="#hjb">A toxic perennial herbaceous plant native to Europe, North Africa, and Western Asia.</desc>
                   <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
                   <note>
                      <ptr target="https://plants.ces.ncsu.edu/plants/atropa-bella-donna/"/>
@@ -258,48 +200,25 @@
                      <ptr target="https://www.gbif.org/species/144096243"/>
                   </note>
                </item>
-               <item xml:id="birdsFoot">
-                  <name>Bird's-Foot Trefoil</name>
-                  <name type="genus">Lotus</name>
-                  <name type="species">Lotus corniculatus</name>
-                  <name type="family">Fabaceae</name>
-                  <name>
-                     <addName type="typescript">ckhol.ykoaiin.s</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f3v">f3v</ref>. Suggested by <name
-                        ref="#eds">Edith Sherwood</name>.</note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Lotus_corniculatus"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="butterbur">
-                  <name>Butterbur</name>
-                  <name type="species">Petasites Hybridus</name>
-                  <name type="family">Asteraceae</name>
-                  <name>
-                     <addName type="typescript">shor.opchy.shol</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f13r">f13r</ref>. Suggested by <name
-                        ref="#eds">Edith Sherwood</name>.</note>
-                  <note>
-                     <ptr
-                        target="https://species.wikimedia.org/wiki/Petasites_hybridus_subsp._hybridus"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
-               </item>
                <item xml:id="colocasia">
                   <name>Colocasia</name>
                   <name type="genus">Colocasia</name>
                   <name type="family">Araceae</name>
+                  <name>
+                     <addName>Dasheen</addName>
+                  </name>
+                  <name>
+                     <addName>Elephant's-ear</addName>
+                  </name>
+                  <name>
+                     <addName>Taro</addName>
+                  </name>
+                  <desc resp="#hjb">Plant with massive leaves originating in Southeastern Asia</desc>
                   <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Colocasia_Schott"/>
                      <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/colocasia/"/>
                   </note>
                </item>
                <item xml:id="cornflower">
@@ -307,25 +226,18 @@
                   <name type="genus">Centaurea</name>
                   <name type="species">Centaurea cyanus</name>
                   <name type="family">Asteraceae</name>
+                  <name>
+                     <addName>Bachelor's Button</addName>
+                  </name>
+                  <name>
+                     <addName>Bluebottle</addName>
+                  </name>
+                  <desc resp="#hjb">Grow as a weed in fields. Blue flowers.</desc>
                   <note resp="#hjb">Located in <ref target="#f2r">f2r</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Centaurea_cyanus"/>
                      <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
-                  </note>
-               </item>
-               <item xml:id="cranesBill">
-                  <name>Crane's-bill</name>
-                  <name type="genus">Geranium</name>
-                  <name type="family">Geraniaceae</name>
-                  <name>
-                     <addName type="typescript">dain.otchy</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f23r">f23r</ref>.</note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Geranium"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
+                     <ptr target="https://plants.ces.ncsu.edu/plants/centaurea-cyanus/"/>
                   </note>
                </item>
                <item xml:id="cretanDittany">
@@ -333,10 +245,12 @@
                   <name type="genus">Origanum</name>
                   <name type="species">Origanum dictamnus</name>
                   <name type="family">Lamiaceae</name>
+                  <desc resp="#hjb">A bushy sub-shrub with aromatic foliage native to rocky slopes on the mountains of Crete.</desc>
                   <note resp="#hjb">Located in <ref target="#f3r">f3r</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Origanum_dictamnus"/>
                      <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
+                     <ptr target="https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281581"/>
                   </note>
                </item>
                <item xml:id="egyptianLotus">
@@ -344,80 +258,16 @@
                   <name type="genus">Nymphaea</name>
                   <name type="species">Nymphaea lotus</name>
                   <name type="family">Nymphaeaceae</name>
+                  <name>
+                     <addName>White Lotus</addName>
+                  </name>
+                  <desc resp="#hjb">A robust night-blooming aquatic perennial plant that floats on the surface of the water. Native to Africa and specific areas of Europe.</desc>
                   <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Nymphaea_lotus"/>
                      <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
-                  </note>
-               </item>
-               <item xml:id="europeanTreeNettle">
-                  <name>European Tree Nettle</name>
-                  <name type="species">Celtis australis</name>
-                  <name type="family">Cannabaceae</name>
-                  <name>
-                     <addName type="typescript">oko</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f13v">f13v</ref>, and the text is also
-                     located in f67v2, f68v3, f68v2, fRos, f90r1, and f113v. Suggested by <name
-                        ref="#eds">Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Celtis_australis"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
-               </item>
-               <item xml:id="harebell">
-                  <name>Harebell</name>
-                  <name type="genus">Campanula</name>
-                  <name type="species">Campanula rotundifolia</name>
-                  <name type="family">Campanulaceae</name>
-                  <name>
-                     <addName type="typescript">aram</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f4v">f4v</ref>, and the text is also
-                     located in f58r, f67r2, f70r2, f85r2, fRos, f95r2, f103v, f107r, f112r, and
-                     f113v. Suggested by <name ref="#eds">Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Campanula_rotundifolia"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="herbParis">
-                  <name>Herb Paris</name>
-                  <name type="genus">Paris</name>
-                  <name type="species">Paris quadrifolia</name>
-                  <name type="family">Melanthiaceae</name>
-                  <name>
-                     <addName type="typescript">shy.choiin</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f15v">f15v</ref>. Suggested by <name
-                        ref="#eds">Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Paris_quadrifolia"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
-               </item>
-               <item xml:id="malva">
-                  <name>Malva</name>
-                  <name>Mallow</name>
-                  <name type="genus">Malva</name>
-                  <name type="family">Malvaceae</name>
-                  <name>
-                     <addName type="typescript">otaiin</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f5v">f5v</ref>, and is mentioned over
-                     150 times in the text. Suggested by <name ref="#eds">Edith
-                     Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Malva"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
+                     <ptr target="https://www.gardenia.net/plant/nymphaea-lotus"/>
+                     <ptr target="https://tropical.theferns.info/viewtropical.php?id=Nymphaea+lotus"/>
                   </note>
                </item>
                <item xml:id="nymphoidesPeltata">
@@ -425,224 +275,52 @@
                   <name type="genus">Nymphoides</name>
                   <name type="species">Nymphoides peltata</name>
                   <name type="family">Menyanthaceae</name>
+                  <name>
+                     <addName>Yellow floating heart</addName>
+                  </name>
+                  <name>
+                     <addName>Water-fringe</addName>
+                  </name>
+                  <desc resp="#hjb">A rhizomatous, floating-leaf, aquatic perennial that looks like a small water lily. Native to Europe and Asia.</desc>
                   <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Nymphoides_peltata"/>
+                     <ptr target="https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282718&amp;isprofile=0&amp;chr=48"/>
                   </note>
                </item>
-               <item xml:id="plantagoMedia">
-                  <name/>
-                  <name type="genus">Plantago</name>
-                  <name type="species">Plantago Media</name>
-                  <name type="family">Plantaginaceae</name>
+               <item xml:id="solanumNigrum">
+                  <name>Solanum Nigrum</name>
+                  <name type="genus">Solanum</name>
+                  <name type="species">Solanum Nigrum</name>
+                  <name type="family">Solanaceae</name>
                   <name>
-                     <addName type="typescript">oaiir</addName>
+                     <addName>Blackberry Nightshade</addName>
                   </name>
-                  <note resp="#hjb">Located in <ref target="#f7r">f7r</ref>, and the text is also
-                     located in f105v and f114v. Suggested by <name ref="#eds">Edith
-                     Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Plantago_media"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="rampion">
-                  <name>Rampion</name>
-                  <name type="genus">Campanula</name>
-                  <name type="species">Campanula rapunculus</name>
-                  <name type="family">Campanulaceae</name>
                   <name>
-                     <addName type="typescript">aram</addName>
+                     <addName>Black Nightshade</addName>
                   </name>
-                  <note resp="#hjb">Located in <ref target="#f4v">f4v</ref>, and the text is also
-                     located in f58r, f67r2, f70r2, f85r2, fRos, f95r2, f103v, f107r, f112r, and
-                     f113v. Suggested by <name ref="#eds">Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Campanula_rapunculus"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="sage">
-                  <name>Sage</name>
-                  <name type="genus">Salvia</name>
-                  <name type="species">Salvia officinalis</name>
-                  <name type="family">Lamiaceae</name>
                   <name>
-                     <addName type="typescript">chor.qodair</addName>
+                     <addName>Common Nightshade</addName>
                   </name>
-                  <note resp="#hjb">Located in <ref target="#f3r">f3r</ref>.</note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Salvia_officinalis"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="sedumDasyphyllum">
-                  <name>Sedum Dasyphyllum</name>
-                  <name type="genus">Sedum</name>
-                  <name type="species">Sedum Dasyphyllum</name>
-                  <name type="family">Crassulaceae</name>
                   <name>
-                     <addName type="typescript">tshol</addName>
+                     <addName>European Black Nightshade</addName>
                   </name>
-                  <note resp="#hjb">Located in <ref target="#f11r">f11r</ref>, and the text is also
-                     located in f20v, f23r, f23v, f50r, and f99r. Suggested by <name ref="#eds"
-                        >Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Sedum_dasyphyllum"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
-               </item>
-               <item xml:id="stonewort">
-                  <name>Sedum Dasyphyllum</name>
-                  <name type="family">Characeae</name>
                   <name>
-                     <addName type="typescript">tshol</addName>
+                     <addName>Garden Nightshade</addName>
                   </name>
-                  <note resp="#hjb">Located in <ref target="#f11r">f11r</ref>, and the text is also
-                     located in f20v, f23r, f23v, f50r, and f99r. Suggested by <name ref="#eds"
-                        >Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Charales"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
-               </item>
-               <item xml:id="sumac">
-                  <name>Sumac</name>
-                  <name type="genus">Rhus</name>
-                  <name type="family">Anacardiaceae</name>
                   <name>
-                     <addName type="typescript">chaiin.£s</addName>
+                     <addName>Poisonberry</addName>
                   </name>
-                  <note resp="#hjb">Located in <ref target="#f3v">f4r</ref>. Suggested by <name
-                        ref="#eds">Edith Sherwood</name></note>
+                  <desc resp="#hjb">Perennial herb that is an erect and dense shrub native to parts of Europe, Asia, Macaronesia, and the North and Northeast portions of Africa.</desc>
+                  <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
                   <note>
-                     <ptr target="https://en.wikipedia.org/wiki/Sumac"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="thrift">
-                  <name>Thrift</name>
-                  <name type="genus">Armeria</name>
-                  <name type="species">Armeria Maritima</name>
-                  <name type="family">Plumbaginaceae</name>
-                  <name>
-                     <addName type="typescript">ykchy</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f19v">f19v</ref>, and the text is also
-                     located 22 times throughout the transliteration file. Suggested by <name
-                        ref="#eds">Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Armeria_maritima"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
-               </item>
-               <item xml:id="turnip">
-                  <name>Turnip</name>
-                  <name type="genus">Brassica</name>
-                  <name type="species">Brassica rapa</name>
-                  <name type="family">Brassicaceae</name>
-                  <name>
-                     <addName type="typescript">chory</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f22v">f22v</ref>, and the text is also
-                     located 11 times throughout the transliteration file. Suggested by <name
-                        ref="#eds">Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Brassica_rapa"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
+                     <ptr target="https://species.wikimedia.org/wiki/Solanum_nigrum"/>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/solanum-nigrum/"/>
                   </note>
                </item>
                <item xml:id="unknown">
                   <name>Unknown</name>
-                  <note resp="#hjb">This is when a plant is not identified.</note>
-               </item>
-               <item xml:id="violaTricolor">
-                  <name>Viola Tricolor</name>
-                  <name type="genus">Viola</name>
-                  <name type="species">Viola tricolor</name>
-                  <name type="family">Violaceae</name>
-                  <name>
-                     <addName type="typescript">qofol</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f9v"/>, and the text is also located in
-                     f85r1. Suggested by <name ref="#eds">Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Viola_tricolor"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
-               </item>
-               <item xml:id="wallflower">
-                  <name>Wallflower</name>
-                  <name type="genus">Erysimum</name>
-                  <name type="family">Brassicaceae</name>
-                  <name>
-                     <addName type="typescript">chol.dain</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f18r">f18r</ref>, and the text is also
-                     located in f1r, f47r, f47v, and f81r. Suggested by <name ref="#eds">Edith
-                        Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Erysimum"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
-               </item>
-               <item xml:id="waterlily">
-                  <name>Waterlily</name>
-                  <name type="genus">Nymphaea</name>
-                  <name type="species">Nymphaea</name>
-                  <name type="family">Nymphaeaceae</name>
-                  <name>
-                     <addName type="typescript">kcho</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f1r">f1r</ref>, and the text is also
-                     located in <ref target="#f7v">f7v</ref>, <ref target="#f30v">f30v</ref>, <ref
-                        target="#f47r">f47r</ref>, <ref target="#f49r">f49r</ref>, <ref
-                        target="#f49v">f49v</ref>, <ref target="#f51r">f51r</ref>, <ref
-                        target="#f56v">f56v</ref>, <ref target="#f68v1">f68v1</ref>, and <ref
-                        target="#f101v">f101v</ref>. Suggested by <name ref="#eds">Edith
-                        Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Nymphaea_×_ortgiesiana"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=2"
-                     />
-                  </note>
-               </item>
-               <item xml:id="wolfsbane">
-                  <name>Wolfsbane</name>
-                  <name type="genus">Aconitum</name>
-                  <name type="family">Ranunculaceae</name>
-                  <name>
-                     <addName type="typescript">ram.ytol</addName>
-                  </name>
-                  <note resp="#hjb">Located in <ref target="#f9r"/>. Suggested by <name ref="#eds"
-                        >Edith Sherwood</name></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Aconitum"/>
-                     <ptr
-                        target="https://edithsherwood.com/voynich-botanical-plant-anagrams/index.php?page=3"
-                     />
-                  </note>
+                  <desc resp="#hjb">This is when a plant is not identified.</desc>
                </item>
             </list>
          </div>

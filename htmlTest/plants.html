@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>f1v</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            
+            @font-face {
+                font-family: "EVA";
+                src: url("../EVA2.ttf") format("truetype");
+            }
+
+            .voynich {
+                font-family: "EVA", serif;
+                font-size: 10pt;
+                overflow-x: auto;
+            }
+
+            .voynich p {
+                white-space: nowrap;
+            }
+            
+            .inline-note {
+                font-family: serif;
+            }
+            
+            .layout {
+                display: flex;
+                gap: 24px;
+                align-items: flex-start;
+                padding: 20px;
+            }
+            
+            .image-wrap {
+                position: relative;
+            }
+     
+            .image-wrap img {
+                max-width: 1000px;
+                height: auto;
+                display: block;
+            }
+            
+            .panel {
+                max-width: 100%;
+            }
+            
+            .popup {
+                position: absolute;
+                display: none;
+                background: white;
+                border: 1px solid #333;
+                padding: 10px;
+                max-width: 240px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                z-index: 10;
+            }
+            
+            area {
+                cursor: pointer;
+            }
+            
+            .term-popup-wrap {
+                position: relative;
+                display: inline-block;
+            }
+            
+            .term-trigger {
+                color: #1a4fa3;
+                text-decoration: underline;
+                cursor: help;
+                font-weight: bold;
+            }
+            
+            .term-popup {
+                position: absolute;
+                left: 0;
+                top: 100%;
+                margin-top: 6px;
+                display: none;
+                width: 220px;
+                background: #fff;
+                border: 1px solid #333;
+                padding: 8px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                z-index: 20;
+            }
+            
+            .term-popup-wrap:hover .term-popup {
+                display: block;
+            }
+            
+            .term-trigger {
+                display: inline;
+            }
+            
+            @media (max-width: 900px) {
+                .layout {
+                    flex-direction: column;
+                }
+
+                .panel {
+                    max-width: 100%;
+                }
+}
+        
+        </style>
+
+        <script>
+            function showPopup(e) {
+                e.preventDefault();
+                
+                const popup = document.getElementById("popup");
+                const wrap = document.getElementById("imageWrap");
+                
+                const rect = wrap.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                popup.style.left = x + "px";
+                popup.style.top = y + "px";
+                popup.style.display = "block";
+            }
+            
+            document.addEventListener("click", function (e) {
+                const popup = document.getElementById("popup");
+                if (! e.target.closest(".image-wrap")) {
+                    popup.style.display = "none";
+                }
+            });</script>
+    </head>
+    <body>
+        <div class="layout">
+            <div>
+                <div class="card-header">
+                    <h1>f1v</h1>
+                </div>
+
+                <div class="image-wrap" id="imageWrap">
+                    <img
+                        src="https://collections.library.yale.edu/iiif/2/1006077/full/,1000/0/default.jpg"
+                        alt="Surface f1v manuscript image" usemap="#f1v_map" />
+
+                    <map name="f1v_map">
+                        <area shape="poly"
+                            coords="580,944 600,883 578,811 496,795 403,807 403,561 459,529 491,483 621,488 693,407 694,335 664,253 598,211 498,214 469,128 410,102 333,148 312,223 220,217 147,288 126,333 156,449 242,448 277,496 306,528 309,577 363,650 374,659 372,767 277,770 187,846 145,879 156,938 217,953"
+                            onclick="showPopup(event)">
+                    </map>
+
+                    <div id="popup" class="popup">Potentially <span class="term-popup-wrap"><div
+                                class="term-popup-wrap"><span class="term-trigger">Atropa
+                                    Bella-Donna</span> <div class="term-popup">
+                                    <h1>Atropa Bella-Donna</h1>
+                                    <p>Genus: Atropa</p>
+                                    <p>Species: Atropa bella-donna</p>
+                                    <p>Family: Solanaceae</p>
+                                    <p>Other Names:</p>
+                                    <ul>
+                                        <li>Belladonna</li>
+                                        <li>Deadly Nightshade</li>
+                                        <li>Divale</li>
+                                        <li>Dwale</li>
+                                    </ul>
+                                    <p>A toxic perennial herbaceous plant native to Europe, North
+                                        Africa, and Western Asia</p>
+                                </div>
+                            </div>
+                    </span> or <span class="term-popup-wrap"><div
+                            class="term-popup-wrap"><span class="term-trigger">Solanum Nigrum</span> <div class="term-popup">
+                                    <h1>Solanum Nigrum</h1>
+                                    <p>Genus: Solanum</p>
+                                    <p>Species: Solanum nigrum</p>
+                                    <p>Family: Solanaceae</p>
+                                    <p>Other Names:</p>
+                                    <ul>
+                                        <li>Blackberry Nightshade</li>
+                                        <li>Black Nightshade</li>
+                                        <li>Common Nightshade</li>
+                                        <li>European Black Nightshade</li>
+                                        <li>Garden Nightshade</li>
+                                        <li>Poisonberry</li>
+                                    </ul>
+                                <p>Perennial herb that is an erect and dense shrub native to parts of Europe, Asia, Macaronesia, and the North and Northeast portions of Africa.</p>
+                                </div>
+                    </div>
+                    </span> 
+                        
+                        
+                        suggested by <span class="term-popup-wrap"><div
+                                class="term-popup-wrap"><span class="term-trigger">Theodore
+                                    Petersen</span> <div class="term-popup">
+                                    <h1>Theodore Petersen</h1>
+                                    <p>Fr. Petersen first made a full photocopy of the Voynich
+                                        manuscript’s photostats, then created a handwritten copy of
+                                        the manuscript, consulting the original in a New York safe
+                                        deposit vault when passages were especially difficult. He
+                                        finished this work in 1944, adding notes on possible
+                                        meanings, marking unusual character sequences, highlighting
+                                        common words, and suggesting plant identifications in the
+                                        herbal section based in part on Holm and O’Neill’s research.
+                                        He also compiled a complete concordance of the manuscript’s
+                                        words, though the writer had not seen it. Petersen remained
+                                        a leading Voynich expert until his death, after which his
+                                        papers were passed to Friedman, inventoried by Tiltman, and
+                                        eventually housed at the George C. Marshall Library and
+                                        Archives in Lexington, Virginia.</p>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h3>Notes</h3>
+                <p>$Q=A $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1 $X=C</p>
+                <p>page 2</p>
+                <p>herbal</p>
+                <p>Currier's language A, hand 1</p>
+                <p>Plant ID: uva lupi, aterpa belladonn[a], solatrum d[iv|w]ale, solanum nigrum=morella</p>
+                <p>Ref: Fuchs p.398, Fischer p.17</p>
+                <p>Same plant as f102r1[3,2] (Petersen, Stolfi)</p>
+                <p>Two paragraphs of text, plant cutting through middle</p>
+
+                <h3>Lines</h3>
+                <div class="voynich">
+                <p>kchsy.chydaiin.ol<span class="figure-ref">-</span>o,l,tchey.char.cfhar,am</p>
+                <p>yteey.char.or.ochy<span class="figure-ref">-</span>dcho.lkody.okodar.chody</p>
+                <p>da,ckhy.ckhockhy.shy<span class="figure-ref">-</span>dksheey.cthy.kotchody.dal</p>
+                <p>dol.chokeo.dair.dam<span class="figure-ref">-</span>sochey.chokody</p>
+                <p>potoy.shol.dair.cphoal<span class="figure-ref">-</span>dar.chey.tody.otoaiin.shoshy</p>
+                <p>choky.chol.ctho,l,shol.okal<span class="figure-ref">-</span>dolchey.chodo.lol.chy.cthy</p>
+                <p>qo<span class="inline-note">[bar over o]</span>.ol,choees.cheol.dol.cthey<span class="figure-ref">-</span>ykol.dol.dolo.ykol.do,lchiody<span class="inline-note">[corr?]</span></p>
+                <p>okolshol.kol,kechy.chol.ky<span class="figure-ref">-</span>chol.cthol.chody.chol.daiin</p>
+                <p>shor.okol.chol.dol,ky.dar<span class="figure-ref">-</span>shol.dchor.o,tcho.dar.[sh|Ñh]ody</p>
+                <p>taor.chotchey.dal.chody<span class="figure-ref">-</span>schody.pol.chodar</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
