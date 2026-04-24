@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "EVA";
+    src: url("../EVA2.ttf") format("truetype");
+}
+
+tei-div {
+    display: block;
+}
+
+tei-graphic {
+    max-width: 1000px;
+    height: auto;
+    display: block;
+}
+
+tei-line {
+    font-family: "EVA", serif;
+    font-size: 10pt;
+    display: block;
+    max-width: 100%;
+}
+
+tei-figure {
+    padding: 10px;
+}
+
+tei-figure:before {
+    content: "🌿";
+}
+
+tei-note {
+    display: block;
+}
+
+tei-p {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+tei-surface {
+    outline-style: solid;
+    outline-width: 4px;
+    display: block;
+}
+
+tei-zone {
+    cursor: pointer;
+    min-height: 100vh;
+}
