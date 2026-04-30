@@ -13252,6 +13252,18 @@
                      <ptr target="https://www.voynich.nu/solvers.html#petersen"/>
                   </note>
                </person>
+               <person xml:id="wiv">
+                  <persName>
+                     <forename>Wilfrid</forename>
+                     <surname>Voynich</surname>
+                     <roleName>Bookseller</roleName>
+                  </persName>
+                  <note resp="#hjb">A polish bookseller who bought the Voynich Manuscript from a Jesuit
+                     library in Italy.</note>
+                  <note>
+                     <ptr target="https://www.lindahall.org/about/news/scientist-of-the-day/wilfrid-voynich/"/>
+                  </note>
+               </person>
             </listPerson>
          </div>
          <div type="herbal">
