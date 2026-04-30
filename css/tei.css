@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "EVA";
+    src: url("../_includes/EVA2.ttf") format("truetype");
+}
+
+.graphic-zone-wrapper {
+    position: relative;
+    display: inline-block;
+    max-width: 1000px;
+}
+
+.graphic-zone-wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.zone-overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+}
+
+.tei-zone-polygon {
+    fill: rgba(0, 0, 0, 0.00001);
+    stroke: blue;
+    stroke-width: 3;
+    vector-effect: non-scaling-stroke;
+}
+
+.zone-overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+}
+
+.tei-zone-polygon {
+    fill: rgba(0, 0, 255, 0.01);
+    stroke: blue;
+    stroke-width: 3;
+    vector-effect: non-scaling-stroke;
+    pointer-events: all;
+}
+
+.tei-zone-polygon:hover {
+    fill: rgba(0, 0, 255, 0.2);
+}
+
+.zone-popup {
+    position: absolute;
+    z-index: 999;
+    max-width: 350px;
+    background: white;
+    border: 2px solid black;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    font-family: Georgia, serif;
+    font-size: 12pt;
+    line-height: 1.4;
+    pointer-events: auto;
+}
+
+.clickable-ref {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.popup-back-button {
+    display: block;
+    margin-bottom: 0.75em;
+    cursor: pointer;
+}
+
+tei-addname {
+    display: block;
+    font-weight: normal;
+    font-size: 12pt;
+    padding: 0px 10px 0px 10px;
+}
+
+tei-addname::before {
+    content: "• ";
+}
+
+tei-desc {
+    display: block;
+    font-style: italic;
+}
+
+tei-div {
+    display: block;
+}
+
+tei-graphic {
+    max-width: 1000px;
+    height: auto;
+    display: block;
+}
+
+tei-graphic[type = full] {
+    display: none;
+}
+
+tei-head {
+    display: block;
+}
+
+tei-line {
+    font-family: "EVA", serif;
+    font-size: 10pt;
+    display: block;
+    max-width: 100%;
+}
+
+tei-figdesc {
+    display: block;
+}
+
+tei-figure[type = inline]:before {
+    content: "🌿";
+    padding: 10px;
+}
+
+tei-name {
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+tei-name[type = family] {
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+tei-name[type = family]::before {
+    content: "Family: ";
+}
+
+tei-name[type = genus] {
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+tei-name[type = genus]::before {
+    content: "Genus: ";
+}
+
+tei-name[type = inline] {
+    display: inline;
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+tei-name[type = species] {
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+tei-name[type = species]::before {
+    content: "Species: ";
+}
+
+
+tei-note {
+    display: block;
+    padding: 0px 10px 10px 0px;
+}
+
+tei-note[type = inline] {
+    display: inline;
+    padding: 0px;
+    font-family: Courier, monospace;
+}
+
+tei-p {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+tei-persName {
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+tei-persName[type = inline] {
+    display: inline;
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+tei-rolename {
+    display: block;
+    font-style: italic;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+tei-surface {
+    outline-style: solid;
+    outline-width: 4px;
+    display: block;
+    padding: 20px;
+    min-width: 1000px;
+}
+
+tei-surface::before {
+    content: attr(xml\:id);
+    display: block;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+tei-zone {
+    cursor: pointer;
+    min-height: 100vh;
+}
+
+/* Navigation Bar */
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.icon {
+    display: none;
+    background-color: #333;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav.responsive {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .topnav.responsive a {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* Footer (Menu, GitHub, Copyright) */
+
+footer {
+    background-color: #000000;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer img {
+    margin: 0px 20px;
+    border-style: none;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.footer-column a:hover {
+    color: #4da6ff;
+    text-decoration: underline;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column img {
+    margin: 15px;
+    display: block;
+}

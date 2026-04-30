@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="css/tei.css">
+<script src="js/CETEI.js"></script>
+            <script>
+        let c = new CETEI();
+
+        // Changed to "tei-output" to output into main with id="tei-output"
+        c.getHTML5("_includes/outputTEI_tagged2.xml", function (data) {
+          document.querySelector("#tei-output").appendChild(data);
+          drawZones();
+        });
+
+        function drawZones() {
+          document.querySelectorAll("tei-surface").forEach(surface => {
+            const graphic = surface.querySelector("tei-graphic:not([type='full'])");
+            const zones = surface.querySelectorAll("tei-zone");
+
+            if (!graphic || !zones.length) return;
+
+            const url = graphic.getAttribute("url");
+
+            const wrapper = document.createElement("div");
+            wrapper.className = "graphic-zone-wrapper";
+
+            const img = document.createElement("img");
+            img.src = url;
+
+            const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+            svg.classList.add("zone-overlay");
+
+            const popup = document.createElement("div");
+            popup.className = "zone-popup";
+            popup.style.display = "none";
+
+            img.onload = () => {
+              svg.setAttribute("viewBox", `0 0 ${img.naturalWidth} ${img.naturalHeight}`);
+            };
+
+            zones.forEach(zone => {
+              const points = zone.getAttribute("points");
+              const corresp = zone.getAttribute("corresp");
+
+              if (!points) return;
+
+              const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+              polygon.setAttribute("points", points);
+              polygon.classList.add("tei-zone-polygon");
+
+              polygon.addEventListener("click", event => {
+                event.stopPropagation();
+
+                popup.dataset.originalCorresp = corresp;
+
+                const itemHTML = getItemHTMLFromCorresp(corresp);
+
+                if (!itemHTML) {
+                  popup.innerHTML = `
+                    <button type="button" class="popup-close-button">×</button>
+                    <strong>No item found for ${corresp}</strong>
+                  `;
+                } else {
+                  popup.innerHTML = `
+                    <button type="button" class="popup-close-button">×</button>
+                    ${itemHTML}
+                  `;
+                  activatePopupRefs(popup);
+                }
+
+                const rect = wrapper.getBoundingClientRect();
+
+                popup.style.left = `${event.clientX - rect.left + 20}px`;
+                popup.style.top = `${event.clientY - rect.top + 20}px`;
+
+                popup.style.display = "block";
+
+                activatePopupCloseButton(popup);
+              });
+
+              svg.appendChild(polygon);
+            });
+
+            popup.addEventListener("click", event => {
+              event.stopPropagation();
+            });
+
+            document.addEventListener("click", () => {
+              popup.style.display = "none";
+            });
+
+            wrapper.appendChild(img);
+            wrapper.appendChild(svg);
+            wrapper.appendChild(popup);
+
+            graphic.replaceWith(wrapper);
+          });
+        }
+
+        function getItemHTMLFromCorresp(corresp) {
+          if (!corresp) return "";
+
+          const id = corresp.replace("#", "");
+
+          const items = document.querySelectorAll("tei-item");
+
+          for (const item of items) {
+            const itemId = getElementXmlId(item);
+
+            if (itemId === id) {
+              const clone = item.cloneNode(true);
+
+              // Remove the full-size image from the popup.
+              clone.querySelectorAll("tei-graphic[type='full']").forEach(graphic => {
+                graphic.remove();
+              });
+
+              return clone.innerHTML;
+            }
+          }
+
+          return "";
+        }
+
+        function activatePopupRefs(popup) {
+          popup.querySelectorAll("[ref]").forEach(el => {
+            const ref = el.getAttribute("ref");
+
+            if (!ref || !ref.startsWith("#")) return;
+
+            el.classList.add("clickable-ref");
+
+            el.addEventListener("click", event => {
+              event.preventDefault();
+              event.stopPropagation();
+
+              const id = ref.replace("#", "");
+              const target = findElementByXmlId(id);
+
+              if (!target) {
+                popup.innerHTML = `
+                  <button type="button" class="popup-close-button">×</button>
+                  <button type="button" class="popup-back-button">← Back</button>
+                  <strong>No information found</strong>
+                  <p>Could not find an element with <code>xml:id="${id}"</code>.</p>
+                `;
+
+                activatePopupCloseButton(popup);
+                activatePopupBackButton(popup);
+                return;
+              }
+
+              const clone = target.cloneNode(true);
+
+              clone.querySelectorAll("tei-graphic[type='full']").forEach(graphic => {
+                graphic.remove();
+              });
+
+              popup.innerHTML = `
+                <button type="button" class="popup-close-button">×</button>
+                <button type="button" class="popup-back-button">← Back</button>
+                ${clone.innerHTML}
+              `;
+
+              activatePopupCloseButton(popup);
+              activatePopupBackButton(popup);
+              activatePopupRefs(popup);
+            });
+          });
+        }
+
+        function activatePopupBackButton(popup) {
+          const backButton = popup.querySelector(".popup-back-button");
+
+          if (!backButton) return;
+
+          backButton.addEventListener("click", event => {
+            event.stopPropagation();
+
+            const originalHTML = getItemHTMLFromCorresp(popup.dataset.originalCorresp);
+
+            popup.innerHTML = `
+              <button type="button" class="popup-close-button">×</button>
+              ${originalHTML}
+            `;
+
+            activatePopupCloseButton(popup);
+            activatePopupRefs(popup);
+          });
+        }
+
+        function activatePopupCloseButton(popup) {
+          const closeButton = popup.querySelector(".popup-close-button");
+
+          if (!closeButton) return;
+
+          closeButton.addEventListener("click", event => {
+            event.stopPropagation();
+            popup.style.display = "none";
+          });
+        }
+
+        function findElementByXmlId(id) {
+          const allElements = document.querySelectorAll("*");
+
+          for (const el of allElements) {
+            const elId = getElementXmlId(el);
+
+            if (elId === id) {
+              return el;
+            }
+          }
+
+          return null;
+        }
+
+        function getElementXmlId(el) {
+          return (
+            el.getAttribute("xml:id") ||
+            el.getAttribute("id") ||
+            el.getAttribute("data-xml-id")
+          );
+        }
+        </script>
+</head>
+<body>
+    {% include "layouts/navbar.html" %}
+
+    {{ content | safe }}
+
+    <main id="tei-output"></main>
+
+    {% include "layouts/footer.html" %}
+</body>
+</html>

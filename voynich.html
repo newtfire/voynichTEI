@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voynich</title>
+    <link rel="stylesheet" href="css/tei.css">
+<script src="js/CETEI.js"></script>
+            <script>
+        let c = new CETEI();
+
+        // Changed to "tei-output" to output into main with id="tei-output"
+        c.getHTML5("_includes/outputTEI_tagged2.xml", function (data) {
+          document.querySelector("#tei-output").appendChild(data);
+          drawZones();
+        });
+
+        function drawZones() {
+          document.querySelectorAll("tei-surface").forEach(surface => {
+            const graphic = surface.querySelector("tei-graphic:not([type='full'])");
+            const zones = surface.querySelectorAll("tei-zone");
+
+            if (!graphic || !zones.length) return;
+
+            const url = graphic.getAttribute("url");
+
+            const wrapper = document.createElement("div");
+            wrapper.className = "graphic-zone-wrapper";
+
+            const img = document.createElement("img");
+            img.src = url;
+
+            const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+            svg.classList.add("zone-overlay");
+
+            const popup = document.createElement("div");
+            popup.className = "zone-popup";
+            popup.style.display = "none";
+
+            img.onload = () => {
+              svg.setAttribute("viewBox", `0 0 ${img.naturalWidth} ${img.naturalHeight}`);
+            };
+
+            zones.forEach(zone => {
+              const points = zone.getAttribute("points");
+              const corresp = zone.getAttribute("corresp");
+
+              if (!points) return;
+
+              const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+              polygon.setAttribute("points", points);
+              polygon.classList.add("tei-zone-polygon");
+
+              polygon.addEventListener("click", event => {
+                event.stopPropagation();
+
+                popup.dataset.originalCorresp = corresp;
+
+                const itemHTML = getItemHTMLFromCorresp(corresp);
+
+                if (!itemHTML) {
+                  popup.innerHTML = `
+                    <button type="button" class="popup-close-button">×</button>
+                    <strong>No item found for ${corresp}</strong>
+                  `;
+                } else {
+                  popup.innerHTML = `
+                    <button type="button" class="popup-close-button">×</button>
+                    ${itemHTML}
+                  `;
+                  activatePopupRefs(popup);
+                }
+
+                const rect = wrapper.getBoundingClientRect();
+
+                popup.style.left = `${event.clientX - rect.left + 20}px`;
+                popup.style.top = `${event.clientY - rect.top + 20}px`;
+
+                popup.style.display = "block";
+
+                activatePopupCloseButton(popup);
+              });
+
+              svg.appendChild(polygon);
+            });
+
+            popup.addEventListener("click", event => {
+              event.stopPropagation();
+            });
+
+            document.addEventListener("click", () => {
+              popup.style.display = "none";
+            });
+
+            wrapper.appendChild(img);
+            wrapper.appendChild(svg);
+            wrapper.appendChild(popup);
+
+            graphic.replaceWith(wrapper);
+          });
+        }
+
+        function getItemHTMLFromCorresp(corresp) {
+          if (!corresp) return "";
+
+          const id = corresp.replace("#", "");
+
+          const items = document.querySelectorAll("tei-item");
+
+          for (const item of items) {
+            const itemId = getElementXmlId(item);
+
+            if (itemId === id) {
+              const clone = item.cloneNode(true);
+
+              // Remove the full-size image from the popup.
+              clone.querySelectorAll("tei-graphic[type='full']").forEach(graphic => {
+                graphic.remove();
+              });
+
+              return clone.innerHTML;
+            }
+          }
+
+          return "";
+        }
+
+        function activatePopupRefs(popup) {
+          popup.querySelectorAll("[ref]").forEach(el => {
+            const ref = el.getAttribute("ref");
+
+            if (!ref || !ref.startsWith("#")) return;
+
+            el.classList.add("clickable-ref");
+
+            el.addEventListener("click", event => {
+              event.preventDefault();
+              event.stopPropagation();
+
+              const id = ref.replace("#", "");
+              const target = findElementByXmlId(id);
+
+              if (!target) {
+                popup.innerHTML = `
+                  <button type="button" class="popup-close-button">×</button>
+                  <button type="button" class="popup-back-button">← Back</button>
+                  <strong>No information found</strong>
+                  <p>Could not find an element with <code>xml:id="${id}"</code>.</p>
+                `;
+
+                activatePopupCloseButton(popup);
+                activatePopupBackButton(popup);
+                return;
+              }
+
+              const clone = target.cloneNode(true);
+
+              clone.querySelectorAll("tei-graphic[type='full']").forEach(graphic => {
+                graphic.remove();
+              });
+
+              popup.innerHTML = `
+                <button type="button" class="popup-close-button">×</button>
+                <button type="button" class="popup-back-button">← Back</button>
+                ${clone.innerHTML}
+              `;
+
+              activatePopupCloseButton(popup);
+              activatePopupBackButton(popup);
+              activatePopupRefs(popup);
+            });
+          });
+        }
+
+        function activatePopupBackButton(popup) {
+          const backButton = popup.querySelector(".popup-back-button");
+
+          if (!backButton) return;
+
+          backButton.addEventListener("click", event => {
+            event.stopPropagation();
+
+            const originalHTML = getItemHTMLFromCorresp(popup.dataset.originalCorresp);
+
+            popup.innerHTML = `
+              <button type="button" class="popup-close-button">×</button>
+              ${originalHTML}
+            `;
+
+            activatePopupCloseButton(popup);
+            activatePopupRefs(popup);
+          });
+        }
+
+        function activatePopupCloseButton(popup) {
+          const closeButton = popup.querySelector(".popup-close-button");
+
+          if (!closeButton) return;
+
+          closeButton.addEventListener("click", event => {
+            event.stopPropagation();
+            popup.style.display = "none";
+          });
+        }
+
+        function findElementByXmlId(id) {
+          const allElements = document.querySelectorAll("*");
+
+          for (const el of allElements) {
+            const elId = getElementXmlId(el);
+
+            if (elId === id) {
+              return el;
+            }
+          }
+
+          return null;
+        }
+
+        function getElementXmlId(el) {
+          return (
+            el.getAttribute("xml:id") ||
+            el.getAttribute("id") ||
+            el.getAttribute("data-xml-id")
+          );
+        }
+        </script>
+</head>
+<body>
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="voynich.html">Voynich</a>
+  <a href="methods.html">Methods</a>
+  <a href="instructions.html">Instructions</a>
+  <a href="citations.html">Citations</a>
+</div>
+
+    <header>
+<h1>Voynich</h1>
+</header>
+
+    <main id="tei-output"></main>
+
+    <footer>
+    <div class="footer-row">
+        <div class="footer-column side">
+            <h1>GitHub</h1>
+            <p>
+                <a href="https://github.com/newtfire/voynichTEI">GitHub Repo</a>
+            </p>
+            <a href="https://github.com/newtfire/voynichTEI">
+                <img src="https://cdn.iconscout.com/icon/free/png-128/github-3770680-3147283.png"
+                     alt="github logo" style="filter: invert(100%); width: 30px;">
+            </a>
+        </div>
+        <div class="footer-column middle">
+            <h1>Menu</h1>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="voynich.html">Voynich</a>
+                </li>
+                <li>
+                    <a href="instructions.html">Instructions</a>
+                </li>
+                <li>
+                    <a href="citations.html">Citations</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column side">
+            <h1>Copyright</h1>
+            <p>This work is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
+                International License</a>.</p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                <img alt="Creative Commons License"
+                     src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
