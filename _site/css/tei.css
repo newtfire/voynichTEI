@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "EVA";
-    src: url("../_includes/EVA2.ttf") format("truetype");
+    src: url("../xml/EVA2.ttf") format("truetype");
 }
 
 .graphic-zone-wrapper {
