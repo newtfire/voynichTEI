@@ -10,7 +10,7 @@
         let c = new CETEI();
 
         // Changed to "tei-output" to output into main with id="tei-output"
-        c.getHTML5("_includes/outputTEI_tagged2.xml", function (data) {
+        c.getHTML5("xml/outputTEI_tagged2.xml", function (data) {
           document.querySelector("#tei-output").appendChild(data);
           drawZones();
         });
