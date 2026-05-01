@@ -11,7 +11,7 @@ permalink: "citations.html"
 <div class="corpus">
 HD Scans: https://collections.library.yale.edu/catalog/2002046
 
-Botanical: https://www.edithsherwood.com/voynich-botanical-plant-anagrams/index.php
+Botanical: https://www.voynich.nu/extra/herb_oldid.html
 
 README from Voynich.nu: https://www.voynich.nu/data/000_README.txt
 

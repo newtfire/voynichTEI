@@ -49,6 +49,10 @@ permalink: "methods.html"
     </ul>
     </li>
     <li><code>&lt;f1r.1,@P0&gt;</code> → <code>&lt;line n="1" rendition="#At #P0"&gt;</code>
+    <ul>
+        <li>In section 6.4, the locus identifiers start with the page number, followed by the line number, then a locator character, and finally a locus type.</li>
+        <li>I decided to make this a line element, using the n attribute and rendition to label the line number, then point to information about the locator character and locus type.</li>
+    </ul>
     </li>
 </ul>
 </div>
@@ -187,6 +191,11 @@ unclearAlt: (ligature; choiceChar)+.
    &lt;/surface&gt;
 &lt;/sourceDoc&gt;
 </code></pre>
+</div>
+
+<div class="corpus">
+    <h3>CETEI</h3>
+    <p>To be able to display my TEI on a webpage, I decided to try out CETEIcean, which is a Javascript library that allows TEI documents to be displayed in a web browser without first transforming them to HTML. </p>
 </div>
 
 
