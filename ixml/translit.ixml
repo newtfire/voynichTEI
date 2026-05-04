@@ -9,7 +9,7 @@ surface: (surfaceN; surfaceNros), extraInfo, quireInfo, newline, (note; dumbHash
 @surfaceN: lab, "f", [N]+, ["r";"v"], [N]*, rab.
 -extraInfo: (space; AnyNotSpace)*.
 
-quireInfo: -"<", -"!", space+, quire, space, quirePage, space, folio, space, bifolio, space, illus, space, language, space, hand, (space, currier)?, (space, xtra)?, -">".
+quireInfo: -"<", -"!", space+, quire, space+, quirePage, (space+, folio)?, space+, bifolio, space+, illus, (space+, language)?, space+, hand, (space+, currier)?, (space+, xtra)?, -">".
 quire: -"$Q=", ["A"-"Z"].
 quirePage: -"$P=", ["A"-"Z"].
 folio: -"$F=", ["a"-"z"].
@@ -17,7 +17,7 @@ bifolio: -"$B=", ["0"-"6"].
 illus: -"$I=", ["A"-"Z"].
 language: -"$L=", ("A";"B").
 hand: -"$H=", ["0"-"9"; "@"].
-currier: -"$C=", ["0"-"5"; "X"; "Z"].
+currier: -"$C=", ["0"-"5"; "X"; "Y"; "Z"].
 xtra: -"$X=", ["C";"M";"O";"S";"V"].
 
 note: -"#", space, noteBody, newline.
