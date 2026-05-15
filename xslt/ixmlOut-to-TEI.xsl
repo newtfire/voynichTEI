@@ -22,6 +22,12 @@
     </xsl:template>
 
     <xsl:template match="/">
+        <xsl:processing-instruction name="xml-model">
+            <xsl:text>href="out/voynich-tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
+        </xsl:processing-instruction>
+        <xsl:processing-instruction name="xml-model">
+            <xsl:text>href="out/voynich-tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>
+        </xsl:processing-instruction>
         <TEI>
             <xsl:apply-templates select="$teiHeader"/>
            <xsl:apply-templates/>
