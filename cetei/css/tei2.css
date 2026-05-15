@@ -9,8 +9,8 @@
 
 tei-surface {
     display: grid;
-    grid-template-columns: minmax(300px, 50%) 1fr;
-    gap: 2rem;
+    grid-template-columns: minmax(300px, 50%) minmax(0, 1fr);
+    gap: 0rem 1rem;
     align-items: start;
 
     max-width: 100%;
@@ -18,14 +18,13 @@ tei-surface {
 
     outline-style: solid;
     outline-width: 4px;
-
-    padding-bottom: 1rem;
     margin-bottom: 2rem;
 }
 
 tei-surface::before {
     content: attr(xml\:id);
     grid-column: 1 / -1;
+    grid-row: 1;
 
     display: block;
     font-weight: bold;
@@ -35,25 +34,52 @@ tei-surface::before {
     outline-style: solid;
 }
 
-.surface-text {
-    grid-column: 2;
-    min-width: 0;
-    padding-right: 1rem;
-}
-
-/* =========================
-   Graphic and zone overlay
-   ========================= */
-
+/* Left column: image and zone overlay */
 .graphic-zone-wrapper {
     grid-column: 1;
+    grid-row: 2;
 
     position: relative;
     display: block;
 
     width: 100%;
     max-width: 1000px;
+    min-width: 0;
 }
+
+/* Right column: surface text */
+.surface-text {
+    grid-column: 2;
+    grid-row: 2;
+
+    min-width: 0;
+    max-width: 100%;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.surface-text::before {
+    content: "Quire: " attr(data-quire) " | Quire Page: " attr(data-quire-page) " | Folio: " attr(data-folio) " | Bifolio: " attr(data-bifolio) " | Illus: " attr(data-illus) " | Lang: " attr(data-language);
+
+    display: block;
+    text-align: right;
+
+    font-family: Georgia, serif;
+    font-size: 14pt;
+    font-weight: bold;
+
+    margin-bottom: 0.75rem;
+}
+
+/* Hide the label if no quire data exists */
+.surface-text:not([data-quire])::before {
+    content: "";
+    display: none;
+}
+
+/* =========================
+   Graphic and zone overlay
+   ========================= */
 
 .graphic-zone-wrapper img {
     display: block;
@@ -82,9 +108,12 @@ tei-surface::before {
     fill: rgba(0, 0, 255, 0.2);
 }
 
+/*
+   Hide the original tei-zone elements.
+   Their data is used by JavaScript to draw SVG polygons.
+*/
 tei-zone {
     cursor: pointer;
-    min-height: 100vh;
     display: none;
 }
 
@@ -96,6 +125,14 @@ tei-graphic {
 }
 
 tei-graphic[type="full"] {
+    display: none;
+}
+
+/*
+   If graphics were originally wrapped in a figure,
+   prevent the old figure wrapper from disrupting grid layout.
+*/
+tei-figure:empty {
     display: none;
 }
 
@@ -216,6 +253,18 @@ tei-line {
     overflow-wrap: anywhere;
 }
 
+tei-pb {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+tei-pb::before {
+    content: "Page " attr(n);
+}
+
 tei-note {
     display: block;
     padding: 0 10px 10px 0;
@@ -323,4 +372,33 @@ tei-rolename {
 tei-milestone {
     display: block;
     padding: 10px;
+}
+
+/* =========================
+   Responsive fallback
+   ========================= */
+
+@media (max-width: 900px) {
+    tei-surface {
+        grid-template-columns: 1fr;
+    }
+
+    tei-surface::before {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .graphic-zone-wrapper {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .surface-text {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .surface-text::before {
+        text-align: left;
+    }
 }

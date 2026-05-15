@@ -3,7 +3,7 @@ sourceDoc: droppedPrelude?, surface+.
 -droppedPrelude: firstNote, note, note, dumbHash.
 firstNote: -"#", -noteBody, -newline.
 
-surface: (surfaceN; surfaceNros), extraInfo, quireInfo, newline, (note; dumbHash; line)*.
+surface: (surfaceN; surfaceNros), extraInfo, quireInfo, newline, (pb; note; dumbHash; line)*.
 @surfaceNros: lab, "f", "R", "o", "s", rab.
 
 @surfaceN: lab, "f", [N]+, ["r";"v"], [N]*, rab.
@@ -19,6 +19,9 @@ language: -"$L=", ("A";"B").
 hand: -"$H=", ["0"-"9"; "@"].
 currier: -"$C=", ["0"-"5"; "X"; "Y"; "Z"].
 xtra: -"$X=", ["C";"M";"O";"S";"V"].
+
+pb: -"#", space, -"page", space, pbnum, newline.
+@pbnum: [N]+, (",", space?, [N]+)?.
 
 note: -"#", space, noteBody, newline.
 -noteBody: noteChar*.

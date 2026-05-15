@@ -27,6 +27,7 @@
            <xsl:apply-templates/>
         </TEI>
     </xsl:template>
+    
     <xsl:template match="sourceDoc">
         <sourceDoc>
             <xsl:apply-templates select="* except surface"/>
@@ -110,6 +111,14 @@
         <g><xsl:apply-templates/></g>
     </xsl:template>
     
+    <xsl:template match="figure">
+        <figure type="inline">
+            <xsl:apply-templates/>
+        </figure>
+    </xsl:template>
+    
+    <xsl:template match="quireInfo"/>
+    
     
     <!-- WHAT IS HAPPENING WITH XML:IDs ON SURFACE ELEMENTS? -->
     <xsl:template match="@surfaceN">
@@ -135,6 +144,57 @@
             <xsl:value-of select="."/>
         </xsl:attribute>
     </xsl:template>
+    
+    <xsl:template match="@pbnum">
+        <xsl:attribute name="n">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@rendition">
+        <xsl:attribute name="rendition">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <!-- This can definitely be done a different way but I don't know how -->
+    <xsl:template match="@xml:id">
+        <xsl:attribute name="xml:id">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@hands">
+        <xsl:attribute name="hands">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@notAfter">
+        <xsl:attribute name="notAfter">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@notBefore">
+        <xsl:attribute name="notBefore">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@when">
+        <xsl:attribute name="when">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@ident">
+        <xsl:attribute name="ident">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <!-- -->
     
     <xsl:template match="choice">
         <xsl:choose>
