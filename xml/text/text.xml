@@ -1,0 +1,398 @@
+<text>
+      <body>
+         <div type="voynich_team">
+            <listPerson>
+               <person xml:id="ebb">
+                  <persName>
+                     <forename>Elisa</forename>
+                     <surname>Beshero-Bondar</surname>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>Program Chair, <ref
+                           target="https://behrend.psu.edu/school-of-humanities-social-sciences/academic-programs/digital-media-arts-and-technology">Digital Media, Arts, and Technology (DIGIT)</ref>, Professor of Digital
+                        Humanities, and Director of the <ref target="https://newtfire.org">Digital
+                           Humanities Lab</ref> at <affiliation>Penn State Erie, The Behrend
+                           College</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>An active member of the Text Encoding Initiative (TEI), she has served since
+                     2016 on the <ref target="http://www.tei-c.org/Activities/Council/">TEI
+                        Technical Council</ref>, an eleven-member international committee that
+                     supervises amendments to the <ref target="https://tei-c.org/guidelines/P5/">TEI
+                        Guideline</ref>s.</note>
+               </person>
+               <person xml:id="hjb">
+                  <persName>
+                     <forename>Hadleigh</forename>
+                     <forename>Jae</forename>
+                     <surname>Bills</surname>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <note resp="#hjb">Hadleigh Jae Bills is a student at Penn State Behrend. She is
+                     working towards a B.A. in Digital Media, Arts, and Technology.</note>
+               </person>
+            </listPerson>
+         </div>
+         <div type="voynich_people">
+            <listPerson>
+               <person xml:id="hth">
+                  <persName>
+                     <forename>Herman</forename>
+                     <forename>Theodor</forename>
+                     <surname>Holm</surname>
+                     <roleName>Botanist</roleName>
+                  </persName>
+                  <note resp="#hjb">A botanist who built his career around studying plant life
+                     across places like Greenland, Colorado, and the United States. After
+                     immigrating to the U.S., he worked as a botanist for institutions like the
+                     United States National Museum and the Department of Agriculture, continuing his
+                     focus on plant research. He later earned his doctorate from the Catholic
+                     University of America and eventually returned there as a professor of
+                     biological research.</note>
+                  <note>
+                     <ptr target="https://findingaids.lib.catholic.edu/repositories/2/resources/176"/>
+                     <ptr
+                        target="https://findingaids.lib.catholic.edu/repositories/2/resources/176/collection_organization"/>
+                  </note>
+               </person>
+               <person xml:id="hon">
+                  <persName>
+                     <forename>Hugh</forename>
+                     <surname>O'Neill</surname>
+                     <roleName>Botanist</roleName>
+                  </persName>
+                  <note resp="#hjb">A botanist from the Catholic University of America. Identified
+                     plants in 1944, but what he identified are plants from the Americas, but the
+                     Voynich Manuscript came before Christopher Columbus' voyages.</note>
+                  <note>
+                     <ptr target="https://voynichlanguage.fandom.com/wiki/Hugh_O%27Neill"/>
+                  </note>
+               </person>
+               <person xml:id="rzn">
+                  <persName>
+                     <forename>René</forename>
+                     <surname>Zandbergen</surname>
+                     <roleName>Researcher</roleName>
+                  </persName>
+                  <note resp="#hjb">René Zandbergen, originally a satellite navigation engineer for
+                     the European Space Agency, became deeply involved in studying the mysterious
+                     Voynich Manuscript on the side. Starting in 1995, he joined an online community
+                     focused on analyzing the manuscript’s strange and unreadable text. Over time,
+                     he helped develop a standard way to transcribe its characters and created one
+                     of the most widely used websites dedicated to researching the
+                     manuscript.</note>
+                  <note>
+                     <ptr target="https://independent.academia.edu/RenéZandbergen"/>
+                  </note>
+               </person>
+               <person xml:id="tcp">
+                  <persName>
+                     <forename>Theodore</forename>
+                     <surname>Petersen</surname>
+                     <roleName>Transcriptor</roleName>
+                  </persName>
+                  <note resp="#hjb">Fr. Petersen first made a full photocopy of the Voynich
+                     manuscript’s photostats, then created a handwritten copy of the manuscript,
+                     consulting the original in a New York safe deposit vault when passages were
+                     especially difficult. He finished this work in 1944, adding notes on possible
+                     meanings, marking unusual character sequences, highlighting common words, and
+                     suggesting plant identifications in the herbal section based in part on Holm
+                     and O’Neill’s research. He also compiled a complete concordance of the
+                     manuscript’s words, though the writer had not seen it. Petersen remained a
+                     leading Voynich expert until his death, after which his papers were passed to
+                     Friedman, inventoried by Tiltman, and eventually housed at the George C.
+                     Marshall Library and Archives in Lexington, Virginia.</note>
+                  <note>
+                     <ptr target="https://www.voynich.nu/solvers.html#petersen"/>
+                  </note>
+               </person>
+               <person xml:id="wiv">
+                  <persName>
+                     <forename>Wilfrid</forename>
+                     <surname>Voynich</surname>
+                     <roleName>Bookseller</roleName>
+                  </persName>
+                  <note resp="#hjb">A polish bookseller who bought the Voynich Manuscript from a Jesuit
+                     library in Italy.</note>
+                  <note>
+                     <ptr target="https://www.lindahall.org/about/news/scientist-of-the-day/wilfrid-voynich/"/>
+                  </note>
+               </person>
+            </listPerson>
+         </div>
+         <div type="herbal">
+            <list sortKey="illustrations">
+               <item xml:id="f1v_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006077/full/full/0/default.jpg"/>
+                     <head>Illustration on f1v</head>
+                     <figDesc>Potentially <name type="inline" ref="#belladonna">Atropa
+                           Bella-Donna</name> or <name type="inline" ref="#solanumNigrum">Solanum
+                           Nigrum</name> suggested by <persName type="inline" ref="#tcp">Theodore
+                           Petersen</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f2r_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006078/full/full/0/default.jpg"/>
+                     <head>Illustration on f2r</head>
+                     <figDesc>Potentially <name type="inline" ref="#cornflower">Cornflower</name>
+                        suggested by <persName type="inline" ref="#hth">Holm</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f2v_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006079/full/full/0/default.jpg"/>
+                     <head>Illustration on f2v</head>
+                     <figDesc>Potentially <name type="inline" ref="#colocasia">Colocasia</name>,
+                           <name type="inline" ref="#egyptianLotus">Egyptian Lotus</name> suggested
+                        by <persName type="inline" ref="#tcp">Petersen</persName>, or <name
+                           type="inline" ref="#nymphoidesPeltata">Nymphoides Peltata</name>
+                        suggested by <persName type="inline" ref="#rzn">Zandbergen</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f3r_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg"/>
+                     <head>Illustration on f3r</head>
+                     <figDesc>Potentially <name type="inline" ref="#cretanDittany">Cretan
+                           Dittany</name>, suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f3v_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006081/full/full/0/default.jpg"/>
+                     <head>Illustration on f3v</head>
+                     <figDesc><name type="inline" ref="#unknown">Unknown</name>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f4r_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006082/full/full/0/default.jpg"/>
+                     <head>Illustration on f4r</head>
+                     <figDesc>Potentially <name type="inline" ref="#hypericum">Hypericum</name> or
+                           <name type="inline" ref="#centauriumErythaea">Centaurium Erythaea</name>,
+                        suggested by <persName type="inline" ref="#hon">O'Neill</persName></figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f4v_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006083/full/full/0/default.jpg"/>
+                     <head>Illustration on f4v</head>
+                     <figDesc>Potentially Convulvula Ipomea suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f5r_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006084/full/full/0/default.jpg"/>
+                     <head>Illustration on f5r</head>
+                     <figDesc>Potentially [Herba] Paris, Indian Cucumber suggested by <persName
+                           type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f5v_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006085/full/full/0/default.jpg"/>
+                     <head>Illustration on f5v</head>
+                     <figDesc>Potentially Paretaria Urtica suggested by <persName type="inline" ref="#hon">O'Neill</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f6r_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006086/full/full/0/default.jpg"/>
+                     <head>Illustration on f6r</head>
+                     <figDesc>Potentially Asclepiades, but with wrong leaves (of Pediculum)
+                        suggested by <persName type="inline" ref="#tcp">Petersen</persName></figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f6v_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006087/full/full/0/default.jpg"/>
+                     <head>Illustration on f6v</head>
+                     <figDesc>Potentially blackgum tree?, arctium? Bidens(sp?)kyptis
+                        suggested by <persName type="inline" ref="#hon">O'Neill</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f7r_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006088/full/full/0/default.jpg"/>
+                     <head>Illustration on f7r</head>
+                     <figDesc>Potentially Nymphaea alba suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                  </figure>
+               </item>
+               <item xml:id="f7v_il">
+                  <figure>
+                     <graphic type="full" url="https://collections.library.yale.edu/iiif/2/1006089/full/full/0/default.jpg"/>
+                     <head>Illustration on f7v</head>
+                     <figDesc>Potentially polygonum persicaria, potentilla silvestris, or oculus christi suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                  </figure>
+               </item>
+            </list>
+            <list sortKey="plants">
+               <item xml:id="belladonna">
+                  <name>Atropa Bella-Donna</name>
+                  <name type="genus">Atropa</name>
+                  <name type="species">Atropa bella-donna</name>
+                  <name type="family">Solanaceae</name>
+                  <name>
+                     <addName>Belladonna</addName>
+                     <addName>Deadly Nightshade</addName>
+                     <addName>Divale</addName>
+                     <addName>Dwale</addName>
+                  </name>
+                  <desc resp="#hjb">A toxic perennial herbaceous plant native to Europe, North
+                     Africa, and Western Asia.</desc>
+                  <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
+                  <note>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/atropa-bella-donna/"/>
+                     <ptr target="https://species.wikimedia.org/wiki/Atropa_bella-donna"/>
+                     <ptr target="https://www.gbif.org/species/144096243"/>
+                  </note>
+               </item>
+               <item xml:id="centauriumErythaea">
+                  <name>Centaurium Erythaea</name>
+                  <name type="genus">Centaurium</name>
+                  <name type="species">Centaurium Erythraea</name>
+                  <name type="family">Gentianaceae</name>
+                  <name>
+                     <addName>European Centaury</addName>
+                     <addName>Feverwort</addName>
+                  </name>
+                  <desc resp="#hjb">Often found in open woods, meadows and dry grasslands</desc>
+                  <note resp="#hjb">Located in <ref target="#f4r">f4r</ref>.</note>
+                  <note>
+                     <ptr target="https://pfaf.org/user/Plant.aspx?LatinName=Centaurium+erythraea"/>
+                     <ptr target="https://species.wikimedia.org/wiki/Centaurium_erythraea"/>
+                  </note>
+               </item>
+               <item xml:id="colocasia">
+                  <name>Colocasia</name>
+                  <name type="genus">Colocasia</name>
+                  <name type="family">Araceae</name>
+                  <name>
+                     <addName>Dasheen</addName>
+                     <addName>Elephant's-ear</addName>
+                     <addName>Taro</addName>
+                  </name>
+                  <desc resp="#hjb">Plant with massive leaves originating in Southeastern
+                     Asia</desc>
+                  <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Colocasia_Schott"/>
+                     <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/colocasia/"/>
+                  </note>
+               </item>
+               <item xml:id="cornflower">
+                  <name>Cornflower</name>
+                  <name type="genus">Centaurea</name>
+                  <name type="species">Centaurea cyanus</name>
+                  <name type="family">Asteraceae</name>
+                  <name>
+                     <addName>Bachelor's Button</addName>
+                     <addName>Bluebottle</addName>
+                  </name>
+                  <desc resp="#hjb">Grow as a weed in fields. Blue flowers.</desc>
+                  <note resp="#hjb">Located in <ref target="#f2r">f2r</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Centaurea_cyanus"/>
+                     <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/centaurea-cyanus/"/>
+                  </note>
+               </item>
+               <item xml:id="cretanDittany">
+                  <name>Cretan Dittany</name>
+                  <name type="genus">Origanum</name>
+                  <name type="species">Origanum dictamnus</name>
+                  <name type="family">Lamiaceae</name>
+                  <desc resp="#hjb">A bushy sub-shrub with aromatic foliage native to rocky slopes
+                     on the mountains of Crete.</desc>
+                  <note resp="#hjb">Located in <ref target="#f3r">f3r</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Origanum_dictamnus"/>
+                     <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
+                     <ptr
+                        target="https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281581"/>
+                  </note>
+               </item>
+               <item xml:id="egyptianLotus">
+                  <name>Egyptian Lotus</name>
+                  <name type="genus">Nymphaea</name>
+                  <name type="species">Nymphaea lotus</name>
+                  <name type="family">Nymphaeaceae</name>
+                  <name>
+                     <addName>White Lotus</addName>
+                  </name>
+                  <desc resp="#hjb">A robust night-blooming aquatic perennial plant that floats on
+                     the surface of the water. Native to Africa and specific areas of Europe.</desc>
+                  <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Nymphaea_lotus"/>
+                     <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
+                     <ptr target="https://www.gardenia.net/plant/nymphaea-lotus"/>
+                     <ptr target="https://tropical.theferns.info/viewtropical.php?id=Nymphaea+lotus"/>
+                  </note>
+               </item>
+               <item xml:id="hypericum">
+                  <name>Hypericum</name>
+                  <name type="genus">Hypericum</name>
+                  <name type="family">Hypericaceae</name>
+                  <name>
+                     <addName>St. John's Wort</addName>
+                     <addName>Goatweed</addName>
+                  </name>
+                  <desc resp="#hjb">A genus of flowering plants.</desc>
+                  <note resp="#hjb">Located in <ref target="#f4r">f4r</ref></note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Hypericum"/>
+                     <ptr target="https://en.wikipedia.org/wiki/Hypericum"/>
+                  </note>
+               </item>
+               <item xml:id="nymphoidesPeltata">
+                  <name>Nymphoides Peltata</name>
+                  <name type="genus">Nymphoides</name>
+                  <name type="species">Nymphoides peltata</name>
+                  <name type="family">Menyanthaceae</name>
+                  <name>
+                     <addName>Yellow floating heart</addName>
+                     <addName>Water-fringe</addName>
+                  </name>
+                  <desc resp="#hjb">A rhizomatous, floating-leaf, aquatic perennial that looks like
+                     a small water lily. Native to Europe and Asia.</desc>
+                  <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Nymphoides_peltata"/>
+                     <ptr
+                        target="https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282718&amp;isprofile=0&amp;chr=48"/>
+                  </note>
+               </item>
+               <item xml:id="solanumNigrum">
+                  <name>Solanum Nigrum</name>
+                  <name type="genus">Solanum</name>
+                  <name type="species">Solanum Nigrum</name>
+                  <name type="family">Solanaceae</name>
+                  <name>
+                     <addName>Blackberry Nightshade</addName>
+                     <addName>Black Nightshade</addName>
+                     <addName>Common Nightshade</addName>
+                     <addName>European Black Nightshade</addName>
+                     <addName>Garden Nightshade</addName>
+                     <addName>Poisonberry</addName>
+                  </name>
+                  <desc resp="#hjb">Perennial herb that is an erect and dense shrub native to parts
+                     of Europe, Asia, Macaronesia, and the North and Northeast portions of
+                     Africa.</desc>
+                  <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Solanum_nigrum"/>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/solanum-nigrum/"/>
+                  </note>
+               </item>
+               <item xml:id="unknown">
+                  <name>Unknown</name>
+                  <desc resp="#hjb">This is when a plant is not identified.</desc>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>

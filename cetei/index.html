@@ -284,6 +284,24 @@ function copySurfaceMetadata(surface, textWrapper) {
   if (language) {
     textWrapper.setAttribute("data-language", language);
   }
+
+  const hand = getNamespacedOrFallbackAttribute(surface, "vn", "hand");
+
+  if (hand) {
+    textWrapper.setAttribute("data-hand", hand);
+  }
+
+  const currier = getNamespacedOrFallbackAttribute(surface, "vn", "currier");
+
+  if (currier) {
+    textWrapper.setAttribute("data-currier", currier);
+  }
+
+  const xtra = getNamespacedOrFallbackAttribute(surface, "vn", "xtra");
+
+  if (xtra) {
+    textWrapper.setAttribute("data-xtra", xtra);
+  }
 }
 
 function getNamespacedOrFallbackAttribute(el, namespacePrefix, localName) {

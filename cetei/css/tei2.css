@@ -3,6 +3,10 @@
     src: url("../EVA2.ttf") format("truetype");
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
 /* =========================
    Surface layout
    ========================= */
@@ -59,7 +63,7 @@ tei-surface::before {
 }
 
 .surface-text::before {
-    content: "Quire: " attr(data-quire) " | Quire Page: " attr(data-quire-page) " | Folio: " attr(data-folio) " | Bifolio: " attr(data-bifolio) " | Illus: " attr(data-illus) " | Lang: " attr(data-language);
+    content: "Quire: " attr(data-quire) " | Quire Page: " attr(data-quire-page) " | Folio: " attr(data-folio) " | Bifolio: " attr(data-bifolio) " | Illus: " attr(data-illus) " | Lang: " attr(data-language) " | Hand: " attr(data-hand) " | Currier: " attr(data-currier) " | Extra: " attr(data-xtra);
 
     display: block;
     text-align: right;
@@ -71,10 +75,64 @@ tei-surface::before {
     margin-bottom: 0.75rem;
 }
 
-/* Hide the label if no quire data exists */
-.surface-text:not([data-quire])::before {
-    content: "";
-    display: none;
+/* Hide the label if no data exists */
+
+.surface-text:not([data-currier])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Lang: " attr(data-language)
+            " | Hand: " attr(data-hand)
+            " | Extra: " attr(data-xtra);
+}
+
+.surface-text:not([data-xtra])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Lang: " attr(data-language)
+            " | Hand: " attr(data-hand)
+            " | Currier: " attr(data-currier);
+}
+
+.surface-text:not([data-language])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Hand: " attr(data-hand)
+            " | Currier: " attr(data-currier);
+            " | Extra: " attr(data-xtra);
+}
+
+.surface-text:not([data-currier]):not([data-xtra])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Lang: " attr(data-language)
+            " | Hand: " attr(data-hand);
+}
+
+.surface-text:not([data-currier]):not([data-lang])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Hand: " attr(data-hand);
+            " | Extra: " attr(data-xtra);
 }
 
 /* =========================
@@ -125,14 +183,6 @@ tei-graphic {
 }
 
 tei-graphic[type="full"] {
-    display: none;
-}
-
-/*
-   If graphics were originally wrapped in a figure,
-   prevent the old figure wrapper from disrupting grid layout.
-*/
-tei-figure:empty {
     display: none;
 }
 

@@ -11,6 +11,7 @@
     
     <!-- hjb: I ended up just making one teiHeader doc -->
     <xsl:variable name="teiHeader" as="element(teiHeader)" select="doc('../xml/header/teiHeader.xml')//teiHeader"/>
+    <xsl:variable name="text" as="element(text)" select="doc('../xml/text/text.xml')//text"/>
     
     <!-- NAMESPACE!!! NON-TO-TEI-->
     <xsl:template match="*">
@@ -31,6 +32,7 @@
         <TEI>
             <xsl:apply-templates select="$teiHeader"/>
            <xsl:apply-templates/>
+            <xsl:apply-templates select="$text"/>
         </TEI>
     </xsl:template>
     
@@ -196,6 +198,42 @@
     
     <xsl:template match="@ident">
         <xsl:attribute name="ident">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@type">
+        <xsl:attribute name="type">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@target">
+        <xsl:attribute name="target">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@resp">
+        <xsl:attribute name="resp">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@sortKey">
+        <xsl:attribute name="sortKey">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@url">
+        <xsl:attribute name="url">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@ref">
+        <xsl:attribute name="ref">
             <xsl:value-of select="."/>
         </xsl:attribute>
     </xsl:template>
