@@ -1,22 +1,147 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: "EVA";
     src: url("../xml/EVA2.ttf") format("truetype");
 }
 
-.graphic-zone-wrapper {
-    position: relative;
-    display: inline-block;
-    max-width: 1000px;
+body {
+    background-color: #f2f2f2;
 }
+
+/* =========================
+   Surface layout
+   ========================= */
+
+tei-surface {
+    display: grid;
+    grid-template-columns: minmax(300px, 50%) minmax(0, 1fr);
+    gap: 0rem 1rem;
+    align-items: start;
+
+    max-width: 100%;
+    min-width: 0;
+
+    outline-style: solid;
+    outline-width: 4px;
+    margin-bottom: 2rem;
+}
+
+tei-surface::before {
+    content: attr(xml\:id);
+    grid-column: 1 / -1;
+    grid-row: 1;
+
+    display: block;
+    font-weight: bold;
+    font-size: 30pt;
+    text-align: center;
+    background-color: #fae588;
+    outline-style: solid;
+}
+
+/* Left column: image and zone overlay */
+.graphic-zone-wrapper {
+    grid-column: 1;
+    grid-row: 2;
+
+    position: relative;
+    display: block;
+
+    width: 100%;
+    max-width: 1000px;
+    min-width: 0;
+}
+
+/* Right column: surface text */
+.surface-text {
+    grid-column: 2;
+    grid-row: 2;
+
+    min-width: 0;
+    max-width: 100%;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.surface-text::before {
+    content: "Quire: " attr(data-quire) " | Quire Page: " attr(data-quire-page) " | Folio: " attr(data-folio) " | Bifolio: " attr(data-bifolio) " | Illus: " attr(data-illus) " | Lang: " attr(data-language) " | Hand: " attr(data-hand) " | Currier: " attr(data-currier) " | Extra: " attr(data-xtra);
+
+    display: block;
+    text-align: right;
+
+    font-family: Georgia, serif;
+    font-size: 14pt;
+    font-weight: bold;
+
+    margin-bottom: 0.75rem;
+}
+
+/* Hide the label if no data exists */
+
+.surface-text:not([data-currier])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Lang: " attr(data-language)
+            " | Hand: " attr(data-hand)
+            " | Extra: " attr(data-xtra);
+}
+
+.surface-text:not([data-xtra])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Lang: " attr(data-language)
+            " | Hand: " attr(data-hand)
+            " | Currier: " attr(data-currier);
+}
+
+.surface-text:not([data-language])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Hand: " attr(data-hand)
+            " | Currier: " attr(data-currier);
+" | Extra: " attr(data-xtra);
+}
+
+.surface-text:not([data-currier]):not([data-xtra])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Lang: " attr(data-language)
+            " | Hand: " attr(data-hand);
+}
+
+.surface-text:not([data-currier]):not([data-lang])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Hand: " attr(data-hand);
+" | Extra: " attr(data-xtra);
+}
+
+/* =========================
+   Graphic and zone overlay
+   ========================= */
 
 .graphic-zone-wrapper img {
     display: block;
+    width: 100%;
     max-width: 100%;
     height: auto;
 }
@@ -34,21 +159,6 @@
     stroke: blue;
     stroke-width: 3;
     vector-effect: non-scaling-stroke;
-}
-
-.zone-overlay {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: auto;
-}
-
-.tei-zone-polygon {
-    fill: rgba(0, 0, 255, 0.01);
-    stroke: blue;
-    stroke-width: 3;
-    vector-effect: non-scaling-stroke;
     pointer-events: all;
 }
 
@@ -56,24 +166,54 @@
     fill: rgba(0, 0, 255, 0.2);
 }
 
+/*
+   Hide the original tei-zone elements.
+   Their data is used by JavaScript to draw SVG polygons.
+*/
+tei-zone {
+    cursor: pointer;
+    display: none;
+}
+
+/* Original CETEI graphic element fallback */
+tei-graphic {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+tei-graphic[type="full"] {
+    display: none;
+}
+
+/* =========================
+   Zone popup
+   ========================= */
+
 .zone-popup {
     position: absolute;
     z-index: 999;
     max-width: 350px;
+
     background: white;
     border: 2px solid black;
     padding: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
     font-family: Georgia, serif;
     font-size: 12pt;
     line-height: 1.4;
+
     pointer-events: auto;
 }
 
-.clickable-ref {
-    color: blue;
-    text-decoration: underline;
+.popup-close-button {
+    float: right;
     cursor: pointer;
+    font-size: 14pt;
+    line-height: 1;
+    background: white;
+    border: 1px solid black;
 }
 
 .popup-back-button {
@@ -82,11 +222,111 @@
     cursor: pointer;
 }
 
+.clickable-ref {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* =========================
+   Inline note hover icon
+   ========================= */
+
+tei-note[type="inline"] {
+    display: inline-block;
+    position: relative;
+
+    padding: 0;
+    margin: 0 0.15em;
+
+    font-family: Georgia, serif;
+    font-size: 10pt;
+    vertical-align: baseline;
+}
+
+.inline-note-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1.1em;
+    height: 1.1em;
+
+    font-family: Georgia, serif;
+    font-size: 9pt;
+    line-height: 1;
+
+    cursor: help;
+    background: red;
+}
+
+.inline-note-content {
+    display: none;
+
+    position: absolute;
+    left: 1.4em;
+    top: 1.2em;
+    z-index: 1000;
+
+    min-width: 12rem;
+    max-width: 24rem;
+
+    background: white;
+    border: 2px solid black;
+    padding: 0.6em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+    font-family: Courier, monospace;
+    font-size: 10pt;
+    line-height: 1.4;
+
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+tei-note[type="inline"]:hover .inline-note-content,
+tei-note[type="inline"]:focus-within .inline-note-content {
+    display: block;
+}
+
+/* =========================
+   Text and TEI elements
+   ========================= */
+
+tei-line {
+    font-family: "EVA", serif;
+    font-size: 10pt;
+    display: block;
+
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+tei-pb {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+tei-pb::before {
+    content: "Page " attr(n);
+}
+
+tei-note {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    background-color: grey;
+    font-size: smaller;
+}
+
 tei-addname {
     display: block;
     font-weight: normal;
     font-size: 12pt;
-    padding: 0px 10px 0px 10px;
+    padding: 0 10px 0 10px;
 }
 
 tei-addname::before {
@@ -102,34 +342,17 @@ tei-div {
     display: block;
 }
 
-tei-graphic {
-    max-width: 1000px;
-    height: auto;
-    display: block;
-}
-
-tei-graphic[type = full] {
-    display: none;
-}
-
-tei-head {
-    display: block;
-}
-
-tei-line {
-    font-family: "EVA", serif;
-    font-size: 10pt;
-    display: block;
-    max-width: 100%;
-}
-
 tei-figdesc {
     display: block;
 }
 
-tei-figure[type = inline]:before {
+tei-figure[type="inline"]::before {
     content: "🌿";
     padding: 10px;
+}
+
+tei-head {
+    display: block;
 }
 
 tei-name {
@@ -138,64 +361,54 @@ tei-name {
     font-size: 25px;
 }
 
-tei-name[type = family] {
+tei-name[type="family"] {
     font-weight: normal;
     font-size: 12pt;
 }
 
-tei-name[type = family]::before {
+tei-name[type="family"]::before {
     content: "Family: ";
 }
 
-tei-name[type = genus] {
+tei-name[type="genus"] {
     font-weight: normal;
     font-size: 12pt;
 }
 
-tei-name[type = genus]::before {
+tei-name[type="genus"]::before {
     content: "Genus: ";
 }
 
-tei-name[type = inline] {
+tei-name[type="inline"] {
     display: inline;
     font-weight: normal;
     font-size: 12pt;
 }
 
-tei-name[type = species] {
+tei-name[type="species"] {
     font-weight: normal;
     font-size: 12pt;
 }
 
-tei-name[type = species]::before {
+tei-name[type="species"]::before {
     content: "Species: ";
-}
-
-
-tei-note {
-    display: block;
-    padding: 0px 10px 10px 0px;
-}
-
-tei-note[type = inline] {
-    display: inline;
-    padding: 0px;
-    font-family: Courier, monospace;
 }
 
 tei-p {
     display: block;
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
+tei-persname,
 tei-persName {
     display: block;
     font-weight: bold;
     font-size: 25px;
 }
 
-tei-persName[type = inline] {
+tei-persname[type="inline"],
+tei-persName[type="inline"] {
     display: inline;
     font-weight: normal;
     font-size: 12pt;
@@ -208,137 +421,36 @@ tei-rolename {
     font-weight: normal;
 }
 
-tei-surface {
-    outline-style: solid;
-    outline-width: 4px;
+tei-milestone {
     display: block;
-    padding: 20px;
-    min-width: 1000px;
+    padding: 10px;
 }
 
-tei-surface::before {
-    content: attr(xml\:id);
-    display: block;
-    font-weight: bold;
-    font-size: 30pt;
-}
+/* =========================
+   Responsive fallback
+   ========================= */
 
-tei-zone {
-    cursor: pointer;
-    min-height: 100vh;
-}
-
-/* Navigation Bar */
-
-.topnav {
-    background-color: #000000;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.icon {
-    display: none;
-    background-color: #333;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-
-@media screen and (max-width: 600px) {
-    .icon {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
+@media (max-width: 900px) {
+    tei-surface {
+        grid-template-columns: 1fr;
     }
 
-    .topnav a {
-        display: none;
+    tei-surface::before {
+        grid-column: 1;
+        grid-row: 1;
     }
 
-    .topnav.responsive {
-        flex-direction: column;
-        align-items: flex-start;
+    .graphic-zone-wrapper {
+        grid-column: 1;
+        grid-row: 2;
     }
 
-    .topnav.responsive a {
-        display: block;
-        width: 100%;
+    .surface-text {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .surface-text::before {
         text-align: left;
     }
-}
-
-/* Footer (Menu, GitHub, Copyright) */
-
-footer {
-    background-color: #000000;
-    color: #f2f2f2;
-    padding: 10px 20px;
-    text-align: center;
-    margin-top: auto;
-}
-
-footer img {
-    margin: 0px 20px;
-    border-style: none;
-}
-
-.footer-row {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    max-width: 100%;
-}
-
-.footer-column {
-    flex: 1;
-    padding: 20px;
-    min-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-column ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-column h1 {
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-.footer-column a:hover {
-    color: #4da6ff;
-    text-decoration: underline;
-}
-
-.footer-column a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer-column img {
-    margin: 15px;
-    display: block;
 }
