@@ -12,6 +12,12 @@
     <!-- hjb: I ended up just making one teiHeader doc -->
     <xsl:variable name="teiHeader" as="element(teiHeader)" select="doc('../xml/header/teiHeader.xml')//teiHeader"/>
     <xsl:variable name="text" as="element(text)" select="doc('../xml/text/text.xml')//text"/>
+    <xsl:variable name="surfaceMetadata" select="doc('../xml/surfaceMetadata/surfaceMetadata.xml')"/>
+    
+    <xsl:key
+        name="surfaceInfoById"
+        match="surfaceInfo"
+        use="@xml:id"/>
     
     <!-- NAMESPACE!!! NON-TO-TEI-->
     <xsl:template match="*">
@@ -73,16 +79,27 @@
         </surface>
         -->
     <xsl:template match="surface">
-        <surface xml:id="{(@surfaceN,@surfaceNros)[1]}">
+        
+        <xsl:variable name="surfaceID"
+            select="(@surfaceN,@surfaceNros)[1]"/>
+        
+        <surface xml:id="{$surfaceID}">
             
+            <!-- Copy the Voynich attributes -->
             <xsl:apply-templates select="quireInfo/*" mode="quireInfo"/>
-            <!-- quirePage="{quireInfo/quirePage}"
-            langCode="{quireInfo/language}"
-            bifolio="{quireInfo/bifolio}"
-            illus="{bifolio/illus}"
-            hand="{bifolio/hand}">       -->
+            
+            <!-- Insert graphic and zone(s) -->
+            <xsl:for-each select="$surfaceMetadata/surfaceData/surfaceInfo[@id=$surfaceID]/*">
+                <xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:copy-of select="@*"/>
+                </xsl:element>
+            </xsl:for-each>
+            
+            <!-- Process the original children -->
             <xsl:apply-templates/>
+            
         </surface>
+        
     </xsl:template>
     
     <xsl:template match="*" mode="quireInfo">
