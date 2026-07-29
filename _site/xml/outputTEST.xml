@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../odd/out/voynich-tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../odd/out/voynich-tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/voynich-tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/voynich-tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vn="voynich-tei">
    <teiHeader>
       <fileDesc>
@@ -192,12 +192,12 @@
                      vn:currier="1"
                      vn:xtra="C">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006077/full/,1000/0/default.jpg"/>
-               <zone corresp="#f1v_il"
-                     points="580,944 600,883 578,811 496,795 403,807 403,561 459,529 491,483 621,488 693,407 694,335 664,253 598,211 498,214 469,128 410,102 333,148 312,223 220,217 147,288 126,333 156,449 242,448 277,496 306,528 309,577 363,650 374,659 372,767 277,770 187,846 145,879 156,938 217,953"/>
+               <zone corresp="#f1v_il" points="580,944 600,883 578,811 496,795 403,807 403,561 459,529 491,483 621,488 693,407 694,335 664,253 598,211 498,214 469,128 410,102 333,148 312,223 220,217 147,288 126,333 156,449 242,448 277,496 306,528 309,577 363,650 374,659 372,767 277,770 187,846 145,879 156,938 217,953"/>
                <pb n="2"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
-               <note>Plant ID: uva lupi, aterpa belladonn[a], solatrum d[iv|w]ale, solanum nigrum=morella</note>
+               <note>Plant ID: uva lupi, aterpa belladonn[a], solatrum d[iv|w]ale, solanum
+            nigrum=morella</note>
                <note>Ref: Fuchs p.398, Fischer p.17</note>
                <note>Same plant as f102r1[3,2] (Petersen, Stolfi)</note>
                <note>Two paragraphs of text, plant cutting through middle</note>
@@ -210,7 +210,8 @@
                <line n="5" rendition="#Ad #P0">
                   <milestone unit="block" type="start"/>potoy.shol.dair.cphoal<figure type="inline"/>dar.chey.tody.otoaiin.shoshy</line>
                <line n="6" rendition="#Ad #P0">choky.chol.ctho,l,shol.okal<figure type="inline"/>dolchey.chodo.lol.chy.cthy</line>
-               <line n="7" rendition="#Ad #P0">qo<note type="inline">bar over o</note>.ol,choees.cheol.dol.cthey<figure type="inline"/>ykol.dol.dolo.ykol.do,lchiody<note type="inline">corr?</note>
+               <line n="7" rendition="#Ad #P0">qo<note type="inline">bar over
+                o</note>.ol,choees.cheol.dol.cthey<figure type="inline"/>ykol.dol.dolo.ykol.do,lchiody<note type="inline">corr?</note>
                </line>
                <line n="8" rendition="#Ad #P0">okolshol.kol,kechy.chol.ky<figure type="inline"/>chol.cthol.chody.chol.daiin</line>
                <line n="9" rendition="#Ad #P0">shor.okol.chol.dol,ky.dar<figure type="inline"/>shol.dchor.o,tcho.dar.<choice>
@@ -234,8 +235,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006078/full/713,1000/0/default.jpg"/>
-               <zone corresp="#f2r_il"
-                     points="289,915 364,970 520,931 507,871 433,872 427,769 438,700 442,664 470,632 508,640 539,647 636,629 647,588 619,502 597,472 643,422 651,357 638,310 539,306 503,263 462,257 422,252 489,195 506,179 575,160 601,119 589,72 546,46 483,60 471,87 482,144 475,162 450,185 438,204 393,253 361,303 350,329 350,219 357,145 388,96 393,60 337,46 295,70 293,101 331,135 333,346 276,283 250,226 274,188 272,153 211,145 174,160 170,196 197,221 222,243 250,288 325,377 340,415 307,395 247,326 193,297 150,299 118,363 152,403 287,425 275,487 163,465 118,537 168,599 308,618 369,638 397,670 390,864"/>
+               <zone corresp="#f2r_il" points="289,915 364,970 520,931 507,871 433,872 427,769 438,700 442,664 470,632 508,640 539,647 636,629 647,588 619,502 597,472 643,422 651,357 638,310 539,306 503,263 462,257 422,252 489,195 506,179 575,160 601,119 589,72 546,46 483,60 471,87 482,144 475,162 450,185 438,204 393,253 361,303 350,329 350,219 357,145 388,96 393,60 337,46 295,70 293,101 331,135 333,346 276,283 250,226 274,188 272,153 211,145 174,160 170,196 197,221 222,243 250,288 325,377 340,415 307,395 247,326 193,297 150,299 118,363 152,403 287,425 275,487 163,465 118,537 168,599 308,618 369,638 397,670 390,864"/>
                <pb n="3"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -274,8 +274,7 @@
                      vn:currier="1"
                      vn:xtra="O">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006079/full/729,1000/0/default.jpg"/>
-               <zone corresp="#f2v_il"
-                     points="90,891 75,921 84,943 685,947 694,924 684,895 506,876 491,703 496,664 468,654 456,581 508,596 575,564 628,458 628,351 553,286 517,276 528,225 551,202 572,169 631,152 640,141 597,101 612,34 568,52 516,45 463,41 469,81 489,115 485,175 503,217 491,276 392,270 314,297 258,360 250,436 259,515 318,575 381,613 409,614 435,601 473,728 469,885"/>
+               <zone corresp="#f2v_il" points="90,891 75,921 84,943 685,947 694,924 684,895 506,876 491,703 496,664 468,654 456,581 508,596 575,564 628,458 628,351 553,286 517,276 528,225 551,202 572,169 631,152 640,141 597,101 612,34 568,52 516,45 463,41 469,81 489,115 485,175 503,217 491,276 392,270 314,297 258,360 250,436 259,515 318,575 381,613 409,614 435,601 473,728 469,885"/>
                <pb n="4"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -288,7 +287,8 @@
                <line n="4" rendition="#Ad #P0">sho.cholo.cheor.chodaiin<milestone unit="block" type="end"/>
                </line>
                <line n="5" rendition="#Ad #P0">
-                  <milestone unit="block" type="start"/>kchor<note type="inline">mark above o</note>.shy.daiiin.ch<g>cko</g>m<figure type="inline"/>s,shey.dor,chol,daiin</line>
+                  <milestone unit="block" type="start"/>kchor<note type="inline">mark above
+                o</note>.shy.daiiin.ch<g>cko</g>m<figure type="inline"/>s,shey.dor,chol,daiin</line>
                <line n="6" rendition="#Ad #P0">dor.chol.chor.chol.keol.chy.chty<figure type="inline"/>daiin.o,tchor.chan</line>
                <line n="7" rendition="#Ad #P0">daiin.chotchey.qoteeey.chokeos<figure type="inline"/>chees.chr.cheaiin</line>
                <line n="8" rendition="#Ad #P0">chokoishe.chor.cheol.chol.dolody<milestone unit="block" type="end"/>
@@ -306,8 +306,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006080/full/713,1000/0/default.jpg"/>
-               <zone corresp="#f3r_il"
-                     points="312,953 488,946 619,825 608,803 514,832 455,763 456,698 514,655 538,589 524,513 524,485 599,500 651,446 657,285 632,159 571,98 472,65 394,100 359,159 345,259 344,436 394,492 455,496 486,483 499,600 465,654 424,683 411,708 403,771 343,805 270,871 250,916"/>
+               <zone corresp="#f3r_il" points="312,953 488,946 619,825 608,803 514,832 455,763 456,698 514,655 538,589 524,513 524,485 599,500 651,446 657,285 632,159 571,98 472,65 394,100 359,159 345,259 344,436 394,492 455,496 486,483 499,600 465,654 424,683 411,708 403,771 343,805 270,871 250,916"/>
                <pb n="5"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -352,8 +351,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006081/full/727,1000/0/default.jpg"/>
-               <zone corresp="#f3v_il"
-                     points="148,867 114,825 78,825 80,887 122,920 419,915 540,803 538,679 666,732 689,651 700,51 519,53 497,124 501,198 417,210 391,246 412,292 438,292 475,282 495,307 496,413 458,403 479,452 466,492 334,431 309,450 290,608 316,726 480,687 474,770 441,824 290,873"/>
+               <zone corresp="#f3v_il" points="148,867 114,825 78,825 80,887 122,920 419,915 540,803 538,679 666,732 689,651 700,51 519,53 497,124 501,198 417,210 391,246 412,292 438,292 475,282 495,307 496,413 458,403 479,452 466,492 334,431 309,450 290,608 316,726 480,687 474,770 441,824 290,873"/>
                <pb n="6"/>
                <note>Currier's language A, hand 1</note>
                <note>herbal</note>
@@ -395,8 +393,7 @@
                      vn:currier="1"
                      vn:xtra="C">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006082/full/717,1000/0/default.jpg"/>
-               <zone corresp="#f4r_il"
-                     points="439,946 526,926 533,849 530,792 477,783 498,695 521,654 554,534 592,465 649,421 651,389 628,384 568,413 530,465 544,345 522,324 565,232 560,216 530,220 468,315 463,204 472,160 459,151 447,160 434,118 463,78 461,39 377,38 377,74 418,115 421,133 420,149 394,154 390,169 410,206 416,312 339,233 314,233 313,257 338,300 386,337 357,333 333,371 304,387 283,445 280,495 313,557 372,637 403,697 426,777 391,803 357,862 356,907"/>
+               <zone corresp="#f4r_il" points="439,946 526,926 533,849 530,792 477,783 498,695 521,654 554,534 592,465 649,421 651,389 628,384 568,413 530,465 544,345 522,324 565,232 560,216 530,220 468,315 463,204 472,160 459,151 447,160 434,118 463,78 461,39 377,38 377,74 418,115 421,133 420,149 394,154 390,169 410,206 416,312 339,233 314,233 313,257 338,300 386,337 357,333 333,371 304,387 283,445 280,495 313,557 372,637 403,697 426,777 391,803 357,862 356,907"/>
                <pb n="7"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -433,8 +430,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006083/full/728,1000/0/default.jpg"/>
-               <zone corresp="#f4v_il"
-                     points="290,954 536,963 575,923 558,892 501,880 506,762 558,734 636,659 651,586 675,514 646,437 641,396 656,350 652,296 568,285 563,223 569,171 583,145 588,124 568,103 575,60 555,39 523,52 518,97 490,114 481,130 496,151 496,210 516,242 509,257 480,269 466,309 479,337 497,341 516,364 529,380 516,398 496,435 477,475 483,517 397,508 370,519 357,597 380,619 485,656 502,686 474,721 427,782 412,862 408,893 318,910 285,931"/>
+               <zone corresp="#f4v_il" points="290,954 536,963 575,923 558,892 501,880 506,762 558,734 636,659 651,586 675,514 646,437 641,396 656,350 652,296 568,285 563,223 569,171 583,145 588,124 568,103 575,60 555,39 523,52 518,97 490,114 481,130 496,151 496,210 516,242 509,257 480,269 466,309 479,337 497,341 516,364 529,380 516,398 496,435 477,475 483,517 397,508 370,519 357,597 380,619 485,656 502,686 474,721 427,782 412,862 408,893 318,910 285,931"/>
                <pb n="8"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -477,8 +473,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006084/full/708,1000/0/default.jpg"/>
-               <zone corresp="#f5r_il"
-                     points="167,925 314,964 518,957 578,880 524,837 410,850 416,730 511,710 558,618 580,541 551,454 456,391 434,328 377,304 340,341 324,401 233,440 193,531 211,621 313,708 377,727 364,852 247,868 213,864"/>
+               <zone corresp="#f5r_il" points="167,925 314,964 518,957 578,880 524,837 410,850 416,730 511,710 558,618 580,541 551,454 456,391 434,328 377,304 340,341 324,401 233,440 193,531 211,621 313,708 377,727 364,852 247,868 213,864"/>
                <pb n="9"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -510,8 +505,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006085/full/726,1000/0/default.jpg"/>
-               <zone corresp="#f5v_il"
-                     points="263,940 435,973 626,957 678,900 646,842 651,762 667,648 643,518 688,398 674,271 611,267 462,276 366,281 324,321 329,506 246,564 187,628 163,720 149,779 378,871"/>
+               <zone corresp="#f5v_il" points="263,940 435,973 626,957 678,900 646,842 651,762 667,648 643,518 688,398 674,271 611,267 462,276 366,281 324,321 329,506 246,564 187,628 163,720 149,779 378,871"/>
                <pb n="10"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -538,8 +532,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006086/full/714,1000/0/default.jpg"/>
-               <zone corresp="#f6r_il"
-                     points="332,959 406,973 499,961 546,917 533,836 638,839 670,817 672,723 675,409 570,380 570,298 619,222 613,171 537,159 484,188 462,233 422,267 419,214 436,171 434,141 446,109 427,76 389,75 387,96 389,135 394,175 399,227 409,307 375,300 343,321 307,357 287,380 293,413 287,434 318,451 307,484 142,489 90,515 72,629 88,689 202,714 338,719 384,700 405,700 403,727 369,778 345,833"/>
+               <zone corresp="#f6r_il" points="332,959 406,973 499,961 546,917 533,836 638,839 670,817 672,723 675,409 570,380 570,298 619,222 613,171 537,159 484,188 462,233 422,267 419,214 436,171 434,141 446,109 427,76 389,75 387,96 389,135 394,175 399,227 409,307 375,300 343,321 307,357 287,380 293,413 287,434 318,451 307,484 142,489 90,515 72,629 88,689 202,714 338,719 384,700 405,700 403,727 369,778 345,833"/>
                <pb n="11"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -579,8 +572,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006087/full/725,1000/0/default.jpg"/>
-               <zone corresp="#f6v_il"
-                     points="323,959 333,967 557,962 562,947 528,873 479,836 497,763 567,719 582,779 684,717 696,615 641,578 577,568 621,532 635,459 601,403 552,397 590,342 613,278 584,247 552,240 565,210 567,179 540,159 517,160 502,184 491,204 504,228 489,259 435,223 405,209 374,223 365,256 376,279 391,291 349,298 333,326 344,353 371,369 366,385 377,420 369,434 334,437 338,453 367,457 347,503 358,504 385,530 347,565 363,589 293,658 340,752 444,774 432,823 367,870"/>
+               <zone corresp="#f6v_il" points="323,959 333,967 557,962 562,947 528,873 479,836 497,763 567,719 582,779 684,717 696,615 641,578 577,568 621,532 635,459 601,403 552,397 590,342 613,278 584,247 552,240 565,210 567,179 540,159 517,160 502,184 491,204 504,228 489,259 435,223 405,209 374,223 365,256 376,279 391,291 349,298 333,326 344,353 371,369 366,385 377,420 369,434 334,437 338,453 367,457 347,503 358,504 385,530 347,565 363,589 293,658 340,752 444,774 432,823 367,870"/>
                <pb n="12"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -593,7 +585,8 @@
                      <unclear>
                         <g>oh</g>
                      </unclear>
-                  </choice>eekar<note type="inline">funny o, ö?</note>.qoor.shor.chapchy.s.chear.char.otchy</line>
+                  </choice>eekar<note type="inline">funny
+                o, ö?</note>.qoor.shor.chapchy.s.chear.char.otchy</line>
                <line n="2" rendition="#Ad #P0">oees.chor.chckhy.qoekchar.chea<choice>
                      <unclear>s</unclear>
                      <unclear>r</unclear>
@@ -639,8 +632,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006088/full/713,1000/0/default.jpg"/>
-               <zone corresp="#f7r_il"
-                     points="47,951 68,958 232,942 364,901 394,860 433,915 484,941 597,957 661,946 669,935 594,932 501,913 432,859 415,779 408,697 413,601 439,620 456,617 458,573 446,446 576,522 609,511 599,477 480,383 614,360 652,325 631,301 461,309 505,241 528,172 497,169 412,269 390,146 359,80 347,85 336,182 342,273 212,184 189,182 187,203 221,258 303,336 180,359 118,388 117,403 189,422 312,419 333,411 275,498 251,566 259,578 292,572 375,458 386,583 380,710 370,759 369,821 368,847 337,882 238,914 114,927"/>
+               <zone corresp="#f7r_il" points="47,951 68,958 232,942 364,901 394,860 433,915 484,941 597,957 661,946 669,935 594,932 501,913 432,859 415,779 408,697 413,601 439,620 456,617 458,573 446,446 576,522 609,511 599,477 480,383 614,360 652,325 631,301 461,309 505,241 528,172 497,169 412,269 390,146 359,80 347,85 336,182 342,273 212,184 189,182 187,203 221,258 303,336 180,359 118,388 117,403 189,422 312,419 333,411 275,498 251,566 259,578 292,572 375,458 386,583 380,710 370,759 369,821 368,847 337,882 238,914 114,927"/>
                <pb n="13"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -671,8 +663,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006089/full/739,1000/0/default.jpg"/>
-               <zone corresp="#f7v_il"
-                     points="344,962 412,966 437,939 464,850 496,860 515,850 517,765 611,756 631,732 580,677 616,645 606,612 550,608 554,455 521,358 459,328 471,301 483,282 472,278 458,277 457,258 450,251 441,264 446,275 423,282 420,290 441,319 433,344 359,344 354,377 384,456 387,537 299,527 260,541 264,581 320,651 289,670 292,700 334,718 275,761 274,801 315,820 358,814 379,843 415,835 413,877 374,916"/>
+               <zone corresp="#f7v_il" points="344,962 412,966 437,939 464,850 496,860 515,850 517,765 611,756 631,732 580,677 616,645 606,612 550,608 554,455 521,358 459,328 471,301 483,282 472,278 458,277 457,258 450,251 441,264 446,275 423,282 420,290 441,319 433,344 359,344 354,377 384,456 387,537 299,527 260,541 264,581 320,651 289,670 292,700 334,718 275,761 274,801 315,820 358,814 379,843 415,835 413,877 374,916"/>
                <pb n="14"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -708,8 +699,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006090/full/715,1000/0/default.jpg"/>
-               <zone corresp="#f8r_il"
-                     points="43,940 146,966 176,969 262,974 591,953 597,932 540,912 346,918 332,865 307,856 324,808 313,792 319,585 325,559 333,548 323,542 317,545 320,414 353,410 389,387 319,369 320,290 361,345 379,351 485,301 448,220 388,120 346,15 301,87 238,148 185,206 166,270 243,338 280,327 309,281 306,371 212,391 277,414 302,415 302,587 301,702 293,793 230,813 127,889 47,927"/>
+               <zone corresp="#f8r_il" points="43,940 146,966 176,969 262,974 591,953 597,932 540,912 346,918 332,865 307,856 324,808 313,792 319,585 325,559 333,548 323,542 317,545 320,414 353,410 389,387 319,369 320,290 361,345 379,351 485,301 448,220 388,120 346,15 301,87 238,148 185,206 166,270 243,338 280,327 309,281 306,371 212,391 277,414 302,415 302,587 301,702 293,793 230,813 127,889 47,927"/>
                <pb n="15"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -771,8 +761,7 @@
                      vn:hand="1"
                      vn:currier="1">
                <graphic url="https://collections.library.yale.edu/iiif/2/1006091/full/735,1000/0/default.jpg"/>
-               <zone corresp="#f8v_il"
-                     points="123,951 311,956 534,949 532,933 416,871 330,859 322,692 356,700 393,704 461,681 510,600 556,469 579,385 520,346 495,343 441,355 379,406 385,370 347,348 363,296 363,266 387,248 403,228 392,208 332,251 337,183 329,165 308,165 308,201 311,230 300,259 263,185 244,145 224,124 205,139 219,160 255,197 236,206 232,230 252,262 225,275 247,334 224,335 231,388 188,386 199,446 226,487 214,538 173,539 153,598 218,691 304,697 310,861 125,939"/>
+               <zone corresp="#f8v_il" points="123,951 311,956 534,949 532,933 416,871 330,859 322,692 356,700 393,704 461,681 510,600 556,469 579,385 520,346 495,343 441,355 379,406 385,370 347,348 363,296 363,266 387,248 403,228 392,208 332,251 337,183 329,165 308,165 308,201 311,230 300,259 263,185 244,145 224,124 205,139 219,160 255,197 236,206 232,230 252,262 225,275 247,334 224,335 231,388 188,386 199,446 226,487 214,538 173,539 153,598 218,691 304,697 310,861 125,939"/>
                <pb n="16"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1275,7 +1264,7 @@
                <pb n="30"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
-               <note>gathering  mark 2: 29</note>
+               <note>gathering mark 2: 29</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>pchroiin.otchor.chpchol.chpchey.s,pcho<g>ct</g>y</line>
                <line n="2" rendition="#Ad #P0">ytchor.y.ky,chokchy.qokchocthor.shory</line>
@@ -1469,7 +1458,8 @@
                <line n="10" rendition="#Ad #P0">yk<choice>
                      <unclear>o</unclear>
                      <unclear>a</unclear>
-                  </choice>.dshy.dair.ykol.dom<note type="inline">spots near dom</note>
+                  </choice>.dshy.dair.ykol.dom<note type="inline">spots
+                near dom</note>
                   <milestone unit="block" type="end"/>
                </line>
             </surface>
@@ -1924,12 +1914,14 @@
                <line n="3" rendition="#Ad #P0">octh<choice>
                      <unclear>y</unclear>
                      <unclear>o</unclear>
-                  </choice>l.odchees.oesearies<note type="inline">small e</note>.okam.chcth</line>
+                  </choice>l.odchees.oesearies<note type="inline">small
+                e</note>.okam.chcth</line>
                <line n="4" rendition="#Ad #P0">ydal.sh.okol.okaiin.odaiin.dlos</line>
                <line n="5" rendition="#Ad #P0">oeor.oraiin.tchar.oro<milestone unit="block" type="end"/>
                </line>
                <line n="6" rendition="#Ad #P0">
-                  <milestone unit="block" type="start"/>tochol.chor.<g>cf</g>arsa,r<note type="inline">s above last a</note>
+                  <milestone unit="block" type="start"/>tochol.chor.<g>cf</g>arsa,r<note type="inline">s above last
+                a</note>
                </line>
                <line n="7" rendition="#Ad #P0">ycheol.daid.dar.olom</line>
                <line n="8" rendition="#Ad #P0">kochky.chcthy.shol.sain</line>
@@ -3539,7 +3531,8 @@
                   </choice>d.shol.qotshy.oyty.chom<milestone unit="block" type="end"/>
                </line>
                <line n="8" rendition="#Ad #P0">
-                  <milestone unit="block" type="start"/>pshy.opchey.qopchy.ofchey.roiry.sholos.ykchy<note type="inline">separated ch</note>
+                  <milestone unit="block" type="start"/>pshy.opchey.qopchy.ofchey.roiry.sholos.ykchy<note type="inline">separated
+                ch</note>
                </line>
                <line n="9" rendition="#Ad #P0">otchol.ol,dchckhy.qoky.qotchy.qokchy.qokyd</line>
                <line n="10" rendition="#Ad #P0">qokchor.okchy.qoto.ykol.choky.choky.chol,dam</line>
@@ -3754,7 +3747,8 @@
                <line n="3" rendition="#Ad #P0">ytchey.keody.chockhdy.chotal.okalshdy.sh<choice>
                      <unclear>?</unclear>
                      <unclear>d</unclear>
-                  </choice>y<note type="inline">funny d</note>.qokar.oty.qoty.shedy.chedy.dam</line>
+                  </choice>y<note type="inline">funny
+                d</note>.qokar.oty.qoty.shedy.chedy.dam</line>
                <line n="4" rendition="#Ad #P0">ydaiin.chckhy.chdal.olar.chckhdy.chdody.tar.cham.kedy.daiin.y,kaiir.shckhefy</line>
                <line n="5" rendition="#Ad #P0">lodaiin.shedy.qokedy.chdy.okedy.dykaly.daiin.chedy.okeedy.s,ar,air.cthy</line>
                <line n="6" rendition="#Ad #P0">tor.aiirchar.shedy.olaiin.qotedy.sheedy.qokaldy.qokedy.d<choice>
@@ -3987,7 +3981,7 @@
                      vn:xtra="S">
                <pb n="96"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>has a 'key-like' sequence</note>
                <note>Plant ID: Lunaria. Cyclamen (Holm)</note>
                <note>In the left margin there is a vertical sequence 1 2 3 4 5 aligned with</note>
@@ -4074,7 +4068,7 @@
                      vn:currier="2">
                <pb n="97"/>
                <note>herbal</note>
-               <note>Currier's language B,  hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <note>Plant ID: Artichoke, (species of sunflower?)</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>psheor.olkair.olfchedy.qop<choice>
@@ -4120,7 +4114,7 @@
                      vn:currier="2">
                <pb n="98"/>
                <note>herbal</note>
-               <note>Currier's language B,  hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <note>Plant ID: Umbellifera? (O'Neill), (coxcomb?)</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>tchy.do.ldar.shotchdy.qokchdy.opchedy.qokol.shor.ofar,fardam</line>
@@ -4167,7 +4161,7 @@
                      vn:currier="1">
                <pb n="99"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>Plant ID: Mandrake (Manley)</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>tsholdchy.qotchy.opchear.ypchedy</line>
@@ -4232,7 +4226,7 @@
                      vn:currier="1">
                <pb n="100"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>Plant ID: Cow's tongue, Licopsis, Sedum Majus (Hauswurtz)</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>poshody.qokodar.shodaiin.qotal<figure type="inline"/>dscheey.saiin,dy</line>
@@ -4286,7 +4280,7 @@
                      vn:currier="1">
                <pb n="101"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>Plant ID: (unreadable)</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>tdokchcfhy.ycphko.ytair.shar.qofy,daiin.ypchy.otchol.dar.yty</line>
@@ -4331,7 +4325,7 @@
                      vn:currier="1">
                <pb n="102"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>pchor.chcphol.cphaiiin.otcheor.ytor,kol.chocph<choice>
                      <unclear>a</unclear>
@@ -4385,7 +4379,7 @@
                      vn:currier="1">
                <pb n="103"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>Plant ID: Elecampane</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>k<choice>
@@ -4427,7 +4421,7 @@
                      vn:currier="1">
                <pb n="104"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>tshor,shey.qodckhy.e<g>ph</g>o.oltshey.daiin.qopchy</line>
                <line n="2" rendition="#Ad #P0">okeey.daiin.sheekol.shom.shol.cthy.dchom.do</line>
@@ -4463,7 +4457,7 @@
                      vn:currier="1">
                <pb n="105"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>Plant ID: Thistle, leaves of boneset</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>podaiin.shodal.qopchol.cfhe<choice>
@@ -4518,10 +4512,11 @@
                      vn:currier="1">
                <pb n="106"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>not found in FSG item 1609</note>
                <line n="1" rendition="#At #P0">
-                  <milestone unit="block" type="start"/>pcheodar.chpal.oloiin.ckhey<note type="inline">bar interrupted</note>.dar.qokeey.cpheeain.s,al</line>
+                  <milestone unit="block" type="start"/>pcheodar.chpal.oloiin.ckhey<note type="inline">bar
+            interrupted</note>.dar.qokeey.cpheeain.s,al</line>
                <line n="2" rendition="#Ad #P0">dcheain.cphaiin.s.ar.cheor.qodaiin.cthaildy.ypchal</line>
                <line n="3" rendition="#Ad #P0">yair.ykar.oky.cham.chody.ykoldam.cheol,am</line>
                <line n="4" rendition="#Ad #P0">dar,chor.cheky.chol.okaiin.chody.chol,dy</line>
@@ -4558,7 +4553,7 @@
                      vn:currier="2">
                <pb n="107"/>
                <note>herbal</note>
-               <note>Currier's language B,  hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>podaiin.shekchy.qofair.okar.yk.<choice>
                      <unclear>
@@ -4619,7 +4614,7 @@
                      vn:currier="2">
                <pb n="108"/>
                <note>herbal</note>
-               <note>Currier's language B,  hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <note>Plant ID: Elephant's ear?</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>kcheedchdy.oedain.chckhy<figure type="inline"/>otoldaiin.dodyd</line>
@@ -4675,7 +4670,7 @@
                      vn:currier="1">
                <pb n="109"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>Plant ID: Boragine echium, Dianthus flower (convolvulus?)</note>
                <note>Kraus p45, Zimansky; 'fern'</note>
                <line n="1" rendition="#At #P0">
@@ -4722,7 +4717,7 @@
                      vn:currier="1">
                <pb n="110"/>
                <note>herbal</note>
-               <note>Currier's language A,  hand 1</note>
+               <note>Currier's language A, hand 1</note>
                <note>gathering mark 7</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>kche<choice>
@@ -4766,7 +4761,7 @@
                      vn:currier="2">
                <pb n="111"/>
                <note>herbal</note>
-               <note>Currier's language B,  hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>poeeockhey.odain.cheop.sheody.shocfhey.dy.sheep.sheody.<choice>
                      <unclear>e</unclear>
@@ -4811,7 +4806,7 @@
                      vn:hand="1">
                <pb n="112"/>
                <note>cosmological</note>
-               <note>Currier's language B,  hand 2 (???)</note>
+               <note>Currier's language B, hand 2 (???)</note>
                <note>has `key-like' sequences</note>
                <note>has extraneous writing ==&gt; Saturn symbol in lower right corner</note>
                <note>General description of page:</note>
@@ -4904,7 +4899,8 @@
                <line n="12" rendition="#Ad #P0">shoar,ar.choldal.otalchal.dal.choldy.okalys.airaldy.shar</line>
                <line n="13" rendition="#Ad #P0">ytar.sheear.cheoldy.ykeol.cheal.cheody.chal.chaiin.ol.oly</line>
                <line n="14" rendition="#Ad #P0">sharam.okair.chekaiin.ytchaly.dalchal.ykal.okalal.oly.chal</line>
-               <line n="15" rendition="#Ad #P0">daiir.shal.qopaim.cholaly.dy.shedy<note type="inline">rare 'ed' in A language</note>
+               <line n="15" rendition="#Ad #P0">daiir.shal.qopaim.cholaly.dy.shedy<note type="inline">rare 'ed' in
+                A language</note>
                   <milestone unit="block" type="end"/>
                </line>
                <note>Seven-pointed star at start of this paragraph</note>
@@ -5405,12 +5401,13 @@
                <note>One outer circle in red ink, with 12 pieces of scattered writing in red ink.</note>
                <note>Middle circle is divided in 12 radial sections with short paragraphs.</note>
                <note>Sector nrs are cf. Petersen, first = from 09:00 to 10:00 and further clockwise.</note>
-               <note>Inner circle with  8 words around an 8-point star with clouds (?)</note>
+               <note>Inner circle with 8 words around an 8-point star with clouds (?)</note>
                <note>From one of the star point there is a radiating dotted line that runs up</note>
                <note>to the lower part of the middle section.</note>
                <note>Each of the middle sections starts with text, in 7 cases with one "heading",</note>
                <note>which is transcribed as a combination of Pb (blocked) and L0 loci.</note>
-               <note>More inside are 12 labels near moon faces and inside that 8 more words (Ls loci).</note>
+               <note>More inside are 12 labels near moon faces and inside that 8 more words (Ls
+            loci).</note>
                <note>At NW of the circle there seems to be a line that marks the start of text (?)</note>
                <note>Has 'b' in upper right corner</note>
                <note>Outside ring, all in red ink:</note>
@@ -5651,7 +5648,7 @@
                <note>L0 loci. There may have been more than 12 but any</note>
                <note>additional ones are outside the visible part of this page.</note>
                <note>Inside are 17 lines of text radiating outward from the central</note>
-               <note>Sun face, which is smiling. There are  39 stars, 3 of which are blue, the</note>
+               <note>Sun face, which is smiling. There are 39 stars, 3 of which are blue, the</note>
                <note>rest being yellow.</note>
                <note>1st label starts at 10 o'clock</note>
                <note>Scattered loci, really on circle:</note>
@@ -5917,7 +5914,8 @@
                      <unclear>s</unclear>
                      <unclear>r</unclear>
                   </choice>.orol.orkeeey.olkeeoly.ykeeol</line>
-               <note>Inside circle. Top left and top right as L0 label, bottom as 3-line blocked paragraph</note>
+               <note>Inside circle. Top left and top right as L0 label, bottom as 3-line blocked
+            paragraph</note>
                <line n="15" rendition="#At #L0">otodol</line>
                <line n="16" rendition="#Aq #L0">opcholdg</line>
                <line n="17" rendition="#At #Pb">
@@ -6004,7 +6002,8 @@
                      <unclear>y</unclear>
                   </choice>kcho,teody.chockhy.otol.okeody.cheos.chkorchy.dy.dy.shety.oteey.dair.chotedy.chey.dal.daiin.dokeey</line>
                <line n="2" rendition="#At #Cc">
-                  <note type="inline">10:00 cf ThP</note>chear.s.oteey.dain.dycheckhy.oteeos.oteol.okeo<choice>
+                  <note type="inline">10:00 cf
+                    ThP</note>chear.s.oteey.dain.dycheckhy.oteeos.oteol.okeo<choice>
                      <unclear>r</unclear>
                      <unclear>s</unclear>
                   </choice>.okeeody.sho.ykeod.oteeol.okeeos.or.chos.or.o<g>cko</g>.aiin.chol.ykeey.sheo.s.cheoekeey.cheodaiir.cheekchey.chkeody.okchy.teeos.<choice>
@@ -6023,7 +6022,8 @@
                   </choice>y</line>
                <line n="6" rendition="#At #Ro">okechdaral</line>
                <line n="7" rendition="#At #Ro">otol.ches.otaly</line>
-               <line n="8" rendition="#At #Ro">okeey.chek<note type="inline">k on top of e</note>.chekeys</line>
+               <line n="8" rendition="#At #Ro">okeey.chek<note type="inline">k on top of
+            e</note>.chekeys</line>
                <line n="9" rendition="#At #Ro">dar.shes.shokey</line>
                <line n="10" rendition="#At #Ro">oteodain.sam</line>
             </surface>
@@ -6766,7 +6766,8 @@
                <line n="5" rendition="#An #Lz">
                   <note type="inline">01:00</note>okealar</line>
                <line n="6" rendition="#At #Cc">
-                  <note type="inline">10:00</note>oteos.aiin.okeo,daiin.okeey.cheo.keodal.chol.okeol.ol<g>ckhh</g>y.oteeykeey.tey.okalaiin.okalchal,chey.al.<note type="inline">long gap</note>o.keey.daiin.otar.al.chotaiin.otchey.qoeeeo,s.<choice>
+                  <note type="inline">10:00</note>oteos.aiin.okeo,daiin.okeey.cheo.keodal.chol.okeol.ol<g>ckhh</g>y.oteeykeey.tey.okalaiin.okalchal,chey.al.<note type="inline">long
+                gap</note>o.keey.daiin.otar.al.chotaiin.otchey.qoeeeo,s.<choice>
                      <unclear>ckh</unclear>
                      <unclear>?</unclear>
                   </choice>al.chekaiin.otaiin.chy.d.r.aiin.al.y.<g>chh</g>o.chekaiin.okedal.qokeodal.saiin.otois.otees</line>
@@ -6847,7 +6848,8 @@
                <note>for labels is that of nymph.</note>
                <note>Part of the start of C1 could be missing</note>
                <line n="1" rendition="#At #Cc">
-                  <note type="inline">10:00 after wide gap</note>okeey.chekoy.oteo.ykeey.chedaiin.okeeol.cheeor.chocthar.ar.oteody.oteedy.okeolaiin.oteey.okarar.<unclear>?</unclear>
+                  <note type="inline">10:00 after wide
+                gap</note>okeey.chekoy.oteo.ykeey.chedaiin.okeeol.cheeor.chocthar.ar.oteody.oteedy.okeolaiin.oteey.okarar.<unclear>?</unclear>
                   <unclear>?</unclear>
                   <unclear>?</unclear>.<unclear>?</unclear>
                   <unclear>?</unclear>
@@ -7122,14 +7124,16 @@
                <line n="23" rendition="#An #Lz">
                   <note type="inline">00:30</note>oeedy</line>
                <line n="24" rendition="#An #Lz">
-                  <note type="inline">01:00</note>opalg<note type="inline">nymph has no star</note>
+                  <note type="inline">01:00</note>opalg<note type="inline">nymph has no
+                star</note>
                </line>
                <line n="25" rendition="#An #Lz">
                   <note type="inline">02:00</note>okeeom</line>
                <line n="26" rendition="#An #Lz">
                   <note type="inline">03:00</note>olkar</line>
                <line n="27" rendition="#An #Lz">
-                  <note type="inline">04:00</note>oeedaly<note type="inline">nymph stands on barrel</note>
+                  <note type="inline">04:00</note>oeedaly<note type="inline">nymph stands on
+                barrel</note>
                </line>
                <line n="28" rendition="#An #Lz">
                   <note type="inline">05:00</note>cheosy</line>
@@ -7594,7 +7598,8 @@
                <line n="35" rendition="#Ad #Ln">ykedy</line>
                <line n="36" rendition="#At #Ln">olkchy</line>
                <line n="37" rendition="#Ad #Ln">otoly</line>
-               <note>Continue normal loci. Petersen counted the above as 11a and 12 so he's 1 out now</note>
+               <note>Continue normal loci. Petersen counted the above as 11a and 12 so he's 1 out
+            now</note>
                <line n="38" rendition="#At #P0">
                   <milestone unit="block" type="start"/>tolsheor.qokal.dar.olked.orol.kchey.okain.olchey.okar.sheky.dedy.kedy</line>
                <line n="39" rendition="#Ad #P0">qoqokeey.olkain.qol,sheedy.qokeor.sheedy.qokal.or.chey.qokar.ol.aiin</line>
@@ -7941,7 +7946,7 @@
                      vn:currier="2">
                <pb n="152"/>
                <note>biological</note>
-               <note>Currier's  language B, hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <note>Kahn p865, Kraus XXIX</note>
                <note>ladies in tubes</note>
                <note>Uterus @ ovaries (top)? Intestines (right)? (GL)</note>
@@ -8164,7 +8169,8 @@
                <line n="23" rendition="#Ad #P0">qol.chedy.okeshy.qoteedy.okeedy.ol,shedy.qokedy,dy</line>
                <line n="24" rendition="#Ad #P0">ytaiin.shedy.ol.sheedy.olshdy.shey.kshdy.shol.kedy</line>
                <line n="25" rendition="#Ad #P0">teeol.olkeshey.qolcheol.ol.or.sheckhedy<figure type="inline"/>
-                  <note type="inline">next line intruding</note>or.ol.sham</line>
+                  <note type="inline">next line
+                intruding</note>or.ol.sham</line>
                <line n="26" rendition="#Ad #P0">qokaiin.or.sheedy.otain.ol.shedy.sol.fchedy.otaldy</line>
                <line n="27" rendition="#Ad #P0">lol.kar.shr.r.ol.ols.sheey.ol.chedy.oltar.olkaiin</line>
                <line n="28" rendition="#Ad #P0">olkain.shey.qokey.okar.ol.oteedy.chcthy.los.aiin,d</line>
@@ -8187,7 +8193,7 @@
                      vn:currier="2">
                <pb n="155"/>
                <note>biological</note>
-               <note>Currier's  language B, hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <note>7 ladies in various pipe systems</note>
                <note>B@R p88</note>
                <line n="1" rendition="#At #P0">
@@ -8375,7 +8381,7 @@
                <pb n="157"/>
                <note>biological</note>
                <note>Guy p213 (who calls it f80v), Bennett p189</note>
-               <note>Currier's language B, hand  2</note>
+               <note>Currier's language B, hand 2</note>
                <note>queens on top</note>
                <line n="1" rendition="#At #Ln">toroly</line>
                <line n="2" rendition="#Aq #Ln">olchdy</line>
@@ -8560,7 +8566,7 @@
                <pb n="159"/>
                <note>biological</note>
                <note>Brumbaugh p9, Harper's; "hot tubs''</note>
-               <note>Currier's  language  B, hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <note>Right margin of text is irregular; missing picture?</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>polchoy.qokedy.shol.opchedy.olpchedy.ofshdy.oly</line>
@@ -8637,7 +8643,8 @@
                      <unclear>?</unclear>
                   </choice>shey.qokeey.okeey.oky.ykeey.qoky.oky.lky.olchy.ky.dsholyd</line>
                <line n="12" rendition="#Ad #P0">qol.ol.chdy.shedy.qokedy.ytedy.chetedy.lkedey.ytedy</line>
-               <line n="13" rendition="#Ad #P0">ykeshey.dch<unclear>s</unclear>ed<note type="inline">s above e</note>,ytedy.ytedy.dar.ykeda<g>iph</g>y.qoty.ykedy.okal</line>
+               <line n="13" rendition="#Ad #P0">ykeshey.dch<unclear>s</unclear>ed<note type="inline">s above
+                e</note>,ytedy.ytedy.dar.ykeda<g>iph</g>y.qoty.ykedy.okal</line>
                <line n="14" rendition="#Ad #P0">dshedy.ykeedy.sheeky.daiin.okedy.qokeed.qokedy.lchpchdy</line>
                <line n="15" rendition="#Ad #P0">qokal.chedy.ol.sheey.salshcthdy.qofchedy.r.chedy.ltary</line>
                <line n="16" rendition="#Ad #P0">lor.shedy.qoeedy.ol.chy.rshdy.lshedy.dar.chdy.pchdy</line>
@@ -8839,7 +8846,7 @@
                      vn:currier="2">
                <pb n="163"/>
                <note>biological</note>
-               <note>Currier's  language B, hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>tchedy.lpchedy.op<g>ch'</g>edy.chepol.pchedar.shedy.qopchedy</line>
                <line n="2" rendition="#Ad #P0">sol.cheey.qokaiin.shol.lchs.shey.qoteedy.rches.ar.chedy.dor</line>
@@ -8935,7 +8942,7 @@
                      vn:currier="2">
                <pb n="164"/>
                <note>biological</note>
-               <note>Currier's  language B, hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>poldaky.dalol.otedy.chtair.opchedy.qotal.chedy.chepchedy.opchey</line>
                <line n="2" rendition="#Ad #P0">dol.shedy.qokedy.shedy.qotedar.checthedy.qokedy.qotal.chey.dar</line>
@@ -9090,7 +9097,7 @@
                      vn:currier="2">
                <pb n="166"/>
                <note>biological</note>
-               <note>Currier's language B,  hand 2</note>
+               <note>Currier's language B, hand 2</note>
                <note>gathering mark 13</note>
                <line n="1" rendition="#At #P1">
                   <milestone unit="block" type="start"/>otdy.dar.chdy.dar,oram</line>
@@ -9551,7 +9558,7 @@
                      vn:currier="3">
                <pb n="173,174"/>
                <note>cosmological</note>
-               <note>Currier's language  B, hand  3</note>
+               <note>Currier's language B, hand 3</note>
                <note>Normal paragraph in centre.</note>
                <note>Additionally, four blocks counted clockwise (N, S, E, W)</note>
                <note>Has a circle divided in 3 and some extraneous writing</note>
@@ -9559,7 +9566,7 @@
                <note>SciAm</note>
                <note>Brumbaugh p54, calls it f85r</note>
                <note>"coition''</note>
-               <note>gathering mark  14</note>
+               <note>gathering mark 14</note>
                <line n="1" rendition="#At #Pb">
                   <note type="inline">N</note>
                   <milestone unit="block" type="start"/>tchedy.qokeedy.qoedy.qopchy.raiin.olpchey.qokaiin</line>
@@ -9744,7 +9751,8 @@
                <line n="13" rendition="#Ad #P0">ksheol.qoar.cfhs.ykaiin<figure type="inline"/>saral.aiim.am</line>
                <line n="14" rendition="#Ad #P0">san.ainy.keol,dair.old<figure type="inline"/>ain.atolg</line>
                <line n="15" rendition="#Ad #P0">yksho.qos<figure type="inline"/>arolor.or<figure type="inline"/>al.daraiing</line>
-               <line n="16" rendition="#Ad #P0">saiin.olcthr<note type="inline">through plant</note>
+               <line n="16" rendition="#Ad #P0">saiin.olcthr<note type="inline">through
+            plant</note>
                   <milestone unit="block" type="end"/>
                </line>
             </surface>
@@ -9762,7 +9770,7 @@
                <pb n="181"/>
                <note>pharmaceutical</note>
                <note>Washington Post, 5 Aug 62 (Sunday)</note>
-               <note>Currier's  language A, hand 4</note>
+               <note>Currier's language A, hand 4</note>
                <note>3 rows of labelled roots, with paragraphs under each...</note>
                <note>top row of plants</note>
                <line n="1" rendition="#At #Lc">otorchety</line>
@@ -9824,7 +9832,8 @@
                <pb n="182"/>
                <note>pharmaceutical</note>
                <note>Currier's language A, hand 4</note>
-               <note>L This is another recipes page. Three rows of recipes with two paras between them</note>
+               <note>L This is another recipes page. Three rows of recipes with two paras between
+            them</note>
                <line n="1" rendition="#At #Lc">okalyd</line>
                <line n="2" rendition="#At #Lf">cheocthy</line>
                <line n="3" rendition="#At #Lf">cpheor</line>
@@ -9887,7 +9896,7 @@
                      vn:hand="1">
                <pb n="183"/>
                <note>pharmaceutical</note>
-               <note>Currier's  language A</note>
+               <note>Currier's language A</note>
                <line n="1" rendition="#At #Lc">okchshy</line>
                <line n="2" rendition="#At #Lf">qkol</line>
                <line n="3" rendition="#At #Lf">oldam</line>
@@ -9978,7 +9987,8 @@
                <line n="24" rendition="#Ad #P0">yokeeol.cheol.qokeey.qokeol.chey.cheokor.okeey,ky.daiin.<note type="inline">gap</note>qokeol,cheey.qokeey.saiin.oteos</line>
                <line n="25" rendition="#Ad #P0">daiin.dal.sheol.s.aiin.qocheey.daiiin.qokeeyl.qokeody.chol,cheol.<note type="inline">gap</note>ykeo.qo.qol.cheo.loiiin.doigom</line>
                <line n="26" rendition="#Ad #P0">scheor.sy.sorcheey.dol.cheor.cheey.keey.qokeey.daiin.ycheary.<note type="inline">gap</note>okeey.keeokechy.cthey.daiin.dy</line>
-               <line n="27" rendition="#Ad #P0">qokol.cheor.okoiin.okeoy.qoeey.cheor.cheey.qokeol.cheal.s.aiin.<note type="inline">gap and vertical jump</note>ocheol.soiiin.dair.chey.daiin</line>
+               <line n="27" rendition="#Ad #P0">qokol.cheor.okoiin.okeoy.qoeey.cheor.cheey.qokeol.cheal.s.aiin.<note type="inline">gap and
+                vertical jump</note>ocheol.soiiin.dair.chey.daiin</line>
                <line n="28" rendition="#Ad #P0">o,r,ain.ar.ain.ol,daiin.qoaiin.ol.chkaiin.daiin.okar.dair,y<unclear>?</unclear>dair<milestone unit="block" type="end"/>
                </line>
                <line n="29" rendition="#At #Lc">okain</line>
@@ -10205,7 +10215,7 @@
                <note>herbal</note>
                <note>Currier's language A</note>
                <note>Same plant as f100r[1,3] ? (Stolfi)</note>
-               <note>gathering  mark 15</note>
+               <note>gathering mark 15</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>pcheor.chodar.oleees.chepy.shol<figure type="inline"/>shckheo<figure type="inline"/>otol.shey<figure type="inline"/>cheo,r.cheokeey</line>
                <line n="2" rendition="#Ad #P0">tshor.olsheod.qodaiin.qokeor.sy<figure type="inline"/>oraiin<figure type="inline"/>ykeeol<figure type="inline"/>octheody.<g>cthhh</g>y</line>
@@ -10228,7 +10238,7 @@
                <line n="10" rendition="#Ad #P0">ykeeor.cheos.q<g>kh</g>ey.cheos.oteol.okechod<figure type="inline"/>oeey.keeos.aiiin</line>
                <line n="11" rendition="#Ad #P0">deeocthey.keeeol.sheol.<g>c't</g>sheol.daiin<milestone unit="block" type="end"/>
                </line>
-               <note>folios  91-92 missing</note>
+               <note>folios 91-92 missing</note>
             </surface>
          </surfaceGrp>
       </surfaceGrp>
@@ -10465,7 +10475,8 @@
                      <unclear>o</unclear>
                   </choice>dy.chody.qotaiin.y.kaipy</line>
                <line n="3" rendition="#Ad #P0">archytaiin.shekoiin.okar.or.aiin.chckhy.okal.otain.okalody</line>
-               <line n="4" rendition="#Ad #P0">daiin.<note type="inline">next line intrudes</note>olkain.qokan.shar.shekydy.dain.alkain<figure type="inline"/>okalaiin.s</line>
+               <line n="4" rendition="#Ad #P0">daiin.<note type="inline">next line
+            intrudes</note>olkain.qokan.shar.shekydy.dain.alkain<figure type="inline"/>okalaiin.s</line>
                <line n="5" rendition="#Ad #P0">tar.fcheey.shos.aiin.okar.olkaiin.otalain<figure type="inline"/>okaiin,ar</line>
                <line n="6" rendition="#Ad #P0">dain.ykaly.chals<figure type="inline"/>shedain.olaiin.y<figure type="inline"/>okain.ldy</line>
                <line n="7" rendition="#Ad #P0">qokeey.dar.chdykain<figure type="inline"/>ytasal.otain<milestone unit="block" type="end"/>
@@ -10494,7 +10505,8 @@
                </line>
                <line n="6" rendition="#Ad #P0">
                   <milestone unit="block" type="start"/>tshdal.qokshy.dchdy.shedy.dkshey.chefar.otchdy.ol.shedar.chdam</line>
-               <line n="7" rendition="#Ad #P0">dshey,kain.qokar.olkar.<note type="inline">next line intrudes</note>chy.tar.otar.chdy.kchdy.dolkain.otardy</line>
+               <line n="7" rendition="#Ad #P0">dshey,kain.qokar.olkar.<note type="inline">next line
+                intrudes</note>chy.tar.otar.chdy.kchdy.dolkain.otardy</line>
                <line n="8" rendition="#Ad #P0">dchody.sheos.qodaiin.fchodaiin.chtal.dar.okedy.okchedy<milestone unit="block" type="end"/>
                </line>
                <line n="9" rendition="#Ad #P0">
@@ -10555,7 +10567,7 @@
                <note>herbal</note>
                <note>Currier's language A, hand 4</note>
                <note>gathering mark 17</note>
-               <note>Plant ID:  Smilax tracheia, or Chenopodium</note>
+               <note>Plant ID: Smilax tracheia, or Chenopodium</note>
                <note>Same plant as f99r[4,1] ? (GL)</note>
                <line n="1" rendition="#At #P0">
                   <milestone unit="block" type="start"/>psheessheeor.qoepsheody.odar.ocpheeo<figure type="inline"/>opar.ysar.osoj</line>
@@ -10974,7 +10986,7 @@
                   </choice>,dar.okchol.cheo,rcheky</line>
                <line n="10" rendition="#Ad #P0">ysho.qykeeol.chol.sho.odor.dor.chees.ykeol.chol.dol.kor.a<g>ith</g>y.ol.chso.sha.olcheeol.kolshey.okeoly.oiin.aiioly<milestone unit="block" type="end"/>
                </line>
-               <note>&lt;f101r2&gt;       {$I=P $Q=S $P=F}</note>
+               <note>&lt;f101r2&gt; {$I=P $Q=S $P=F}</note>
                <note>All text on this page in normal paragraphs covered by f101r1</note>
             </surface>
             <surface xml:id="f101v"
@@ -11151,7 +11163,8 @@
                </line>
                <line n="15" rendition="#Ad #Lc">so<unclear>?</unclear>
                   <unclear>?</unclear>
-                  <unclear>?</unclear>dch<note type="inline">bottom word</note>
+                  <unclear>?</unclear>dch<note type="inline">bottom
+                word</note>
                </line>
                <line n="16" rendition="#At #P0">
                   <milestone unit="block" type="start"/>
@@ -12179,7 +12192,7 @@
                      vn:hand="3"
                      vn:currier="X">
                <pb n="219"/>
-               <note>text only  / stars</note>
+               <note>text only / stars</note>
                <note>Currier's language B, hand X</note>
                <note>Light star, 7 points, tail</note>
                <line n="1" rendition="#At #P0">
@@ -12775,7 +12788,7 @@
                <line n="52" rendition="#Ad #P0">saiin.cheol.qokeedy.qokeedy.chedy.qokeey.cheal.llchey.daiin.okeey.qokeey</line>
                <line n="53" rendition="#Ad #Pr">olchar.ol,chedy.lshy.otedy<milestone unit="block" type="end"/>
                </line>
-               <note>folios  109-110 missing</note>
+               <note>folios 109-110 missing</note>
             </surface>
          </surfaceGrp>
          <surfaceGrp type="folio" n="u">
@@ -13387,7 +13400,8 @@
                <note>Light star, dotted, 7 points, tail</note>
                <line n="30" rendition="#Ad #P0">
                   <milestone unit="block" type="start"/>folchear.oteol.lshedy.lkshedy.sheeeky.otar.qchar.tar.shkchedy.qokchd.opy</line>
-               <line n="31" rendition="#Ad #P0">ytaiin.okaiin.chear.ckhar.shal.shckhy.okain.<note type="inline">next line intrudes</note>o,<g>kh</g>ar.chor.cky.chokain.qoky</line>
+               <line n="31" rendition="#Ad #P0">ytaiin.okaiin.chear.ckhar.shal.shckhy.okain.<note type="inline">next line
+                intrudes</note>o,<g>kh</g>ar.chor.cky.chokain.qoky</line>
                <line n="32" rendition="#Ad #P0">shodaiin.shkaiin.chcthal.okshedy.otal.okaiin.cphoal.otain.okaiin.chedy.qotal</line>
                <line n="33" rendition="#Ad #P0">ykeeor.chear.okain.chear.chockhy<milestone unit="block" type="end"/>
                </line>
@@ -14156,9 +14170,11 @@
                <note>has extraneous writing mixed with voynich script</note>
                <note>eva in &lt; &gt;, approximately:</note>
                <note>p*clabc* nomon nucor*v</note>
-               <note>+ nuchicon oladab&lt;yd&gt; + multo&lt;d&gt; + tc + c&lt;h&gt;vc + porta&lt;d&gt; + n +</note>
+               <note>+ nuchicon oladab&lt;yd&gt; + multo&lt;d&gt; + tc + c&lt;h&gt;vc + porta&lt;d&gt; + n
+            +</note>
                <note>fix + marix + mocix + vix + ahra + maria +</note>
-               <line n="1" rendition="#At #Lx">oror.sheey<note type="inline">valsch vbren so nim gaf mich o</note>
+               <line n="1" rendition="#At #Lx">oror.sheey<note type="inline">valsch vbren so nim gaf mich
+                o</note>
                </line>
                <note>end of file</note>
             </surface>
