@@ -12,9 +12,11 @@ const c = new CETEI();
 
 document.addEventListener("DOMContentLoaded", () => {
   c.getHTML5("outputTEST.xml", function (data) {
-    document.body.appendChild(data);
+    const output = document.getElementById("tei-output");
 
-    setupInlineNotes(document.body);
+    output.appendChild(data);
+
+    setupInlineNotes(output);
     setupSurfaces();
   });
 });
