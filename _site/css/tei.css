@@ -427,6 +427,10 @@ tei-rolename {
     font-weight: normal;
 }
 
+tei-text {
+    display: none;
+}
+
 tei-milestone {
     display: block;
     padding: 10px;
