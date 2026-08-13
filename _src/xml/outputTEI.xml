@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../odd/out/voynich-tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../odd/out/voynich-tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../evaFontCSS.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vn="voynich-tei">
    <teiHeader>
       <fileDesc>
@@ -110,7 +111,7 @@
                      vn:hand="1"
                      vn:currier="1"
                      vn:xtra="V">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006076/full/789,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006076/full/,1000/0/default.jpg"/>
                <pb n="1"/>
                <note>text only</note>
                <note>Currier's Language A, hand 1</note>
@@ -233,7 +234,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006078/full/713,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006078/full/,1000/0/default.jpg"/>
                <zone corresp="#f2r_il"
                      points="289,915 364,970 520,931 507,871 433,872 427,769 438,700 442,664 470,632 508,640 539,647 636,629 647,588 619,502 597,472 643,422 651,357 638,310 539,306 503,263 462,257 422,252 489,195 506,179 575,160 601,119 589,72 546,46 483,60 471,87 482,144 475,162 450,185 438,204 393,253 361,303 350,329 350,219 357,145 388,96 393,60 337,46 295,70 293,101 331,135 333,346 276,283 250,226 274,188 272,153 211,145 174,160 170,196 197,221 222,243 250,288 325,377 340,415 307,395 247,326 193,297 150,299 118,363 152,403 287,425 275,487 163,465 118,537 168,599 308,618 369,638 397,670 390,864"/>
                <pb n="3"/>
@@ -273,7 +274,7 @@
                      vn:hand="1"
                      vn:currier="1"
                      vn:xtra="O">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006079/full/729,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006079/full/,1000/0/default.jpg"/>
                <zone corresp="#f2v_il"
                      points="90,891 75,921 84,943 685,947 694,924 684,895 506,876 491,703 496,664 468,654 456,581 508,596 575,564 628,458 628,351 553,286 517,276 528,225 551,202 572,169 631,152 640,141 597,101 612,34 568,52 516,45 463,41 469,81 489,115 485,175 503,217 491,276 392,270 314,297 258,360 250,436 259,515 318,575 381,613 409,614 435,601 473,728 469,885"/>
                <pb n="4"/>
@@ -305,7 +306,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006080/full/713,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006080/full/,1000/0/default.jpg"/>
                <zone corresp="#f3r_il"
                      points="312,953 488,946 619,825 608,803 514,832 455,763 456,698 514,655 538,589 524,513 524,485 599,500 651,446 657,285 632,159 571,98 472,65 394,100 359,159 345,259 344,436 394,492 455,496 486,483 499,600 465,654 424,683 411,708 403,771 343,805 270,871 250,916"/>
                <pb n="5"/>
@@ -351,7 +352,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006081/full/727,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006081/full/,1000/0/default.jpg"/>
                <zone corresp="#f3v_il"
                      points="148,867 114,825 78,825 80,887 122,920 419,915 540,803 538,679 666,732 689,651 700,51 519,53 497,124 501,198 417,210 391,246 412,292 438,292 475,282 495,307 496,413 458,403 479,452 466,492 334,431 309,450 290,608 316,726 480,687 474,770 441,824 290,873"/>
                <pb n="6"/>
@@ -394,7 +395,7 @@
                      vn:hand="1"
                      vn:currier="1"
                      vn:xtra="C">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006082/full/717,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006082/full/,1000/0/default.jpg"/>
                <zone corresp="#f4r_il"
                      points="439,946 526,926 533,849 530,792 477,783 498,695 521,654 554,534 592,465 649,421 651,389 628,384 568,413 530,465 544,345 522,324 565,232 560,216 530,220 468,315 463,204 472,160 459,151 447,160 434,118 463,78 461,39 377,38 377,74 418,115 421,133 420,149 394,154 390,169 410,206 416,312 339,233 314,233 313,257 338,300 386,337 357,333 333,371 304,387 283,445 280,495 313,557 372,637 403,697 426,777 391,803 357,862 356,907"/>
                <pb n="7"/>
@@ -432,7 +433,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006083/full/728,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006083/full/,1000/0/default.jpg"/>
                <zone corresp="#f4v_il"
                      points="290,954 536,963 575,923 558,892 501,880 506,762 558,734 636,659 651,586 675,514 646,437 641,396 656,350 652,296 568,285 563,223 569,171 583,145 588,124 568,103 575,60 555,39 523,52 518,97 490,114 481,130 496,151 496,210 516,242 509,257 480,269 466,309 479,337 497,341 516,364 529,380 516,398 496,435 477,475 483,517 397,508 370,519 357,597 380,619 485,656 502,686 474,721 427,782 412,862 408,893 318,910 285,931"/>
                <pb n="8"/>
@@ -476,7 +477,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006084/full/708,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006084/full/,1000/0/default.jpg"/>
                <zone corresp="#f5r_il"
                      points="167,925 314,964 518,957 578,880 524,837 410,850 416,730 511,710 558,618 580,541 551,454 456,391 434,328 377,304 340,341 324,401 233,440 193,531 211,621 313,708 377,727 364,852 247,868 213,864"/>
                <pb n="9"/>
@@ -509,7 +510,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006085/full/726,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006085/full/,1000/0/default.jpg"/>
                <zone corresp="#f5v_il"
                      points="263,940 435,973 626,957 678,900 646,842 651,762 667,648 643,518 688,398 674,271 611,267 462,276 366,281 324,321 329,506 246,564 187,628 163,720 149,779 378,871"/>
                <pb n="10"/>
@@ -537,7 +538,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006086/full/714,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006086/full/,1000/0/default.jpg"/>
                <zone corresp="#f6r_il"
                      points="332,959 406,973 499,961 546,917 533,836 638,839 670,817 672,723 675,409 570,380 570,298 619,222 613,171 537,159 484,188 462,233 422,267 419,214 436,171 434,141 446,109 427,76 389,75 387,96 389,135 394,175 399,227 409,307 375,300 343,321 307,357 287,380 293,413 287,434 318,451 307,484 142,489 90,515 72,629 88,689 202,714 338,719 384,700 405,700 403,727 369,778 345,833"/>
                <pb n="11"/>
@@ -578,7 +579,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006087/full/725,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006087/full/,1000/0/default.jpg"/>
                <zone corresp="#f6v_il"
                      points="323,959 333,967 557,962 562,947 528,873 479,836 497,763 567,719 582,779 684,717 696,615 641,578 577,568 621,532 635,459 601,403 552,397 590,342 613,278 584,247 552,240 565,210 567,179 540,159 517,160 502,184 491,204 504,228 489,259 435,223 405,209 374,223 365,256 376,279 391,291 349,298 333,326 344,353 371,369 366,385 377,420 369,434 334,437 338,453 367,457 347,503 358,504 385,530 347,565 363,589 293,658 340,752 444,774 432,823 367,870"/>
                <pb n="12"/>
@@ -638,7 +639,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006088/full/713,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006088/full/,1000/0/default.jpg"/>
                <zone corresp="#f7r_il"
                      points="47,951 68,958 232,942 364,901 394,860 433,915 484,941 597,957 661,946 669,935 594,932 501,913 432,859 415,779 408,697 413,601 439,620 456,617 458,573 446,446 576,522 609,511 599,477 480,383 614,360 652,325 631,301 461,309 505,241 528,172 497,169 412,269 390,146 359,80 347,85 336,182 342,273 212,184 189,182 187,203 221,258 303,336 180,359 118,388 117,403 189,422 312,419 333,411 275,498 251,566 259,578 292,572 375,458 386,583 380,710 370,759 369,821 368,847 337,882 238,914 114,927"/>
                <pb n="13"/>
@@ -670,7 +671,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006089/full/739,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006089/full/,1000/0/default.jpg"/>
                <zone corresp="#f7v_il"
                      points="344,962 412,966 437,939 464,850 496,860 515,850 517,765 611,756 631,732 580,677 616,645 606,612 550,608 554,455 521,358 459,328 471,301 483,282 472,278 458,277 457,258 450,251 441,264 446,275 423,282 420,290 441,319 433,344 359,344 354,377 384,456 387,537 299,527 260,541 264,581 320,651 289,670 292,700 334,718 275,761 274,801 315,820 358,814 379,843 415,835 413,877 374,916"/>
                <pb n="14"/>
@@ -707,7 +708,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006090/full/715,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006090/full/,1000/0/default.jpg"/>
                <zone corresp="#f8r_il"
                      points="43,940 146,966 176,969 262,974 591,953 597,932 540,912 346,918 332,865 307,856 324,808 313,792 319,585 325,559 333,548 323,542 317,545 320,414 353,410 389,387 319,369 320,290 361,345 379,351 485,301 448,220 388,120 346,15 301,87 238,148 185,206 166,270 243,338 280,327 309,281 306,371 212,391 277,414 302,415 302,587 301,702 293,793 230,813 127,889 47,927"/>
                <pb n="15"/>
@@ -770,7 +771,7 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
-               <graphic url="https://collections.library.yale.edu/iiif/2/1006091/full/735,1000/0/default.jpg"/>
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006091/full/,1000/0/default.jpg"/>
                <zone corresp="#f8v_il"
                      points="123,951 311,956 534,949 532,933 416,871 330,859 322,692 356,700 393,704 461,681 510,600 556,469 579,385 520,346 495,343 441,355 379,406 385,370 347,348 363,296 363,266 387,248 403,228 392,208 332,251 337,183 329,165 308,165 308,201 311,230 300,259 263,185 244,145 224,124 205,139 219,160 255,197 236,206 232,230 252,262 225,275 247,334 224,335 231,388 188,386 199,446 226,487 214,538 173,539 153,598 218,691 304,697 310,861 125,939"/>
                <pb n="16"/>
@@ -816,6 +817,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006092/full/,1000/0/default.jpg"/>
+               <zone corresp="#f9r_il"
+                     points="181,921 206,936 340,936 393,926 451,912 459,951 477,961 504,954 526,968 570,916 653,956 665,937 649,898 609,857 567,846 552,801 567,767 610,800 673,796 687,579 653,395 610,325 591,339 543,351 556,324 550,309 524,304 528,280 530,249 530,210 547,177 529,172 533,148 549,125 530,95 481,84 430,101 427,144 438,162 441,184 436,202 451,221 449,250 441,281 447,308 479,320 482,360 452,333 441,313 426,332 432,357 486,385 490,501 463,445 430,457 387,456 385,434 288,403 243,454 256,519 190,504 93,561 91,589 120,601 155,666 155,693 75,725 74,760 90,836 114,845 238,840 306,777 385,740 449,757 468,775 470,801 459,838 317,886 236,908"/>
                <pb n="17"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -857,6 +861,9 @@
                      vn:hand="1"
                      vn:currier="1"
                      vn:xtra="C">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006093/full/,1000/0/default.jpg"/>
+               <zone corresp="#f9v_il"
+                     points="465,945 538,955 593,936 596,863 555,808 561,768 650,771 720,740 718,642 683,592 716,562 716,473 635,430 689,373 640,347 664,313 693,257 670,206 644,196 615,208 599,242 596,285 575,281 563,271 570,236 541,270 514,270 515,236 535,220 549,192 545,175 530,168 524,156 490,158 475,190 475,225 501,237 504,280 480,255 473,256 443,230 453,271 460,297 471,305 465,318 423,318 411,311 425,292 418,258 404,251 365,246 344,275 355,295 355,325 339,330 360,358 375,385 436,391 466,438 425,421 383,437 353,471 364,537 391,545 400,645 340,651 390,710 373,733 424,767 519,777 515,827 445,873"/>
                <pb n="18"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -899,6 +906,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006094/full/,1000/0/default.jpg"/>
+               <zone corresp="#f10r_il"
+                     points="39,919 75,969 322,978 568,944 615,906 576,878 500,883 476,919 377,931 429,874 432,780 505,834 571,791 557,683 588,598 565,483 488,436 422,455 422,406 455,372 439,344 409,357 410,278 420,251 446,228 491,218 533,221 526,245 538,273 532,285 482,296 491,312 470,331 487,355 467,379 538,425 586,421 629,390 643,339 628,300 591,280 571,280 577,248 577,225 557,213 534,196 459,204 412,236 398,267 397,328 393,365 367,363 345,386 349,425 358,428 387,401 390,456 340,430 270,451 224,500 221,601 244,748 282,827 321,840 393,773 391,844 327,909 285,933 186,936 138,900 71,897"/>
                <pb n="19"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -935,6 +945,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006095/full/,1000/0/default.jpg"/>
+               <zone corresp="#f10v_il"
+                     points="369,882 434,960 549,967 695,953 729,920 729,791 653,876 624,880 635,401 609,378 593,325 537,310 493,328 448,301 379,322 325,366 320,782"/>
                <pb n="20"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -962,6 +975,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006096/full/,1000/0/default.jpg"/>
+               <zone corresp="#f11r_il"
+                     points="25,909 24,932 232,936 339,882 294,966 343,970 434,872 658,909 664,873 462,814 537,736 568,571 633,514 642,351 578,290 461,255 353,255 271,298 233,351 233,475 262,540 318,560 311,665 319,745 365,813"/>
                <pb n="21"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -993,6 +1009,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006097/full/,1000/0/default.jpg"/>
+               <zone corresp="#f11v_il"
+                     points="372,878 384,935 507,955 597,950 648,895 654,760 610,735 539,748 534,652 528,556 535,523 592,488 685,423 712,332 712,290 635,126 647,95 639,62 580,45 507,60 505,102 424,153 354,222 314,316 304,363 318,425 364,480 440,518 473,530 487,588 489,662 490,726 399,738 370,791"/>
                <pb n="22"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1023,6 +1042,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006098/full/,1000/0/default.jpg"/>
+               <zone corresp="#f13r_il"
+                     points="222,961 335,961 480,954 558,949 540,852 454,814 459,775 415,712 507,735 588,691 612,616 586,525 560,508 552,425 526,389 406,407 418,330 399,296 385,256 371,250 360,263 346,280 347,297 326,316 306,351 313,405 225,376 169,405 156,480 161,507 116,555 107,608 129,680 195,716 272,707 299,685 296,747 256,798 253,856 265,877 227,914"/>
                <pb n="23"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1058,6 +1080,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006099/full/,1000/0/default.jpg"/>
+               <zone corresp="#f13v_il"
+                     points="432,958 515,963 612,963 635,908 622,860 550,840 537,808 551,712 571,675 587,613 623,608 657,563 667,423 627,368 630,318 665,303 680,220 652,160 597,151 562,156 552,173 530,201 530,228 543,296 566,326 586,326 580,365 527,393 500,448 477,408 486,361 465,257 405,231 337,255 313,376 322,465 332,572 346,606 370,618 398,616 412,665 441,701 417,723 426,771 460,745 487,815 468,878 421,925"/>
                <pb n="24"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1095,6 +1120,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006100/full/,1000/0/default.jpg"/>
+               <zone corresp="#f14r_il"
+                     points="246,892 270,933 395,944 399,955 451,960 465,946 624,929 649,897 642,838 605,828 484,832 497,730 499,689 513,655 520,670 563,622 611,517 617,451 593,408 537,415 556,332 564,252 561,175 508,128 461,114 458,67 432,47 402,58 397,92 414,109 422,146 422,169 387,167 382,216 351,204 361,235 365,259 389,394 349,371 257,429 213,471 322,623 351,646 363,629 401,669 413,710 411,772 394,828 299,829"/>
                <pb n="25"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1129,6 +1157,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006101/full/,1000/0/default.jpg"/>
+               <zone corresp="#f14v_il"
+                     points="343,895 377,952 402,960 478,932 591,948 650,886 637,853 592,853 582,808 523,802 562,725 567,688 683,613 721,576 722,451 707,381 672,298 631,322 581,353 558,335 530,342 540,303 533,286 510,285 497,297 490,317 455,326 440,337 432,365 387,312 357,286 342,310 338,330 327,323 293,355 277,453 255,503 303,621 362,676 408,685 435,780 452,808 402,816 355,853"/>
                <pb n="26"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1159,6 +1190,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006102/full/,1000/0/default.jpg"/>
+               <zone corresp="#f15r_il"
+                     points="160,921 173,942 307,947 336,935 392,951 557,946 551,917 364,903 385,873 388,751 419,695 461,773 499,797 504,727 545,698 568,660 548,536 501,496 414,489 374,496 362,457 364,432 387,410 424,389 444,365 479,328 485,260 501,178 449,169 414,182 432,202 442,221 431,253 425,298 432,341 429,358 417,377 383,404 356,422 345,446 326,423 295,375 283,346 310,305 312,239 298,197 310,155 332,151 354,119 351,69 314,35 266,28 214,51 189,72 191,117 201,142 229,152 248,154 260,183 267,200 266,214 260,246 258,289 274,330 270,359 293,400 311,417 335,454 331,498 250,510 167,569 118,695 117,741 161,828 263,873 291,897 168,909"/>
                <pb n="27"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1190,6 +1224,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006103/full/,1000/0/default.jpg"/>
+               <zone corresp="#f15v_il"
+                     points="325,960 493,970 628,973 725,965 723,907 673,903 598,921 512,845 517,737 547,696 552,594 613,610 690,605 714,559 708,496 637,469 563,479 590,418 632,406 622,345 575,315 546,320 569,250 569,217 603,244 657,239 714,216 711,177 676,165 628,179 597,146 633,115 633,44 602,39 568,40 580,77 517,118 499,165 507,181 494,211 493,246 506,287 516,311 512,343 487,375 473,412 460,445 395,437 321,460 308,494 319,569 349,546 403,593 450,593 416,651 416,697 442,725 369,765 380,796 470,770 469,811 364,932 327,948"/>
                <pb n="28"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1231,6 +1268,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006104/full/,1000/0/default.jpg"/>
+               <zone corresp="#f16r_il"
+                     points="247,932 291,960 359,965 477,959 592,941 622,903 600,864 548,875 529,836 474,833 493,736 578,748 631,719 673,623 678,503 677,355 575,354 590,276 611,186 572,166 547,177 537,139 539,115 525,85 491,84 460,119 475,146 465,151 403,147 404,160 419,173 419,189 408,208 424,227 418,248 415,264 410,275 410,289 394,308 405,317 419,322 419,342 437,358 419,363 415,410 385,383 317,379 279,466 315,571 243,604 246,725 310,780 402,767 399,820 327,814 266,875"/>
                <pb n="29"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -1272,6 +1312,9 @@
                      vn:language="A"
                      vn:hand="1"
                      vn:currier="1">
+               <graphic url="https://collections.library.yale.edu/iiif/2/1006105/full/,1000/0/default.jpg"/>
+               <zone corresp="#f16v_il"
+                     points="369,896 389,937 439,960 530,956 609,912 609,863 557,848 569,768 635,710 689,712 719,663 718,476 715,336 643,295 640,240 690,202 684,160 629,85 524,60 404,97 423,141 449,163 453,175 417,205 389,226 389,241 417,252 434,260 425,290 424,312 452,318 485,300 510,325 513,381 459,372 410,370 359,368 322,402 274,442 292,523 308,681 348,740 419,757 463,753 417,826 378,865"/>
                <pb n="30"/>
                <note>herbal</note>
                <note>Currier's language A, hand 1</note>
@@ -14170,24 +14213,26 @@
          <div type="voynich_team">
             <listPerson>
                <person xml:id="ebb">
+                  <persName>Elisa Beshero-Bondar</persName>
                   <persName>
                      <forename>Elisa</forename>
                      <surname>Beshero-Bondar</surname>
                   </persName>
                   <occupation type="scholar">
                      <roleName>Program Chair, <ref target="https://behrend.psu.edu/school-of-humanities-social-sciences/academic-programs/digital-media-arts-and-technology">Digital Media, Arts, and Technology (DIGIT)</ref>, Professor of Digital
-                        Humanities, and Director of the <ref target="https://newtfire.org">Digital
-                           Humanities Lab</ref> at <affiliation>Penn State Erie, The Behrend
-                           College</affiliation>
+                     Humanities, and Director of the <ref target="https://newtfire.org">Digital
+                        Humanities Lab</ref> at <affiliation>Penn State Erie, The Behrend
+                        College</affiliation>
                      </roleName>
                   </occupation>
                   <note>An active member of the Text Encoding Initiative (TEI), she has served since
-                     2016 on the <ref target="http://www.tei-c.org/Activities/Council/">TEI
-                        Technical Council</ref>, an eleven-member international committee that
-                     supervises amendments to the <ref target="https://tei-c.org/guidelines/P5/">TEI
-                        Guideline</ref>s.</note>
+                  2016 on the <ref target="http://www.tei-c.org/Activities/Council/">TEI Technical
+                     Council</ref>, an eleven-member international committee that supervises
+                  amendments to the <ref target="https://tei-c.org/guidelines/P5/">TEI
+                     Guideline</ref>s.</note>
                </person>
                <person xml:id="hjb">
+                  <persName>Hadleigh Jae Bills</persName>
                   <persName>
                      <forename>Hadleigh</forename>
                      <forename>Jae</forename>
@@ -14195,90 +14240,108 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <note resp="#hjb">Hadleigh Jae Bills is a student at Penn State Behrend. She is
-                     working towards a B.A. in Digital Media, Arts, and Technology.</note>
+                  working towards a B.A. in Digital Media, Arts, and Technology.</note>
                </person>
             </listPerson>
          </div>
          <div type="voynich_people">
             <listPerson>
+               <person xml:id="elv">
+                  <persName>Ethel Voynich</persName>
+                  <persName>
+                     <forename>Ethel</forename>
+                     <forename>Lilian</forename>
+                     <surname type="paternal">Boole</surname>
+                     <surname>Voynich</surname>
+                     <roleName>Researcher</roleName>
+                  </persName>
+                  <note resp="#hjb">Irish novelist, musician and revolutionary married to <persName type="inline" ref="#wmv">Wilfrid Voynich</persName>. Studied the botanical
+                  aspects of the manuscript.</note>
+                  <note>
+                     <ptr target="https://ies.sas.ac.uk/research/research-projects/cultivate-mss-project/cast-characters/ethel-lilian-voynich-1864-1960-novelist-scholar"/>
+                  </note>
+               </person>
                <person xml:id="hth">
+                  <persName>Herman Theodor Holm</persName>
                   <persName>
                      <forename>Herman</forename>
                      <forename>Theodor</forename>
                      <surname>Holm</surname>
                      <roleName>Botanist</roleName>
                   </persName>
-                  <note resp="#hjb">A botanist who built his career around studying plant life
-                     across places like Greenland, Colorado, and the United States. After
-                     immigrating to the U.S., he worked as a botanist for institutions like the
-                     United States National Museum and the Department of Agriculture, continuing his
-                     focus on plant research. He later earned his doctorate from the Catholic
-                     University of America and eventually returned there as a professor of
-                     biological research.</note>
+                  <note resp="#hjb">A botanist who built his career around studying plant life across
+                  places like Greenland, Colorado, and the United States. After immigrating to the
+                  U.S., he worked as a botanist for institutions like the United States National
+                  Museum and the Department of Agriculture, continuing his focus on plant research.
+                  He later earned his doctorate from the Catholic University of America and
+                  eventually returned there as a professor of biological research.</note>
                   <note>
                      <ptr target="https://findingaids.lib.catholic.edu/repositories/2/resources/176"/>
                      <ptr target="https://findingaids.lib.catholic.edu/repositories/2/resources/176/collection_organization"/>
                   </note>
                </person>
                <person xml:id="hon">
+                  <persName>Hugh O'Neill</persName>
                   <persName>
                      <forename>Hugh</forename>
                      <surname>O'Neill</surname>
                      <roleName>Botanist</roleName>
                   </persName>
                   <note resp="#hjb">A botanist from the Catholic University of America. Identified
-                     plants in 1944, but what he identified are plants from the Americas, but the
-                     Voynich Manuscript came before Christopher Columbus' voyages.</note>
+                  plants in 1944, but what he identified are plants from the Americas, but the
+                  Voynich Manuscript came before Christopher Columbus' voyages.</note>
                   <note>
                      <ptr target="https://voynichlanguage.fandom.com/wiki/Hugh_O%27Neill"/>
                   </note>
                </person>
                <person xml:id="rzn">
+                  <persName>René Zandbergen</persName>
                   <persName>
                      <forename>René</forename>
                      <surname>Zandbergen</surname>
                      <roleName>Researcher</roleName>
                   </persName>
-                  <note resp="#hjb">René Zandbergen, originally a satellite navigation engineer for
-                     the European Space Agency, became deeply involved in studying the mysterious
-                     Voynich Manuscript on the side. Starting in 1995, he joined an online community
-                     focused on analyzing the manuscript’s strange and unreadable text. Over time,
-                     he helped develop a standard way to transcribe its characters and created one
-                     of the most widely used websites dedicated to researching the
-                     manuscript.</note>
+                  <note resp="#hjb">René Zandbergen, originally a satellite navigation engineer for the
+                  European Space Agency, became deeply involved in studying the mysterious Voynich
+                  Manuscript on the side. Starting in 1995, he joined an online community focused on
+                  analyzing the manuscript’s strange and unreadable text. Over time, he helped
+                  develop a standard way to transcribe its characters and created one of the most
+                  widely used websites dedicated to researching the manuscript.</note>
                   <note>
                      <ptr target="https://independent.academia.edu/RenéZandbergen"/>
                   </note>
                </person>
                <person xml:id="tcp">
+                  <persName>Theodore Petersen</persName>
                   <persName>
                      <forename>Theodore</forename>
                      <surname>Petersen</surname>
                      <roleName>Transcriptor</roleName>
                   </persName>
                   <note resp="#hjb">Fr. Petersen first made a full photocopy of the Voynich
-                     manuscript’s photostats, then created a handwritten copy of the manuscript,
-                     consulting the original in a New York safe deposit vault when passages were
-                     especially difficult. He finished this work in 1944, adding notes on possible
-                     meanings, marking unusual character sequences, highlighting common words, and
-                     suggesting plant identifications in the herbal section based in part on Holm
-                     and O’Neill’s research. He also compiled a complete concordance of the
-                     manuscript’s words, though the writer had not seen it. Petersen remained a
-                     leading Voynich expert until his death, after which his papers were passed to
-                     Friedman, inventoried by Tiltman, and eventually housed at the George C.
-                     Marshall Library and Archives in Lexington, Virginia.</note>
+                  manuscript’s photostats, then created a handwritten copy of the manuscript,
+                  consulting the original in a New York safe deposit vault when passages were
+                  especially difficult. He finished this work in 1944, adding notes on possible
+                  meanings, marking unusual character sequences, highlighting common words, and
+                  suggesting plant identifications in the herbal section based in part on Holm and
+                  O’Neill’s research. He also compiled a complete concordance of the manuscript’s
+                  words, though the writer had not seen it. Petersen remained a leading Voynich
+                  expert until his death, after which his papers were passed to Friedman,
+                  inventoried by Tiltman, and eventually housed at the George C. Marshall Library
+                  and Archives in Lexington, Virginia.</note>
                   <note>
                      <ptr target="https://www.voynich.nu/solvers.html#petersen"/>
                   </note>
                </person>
-               <person xml:id="wiv">
+               <person xml:id="wmv">
+                  <persName>Wilfrid Voynich</persName>
                   <persName>
                      <forename>Wilfrid</forename>
                      <surname>Voynich</surname>
                      <roleName>Bookseller</roleName>
                   </persName>
                   <note resp="#hjb">A polish bookseller who bought the Voynich Manuscript from a Jesuit
-                     library in Italy.</note>
+                  library in Italy.</note>
                   <note>
                      <ptr target="https://www.lindahall.org/about/news/scientist-of-the-day/wilfrid-voynich/"/>
                   </note>
@@ -14292,10 +14355,8 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006077/full/full/0/default.jpg"/>
                      <head>Illustration on f1v</head>
-                     <figDesc>Potentially <name type="inline" ref="#belladonna">Atropa
-                           Bella-Donna</name> or <name type="inline" ref="#solanumNigrum">Solanum
-                           Nigrum</name> suggested by <persName type="inline" ref="#tcp">Theodore
-                           Petersen</persName>.</figDesc>
+                     <figDesc>Potentially <name type="inline" ref="#belladonna">Belladonna</name>,
+                        <name type="inline" ref="#solanum">Solanum</name>, or <name type="inline" ref="#solatrium">Solatrium</name> suggested by <persName type="inline" ref="#tcp">Theodore Petersen</persName>. Potentially <name type="inline" ref="#belladonna">Belladonna</name> suggested by <persName type="inline" ref="#elv">Ethel Voynich</persName>.</figDesc>
                   </figure>
                </item>
                <item xml:id="f2r_il">
@@ -14303,8 +14364,9 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006078/full/full/0/default.jpg"/>
                      <head>Illustration on f2r</head>
-                     <figDesc>Potentially <name type="inline" ref="#cornflower">Cornflower</name>
-                        suggested by <persName type="inline" ref="#hth">Holm</persName>.</figDesc>
+                     <figDesc>Potentially <name type="inline" ref="#cyanusSilvestris">Syanus
+                        Silvestris</name> suggested by <persName type="inline" ref="#hon">O'Neill</persName>, or <name type="inline" ref="#centaurea">Centauria</name> suggested by <persName type="inline" ref="#hth">Holm</persName>
+                     </figDesc>
                   </figure>
                </item>
                <item xml:id="f2v_il">
@@ -14312,10 +14374,11 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006079/full/full/0/default.jpg"/>
                      <head>Illustration on f2v</head>
-                     <figDesc>Potentially <name type="inline" ref="#colocasia">Colocasia</name>,
-                           <name type="inline" ref="#egyptianLotus">Egyptian Lotus</name> suggested
-                        by <persName type="inline" ref="#tcp">Petersen</persName>, or <name type="inline" ref="#nymphoidesPeltata">Nymphoides Peltata</name>
-                        suggested by <persName type="inline" ref="#rzn">Zandbergen</persName>.</figDesc>
+                     <figDesc>Potentially <name type="inline" ref="#colocasia">Colocasia</name>
+                     suggested by <persName type="inline" ref="#tcp">Petersen</persName> and
+                        <persName type="inline" ref="#elv">Ethel Voynich</persName>. Potentially
+                        <name type="inline" ref="#egyptianLotus">Egyptian Lotus</name> suggested by
+                        <persName type="inline" ref="#tcp">Petersen</persName>. Potentially <name type="inline" ref="#villarsia">Villarsia</name> or <name type="inline" ref="#limnanthemum">Limnanthemum</name> suggested by <persName type="inline" ref="#elv">Ethel Voynich</persName>. Potentially <name type="inline" ref="#nymphoidesPeltata">Nymphoides Peltata</name> suggested by <persName type="inline" ref="#rzn">Zandbergen</persName>.</figDesc>
                   </figure>
                </item>
                <item xml:id="f3r_il">
@@ -14323,8 +14386,9 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg"/>
                      <head>Illustration on f3r</head>
-                     <figDesc>Potentially <name type="inline" ref="#cretanDittany">Cretan
-                           Dittany</name>, suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                     <figDesc>Potentially <name type="inline" ref="#cretanDittany">Crassulatea (Cretan
+                        Dittany)</name> suggested by <persName type="inline" ref="#tcp">Petersen</persName>. Potentially <name type="inline" ref="#Dictamnus">Dictamnus</name> suggested by <persName type="inline" ref="#elv">Ethel
+                        Voynich</persName>.</figDesc>
                   </figure>
                </item>
                <item xml:id="f3v_il">
@@ -14341,9 +14405,10 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006082/full/full/0/default.jpg"/>
                      <head>Illustration on f4r</head>
-                     <figDesc>Potentially <name type="inline" ref="#hypericum">Hypericum</name> or
-                           <name type="inline" ref="#centauriumErythaea">Centaurium Erythaea</name>,
-                        suggested by <persName type="inline" ref="#hon">O'Neill</persName>
+                     <figDesc>Potentially <name type="inline" ref="#hypericum">Hypericum</name>
+                     suggested by <persName type="inline" ref="#hon">O'Neill</persName> and
+                        <persName type="inline" ref="#elv">Ethel Voynich</persName>, or <name type="inline" ref="#centauriumErythaea">Centaurium Erythaea</name>,
+                     suggested by <persName type="inline" ref="#hon">O'Neill</persName>
                      </figDesc>
                   </figure>
                </item>
@@ -14352,7 +14417,9 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006083/full/full/0/default.jpg"/>
                      <head>Illustration on f4v</head>
-                     <figDesc>Potentially Convulvula Ipomea suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                     <figDesc>Potentially <name type="inline" ref="#ipomoeaTriloba">Convulvula
+                        Ipomea</name> suggested by <persName type="inline" ref="#tcp">Petersen</persName> and <persName type="inline" ref="#elv">Ethel
+                        Voynich</persName>. Potentially <name type="inline" ref="#convolvulusScammonia">Scammonia</name> suggested by <persName type="inline" ref="#elv">Ethel Voynich</persName>.</figDesc>
                   </figure>
                </item>
                <item xml:id="f5r_il">
@@ -14360,7 +14427,8 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006084/full/full/0/default.jpg"/>
                      <head>Illustration on f5r</head>
-                     <figDesc>Potentially [Herba] Paris, Indian Cucumber suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                     <figDesc>Potentially [Herba] Paris suggested by <persName type="inline" ref="#tcp">Petersen</persName> and <persName type="inline" ref="#elv">Ethel
+                        Voynich</persName>. Potentially Indian Cucumber suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
                   </figure>
                </item>
                <item xml:id="f5v_il">
@@ -14376,8 +14444,8 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006086/full/full/0/default.jpg"/>
                      <head>Illustration on f6r</head>
-                     <figDesc>Potentially Asclepiades, but with wrong leaves (of Pediculum)
-                        suggested by <persName type="inline" ref="#tcp">Petersen</persName>
+                     <figDesc>Potentially Asclepiades, but with wrong leaves (of Pediculum) suggested
+                     by <persName type="inline" ref="#tcp">Petersen</persName>
                      </figDesc>
                   </figure>
                </item>
@@ -14386,8 +14454,8 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006087/full/full/0/default.jpg"/>
                      <head>Illustration on f6v</head>
-                     <figDesc>Potentially blackgum tree?, arctium? Bidens(sp?)kyptis
-                        suggested by <persName type="inline" ref="#hon">O'Neill</persName>.</figDesc>
+                     <figDesc>Potentially blackgum tree?, arctium? Bidens(sp?)kyptis suggested by
+                        <persName type="inline" ref="#hon">O'Neill</persName>.</figDesc>
                   </figure>
                </item>
                <item xml:id="f7r_il">
@@ -14403,7 +14471,8 @@
                      <graphic type="full"
                               url="https://collections.library.yale.edu/iiif/2/1006089/full/full/0/default.jpg"/>
                      <head>Illustration on f7v</head>
-                     <figDesc>Potentially polygonum persicaria, potentilla silvestris, or oculus christi suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                     <figDesc>Potentially polygonum persicaria, potentilla silvestris, or oculus
+                     christi suggested by <persName type="inline" ref="#tcp">Petersen</persName>.</figDesc>
                   </figure>
                </item>
             </list>
@@ -14419,8 +14488,8 @@
                      <addName>Divale</addName>
                      <addName>Dwale</addName>
                   </name>
-                  <desc resp="#hjb">A toxic perennial herbaceous plant native to Europe, North
-                     Africa, and Western Asia.</desc>
+                  <desc resp="#hjb">A toxic perennial herbaceous plant native to Europe, North Africa,
+                  and Western Asia.</desc>
                   <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
                   <note>
                      <ptr target="https://plants.ces.ncsu.edu/plants/atropa-bella-donna/"/>
@@ -14453,8 +14522,7 @@
                      <addName>Elephant's-ear</addName>
                      <addName>Taro</addName>
                   </name>
-                  <desc resp="#hjb">Plant with massive leaves originating in Southeastern
-                     Asia</desc>
+                  <desc resp="#hjb">Plant with massive leaves originating in Southeastern Asia</desc>
                   <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Colocasia_Schott"/>
@@ -14462,10 +14530,25 @@
                      <ptr target="https://plants.ces.ncsu.edu/plants/colocasia/"/>
                   </note>
                </item>
+               <item xml:id="convolvulusScammonia">
+                  <name>Convolvulus Scammonia</name>
+                  <name type="genus">Convolvulus</name>
+                  <name type="species">Convolvulus Scammonia</name>
+                  <name type="family">Convolvulaceae</name>
+                  <name>
+                     <addName>Scammony</addName>
+                  </name>
+                  <desc resp="#hjb">Twining plant native to Asia Minor</desc>
+                  <note resp="#hjb">Located in <ref target="#f4v">f4v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Convolvulus_scammonia"/>
+                     <ptr target="https://www.britannica.com/plant/Convolvulus-scammonia"/>
+                  </note>
+               </item>
                <item xml:id="cornflower">
                   <name>Cornflower</name>
                   <name type="genus">Centaurea</name>
-                  <name type="species">Centaurea cyanus</name>
+                  <name type="species">Centaurea Cyanus</name>
                   <name type="family">Asteraceae</name>
                   <name>
                      <addName>Bachelor's Button</addName>
@@ -14484,13 +14567,31 @@
                   <name type="genus">Origanum</name>
                   <name type="species">Origanum dictamnus</name>
                   <name type="family">Lamiaceae</name>
-                  <desc resp="#hjb">A bushy sub-shrub with aromatic foliage native to rocky slopes
-                     on the mountains of Crete.</desc>
+                  <desc resp="#hjb">A bushy sub-shrub with aromatic foliage native to rocky slopes on
+                  the mountains of Crete.</desc>
                   <note resp="#hjb">Located in <ref target="#f3r">f3r</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Origanum_dictamnus"/>
                      <ptr target="https://www.voynich.nu/extra/herb_oldid.html"/>
                      <ptr target="https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281581"/>
+                  </note>
+               </item>
+               <item xml:id="cyanusSilvestris">
+                  <name>Cyanus Silvestris</name>
+                  <desc resp="#hjb">Related to the <name type="inline" ref="#cornflower">Cornflower</name>.</desc>
+                  <note resp="#hjb">Located in <ref target="#f2r">f2r</ref>.</note>
+                  <note>
+                     <ptr target="https://upload.wikimedia.org/wikipedia/commons/2/2b/Landmarks_of_botanical_history%3B_a_study_of_certain_epochs_in_the_development_of_the_science_of_botany._Part_I.-Prior_to_1562_A._D_%28IA_cu31924024548392%29.pdf"/>
+                  </note>
+               </item>
+               <item xml:id="Dictamnus">
+                  <name>Dictamnus</name>
+                  <name type="genus">Dictamnus</name>
+                  <name type="family">Rutaceae</name>
+                  <desc resp="#hjb">A genus of plants.</desc>
+                  <note resp="#hjb">Located in <ref target="#f3r">f3r</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Dictamnus"/>
                   </note>
                </item>
                <item xml:id="egyptianLotus">
@@ -14501,8 +14602,8 @@
                   <name>
                      <addName>White Lotus</addName>
                   </name>
-                  <desc resp="#hjb">A robust night-blooming aquatic perennial plant that floats on
-                     the surface of the water. Native to Africa and specific areas of Europe.</desc>
+                  <desc resp="#hjb">A robust night-blooming aquatic perennial plant that floats on the
+                  surface of the water. Native to Africa and specific areas of Europe.</desc>
                   <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Nymphaea_lotus"/>
@@ -14527,6 +14628,61 @@
                      <ptr target="https://en.wikipedia.org/wiki/Hypericum"/>
                   </note>
                </item>
+               <item xml:id="hyoscyamusNiger">
+                  <name>Hyoscyamus Niger</name>
+                  <name type="genus">Hyoscyamus</name>
+                  <name type="species">Hyoscyamus niger</name>
+                  <name type="family">Solanaceae</name>
+                  <name>
+                     <addName>Black Henbane</addName>
+                     <addName>Henbane</addName>
+                     <addName>Hog's Bean</addName>
+                     <addName>Stinking Nightshade</addName>
+                     <addName>Witches Herb</addName>
+                  </name>
+                  <desc resp="#hjb">Erect annual or biennial herb with coarse, hairy stems.</desc>
+                  <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Hyoscyamus_niger"/>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/hyoscyamus-niger/"/>
+                  </note>
+               </item>
+               <item xml:id="ipomoeaTriloba">
+                  <name>Ipomoea Triloba</name>
+                  <name type="genus">Ipomoea</name>
+                  <name type="species">Ipomoea triloba</name>
+                  <name type="family">Convolvulaceae</name>
+                  <name>
+                     <addName>Little Bell</addName>
+                  </name>
+                  <desc resp="#hjb">Grows as a glabrous, climbing, perennial vine, with individuals
+                  vines often twining together, arising from a tuber.</desc>
+                  <note resp="#hjb">Located in <ref target="#f4v">f4v</ref>.</note>
+                  <note>
+                     <ptr target="https://www.worldfloraonline.org/taxon/wfo-0001297271"/>
+                     <ptr target="https://levypreserve.org/plant-listings/ipomoea-triloba/"/>
+                  </note>
+               </item>
+               <item xml:id="limnanthemum">
+                  <name>Limnanthemum</name>
+                  <name type="genus">Nymphoides</name>
+                  <name type="family">Menyanthaceae</name>
+                  <desc resp="#hjb">Previous name for the Nymphoides plant genus.</desc>
+                  <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
+                  <note>
+                     <ptr target="https://www.scribd.com/presentation/440509093/WHY-NAME-CHANGES-IN-PLANTS-pptx"/>
+                  </note>
+               </item>
+               <item xml:id="nymphoides">
+                  <name>Nymphoides</name>
+                  <name type="genus">Nymphoides</name>
+                  <name type="family">Menyanthaceae</name>
+                  <desc resp="#hjb">A genus of plant.</desc>
+                  <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Nymphoides"/>
+                  </note>
+               </item>
                <item xml:id="nymphoidesPeltata">
                   <name>Nymphoides Peltata</name>
                   <name type="genus">Nymphoides</name>
@@ -14536,12 +14692,56 @@
                      <addName>Yellow floating heart</addName>
                      <addName>Water-fringe</addName>
                   </name>
-                  <desc resp="#hjb">A rhizomatous, floating-leaf, aquatic perennial that looks like
-                     a small water lily. Native to Europe and Asia.</desc>
+                  <desc resp="#hjb">A rhizomatous, floating-leaf, aquatic perennial that looks like a
+                  small water lily. Native to Europe and Asia.</desc>
                   <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Nymphoides_peltata"/>
                      <ptr target="https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282718&amp;isprofile=0&amp;chr=48"/>
+                  </note>
+               </item>
+               <item xml:id="solanum">
+                  <name>Solanum</name>
+                  <name type="genus">Solanum</name>
+                  <name type="family">Solanaceae</name>
+                  <desc resp="#hjb">Genus in the nightshade family.</desc>
+                  <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Solanum"/>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/solanum/"/>
+                  </note>
+               </item>
+               <item xml:id="solanumDulcamara">
+                  <name>Solanum Dulcamara</name>
+                  <name type="genus">Solanum</name>
+                  <name type="species">Solanum Dulcamara</name>
+                  <name type="family">Solanaceae</name>
+                  <name>
+                     <addName>Bitter Nightshade</addName>
+                     <addName>Bittersweet</addName>
+                     <addName>Bittersweet Nightshade</addName>
+                     <addName>Blue Blindweed</addName>
+                     <addName>Blue Nightshade</addName>
+                     <addName>Climbing Nightshade</addName>
+                     <addName>Devil's Apple</addName>
+                     <addName>European Bittersweet</addName>
+                     <addName>Fellonwort</addName>
+                     <addName>Felonwood</addName>
+                     <addName>Poisonous Nightshade</addName>
+                     <addName>Scarlet Berry</addName>
+                     <addName>Snakeberry</addName>
+                     <addName>Soda Apple</addName>
+                     <addName>Violet Bloom</addName>
+                     <addName>Wolfgrape</addName>
+                     <addName>Woody Nightshade</addName>
+                  </name>
+                  <desc resp="#hjb">perennial vine or scrambling shrub that has purple flowers during
+                  summer and red berries during the summer and fall. The leaves and stems have an
+                  unpleasant odor.</desc>
+                  <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Solanum_dulcamara"/>
+                     <ptr target="https://plants.ces.ncsu.edu/plants/solanum-dulcamara/"/>
                   </note>
                </item>
                <item xml:id="solanumNigrum">
@@ -14557,18 +14757,38 @@
                      <addName>Garden Nightshade</addName>
                      <addName>Poisonberry</addName>
                   </name>
-                  <desc resp="#hjb">Perennial herb that is an erect and dense shrub native to parts
-                     of Europe, Asia, Macaronesia, and the North and Northeast portions of
-                     Africa.</desc>
+                  <desc resp="#hjb">Perennial herb that is an erect and dense shrub native to parts of
+                  Europe, Asia, Macaronesia, and the North and Northeast portions of Africa.</desc>
                   <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Solanum_nigrum"/>
                      <ptr target="https://plants.ces.ncsu.edu/plants/solanum-nigrum/"/>
                   </note>
                </item>
+               <item xml:id="solatrium">
+                  <name>Solatrium</name>
+                  <desc resp="#hjb">A Dioscoridean name for <name type="inline" ref="#belladonna">Atropa Belladona</name>, <name type="inline" ref="#hyoscyamusNiger">Hyoscyamus
+                     Niger</name>, <name type="inline" ref="#solanumNigrum">Solanum Nigrum</name>,
+                  and/or <name type="inline" ref="#solanumDulcamara">Solanum
+                  Dulcamara</name>.</desc>
+                  <note resp="#hjb">Located in <ref target="#f1v">f1v</ref>.</note>
+                  <note>
+                     <ptr target="https://www.voynich.nu/q01/f001v_tr.txt"/>
+                  </note>
+               </item>
                <item xml:id="unknown">
                   <name>Unknown</name>
                   <desc resp="#hjb">This is when a plant is not identified.</desc>
+               </item>
+               <item xml:id="villarsia">
+                  <name>Villarsia</name>
+                  <name type="genus">Villarsia</name>
+                  <name type="family">Menyanthaceae</name>
+                  <desc resp="#hjb">Genus of plants.</desc>
+                  <note resp="#hjb">Located in <ref target="#f2v">f2v</ref>.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Villarsia"/>
+                  </note>
                </item>
             </list>
          </div>

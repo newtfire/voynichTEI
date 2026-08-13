@@ -13,37 +13,6 @@ body {
     background-color: #f2f2f2;
 }
 
-/* =========================
-   Surface layout
-   ========================= */
-
-tei-surface {
-    display: grid;
-    grid-template-columns: minmax(300px, 50%) minmax(0, 1fr);
-    gap: 0rem 1rem;
-    align-items: start;
-
-    max-width: 100%;
-    min-width: 0;
-
-    outline-style: solid;
-    outline-width: 4px;
-    margin-bottom: 2rem;
-}
-
-tei-surface::before {
-    content: attr(xml\:id);
-    grid-column: 1 / -1;
-    grid-row: 1;
-
-    display: block;
-    font-weight: bold;
-    font-size: 30pt;
-    text-align: center;
-    background-color: #fae588;
-    outline-style: solid;
-}
-
 /* Left column: image and zone overlay */
 .graphic-zone-wrapper {
     grid-column: 1;
@@ -141,10 +110,6 @@ tei-surface::before {
 " | Extra: " attr(data-xtra);
 }
 
-/* =========================
-   Graphic and zone overlay
-   ========================= */
-
 .graphic-zone-wrapper img {
     display: block;
     width: 100%;
@@ -171,30 +136,6 @@ tei-surface::before {
 .tei-zone-polygon:hover {
     fill: rgba(0, 0, 255, 0.2);
 }
-
-/*
-   Hide the original tei-zone elements.
-   Their data is used by JavaScript to draw SVG polygons.
-*/
-tei-zone {
-    cursor: pointer;
-    display: none;
-}
-
-/* Original CETEI graphic element fallback */
-tei-graphic {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-tei-graphic[type="full"] {
-    display: none;
-}
-
-/* =========================
-   Zone popup
-   ========================= */
 
 .zone-popup {
     position: absolute;
@@ -232,22 +173,6 @@ tei-graphic[type="full"] {
     color: blue;
     text-decoration: underline;
     cursor: pointer;
-}
-
-/* =========================
-   Inline note hover icon
-   ========================= */
-
-tei-note[type="inline"] {
-    display: inline-block;
-    position: relative;
-
-    padding: 0;
-    margin: 0 0.15em;
-
-    font-family: Georgia, serif;
-    font-size: 10pt;
-    vertical-align: baseline;
 }
 
 .inline-note-icon {
@@ -290,44 +215,6 @@ tei-note[type="inline"] {
     overflow-wrap: anywhere;
 }
 
-tei-note[type="inline"]:hover .inline-note-content,
-tei-note[type="inline"]:focus-within .inline-note-content {
-    display: block;
-}
-
-/* =========================
-   Text and TEI elements
-   ========================= */
-
-tei-line {
-    font-family: "EVA", serif;
-    font-size: 10pt;
-    display: block;
-
-    max-width: 100%;
-    white-space: normal;
-    overflow-wrap: anywhere;
-}
-
-tei-pb {
-    display: block;
-    font-family: Georgia, serif;
-    font-size: 12pt;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-tei-pb::before {
-    content: "Page " attr(n);
-}
-
-tei-note {
-    display: block;
-    padding: 5px 10px 5px 10px;
-    background-color: grey;
-    font-size: smaller;
-}
-
 tei-addname {
     display: block;
     font-weight: normal;
@@ -357,8 +244,37 @@ tei-figure[type="inline"]::before {
     padding: 10px;
 }
 
+tei-forename {
+    display: none;
+}
+
+tei-graphic {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+tei-graphic[type="full"] {
+    display: none;
+}
+
 tei-head {
     display: block;
+}
+
+tei-line {
+    font-family: "EVA", serif;
+    font-size: 10pt;
+    display: block;
+
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+tei-milestone {
+    display: block;
+    padding: 10px;
 }
 
 tei-name {
@@ -400,10 +316,47 @@ tei-name[type="species"]::before {
     content: "Species: ";
 }
 
+tei-note {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    background-color: grey;
+    font-size: smaller;
+}
+
+
+tei-note[type="inline"] {
+    display: inline-block;
+    position: relative;
+
+    padding: 0;
+    margin: 0 0.15em;
+
+    font-family: Georgia, serif;
+    font-size: 10pt;
+    vertical-align: baseline;
+}
+
+tei-note[type="inline"]:hover .inline-note-content,
+tei-note[type="inline"]:focus-within .inline-note-content {
+    display: block;
+}
+
 tei-p {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+tei-pb {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+tei-pb::before {
+    content: "Page " attr(n);
 }
 
 tei-persname,
@@ -427,18 +380,45 @@ tei-rolename {
     font-weight: normal;
 }
 
+tei-surface {
+    display: grid;
+    grid-template-columns: minmax(300px, 50%) minmax(0, 1fr);
+    gap: 0rem 1rem;
+    align-items: start;
+
+    max-width: 100%;
+    min-width: 0;
+
+    outline-style: solid;
+    outline-width: 4px;
+    margin-bottom: 2rem;
+}
+
+tei-surface::before {
+    content: attr(xml\:id);
+    grid-column: 1 / -1;
+    grid-row: 1;
+
+    display: block;
+    font-weight: bold;
+    font-size: 30pt;
+    text-align: center;
+    background-color: #fae588;
+    outline-style: solid;
+}
+
+tei-surname {
+    display: none;
+}
+
 tei-text {
     display: none;
 }
 
-tei-milestone {
-    display: block;
-    padding: 10px;
+tei-zone {
+    cursor: pointer;
+    display: none;
 }
-
-/* =========================
-   Responsive fallback
-   ========================= */
 
 @media (max-width: 900px) {
     tei-surface {

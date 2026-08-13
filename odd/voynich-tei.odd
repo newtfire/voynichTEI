@@ -70,204 +70,232 @@
         <moduleRef key="gaiji" include="g"/>
         <elementSpec ident="surface" mode="change">
           <attList>
-            <attDef ident="quirePage" ns="voynich-tei" mode="add">
+            <attDef ident="xml:id" mode="change" usage="req"/>
+            <attDef ident="quirePage" ns="voynich-tei" mode="add" usage="req">
+              <gloss>Quire Page</gloss>
               <desc>Indicates the page number within a quire.</desc>
               <valList type="closed">
                 <valItem ident="A">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 1</desc>
+                  <gloss>Page 1</gloss>
                 </valItem>
                 <valItem ident="B">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 2</desc>
+                  <gloss>Page 2</gloss>
                 </valItem>
                 <valItem ident="C">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 3</desc>
+                  <gloss>Page 3</gloss>
                 </valItem>
                 <valItem ident="D">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 4</desc>
+                  <gloss>Page 4</gloss>
                 </valItem>
                 <valItem ident="E">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 5</desc>
+                  <gloss>Page 5</gloss>
                 </valItem>
                 <valItem ident="F">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 6</desc>
+                  <gloss>Page 6</gloss>
                 </valItem>
                 <valItem ident="G">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 7</desc>
+                  <gloss>Page 7</gloss>
                 </valItem>
                 <valItem ident="H">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 8</desc>
+                  <gloss>Page 8</gloss>
                 </valItem>
                 <valItem ident="I">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 9</desc>
+                  <gloss>Page 9</gloss>
                 </valItem>
                 <valItem ident="J">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 10</desc>
+                  <gloss>Page 10</gloss>
                 </valItem>
                 <valItem ident="K">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 11</desc>
+                  <gloss>Page 11</gloss>
                 </valItem>
                 <valItem ident="L">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 12</desc>
+                  <gloss>Page 12</gloss>
                 </valItem>
                 <valItem ident="M">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 13</desc>
+                  <gloss>Page 13</gloss>
                 </valItem>
                 <valItem ident="N">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 14</desc>
+                  <gloss>Page 14</gloss>
                 </valItem>
                 <valItem ident="O">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 15</desc>
+                  <gloss>Page 15</gloss>
                 </valItem>
                 <valItem ident="P">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 16</desc>
+                  <gloss>Page 16</gloss>
                 </valItem>
                 <valItem ident="Q">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 17</desc>
+                  <gloss>Page 17</gloss>
                 </valItem>
                 <valItem ident="R">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 18</desc>
+                  <gloss>Page 18</gloss>
                 </valItem>
                 <valItem ident="S">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 19</desc>
+                  <gloss>Page 19</gloss>
                 </valItem>
                 <valItem ident="T">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 20</desc>
+                  <gloss>Page 20</gloss>
                 </valItem>
                 <valItem ident="U">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 21</desc>
+                  <gloss>Page 21</gloss>
                 </valItem>
                 <valItem ident="V">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 22</desc>
+                  <gloss>Page 22</gloss>
                 </valItem>
                 <valItem ident="W">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 23</desc>
+                  <gloss>Page 23</gloss>
                 </valItem>
                 <valItem ident="X">
-                  <desc versionDate="2026-05-15" xml:lang="en">Page 24</desc>
+                  <gloss>Page 24</gloss>
                 </valItem>
               </valList>
             </attDef>
-            <attDef ident="quire" ns="voynich-tei" mode="add">
+            <attDef ident="quire" ns="voynich-tei" mode="add" usage="req">
+              <gloss>Quire</gloss>
               <desc>The quire within the manuscript.</desc>
               <valList type="closed">
                 <valItem ident="A">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 1</desc>
+                  <gloss>Quire 1</gloss>
                 </valItem>
                 <valItem ident="B">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 2</desc>
+                  <gloss>Quire 2</gloss>
                 </valItem>
                 <valItem ident="C">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 3</desc>
+                  <gloss>Quire 3</gloss>
                 </valItem>
                 <valItem ident="D">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 4</desc>
+                  <gloss>Quire 4</gloss>
                 </valItem>
                 <valItem ident="E">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 5</desc>
+                  <gloss>Quire 5</gloss>
                 </valItem>
                 <valItem ident="F">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 6</desc>
+                  <gloss>Quire 6</gloss>
                 </valItem>
                 <valItem ident="G">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 7</desc>
+                  <gloss>Quire 7</gloss>
                 </valItem>
                 <valItem ident="H">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 8</desc>
+                  <gloss>Quire 8</gloss>
                 </valItem>
                 <valItem ident="I">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 9</desc>
+                  <gloss>Quire 9</gloss>
                 </valItem>
                 <valItem ident="J">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 10</desc>
+                  <gloss>Quire 10</gloss>
                 </valItem>
                 <valItem ident="K">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 11</desc>
+                  <gloss>Quire 11</gloss>
                 </valItem>
                 <valItem ident="L">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 12</desc>
+                  <gloss>Quire 12</gloss>
                 </valItem>
                 <valItem ident="M">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 13</desc>
+                  <gloss>Quire 13</gloss>
                 </valItem>
                 <valItem ident="N">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 14</desc>
+                  <gloss>Quire 14</gloss>
                 </valItem>
                 <valItem ident="O">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 15</desc>
+                  <gloss>Quire 15</gloss>
                 </valItem>
                 <valItem ident="Q">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 17</desc>
+                  <gloss>Quire 17</gloss>
                 </valItem>
                 <valItem ident="S">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 19</desc>
+                  <gloss>Quire 19</gloss>
                 </valItem>
                 <valItem ident="T">
-                  <desc versionDate="2026-05-15" xml:lang="en">Quire 20</desc>
+                  <gloss>Quire 20</gloss>
                 </valItem>
               </valList>
             </attDef>
-            <attDef ident="folio" ns="voynich-tei" mode="add">
+            <attDef ident="folio" ns="voynich-tei" mode="add" usage="req">
+              <gloss>Folio</gloss>
               <desc>The folio number within the quire.</desc>
-              <datatype>
-                <dataRef name="string"/>
-              </datatype>
+              <valList type="closed">
+                <valItem ident="a"></valItem>
+                <valItem ident="b"></valItem>
+                <valItem ident="c"></valItem>
+                <valItem ident="d"></valItem>
+                <valItem ident="e"></valItem>
+                <valItem ident="f"></valItem>
+                <valItem ident="u"></valItem>
+                <valItem ident="v"></valItem>
+                <valItem ident="w"></valItem>
+                <valItem ident="x"></valItem>
+                <valItem ident="y"></valItem>
+                <valItem ident="z"></valItem>
+              </valList>
             </attDef>
-            <attDef ident="bifolio" ns="voynich-tei" mode="add">
-              <desc>The bifolio number within the quire.</desc>
-              <datatype>
-                <dataRef name="string"/>
-              </datatype>
+            <attDef ident="bifolio" ns="voynich-tei" mode="add" usage="req">
+              <gloss>Bifolio</gloss>
+              <desc>Bifolio number within quire. Counted outside to inside.</desc>
+              <valList type="closed">
+                <valItem ident="1">
+                  <gloss>Bifolio 1</gloss>
+                </valItem>
+                <valItem ident="2">
+                  <gloss>Bifolio 2</gloss>
+                </valItem>
+                <valItem ident="3">
+                  <gloss>Bifolio 3</gloss>
+                </valItem>
+                <valItem ident="4">
+                  <gloss>Bifolio 4</gloss>
+                </valItem>
+                <valItem ident="5">
+                  <gloss>Bifolio 5</gloss>
+                </valItem>
+                <valItem ident="6">
+                  <gloss>Bifolio 6</gloss>
+                </valItem>
+              </valList>
             </attDef>
-            <attDef ident="illus" ns="voynich-tei" mode="add">
+            <attDef ident="illus" ns="voynich-tei" mode="add" usage="req">
+              <gloss>Illustration</gloss>
               <desc>The illustration type within the manuscript.</desc>
               <valList type="closed">
                 <valItem ident="A">
                   <gloss>Astronomical (Including Zodiac)</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="B">
                   <gloss>Biological</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="C">
                   <gloss>Cosmological</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="H">
                   <gloss>Herbal</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="P">
                   <gloss>Pharmaceutical</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="S">
                   <gloss>Marginal Stars Only</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="T">
                   <gloss>Text-Only Page</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="Z">
                   <gloss>Zodiac</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
               </valList>
             </attDef>
             <attDef ident="language" ns="voynich-tei" mode="add">
+              <gloss>Language</gloss>
+              <desc>Currier language of page and/or text section. See <ref target="https://voynich.nu/extra/img/curr_main.pdf">Papers on the Voynich Manuscript</ref> by Captain Prescott H. Currier.</desc>
               <valList type="closed">
                 <valItem ident="A">
                   <gloss>Language A</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="B">
                   <gloss>Language B</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
               </valList>
             </attDef>
-            <attDef ident="hand" ns="voynich-tei" mode="add">
+            <attDef ident="hand" ns="voynich-tei" mode="add" usage="req">
+              <gloss>Hand</gloss>
+              <desc>Writing hand used on page. See <ref target="https://muse.jhu.edu/pub/56/article/754633/pdf">How Many Glyphs and How Many Scribes? Digital Paleography and the Voynich Manuscript</ref> by Lisa Fagin Davis.</desc>
               <valList type="closed">
                 <valItem ident="1">
                   <gloss>Scribe 1</gloss>
@@ -296,31 +324,55 @@
               </valList>
             </attDef>
             <attDef ident="currier" ns="voynich-tei" mode="add">
-              <datatype>
-                <dataRef name="string"/>
-              </datatype>
+              <gloss>Currier's Hand</gloss>
+              <desc>Currier’s hand used on this page. See <ref target="https://voynich.nu/extra/img/curr_main.pdf">Papers on the Voynich Manuscript</ref> and <ref target="https://voynich.nu/extra/img/curr_tabA.pdf">Table A</ref> by Captain Prescott H. Currier.</desc>
+              <valList type="closed">
+                <valItem ident="1">
+                  <gloss>Hand 1</gloss>
+                </valItem>
+                <valItem ident="2">
+                  <gloss>Hand 2</gloss>
+                </valItem>
+                <valItem ident="3">
+                  <gloss>Hand 3</gloss>
+                </valItem>
+                <valItem ident="4">
+                  <gloss>Hand 4</gloss>
+                </valItem>
+                <valItem ident="5">
+                  <gloss>Hand 5</gloss>
+                </valItem>
+                <valItem ident="X">
+                  <gloss>Hand X</gloss>
+                </valItem>
+                <valItem ident="Y">
+                  <gloss>Hand Y</gloss>
+                  <desc>Not in original IVTFF documentation, but is in Currier's table A.</desc>
+                </valItem>
+                <valItem ident="Z">
+                  <gloss>Hand Z</gloss>
+                </valItem>
+              </valList>
             </attDef>
             <attDef ident="xtra" ns="voynich-tei" mode="add">
+              <gloss>Extra</gloss>
+              <desc>Has extraneous writing.</desc>
               <valList type="closed">
                 <valItem ident="C">
                   <gloss>Color Annotation</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="M">
                   <gloss>Month Name</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="O">
                   <gloss>Other</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="S">
                   <gloss>Sequence of Characters or Numbers</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
                 </valItem>
                 <valItem ident="V">
                   <gloss>Various (Combination)</gloss>
-                  <desc versionDate="2026-05-29" xml:lang="en"></desc>
+                  <desc versionDate="2026-05-29" xml:lang="en">Deprecated according to IVTFF documentation.</desc>
                 </valItem>
               </valList>
             </attDef>

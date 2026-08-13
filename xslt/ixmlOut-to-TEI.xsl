@@ -35,6 +35,9 @@
         <xsl:processing-instruction name="xml-model">
             <xsl:text>href="../odd/out/voynich-tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>
         </xsl:processing-instruction>
+        <xsl:processing-instruction name="xml-stylesheet">
+            <xsl:text>type="text/css" href="../evaFontCSS.css"</xsl:text>
+        </xsl:processing-instruction>
         <TEI>
             <xsl:apply-templates select="$teiHeader"/>
            <xsl:apply-templates/>
