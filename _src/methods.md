@@ -81,8 +81,8 @@ permalink: "methods.html"
         f.write(content)
 
 if __name__ == "__main__":
-    input_path = "../ixml/ZL3b-n.txt"
-    output_path = "../ixml/ZL3b-n_updated.txt"
+    input_path = "../transliterationFiles/ZL3b-n.txt"
+    output_path = "../transliterationFiles/ZL3b-n_updated.txt"
 
     replace_symbols(input_path, output_path)
     print("Replacement complete.")
@@ -176,19 +176,32 @@ unclearAlt: (ligature; choiceChar)+.
     <p>You can view the whole file <a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/xslt/ixmlOut-to-TEI.xsl">here</a>.</p>
     <p>Now the output should look like this:</p>
 <pre><code>&lt;sourceDoc&gt;
-   &lt;surface n="f1r"&gt;
-      &lt;note type="outline"&gt; $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V&lt;/comment&gt;
-      &lt;note&gt;page 1&lt;/note&gt;
-      &lt;note&gt;text only&lt;/note&gt;
-      &lt;note&gt;Currier's Language A, hand 1&lt;/note&gt;
-      &lt;line n="1" rendition="#At #P0"&gt;
-         &lt;milestone unit="block" type="start"/&gt;fachys.ykal.ar.ataiin.shol.shory.&lt;choice&gt;
-            &lt;unclearAlt&gt;cth&lt;/unclearAlt&gt;
-            &lt;unclearAlt&gt;oto&lt;/unclearAlt&gt;
-         &lt;/choice&gt;res.y.kor.sholdy&lt;comment&gt;þ&lt;/comment&gt;
-      &lt;/line&gt;
-      &lt;line n="2" rendition="#Ad #P0"&gt;yteey.char.or.ochy&lt;figure/&gt;dcho.lkody.okodar.chody&lt;/line&gt;
-   &lt;/surface&gt;
+   &lt;surfaceGrp type="quire" n="A"&gt;
+        &lt;surfaceGrp type="folio" n="a"&gt;
+            &lt;surface xml:id="f1r"
+                     vn:quire="A"
+                     vn:quirePage="A"
+                     vn:folio="a"
+                     vn:bifolio="1"
+                     vn:illus="T"
+                     vn:language="A"
+                     vn:hand="1"
+                     vn:currier="1"
+                     vn:xtra="V"&gt;
+                &lt;graphic url="https://collections.library.yale.edu/iiif/2/1006076/full/,1000/0/default.jpg"/&gt;
+                &lt;pb n="1"/&gt;
+                &lt;note&gt;text only&lt;/note&gt;
+                &lt;note&gt;Currier's Language A, hand 1&lt;/note&gt;
+                &lt;line n="1" rendition="#At #P0"&gt;
+                    &lt;milestone unit="block" type="start"/&gt;fachys.ykal.ar.ataiin.shol.shory.&lt;choice&gt;
+                        &lt;unclear&gt;cth&lt;/unclear&gt;
+                        &lt;unclear&gt;oto&lt;/unclear&gt;
+                    &lt;/choice&gt;res.y.kor.sholdy&lt;note type="inline"&gt;þ&lt;/note&gt;
+                &lt;/line&gt;
+                &lt;line n="2" rendition="#Ad #P0"&gt;sory.ckhar.or,y.kair.chtaiin.shar.ase.cthar.cthar,dan&lt;/line&gt;
+            &lt;/surface&gt;
+        &lt;/surfaceGrp&gt;
+   &lt;/surfaceGrp&gt;
 &lt;/sourceDoc&gt;
 </code></pre>
 </div>

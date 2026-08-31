@@ -154,12 +154,16 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006077/full/full/0/default.jpg"/>
                   <head>Illustration on f1v</head>
-                  <figDesc>Potentially <name type="inline" ref="#belladonna">Belladonna</name>,
-                        <name type="inline" ref="#solanum">Solanum</name>, or <name type="inline"
-                        ref="#solatrium">Solatrium</name> suggested by <persName type="inline"
-                        ref="#tcp">Theodore Petersen</persName>. Potentially <name type="inline"
-                        ref="#belladonna">Belladonna</name> suggested by <persName type="inline"
-                        ref="#elv">Ethel Voynich</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName>
+                     <name type="inline" ref="#belladonna">Belladonna</name>, 
+                     <name type="inline" ref="#solanum">Solanum</name>, 
+                     <name type="inline" ref="#solatrium">Solatrium</name>
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     <name type="inline" ref="#belladonna">Atropa Belladonna</name>
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f2r_il">
@@ -167,11 +171,18 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006078/full/full/0/default.jpg"/>
                   <head>Illustration on f2r</head>
-                  <figDesc>Potentially <name type="inline" ref="#cyanusSilvestris">Syanus
-                        Silvestris</name> suggested by <persName type="inline" ref="#hon"
-                        >O'Neill</persName>, or <name type="inline" ref="#centaurea"
-                        >Centauria</name> suggested by <persName type="inline" ref="#hth"
-                        >Holm</persName></figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#hon">O'Neill:</persName> 
+                     <name type="inline" ref="#cyanusSilvestris">Syanus Silvestris</name>
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#hth">Holm:</persName> 
+                     <name type="inline" ref="#centaurea">Centauria</name>
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Cyanus?
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f2v_il">
@@ -179,16 +190,21 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006079/full/full/0/default.jpg"/>
                   <head>Illustration on f2v</head>
-                  <figDesc>Potentially <name type="inline" ref="#colocasia">Colocasia</name>
-                     suggested by <persName type="inline" ref="#tcp">Petersen</persName> and
-                        <persName type="inline" ref="#elv">Ethel Voynich</persName>. Potentially
-                        <name type="inline" ref="#egyptianLotus">Egyptian Lotus</name> suggested by
-                        <persName type="inline" ref="#tcp">Petersen</persName>. Potentially <name
-                        type="inline" ref="#villarsia">Villarsia</name> or <name type="inline"
-                        ref="#limnanthemum">Limnanthemum</name> suggested by <persName type="inline"
-                        ref="#elv">Ethel Voynich</persName>. Potentially <name type="inline"
-                        ref="#nymphoidesPeltata">Nymphoides Peltata</name> suggested by <persName
-                        type="inline" ref="#rzn">Zandbergen</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     <name type="inline" ref="#egyptianLotus">Egyptian Lotus</name>, 
+                     <name type="inline" ref="#colocasia">Colocasia</name>
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     <name type="inline" ref="#colocasia">Colosia?</name>, 
+                     <name type="inline" ref="#villarsia">Villarsia</name>, 
+                     <name type="inline" ref="#limnanthemum">Limnanthemum</name>
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#rzn">Zandbergen:</persName> 
+                     <name type="inline" ref="#nymphoidesPeltata">Nymphoides Peltata</name>
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f3r_il">
@@ -196,11 +212,15 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg"/>
                   <head>Illustration on f3r</head>
-                  <figDesc>Potentially <name type="inline" ref="#cretanDittany">Crassulatea (Cretan
-                        Dittany)</name> suggested by <persName type="inline" ref="#tcp"
-                        >Petersen</persName>. Potentially <name type="inline" ref="#Dictamnus"
-                        >Dictamnus</name> suggested by <persName type="inline" ref="#elv">Ethel
-                        Voynich</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     <name type="inline" ref="#cretanDittany">Crassulatea (Cretan Dittany)</name>, 
+                     [<unclear type="inline" reason="illegible"/>]
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     <name type="inline" ref="#Dictamnus">Dictamnus?</name>
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f3v_il">
@@ -216,11 +236,15 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006082/full/full/0/default.jpg"/>
                   <head>Illustration on f4r</head>
-                  <figDesc>Potentially <name type="inline" ref="#hypericum">Hypericum</name>
-                     suggested by <persName type="inline" ref="#hon">O'Neill</persName> and
-                        <persName type="inline" ref="#elv">Ethel Voynich</persName>, or <name
-                        type="inline" ref="#centauriumErythaea">Centaurium Erythaea</name>,
-                     suggested by <persName type="inline" ref="#hon">O'Neill</persName></figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#hon">O'Neill:</persName> 
+                     <name type="inline" ref="#hypericum">Hypericum</name>, 
+                     <name type="inline" ref="#centauriumErythaea">Centaurium Erythaea</name>
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     <name type="inline" ref="#hypericum">Hypericum?</name>
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f4v_il">
@@ -228,12 +252,15 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006083/full/full/0/default.jpg"/>
                   <head>Illustration on f4v</head>
-                  <figDesc>Potentially <name type="inline" ref="#ipomoeaTriloba">Convulvula
-                        Ipomea</name> suggested by <persName type="inline" ref="#tcp"
-                        >Petersen</persName> and <persName type="inline" ref="#elv">Ethel
-                        Voynich</persName>. Potentially <name type="inline"
-                        ref="#convolvulusScammonia">Scammonia</name> suggested by <persName
-                        type="inline" ref="#elv">Ethel Voynich</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     <name type="inline" ref="#ipomoeaTriloba">Convulvula Ipomea?</name>
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     <name type="inline" ref="#ipomoeaTriloba">Ipomea?</name>, 
+                     <name type="inline" ref="#convolvulusScammonia">Scammonia?</name>
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f5r_il">
@@ -241,10 +268,15 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006084/full/full/0/default.jpg"/>
                   <head>Illustration on f5r</head>
-                  <figDesc>Potentially [Herba] Paris suggested by <persName type="inline" ref="#tcp"
-                        >Petersen</persName> and <persName type="inline" ref="#elv">Ethel
-                        Voynich</persName>. Potentially Indian Cucumber suggested by <persName
-                        type="inline" ref="#tcp">Petersen</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     [Herba] Paris, 
+                     Indian Cucumber?
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Paris?
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f5v_il">
@@ -252,8 +284,14 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006085/full/full/0/default.jpg"/>
                   <head>Illustration on f5v</head>
-                  <figDesc>Potentially Paretaria Urtica suggested by <persName type="inline"
-                        ref="#hon">O'Neill</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#hon">O'Neill:</persName> 
+                     Paretaria Urtica
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Geranium
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f6r_il">
@@ -261,8 +299,14 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006086/full/full/0/default.jpg"/>
                   <head>Illustration on f6r</head>
-                  <figDesc>Potentially Asclepiades, but with wrong leaves (of Pediculum) suggested
-                     by <persName type="inline" ref="#tcp">Petersen</persName></figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     Asclepiades
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Aristolochia?
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f6v_il">
@@ -270,8 +314,22 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006087/full/full/0/default.jpg"/>
                   <head>Illustration on f6v</head>
-                  <figDesc>Potentially blackgum tree?, arctium? Bidens(sp?)kyptis suggested by
-                        <persName type="inline" ref="#hon">O'Neill</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#hon">O'Neill:</persName> 
+                     Blackgum Tree?, 
+                     Arctium?, 
+                     Bidenus Hypnis
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     Castor Oil, 
+                     Ricinus
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Ricinus, 
+                     Castor oil plant
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f7r_il">
@@ -279,8 +337,15 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006088/full/full/0/default.jpg"/>
                   <head>Illustration on f7r</head>
-                  <figDesc>Potentially Nymphaea alba suggested by <persName type="inline" ref="#tcp"
-                        >Petersen</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     Nymphaea Alba, 
+                     Nenufar
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Paeonia
+                  </figDesc>
                </figure>
             </item>
             <item xml:id="f7v_il">
@@ -288,9 +353,47 @@
                   <graphic type="full"
                      url="https://collections.library.yale.edu/iiif/2/1006089/full/full/0/default.jpg"/>
                   <head>Illustration on f7v</head>
-                  <figDesc>Potentially polygonum persicaria, potentilla silvestris, or oculus
-                     christi suggested by <persName type="inline" ref="#tcp"
-                     >Petersen</persName>.</figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     Bisangia?, 
+                     Potentilla Selvaticus?
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Polygonum Persicarum
+                  </figDesc>
+               </figure>
+            </item>
+            <item xml:id="f8r_il">
+               <figure>
+                  <graphic type="full"
+                     url="https://collections.library.yale.edu/iiif/2/1006090/full/full/0/default.jpg"/>
+                  <head>Illustration on f8r</head>
+                  <figDesc>
+                     <persName type="bold" ref="#hon">O'Neill:</persName> 
+                     Praenanthes
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Atriplex, 
+                     Orache
+                  </figDesc>
+               </figure>
+            </item>
+            <item xml:id="f8v_il">
+               <figure>
+                  <graphic type="full"
+                     url="https://collections.library.yale.edu/iiif/2/1006091/full/full/0/default.jpg"/>
+                  <head>Illustration on f8v</head>
+                  <figDesc>
+                     <persName type="bold" ref="#tcp">Petersen:</persName> 
+                     Silene
+                  </figDesc>
+                  <figDesc>
+                     <persName type="bold" ref="#elv">ELV:</persName> 
+                     Oleander, 
+                     Verbena?
+                  </figDesc>
                </figure>
             </item>
          </list>

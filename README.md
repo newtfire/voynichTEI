@@ -4,11 +4,19 @@ A TEI analysis of the Voynich Manuscript
 ---
 ---
 ---
+## Abstract
+The Voynich Manuscript remains one of the most enigmatic and undeciphered texts in the history of manuscript studies. Despite extensive scholarly attention, research has often been hindered by the manuscript’s undeciphered script, complex visual organization, and limited interoperability between textual and visual data. This project addresses these challenges through a digital humanities approach that re-encodes the manuscript’s herbal section within a structured TEI (Text Encoding Initiative) framework.
+
+Using René Zandbergen’s widely used transliteration files as a foundation, this project transforms existing plaintext transliterations into a semantically structured TEI file designed for scholarly research. This project treats each illustrated plant as a discrete, encoded entity. By identifying and organizing plant illustrations within the TEI format, the project manages to systematically link transliterated text to corresponding botanical imagery while preserving the manuscript's unique glyphs and visual layout.
+
+This structured encoding makes the Voynich Maniscript more machine-readable, searchable, and computationally accessible. Ultimately, this work demonstrates how careful TEI encoding can transform a famously opaque manuscript into a structured research environment, providing digital humanists, manuscript scholars, and students with new tools to explore one of history’s most persistent textual mysteries.
+
+---
 ## EVA Font in Oxygen
 1. Go to the repo and grab the `EVA2.tff` file and the `evaFontCSS.css` file
 1. Download the RAW file for both and put them in the same repo (Or simply clone the repo)
    * ![img/evafontoxygen2.png](img/evafontoxygen2.png)
-1. Click on the `eva1.tff` file and click `Install`
+1. Click on the `eva2.tff` file and click `Install`
    * ![img/evafontoxygen3.png](img/evafontoxygen3.png)
 1. Go to Oxygen and go to Options -> Preferences
    * ![img/evafontoxygen4.png](img/evafontoxygen4.png)
@@ -29,9 +37,9 @@ A TEI analysis of the Voynich Manuscript
 
 ---
 
-## Instructions
+## Instructions to Create TEI File
 ### Step 1: Gather Files
-Clone this repo onto your computer by doing the following:
+Clone this repo onto your computer by doing the following in your terminal:
 ```
 git clone https://github.com/newtfire/voynichTEI.git
 ```
@@ -39,44 +47,60 @@ git clone https://github.com/newtfire/voynichTEI.git
 ### Step 2: Downloads
 This is a list of programs I used in order to complete this project:
 1. [OxygenXML Editor](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html?os=Windows)
-1. [PyCharm](https://www.jetbrains.com/pycharm/?source=google&medium=cpc&campaign=amer_en_us_est_pycharm_branded&term=pycharm&content=785237935139&gad_source=1&gad_campaignid=14127625430&gclid=CjwKCAjw687NBhB4EiwAQ645dpuecQzEsyA8-SytU0ErWbuCJxzVifV3OwpJaoTVVxdhp3a2vymErRoCLCwQAvD_BwE)
 1. [Markup Blitz Windows](https://github.com/newtfire/textAnalysis-Hub/blob/main/Installations/ixml-xproc-InstallNotes-Win.md#markup-blitz)
 1. [Markup Blitz Mac](https://github.com/newtfire/textAnalysis-Hub/blob/main/Installations/ixml-xproc-InstallNotes-Mac.md#markup-blitz)
 
-### Step 2.5: Python
+### Step 3: Python
 NOTE: This step is only if you plan to use the entire ZL3b-n.txt document and not just the herbal section. If you are only using the herbal section, feel free to skip this, as the herbal.txt file already did this for you!
 
-In PyCharm, create a VoynichTEI project, and open replaceAscii.py (Located [here](https://github.com/newtfire/voynichTEI/tree/main/python) inside the python directory).
+Make sure that you can run python in your terminal.
 
-Run the file, and you should now have a ZL3b-n_updated.txt file (Located [here](https://github.com/newtfire/voynichTEI/tree/main/ixml) inside the ixml directory).
+In your terminal, go into your [python](https://github.com/newtfire/voynichTEI/tree/main/python) folder:
+```
+cd python
+```
 
-## Step 3: Invisible XML
-Go into your Bash shell and go to the VoynichTEI directory
+Run the [replaceAscii.py](https://github.com/newtfire/voynichTEI/tree/main/python) file by typing the following:
+```
+python replaceAscii.py
+```
 
-To get an output on the entire ZL3b-n document, in your shell, type the following:
+You should now have [ZL3b-n_updated.txt](https://github.com/newtfire/voynichTEI/blob/main/transliterationFiles/ZL3b-n_updated.txt) inside the [transliterationFiles](https://github.com/newtfire/voynichTEI/tree/main/transliterationFiles) directory.
+
+## Step 4: Invisible XML
+Next we send the transliteration file through an Invisible XML grammar called [translit.ixml](https://github.com/newtfire/voynichTEI/blob/main/ixml/translit.ixml).
+
+To do this, in your terminal, go out of your python directory and back into the voynichTEI directory:
+```
+cd ..
+```
+
+Then, use Markup-Blitz to create an XML file:
 ```
 blitz ixml/translit.ixml transliterationFiles/ZL3b-n_updated.txt > xml/outputXML.xml
 ```
+
 If you just want the herbal section instead, type the following:
 ```
 blitz ixml/translitHerbal.ixml transliterationFiles/herbal.txt > xml/outputXMLherbal.xml
 ```
-This sends the text documents through the invisible xml file and makes it into an XML file!
 
-## Step 4: XSLT
+You should now have [outputXML.xml](https://github.com/newtfire/voynichTEI/blob/main/xml/outputXML.xml) or [outputXMLherbal](https://github.com/newtfire/voynichTEI/blob/main/xml/outputXMLherbal.xml) in the [xml](https://github.com/newtfire/voynichTEI/tree/main/xml) directory.
+
+## Step 5: XSLT
 Now we need to send the output XML file through an XSLT file. You will need OxygenXML to do this.
 
-In Oxygen, open your outputXML.xml file and the ixmlOut-to-TEI.xsl document (Located [here](https://github.com/newtfire/voynichTEI/tree/main/xslt) in the xslt directory).
+In Oxygen, open your output file and [ixmlOut-to-TEI.xsl](https://github.com/newtfire/voynichTEI/tree/main/xslt) document in the [xslt](https://github.com/newtfire/voynichTEI/tree/main/xslt) directory.
 
 Switch to the XSLT Debugger Perspective, which is located at the top right of the screen:
 
 ![_src/img/methods_XSLTDebuggerPerspective.png](_src/img/methods_XSLTDebuggerPerspective.png)
 
-In the top left corner, put `outputXML.xml` or `outputXMLherbal.xml` in the XML input, and `ixmlOut-to-TEI.xsl` in the XSL input like so:
+In the top left corner, put `outputXML.xml` or `outputXMLherbal.xml` in the XML input, and `ixmlOut-to-TEI.xsl` in the XSL input:
 
 ![_src/img/methods_whatToPut.png](_src/img/methods_whatToPut.png)
 
-When you are ready, put the filepath to where you would like your output file saved. Here, I just wrote outputTEI.xml as an example:
+When you are ready, put the filepath to where you would like your output file saved. In voynichTEI, this would be inside the [tei](https://github.com/newtfire/voynichTEI/tree/main/tei) directory:
 
 ![_src/img/methods_output.png](_src/img/methods_output.png)
 
@@ -146,18 +170,13 @@ Now you have it as a proper TEI file!
 
 ---
 
-## 📄 Transliteration Files
+## 📄 Transliteration File
 
 ### ZL3b-n
 
 - The latest release of the Zandbergen-Landini transliteration of 1999 in the IVTFF 2.0 format. 
 - It is a complete transliteration, including all 5389 loci that have been identified in the MS. It uses the Eva alphabet, including the high-ascii extensions.
 - The file has been corrected in numerous places. Some parts of the text inside folds of the pages still need to be added.
-
-### RF1b-e
-
-- The first stable version of a reference transliteration, which was created automatically as a combination of the GC and ZL transliterations, in the IVTFF 2.0 format. 
-- The original file was defined using the STA alphabet, and the present file is a simplification/approximation using Basic, not-capitalised Eva.
 
 ---
 

@@ -5,10 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Hadleigh Jae Bils">
     <link rel="stylesheet" href="css/tei.css">
     <script src="js/CETEI.js"></script>
     <script>
 const c = new CETEI();
+
+const quireNumbers = {
+  A: "1",
+  B: "2",
+  C: "3",
+  D: "4",
+  E: "5",
+  F: "6",
+  G: "7",
+  H: "8",
+  I: "9",
+  J: "10",
+  K: "11",
+  L: "12",
+  M: "13",
+  N: "14",
+  O: "15",
+  P: "16",
+  Q: "17",
+  R: "18",
+  S: "19",
+  T: "20",
+  U: "21",
+  V: "22",
+  W: "23",
+  X: "24"
+};
+
+const illusNames = {
+  A: "Astronomical (Including Zodiac)",
+  B: "Biological",
+  C: "Cosmological",
+  H: "Herbal",
+  P: "Pharmaceutical",
+  S: "Marginal Stars Only",
+  T: "Text-Only",
+  Z: "Zodiac"
+};
+
+const xtraNames = {
+  C: "Color Annotation",
+  M: "Month Name",
+  O: "Other",
+  S: "Sequence of Characters or Numbers",
+  V: "Various (Combination)"
+};
 
 document.addEventListener("DOMContentLoaded", () => {
   c.getHTML5("xml/outputTEI.xml", function (data) {
@@ -254,13 +301,15 @@ function copySurfaceMetadata(surface, textWrapper) {
   const quire = getNamespacedOrFallbackAttribute(surface, "vn", "quire");
 
   if (quire) {
-    textWrapper.setAttribute("data-quire", quire);
+    const quireNumber = quireNumbers[quire] || quire;
+    textWrapper.setAttribute("data-quire", quireNumber);
   }
 
   const quirePage = getNamespacedOrFallbackAttribute(surface, "vn", "quirePage");
 
   if (quirePage) {
-    textWrapper.setAttribute("data-quire-page", quirePage);
+    const quireNumber = quireNumbers[quirePage] || quirePage;
+    textWrapper.setAttribute("data-quire-page", quireNumber);
   }
 
   const folio = getNamespacedOrFallbackAttribute(surface, "vn", "folio");
@@ -278,7 +327,8 @@ function copySurfaceMetadata(surface, textWrapper) {
   const illus = getNamespacedOrFallbackAttribute(surface, "vn", "illus");
 
   if (illus) {
-    textWrapper.setAttribute("data-illus", illus);
+    const illusName = illusNames[illus] || illus;
+    textWrapper.setAttribute("data-illus", illusName);
   }
 
   const language = getNamespacedOrFallbackAttribute(surface, "vn", "language");
@@ -302,7 +352,8 @@ function copySurfaceMetadata(surface, textWrapper) {
   const xtra = getNamespacedOrFallbackAttribute(surface, "vn", "xtra");
 
   if (xtra) {
-    textWrapper.setAttribute("data-xtra", xtra);
+    const xtraName = xtraNames[xtra] || xtra;
+    textWrapper.setAttribute("data-xtra", xtraName);
   }
 }
 
@@ -482,14 +533,19 @@ function getElementXmlId(el) {
 </div>
 
     <header>
-<h1>Voynich</h1>
+<h1><a href="https://raw.githubusercontent.com/newtfire/voynichTEI/refs/heads/main/tei/outputTEI.xml">Voynich TEI File</a></h1>
 </header>
 
     <main id="tei-output"></main>
 
     <footer>
     <div class="footer-row">
-        <div class="footer-column side">
+        <div class="footer-column">
+            <h1>Voynich TEI</h1>
+            <p>Research project by Hadleigh Jae Bills</p>
+            <p>Penn State Erie, The Behrend College, 2026</p>
+        </div>
+        <div class="footer-column">
             <h1>GitHub</h1>
             <p>
                 <a href="https://github.com/newtfire/voynichTEI">GitHub Repo</a>
@@ -499,7 +555,7 @@ function getElementXmlId(el) {
                      alt="github logo" style="filter: invert(100%); width: 30px;">
             </a>
         </div>
-        <div class="footer-column middle">
+        <div class="footer-column">
             <h1>Menu</h1>
             <ul>
                 <li>
@@ -519,7 +575,7 @@ function getElementXmlId(el) {
                 </li>
             </ul>
         </div>
-        <div class="footer-column side">
+        <div class="footer-column">
             <h1>Copyright</h1>
             <p>This work is licensed under a <a rel="license"
                                                 href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0

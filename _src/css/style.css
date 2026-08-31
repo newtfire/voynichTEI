@@ -81,6 +81,16 @@ img {
   padding: 0px 30px 0px 30px;
 }
 
+.tag {
+  padding: 0px 35% 0px 35%;
+  flex: 1;
+}
+
+.tag p {
+  padding: 0px 10px;
+  font-size: 14px;
+}
+
 /* Headers */
 
 h1 {
