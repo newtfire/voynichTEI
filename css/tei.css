@@ -38,7 +38,16 @@ body {
 }
 
 .surface-text::before {
-    content: "Quire: " attr(data-quire) " | Quire Page: " attr(data-quire-page) " | Folio: " attr(data-folio) " | Bifolio: " attr(data-bifolio) " | Illus: " attr(data-illus) " | Lang: " attr(data-language) " | Hand: " attr(data-hand) " | Currier: " attr(data-currier) " | Extra: " attr(data-xtra);
+    content: 
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page) 
+            " | Folio: " attr(data-folio) 
+            " | Bifolio: " attr(data-bifolio) 
+            " | Illus: " attr(data-illus) 
+            " | Lang: " attr(data-language) 
+            " | Scribe: " attr(data-hand) 
+            " | Currier: " attr(data-currier) 
+            " | Extra: " attr(data-xtra);
 
     display: block;
     text-align: right;
@@ -60,32 +69,8 @@ body {
             " | Bifolio: " attr(data-bifolio)
             " | Illus: " attr(data-illus)
             " | Lang: " attr(data-language)
-            " | Hand: " attr(data-hand)
+            " | Scribe: " attr(data-hand)
             " | Extra: " attr(data-xtra);
-}
-
-.surface-text:not([data-xtra])::before {
-    content:
-            "Quire: " attr(data-quire)
-            " | Quire Page: " attr(data-quire-page)
-            " | Folio: " attr(data-folio)
-            " | Bifolio: " attr(data-bifolio)
-            " | Illus: " attr(data-illus)
-            " | Lang: " attr(data-language)
-            " | Hand: " attr(data-hand)
-            " | Currier: " attr(data-currier);
-}
-
-.surface-text:not([data-language])::before {
-    content:
-            "Quire: " attr(data-quire)
-            " | Quire Page: " attr(data-quire-page)
-            " | Folio: " attr(data-folio)
-            " | Bifolio: " attr(data-bifolio)
-            " | Illus: " attr(data-illus)
-            " | Hand: " attr(data-hand)
-            " | Currier: " attr(data-currier);
-" | Extra: " attr(data-xtra);
 }
 
 .surface-text:not([data-currier]):not([data-xtra])::before {
@@ -96,18 +81,53 @@ body {
             " | Bifolio: " attr(data-bifolio)
             " | Illus: " attr(data-illus)
             " | Lang: " attr(data-language)
-            " | Hand: " attr(data-hand);
+            " | Scribe: " attr(data-hand);
 }
 
-.surface-text:not([data-currier]):not([data-lang])::before {
+.surface-text:not([data-currier]):not([data-language])::before {
     content:
             "Quire: " attr(data-quire)
             " | Quire Page: " attr(data-quire-page)
             " | Folio: " attr(data-folio)
             " | Bifolio: " attr(data-bifolio)
             " | Illus: " attr(data-illus)
-            " | Hand: " attr(data-hand);
-" | Extra: " attr(data-xtra);
+            " | Scribe: " attr(data-hand)
+            " | Extra: " attr(data-xtra);
+}
+
+.surface-text:not([data-language])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Scribe: " attr(data-hand)
+            " | Currier: " attr(data-currier)
+            " | Extra: " attr(data-xtra);
+}
+
+.surface-text:not([data-language]):not([data-xtra])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Scribe: " attr(data-hand)
+            " | Currier: " attr(data-currier);
+}
+
+.surface-text:not([data-xtra])::before {
+    content:
+            "Quire: " attr(data-quire)
+            " | Quire Page: " attr(data-quire-page)
+            " | Folio: " attr(data-folio)
+            " | Bifolio: " attr(data-bifolio)
+            " | Illus: " attr(data-illus)
+            " | Lang: " attr(data-language)
+            " | Scribe: " attr(data-hand)
+            " | Currier: " attr(data-currier);
 }
 
 .graphic-zone-wrapper img {
@@ -359,18 +379,23 @@ tei-pb::before {
     content: "Page " attr(n);
 }
 
-tei-persname,
 tei-persName {
     display: block;
     font-weight: bold;
     font-size: 25px;
 }
 
-tei-persname[type="inline"],
+tei-persName[type="bold"] {
+    display: inline;
+    font-weight: bold;
+    font-size: inherit;
+    color: black;
+}
+
 tei-persName[type="inline"] {
     display: inline;
-    font-weight: normal;
-    font-size: 12pt;
+    font-weight: inherit;
+    font-size: inherit;
 }
 
 tei-rolename {
